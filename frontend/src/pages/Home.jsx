@@ -1,8 +1,9 @@
+import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Link } from "react-router-dom";
 import { ArrowRight, ArrowUpRight, ShieldCheck, Activity, Languages, Stethoscope, FileText, Sparkles, ChevronRight, ScanLine, BookOpen, Users, Heart, Building2 } from "lucide-react";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import { useLanguage } from "../contexts/LanguageContext";
 
 import imgStethoscope from "@/assets/etactics-inc-g3PsF4_y7ZY-unsplash.jpg";
@@ -37,6 +38,42 @@ const fadeInUp = (delay = 0, distance = 24) => ({
 
 function Home() {
     const { t } = useLanguage();
+    const [activeTestimonial, setActiveTestimonial] = useState(0);
+    const [direction, setDirection] = useState(1);
+
+    const testimonials = [
+        {
+            name: "Dr. Amina",
+            role: "Clinical Pharmacist",
+            image: imgNurse,
+            quote: t('dr_amina_quote') || "Medora has completely transformed how we verify prescriptions. The Darija translations make it incredibly easy to explain complex interactions.",
+        },
+        {
+            name: "Dr. Karim",
+            role: "Hospital Pharmacist",
+            image: imgLabScientist,
+            quote: "Medora eliminates medication clash risks before dispensing. The cross-referencing against clinical records saves lives every day in our hospital.",
+        },
+        {
+            name: "Yacine B.",
+            role: "Patient Advocate",
+            image: imgPillOrganizer,
+            quote: "Understanding complex prescription combinations in Algerian Darija gives patients real confidence and clarity about their treatment safety.",
+        },
+    ];
+
+    const prevIndex = (activeTestimonial - 1 + testimonials.length) % testimonials.length;
+    const nextIndex = (activeTestimonial + 1) % testimonials.length;
+
+    const handlePrev = () => {
+        setDirection(-1);
+        setActiveTestimonial(prevIndex);
+    };
+
+    const handleNext = () => {
+        setDirection(1);
+        setActiveTestimonial(nextIndex);
+    };
     return (
         <div className="w-full bg-white dark:bg-zinc-950 font-sans">
 
@@ -260,60 +297,119 @@ function Home() {
 
                     <div className="flex items-center justify-center gap-6 lg:gap-12">
                         
-                        {/* Left Card (Inactive) */}
+                        {/* Left Card (Inactive / Clickable) */}
                         <motion.div 
                             {...fadeInUp(0.12, 24)}
-                            className="relative hidden md:block"
+                            onClick={handlePrev}
+                            className="relative hidden md:block cursor-pointer group select-none"
                         >
-                            <button className="absolute top-10 -right-8 lg:-right-12 z-10 w-[52px] h-[52px] bg-black dark:bg-white rounded-full flex items-center justify-center hover:scale-105 transition-transform shadow-xl">
+                            <motion.button 
+                                onClick={(e) => { e.stopPropagation(); handlePrev(); }}
+                                whileHover={{ scale: 1.12 }}
+                                whileTap={{ scale: 0.92 }}
+                                transition={{ type: "spring", stiffness: 400, damping: 20 }}
+                                className="absolute top-10 -right-8 lg:-right-12 z-30 w-[52px] h-[52px] bg-black dark:bg-white rounded-full flex items-center justify-center shadow-2xl cursor-pointer"
+                                aria-label="Previous testimonial"
+                            >
                                 <ArrowRight className="w-5 h-5 text-white dark:text-black rotate-180" />
-                            </button>
+                            </motion.button>
                             
-                            <div className="w-[260px] h-[300px] rounded-[40px] border-[14px] border-slate-100 dark:border-zinc-800 overflow-hidden shrink-0 mt-6 shadow-md">
-                                <img src={imgLabScientist} alt="Pharmacist" className="w-full h-full object-cover" />
+                            <div className="w-[260px] h-[300px] rounded-[40px] border-[14px] border-slate-100 dark:border-zinc-800 overflow-hidden shrink-0 mt-6 shadow-md transition-transform duration-500 group-hover:scale-[1.02]">
+                                <img 
+                                    src={testimonials[prevIndex].image} 
+                                    alt={testimonials[prevIndex].name} 
+                                    className="w-full h-full object-cover" 
+                                />
                             </div>
                         </motion.div>
 
-                        {/* Center Card (Active) */}
-                        <motion.div 
-                            {...fadeInUp(0.2, 24)}
-                            whileHover={{ y: -4, transition: { duration: 0.35, ease: smoothEase } }}
-                            className="bg-[#eef2ff] dark:bg-indigo-950/30 rounded-[40px] p-3 flex flex-col sm:flex-row gap-6 w-full max-w-[650px] shadow-sm hover:shadow-md transition-shadow shrink-0 relative z-20"
-                        >
-                            {/* Image */}
-                            <div className="w-full sm:w-[280px] h-[340px] rounded-[32px] overflow-hidden shrink-0">
-                                <img src={imgNurse} alt="Dr. Amina" className="w-full h-full object-cover object-top" />
-                            </div>
-                            
-                            {/* Content */}
-                            <div className="flex-1 py-8 pr-8 flex flex-col">
-                                <div className="mb-5">
-                                    <svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M10 11V18H4V11H7C7 8.79086 5.20914 7 3 7V4C6.86599 4 10 7.13401 10 11ZM20 11V18H14V11H17C17 8.79086 15.2091 7 13 7V4C16.866 4 20 7.13401 20 11Z" fill="#c7d2fe" className="dark:fill-indigo-900"/>
-                                    </svg>
-                                </div>
-                                <p className="text-[13.5px] text-indigo-950 dark:text-indigo-200 leading-[1.8] mb-8 font-medium">
-                                    {t('dr_amina_quote')}
-                                </p>
-                                <div className="mt-auto">
-                                    <h4 className="font-bold text-indigo-950 dark:text-white text-[15px] tracking-tight">Dr. Amina</h4>
-                                    <p className="text-[13px] text-indigo-800/70 dark:text-indigo-300/70 font-semibold mt-0.5">Clinical Pharmacist</p>
-                                </div>
-                            </div>
-                        </motion.div>
+                        {/* Center Card (Active Slider) */}
+                        <div className="w-full max-w-[650px] relative z-20 shrink-0">
+                            <AnimatePresence mode="wait" custom={direction}>
+                                <motion.div 
+                                    key={activeTestimonial}
+                                    custom={direction}
+                                    initial={{ opacity: 0, x: direction > 0 ? 36 : -36, scale: 0.98 }}
+                                    animate={{ opacity: 1, x: 0, scale: 1 }}
+                                    exit={{ opacity: 0, x: direction > 0 ? -36 : 36, scale: 0.98 }}
+                                    transition={{ duration: 0.45, ease: smoothEase }}
+                                    className="bg-[#eef2ff] dark:bg-indigo-950/30 rounded-[40px] p-3 flex flex-col sm:flex-row gap-6 shadow-sm hover:shadow-md transition-shadow"
+                                >
+                                    {/* Image */}
+                                    <div className="w-full sm:w-[280px] h-[340px] rounded-[32px] overflow-hidden shrink-0">
+                                        <img 
+                                            src={testimonials[activeTestimonial].image} 
+                                            alt={testimonials[activeTestimonial].name} 
+                                            className="w-full h-full object-cover object-top" 
+                                        />
+                                    </div>
+                                    
+                                    {/* Content */}
+                                    <div className="flex-1 py-8 pr-8 flex flex-col">
+                                        <div className="mb-5">
+                                            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10 11V18H4V11H7C7 8.79086 5.20914 7 3 7V4C6.86599 4 10 7.13401 10 11ZM20 11V18H14V11H17C17 8.79086 15.2091 7 13 7V4C16.866 4 20 7.13401 20 11Z" fill="#c7d2fe" className="dark:fill-indigo-900"/>
+                                            </svg>
+                                        </div>
+                                        <p className="text-[13.5px] text-indigo-950 dark:text-indigo-200 leading-[1.8] mb-8 font-medium">
+                                            "{testimonials[activeTestimonial].quote}"
+                                        </p>
+                                        <div className="mt-auto">
+                                            <h4 className="font-bold text-indigo-950 dark:text-white text-[15px] tracking-tight">
+                                                {testimonials[activeTestimonial].name}
+                                            </h4>
+                                            <p className="text-[13px] text-indigo-800/70 dark:text-indigo-300/70 font-semibold mt-0.5">
+                                                {testimonials[activeTestimonial].role}
+                                            </p>
+                                        </div>
+                                    </div>
+                                </motion.div>
+                            </AnimatePresence>
 
-                        {/* Right Card (Inactive) */}
+                            {/* Dots indicator */}
+                            <div className="flex justify-center items-center gap-2.5 mt-6">
+                                {testimonials.map((_, i) => (
+                                    <button
+                                        key={i}
+                                        onClick={() => {
+                                            setDirection(i > activeTestimonial ? 1 : -1);
+                                            setActiveTestimonial(i);
+                                        }}
+                                        className={`h-2 rounded-full transition-all duration-300 cursor-pointer ${
+                                            i === activeTestimonial 
+                                                ? "w-7 bg-primary" 
+                                                : "w-2 bg-slate-300 dark:bg-zinc-700 hover:bg-slate-400 dark:hover:bg-zinc-500"
+                                        }`}
+                                        aria-label={`Go to slide ${i + 1}`}
+                                    />
+                                ))}
+                            </div>
+                        </div>
+
+                        {/* Right Card (Inactive / Clickable) */}
                         <motion.div 
                             {...fadeInUp(0.28, 24)}
-                            className="relative hidden lg:block"
+                            onClick={handleNext}
+                            className="relative hidden lg:block cursor-pointer group select-none"
                         >
-                            <div className="w-[260px] h-[300px] rounded-[40px] border-[14px] border-blue-50 dark:border-blue-900/20 overflow-hidden shrink-0 mb-6 shadow-md">
-                                <img src={imgPillOrganizer} alt="Patient" className="w-full h-full object-cover" />
+                            <div className="w-[260px] h-[300px] rounded-[40px] border-[14px] border-blue-50 dark:border-blue-900/20 overflow-hidden shrink-0 mb-6 shadow-md transition-transform duration-500 group-hover:scale-[1.02]">
+                                <img 
+                                    src={testimonials[nextIndex].image} 
+                                    alt={testimonials[nextIndex].name} 
+                                    className="w-full h-full object-cover" 
+                                />
                             </div>
                             
-                            <button className="absolute bottom-10 -left-8 lg:-left-12 z-10 w-[52px] h-[52px] bg-black dark:bg-white rounded-full flex items-center justify-center hover:scale-105 transition-transform shadow-xl">
+                            <motion.button 
+                                onClick={(e) => { e.stopPropagation(); handleNext(); }}
+                                whileHover={{ scale: 1.12 }}
+                                whileTap={{ scale: 0.92 }}
+                                transition={{ type: "spring", stiffness: 400, damping: 20 }}
+                                className="absolute bottom-10 -left-8 lg:-left-12 z-30 w-[52px] h-[52px] bg-black dark:bg-white rounded-full flex items-center justify-center shadow-2xl cursor-pointer"
+                                aria-label="Next testimonial"
+                            >
                                 <ArrowRight className="w-5 h-5 text-white dark:text-black" />
-                            </button>
+                            </motion.button>
                         </motion.div>
 
                     </div>
@@ -323,8 +419,12 @@ function Home() {
 
             {/* ────────────── CTA ────────────── */}
             <section className="relative h-[600px] flex items-center justify-center overflow-hidden border-t border-slate-100 dark:border-zinc-800">
-                <div
-                    className="absolute inset-0 bg-cover bg-center scale-105"
+                <motion.div
+                    initial={{ scale: 1.08 }}
+                    whileInView={{ scale: 1.02 }}
+                    viewport={{ once: true, amount: 0.2 }}
+                    transition={{ duration: 1.8, ease: smoothEase }}
+                    className="absolute inset-0 bg-cover bg-center"
                     style={{
                         backgroundImage: `url(${imgGlovesHeart})`,
                         backgroundPosition: 'center 40%'
@@ -336,39 +436,48 @@ function Home() {
                 <div className="relative z-10 w-full">
                     <div className="max-w-3xl mx-auto text-center px-6">
                         <motion.h2 
-                            {...fadeInUp(0)}
+                            initial={{ opacity: 0, y: 24 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true, amount: 0.25 }}
+                            transition={{ duration: 0.85, ease: smoothEase }}
                             className="text-4xl md:text-[52px] font-medium tracking-tight text-white leading-[1.15] mb-6"
                         >
                             {t('ready_to_verify')}
                         </motion.h2>
                         
                         <motion.p 
-                            {...fadeInUp(0.1)}
+                            initial={{ opacity: 0, y: 20 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true, amount: 0.25 }}
+                            transition={{ duration: 0.85, delay: 0.1, ease: smoothEase }}
                             className="text-[15px] md:text-[16px] text-slate-200 font-light leading-relaxed mb-10 max-w-xl mx-auto"
                         >
                             {t('join_thousands')}
                         </motion.p>
                         
                         <motion.div 
-                            {...fadeInUp(0.2)}
+                            initial={{ opacity: 0, y: 16 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true, amount: 0.25 }}
+                            transition={{ duration: 0.85, delay: 0.2, ease: smoothEase }}
                             className="flex flex-col sm:flex-row justify-center gap-4"
                         >
                             <Link to="/interactions">
                                 <motion.button 
-                                    whileHover={{ scale: 1.03 }}
+                                    whileHover={{ scale: 1.04 }}
                                     whileTap={{ scale: 0.97 }}
                                     transition={{ type: "spring", stiffness: 400, damping: 25 }}
-                                    className="w-full sm:w-auto bg-white text-slate-900 rounded-[12px] px-8 py-3.5 text-[14.5px] font-medium hover:bg-slate-100 transition-colors shadow-lg"
+                                    className="w-full sm:w-auto bg-white text-slate-900 rounded-[12px] px-8 py-3.5 text-[14.5px] font-medium hover:bg-slate-100 transition-colors shadow-lg cursor-pointer"
                                 >
                                     {t('try_medora')}
                                 </motion.button>
                             </Link>
                             <Link to="/register">
                                 <motion.button 
-                                    whileHover={{ scale: 1.03 }}
+                                    whileHover={{ scale: 1.04 }}
                                     whileTap={{ scale: 0.97 }}
                                     transition={{ type: "spring", stiffness: 400, damping: 25 }}
-                                    className="w-full sm:w-auto bg-white/5 border border-white/20 text-white rounded-[12px] px-8 py-3.5 text-[14.5px] font-medium backdrop-blur-md hover:bg-white/10 transition-colors"
+                                    className="w-full sm:w-auto bg-white/10 border border-white/25 text-white rounded-[12px] px-8 py-3.5 text-[14.5px] font-medium backdrop-blur-md hover:bg-white/20 transition-colors cursor-pointer"
                                 >
                                     {t('create_account')}
                                 </motion.button>

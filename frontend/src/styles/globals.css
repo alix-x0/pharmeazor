@@ -123,7 +123,8 @@
   }
   html {
     @apply font-sans;
-    overflow-y: overlay;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
     }
 
   /* Global Dark Mode Overrides from SciCon */

@@ -92,15 +92,15 @@ const Interactions = () => {
         <div className="max-w-7xl mx-auto py-12 px-6 animate-in fade-in duration-700">
             {/* Minimalist Apple-Style Header in a Box */}
             <div className="mb-14 p-10 md:p-12 bg-blue-50/50 dark:bg-blue-900/10 border border-blue-100/50 dark:border-blue-900/20 rounded-[2rem] text-center max-w-4xl mx-auto shadow-sm">
-                <h1 className="text-3xl sm:text-4xl font-semibold text-slate-900 tracking-tight mb-4">
+                <h1 className="text-3xl sm:text-4xl font-semibold text-slate-900 dark:text-white tracking-tight mb-4">
                     {t('inter_title')}
                 </h1>
 
-                <p className="text-base text-slate-500 leading-relaxed mb-8 max-w-2xl mx-auto">
+                <p className="text-base text-slate-500 dark:text-slate-400 leading-relaxed mb-8 max-w-2xl mx-auto">
                     {t('inter_desc')}
                 </p>
 
-                <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-4 text-sm text-slate-500 font-medium">
+                <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-4 text-sm text-slate-500 dark:text-slate-400 font-medium">
                     <div className="flex items-center gap-2">
                         <Activity className="w-4 h-4 text-blue-400" />
                         <span>{t('real_time_sync')}</span>
@@ -298,8 +298,8 @@ const Interactions = () => {
                                 </div>
                             </div>
                             <div className="text-center">
-                                <h3 className="text-xl font-bold text-slate-900 mb-2">{t('scanning_db')}</h3>
-                                <p className="text-sm text-slate-500 font-medium">{t('pairs_analyzed')} ({selectedDrugs.length})</p>
+                                <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-2">{t('scanning_db')}</h3>
+                                <p className="text-sm text-slate-500 dark:text-slate-400 font-medium">{t('pairs_analyzed')} ({selectedDrugs.length})</p>
                             </div>
                         </div>
                     )}
@@ -308,18 +308,18 @@ const Interactions = () => {
                         <div className="space-y-6 animate-in slide-in-from-bottom-6 duration-700">
                             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 px-2">
                                 <div className="flex items-center gap-3">
-                                    <h3 className="text-2xl font-bold text-slate-900">{t('analysis_results')}</h3>
-                                    <Badge variant="secondary" className="bg-white border border-slate-100 text-slate-600 px-4 py-1 rounded-full font-bold shadow-sm">
+                                    <h3 className="text-2xl font-bold text-slate-900 dark:text-white">{t('analysis_results')}</h3>
+                                    <Badge variant="secondary" className="bg-white dark:bg-zinc-900 border border-slate-100 dark:border-zinc-800 text-slate-600 dark:text-slate-300 px-4 py-1 rounded-full font-bold shadow-sm">
                                         {results.explained_pairs?.length || 0} {t('pairs_analyzed')}
                                     </Badge>
                                 </div>
 
-                                <div className="flex bg-slate-100 p-1 rounded-xl w-fit self-end sm:self-auto">
+                                <div className="flex bg-slate-100 dark:bg-zinc-800 p-1 rounded-xl w-fit self-end sm:self-auto">
                                     <Button
                                         variant="ghost"
                                         size="sm"
                                         onClick={() => setSelectedLanguage("darija")}
-                                        className={`h-8 px-4 text-[10px] font-bold rounded-lg transition-all ${selectedLanguage === "darija" ? "bg-white shadow-sm text-primary" : "text-slate-500 hover:text-slate-700"}`}
+                                        className={`h-8 px-4 text-[10px] font-bold rounded-lg transition-all ${selectedLanguage === "darija" ? "bg-white dark:bg-zinc-900 shadow-sm text-primary dark:text-blue-400" : "text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200"}`}
                                     >
                                         DARIJA
                                     </Button>
@@ -327,7 +327,7 @@ const Interactions = () => {
                                         variant="ghost"
                                         size="sm"
                                         onClick={() => setSelectedLanguage("french")}
-                                        className={`h-8 px-4 text-[10px] font-bold rounded-lg transition-all ${selectedLanguage === "french" ? "bg-white shadow-sm text-primary" : "text-slate-500 hover:text-slate-700"}`}
+                                        className={`h-8 px-4 text-[10px] font-bold rounded-lg transition-all ${selectedLanguage === "french" ? "bg-white dark:bg-zinc-900 shadow-sm text-primary dark:text-blue-400" : "text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200"}`}
                                     >
                                         FRENCH
                                     </Button>
@@ -335,7 +335,7 @@ const Interactions = () => {
                                         variant="ghost"
                                         size="sm"
                                         onClick={() => setSelectedLanguage("english")}
-                                        className={`h-8 px-4 text-[10px] font-bold rounded-lg transition-all ${selectedLanguage === "english" ? "bg-white shadow-sm text-primary" : "text-slate-500 hover:text-slate-700"}`}
+                                        className={`h-8 px-4 text-[10px] font-bold rounded-lg transition-all ${selectedLanguage === "english" ? "bg-white dark:bg-zinc-900 shadow-sm text-primary dark:text-blue-400" : "text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200"}`}
                                     >
                                         ENGLISH
                                     </Button>

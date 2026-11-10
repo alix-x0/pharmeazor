@@ -236,7 +236,7 @@ function ForgotPasswordModal({ isOpen, onClose }) {
 
                 {/* ─── Modal Card ─── */}
                 <div
-                    className={`relative z-10 w-full max-w-[420px] bg-white rounded-3xl shadow-[0_25px_60px_rgba(124,58,237,0.18),0_8px_24px_rgba(0,0,0,0.08)] overflow-hidden transition-all duration-300 ${closing
+                    className={`relative z-10 w-full max-w-[420px] bg-white dark:bg-zinc-900 border border-slate-100 dark:border-zinc-800 rounded-3xl shadow-[0_25px_60px_rgba(124,58,237,0.18),0_8px_24px_rgba(0,0,0,0.08)] overflow-hidden transition-all duration-300 ${closing
                         ? "opacity-0 scale-95 translate-y-4"
                         : "opacity-100 scale-100 translate-y-0 animate-[modalIn_0.35s_cubic-bezier(0.22,1,0.36,1)_forwards]"
                         }`}
@@ -251,7 +251,7 @@ function ForgotPasswordModal({ isOpen, onClose }) {
                     {/* Close button */}
                     <button
                         onClick={handleClose}
-                        className="absolute top-4 right-4 z-20 w-8 h-8 rounded-full bg-gray-100 hover:bg-red-50 flex items-center justify-center text-gray-400 hover:text-red-500 transition-all cursor-pointer border-none hover:rotate-90 duration-300"
+                        className="absolute top-4 right-4 z-20 w-8 h-8 rounded-full bg-gray-100 dark:bg-zinc-800 hover:bg-red-50 dark:hover:bg-red-950/40 flex items-center justify-center text-gray-400 dark:text-zinc-400 hover:text-red-500 transition-all cursor-pointer border-none hover:rotate-90 duration-300"
                         aria-label="Close"
                     >
                         <CloseIcon />
@@ -266,13 +266,13 @@ function ForgotPasswordModal({ isOpen, onClose }) {
 
                                 {/* Icon */}
                                 <div className="flex justify-center mb-3">
-                                    <div className="w-14 h-14 rounded-2xl bg-purple-50 border border-purple-100 flex items-center justify-center shadow-sm">
+                                    <div className="w-14 h-14 rounded-2xl bg-purple-50 dark:bg-purple-900/20 border border-purple-100 dark:border-purple-800/40 flex items-center justify-center shadow-sm">
                                         {stepIcons[step]}
                                     </div>
                                 </div>
 
                                 {/* Title */}
-                                <h2 className="text-center text-lg font-bold text-indigo-950 mb-1">
+                                <h2 className="text-center text-lg font-bold text-indigo-950 dark:text-white mb-1">
                                     {stepTitles[step]}
                                 </h2>
                                 <p className="text-center text-[13px] text-gray-400 mb-5 leading-relaxed px-2">
@@ -285,7 +285,7 @@ function ForgotPasswordModal({ isOpen, onClose }) {
                         {step === 0 && (
                             <form onSubmit={handleEmailSubmit} className="flex flex-col gap-3.5" noValidate>
                                 <div className="flex flex-col gap-1">
-                                    <label htmlFor="forgot-email" className="text-xs font-semibold text-indigo-900">
+                                    <label htmlFor="forgot-email" className="text-xs font-semibold text-indigo-900 dark:text-zinc-200">
                                         Email Address
                                     </label>
                                     <input
@@ -296,7 +296,7 @@ function ForgotPasswordModal({ isOpen, onClose }) {
                                         placeholder="Enter your email"
                                         autoComplete="email"
                                         autoFocus
-                                        className={`w-full px-3.5 py-2.5 border-[1.5px] rounded-xl text-sm text-indigo-950 bg-indigo-50/30 outline-none transition-all placeholder:text-indigo-300 focus:ring-[3px] focus:bg-white ${errors.email ? "border-red-400 focus:border-red-500 focus:ring-red-400/20" : "border-indigo-100 focus:border-purple-600 focus:ring-purple-600/10"
+                                        className={`w-full px-3.5 py-2.5 border-[1.5px] rounded-xl text-sm text-indigo-950 dark:text-white bg-indigo-50/30 dark:bg-zinc-800 outline-none transition-all placeholder:text-indigo-300 dark:placeholder:text-zinc-500 focus:ring-[3px] focus:bg-white dark:focus:bg-zinc-800 ${errors.email ? "border-red-400 focus:border-red-500 focus:ring-red-400/20" : "border-indigo-100 dark:border-zinc-700 focus:border-purple-600 focus:ring-purple-600/10"
                                             }`}
                                     />
                                     {errors.email && (
@@ -333,11 +333,11 @@ function ForgotPasswordModal({ isOpen, onClose }) {
                                                 onChange={(e) => handleOtpChange(i, e.target.value)}
                                                 onKeyDown={(e) => handleOtpKeyDown(i, e)}
                                                 autoFocus={i === 0}
-                                                className={`w-10 h-11 text-center text-lg font-bold rounded-xl border-[1.5px] outline-none transition-all bg-indigo-50/30 text-indigo-950 focus:ring-[3px] focus:bg-white ${errors.otp
+                                                className={`w-10 h-11 text-center text-lg font-bold rounded-xl border-[1.5px] outline-none transition-all bg-indigo-50/30 dark:bg-zinc-800 text-indigo-950 dark:text-white focus:ring-[3px] focus:bg-white dark:focus:bg-zinc-800 ${errors.otp
                                                     ? "border-red-400 focus:border-red-500 focus:ring-red-400/20 animate-[shake_0.4s_ease-in-out]"
                                                     : digit
                                                         ? "border-purple-400 focus:border-purple-600 focus:ring-purple-600/10"
-                                                        : "border-indigo-100 focus:border-purple-600 focus:ring-purple-600/10"
+                                                        : "border-indigo-100 dark:border-zinc-700 focus:border-purple-600 focus:ring-purple-600/10"
                                                     }`}
                                             />
                                         ))}
@@ -375,7 +375,7 @@ function ForgotPasswordModal({ isOpen, onClose }) {
                         {step === 2 && (
                             <form onSubmit={handlePasswordSubmit} className="flex flex-col gap-3.5" noValidate>
                                 <div className="flex flex-col gap-1">
-                                    <label htmlFor="new-password" className="text-xs font-semibold text-indigo-900">New Password</label>
+                                    <label htmlFor="new-password" className="text-xs font-semibold text-indigo-900 dark:text-zinc-200">New Password</label>
                                     <div className="relative">
                                         <input
                                             id="new-password"
@@ -384,7 +384,7 @@ function ForgotPasswordModal({ isOpen, onClose }) {
                                             onChange={(e) => { setNewPassword(e.target.value); setErrors((p) => ({ ...p, newPassword: null })); }}
                                             placeholder="Enter new password"
                                             autoFocus
-                                            className={`w-full px-3.5 py-2.5 pr-10 border-[1.5px] rounded-xl text-sm text-indigo-950 bg-indigo-50/30 outline-none transition-all placeholder:text-indigo-300 focus:ring-[3px] focus:bg-white ${errors.newPassword ? "border-red-400 focus:border-red-500 focus:ring-red-400/20" : "border-indigo-100 focus:border-purple-600 focus:ring-purple-600/10"
+                                            className={`w-full px-3.5 py-2.5 pr-10 border-[1.5px] rounded-xl text-sm text-indigo-950 dark:text-white bg-indigo-50/30 dark:bg-zinc-800 outline-none transition-all placeholder:text-indigo-300 dark:placeholder:text-zinc-500 focus:ring-[3px] focus:bg-white dark:focus:bg-zinc-800 ${errors.newPassword ? "border-red-400 focus:border-red-500 focus:ring-red-400/20" : "border-indigo-100 dark:border-zinc-700 focus:border-purple-600 focus:ring-purple-600/10"
                                                 }`}
                                         />
                                         <button type="button" onClick={() => setShowPw(!showPw)}
@@ -401,7 +401,7 @@ function ForgotPasswordModal({ isOpen, onClose }) {
                                 </div>
 
                                 <div className="flex flex-col gap-1">
-                                    <label htmlFor="confirm-password" className="text-xs font-semibold text-indigo-900">Confirm Password</label>
+                                    <label htmlFor="confirm-password" className="text-xs font-semibold text-indigo-900 dark:text-zinc-200">Confirm Password</label>
                                     <div className="relative">
                                         <input
                                             id="confirm-password"
@@ -409,7 +409,7 @@ function ForgotPasswordModal({ isOpen, onClose }) {
                                             value={confirmPassword}
                                             onChange={(e) => { setConfirmPassword(e.target.value); setErrors((p) => ({ ...p, confirmPassword: null })); }}
                                             placeholder="Confirm new password"
-                                            className={`w-full px-3.5 py-2.5 pr-10 border-[1.5px] rounded-xl text-sm text-indigo-950 bg-indigo-50/30 outline-none transition-all placeholder:text-indigo-300 focus:ring-[3px] focus:bg-white ${errors.confirmPassword ? "border-red-400 focus:border-red-500 focus:ring-red-400/20" : "border-indigo-100 focus:border-purple-600 focus:ring-purple-600/10"
+                                            className={`w-full px-3.5 py-2.5 pr-10 border-[1.5px] rounded-xl text-sm text-indigo-950 dark:text-white bg-indigo-50/30 dark:bg-zinc-800 outline-none transition-all placeholder:text-indigo-300 dark:placeholder:text-zinc-500 focus:ring-[3px] focus:bg-white dark:focus:bg-zinc-800 ${errors.confirmPassword ? "border-red-400 focus:border-red-500 focus:ring-red-400/20" : "border-indigo-100 dark:border-zinc-700 focus:border-purple-600 focus:ring-purple-600/10"
                                                 }`}
                                         />
                                         <button type="button" onClick={() => setShowConfirmPw(!showConfirmPw)}

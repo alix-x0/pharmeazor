@@ -1,0 +1,61 @@
+# MedSafe Project Architecture and Technologies Report
+
+## Overview
+The MedSafe project is a web application designed as a drug-drug interaction checker tailored for the Algerian market. It features a distributed architecture consisting of a React-based frontend, a Django backend for core user management and data storage, and a dedicated FastAPI microservice (MedSafe API) for heavy machine learning and LLM tasks.
+
+## 1. Frontend (React + Vite)
+The frontend is a modern single-page application built for high performance and clean aesthetics.
+
+**Core Technologies & Libraries:**
+- **Framework:** React 19, Vite (bundler)
+- **Routing:** React Router v7
+- **Styling:** Tailwind CSS v4, Autoprefixer, PostCSS
+- **UI Components:** Radix UI primitives (via shadcn/ui framework), Base UI
+- **Animations:** Framer Motion, tailwindcss-animate
+- **Icons & Visuals:** Lucide React, Recharts (for analytics/charts), Ogl (WebGL)
+- **Data Fetching:** Axios
+- **State/Auth:** jwt-decode (for handling SimpleJWT tokens)
+
+**Key Functionality:**
+The React application handles routing (Auth, Dashboard, Pharmacist Mode, Interactions), provides a responsive and animated user interface using Tailwind and Framer Motion, and communicates with the backend APIs via Axios.
+
+## 2. Backend (Django REST Framework)
+The primary backend is a Django application responsible for relational data management, authentication, and serving as a bridge to the AI microservice.
+
+**Core Technologies & Libraries:**
+- **Framework:** Django, Django REST Framework (DRF)
+- **Database:** SQLite (default for development), Psycopg2 (ready for PostgreSQL)
+- **Authentication:** djangorestframework-simplejwt (JWT based auth), PyJWT
+- **Middleware:** django-cors-headers (CORS configuration for frontend integration)
+- **Other:** python-dotenv (environment variables), Pillow (image handling)
+
+**Key Functionality:**
+- Manages Users and Medication Profiles.
+- Handles Authentication (Registration, Login via JWT).
+- Exposes RESTful endpoints (`/api/auth/*`, `/api/users/`, `/api/drugs/`, `/api/medication-profile/*`).
+- Acts as an orchestrator for AI requests: it knows the URL of the MedSafe API (`FASTAPI_BASE=http://localhost:8001`) and forwards or coordinates analysis requests (e.g., `/interactions/analyze/`).
+
+## 3. MedSafe API (FastAPI ML/LLM Microservice)
+This is a dedicated high-performance Python microservice handling complex clinical logic, machine learning, and AI generation.
+
+**Core Technologies & Libraries:**
+- **Framework:** FastAPI, Uvicorn (ASGI server)
+- **Machine Learning:** CatBoost (predictive modeling for unknown interactions), Scikit-Learn
+- **LLM/Generative AI:** llama-cpp-python (running BioMistral GGUF locally)
+- **Data Processing:** Pandas, NumPy, RapidFuzz / thefuzz (fuzzy matching)
+- **Database/ORM:** SQLAlchemy
+- **Data Validation:** Pydantic
+
+**Key Functionality:**
+- **DDInter Integration:** Loads and queries the DDInter database from CSV files into memory.
+- **ML Fallback:** Uses a CatBoost model to predict interactions if a direct match isn't found in DDInter.
+- **Clinical Explanations:** Runs the BioMistral model locally to generate clinical reasoning and translate advisories into Algerian Darija.
+- **Endpoints:** Exposes the `/api/analyze` endpoint for comprehensive interaction checking.
+
+## How It All Ties Together (Architecture)
+1. **User Interaction:** The user interacts with the **Frontend**, inputting a list of drugs in the 'Pharmacist Mode' or their personal 'Medication Profile'.
+2. **Standard API Calls:** For login, registration, and fetching basic drug lists, the Frontend calls the **Django Backend** (port 8000). The Django app validates JWT tokens and queries its database (SQLite).
+3. **AI / Interaction Analysis:** When the user requests an interaction check:
+   - The request may hit the **Django Backend**, which then acts as a proxy, sending a request to the **MedSafe API** using the `FASTAPI_BASE` URL.
+   - Alternatively, for strict real-time feedback, the frontend could call the **MedSafe API** (port 8001) directly (CORS is enabled on FastAPI).
+4. **Data Processing:** The **MedSafe API** receives the list of drugs, checks for known interactions in its loaded datasets, uses the CatBoost model for unknown pairs, and finally queries the local BioMistral LLM to generate a plain-text clinical explanation and a localized Darija translation. The response is cascaded back to the user interface.

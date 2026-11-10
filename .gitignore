@@ -1,0 +1,72 @@
+# Python / Django
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+db.sqlite3
+db.sqlite3-journal
+local_settings.py
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Dependencies
+node_modules/
+
+# Secrets
+.env
+.env.local
+
+# Editor folders
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Django media
+media/
+staticfiles/
+
+# Vite / Frontend
+dist/
+dist-ssr/
+.vite/
+*.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Django migrations (keep __init__.py)
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+medsafe_api/medsafe_api.rar
+medsafe_api/ml/artifacts/label_encoder.joblib
+medsafe_api/ml/artifacts/drug_encoder.joblib
+medsafe_api/ml/artifacts/catboost_interaction.cbm
+medsafe_api/app/models/BioMistral-Instruct-MIMIC-7B-DARE.Q4_K_M.gguf
+medsafe_api/app/data/medsafe.db

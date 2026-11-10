@@ -50,7 +50,7 @@ function Login() {
                 />
             </div>
 
-            <div className="relative z-10 w-full max-w-[850px] bg-white rounded-[24px] flex flex-col md:flex-row overflow-hidden p-2 min-h-[500px] md:h-[550px] gap-3 md:gap-4 shadow-2xl">
+            <div className="relative z-10 w-full max-w-[850px] bg-white dark:bg-zinc-900 border border-slate-100 dark:border-zinc-800 rounded-[24px] flex flex-col md:flex-row overflow-hidden p-2 min-h-[500px] md:h-[550px] gap-3 md:gap-4 shadow-2xl">
                 
                 {/* Left Side - Image & Quote */}
                 <div className="hidden md:flex md:w-[50%] relative rounded-[18px] overflow-hidden">
@@ -84,18 +84,18 @@ function Login() {
 
                 {/* Right Side - Login Form */}
                 <div className="w-full md:w-[50%] flex flex-col pt-5 pb-5 px-4 md:px-6 md:pr-8">
-                    <span className="text-lg font-semibold tracking-tight text-sky-950 font-sans">
+                    <span className="text-lg font-semibold tracking-tight text-sky-950 dark:text-white font-sans">
                         Medora.
                     </span>
 
                     <div className="flex-1 flex flex-col justify-center max-w-[360px] mx-auto w-full">
                         {/* Back Button */}
-                        <button onClick={() => navigate(-1)} className="w-7 h-7 rounded-full border border-slate-200 flex items-center justify-center mb-4 hover:bg-blue-50 transition-colors self-start">
-                            <ChevronLeft className="w-3.5 h-3.5 text-blue-600" />
+                        <button onClick={() => navigate(-1)} className="w-7 h-7 rounded-full border border-slate-200 dark:border-zinc-700 flex items-center justify-center mb-4 hover:bg-blue-50 dark:hover:bg-zinc-800 transition-colors self-start">
+                            <ChevronLeft className="w-3.5 h-3.5 text-blue-600 dark:text-blue-400" />
                         </button>
 
-                        <h1 className="text-[22px] font-semibold text-sky-950 mb-1.5 tracking-tighter font-sans">Let's join with us</h1>
-                        <p className="text-slate-500 text-[13px] mb-5 leading-relaxed font-light font-sans">
+                        <h1 className="text-[22px] font-semibold text-sky-950 dark:text-white mb-1.5 tracking-tighter font-sans">Let's join with us</h1>
+                        <p className="text-slate-500 dark:text-slate-400 text-[13px] mb-5 leading-relaxed font-light font-sans">
                             You can sign in or join with us if you're new to Medora.
                         </p>
 
@@ -103,28 +103,28 @@ function Login() {
 
                         <form onSubmit={handleSubmit} className="space-y-3.5">
                             <div className="space-y-1">
-                                <label className="text-[11px] font-semibold text-sky-950 ml-1">Email address</label>
+                                <label className="text-[11px] font-semibold text-sky-950 dark:text-zinc-200 ml-1">Email address</label>
                                 <div className="relative">
                                     <input
                                         type="email"
                                         placeholder="Enter your email"
                                         value={username}
                                         onChange={(e) => { setUsername(e.target.value); setErrors(prev => ({ ...prev, username: null })) }}
-                                        className="w-full h-[42px] px-3.5 rounded-[12px] border border-slate-200 focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-500/20 bg-white transition-all text-[13px] font-medium placeholder:text-slate-400 font-sans"
+                                        className="w-full h-[42px] px-3.5 rounded-[12px] border border-slate-200 dark:border-zinc-700 focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-500/20 bg-white dark:bg-zinc-800 transition-all text-[13px] font-medium text-slate-900 dark:text-white placeholder:text-slate-400 dark:placeholder:text-zinc-500 font-sans"
                                     />
                                 </div>
                                 {errors.username && <p className="text-[10px] text-red-500 ml-1">{errors.username}</p>}
                             </div>
 
                             <div className="space-y-1">
-                                <label className="text-[11px] font-semibold text-sky-950 ml-1">Password</label>
+                                <label className="text-[11px] font-semibold text-sky-950 dark:text-zinc-200 ml-1">Password</label>
                                 <div className="relative">
                                     <input
                                         type="password"
                                         placeholder="••••••••"
                                         value={password}
                                         onChange={(e) => { setPassword(e.target.value); setErrors(prev => ({ ...prev, password: null })) }}
-                                        className="w-full h-[42px] px-3.5 rounded-[12px] border border-slate-200 focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-500/20 bg-white transition-all text-[13px] font-medium placeholder:text-slate-400 font-sans"
+                                        className="w-full h-[42px] px-3.5 rounded-[12px] border border-slate-200 dark:border-zinc-700 focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-500/20 bg-white dark:bg-zinc-800 transition-all text-[13px] font-medium text-slate-900 dark:text-white placeholder:text-slate-400 dark:placeholder:text-zinc-500 font-sans"
                                     />
                                 </div>
                                 {errors.password && <p className="text-[10px] text-red-500 ml-1">{errors.password}</p>}
@@ -133,7 +133,7 @@ function Login() {
                             <button
                                 type="submit"
                                 disabled={loading}
-                                className="w-full h-[42px] bg-[#061225] hover:bg-[#0a1d3a] text-white text-[13px] font-medium rounded-[12px] shadow-md transition-all mt-4 flex items-center justify-center font-sans active:scale-[0.98]"
+                                className="w-full h-[42px] bg-[#061225] hover:bg-[#0a1d3a] dark:bg-blue-600 dark:hover:bg-blue-500 text-white text-[13px] font-medium rounded-[12px] shadow-md transition-all mt-4 flex items-center justify-center font-sans active:scale-[0.98]"
                             >
                                 {loading ? (
                                     <div className="flex items-center gap-2">

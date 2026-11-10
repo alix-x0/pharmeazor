@@ -131,29 +131,71 @@
     color-scheme: dark;
   }
 
-  .dark .bg-white {
+  /* Only darken container elements that use bg-white without dark variants (never buttons or links) */
+  .dark :not(button):not(a):not([role="button"]):not(.dark\:bg-white).bg-white:not([class*="dark:bg-"]) {
     background-color: hsl(var(--card)) !important;
+  }
+
+  /* Ensure intentional white buttons stay bright white with readable dark text in dark mode */
+  .dark button.bg-white,
+  .dark a.bg-white,
+  .dark [role="button"].bg-white,
+  .dark .dark\:bg-white {
+    background-color: #ffffff !important;
+    color: #0f172a !important;
+  }
+
+  .dark button.bg-white svg,
+  .dark a.bg-white svg,
+  .dark [role="button"].bg-white svg,
+  .dark .dark\:bg-white svg {
+    color: #0f172a !important;
+  }
+
+  .dark .bg-white\/95 {
+    background-color: hsl(var(--background) / 0.95) !important;
   }
 
   .dark .bg-slate-50,
   .dark .bg-slate-50\/30,
-  .dark .bg-slate-50\/50 {
+  .dark .bg-slate-50\/50,
+  .dark .bg-slate-100 {
     background-color: hsl(var(--background)) !important;
   }
 
-  .dark .text-slate-900 {
+  .dark .text-slate-900,
+  .dark .text-slate-800,
+  .dark .text-slate-700,
+  .dark .text-sky-950 {
     color: hsl(var(--foreground)) !important;
   }
 
   .dark .text-slate-600,
   .dark .text-slate-500,
   .dark .text-slate-400 {
-    color: hsl(var(--foreground) / 0.6) !important;
+    color: hsl(var(--foreground) / 0.65) !important;
   }
 
   .dark .border-slate-200,
-  .dark .border-slate-100 {
+  .dark .border-slate-100,
+  .dark .border-slate-200\/60,
+  .dark .border-slate-200\/50,
+  .dark .border-slate-100\/50,
+  .dark .border-slate-100\/30 {
     border-color: hsl(var(--border)) !important;
+  }
+
+  .dark input:not([type="checkbox"]):not([type="radio"]),
+  .dark textarea,
+  .dark select {
+    background-color: hsl(var(--card)) !important;
+    color: hsl(var(--foreground)) !important;
+    border-color: hsl(var(--border)) !important;
+  }
+
+  .dark input::placeholder,
+  .dark textarea::placeholder {
+    color: hsl(var(--foreground) / 0.4) !important;
   }
 
   .dark .shadow-sm,
@@ -162,8 +204,8 @@
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2), 0 2px 4px -1px rgba(0, 0, 0, 0.1) !important;
   }
 
-  .dark nav.bg-white {
-    background-color: hsl(var(--background)) !important;
+  .dark nav:not(.bg-transparent) {
+    background-color: hsl(var(--background) / 0.95) !important;
     border-bottom-color: hsl(var(--border)) !important;
   }
 

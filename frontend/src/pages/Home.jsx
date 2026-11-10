@@ -55,8 +55,8 @@ function Home() {
                         className="flex justify-center"
                     >
                         <Link to="/interactions">
-                            <button className="h-11 px-8 rounded-full bg-white text-zinc-900 font-semibold text-[13px] hover:bg-zinc-100 transition-all flex items-center gap-2 shadow-2xl hover:scale-105">
-                                {t('try_medora')} <ArrowUpRight className="w-4 h-4 text-zinc-600" strokeWidth={2.5} />
+                            <button className="h-11 px-8 rounded-full bg-white dark:bg-white text-zinc-900 dark:text-zinc-900 font-semibold text-[13px] hover:bg-zinc-100 dark:hover:bg-zinc-100 transition-all flex items-center gap-2 shadow-2xl hover:scale-105">
+                                {t('try_medora')} <ArrowUpRight className="w-4 h-4 text-zinc-600 dark:text-zinc-600" strokeWidth={2.5} />
                             </button>
                         </Link>
                     </motion.div>

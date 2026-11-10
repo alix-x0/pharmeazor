@@ -1,0 +1,123 @@
+BioVatech Innovation Days — AXIS 3 — PHARMATECH
+Participant Brief | ENSB Constantine | April 27–30, 2026
+
+This document is your project brief for the 70-hour hackathon. It describes what your team is expected to design, build, and demo for Axis 3. Read it carefully before you start — it defines your scope, your feature list, the recommended tech stack, and your final submission checklist.
+
+================================================================================
+THE PROBLEM
+================================================================================
+
+- 5–7 drugs/day for the average elderly patient
+- 236,834 documented interactions in DDInter
+- 0 drug verification apps in Darija
+- High rate of self-medication in Algeria
+
+Self-medication is common practice in Algeria. The elderly — who are most at risk — often take between 5 and 7 medications per day without professional guidance. Dangerous drug interactions can cause hospitalizations, strokes, or even death. The DDInter database documents 236,834 known drug-drug interactions, and yet no patient-facing verification tool exists in French or in Darija that is adapted to the Algerian market.
+
+MedSafe must close this gap by enabling any Algerian patient or pharmacist to instantly verify whether a combination of medications is safe — with explanations in Darija.
+
+================================================================================
+CORE FEATURES — MUST HAVE
+================================================================================
+
+These four features are the baseline of your MVP. All must be working and demonstrable before you move to the enriched features.
+
+1. DRUG ENTRY WITH AUTOCOMPLETE (~6h)
+   The patient types medication names in French or Arabic. The app recognizes names from the Algerian market, suggests matches (including brand names and generics), and allows quick multi-drug entry. Minimum: recognize the 500 most common drugs.
+
+2. INTERACTION ANALYSIS ENGINE (~10h)
+   Every possible pair from the entered drug list is cross-checked against the DDInter database (236,834 interactions). Each pair receives a classification: DANGER, CAUTION, or COMPATIBLE. The result must show all pairs, not just the most dangerous one.
+
+3. DARIJA RISK EXPLANATION (~5h)
+   For each flagged interaction, Gemini API generates a short explanation in Algerian Darija describing what the risk is and what the patient should do. Example: 'Aspirine + Ibuprofène can cause severe stomach bleeding. Do not take them together without a doctor's advice.'
+
+4. PHARMACIST SUPPORT MODE (~4h)
+   A secondary interface for pharmacists showing a structured view of the interaction results — cleaner layout, more clinical language — to support their explanations to patients and reduce dispensing errors.
+
+================================================================================
+ENRICHED FEATURES — GO BEYOND THE BASELINE
+================================================================================
+
+Once your core MVP is stable, implement as many of these features as time allows. Each one expands MedSafe along a different dimension: ease of access, long-term tracking, professional tooling, or community intelligence.
+
+1. PRESCRIPTION SCANNER (OCR) (~8h)
+   The patient photographs their paper prescription. An OCR model automatically reads and extracts all medication names, then pre-fills the interaction form. This eliminates manual entry — a critical accessibility feature for elderly users who struggle with typing on a phone.
+
+2. PERSONAL MEDICATION PROFILE (~6h)
+   Each user builds a saved profile of their regular long-term medications (antihypertensives, metformin, statins, etc.). When a new prescription is received, the app automatically checks every new drug against the full existing profile — with no re-entry. Profile persists across sessions.
+
+3. MULTI-PATIENT PHARMACIST DASHBOARD (~6h)
+   A dedicated interface for pharmacists managing multiple patients. Shows a daily log of all interaction checks performed, organized by patient name, with a one-click PDF export for archiving purposes. Requires a pharmacist login role distinct from patient login.
+
+4. ALGERIAN DRUG FACT SHEETS (~5h)
+   For each medication entered, the app displays a brief fact sheet: indicative price on the Algerian market, available generic equivalents, and therapeutic class. Data sourced from a curated static JSON of ~500 common drugs based on ANPP registry data.
+
+5. COMMUNITY SIDE-EFFECT REPORTING (~7h)
+   Any patient or pharmacist can submit a report of an adverse reaction not listed in DDInter. Reports are anonymized and stored in Firestore. An aggregated heatmap by wilaya visualizes where specific side effects are being reported most frequently — actionable data for health authorities.
+
+================================================================================
+RECOMMENDED TECH STACK
+================================================================================
+
+You are free to adapt this stack if your team has stronger expertise elsewhere — but this combination has been pre-validated for the time constraints of this hackathon.
+
+Mobile app:        Flutter
+Back-end:          FastAPI (Python)
+Interaction ML:    Gradient Boosting trained on DDInter + Stanford BioSNAP + OpenFDA datasets (all open source)
+NLP — Darija:      Gemini API
+OCR:               Google Cloud Vision API (100 free requests/day) or Tesseract (local, offline)
+Storage:           Flutter Hive or SharedPreferences (local) + Firebase Firestore (cloud)
+Authentication:    Firebase Auth with two roles: patient and pharmacist
+PDF Export:        ReportLab (Python) or jsPDF (front-end)
+
+================================================================================
+RECOMMENDED 70H TIMELINE
+================================================================================
+
+Your most critical milestone is having a working interaction check by H24. Everything built after that is additive. Do not start OCR before the core flow is complete.
+
+Phase 0 — Setup (H0–H4)
+  Team brief, GitHub repo, Firebase setup, DDInter dataset download and preparation, role assignment
+
+Phase 1 — Core MVP (H4–H24)
+  Autocomplete drug entry, Gradient Boosting model integrated with DDInter, all interaction pairs returned correctly, Darija explanation via Gemini working
+
+Phase 2 — Enriched Features (H24–H48)
+  OCR scanner (8h), personal drug profile (6h), pharmacist dashboard (6h), drug fact sheets JSON (5h)
+
+Phase 3 — Community Reporting (H48–H55)
+  Side-effect reporting form, Firestore aggregation pipeline, wilaya heatmap display
+
+Phase 4 — Demo and Pitch (H55–H66)
+  Pitch deck, demo scenario (photo prescription to full interaction report), rehearsal
+
+Buffer and QA (H66–H70)
+  Edge case testing (duplicate drugs, unrecognized names), UI polish, GitHub backup, submission
+
+================================================================================
+WHAT TO SUBMIT AT THE END OF 70 HOURS
+================================================================================
+
+1. PITCH DECK
+   5 to 7 slides covering problem, solution, demo highlights, tech stack, and business model.
+   Format: PDF / PowerPoint / Canva
+
+2. LIVE DEMO OR VIDEO
+   A working prototype demo or a 2-minute recorded walkthrough — ideally showing a prescription photo being scanned and resulting in a full interaction report in Darija.
+   Format: YouTube link / Figma / Live URL
+
+3. CODE AND NOTEBOOKS
+   All scripts, ML training notebooks, drug database files, and Firestore rules pushed to a GitHub repo.
+   Format: GitHub repo link
+
+4. BUSINESS MODEL
+   A one-page canvas covering target users (patients vs pharmacists), revenue model, and estimated market size.
+   Format: PDF or table
+
+5. SCALE-UP PLAN
+   A short document describing what data partnerships, regulatory steps, and infrastructure would be needed to deploy at scale.
+   Format: PDF
+
+================================================================================
+BioVatech Innovation Days | Axis 3 — MedSafe | Organized by Club TechWaves ENSB
+================================================================================

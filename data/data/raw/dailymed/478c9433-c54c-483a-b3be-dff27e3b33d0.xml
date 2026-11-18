@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="700e5cc7-9674-4548-9f09-4c45d7f70550"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">Gentamicin Sulfate Ointment USP, 0.1%</content>
+   </title>
+   <effectiveTime value="20261001"/>
+   <setId root="478c9433-c54c-483a-b3be-dff27e3b33d0"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="116982244" root="1.3.6.1.4.1.519.1"/>
+            <name>Encube Ethicals, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="725076298" root="1.3.6.1.4.1.519.1"/>
+                        <name>Encube Ethicals Limited</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="21922-110" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="label"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="21922-110" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="pack"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="21922-110" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="analysis"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="21922-110" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="9735153b-f629-4632-b3e3-7ba1fdf01b1f"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20261001"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="21922-110" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>GENTAMICIN SULFATE</name>
+                        <formCode code="C42966" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OINTMENT"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Gentamicin Sulfate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="mg" value="1"/>
+                              <denominator unit="g" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="8X7386QRLV" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GENTAMICIN SULFATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="T6Z9V48IKG" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>GENTAMICIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="N6K5787QVP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LIGHT MINERAL OIL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="4T6H12BN9U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PETROLATUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="A2I8C7HI9T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METHYLPARABEN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="Z8IX2SC1OH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPYLPARABEN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="g" value="15"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <formCode code="C42794" displayName="TUBE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="21922-110-04" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20261001"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value codeSystem="2.16.840.1.113883.3.26.1.1" code="C112160" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="g" value="30"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <formCode code="C42794" displayName="TUBE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="21922-110-05" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20261001"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value codeSystem="2.16.840.1.113883.3.26.1.1" code="C112160" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA209233" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20261001"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_9c58c225-e81d-fc21-e66e-d3261d938a86">
+               <id root="61416d6a-63a5-40c2-a1a6-1626579e19b8"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">For Dermatologic Use Only. Not for Ophthalmic Use</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx Only</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20261001"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_93b65fe1-03e4-dfe2-c788-68cfa6cd5a50">
+               <id root="9bda456e-91cd-4bcc-83ea-05e50f30ecb0"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Gentamicin Sulfate Ointment USP, 0.1% is a wide spectrum antibiotic preparation for topical administration. Each gram of Gentamicin Sulfate Ointment USP, 0.1% contains Gentamicin Sulfate USP equivalent to 1 mg of gentamicin base in a base of light mineral oil and white petrolatum, with 0.5 mg methylparaben and 0.1 mg propylparaben as preservatives.</paragraph>
+               </text>
+               <effectiveTime value="20261001"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_80ea3019-ac09-8c4e-432d-fe9df778eba1">
+               <id root="faf260bd-4932-4a2b-a006-f13c774b598f"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Gentamicin Sulfate is a wide spectrum antibiotic that provides highly effective topical treatment in primary and secondary bacterial infections of the skin. This product may clear infections that have not responded to other topical antibiotic agents. In impetigo contagiosa and other primary skin infections, treatment with a small amount of Gentamicin Sulfate Ointment three to four times daily usually clears the lesions promptly. In secondary skin infections, the product facilitates the treatment of the underlying dermatosis by controlling the infection. Bacteria susceptible to the action of Gentamicin Sulfate include sensitive strains of Streptococci (group A beta-hemolytic, alpha-hemolytic), Staphylococcus aureus (coagulase positive, coagulase negative, and some penicillinase-producing strains), and the gram-negative bacteria, <content styleCode="italics">Pseudomonas aeruginosa, Aerobacter aerogens, Escherichia coli, Proteus vulgaris and Klebsiella pneumoniae.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20261001"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_dc62461e-72e5-f654-ab9e-bffbf24f736f">
+               <id root="95bec581-b8d7-4625-9776-97866124223a"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Primary skin infections: Impetigo contagiosa, superficial folliculitis, ecthyma, furunculosis, sycosis barbae, and pyoderma gangrenosum. Secondary skin infections: Infectious eczematoid dermatitis, pustular acne, pustular psoriasis, infected seborrheic dermatitis, infected contact dermatitis (including poison ivy), infected excoriations, and bacterial superinfections of fungal or viral infections. </paragraph>
+                  <paragraph>NOTE: Gentamicin Sulfate is a bactericidal agent that is not effective against viruses or fungi in skin infections. It is useful in the treatment of infected skin cysts and certain other skin abscesses when preceded by incision and drainage to permit adequate contact between the antibiotic and the infecting bacteria. Good results have been obtained in the treatment of infected stasis and other skin ulcers, infected superficial burns, paronychia, infected insect bites and stings, infected lacerations and abrasions and wounds from minor surgery. Patients sensitive to neomycin can be treated with Gentamicin Sulfate, although regular observation of patients sensitive to topical antibiotics is advisable when such patients are treated with any topical antibiotic. Gentamicin Sulfate Ointment USP, 0.1% helps retain moisture and has been useful in infection on dry eczematous or psoriatic skin. Gentamicin Sulfate Ointment USP, 0.1% has been used successfully in infants over one year of age as well as in adults and children.</paragraph>
+               </text>
+               <effectiveTime value="20261001"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_f03cbe9d-cc2a-df22-48ac-81b9d7cca1af">
+               <id root="66357e6c-f74e-4ed5-89dc-bf8c4421a520"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Gentamicin Sulfate Ointment USP, 0.1% is contraindicated in individuals with a history of sensitivity reactions to any of its components.</paragraph>
+               </text>
+               <effectiveTime value="20261001"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_c82d5032-70b5-47e9-4593-fc4461f83dd7">
+               <id root="6bc74ff3-aba7-4ba8-b26a-5124674f4984"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph>Use of topical antibiotics occasionally allows overgrowth of nonsusceptible organisms, including fungi. If this occurs, or if irritation, sensitization, or superinfection develops, treatment with Gentamicin Sulfate Ointment USP, 0.1% should be discontinued and appropriate therapy instituted.</paragraph>
+               </text>
+               <effectiveTime value="20261001"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_fa983f3c-8b52-1ba2-06f7-bc90b2fd83c0">
+               <id root="f182b9be-3e5b-4fae-bbeb-3754365fbcdd"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>In patients with dermatoses treated with Gentamicin Sulfate, irritation (erythema and pruritus) that did not usually require discontinuance of treatment has been reported in a small percentage of cases. There was no evidence of irritation or sensitization, however, in any of these patients patch-tested subsequently with gentamicin on normal skin. Possible photosensitization has been reported in several patients but could not be elicited in these patients by reapplication of gentamicin followed by exposure to ultraviolet radiation.</paragraph>
+                  <paragraph>To report <content styleCode="bold">SUSPECTED ADVERSE REACTIONS</content>, contact Encube Ethicals Limited at 1-833-285-4151, or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</paragraph>
+               </text>
+               <effectiveTime value="20261001"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_542034b7-f33f-1c12-cc4b-281d2e494633">
+               <id root="908e7a19-2612-41ad-9e55-9b05c3374304"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>A small amount of Gentamicin Sulfate Ointment USP, 0.1% should be applied gently to lesions three to four times a day. The area treated may be covered with a gauze dressing, if desired. In impetigo contagiosa, the crusts should be removed before application of Gentamicin Sulfate Ointment USP, 0.1% to permit maximum contact between the antibiotic and the infection. Care should be exercised to avoid further contamination of the infected skin. Infected stasis ulcers have responded well to Gentamicin Sulfate under gelatin packing.</paragraph>
+               </text>
+               <effectiveTime value="20261001"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_f3c6b457-ce0d-a036-82f6-86c45cd8cb47">
+               <id root="49a8f7e2-bcf2-4214-8842-e6b7e0375ea1"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Gentamicin Sulfate Ointment USP, 0.1% is available as follows:</paragraph>
+                  <paragraph>15 g tube (NDC 21922-<content styleCode="bold">110</content>-04)</paragraph>
+                  <paragraph>30 g tube (NDC 21922-<content styleCode="bold">110</content>-05)</paragraph>
+               </text>
+               <effectiveTime value="20261001"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_0d15ecb4-d8c6-d9e8-93ea-ba4274ec385f">
+               <id root="d093f95e-5f9c-4c3d-9c4a-020132fc75e8"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <title>STORAGE</title>
+               <text>
+                  <paragraph>Store at 20˚C to 25˚C (68˚F to 77˚F) [see USP Controlled Room Temperature].</paragraph>
+                  <paragraph>Manufactured by:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Encube Ethicals Pvt. Ltd.</content>
+                  </paragraph>
+                  <paragraph>Plot No. C-1, Madkaim Industrial</paragraph>
+                  <paragraph>Estate, Madkaim, Post: Mardol, </paragraph>
+                  <paragraph>Ponda, Goa – 403 404, India. </paragraph>
+                  <paragraph>Distributed by:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Encube Ethicals, Inc. </content>
+                  </paragraph>
+                  <paragraph>200 Meredith Drive, Suite 202,</paragraph>
+                  <paragraph>Durham, NC 27713 USA</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rev. 06/2025</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20261001"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_3bbe9d11-98af-42f5-80d7-b6656db87f4e">
+               <id root="340130d6-1a47-461c-9d60-6052a0ca0868"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel - Carton</title>
+               <text>
+                  <paragraph>NDC 21922-<content styleCode="bold">110</content>-04</paragraph>
+                  <paragraph>Gentamicin Sulfate Ointment USP, 0.1%</paragraph>
+                  <paragraph>For External Use Only.</paragraph>
+                  <paragraph>Not For Ophthalmic Use.</paragraph>
+                  <paragraph>Rx only </paragraph>
+                  <paragraph>15g</paragraph>
+                  <renderMultiMedia referencedObject="MM101"/>
+                  <paragraph>NDC 21922-<content styleCode="bold">110</content>-05</paragraph>
+                  <paragraph>Gentamicin Sulfate Ointment USP, 0.1%</paragraph>
+                  <paragraph>For External Use Only.</paragraph>
+                  <paragraph>Not For Ophthalmic Use.</paragraph>
+                  <paragraph>Rx only </paragraph>
+                  <paragraph>30g</paragraph>
+                  <renderMultiMedia referencedObject="MM102"/>
+               </text>
+               <effectiveTime value="20261001"/>
+               <component>
+                  <observationMedia ID="MM101">
+                     <text>carton 15g</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="carton 15g.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM102">
+                     <text>carton 30g</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="carton 30g.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

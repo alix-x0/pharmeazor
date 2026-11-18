@@ -1,0 +1,282 @@
+[
+  {
+    "drug_id": 1,
+    "name": "paracétamol",
+    "dailymed": 3,
+    "bdpm_cis": 230,
+    "bdpm_docs": 34
+  },
+  {
+    "drug_id": 2,
+    "name": "ibuprofène",
+    "dailymed": 3,
+    "bdpm_cis": 104,
+    "bdpm_docs": 34
+  },
+  {
+    "drug_id": 3,
+    "name": "diclofénac",
+    "dailymed": 3,
+    "bdpm_cis": 69,
+    "bdpm_docs": 36
+  },
+  {
+    "drug_id": 4,
+    "name": "kétoprofène",
+    "dailymed": 3,
+    "bdpm_cis": 38,
+    "bdpm_docs": 36
+  },
+  {
+    "drug_id": 5,
+    "name": "naproxène",
+    "dailymed": 3,
+    "bdpm_cis": 12,
+    "bdpm_docs": 24
+  },
+  {
+    "drug_id": 6,
+    "name": "acide acétylsalicylique",
+    "dailymed": 3,
+    "bdpm_cis": 35,
+    "bdpm_docs": 34
+  },
+  {
+    "drug_id": 7,
+    "name": "méloxicam",
+    "dailymed": 3,
+    "bdpm_cis": 12,
+    "bdpm_docs": 24
+  },
+  {
+    "drug_id": 8,
+    "name": "piroxicam",
+    "dailymed": 3,
+    "bdpm_cis": 18,
+    "bdpm_docs": 30
+  },
+  {
+    "drug_id": 9,
+    "name": "célécoxib",
+    "dailymed": 3,
+    "bdpm_cis": 23,
+    "bdpm_docs": 34
+  },
+  {
+    "drug_id": 10,
+    "name": "tramadol",
+    "dailymed": 3,
+    "bdpm_cis": 100,
+    "bdpm_docs": 34
+  },
+  {
+    "drug_id": 11,
+    "name": "paracétamol + codéine",
+    "dailymed": 0,
+    "bdpm_cis": 24,
+    "bdpm_docs": 32
+  },
+  {
+    "drug_id": 12,
+    "name": "néfopam",
+    "dailymed": 0,
+    "bdpm_cis": 9,
+    "bdpm_docs": 18
+  },
+  {
+    "drug_id": 13,
+    "name": "amoxicilline",
+    "dailymed": 3,
+    "bdpm_cis": 132,
+    "bdpm_docs": 36
+  },
+  {
+    "drug_id": 14,
+    "name": "amoxicilline + acide clavulanique",
+    "dailymed": 3,
+    "bdpm_cis": 0,
+    "bdpm_docs": 0
+  },
+  {
+    "drug_id": 15,
+    "name": "céfixime",
+    "dailymed": 3,
+    "bdpm_cis": 12,
+    "bdpm_docs": 24
+  },
+  {
+    "drug_id": 16,
+    "name": "céfuroxime",
+    "dailymed": 3,
+    "bdpm_cis": 23,
+    "bdpm_docs": 36
+  },
+  {
+    "drug_id": 17,
+    "name": "ceftriaxone",
+    "dailymed": 3,
+    "bdpm_cis": 39,
+    "bdpm_docs": 34
+  },
+  {
+    "drug_id": 18,
+    "name": "azithromycine",
+    "dailymed": 3,
+    "bdpm_cis": 24,
+    "bdpm_docs": 36
+  },
+  {
+    "drug_id": 19,
+    "name": "clarithromycine",
+    "dailymed": 3,
+    "bdpm_cis": 40,
+    "bdpm_docs": 34
+  },
+  {
+    "drug_id": 20,
+    "name": "ciprofloxacine",
+    "dailymed": 3,
+    "bdpm_cis": 39,
+    "bdpm_docs": 36
+  },
+  {
+    "drug_id": 21,
+    "name": "lévofloxacine",
+    "dailymed": 3,
+    "bdpm_cis": 19,
+    "bdpm_docs": 36
+  },
+  {
+    "drug_id": 22,
+    "name": "doxycycline",
+    "dailymed": 3,
+    "bdpm_cis": 16,
+    "bdpm_docs": 32
+  },
+  {
+    "drug_id": 23,
+    "name": "cotrimoxazole (sulfaméthoxazole + triméthoprime)",
+    "dailymed": 0,
+    "bdpm_cis": 6,
+    "bdpm_docs": 10
+  },
+  {
+    "drug_id": 24,
+    "name": "métronidazole",
+    "dailymed": 3,
+    "bdpm_cis": 42,
+    "bdpm_docs": 32
+  },
+  {
+    "drug_id": 25,
+    "name": "gentamicine",
+    "dailymed": 3,
+    "bdpm_cis": 5,
+    "bdpm_docs": 10
+  },
+  {
+    "drug_id": 26,
+    "name": "clindamycine",
+    "dailymed": 3,
+    "bdpm_cis": 14,
+    "bdpm_docs": 26
+  },
+  {
+    "drug_id": 27,
+    "name": "amlodipine",
+    "dailymed": 3,
+    "bdpm_cis": 167,
+    "bdpm_docs": 20
+  },
+  {
+    "drug_id": 28,
+    "name": "nifédipine",
+    "dailymed": 3,
+    "bdpm_cis": 7,
+    "bdpm_docs": 14
+  },
+  {
+    "drug_id": 29,
+    "name": "périndopril",
+    "dailymed": 3,
+    "bdpm_cis": 154,
+    "bdpm_docs": 26
+  },
+  {
+    "drug_id": 30,
+    "name": "ramipril",
+    "dailymed": 3,
+    "bdpm_cis": 69,
+    "bdpm_docs": 30
+  },
+  {
+    "drug_id": 31,
+    "name": "énalapril",
+    "dailymed": 3,
+    "bdpm_cis": 48,
+    "bdpm_docs": 36
+  },
+  {
+    "drug_id": 32,
+    "name": "losartan",
+    "dailymed": 3,
+    "bdpm_cis": 66,
+    "bdpm_docs": 36
+  },
+  {
+    "drug_id": 33,
+    "name": "valsartan",
+    "dailymed": 3,
+    "bdpm_cis": 130,
+    "bdpm_docs": 30
+  },
+  {
+    "drug_id": 34,
+    "name": "bisoprolol",
+    "dailymed": 3,
+    "bdpm_cis": 134,
+    "bdpm_docs": 36
+  },
+  {
+    "drug_id": 35,
+    "name": "aténolol",
+    "dailymed": 3,
+    "bdpm_cis": 33,
+    "bdpm_docs": 35
+  },
+  {
+    "drug_id": 36,
+    "name": "nébivolol",
+    "dailymed": 3,
+    "bdpm_cis": 37,
+    "bdpm_docs": 30
+  },
+  {
+    "drug_id": 37,
+    "name": "hydrochlorothiazide",
+    "dailymed": 3,
+    "bdpm_cis": 287,
+    "bdpm_docs": 34
+  },
+  {
+    "drug_id": 38,
+    "name": "indapamide",
+    "dailymed": 3,
+    "bdpm_cis": 56,
+    "bdpm_docs": 30
+  },
+  {
+    "drug_id": 39,
+    "name": "spironolactone",
+    "dailymed": 3,
+    "bdpm_cis": 39,
+    "bdpm_docs": 34
+  },
+  {
+    "drug_id": 40,
+    "name": "méthyldopa",
+    "dailymed": 3,
+    "bdpm_cis": 2,
+    "bdpm_docs": 4
+  }
+]

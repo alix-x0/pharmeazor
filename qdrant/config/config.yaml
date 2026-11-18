@@ -1,0 +1,14 @@
+log_level: INFO
+
+service:
+  host: 127.0.0.1
+  http_port: 6333
+  grpc_port: 6334
+  enable_dashboard: true
+
+storage:
+  storage_path: ./storage
+  snapshots_path: ./snapshots
+  on_disk_payload: true
+
+telemetry_disabled: true

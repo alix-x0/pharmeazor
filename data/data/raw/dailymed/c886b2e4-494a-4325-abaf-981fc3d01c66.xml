@@ -1,0 +1,1090 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="9139fc59-1c7a-446d-92ed-2581324664fc"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Doxycycline Tablets, USP</title>
+   <effectiveTime value="20261007"/>
+   <setId root="c886b2e4-494a-4325-abaf-981fc3d01c66"/>
+   <versionNumber value="7"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="918596198" root="1.3.6.1.4.1.519.1"/>
+            <name>Zydus Lifesciences Limited</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="918596198" root="1.3.6.1.4.1.519.1"/>
+                  <name>Zydus Lifesciences Limited</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="863362789" root="1.3.6.1.4.1.519.1"/>
+                        <name>Zydus Lifesciences Limited</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="70771-1006" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="70771-1007" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="70771-1008" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="70771-1009" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="70771-1006" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="70771-1007" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="70771-1008" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="70771-1009" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="677605858" root="1.3.6.1.4.1.519.1"/>
+                        <name>Zydus Lifesciences Limited</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="70771-1006" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="70771-1007" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="70771-1008" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="70771-1009" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="70771-1006" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="70771-1007" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="70771-1008" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="70771-1009" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="fbe663ac-ecf6-430f-924c-e0c14970d798"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL Product Data Elements Section"/>
+               <effectiveTime value="20261007"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="70771-1006" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Doxycycline</name>
+                        <formCode code="C42931" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET, FILM COATED"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Doxycycline</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="50" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="N12000U13O" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DOXYCYCLINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="334895S862" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DOXYCYCLINE ANHYDROUS</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CELLULOSE, MICROCRYSTALLINE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2S7830E561" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CROSPOVIDONE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="35SW5USQ3G" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>D&amp;C YELLOW NO. 10</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="L06K8R7DQK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C BLUE NO. 2</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="EX438O2MRT" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FERRIC OXIDE YELLOW</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3NXW29V3WO" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYPROMELLOSES</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3WJQ0SDW1A" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYETHYLENE GLYCOL, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6OZP39ZG8H" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYSORBATE 80</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SILICON DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="100" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="70771-1006-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20180111"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA209582" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20180111"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CE" code="C48330" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="YELLOW">
+                              <originalText>PALE YELLOW</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CE" code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND">
+                              <originalText>biconvex, beveled edged</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="PQ" value="7" unit="mm"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="INT" value="1"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">1121</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="70771-1007" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Doxycycline</name>
+                        <formCode code="C42931" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET, FILM COATED"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Doxycycline</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="75" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="N12000U13O" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DOXYCYCLINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="334895S862" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DOXYCYCLINE ANHYDROUS</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CELLULOSE, MICROCRYSTALLINE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2S7830E561" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CROSPOVIDONE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="1K09F3G675" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FERRIC OXIDE RED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="EX438O2MRT" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FERRIC OXIDE YELLOW</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3NXW29V3WO" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYPROMELLOSES</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="EWQ57Q8I5X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LACTOSE MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SILICON DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="8Z96QXD6UM" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TRIETHYL CITRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="100" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="70771-1007-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20180111"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA209582" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20180111"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CE" code="C48331" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORANGE">
+                              <originalText>CREAMISH ORANGE</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CE" code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND">
+                              <originalText>biconvex, beveled edged</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="PQ" value="8" unit="mm"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="INT" value="1"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">1122</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="70771-1008" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Doxycycline</name>
+                        <formCode code="C42931" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET, FILM COATED"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Doxycycline</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="100" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="N12000U13O" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DOXYCYCLINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="334895S862" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DOXYCYCLINE ANHYDROUS</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CELLULOSE, MICROCRYSTALLINE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2S7830E561" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CROSPOVIDONE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="35SW5USQ3G" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>D&amp;C YELLOW NO. 10</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="WZB9127XOA" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C RED NO. 40</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="EX438O2MRT" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FERRIC OXIDE YELLOW</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3NXW29V3WO" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYPROMELLOSES</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3WJQ0SDW1A" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYETHYLENE GLYCOL, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6OZP39ZG8H" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYSORBATE 80</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SILICON DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="50" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="70771-1008-7" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20180111"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="250" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="70771-1008-8" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20180111"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA209582" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20180111"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CE" code="C48330" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="YELLOW">
+                              <originalText>LEMON YELLOW TO BUFF COLORED</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CE" code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND">
+                              <originalText>biconvex, beveled edged</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="PQ" value="9" unit="mm"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="INT" value="1"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">1123</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="70771-1009" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Doxycycline</name>
+                        <formCode code="C42931" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET, FILM COATED"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Doxycycline</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="150" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="N12000U13O" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DOXYCYCLINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="334895S862" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DOXYCYCLINE ANHYDROUS</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CELLULOSE, MICROCRYSTALLINE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2S7830E561" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CROSPOVIDONE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="35SW5USQ3G" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>D&amp;C YELLOW NO. 10</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="1K09F3G675" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FERRIC OXIDE RED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="EX438O2MRT" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FERRIC OXIDE YELLOW</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3NXW29V3WO" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYPROMELLOSES</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="EWQ57Q8I5X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LACTOSE MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SILICON DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="8Z96QXD6UM" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TRIETHYL CITRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="30" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="70771-1009-3" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20180111"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="100" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="70771-1009-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20180111"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA209582" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20180111"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CE" code="C48331" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORANGE">
+                              <originalText>DARK ORANGE TO CREAMISH ORANGE</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CE" code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND">
+                              <originalText>biconvex, beveled edged</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="PQ" value="11" unit="mm"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="INT" value="2"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">1124</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="ID105">
+               <id root="94488429-1eca-446d-b7a5-3d04c827927b"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text/>
+               <effectiveTime value="20261007"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID108">
+               <id root="028139ac-c86a-4e42-9621-4f7dba486f93"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL.PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph ID="ID109">NDC 70771-1006-1</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Doxycycline Tablets, USP – 50 mg</content>
+                  </paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <paragraph>100 Tablets</paragraph>
+                  <paragraph>            </paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+                  <paragraph ID="ID111">NDC 70771-1007-1</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Doxycycline Tablets, USP – 75 mg</content>
+                  </paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <paragraph>100 Tablets</paragraph>
+                  <renderMultiMedia referencedObject="MM2"/>
+                  <paragraph ID="ID113">NDC 70771-1008-7</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Doxycycline Tablets, USP – 100 mg</content>
+                  </paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <paragraph>50 Tablets</paragraph>
+                  <renderMultiMedia referencedObject="MM3"/>
+                  <paragraph ID="ID115">NDC 70771-1009-1</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Doxycycline Tablets, USP – 150 mg</content>
+                  </paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <paragraph>100 Tablets</paragraph>
+                  <renderMultiMedia referencedObject="MM4"/>
+               </text>
+               <effectiveTime value="20261007"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Doxycycline Tablets USP, 50 mg</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="9139fc59-1c7a-446d-92ed-2581324664fc-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>Doxycycline Tablets USP, 75 mg</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="9139fc59-1c7a-446d-92ed-2581324664fc-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>Doxycycline Tablets USP, 100 mg</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="9139fc59-1c7a-446d-92ed-2581324664fc-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>Doxycycline Tablets USP, 150 mg</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="9139fc59-1c7a-446d-92ed-2581324664fc-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

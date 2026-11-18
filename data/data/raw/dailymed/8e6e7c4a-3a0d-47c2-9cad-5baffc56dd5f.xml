@@ -1,0 +1,916 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="8e6e7c4a-3a0d-47c2-9cad-5baffc56dd5f"/>
+   <code code="50578-4" codeSystem="2.16.840.1.113883.6.1" displayName="Prescription Animal Drug Label"/>
+   <title> ALLOXATE™<br/> (meloxicam)<br/> 5 mg/mL Solution for Injection</title>
+   <effectiveTime value="20260819"/>
+   <setId root="8e6e7c4a-3a0d-47c2-9cad-5baffc56dd5f"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="627265361"/>
+            <name>ASPEN VETERINARY RESOURCES®, LTD</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="985612369" root="1.3.6.1.4.1.519.1"/>
+                  <name>FELIX PHARMACEUTICALS PRIVATE LIMITED</name>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="8d2e7aeb-fd85-4ee9-88b1-48151da21c28"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20261006"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="46066-327" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>ALLOXATE<suffix/>
+                        </name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>meloxicam</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="5" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="VG2QF83CGL" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MELOXICAM</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="VG2QF83CGL" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>MELOXICAM</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="10" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43209" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, GLASS"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="46066-327-13" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="20" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43209" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, GLASS"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="46066-327-01" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANADA200727" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73583" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANADA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20240311"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CV" code="C48330" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="YELLOW">
+                              <originalText>Clear light Yellow to yellow colour solution</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38299" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SUBCUTANEOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="L313124ec-713f-4a2c-ae5e-82d2cc69f21c">
+               <id root="458dd483-34a6-4348-9f93-5260d5b302b5"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>SPL UNCLASSIFIED SECTION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Package Insert for Dogs</content>
+                  </paragraph>
+                  <paragraph>Non-steroidal anti-inflammatory drug for use in dogs and cats only</paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L7b27a310-d847-44a3-844d-d571ab94d585">
+               <id root="0b4909d3-c764-404e-8e5e-4fb13c96dedc"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>Caution:</title>
+               <text>
+                  <paragraph>Federal law restricts this drug to use by or on the order of a licensed veterinarian.</paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L75617d5d-fdbf-4997-8da1-83b0ac22b461">
+               <id root="10209dfc-dc88-45bf-8a29-cc39086a1ca9"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <title>BOXED WARNING SECTION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">WARNING: Repeated use of meloxicam in cats has been associated with acute renal failure and death. Do not administer additional injectable or oral meloxicam to cats. See Contraindications, Warnings, and Precautions for detailed information.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L1d4053c3-2868-4bfc-ad1f-f04644cac4bf">
+               <id root="b1383dd4-d3c1-413b-9caf-83ee6aeac1af"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>Description:</title>
+               <text>
+                  <paragraph>Meloxicam is a non-steroidal anti-inflammatory drug (NSAID) of the oxicam class. Each mL of this sterile product for injection contains meloxicam 5.0 mg, alcohol 15%, glycofurol 10%, poloxamer 188.5%, sodium chloride 0.6%, glycine 0.5% and meglumine 0.3%, in water for injection, pH adjusted with sodium hydroxide and hydrochloric acid.</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM1"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="meloxicam-structure.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L7d310b24-6538-451d-a038-39b980b0cc7c">
+               <id root="8fdb9fa2-5c58-43fa-a866-27f5ea6486eb"/>
+               <code code="50745-9" codeSystem="2.16.840.1.113883.6.1" displayName="VETERINARY INDICATIONS SECTION"/>
+               <title>Indications:</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">﻿Dogs:</content>Alloxate<sup>TM</sup>(meloxicam) 5mg/mL Solution for Injection is indicated in dogs for the control of pain and inflammation associated with osteoarthritis.</paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L50a9c2a4-da13-4bd6-bdd1-ad7c75b96353">
+               <id root="fdfd0cda-21c9-441f-a527-1855a2e61730"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>Dosage and Administration:</title>
+               <text>
+                  <paragraph>Carefully consider the potential benefits and risk of Alloxate (meloxicam)and other treatment options before deciding to use Aloxate (meloxicam) 5mg/mL Solution for Injection. Use the lowest effective dose for the shortest duration consistent with individual response.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Dogs:</content>Alloxate (meloxicam) 5 mg/mL Solution for Injection shouldbe administered initially as a single dose at 0.09 mg/lb (0.2 mg/kg) body weight intravenously (IV) or subcutaneously (SQ), followed, after 24 hours, by meloxicam oral suspension at the daily dose of 0.045 mg/lb (0.1 mg/kg) body weight, either mixed with food or placed directly in the mouth.</paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L8ba5db5d-fab6-4e3c-9099-50fd98aae06a">
+               <id root="536aa23a-059d-4fae-a0e7-5c214e984f92"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>Contraindications:</title>
+               <text>
+                  <paragraph>Dogs with known hypersensitivity to meloxicam should not receive Alloxate (meloxicam) 5 mg/mL Solution for Injection.</paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Ld95fbeb9-cb6e-447a-ad13-42aa671286fc">
+               <id root="faf75a6d-b749-4109-935e-5056c52f6a71"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>Warnings:</title>
+               <text>
+                  <paragraph>Not for use in humans. Keep this and all medications out of reach of children. Consult a physician in case of accidental ingestion by humans. For IV or SQ injectable use in dogs. All dogs should undergo a thorough history and physical examination before administering any NSAID. Appropriate laboratory testing to establish hematological and serum biochemical baseline data is recommended prior to, and periodically during use of any NSAID in dogs.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Owner should be advised to observe their dogs for signs of potential drug toxicity.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Ldfc2d630-ff95-45d2-81f5-f12d72fe3152">
+               <id root="dd558c8f-0de9-45bc-862d-c13ad2dffe46"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>Precautions:</title>
+               <text>
+                  <paragraph>The safe use of Alloxate (meloxicam) 5 mg/mL Solution for Injectionin dogs younger than 6 months of age, dogs used for breeding, or in pregnant or lactating bitches has not been evaluated. Meloxicam is not recommended for use in dogs with bleeding disorders, as safety has not been established in dogs with these disorders. Safety has not been established for intramuscular (IM) administration in dogs. When administering Alloxate (meloxicam) 5 mg/mL Solution for Injection, use a syringe of appropriate size to ensure precise dosing. As a class, cyclo-oxygenase inhibitory NSAIDs may be associated with gastrointestinal, renal and hepatic toxicity. Sensitivity to drug-associated adverse events varies with the individual patient. Dogs that have experienced adverse reactions from one NSAID may experience adverse reactions from another NSAID. Patients at greatest risk for renal toxicity are those that are dehydrated, on concomitant diuretic therapy, or those with existing renal, cardiovascular, and/or hepatic dysfunction. Concurrent administration of potentially nephrotoxic drugs should be carefully approached. NSAIDs may inhibit the prostaglandins that maintain normal homeostatic function. Such anti-prostaglandin effects may result in clinically significant disease in patients with underlying or preexisting disease that has not been previously diagnosed.</paragraph>
+                  <paragraph>Since NSAIDs possess the potential to induce gastrointestinal ulcerations and/or perforations, concomitant use with other anti-inflammatory drugs, such as NSAIDs or corticosteroids, should be avoided. If additional pain medication is needed after the administration of the total daily dose of meloxicam oral suspension, a non-NSAID or no corticosteroid class of analgesia should be considered. The use of another NSAID is not recommended. Consider appropriate washout times when switching from corticosteroid use or from one NSAID to another in dogs. The use of concomitantly protein-bound drugs with Alloxate (meloxicam) 5 mg/mL Solution for Injection hasnot been studied in dogs. Commonly used protein-bound drugs include cardiac, anticonvulsant and behavioral medications. The influence of concomitant drugs that may inhibit metabolism of Alloxate (meloxicam) 5 mg/mL Solution for Injection has notbeen evaluated. Drug compatibility should be monitored in patients requiring adjunctive therapy. The effect of cyclo-oxygenase inhibition and the potential for thromboembolic occurrence or a hypercoagulable state has not been studied.</paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L613e612e-c7e9-4fd8-a822-64ca6a7ce0bf">
+               <id root="720a50f1-d97b-43d9-be9e-49f7cb134793"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>Adverse Reactions:</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Dogs:</content> A field study involving 224 dogs was conducted. Based on the results of this study, GI abnormalities (vomiting, soft stools, diarrhea, and inappetence) were the most common adverse reactions associated with the administration of meloxicam. The following table lists adverse reactions and the numbers of dogs that experienced them during the study. Dogs may have experienced more than one episode of the adverse reaction during the study.</paragraph>
+                  <table cellspacing="0" cellpadding="0" border="0">
+                     <tbody>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" colspan="3" align="center" valign="middle">
+                              <br/>
+                              <content styleCode="bold">Adverse Reactions Observed During Field Study</content>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="center" valign="middle">
+                              <br/>
+                              <content styleCode="bold">Clinical Observation</content>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/>
+                              <br/>
+                              <content styleCode="bold">Meloxicam (n = 109)</content>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/>
+                              <br/>
+                              <content styleCode="bold">Placebo (n=115)</content>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="center" valign="middle">
+                              <br/>Vomiting</td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/>31</td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/>15</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="center" valign="middle">
+                              <br/>Diarrhea/Soft Stool</td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/>15</td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/>11</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="center" valign="middle">
+                              <br/>Inappetence</td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/>3</td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/>0</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="center" valign="middle">
+                              <br/>Bloody Stool</td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/>1</td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/>0</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>In foreign suspected adverse drug reaction (SADR) reporting, adverse reactions related to meloxicam administration included: auto-immune hemolytic anemia (1 dog), thrombocytopenia (1 dog), polyarthritis (1 dog), nursing puppy lethargy (1 dog), and pyoderma (1 dog).</paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L9c0af567-bf83-4a27-9e71-5a6bc59d8390">
+               <id root="3b04ca92-4798-457d-9a10-357a1a4a22c9"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>Post-Approval Experience (Rev. 2009):</title>
+               <text>
+                  <paragraph>The following adverse reactions are based on post-approval adverse drug event reporting. The categories are listed in decreasing order of frequency by body system:<br/> Gastrointestinal: <content styleCode="italics">vomiting, diarrhea, melena, gastrointestinal ulceration</content>
+                     <br/> Urinary: <content styleCode="italics">azotemia, elevated creatinine, renal failure</content>
+                     <br/> Neurological/Behavioral: <content styleCode="italics">lethargy, depression</content>
+                     <br/> Hepatic:<content styleCode="italics"> elevated liver enzymes</content>
+                     <br/> Dermatologic: <content styleCode="italics">pruritus</content>
+                  </paragraph>
+                  <paragraph>Death has been reported as an outcome of the adverse events listed above. <content styleCode="bold">Acute renal failure and death have been associated with the use of meloxicam in cats.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Unclassified_Section_14">
+               <id root="73dca247-00b9-4e89-9856-78409f105304"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>CONTACT INFORMATION:</title>
+               <text>
+                  <paragraph>To report suspected adverse drug experiences contact the manufacturer at 1-833-571-1525. For technical assistance or to obtain a copy of the Safety Data Sheet (SDS), contact Aspen Veterinary Resources at info@aspenveterinaryresources.com. For additional information about adverse drug experience reporting for animal drugs, contact FDA at 1-888-FDA-VETS or online at http://www.fda.gov/reportanimalae</paragraph>
+                  <br/>
+               </text>
+               <effectiveTime value="20261006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Ld58734cc-32ff-4fc9-aa49-eaa61df92ec0">
+               <id root="2e30eca1-2ec5-4382-bafa-b3c25384c528"/>
+               <code code="50744-2" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR OWNERS/CAREGIVERS SECTION"/>
+               <title>Information for Dog Owners:</title>
+               <text>
+                  <paragraph>Meloxicam, like other NSAIDs, is not free from adverse reactions. Owners should be advised of the potential for adverse reactions and be informed of the clinical signs associated with NSAID intolerance. Adverse reactions may include vomiting, diarrhea, lethargy, decreased appetite and behavioral changes. Dog owners should be advised when their pet has received a meloxicam injection. Dog owners should contact their veterinarian immediately if possible adverse reactions are observed, and dog owners should be advised to discontinue Alloxate therapy.</paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lcb55197d-676b-4d1c-8eda-5ae8abc54062">
+               <id root="2d3ce9d8-c58e-46a8-b90c-08666a0bd9e1"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>Clinical Pharmacology:</title>
+               <text>
+                  <paragraph>Meloxicam has nearly 100% bioavailability when administered orally or after subcutaneous injection in dogs. The terminal elimination half-life after a single dose is estimated to be approximately 24 hrs (+/- 30%) in dogs regardless of route of administration. Drug bioavailability, volume of distribution, and total systemic clearance remain constant up to 5 times the recommended dose for use in dogs. However, there is some evidence of enhanced drug accumulation and terminal elimination half-life prolongation when dogs are dosed for 45 days or longer.</paragraph>
+                  <paragraph>Peak drug concentrations of 0.734 mcg/mL can be expected to occur within 2.5 hours following a 0.2 mg/kg subcutaneous injection in dogs. Based upon intravenous administration in Beagle dogs, the meloxicam volume of distribution in dogs (Vdλ) is approximately 0.32 L/kg and the total systemic clearance is 0.01 L/hr/kg. The drug is 97% bound to canine plasma proteins.</paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L92ba3688-372e-4186-a8fc-73260adb18dd">
+               <id root="a3d2ad8a-9ece-4b29-8d82-e1f53e0d3322"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>Effectiveness:</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Dogs:</content> The effectiveness of meloxicam injection was demonstrated in a field study involving a total of 224 dogs representing various breeds, all diagnosed with osteoarthritis. This placebo-controlled, masked study was conducted for 14 days. Dogs received a subcutaneous injection of 0.2 mg/kg meloxicam injection on day 1. The dogs were maintained on 0.1 mg/kg oral meloxicam from days 2 through 14. Variables evaluated by veterinarians included lameness, weight-bearing, pain on palpation, and overall improvement. Variables assessed by owners included mobility, ability to rise, limping, and overall improvement. In this field study, dogs showed clinical improvement with statistical significance after 14 days of meloxicam treatment for all variables.</paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L5dde1cbd-d3a6-48df-94ee-54df9e758b76">
+               <id root="f2938381-6eef-46c8-be9f-2d49179db53d"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>Animal Safety:</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Dogs: 3 Day Target Animal Safety Study</content> - In a three day safety study, meloxicam injection was administered intravenously to Beagle dogs at 1, 3, and 5 times the recommended dose (0.2, 0.6 and 1.0 mg/kg) for three consecutive days. Vomiting occurred in 1 of 6 dogs in the 5X group. Fecal occult blood was detected in 3 of 6 dogs in the 5X group. No clinically significant hematologic changes were seen, but serum chemistry changes were observed. Serum alkaline phosphatase (ALP) was significantly increased in one 1X dog and two of the 5X dogs.<br/>One dog in the 5X group had a steadily increasing GGT over 4 days, although the values remained within the reference range. Decreases in total protein and albumin occurred in 2 of 6 dogs in the 3X group and 3 of 6 dogs in the 5X group. Increases in blood urea nitrogen (BUN) occurred in 3 of 6 dogs in the 1X group, 2 of 6 dogs in the 3X group and 2 of 6 dogs in the 5X group. Increased creatinine occurred in 2 dogs in the 5X group. Increased urine protein excretion was noted in 2 of 6 dogs in the control group, 2 of 6 dogs in the 1X group, 2 of 6 dogs in the 3X group, and 5 of 6 dogs in the 5X group. Two dogs in the 5X group developed acute renal failure by Day 4. Bicarbonate levels were at or above normal levels in 1 of the 3X dogs and 2 of the 5X dogs.</paragraph>
+                  <paragraph>Histological examination revealed gastrointestinal lesions ranging from superficial mucosal hemorrhages and congestion to erosions. Mesenteric lymphadenopathy was identified in 2 of 6 dogs in the 1X group, 4 of 6 dogs in the 3X group, and 5 of 6 dogs in the 5X group. Renal changes ranged from dilated medullary and cortical tubules and inflammation of the interstitium, to necrosis of the tip of the papilla in 2 of 6 dogs in the 1X group, 2 of 6 dogs in the 3X group, and 4 of 6 dogs in the 5X group.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Injection Site Tolerance</content> - Meloxicam injection was administered once subcutaneously to Beagle dogs at the recommended dose of 0.2 mg/kg and was well-tolerated by the dogs. Pain upon injection was observed in one of eight dogs treated with meloxicam. No pain or inflammation was observed post-injection. Long term use of meloxicam injection in dogs has not been evaluated.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Effect on Buccal Mucosal Bleeding Time (BMBT)</content> - Meloxicam (0.2 mg/kg) and placebo (0.4 mL/kg) were administered as single intravenous injections to 8 female and 16 male Beagle dogs. There was no statistically significant difference (p&gt;0.05) in the average BMBT between the two groups.</paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L1cf69fb8-6c02-405b-9bd0-2e22de2fdd40">
+               <id root="9dc2ce85-77f8-42e3-9dbc-89271ce393ff"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <title>Storage Information:</title>
+               <text>
+                  <paragraph>Store at 20° to 25°C (68° to 77°F); excursions permitted between 15° and 30°C (59° and 86°F) [see USP Controlled Room Temperature].</paragraph>
+                  <paragraph>Use contents within 6 months of first puncture.</paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L2205212d-2a3e-4bb6-9938-6903b016e2c7">
+               <id root="5fc41123-027b-4e91-8e6b-c20715020276"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>How Supplied:</title>
+               <text>
+                  <paragraph>Alloxate<sup>TM</sup>(meloxicam) 5 mg/mL Solution for Injection: 10 mL vial and 20 mL vial<br/> NDC no. 46066-327-13-10 mL<br/> NDC no. 46066-327-20mL</paragraph>
+                  <paragraph>Approved by FDA under ANADA # 200-727</paragraph>
+                  <paragraph>
+                     <content styleCode="bold"> Manufactured for:</content>
+                  </paragraph>
+                  <paragraph>Aspen Veterinary Resources LTD,</paragraph>
+                  <paragraph>Liberty, MD 64068</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">pivetalvet.com</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Made in India</content>
+                  </paragraph>
+                  <paragraph>
+                     <br/> Neutral Code No. HP/Drugs/MB/13/859</paragraph>
+                  <paragraph>Rev. 06/26</paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lbe658a6f-1271-4156-b0b0-5e496c89b54c">
+               <id root="0f84ca71-7dc5-418f-a783-580cf0a7c844"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>Alloxate<sup>TM</sup> (meloxicam) 5 mg/mL Solution for Injection</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Package Insert for Cats</content>
+                  </paragraph>
+                  <paragraph>Non-steroidal anti-inflammatory drug for use in dogs and cats only</paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lb0f927f3-3bd1-4b26-923b-2b48adb86d14">
+               <id root="c077589b-2725-4478-a255-d973e4dfd5e9"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>Caution:</title>
+               <text>
+                  <paragraph>Federal law restricts this drug to use by or on the order of a licensed veterinarian.</paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L0a81421c-4428-400d-ba5a-f5f6c379f622">
+               <id root="a1baa736-1fac-45dd-96fb-53562d70de7b"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <title>BOXED WARNING SECTION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">WARNING: Repeated use of meloxicam in cats has been associated with acute renal failure and death. Do not administer additional injectable or oral meloxicam to cats. See Contraindications, Warnings, and Precautions for detailed information.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lcf5c5711-e39a-4ca4-be19-4b97d7e2b618">
+               <id root="d0c442f3-6fac-4a94-86cf-79cb983a619a"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>Description:</title>
+               <text>
+                  <paragraph>Meloxicam is a non-steroidal anti-inflammatory drug (NSAID) of the oxicam class. Each mL of this sterile product for injection contains meloxicam 5.0 mg, alcohol 15%, glycofurol 10%, poloxamer 188. 5%, sodium chloride 0.6%, glycine 0.5% and meglumine 0.3%, in water for injection, pH adjusted with sodium hydroxide and hydrochloric acid.</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM2"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="chemical-structure-meloxicam.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Lee3aa209-9241-4d5e-b03b-eed2b89e76b5">
+               <id root="1e04b8d1-c2f2-4504-95a9-de8de88b1cf1"/>
+               <code code="50745-9" codeSystem="2.16.840.1.113883.6.1" displayName="VETERINARY INDICATIONS SECTION"/>
+               <title>Indications:</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Cats:</content> For the control of postoperative pain and inflammation associated with orthopedic surgery, ovariohysterectomy and castration when administered prior to surgery.</paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Ld6cc61bc-f247-4fdc-bfdb-4e0aad72a129">
+               <id root="b03d492d-27df-456e-a743-e24c6622bcaa"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>Dosage and Administration:</title>
+               <text>
+                  <paragraph>Carefully consider the potential benefits and risk of Alloxate (meloxicam) and other treatment options before deciding to use Alloxate 5mg/mL Solution for Injection. Use the lowest effective dose for the shortest duration consistent with individual response.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Cats:</content> Administer a<content styleCode="bold"> single, one-time subcutaneous </content>
+                     <content styleCode="bold">dose</content> of Alloxate (meloxicam) 5mg/mL Solution for Injection to cats at a dose of 0.14 mg/lb (0.3 mg/kg) bodyweight. <content styleCode="bold">Use of additional meloxicam or other NSAIDs is contraindicated. (See Contraindications).</content> To ensure accuracy of dosing, the use of a 1 mL graduated syringe is recommended.</paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L387366c4-11a2-4fc5-bdcd-2eac9c6d6329">
+               <id root="e410b7b8-e65b-4cb3-a862-e387a9d99811"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>Contraindications:</title>
+               <text>
+                  <paragraph>Cats with known hypersensitivity to meloxicam should not receive Alloxate 5mg/mL Solution for Injection. Additional doses of meloxicam or other NSAIDs in cats are contraindicated, as no safe dosage for repeated NSAID administration has been established <content styleCode="bold">(See Animal Safety). Do not use meloxicam in cats with pre-existing renal dysfunction.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L6abe7568-5855-4483-a6fa-44595deb33de">
+               <id root="4da858b0-86bb-4a15-961d-325cb7402157"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>Warnings:</title>
+               <text>
+                  <paragraph>Not for use in humans. Keep this and all medications out of reach of children. Consult a physician in case of accidental ingestion by humans. For subcutaneous (SQ) injectable use in cats. Do not use IV in cats.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Do not administer a second dose of meloxicam.</content>
+                     <br/>
+                     <content styleCode="bold">Do not follow the single, one-time dose of meloxicam with any other NSAID.</content>
+                     <br/>
+                     <content styleCode="bold">Do not administer meloxicam oral suspension following the single, one-time injectable dose of meloxicam.</content>
+                  </paragraph>
+                  <paragraph>When administering any NSAID, appropriate laboratory testing to establish hematological and serum biochemical baseline data is recommended prior to use in dogs and cats. All cats should undergo a thorough history and physical examination before administering meloxicam. <content styleCode="bold">Do not repeat the single, one-time dose of meloxicam in cats.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"> Owner should be advised to observe their cats for signs of potential drug toxicity.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lde1a77fe-6029-42bb-ac9b-c91e3f68cd81">
+               <id root="de1cc00a-4d6c-489d-99c3-3450db038fec"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>Precautions:</title>
+               <text>
+                  <paragraph>The safe use of Alloxate 5mg/mL Solution for Injection in cats younger than 4 months of age, cats used for breeding, or in pregnant or lactating queens has not been evaluated.</paragraph>
+                  <paragraph>Meloxicam is not recommended for use in cats with bleeding disorders, as safety has not been established in cats with these disorders. Safety has not been established for intravenous (IV) or intramuscular (IM) use in cats. When administering Alloxate 5mg/mL Solution for Injection, use a syringe of appropriate size to ensure precise dosing.</paragraph>
+                  <paragraph>As a class, cyclo-oxygenase inhibitory NSAIDs may be associated with gastrointestinal, renal, and hepatic toxicity. Sensitivity to drug-associated<br/> adverse events varies with the individual patient. Cats that have experienced adverse reactions from one NSAID may experience adverse reactions from another NSAID. NSAIDs may inhibit the prostaglandins that maintain normal homeostatic function. Such anti-prostaglandin effects may result in clinically significant disease in patients with underlying or pre-existing disease that has not been previously diagnosed.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Patients at greatest risk for adverse events are those that are dehydrated, on concomitant diuretic therapy, or those with existing renal, cardiovascular, and/or hepatic dysfunction.</content> Concurrent administration of potentially nephrotoxic drugs should be carefully approached and monitored. <content styleCode="bold">Anesthetic drugs may affect renal perfusion; approach concomitant use of anesthetics and NSAIDs cautiously. Appropriate monitoring procedures should be employed during all surgical procedures. The use of perioperative parenteral fluids is recommended to decrease potential renal complications when using NSAIDs. If additional pain medication is needed after the single one-time dose of meloxicam, a non-NSAID class of analgesic may be necessary.</content>
+                  </paragraph>
+                  <paragraph>In one study<sup>1</sup>, one cat in each NSAID treatment group had increased intraoperative hemorrhage.</paragraph>
+                  <paragraph>Since NSAIDs possess the potential to induce gastrointestinal ulcerations and/or gastrointestinal perforation, concomitant use of meloxicam with other anti-inflammatory drugs, such as NSAIDs or corticosteroids, should be avoided.</paragraph>
+                  <paragraph>Consider appropriate washout times when switching from corticosteroid use to meloxicam in cats.<content styleCode="bold"> As a single use product in cats, meloxicam should not be followed by additional NSAIDs or corticosteroids.</content>
+                  </paragraph>
+                  <paragraph>The use of concomitantly protein-bound drugs with Alloxate 5mg/mL Solution for Injection has not been studied in cats. Commonly used protein-bound drugs include cardiac, anticonvulsant and behavioral medications. The influence of concomitant drugs that may inhibit metabolism of Meloxicam Injection has not been evaluated. Drug compatibility should be monitored in patients requiring adjunctive therapy. The effect of cyclo-oxygenase inhibition and the potential for thromboembolic occurrence or a hypercoagulable state has not been studied.</paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L700e0bc0-9c88-4f9e-90e8-6b61ac522e07">
+               <id root="4960f3dc-f786-466d-bd92-dc8ebc8bcef7"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>Adverse Reactions:</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Cats:</content> A field study involving 138 cats was conducted. Of the 72 cats receiving meloxicam injection, six cats (8.3%) experienced post-treatment elevated serum blood urea nitrogen (BUN) levels. The pre-treatment values were in the normal range. Of the 66 cats in the butorphanol treatment group, no cats experienced post-treatment elevated serum blood urea nitrogen levels. Nine cats (12.5%) receiving meloxicam Injection had post-treatment anemia. Pre-treatment, these cats all had hematocrit and hemoglobin values in the normal range. Four cats (6.1%) in the butorphanol treatment group had post-treatment anemia. All but one cat, who had a mild anemia pre-treatment (hematocrit = 21% and hemoglobin = 7.0 g/dL) had normal pre-treatment values. Twenty-four hours after the injection with meloxicam injection, one cat experienced pain upon palpation of the injection site.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Foreign Experience:</content>
+                     <br/>
+                     <content styleCode="bold">Repeated use in cats has been associated with acute renal failure and death.</content> In studies used for the foreign approval of meloxicam injection in cats, lethargy, vomiting, inappetance, and transient pain immediately after injection were noted. Diarrhea and fecal occult blood have also been reported.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Post-Approval Experience (Rev. 2009):</content>
+                  </paragraph>
+                  <paragraph>The following adverse reactions are based on post-approval adverse drug event reporting. The categories are listed in decreasing order of frequency by body system:<br/> Urinary: <content styleCode="italics">azotemia, elevated creatine, elevated phosphorus, renal failure</content>
+                     <br/> Gastrointestinal: <content styleCode="italics">anorexia, vomiting, diarrhea</content>
+                     <br/> Neurologic/Behavioral: <content styleCode="italics">lethargy, depression</content>
+                     <br/> Hematologic: <content styleCode="italics">anemia</content>
+                  </paragraph>
+                  <paragraph>Death has been reported as an outcome of the adverse events listed above. <content styleCode="bold">Acute renal failure and death have been associated with the use of meloxicam in cats.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Unclassified_Section_15">
+               <id root="644565f6-bbe7-45e0-a48a-e3a058796d17"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>CONTACT INFORMATION:</title>
+               <text>
+                  <paragraph>To report suspected adverse drug experiences contact the manufacturer at 1-833-571-1525. For technical assistance or to obtain a copy of the Safety Data Sheet (SDS), contact Aspen Veterinary Resources at info@aspenveterinaryresources.com. For additional information about adverse drug experience reporting for animal drugs, contact FDA at 1-888-FDA-VETS or online at http://www.fda.gov/reportanimalae</paragraph>
+                  <br/>
+                  <br/>
+                  <br/>
+               </text>
+               <effectiveTime value="20261006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lbddb6e9c-b7f7-4232-aaa6-911a3f46d535">
+               <id root="7156d61b-d243-4cf1-a673-262761883c44"/>
+               <code code="50744-2" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR OWNERS/CAREGIVERS SECTION"/>
+               <title>Information For Cat Owners:</title>
+               <text>
+                  <paragraph>Meloxicam, like other NSAIDs, is not free from adverse reactions. Owners should be advised of the potential for adverse reactions and be informed of the clinical signs associated with NSAID intolerance. Adverse reactions may include vomiting, diarrhea, lethargy, decreased appetite and behavioral changes.<br/> Cat owners should be advised when their pet has received Alloxate<sup>TM</sup>(meloxicam) 5mg/mL Solution for Injection. Cat owners should contact their veterinarian immediately if possible adverse reactions are observed.</paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lac784e47-ad5f-490b-9001-10f1d0db58ba">
+               <id root="bca82965-4234-4788-a250-4a79615135ec"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>Clinical Pharmacology:</title>
+               <text>
+                  <paragraph>Meloxicam has nearly 100% bioavailability after subcutaneous injection in cats. The terminal elimination half life after a single dose is estimated to be approximately 15 hrs (+/-10%) in cats. Peak drug concentrations of 1.1 mcg/mL can be expected to occur within 1.5 hours following a 0.3 mg/kg subcutaneous injection in cats. The volume of distribution (Vdλ) in cats is approximately 0.27 L/kg, with an estimated total systemic clearance of 0.013 L/hr/kg. The drug is 97% bound to feline plasma proteins.</paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L8a1aef51-fd45-4206-9ad0-08f87187be70">
+               <id root="0e39cdba-b5bf-40db-a084-bba710c783b4"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>Effectiveness:</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Cats:</content> The effectiveness of meloxicam injection was demonstrated in a masked field study involving a total of 138 cats representing various breeds. This study used butorphanol as an active control. Cats received either a single subcutaneous injection of 0.3 mg/kg meloxicam injection or 0.4 mg/kg butorphanol prior to onychectomy, either alone or in conjunction with surgical neutering. All cats were premedicated with acepromazine, induced with propofol and maintained on isoflurane. Pain assessment variables evaluated by veterinarians included additional pain intervention therapy, gait/lameness score, analgesia score, sedation score, general impression score, recovery score, and visual analog scale score. Additionally, a cumulative pain score, which was the summation of the analgesia, sedation, heart rate and respiratory rate scores was evaluated. A palpometer was used to quantify the pain threshold.</paragraph>
+                  <paragraph>A substantial number of cats required additional intervention in the 0-24 hour postsurgical period, with the majority of these interventions taking place within the first hour. Therefore, the percentage of cats in each group that received one or more interventions was designated as the primary assessment variable. Approximately half of the cats in each group received a pain intervention as a result of the first (time 0) post-surgical evaluation, i.e., extubation. At this point, the need to provide a pain intervention was not statistically significant between the two groups (p=0.7215). However, the median number of interventions was one per cat in the meloxicam group and two per cat in the butorphanol group and this difference was statistically significant (p=0.0021). The statistical evaluation supports the conclusion that the meloxicam test article is non-inferior to the butorphanol active control. Forty-eight of the 72 cats in the meloxicam group received one or more interventions (66.7%), and 47 of 66 cats in the butorphanol group received one or more interventions (71.2%). The number of interventions administered to the meloxicam group was less than the butorphanol group at 1, 3, 5, 8, 12, and 24 hours post-surgery.</paragraph>
+                  <paragraph>Cats receiving meloxicam injection showed improvement in the pain assessment variables.</paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L894c8a67-1339-40f1-a35c-8e2b1c9b0a3e">
+               <id root="365706a7-1366-4e74-90c5-bc324fcc8eab"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>Animal Safety:</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Cats: 3 Day Target Animal Safety Study</content> - In a three day safety study, subcutaneous meloxicam injection administration to healthy cats at up to 1.5 mg/kg (5X the recommended dose) resulted in vomiting in three cats (1 of 6 control cats and 2 of 6 cats in 5X) and loose stools in four cats (2 of 6 control cats and 2 of 6 cats in 5X). Fecal occult blood was detected in ten of the twenty four cats, including two cats in the control group. This was not a dose-related event.</paragraph>
+                  <paragraph>Clinically significant hematologic changes seen included increased PT and APTT in two cats (1 of 6 control cats and 1 of 6 cats in 5X), and elevated white blood cell counts in cats having renal or GI tract lesions. Serum chemistry changes observed included decreased total protein in four of 24 cats (1 of 6 cats in 1X, 2 of 6 cats in 3X and 1 of 6 cats in 5X), concomitant increases in blood urea nitrogen (BUN) and creatinine values in 2 of 6 cats in 5X.</paragraph>
+                  <paragraph>Histological examination revealed gastrointestinal lesions ranging from inflammatory cell infiltration of the mucosa of the GI tract to erosions. Mesenteric lymphadenopathy was identified in 1 of 6 cats in 1X. Renal changes ranged from dilated medullary (2 of 6 cats in 1X, 1 of 6 cats in 3X, and 1 of 6 cats in 5X) and cortical (3 of 6 cats in 1X, 1 of 6 cats in 3X, and 3 of 6 cats in 5X) tubules and inflammation (2 of 6 cats in 1X, 2 of 6 cats in 3X, and 2 of 6 cats in 5X) or fibrosis (2 of 6 cats in 3X and 2 of 6 cats in 5X) of the interstitium to necrosis of the tip of the papilla (5 of 6 cats in 5X).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Subsequent oral dosing</content> - In a nine day study with three treatment groups, meloxicam injection was given as a single subcutaneous injection using doses of 0 mg/kg (saline injection), 0.3 mg/kg and 0.6 mg/kg on Day 0. Meloxicam oral suspension, 1.5 mg/mL or saline was then administered orally once-daily at the same respective dose (0.3 or 0.6 mg/kg) for eight consecutive days. Clinical adverse reactions included vomiting, diarrhea, lethargy, and decreased food consumption in the treated groups, and one day of diarrhea in one control cat. The gross necropsy report includes observation of reddened GI mucosa in 3 of 4 cats in the 0.3 mg/kg group and 1 of 4 cats in the 0.6 mg/kg group. All saline-treated cats were normal. By Day 9, one cat in both the 0.3 mg/kg group and the 0.6 mg/kg group died and another cat in the 0.3 mg/kg group was moribund. The cause of death for these cats could not be determined, although the pathologist reported pyloric/duodenal ulceration in the cats in 0.6 mg/kg group. The safety studies demonstrate a narrow margin of safety.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Injection Site Tolerance</content> - Histopathology of the injection sites revealed hemorrhage and inflammation, myofiber atrophy, panniculitis, fibrin deposition, and fibroblast proliferation. These findings were present in cats in all groups, with the 3X cats having the most present. No safe repeat dose has been established in cats.</paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L38ce3781-5bc5-455c-9797-82a84faf0357">
+               <id root="5d35cb8d-dc8d-4015-9a78-22602d5dcd4f"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>Storage Information:</title>
+               <text>
+                  <paragraph>Store at 20° to 25°C (68° to 77°F); excursions permitted between 15° and 30°C (59° and 86°F) [see USP Controlled Room Temperature].</paragraph>
+                  <paragraph>Use contents within 6 months of first puncture.</paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L3623bf84-009a-42ee-9f59-7e0d390e6060">
+               <id root="4f6b7629-a230-4710-a5bd-80796f2e316f"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>How Supplied:</title>
+               <text>
+                  <paragraph>Alloxate<sup>TM</sup>(meloxicam) 5 mg/mL Solution for Injection: 10 mL vial and 20 mL vial</paragraph>
+                  <paragraph>NDC no. 46066-327-13 - 10 mL<br/> NDC no. 46066-327-01 - 20 mL</paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L9f5097b5-edab-4988-8d0b-1f22213d40c8">
+               <id root="464ad74f-028e-4a50-be74-a4b5544e2c3e"/>
+               <code code="34093-5" codeSystem="2.16.840.1.113883.6.1" displayName="REFERENCES SECTION"/>
+               <title>Reference:</title>
+               <text>
+                  <paragraph>1 Slingsby L.S., A.E. Waterman-Pearson. Comparison between meloxicam and carprofen for postoperative analgesia after feline ovariohysterectomy. Jour of Small Anim Pract (2002)43:286-289.</paragraph>
+                  <paragraph>Approved by FDA under ANADA # 200-727</paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L78485795-7c09-4cba-8fe4-b70a6d334b5f">
+               <id root="06f6c922-697b-453e-89d1-ab18118c3627"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>SPL UNCLASSIFIED SECTION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Manufactured for:</content>
+                     <br/> Aspen Veterinary Resources LTD.,<br/> Liberty, MD 64068<br/>
+                     <content styleCode="bold">pivetalvet.com</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Made in India</content>
+                  </paragraph>
+                  <paragraph>
+                     <br/> Neutral Code No. HP/Drugs/MB/13/859</paragraph>
+                  <paragraph>Rev. 06/26</paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L3d2eed2d-a403-467e-a0b5-3299ccbde768">
+               <id root="f0295a6a-2e8d-485e-bfa0-0d5c91aea04c"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel -10 mL Carton</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="underline">10 mL Carton:</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NDC 46066-327-13</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"> ALLOXATE<sup>TM</sup> (meloxicam)</content>
+                     <br/>
+                     <content styleCode="bold">5 mg/mL Solution for Injection</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"> Caution:</content>Federal law restricts this drug to use by or on the order of a licensed veterinarian.</paragraph>
+                  <paragraph>Non-steroidal anti-inflammatory drug for use in dogs and cats only</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Net Contents: 10 mL</content>
+                  </paragraph>
+                  <paragraph>Approved by FDA under ANADA # 200-727</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM3"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>10mL_carton</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="10mlcarton.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L09b7fcb9-429c-4014-bab0-558236a804de">
+               <id root="d78ba031-2234-48ca-af8d-87d93c656774"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel - 10 mL Vial Label</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="underline">10 mL Vial:</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NDC 46066-327-13</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"> ALLOXATE<sup>TM</sup> (meloxicam)</content>
+                     <br/>
+                     <content styleCode="bold">5 mg/mL Solution for Injection</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"> Caution:</content>Federal law restricts this drug to use by or on the order of a licensed veterinarian.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Net Contents: 10 mL</content>
+                  </paragraph>
+                  <paragraph>Approved by FDA under ANADA #200-727</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM4"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>10mL_vial</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="10ml-vial.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_17">
+               <id root="e12fb3b8-c81c-443b-8d9a-87469d4d5527"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel -20 mL Carton</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="underline">20 mL Carton:</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NDC 46066-327-01</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"> ALLOXATE<sup>TM</sup> (meloxicam)</content>
+                     <br/>
+                     <content styleCode="bold">5 mg/mL Solution for Injection</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"> Caution:</content>Federal law restricts this drug to use by or on the order of a licensed veterinarian.</paragraph>
+                  <paragraph>Non-steroidal anti-inflammatory drug for use in dogs and cats only</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Net Contents: 20 mL</content>
+                  </paragraph>
+                  <paragraph>Approved by FDA under ANADA # 200-727</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM5"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+               <component>
+                  <observationMedia ID="MM5">
+                     <text>20mL-carton</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="20ml-carton.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_18">
+               <id root="83110224-5474-4e13-bb6d-a85b283557da"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel - 20 mL Vial Label</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="underline">20 mL Vial:</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NDC 46066-327-01</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"> ALLOXATET<sup>M</sup> (meloxicam)</content>
+                     <br/>
+                     <content styleCode="bold">5 mg/mL Solution for Injection</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Caution:</content>Federal law restricts this drug to use by or on the order of a licensed veterinarian.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Net Contents: 20 mL</content>
+                  </paragraph>
+                  <paragraph>Approved by FDA under ANADA # 200-727</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM6"/>
+                  </paragraph>
+                  <br/>
+               </text>
+               <effectiveTime value="20261006"/>
+               <component>
+                  <observationMedia ID="MM6">
+                     <text>20mL_vial</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="20ml-vial.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="dbc1e2a4-061a-4607-9299-e05013d7ae36"/>
+   <code code="50578-4" codeSystem="2.16.840.1.113883.6.1" displayName="PRESCRIPTION ANIMAL DRUG LABEL"/>
+   <title>Mometamax Single<sup>®</sup>
+      <br/> (gentamicin, posaconazole, and<br/>mometasone furoate otic suspension)</title>
+   <effectiveTime value="20261105"/>
+   <setId root="3e47c561-8c1d-4639-95d4-6ed14ca2c118"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="001317601" root="1.3.6.1.4.1.519.1"/>
+            <name>Merck Sharp &amp; Dohme Corp.</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="DLDE">
+               <id root="c633e6bb-f19d-4cda-869a-afea669fc8f5"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20261105"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0061-5432" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Mometamax Single</name>
+                        <formCode code="C42994" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SUSPENSION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>gentamicin, posaconazole, and mometasone furoate otic suspension</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="8.6" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="8X7386QRLV" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GENTAMICIN SULFATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="T6Z9V48IKG" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>GENTAMICIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIR">
+                           <quantity>
+                              <numerator value="2.1" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="MTW0WEG809" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MOMETASONE FUROATE MONOHYDRATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="8HR4QJ6DW8" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>MOMETASONE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                              <asEquivalentSubstance>
+                                 <definingSubstance>
+                                    <code code="04201GDN4R" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>MOMETASONE FUROATE</name>
+                                 </definingSubstance>
+                              </asEquivalentSubstance>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="2.6" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="6TK1G07BHZ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POSACONAZOLE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="6TK1G07BHZ" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>POSACONAZOLE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="24" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43170" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, DISPENSING"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0061-5432-01" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NADA141600" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73593" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NADA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20250429"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38192" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="AURICULAR (OTIC)"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="6a933e50-1f23-41e5-9567-9123278a07b7"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">For Otic Use in Dogs Only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do not use in cats</content>
+                  </paragraph>
+                  <paragraph>Antibacterial, antifungal, and anti-inflammatory</paragraph>
+               </text>
+               <effectiveTime value="20261105"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="aaaca1a4-ad79-4d87-ac31-d2c65c277273"/>
+               <code code="50741-8" codeSystem="2.16.840.1.113883.6.1" displayName="SAFE HANDLING WARNING SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Caution:</content> Federal law restricts this drug to use by or on the order of a licensed veterinarian.</paragraph>
+               </text>
+               <effectiveTime value="20261105"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="d0b6af74-4697-4e8e-879a-d46a663032f6"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">DESCRIPTION:</content>
+                  </paragraph>
+                  <paragraph>Each milliliter of Mometamax Single contains gentamicin sulfate, equivalent to 8.6 mg gentamicin; 2.6 mg of posaconazole; and mometasone furoate monohydrate, equivalent to 2.1 mg mometasone furoate, in a mineral oil-based system containing a plasticized hydrocarbon gel.</paragraph>
+                  <paragraph>A 0.8 mL dose volume of Mometamax Single delivers approximately 6.88 mg gentamicin, 2.08 mg posaconazole, and 1.68 mg mometasone furoate.</paragraph>
+               </text>
+               <effectiveTime value="20261105"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="6f1f8ce0-4b61-4a69-ac35-9f926bc3b32d"/>
+               <code code="50745-9" codeSystem="2.16.840.1.113883.6.1" displayName="VETERINARY INDICATIONS SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">INDICATIONS:</content>
+                  </paragraph>
+                  <paragraph>Mometamax Single is indicated for the treatment of otitis externa associated with susceptible strains of yeast (<content styleCode="italics">Malassezia pachydermatis</content>) and bacteria (<content styleCode="italics">Staphylococcus pseudintermedius</content> and <content styleCode="italics">Pseudomonas aeruginosa</content>) in dogs.</paragraph>
+               </text>
+               <effectiveTime value="20261105"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="f05b1661-bb9d-4716-9a2a-f2c7a99a276a"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">DOSAGE AND ADMINISTRATION:</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Mometamax Single should be administered by veterinary personnel.</content> The dose volume is 0.8 mL per affected ear.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Verify the tympanic membrane is intact prior to administration</content> (see <content styleCode="bold">
+                        <linkHtml href="#Contraindications">Contraindications</linkHtml>, <linkHtml href="#ASWP">Animal Safety Warnings and Precautions</linkHtml>
+                     </content>).</paragraph>
+                  <table width="75%" styleCode="Noautorules">
+                     <col width="80%" align="left" valign="top"/>
+                     <col width="20%" align="right" valign="middle"/>
+                     <tbody>
+                        <tr>
+                           <td rowspan="3">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>1.</caption>Clean and dry the external ear canal before administering the product.</item>
+                                 <item>
+                                    <caption>2.</caption>
+                                    <content styleCode="bold">Shake bottle vigorously for 15 seconds.</content>
+                                 </item>
+                                 <item>
+                                    <caption>3.</caption>Before first use, unwrap the syringe with the attached adapter.</item>
+                                 <item>
+                                    <caption>4.</caption>Remove the cap from the bottle and insert the syringe with the attached adapter by pressing it firmly into the top of the bottle using the attached syringe (see figure <content styleCode="bold">
+                                       <linkHtml href="#figureA">A</linkHtml>
+                                    </content>).</item>
+                                 <item>
+                                    <caption>5.</caption>Invert the bottle and draw up 0.8 mL (see figure <content styleCode="bold">
+                                       <linkHtml href="#figureB">B</linkHtml>
+                                    </content>).</item>
+                                 <item>
+                                    <caption>6.</caption>Return the bottle to an upright position and remove the syringe from the adapter. Leave the adapter in place in the bottle for all subsequent uses.</item>
+                                 <item>
+                                    <caption>7.</caption>Replace the cap on the bottle.</item>
+                                 <item>
+                                    <caption>8.</caption>Place the tip of the syringe at the entrance of the external ear canal and administer the 0.8 mL dose (see figure <content styleCode="bold">
+                                       <linkHtml href="#figureC">C</linkHtml>
+                                    </content>). The applied dose will flow into the ear canal.</item>
+                                 <item>
+                                    <caption>9.</caption>Gently massage the base of the ear to ensure distribution of the product throughout the ear canal.</item>
+                                 <item>
+                                    <caption>10.</caption>
+                                    <content styleCode="bold">Restrain the dog post-application to minimize head shaking</content> and to reduce potential splatter of product and accidental eye exposure in people and dogs.</item>
+                              </list>
+                           </td>
+                           <td>
+                              <renderMultiMedia referencedObject="MM1" ID="figureA"/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <renderMultiMedia referencedObject="MM2" ID="figureB"/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <renderMultiMedia referencedObject="MM3" ID="figureC"/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>11.</caption>Use a new syringe for each affected ear. <content styleCode="bold">Shake the bottle vigorously</content> (with the cap on the bottle to prevent leakage) <content styleCode="bold">for 15 seconds before drawing up each new dose.</content>
+                                 </item>
+                                 <item>
+                                    <caption>12.</caption>The duration of the effect should last 33 days. Cleaning the ear after dosing may affect product effectiveness.</item>
+                                 <item>
+                                    <caption>13.</caption>Only twenty doses can be accurately withdrawn from the bottle. Discard the bottle 3 months after opening or after 20 doses, whichever comes first.</item>
+                              </list>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20261105"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Figure A</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="mometamax-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>Figure B</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="mometamax-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>Figure C</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="mometamax-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Contraindications">
+               <id root="65fe6ca8-af86-4f96-8abd-f082205a1c5d"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">CONTRAINDICATIONS:</content>
+                  </paragraph>
+                  <paragraph>Do not use in dogs with known tympanic membrane perforation (see <content styleCode="bold">
+                        <linkHtml href="#ASWP">Animal Safety Warnings and Precautions</linkHtml>
+                     </content>).</paragraph>
+                  <paragraph>Do not use in dogs with known or suspected hypersensitivity to gentamicin, posaconazole, or mometasone furoate.</paragraph>
+               </text>
+               <effectiveTime value="20261105"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="096468ae-077f-4a4a-8e27-0218a1646464"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">WARNINGS AND PRECAUTIONS:</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20261105"/>
+               <component>
+                  <section ID="USW">
+                     <id root="33f663b5-bce3-4b73-ae3c-18782f5928fc"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">USER SAFETY WARNINGS:</content>
+                        </paragraph>
+                        <paragraph>Not for human use. Keep this and all drugs out of the reach of children. In case of accidental ingestion by humans, contact a physician immediately.</paragraph>
+                        <paragraph>In case of accidental skin contact, wash area thoroughly with water.</paragraph>
+                        <paragraph>Avoid contact with eyes. If contact with the eyes occurs, flush thoroughly with water for at least 15 minutes. If wearing contact lenses, rinse eyes first then remove the contact lenses and continue to rinse. If symptoms develop, seek medical advice.</paragraph>
+                        <paragraph>Humans with known hypersensitivity to gentamicin, posaconazole, and/or mometasone furoate should avoid handling this product.</paragraph>
+                     </text>
+                     <effectiveTime value="20261105"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ASWP">
+               <id root="aca1c924-77ad-4eed-8dd6-2aca617d3b41"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">ANIMAL SAFETY WARNINGS AND PRECAUTIONS:</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For otic use in dogs only. Do not use in cats.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Restrain the dog to minimize post-application head shaking.</content> Reducing the potential for splatter of product helps prevent accidental eye exposure in people and dogs (see <content styleCode="bold">
+                        <linkHtml href="#USW">Dosage and Administration, User Safety Warnings</linkHtml>
+                     </content>).</paragraph>
+                  <paragraph>The use of Mometamax Single in dogs with perforated tympanic membranes has not been evaluated. The integrity of the tympanic membrane should be confirmed before administering the product. Reevaluate the dog if hearing loss or signs of vestibular dysfunction are observed during treatment.</paragraph>
+                  <paragraph>Do not administer orally.</paragraph>
+                  <paragraph>Use of topical otic corticosteroids has been associated with adrenocortical suppression and iatrogenic hyperadrenocorticism in dogs (see <content styleCode="bold">
+                        <linkHtml href="#TAS">Target Animal Safety</linkHtml>
+                     </content>).</paragraph>
+                  <paragraph>Use with caution in dogs with impaired renal function. Gentamicin, one of the active ingredients in Mometamax Single, is associated with nephrotoxicity.</paragraph>
+                  <paragraph>The safe use of Mometamax Single in dogs used for breeding purposes, during pregnancy, or during lactation has not been evaluated.</paragraph>
+               </text>
+               <effectiveTime value="20261105"/>
+            </section>
+         </component>
+         <component>
+            <section ID="AR">
+               <id root="d7fad8b6-ba71-4a0b-aa65-b506b5bdbe2e"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">ADVERSE REACTIONS:</content>
+                  </paragraph>
+                  <paragraph>The following adverse reactions were reported during the course of a U.S. field study for treatment of otitis externa in dogs treated with Mometamax Single.</paragraph>
+                  <paragraph>Frequency of Adverse Reactions by Treatment</paragraph>
+                  <table width="65%">
+                     <col width="35%" align="left" valign="top"/>
+                     <col width="33%" align="center" valign="middle"/>
+                     <col width="32%" align="center" valign="middle"/>
+                     <thead>
+                        <tr>
+                           <th styleCode="Lrule Rrule">Adverse Reaction</th>
+                           <th styleCode="Rrule">Mometamax Single<br/>(N=245)</th>
+                           <th styleCode="Rrule">Control<br/>(N=127)</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">Vomiting</td>
+                           <td styleCode="Rrule">21 (8.6%)</td>
+                           <td styleCode="Rrule">4 (3.1%)</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">Decreased appetite</td>
+                           <td styleCode="Rrule">9 (3.7%)</td>
+                           <td styleCode="Rrule">2 (1.6%)</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">Pruritus</td>
+                           <td styleCode="Rrule">8 (3.3%)</td>
+                           <td styleCode="Rrule">2 (1.6%)</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">Ear pruritus</td>
+                           <td styleCode="Rrule">7 (2.9%)</td>
+                           <td styleCode="Rrule">1 (0.8%)</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule">Disorientation</td>
+                           <td styleCode="Rrule">3 (1.2%)</td>
+                           <td styleCode="Rrule">0 (0.0%)</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20261105"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="dd5fdfaf-8136-43bc-a3cd-a4e7fa4b08f5"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">CONTACT INFORMATION:</content>
+                  </paragraph>
+                  <paragraph>For technical information or to report a suspected adverse event, please contact Merck Animal Health at 1-800-224-5318 or https://www.merck-animal-health-usa.com. Safety Data Sheets (SDSs) can be found at https://www.merck.com/products/safety-data-sheets/#.</paragraph>
+                  <paragraph>For additional information about reporting adverse drug experiences for animal drugs, contact FDA at 1-888-FDA-VETS or www.fda.gov/reportanimalae.</paragraph>
+               </text>
+               <effectiveTime value="20261105"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="89f22861-2f1b-461c-92df-6f2322504846"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">CLINICAL PHARMACOLOGY:</content>
+                  </paragraph>
+                  <paragraph>Mometamax Single is a combination of three active ingredients: gentamicin (antibacterial), posaconazole (antifungal), and mometasone furoate (steroidal anti-inflammatory). Gentamicin is an aminoglycoside bactericidal antibiotic which acts by binding to the 30S ribosomal subunit leading to inhibition of bacterial protein synthesis. Posaconazole is a triazole antifungal which selectively inhibits an enzyme involved in the biosynthesis of ergosterol. Mometasone furoate is a corticosteroid that binds to glucocorticoid receptors resulting in anti-inflammatory activity.</paragraph>
+               </text>
+               <effectiveTime value="20261105"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="b131d72d-b909-4a22-9def-87628510fb5e"/>
+               <code code="49489-8" codeSystem="2.16.840.1.113883.6.1" displayName="MICROBIOLOGY SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">MICROBIOLOGY:</content>
+                  </paragraph>
+                  <paragraph>The compatibility and additive effect of each of the components in Mometamax Single was demonstrated in an <content styleCode="italics">in vitro</content> non-interference study which utilized organisms collected from clinical cases of otitis externa in dogs. It determined that gentamicin and posaconazole inhibit the growth of bacteria and yeast commonly associated with otitis externa in dogs. No synergistic or antagonistic effect of the two antimicrobials was demonstrated. The addition of mometasone furoate to the combination did not impair antimicrobial activity.</paragraph>
+                  <paragraph>In a field effectiveness study, each target microbial species (<content styleCode="italics">S. pseudintermedius</content>, <content styleCode="italics">P. aeruginosa</content>, and <content styleCode="italics">M. pachydermatis</content>) was successfully treated in at least 10 or more dogs receiving Mometamax Single (see <content styleCode="bold">
+                        <linkHtml href="#effectiveness">Effectiveness</linkHtml>
+                     </content>).</paragraph>
+               </text>
+               <effectiveTime value="20261105"/>
+            </section>
+         </component>
+         <component>
+            <section ID="effectiveness">
+               <id root="97aafa8b-21f3-4072-88db-1de329454732"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">EFFECTIVENESS:</content>
+                  </paragraph>
+                  <paragraph>In a multicenter, well-controlled, randomized, double-masked field study, Mometamax Single was evaluated against a vehicle control in 372 dogs with otitis externa. Two hundred forty-five dogs were administered Mometamax Single, and 127 dogs were administered the vehicle control. Treatment (0.8 mL) was administered once on Day 0 to the affected ear(s). Prior to treatment, the ear(s) was cleaned with saline. Dogs were evaluated on Days 0, 7, 14, and 33. Blood work and urinalysis were obtained on Day 0 pre-treatment and on Day 33 at study completion. Four clinical signs associated with otitis externa were evaluated: erythema, swelling, ulceration, and exudate. Success was based on clinical improvement on Day 33. Of the 163 dogs included in the effectiveness evaluation, 80.5% of dogs administered Mometamax Single were successfully treated, compared to 19.6% of dogs administered the vehicle control (p&lt;0.0001).</paragraph>
+                  <paragraph>No clinically relevant treatment-related findings were noted in safety parameters.</paragraph>
+               </text>
+               <effectiveTime value="20261105"/>
+            </section>
+         </component>
+         <component>
+            <section ID="TAS">
+               <id root="74afe4af-1635-4d05-8851-2da254d3e991"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">TARGET ANIMAL SAFETY:</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Margin of Safety Study</content>: Mometamax Single was administered to 11- to 12-week-old puppies (4 dogs/sex/group) with 1×, 3×, or 5× the labeled dose of 0.8 mL/ear to both ears once every two weeks for a total of 3 doses on Days 1, 15, and 29. The control group received vehicle control on the same dosing schedule. No treatment-related effects on food consumption, body weights, clinical observations, physical examinations, otoscopic examinations, hearing assessments, electrocardiography, ophthalmic examinations, coagulation parameters, serum chemistry, urinalysis, fecal evaluations, or gross pathology were observed. Mometamax Single administration was associated with mild eosinopenia in the 3× and 5× groups and suppression of serum cortisol levels in the 1×, 3×, and 5× groups. On Day 30, two of eight 1× dogs and all 3× and 5× dogs had suppressed baseline cortisol levels. All control and 1× dogs had normal post-ACTH stimulation cortisol response levels. Seven of eight dogs in each of the 3× and 5× groups had suppressed ACTH stimulation responses but remained within the normal reference range.</paragraph>
+                  <paragraph>The low baseline and post-ACTH test cortisol levels correlated with the pathology results of lower mean adrenal weights and mild atrophy of the adrenal cortex in the 3× and 5× groups. Histopathology demonstrated mild atrophy of the external auditory canal epidermis and mild atrophy of the external surface of the tympanic membrane in the 1×, 3×, and 5× groups. One male in the 3× group and one male in the 5× group had a minimal epidermal erosion/ulcer in the external auditory canal of one ear, whereas this finding was not noted in the control or 1× treatment groups.</paragraph>
+               </text>
+               <effectiveTime value="20261105"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="13c5f588-eb8d-458c-9196-7d3fa451c38d"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">STORAGE CONDITIONS:</content>
+                  </paragraph>
+                  <paragraph>Store at temperatures between 2°-30°C (36°-86°F). Discard 3 months after opening or after 20 doses, whichever comes first.</paragraph>
+               </text>
+               <effectiveTime value="20261105"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="abc4ef20-fabd-48b2-aa2e-e94aa9e24893"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">HOW SUPPLIED:</content>
+                     <br/>Mometamax Single (gentamicin, posaconazole, and mometasone furoate otic suspension) is supplied in a bottle containing 24 mL (20 doses) co-packaged with one plastic-wrapped dosing syringe with attached bottle adapter, and 19 additional dosing syringes.</paragraph>
+               </text>
+               <effectiveTime value="20261105"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="8630f20f-a69c-4558-8b5d-6ae73ad6936b"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Approved by FDA under NADA # 141-600</paragraph>
+                  <paragraph>Made in Germany.</paragraph>
+                  <paragraph>Distributed by Intervet Inc. (d/b/a Merck Animal Health), Rahway, NJ 07065.<br/>Copyright © 2026 Merck &amp; Co., Inc., Rahway, NJ, USA and its affiliates. All rights reserved.</paragraph>
+                  <paragraph>Rev. 09/2026</paragraph>
+                  <paragraph>256994 R1</paragraph>
+               </text>
+               <effectiveTime value="20261105"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="b6da7314-4b63-44a7-9377-97acd8a774ff"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 24 mL Bottle Carton</title>
+               <text>
+                  <paragraph>Mometamax Single<sup>®</sup>
+                     <br/> (gentamicin, posaconazole, and<br/>mometasone furoate otic suspension)</paragraph>
+                  <paragraph>Mometamax Single is indicated for the treatment of otitis<br/>externa associated with susceptible strains of yeast<br/>(Malassezia pachydermatis) and bacteria (Staphylococcus<br/>pseudintermedius and Pseudomonas aeruginosa) in dogs.</paragraph>
+                  <paragraph>For Otic Use<br/>in Dogs Only</paragraph>
+                  <paragraph>Do Not Use in Cats</paragraph>
+                  <renderMultiMedia referencedObject="MM4"/>
+               </text>
+               <effectiveTime value="20261105"/>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>PRINCIPAL DISPLAY PANEL - 24 mL Bottle Carton</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="mometamax-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

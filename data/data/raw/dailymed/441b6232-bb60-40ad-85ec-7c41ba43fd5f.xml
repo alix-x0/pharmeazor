@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="d2043aee-85be-421c-90af-5e3899d92adf"/>
+   <code code="50577-6" codeSystem="2.16.840.1.113883.6.1" displayName="OTC ANIMAL DRUG LABEL"/>
+   <title>Garasol<sup>®</sup>
+      <br/> (gentamicin injection)</title>
+   <effectiveTime value="20260206"/>
+   <setId root="441b6232-bb60-40ad-85ec-7c41ba43fd5f"/>
+   <versionNumber value="6"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="001317601" root="1.3.6.1.4.1.519.1"/>
+            <name>Merck Sharp &amp; Dohme Corp.</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="DLDE">
+               <id root="cdcb3447-c5df-4cb4-9d1c-c56b3a04747c"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20260206"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0061-0134" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>GARASOL</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>GENTAMICIN SULFATE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="100" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="8X7386QRLV" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GENTAMICIN SULFATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="T6Z9V48IKG" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>GENTAMICIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="100" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0061-0134-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43210" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, MULTI-DOSE"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NADA101862" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73593" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NADA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19830727"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38299" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SUBCUTANEOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="b6348a07-b1a4-4712-9b22-65859d8735dc"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Injection – 100 mg/mL<br/> Anti-Infective for<br/> Day-Old Chickens and<br/> One- to Three-Day-Old<br/> Turkeys</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">PRODUCT<br/> INFORMATION</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Approved by FDA under NADA # 101-862</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260206"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="33e84cfa-93ad-4547-8313-9bee7ed973c8"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">CAUTION</content> Federal law restricts this drug to use by or on the order of a licensed veterinarian</paragraph>
+               </text>
+               <effectiveTime value="20260206"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="70688880-8b5b-46b8-9d39-2842fc89712e"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">DESCRIPTION</content> Each milliliter of GARASOL Injection contains 100 mg gentamicin base (equivalent to 156 mg gentamicin sulfate); 3.2 mg sodium bisulfite; 0.1 mg edetate disodium; 4.5 mg sodium acetate, anhydrous; 3.0 mg glacial acetic acid; 0.8 mg methylparaben and 0.1 mg propylparaben as preservatives; water for injection q.s.</paragraph>
+               </text>
+               <effectiveTime value="20260206"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="c39f42a3-dae4-4422-bf75-f96a158ff315"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">CHEMISTRY</content> Gentamicin is a bactericidal aminoglycoside antibiotic derived from <content styleCode="italics">Micromonospora purpurea</content> of the Actinomycetes group. It is a powder, readily soluble in water and basic in nature. Gentamicin aqueous solutions do not require refrigeration and are stable overa wide range of temperatures and pH.</paragraph>
+               </text>
+               <effectiveTime value="20260206"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="44cc016e-7e8d-4033-b590-4924a8f24e15"/>
+               <code code="50745-9" codeSystem="2.16.840.1.113883.6.1" displayName="VETERINARY INDICATIONS SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">INDICATIONS</content> Day-old chickens – GARASOL Injection is recommended for the prevention of early mortality associated with <content styleCode="italics">Escherichia coli</content>, <content styleCode="italics">Salmonella typhimurium</content>, and <content styleCode="italics">Pseudomonas aeruginosa</content> susceptible to gentamicin sulfate. Turkeys – As an aid in the prevention of early mortality of 1- to 3-day-old turkeys associated with<content styleCode="italics"> Arizona paracolon</content> infections susceptible to gentamicin sulfate.</paragraph>
+               </text>
+               <effectiveTime value="20260206"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="aab8541b-6c9f-4afc-b246-00c9a9341abd"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <effectiveTime value="20260206"/>
+               <component>
+                  <section>
+                     <id root="f4d8cfbb-9078-4ba2-99ec-7ab96fa485c1"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>Chickens: Each day-old chicken should be aseptically injected subcutaneously in the neck with GARASOL Injection diluted with sterile, physiologic saline solution to provide 0.2 mg gentamicin in a 0.2-mL dose. This concentration can be provided by diluting GARASOL Injection as follows:</paragraph>
+                        <table width="55%">
+                           <col width="28%" align="center" valign="top"/>
+                           <col width="22%" align="center" valign="top"/>
+                           <col width="22%" align="center" valign="top"/>
+                           <col width="28%" align="center" valign="top"/>
+                           <thead>
+                              <tr>
+                                 <th valign="bottom">GARASOL<br/>mL</th>
+                                 <th valign="bottom">Sterile Saline<br/>mL  </th>
+                                 <th valign="bottom"># Doses</th>
+                                 <th valign="bottom">Dose/Chicken<br/>mL</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>1</td>
+                                 <td>99</td>
+                                 <td>500</td>
+                                 <td>0.2</td>
+                              </tr>
+                              <tr>
+                                 <td>2</td>
+                                 <td>198</td>
+                                 <td>1000</td>
+                                 <td>0.2</td>
+                              </tr>
+                              <tr>
+                                 <td>4</td>
+                                 <td>396</td>
+                                 <td>2000</td>
+                                 <td>0.2</td>
+                              </tr>
+                              <tr>
+                                 <td>10</td>
+                                 <td>990</td>
+                                 <td>5000</td>
+                                 <td>0.2</td>
+                              </tr>
+                              <tr>
+                                 <td>100 (1 bottle)</td>
+                                 <td>9900</td>
+                                 <td>50000</td>
+                                 <td>0.2</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20260206"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="1701394d-20f9-4afe-9e2f-e28a44131f7d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>Turkeys: Each 1- to 3-day-old turkey should be aseptically injected subcutaneously in the neck with GARASOL Injection diluted with sterile, physiologic saline solution to provide 1 mg gentamicin in a 0.2-mL dose. The dose should be injected under the loose skin on top of the neck, halfway between the head and base of the neck. This concentration can be provided by diluting GARASOL Injection as follows:</paragraph>
+                        <table width="55%">
+                           <col width="28%" align="center" valign="top"/>
+                           <col width="22%" align="center" valign="top"/>
+                           <col width="22%" align="center" valign="top"/>
+                           <col width="28%" align="center" valign="top"/>
+                           <thead>
+                              <tr>
+                                 <th valign="bottom">GARASOL<br/>mL</th>
+                                 <th valign="bottom">Sterile Saline<br/>mL  </th>
+                                 <th valign="bottom"># Doses</th>
+                                 <th valign="bottom">Dose/Turkey<br/>mL</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>1</td>
+                                 <td>19</td>
+                                 <td>100</td>
+                                 <td>0.2</td>
+                              </tr>
+                              <tr>
+                                 <td>2</td>
+                                 <td>38</td>
+                                 <td>200</td>
+                                 <td>0.2</td>
+                              </tr>
+                              <tr>
+                                 <td>4</td>
+                                 <td>76</td>
+                                 <td>400</td>
+                                 <td>0.2</td>
+                              </tr>
+                              <tr>
+                                 <td>10</td>
+                                 <td>190</td>
+                                 <td>1000</td>
+                                 <td>0.2</td>
+                              </tr>
+                              <tr>
+                                 <td>100 (1 bottle)</td>
+                                 <td>1900</td>
+                                 <td>10000</td>
+                                 <td>0.2</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>Clean and sterilize needles and syringes by boiling in water for 15 minutes prior to use.</paragraph>
+                        <paragraph>Disinfect the injection site and top of the bottle with a suitable disinfectant, such as 70% isopropyl alcohol.</paragraph>
+                        <paragraph>Use all precautions to prevent contamination of vial contents.</paragraph>
+                     </text>
+                     <effectiveTime value="20260206"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="758e73a7-af17-4bdb-af7d-6d7ab1593647"/>
+                     <code code="53412-3" codeSystem="2.16.840.1.113883.6.1" displayName="RESIDUE WARNING SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Residue Warnings</content> For use in day-old chickens and 1- to 3-day-old turkeys only. Chickens injected with GARASOL Injection must not be slaughtered for food for at least 5 weeks following treatment. Turkeys injected with GARASOL Injection must not be slaughtered for food for at least 9 weeks following treatment.</paragraph>
+                     </text>
+                     <effectiveTime value="20260206"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="6d0fac7b-4475-4f7e-86a1-0527342ffbb9"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">HOW SUPPLIED</content> GARASOL Injection, 100 mg/mL, is available in 100-mL multiple-dose vials, NDC 0061-0134-01.</paragraph>
+               </text>
+               <effectiveTime value="20260206"/>
+               <component>
+                  <section>
+                     <id root="73635f2b-4c68-42b9-ba31-18d2bfcf316d"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Store between 2° and 30°C (36° and 86°F). Use within 28 days of first puncture and puncture a maximum of 10 times.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20260206"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="e45b824d-cbf6-44a2-ba71-114be38255d3"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Intervet Inc. (d/b/a Merck Animal Health)<br/>Rahway, NJ 07065</paragraph>
+                  <paragraph>Formulated in Germany.</paragraph>
+                  <paragraph>Rev. 12/2025</paragraph>
+                  <paragraph>Copyright © 2025 Merck &amp; Co., Inc., Rahway, NJ,<br/>USA and its affiliates.<br/>All rights reserved.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">MERCK</content>
+                     <br/>Animal Health</paragraph>
+                  <paragraph>244432 R1</paragraph>
+               </text>
+               <effectiveTime value="20260206"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="f6bbc38e-ded7-463f-8366-99ce601db360"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 100 mL Vial Label</title>
+               <text>
+                  <paragraph>100 mg/mL</paragraph>
+                  <paragraph>Sterile</paragraph>
+                  <paragraph>Garasol<sup>®</sup>
+                     <br/>(gentamicin injection)<br/>Injection</paragraph>
+                  <paragraph>Caution: Federal law restricts<br/>this drug to use by or on the<br/>order of a licensed veterinarian</paragraph>
+                  <paragraph>(100 mL)</paragraph>
+                  <paragraph>Approved by FDA under<br/>NADA # 101-862</paragraph>
+                  <paragraph>MERCK<br/> Animal Health</paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+               </text>
+               <effectiveTime value="20260206"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>PRINCIPAL DISPLAY PANEL - 100 mL Vial Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="garasol-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

@@ -1,5 +1,7 @@
 # MedSafe Project Architecture and Technologies Report
 
+> **Status:** This is a legacy target-architecture report, not the canonical description of the current implementation. The current RCR mission and fixed test question are documented in [`README.md`](README.md) and [`evaluation/mission_and_test_question.md`](evaluation/mission_and_test_question.md). In particular, the BioMistral/CatBoost services described below are not present in the current `medsafe_api` source tree.
+
 ## Overview
 The MedSafe project is a modern, distributed web application designed as an intelligent drug-drug interaction checker tailored specifically for the Algerian market. It features a scalable microservices-style architecture consisting of a React-based frontend, a Django backend for core relational data and user management, and a dedicated high-performance FastAPI microservice (MedSafe API) handling complex machine learning and generative AI tasks.
 

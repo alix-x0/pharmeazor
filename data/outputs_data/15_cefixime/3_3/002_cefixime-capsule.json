@@ -1,0 +1,427 @@
+{
+  "source": "dailymed",
+  "source_priority": 3,
+  "drug_id": 15,
+  "language": "en",
+  "doc_type": "label",
+  "label_type": "HUMAN PRESCRIPTION DRUG LABEL",
+  "title": "CEFIXIME CAPSULE [REMEDYREPACK INC.]",
+  "brand": "CEFIXIME CAPSULE",
+  "dci": "",
+  "manufacturer": "REMEDYREPACK INC.",
+  "setid": "a5128554-118a-4d8e-8425-c0000037c59d",
+  "spl_version": "1",
+  "published_date": "Sep 24, 2026",
+  "effective_date": "20260922",
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a5128554-118a-4d8e-8425-c0000037c59d",
+  "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a5128554-118a-4d8e-8425-c0000037c59d",
+  "sections": [
+    {
+      "key": [
+        "indications",
+        "Indications and Usage"
+      ],
+      "label": "Indications and Usage",
+      "number": "34067-9",
+      "title": "1 INDICATIONS AND USAGE",
+      "text": "Cefixime is a cephalosporin antibacterial drug indicated in the treatment of adults and pediatric patients six months and older with the following infections:\n\nUncomplicated Urinary Tract Infections (\n\n 1.1)\n\nPharyngitis and Tonsillitis (\n\n 1.3)\n\nAcute Exacerbations of Chronic Bronchitis (\n\n 1.4)\n\nUncomplicated Gonorrhea (cervical/urethral) (\n\n 1.5)\n\nUsage to Reduce Development of Drug-Resistant Bacteria\n\n To reduce the development of drug-resistant bacteria and maintain the effectiveness of cefixime capsules and other antibacterial drugs, cefixime capsules should be used only to treat infections that are proven or strongly suspected to be caused by bacteria. (\n\n 1.6)"
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "1.1 Uncomplicated Urinary Tract Infections",
+      "text": "Cefixime capsules are indicated in the treatment of adults and pediatric patients six months of age or older with uncomplicated urinary tract infections caused by susceptible isolates of\n\n Escherichia coliand\n\n Proteus mirabilis."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "1.3 Pharyngitis and Tonsillitis",
+      "text": "Cefixime capsules are indicated in the treatment of adults and pediatric patients six months of age or older with pharyngitis and tonsillitis caused by susceptible isolates of\n\n Streptococcus pyogenes.(Note: Penicillin is the usual drug of choice in the treatment of\n\n Streptococcus pyogenesinfections. Cefixime capsules are generally effective in the eradication of\n\n Streptococcus pyogenesfrom the nasopharynx; however, data establishing the efficacy of cefixime capsules in the subsequent prevention of rheumatic fever is not available.)"
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "1.4 Acute Exacerbations of Chronic Bronchitis",
+      "text": "Cefixime capsules are indicated in the treatment of adults and pediatric patients six months of age or older with acute exacerbations of chronic bronchitis caused by susceptible isolates of\n\n Streptococcus pneumoniaeand\n\n Haemophilus influenzae."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "1.5 Uncomplicated Gonorrhea (cervical/urethral)",
+      "text": "Cefixime capsules are indicated in the treatment of adults and pediatric patients six months of age or older with uncomplicated gonorrhea (cervical/urethral) caused by susceptible isolates of\n\n Neisseria gonorrhoeae(penicillinase-and non-penicillinase-producing isolates)."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "1.6 Usage to Reduce Development of Drug-Resistant Bacteria",
+      "text": "To reduce the development of drug resistant bacteria and maintain the effectiveness of cefixime capsules and other antibacterial drugs, cefixime capsules should be used only to treat infections that are proven or strongly suspected to be caused by susceptible bacteria. When culture and susceptibility information are available, they should be considered in selecting or modifying antimicrobial therapy. In the absence of such data, local epidemiology and susceptibility patterns may contribute to the empiric selection of therapy."
+    },
+    {
+      "key": [
+        "posologie",
+        "Dosage and Administration"
+      ],
+      "label": "Dosage and Administration",
+      "number": "34068-7",
+      "title": "2 DOSAGE AND ADMINISTRATION",
+      "text": "Adults: 400 mg daily (\n\n 2.1)\n\nPediatric patients (6 months and older): 8 mg/kg/day (\n\n 2.2)"
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "2.1 Adults",
+      "text": "The recommended dose of cefixime capsule is 400 mg daily. This may be given as a 400 mg capsule daily. For the treatment of uncomplicated cervical/urethral gonococcal infections, a single oral dose of 400 mg is recommended. The capsule may be administered without regard to food.\n\nIn the treatment of infections due to\n\n Streptococcus pyogenes, a therapeutic dosage of cefixime should be administered for at least 10 days."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "2.2 Pediatric Patients (weighing more than 45 kg or older than 12 years)",
+      "text": "Pediatric patients weighing more than 45 kg or older than 12 years should be treated with the recommended adult dose. Clinical trials of otitis media were conducted with the chewable tablets or suspension, and the chewable tablets or suspension results in higher peak blood levels than the tablet when administered at the same dose. Therefore, the Suprax tablet or cefixime capsule should not be substituted for the Suprax chewable tablets or Suprax for oral suspension in the treatment of otitis media [\n\n see\n\n CLINICAL PHARMACOLOGY (12.3)\n].\n\nIn the treatment of infections due to\n\n Streptococcus pyogenes, a therapeutic dosage of cefixime should be administered for at least 10 days."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "2.3 Renal Impairment",
+      "text": "Cefixime may be administered in the presence of impaired renal function. Normal dose and schedule may be employed in patients with creatinine clearances of 60 mL/min or greater. Neither hemodialysis nor peritoneal dialysis removes significant amounts of drug from the body."
+    },
+    {
+      "key": [
+        "formes_et_dosages",
+        "Dosage Forms and Strengths"
+      ],
+      "label": "Dosage Forms and Strengths",
+      "number": "43678-2",
+      "title": "3 DOSAGE FORMS AND STRENGTHS",
+      "text": "Cefixime capsules are available for oral administration in the following dosage strength: \n\nCapsules provide 400 mg of cefixime USP as trihydrate. These are size “0” capsules with pink opaque cap imprinted with “CMI” and pink opaque body imprinted with “400” in black ink. Capsules contain white to yellowish white powder.\n\nCapsules: 400 mg (\n\n 3)"
+    },
+    {
+      "key": [
+        "contre_indications",
+        "Contraindications"
+      ],
+      "label": "Contraindications",
+      "number": "34070-3",
+      "title": "4 CONTRAINDICATIONS",
+      "text": "Cefixime capsules are contraindicated in patients with known allergy to cefixime or other cephalosporins.\n\nContraindicated in patients with known allergy to cefixime or other cephalosporins. (\n\n 4)"
+    },
+    {
+      "key": [
+        "mises_en_garde",
+        "Warnings and Precautions"
+      ],
+      "label": "Warnings and Precautions",
+      "number": "43685-7",
+      "title": "5 WARNINGS AND PRECAUTIONS",
+      "text": "Hypersensitivity reactions including shock and fatalities have been reported with cefixime. Discontinue use if a reaction occurs. (\n\n 5.1)\n\nClostridiodes difficile-Associated Diarrhea: Evaluate if diarrhea occurs. (\n\n 5.2)"
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "5.1 Hypersensitivity Reactions",
+      "text": "Anaphylactic/anaphylactoid reactions (including shock and fatalities) have been reported with the use of cefixime.\n\nBefore therapy with cefixime is instituted, careful inquiry should be made to determine whether the patient has had previous hypersensitivity reactions to cephalosporins, penicillins, or other drugs. If this product is to be given to penicillin-sensitive patients, caution should be exercised because cross hypersensitivity among beta-lactam antibacterial drugs has been clearly documented and may occur in up to 10% of patients with a history of penicillin allergy. If an allergic reaction to cefixime occurs, discontinue the drug."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "5.2",
+      "text": "Clostridioidesdifficile-\n\n associated diarrhea (CDAD) has been reported with use of nearly all antibacterial agents, including cefixime, and may range in severity from mild diarrhea to fatal colitis. Treatment with antibacterial agents alters the normal flora of the colon leading to overgrowth of\n\n C. difficile.\n\nC. difficileproduces toxins A and B which contribute to the development of CDAD. Hypertoxin producing isolates of\n\n C.\ndifficilecause increased morbidity and mortality, as these infections can be refractory to antimicrobial therapy and may require colectomy. CDAD must be considered in all patients who present with diarrhea following antibacterial drug use. Careful medical history is necessary since CDAD has been reported to occur over two months after the administration of antibacterial agents.\n\nIf CDAD is suspected or confirmed, ongoing antibacterial drug use not directed against\n\n C. difficilemay need to be discontinued. Appropriate fluid and electrolyte management, protein supplementation, antibacterial drug treatment of\n\n C. difficile,and surgical evaluation should be instituted as clinically indicated."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "5.3 Dose Adjustment in Renal Impairment",
+      "text": "The dose of cefixime should be adjusted in patients with renal impairment as well as those undergoing continuous ambulatory peritoneal dialysis (CAPD) and hemodialysis (HD). Patients on dialysis should be monitored carefully\n\n [see\n\n Dosage and Administration (2)]\n\n ."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "5.4 Coagulation Effects",
+      "text": "Cephalosporins, including cefixime, may be associated with a fall in prothrombin activity. Those at risk include patients with renal or hepatic impairment, or poor nutritional state, as well as patients receiving a protracted course of antimicrobial therapy, and patients previously stabilized on anticoagulant therapy. Prothrombin time should be monitored in patients at risk and exogenous vitamin K administered as indicated."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "5.5 Development of Drug-Resistant Bacteria",
+      "text": "Prescribing cefixime in the absence of a proven or strongly suspected bacterial infection is unlikely to provide benefit to the patient and increases the risk of the development of drug-resistant bacteria."
+    },
+    {
+      "key": [
+        "effets_indesirables",
+        "Adverse Reactions"
+      ],
+      "label": "Adverse Reactions",
+      "number": "34084-4",
+      "title": "6 ADVERSE REACTIONS",
+      "text": "Most common adverse reactions are gastrointestinal such as diarrhea (16%), nausea (7%), loose stools (6%), abdominal pain (3%), dyspepsia (3%), and vomiting. (\n\n 6) \n\nTo report SUSPECTED ADVERSE REACTIONS, contact Aurobindo Pharma USA, Inc. at 1-866-850-2876 or FDA at 1-800-FDA-1088 or\n\n www.fda.gov/medwatch."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "6.1 Clinical Trials Experience",
+      "text": "Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in practice.\n\nThe most commonly seen adverse reactions in U.S. trials of the Suprax tablet formulation were gastrointestinal events, which were reported in 30% of adult patients on either the twice daily or the once daily regimen. Five percent (5%) of patients in the U.S. clinical trials discontinued therapy because of drug-related adverse reactions. Individual adverse reactions included diarrhea 16%, loose or frequent stools 6%, abdominal pain 3%, nausea 7%, dyspepsia 3%, and flatulence 4%. The incidence of gastrointestinal adverse reactions, including diarrhea and loose stools, in pediatric patients receiving the suspension was comparable to the incidence seen in adult patients receiving tablets."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "6.2 Post-marketing Experience",
+      "text": "The following adverse reactions have been reported following the post-approval use of cefixime. Incidence rates were less than 1 in 50 (less than 2%).\n\nGastrointestinal\n\nSeveral cases of documented pseudomembranous colitis were identified in clinical trials. The onset of pseudomembranous colitis symptoms may occur during or after therapy.\n\nHypersensitivity Reactions\n\nAnaphylactic/anaphylactoid reactions (including shock and fatalities), skin rashes, urticaria, drug fever, pruritus, angioedema, and facial edema. Erythema multiforme, Stevens-Johnson syndrome, and serum sickness-like reactions have been reported.\n\nHepatic\n\nTransient elevations in SGPT, SGOT, alkaline phosphatase, hepatitis, jaundice.\n\nRenal\n\nTransient elevations in BUN or creatinine, acute renal failure.\n\nCentral Nervous System\n\nHeadaches, dizziness, seizures.\n\nHemic and Lymphatic System\n\nTransient thrombocytopenia, leukopenia, neutropenia, prolongation in prothrombin time, elevated LDH, pancytopenia, agranulocytosis, and eosinophilia.\n\nAbnormal Laboratory Tests\n\nHyperbilirubinemia.\n\nOther Adverse Reactions\n\nGenital pruritus, vaginitis, candidiasis, toxic epidermal necrolysis.\n\nAdverse Reactions Reported for Cephalosporin-class Drugs\n\nAllergic reactions, superinfection, renal dysfunction, toxic nephropathy, hepatic dysfunction including cholestasis, aplastic anemia, hemolytic anemia, hemorrhage, and colitis.\n\nSeveral cephalosporins have been implicated in triggering seizures, particularly in patients with renal impairment when the dosage was not reduced\n\n [see \n\n Dosage and Administration (2)and\n\n Overdosage (10)]\n\n . If seizures associated with drug therapy occur, the drug should be discontinued. Anticonvulsant therapy can be given if clinically indicated."
+    },
+    {
+      "key": [
+        "interactions",
+        "Drug Interactions"
+      ],
+      "label": "Drug Interactions",
+      "number": "34073-7",
+      "title": "7 DRUG INTERACTIONS",
+      "text": "Elevated carbamazepine levels have been reported in postmarketing experience when cefixime is administered concomitantly. (\n\n 7.1)\n\nIncreased prothrombin time, with or without clinical bleeding, has been reported when cefixime is administered concomitantly with warfarin and anticoagulants. (\n\n 7.2)"
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "7.1 Carbamazepine",
+      "text": "Elevated carbamazepine levels have been reported in postmarketing experience when cefixime is administered concomitantly. Drug monitoring may be of assistance in detecting alterations in carbamazepine plasma concentrations."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "7.2 Warfarin and Anticoagulants",
+      "text": "Increased prothrombin time, with or without clinical bleeding, has been reported when cefixime is administered concomitantly."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "7.3 Drug/Laboratory Test Interactions",
+      "text": "A false-positive reaction for ketones in the urine may occur with tests using nitroprusside but not with those using nitroferricyanide.\n\nThe administration of cefixime may result in a false-positive reaction for glucose in the urine when using glucose tests based on the Benedict’s solution or Fehling’s solution. It is recommended that glucose tests based on enzymatic glucose oxidase reactions be used. A false-positive direct Coombs test has been reported during treatment with other cephalosporins; therefore, it should be recognized that a positive Coombs test may be due to the drug."
+    },
+    {
+      "key": [
+        "populations_specifiques",
+        "Use in Specific Populations"
+      ],
+      "label": "Use in Specific Populations",
+      "number": "43684-0",
+      "title": "8 USE IN SPECIFIC POPULATIONS",
+      "text": "Pediatric Use: Efficacy and safety in pediatric patients younger than 6 months of age have not been established. (\n\n 8.4)\n\nGeriatric Use: Clinical studies did not include sufficient numbers of subjects aged 65 and older to determine whether they respond differently than younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. (\n\n 8.5)\n\nRenal Impairment: Cefixime may be administered in the presence of impaired renal function. Dose adjustment is required in patients whose creatinine clearance is less than 60 mL/min. (\n\n 8.6)"
+    },
+    {
+      "key": [
+        "fertilite_grossesse",
+        "Pregnancy"
+      ],
+      "label": "Pregnancy",
+      "number": "42228-7",
+      "title": "8.1 Pregnancy",
+      "text": "Risk Summary\n\nAvailable data from published observational studies, case series, and case reports over several decades with cephalosporin use, including cefixime, in pregnant women have not established drug-associated risks of major birth defects, miscarriage, or adverse maternal or fetal outcomes\n\n (see Data). Reproduction studies have been performed in mice and rats at doses equivalent to 40 and 80 times, respectively, the adult human recommended dose and have revealed no evidence of harm to the fetus due to cefixime\n\n (see Data).\n\nThe background risk of major birth defects and miscarriage for the indicated population is unknown. All pregnancies have a background risk of birth defect, loss, or other adverse outcomes. In the U.S. general population, the estimated background risks of major birth defects and miscarriage in clinically recognized pregnancies is 2% to 4% and 15% to 20%, respectively.\n\nClinical Considerations\n\nDisease-Associated Maternal and/or Embryo/Fetal Risk\n\nMaternal gonorrhea may be associated with preterm birth, low neonatal birth weight, chorioamnionitis, intrauterine growth restriction, small for gestational age and premature rupture of membranes. Perinatal transmission of gonorrhea to the offspring can result in infant blindness, joint infections, and bloodstream infections.\n\nData\n\nHuman Data\n\nWhile available studies cannot definitively establish the absence of risk, published data from prospective cohort studies, case series, and case reports over several decades have not identified a consistent association with cephalosporin use, including cefixime, during pregnancy, and major birth defects, miscarriage, or other adverse maternal or fetal outcomes. Available studies have methodological limitations, including small sample size, retrospective data collection, and inconsistent comparator groups.\n\nAnimal Data\n\nThe results of embryo-fetal development studies in mice and rats show that cefixime, at doses up to 3200 mg/kg/day administered during the period of organogenesis did not adversely affect development. In these studies, in mice and rats, cefixime did not affect postnatal development or reproductive capacity of the F\n\n 1generation or fetal development of the F\n\n 2generation. In an embryo-fetal development study in rabbits, cefixime at doses of 3.2, 10 or 32 mg/kg given daily during the period of organogenesis (gestation days 6 through 18) resulted in abortions and/or maternal deaths at doses > 10 mg/kg (typically associated with the administration of antibiotics in this species), but no malformations were reported at lower doses. A pre- and post-natal development study of cefixime at oral doses up to 3200 mg/kg/day in rats demonstrated no effect on the duration of pregnancy, process of parturition, development and viability of offspring, or reproductive capacity of the F\n\n 1generation and development of their fetuses (F\n\n 2)."
+    },
+    {
+      "key": "section_8_2_lactation",
+      "label": "8.2 Lactation",
+      "number": "34079-4",
+      "title": "8.2 Lactation",
+      "text": "Risk Summary\n\nThere are no available data on the presence of cefixime in human milk, the effects on the breast­fed infant, or the effects on milk production. Cefixime is present in animal milk\n\n (see Data).When a drug is present in animal milk, it is likely the drug will be present in human milk. The developmental and health benefits of breastfeeding should be considered along with the mother’s clinical need for cefixime and any potential adverse effects on the breast-fed infant from cefixime or from the mother’s underlying condition.\n\nData\n\nIn a study on disposition of cefixime in pregnant and lactating rats, continuous intra-peritoneal infusion of 2.54 mg/kg/day of\n\n 14C-cefixime from days 10 to 14 postpartum resulted in steady state plasma concentrations of radioactivity in the dams that were 70 times greater than in their nursing pups.\n\nAfter 102 hours of drug infusion, total radioactivity in the body of the pups, including the stomach and intestinal contents, was 1.5% of the\n\n 14C-cefixime estimated to be in the mother's body at steady state.\n\n 1"
+    },
+    {
+      "key": "section_8_4_pediatric_use",
+      "label": "8.4 Pediatric Use",
+      "number": "34081-0",
+      "title": "8.4 Pediatric Use",
+      "text": "The safety and effectiveness of cefixime have been established in pediatric patients 6 months of age and older. Safety and effectiveness of cefixime in pediatric patients younger than 6 months of age have not been established. The incidence of gastrointestinal adverse reactions, including diarrhea and loose stools, in the pediatric patients receiving the Suprax for oral suspension, was comparable to the incidence seen in adult patients receiving tablets."
+    },
+    {
+      "key": "section_8_5_geriatric_use",
+      "label": "8.5 Geriatric Use",
+      "number": "34082-8",
+      "title": "8.5 Geriatric Use",
+      "text": "Clinical studies did not include sufficient numbers of subjects aged 65 and older to determine whether they respond differently than younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. A pharmacokinetic study in the elderly detected differences in pharmacokinetic parameters\n\n [see\n\n Clinical Pharmacology (12.3)]\n\n . These differences were small and do not indicate a need for dosage adjustment of cefixime in the elderly."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "8.6 Renal Impairment",
+      "text": "The dose of cefixime should be adjusted in patients with renal impairment as well as those undergoing continuous ambulatory peritoneal dialysis (CAPD) and hemodialysis (HD). Patients on dialysis should be monitored carefully\n\n [see\n\n Dosage and Administration (2.3)]\n\n ."
+    },
+    {
+      "key": [
+        "surdosage",
+        "Overdosage"
+      ],
+      "label": "Overdosage",
+      "number": "34088-5",
+      "title": "10 OVERDOSAGE",
+      "text": "Gastric lavage may be indicated; otherwise, no specific antidote exists. Cefixime is not removed in significant quantities from the circulation by hemodialysis or peritoneal dialysis. Adverse reactions in small numbers of healthy adult volunteers receiving single doses up to 2 g of cefixime did not differ from the profile seen in patients treated at the recommended doses."
+    },
+    {
+      "key": [
+        "description",
+        "Description"
+      ],
+      "label": "Description",
+      "number": "34089-3",
+      "title": "11 DESCRIPTION",
+      "text": "Cefixime is a semisynthetic, cephalosporin antibacterial for oral administration. Chemically, it is (\n\n 6R,7R)-7-[2-(2-Amino-4-thiazolyl)glyoxylamido]-8-oxo-3-vinyl-5-thia-1-azabicyclo [4.2.0] oct-2-ene-2-carboxylic acid, 7\n\n 2-(\n\n Z)-[\n\n O-(carboxy methyl) oxime] trihydrate.\n\nMolecular weight = 507.50 as the trihydrate. Chemical Formula is C\n\n 16H\n\n 15N\n\n 5O\n\n 7S\n\n 2.3H\n\n 2O\n\nThe structural formula for cefixime is:\n\nInactive ingredients contained in cefixime 400 mg capsules are: colloidal silicon dioxide, croscarmellose sodium, low-substituted hydroxypropyl cellulose, magnesium stearate, and mannitol. The capsule shell contains the following inactive ingredients: gelatin, iron oxide red, sodium lauryl sulfate and titanium dioxide. The capsules are imprinted with black ink containing black iron oxide, potassium hydroxide, propylene glycol and shellac.\n\nstr"
+    },
+    {
+      "key": [
+        "mecanisme_action",
+        "Mechanism of Action"
+      ],
+      "label": "Mechanism of Action",
+      "number": "43679-0",
+      "title": "12.1 Mechanism of Action",
+      "text": "Cefixime is a semisynthetic cephalosporin antibacterial drug\n\n [see\n\n Microbiology (12.4)]\n\n ."
+    },
+    {
+      "key": [
+        "pharmacocinetique",
+        "Pharmacokinetics"
+      ],
+      "label": "Pharmacokinetics",
+      "number": "43682-4",
+      "title": "12.3 Pharmacokinetics",
+      "text": "Suprax tablets and Suprax for oral suspension, given orally, are about 40% to 50% absorbed whether administered with or without food; however, time to maximal absorption is increased approximately 0.8 hours when administered with food. A single 200 mg tablet of Suprax produces an average peak serum concentration of approximately 2 mcg/mL (range 1 to 4 mcg/mL); a single 400 mg Suprax tablet produces an average peak concentration of approximately 3.7 mcg/mL (range 1.3 to 7.7 mcg/mL). The Suprax for oral suspension produces average peak concentrations approximately 25% to 50% higher than the tablets, when tested in normal\n\n adultvolunteers. Two hundred and 400 mg doses of Suprax for oral suspension produce average peak concentrations of 3 mcg/mL (range 1 to 4.5 mcg/mL) and 4.6 mcg/mL (range 1.9 to 7.7 mcg/mL), respectively, when tested in normal\n\n adultvolunteers. The area under the time versus concentration curve (AUC) is greater by approximately 10% to 25% with the Suprax for oral suspension than with the Suprax tablet after doses of 100 to 400 mg, when tested in normal\n\n adultvolunteers. This increased absorption should be taken into consideration if the Suprax for oral suspension is to be substituted for the Suprax tablet. Because of the lack of bioequivalence, SUPRAX tablets should not be substituted for SUPRAX for oral suspension in the treatment of otitis media\n\n [see\n\n Dosage and Administration (2)]\n\n . Cross-over studies of Suprax tablet versus Suprax for oral suspension have not been performed in pediatric patients.\n\nThe 400 mg cefixime capsule is bioequivalent to the 400 mg Suprax tablet under fasting conditions. However, food reduces the absorption following administration of the capsule by approximately 15% based on AUC and 25% based on C\n\n max.\n\nPeak serum concentrations occur between 2 and 6 hours following oral administration of a single 200 mg tablet, a single 400 mg Suprax tablet or 400 mg of Suprax for oral suspension. Peak serum concentrations occur between 2 and 5 hours following a single administration of 200 mg of Suprax for oral suspension. Peak serum concentrations occur between 3 and 8 hours following oral administration of a single 400 mg cefixime capsule.\n\nDistribution\n\nSerum protein binding is concentration independent with a bound fraction of approximately 65%. In a multiple dose study conducted with a research formulation which is less bioavailable than the Suprax tablet or Suprax for oral suspension, there was little accumulation of drug in serum or urine after dosing for 14 days. Adequate data on CSF levels of cefixime are not available.\n\nElimination\n\nMetabolism and Excretion\n\nThere is no evidence of metabolism of cefixime\n\n in vivo.Approximately 50% of the absorbed dose is excreted unchanged in the urine in 24 hours. In animal studies, it was noted that cefixime is also excreted in the bile in excess of 10% of the administered dose. The serum half-life of cefixime in healthy subjects is independent of dosage form and averages 3 to 4 hours but may range up to 9 hours in some normal volunteers.\n\nSpecific Populations \n\nGeriatric Patients:Average AUCs at steady state in elderly patients are approximately 40% higher than average AUCs in other healthy adults. Differences in the pharmacokinetic parameters between 12 young and 12 elderly subjects who received 400 mg of cefixime once daily for 5 days are summarized as follows:                                      \n\nTable 4. Pharmacokinetic Parameters for Cefixime in Both Young and Elderly Subjects\n\n Pharmacokinetic\n\nParameters (mean ± SD) for Cefixime in Both Young and Elderly Subjects\n\n | \n\n Pharmacokinetic\n\nparameter\n\n | \n\n Young\n\n | \n\n Elderly\n\n | \n\n C\n\n max (mg/L) \n\n | \n 4.74 ± 1.43 \n\n | \n 5.68 ± 1.83 \n\n | \n\n T\n\n max (h)* \n\n | \n 3.9 ± 0.3 \n\n | \n 4.3 ± 0.6 \n\n | \n\n AUC (mg.h/L)* \n\n | \n 34.9 ± 12.2 \n\n | \n 49.5 ± 19.1 \n\n | \n\n T\n\n ½ (h)* \n\n | \n 3.5 ± 0.6 \n\n | \n 4.2 ± 0.4 \n\n | \n\n C\n\n ave\n (mg/L)* \n\n | \n 1.42 ±0.50 \n\n | \n 1.99 ± 0.75 \n\n | \n\n *Difference between age groups was significant. (p<0.05) \n\n | \n\nHowever, these increases were not clinically significant\n\n [see\n\n Dosage and Administration (2)]\n\n .\n\nPatients with Renal Impairment:In subjects with moderate impairment of renal function (20 to 40 mL/min creatinine clearance), the average serum half-life of cefixime is prolonged to 6.4 hours. In severe renal impairment (5 to 20 mL/min creatinine clearance), the half-life increased to an average of 11.5 hours. The drug is not cleared significantly from the blood by hemodialysis or peritoneal dialysis. However, a study indicated that with doses of 400 mg of cefixime, patients undergoing hemodialysis have similar blood profiles as subjects with creatinine clearances of 21 to 60 mL/min."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "12.4 Microbiology",
+      "text": "Mechanism of Action\n\nAs with other cephalosporins, the bactericidal action of cefixime results from inhibition of cell wall synthesis. Cefixime is stable in the presence of certain beta-lactamase enzymes. As a result, certain organisms resistant to penicillins and some cephalosporins due to the presence of beta-lactamases may be susceptible to cefixime.\n\nResistance\n\nResistance to cefixime in isolates of\n\n Haemophilus influenzaeand\n\n Neisseria gonorrhoeaeis most often associated with alterations in penicillin-binding proteins (PBPs). Cefixime may have limited activity against Enterobacteriaceae producing extended spectrum beta-lactamases (ESBLs).\n\n Pseudomonasspecies,\n\n Enterococcusspecies, strains of Group D streptococci,\n\n Listeria monocytogenes,most strains of staphylococci (including methicillin-resistant strains), most strains of\n\n Enterobacterspecies, most strains of\n\n Bacteroides fragilis,and most strains of\n\n Clostridiumspecies are resistant to cefixime.\n\nAntimicrobial Activity\n\nCefixime has been shown to be active against most isolates of the following microorganisms, both\n\n in vitroand in clinical infections\n\n [see\n\n Indications and Usage (1)].\n\nGram-positive Bacteria \n\nStreptococcus pneumoniae \n\nStreptococcus pyogenes\n\nGram-negative Bacteria \n\nEscherichia coli \n\nHaemophilus influenzae \n\nMoraxella catarrhalis \n\nNeisseria gonorrhoeae \n\nProteus mirabilis\n\nThe following\n\n in vitrodata are available, but their clinical significance is unknown. At least 90 percent of the following bacteria exhibit an\n\n in vitrominimum inhibitory concentration (MIC) less than or equal to the susceptible breakpoint for cefixime against isolates of similar genus or organism group. However, the efficacy of cefixime in treating clinical infections caused by these bacteria has not been established in adequate and well-controlled clinical trials.\n\nGram-positive Bacteria \n\nStreptococcus agalactiae\n\nGram-negative Bacteria \n\nCitrobacter amalonaticus \n\nCitrobacter diversus \n\nHaemophilus parainfluenzae \n\nKlebsiella oxytoca \n\nKlebsiella pneumoniae \n\nPasteurella multocida \n\nProteus vulgaris \n\nProvidenciaspecies \n\nSalmonellaspecies \n\nSerratia marcescens \n\nShigellaspecies\n\nSusceptibility Testing\n\nFor specific information regarding susceptibility test interpretive criteria and associated test methods and quality control standards recognized by FDA for this drug, please see: https://www.fda.gov/STIC."
+    },
+    {
+      "key": "section_13_1_carcinogenesis_mutagenesis_impairme",
+      "label": "13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility",
+      "number": "34083-6",
+      "title": "13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility",
+      "text": "Lifetime studies in animals to evaluate carcinogenic potential have not been conducted. Cefixime did not cause point mutations in bacteria or mammalian cells, DNA damage, or chromosome damage\n\n in vitroand did not exhibit clastogenic potential\n\n in vivoin the mouse micronucleus test. In the fertility and reproductive performance study in rats, no difference between control and drug-treated animals was detected in mating behavior, pregnancy rate, or litter parameters (determined at sacrifice on day 13 of pregnancy) at oral doses up to 1000 mg/kg/day (25 times the adult therapeutic dose) administered to males (for 68 days prior to pairing and during the cohabitation period) and females (for 14 days before pairing to weaning)."
+    },
+    {
+      "key": "section_15_references",
+      "label": "15 REFERENCES",
+      "number": "34093-5",
+      "title": "15 REFERENCES",
+      "text": "Halperin-Walega, E. Batra VK, Tonelli AP, Barr A, Yacobi A. ‘Disposition of Cefixime in the Pregnant and Lactating Rat. Transfer to the Fetus and Nursing Pup’.\n\n Drug Metabolism and Disposition. 1988:16(1): pp130–134."
+    },
+    {
+      "key": "section_16_how_supplied_storage_and_handling",
+      "label": "16 HOW SUPPLIED/STORAGE AND HANDLING",
+      "number": "34069-5",
+      "title": "16 HOW SUPPLIED/STORAGE AND HANDLING",
+      "text": "Cefixime Capsules, 400 mg are size “0” capsules with pink opaque cap imprinted with “CMI” and pink opaque body imprinted with “400” in black ink containing white to yellowish white powder containing 400 mg of cefixime USP as the trihydrate. They are supplied as follows:\n\nNDC: 70518-4759-00\nPACKAGING: 2 in 1 BOTTLE PLASTIC\n\nStore at 20° to 25°C (68° to 77°F); excursions permitted to 15° to 30°C (59° to 86°F) [See USP Controlled Room Temperature]\n\nRepackaged and Distributed By:\nRemedy Repack, Inc.\n625 Kolter Dr. Suite #4 Indiana, PA 1-724-465-8762"
+    },
+    {
+      "key": [
+        "information_patient",
+        "Information for Patients"
+      ],
+      "label": "Information for Patients",
+      "number": "34076-0",
+      "title": "17 PATIENT COUNSELING INFORMATION",
+      "text": "Development of Drug Resistance Bacteria\n\nPatients should be counseled that antibacterial drugs, including cefixime, should only be used to treat bacterial infections. They do not treat viral infections (e.g., the common cold). When cefixime is prescribed to treat a bacterial infection, patients should be told that although it is common to feel better early in the course of therapy, the medication should be taken exactly as directed. Skipping doses or not completing the full course of therapy may: (1) decrease the effectiveness of the immediate treatment and (2) increase the likelihood that bacteria will develop resistance and will not be treatable by cefixime or other antibacterial drugs in the future.\n\nDiarrhea\n\nAdvise patients that diarrhea is a common problem caused by antibacterial drugs, including cefixime, which usually ends when the antibacterial drug is discontinued. Sometimes after starting treatment with antibacterial drugs, patients can develop watery and bloody stools (with or without stomach cramps and fever) even as late as two or more months after having taken the last dose of the antibacterial drug. If this occurs, patients should contact their physician as soon as possible.\n\nThe brands listed are trademarks of their respective owners and are not trademarks of Aurobindo Pharma Limited.\n\nRepackaged By / Distributed By: RemedyRepack Inc.\n625 Kolter Drive, Indiana, PA 15701\n(724) 465-8762"
+    },
+    {
+      "key": "section_package_label_principal_display_panel",
+      "label": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+      "number": "51945-4",
+      "title": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+      "text": "DRUG: Cefixime\nGENERIC: Cefixime\nDOSAGE: CAPSULE\nADMINSTRATION: ORAL\nNDC: 70518-4759-0\nCOLOR: pink\nSHAPE: CAPSULE\nSCORE: No score\nSIZE: 21 mm\nIMPRINT: CMI;400\nPACKAGING: 2 in 1 BOTTLE, PLASTIC\nACTIVE INGREDIENT(S):\n\nCEFIXIME 400mg in 1\n\nINACTIVE INGREDIENT(S):\n\nSILICON DIOXIDE\nCROSCARMELLOSE SODIUM\nLOW-SUBSTITUTED HYDROXYPROPYL CELLULOSE (11% HYDROXYPROPYL; 120000 MW)\nMAGNESIUM STEARATE\nMANNITOL\nGELATIN, UNSPECIFIED\nFERRIC OXIDE RED\nSODIUM LAURYL SULFATE\nTITANIUM DIOXIDE\nFERROSOFERRIC OXIDE\nPOTASSIUM HYDROXIDE\nPROPYLENE GLYCOL\nSHELLAC\n\nRemedy_Label"
+    }
+  ],
+  "ingredients": [
+    "CEFIXIME (Active) - 400 mg",
+    "SILICON DIOXIDE (Inactive)",
+    "CROSCARMELLOSE SODIUM (Inactive)",
+    "LOW-SUBSTITUTED HYDROXYPROPYL CELLULOSE (11% HYDROXYPROPYL; 120000 MW) (Inactive)",
+    "MAGNESIUM STEARATE (Inactive)",
+    "MANNITOL (Inactive)",
+    "GELATIN, UNSPECIFIED (Inactive)",
+    "FERRIC OXIDE RED (Inactive)",
+    "SODIUM LAURYL SULFATE (Inactive)",
+    "TITANIUM DIOXIDE (Inactive)",
+    "FERROSOFERRIC OXIDE (Inactive)",
+    "POTASSIUM HYDROXIDE (Inactive)",
+    "PROPYLENE GLYCOL (Inactive)",
+    "SHELLAC (Inactive)"
+  ],
+  "text": "Indications and Usage\nCefixime is a cephalosporin antibacterial drug indicated in the treatment of adults and pediatric patients six months and older with the following infections:\n\nUncomplicated Urinary Tract Infections (\n\n 1.1)\n\nPharyngitis and Tonsillitis (\n\n 1.3)\n\nAcute Exacerbations of Chronic Bronchitis (\n\n 1.4)\n\nUncomplicated Gonorrhea (cervical/urethral) (\n\n 1.5)\n\nUsage to Reduce Development of Drug-Resistant Bacteria\n\n To reduce the development of drug-resistant bacteria and maintain the effectiveness of cefixime capsules and other antibacterial drugs, cefixime capsules should be used only to treat infections that are proven or strongly suspected to be caused by bacteria. (\n\n 1.6)\n\nUnclassified\nCefixime capsules are indicated in the treatment of adults and pediatric patients six months of age or older with uncomplicated urinary tract infections caused by susceptible isolates of\n\n Escherichia coliand\n\n Proteus mirabilis.\n\nUnclassified\nCefixime capsules are indicated in the treatment of adults and pediatric patients six months of age or older with pharyngitis and tonsillitis caused by susceptible isolates of\n\n Streptococcus pyogenes.(Note: Penicillin is the usual drug of choice in the treatment of\n\n Streptococcus pyogenesinfections. Cefixime capsules are generally effective in the eradication of\n\n Streptococcus pyogenesfrom the nasopharynx; however, data establishing the efficacy of cefixime capsules in the subsequent prevention of rheumatic fever is not available.)\n\nUnclassified\nCefixime capsules are indicated in the treatment of adults and pediatric patients six months of age or older with acute exacerbations of chronic bronchitis caused by susceptible isolates of\n\n Streptococcus pneumoniaeand\n\n Haemophilus influenzae.\n\nUnclassified\nCefixime capsules are indicated in the treatment of adults and pediatric patients six months of age or older with uncomplicated gonorrhea (cervical/urethral) caused by susceptible isolates of\n\n Neisseria gonorrhoeae(penicillinase-and non-penicillinase-producing isolates).\n\nUnclassified\nTo reduce the development of drug resistant bacteria and maintain the effectiveness of cefixime capsules and other antibacterial drugs, cefixime capsules should be used only to treat infections that are proven or strongly suspected to be caused by susceptible bacteria. When culture and susceptibility information are available, they should be considered in selecting or modifying antimicrobial therapy. In the absence of such data, local epidemiology and susceptibility patterns may contribute to the empiric selection of therapy.\n\nDosage and Administration\nAdults: 400 mg daily (\n\n 2.1)\n\nPediatric patients (6 months and older): 8 mg/kg/day (\n\n 2.2)\n\nUnclassified\nThe recommended dose of cefixime capsule is 400 mg daily. This may be given as a 400 mg capsule daily. For the treatment of uncomplicated cervical/urethral gonococcal infections, a single oral dose of 400 mg is recommended. The capsule may be administered without regard to food.\n\nIn the treatment of infections due to\n\n Streptococcus pyogenes, a therapeutic dosage of cefixime should be administered for at least 10 days.\n\nUnclassified\nPediatric patients weighing more than 45 kg or older than 12 years should be treated with the recommended adult dose. Clinical trials of otitis media were conducted with the chewable tablets or suspension, and the chewable tablets or suspension results in higher peak blood levels than the tablet when administered at the same dose. Therefore, the Suprax tablet or cefixime capsule should not be substituted for the Suprax chewable tablets or Suprax for oral suspension in the treatment of otitis media [\n\n see\n\n CLINICAL PHARMACOLOGY (12.3)\n].\n\nIn the treatment of infections due to\n\n Streptococcus pyogenes, a therapeutic dosage of cefixime should be administered for at least 10 days.\n\nUnclassified\nCefixime may be administered in the presence of impaired renal function. Normal dose and schedule may be employed in patients with creatinine clearances of 60 mL/min or greater. Neither hemodialysis nor peritoneal dialysis removes significant amounts of drug from the body.\n\nDosage Forms and Strengths\nCefixime capsules are available for oral administration in the following dosage strength: \n\nCapsules provide 400 mg of cefixime USP as trihydrate. These are size “0” capsules with pink opaque cap imprinted with “CMI” and pink opaque body imprinted with “400” in black ink. Capsules contain white to yellowish white powder.\n\nCapsules: 400 mg (\n\n 3)\n\nContraindications\nCefixime capsules are contraindicated in patients with known allergy to cefixime or other cephalosporins.\n\nContraindicated in patients with known allergy to cefixime or other cephalosporins. (\n\n 4)\n\nWarnings and Precautions\nHypersensitivity reactions including shock and fatalities have been reported with cefixime. Discontinue use if a reaction occurs. (\n\n 5.1)\n\nClostridiodes difficile-Associated Diarrhea: Evaluate if diarrhea occurs. (\n\n 5.2)\n\nUnclassified\nAnaphylactic/anaphylactoid reactions (including shock and fatalities) have been reported with the use of cefixime.\n\nBefore therapy with cefixime is instituted, careful inquiry should be made to determine whether the patient has had previous hypersensitivity reactions to cephalosporins, penicillins, or other drugs. If this product is to be given to penicillin-sensitive patients, caution should be exercised because cross hypersensitivity among beta-lactam antibacterial drugs has been clearly documented and may occur in up to 10% of patients with a history of penicillin allergy. If an allergic reaction to cefixime occurs, discontinue the drug.\n\nUnclassified\nClostridioidesdifficile-\n\n associated diarrhea (CDAD) has been reported with use of nearly all antibacterial agents, including cefixime, and may range in severity from mild diarrhea to fatal colitis. Treatment with antibacterial agents alters the normal flora of the colon leading to overgrowth of\n\n C. difficile.\n\nC. difficileproduces toxins A and B which contribute to the development of CDAD. Hypertoxin producing isolates of\n\n C.\ndifficilecause increased morbidity and mortality, as these infections can be refractory to antimicrobial therapy and may require colectomy. CDAD must be considered in all patients who present with diarrhea following antibacterial drug use. Careful medical history is necessary since CDAD has been reported to occur over two months after the administration of antibacterial agents.\n\nIf CDAD is suspected or confirmed, ongoing antibacterial drug use not directed against\n\n C. difficilemay need to be discontinued. Appropriate fluid and electrolyte management, protein supplementation, antibacterial drug treatment of\n\n C. difficile,and surgical evaluation should be instituted as clinically indicated.\n\nUnclassified\nThe dose of cefixime should be adjusted in patients with renal impairment as well as those undergoing continuous ambulatory peritoneal dialysis (CAPD) and hemodialysis (HD). Patients on dialysis should be monitored carefully\n\n [see\n\n Dosage and Administration (2)]\n\n .\n\nUnclassified\nCephalosporins, including cefixime, may be associated with a fall in prothrombin activity. Those at risk include patients with renal or hepatic impairment, or poor nutritional state, as well as patients receiving a protracted course of antimicrobial therapy, and patients previously stabilized on anticoagulant therapy. Prothrombin time should be monitored in patients at risk and exogenous vitamin K administered as indicated.\n\nUnclassified\nPrescribing cefixime in the absence of a proven or strongly suspected bacterial infection is unlikely to provide benefit to the patient and increases the risk of the development of drug-resistant bacteria.\n\nAdverse Reactions\nMost common adverse reactions are gastrointestinal such as diarrhea (16%), nausea (7%), loose stools (6%), abdominal pain (3%), dyspepsia (3%), and vomiting. (\n\n 6) \n\nTo report SUSPECTED ADVERSE REACTIONS, contact Aurobindo Pharma USA, Inc. at 1-866-850-2876 or FDA at 1-800-FDA-1088 or\n\n www.fda.gov/medwatch.\n\nUnclassified\nBecause clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in practice.\n\nThe most commonly seen adverse reactions in U.S. trials of the Suprax tablet formulation were gastrointestinal events, which were reported in 30% of adult patients on either the twice daily or the once daily regimen. Five percent (5%) of patients in the U.S. clinical trials discontinued therapy because of drug-related adverse reactions. Individual adverse reactions included diarrhea 16%, loose or frequent stools 6%, abdominal pain 3%, nausea 7%, dyspepsia 3%, and flatulence 4%. The incidence of gastrointestinal adverse reactions, including diarrhea and loose stools, in pediatric patients receiving the suspension was comparable to the incidence seen in adult patients receiving tablets.\n\nUnclassified\nThe following adverse reactions have been reported following the post-approval use of cefixime. Incidence rates were less than 1 in 50 (less than 2%).\n\nGastrointestinal\n\nSeveral cases of documented pseudomembranous colitis were identified in clinical trials. The onset of pseudomembranous colitis symptoms may occur during or after therapy.\n\nHypersensitivity Reactions\n\nAnaphylactic/anaphylactoid reactions (including shock and fatalities), skin rashes, urticaria, drug fever, pruritus, angioedema, and facial edema. Erythema multiforme, Stevens-Johnson syndrome, and serum sickness-like reactions have been reported.\n\nHepatic\n\nTransient elevations in SGPT, SGOT, alkaline phosphatase, hepatitis, jaundice.\n\nRenal\n\nTransient elevations in BUN or creatinine, acute renal failure.\n\nCentral Nervous System\n\nHeadaches, dizziness, seizures.\n\nHemic and Lymphatic System\n\nTransient thrombocytopenia, leukopenia, neutropenia, prolongation in prothrombin time, elevated LDH, pancytopenia, agranulocytosis, and eosinophilia.\n\nAbnormal Laboratory Tests\n\nHyperbilirubinemia.\n\nOther Adverse Reactions\n\nGenital pruritus, vaginitis, candidiasis, toxic epidermal necrolysis.\n\nAdverse Reactions Reported for Cephalosporin-class Drugs\n\nAllergic reactions, superinfection, renal dysfunction, toxic nephropathy, hepatic dysfunction including cholestasis, aplastic anemia, hemolytic anemia, hemorrhage, and colitis.\n\nSeveral cephalosporins have been implicated in triggering seizures, particularly in patients with renal impairment when the dosage was not reduced\n\n [see \n\n Dosage and Administration (2)and\n\n Overdosage (10)]\n\n . If seizures associated with drug therapy occur, the drug should be discontinued. Anticonvulsant therapy can be given if clinically indicated.\n\nDrug Interactions\nElevated carbamazepine levels have been reported in postmarketing experience when cefixime is administered concomitantly. (\n\n 7.1)\n\nIncreased prothrombin time, with or without clinical bleeding, has been reported when cefixime is administered concomitantly with warfarin and anticoagulants. (\n\n 7.2)\n\nUnclassified\nElevated carbamazepine levels have been reported in postmarketing experience when cefixime is administered concomitantly. Drug monitoring may be of assistance in detecting alterations in carbamazepine plasma concentrations.\n\nUnclassified\nIncreased prothrombin time, with or without clinical bleeding, has been reported when cefixime is administered concomitantly.\n\nUnclassified\nA false-positive reaction for ketones in the urine may occur with tests using nitroprusside but not with those using nitroferricyanide.\n\nThe administration of cefixime may result in a false-positive reaction for glucose in the urine when using glucose tests based on the Benedict’s solution or Fehling’s solution. It is recommended that glucose tests based on enzymatic glucose oxidase reactions be used. A false-positive direct Coombs test has been reported during treatment with other cephalosporins; therefore, it should be recognized that a positive Coombs test may be due to the drug.\n\nUse in Specific Populations\nPediatric Use: Efficacy and safety in pediatric patients younger than 6 months of age have not been established. (\n\n 8.4)\n\nGeriatric Use: Clinical studies did not include sufficient numbers of subjects aged 65 and older to determine whether they respond differently than younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. (\n\n 8.5)\n\nRenal Impairment: Cefixime may be administered in the presence of impaired renal function. Dose adjustment is required in patients whose creatinine clearance is less than 60 mL/min. (\n\n 8.6)\n\nPregnancy\nRisk Summary\n\nAvailable data from published observational studies, case series, and case reports over several decades with cephalosporin use, including cefixime, in pregnant women have not established drug-associated risks of major birth defects, miscarriage, or adverse maternal or fetal outcomes\n\n (see Data). Reproduction studies have been performed in mice and rats at doses equivalent to 40 and 80 times, respectively, the adult human recommended dose and have revealed no evidence of harm to the fetus due to cefixime\n\n (see Data).\n\nThe background risk of major birth defects and miscarriage for the indicated population is unknown. All pregnancies have a background risk of birth defect, loss, or other adverse outcomes. In the U.S. general population, the estimated background risks of major birth defects and miscarriage in clinically recognized pregnancies is 2% to 4% and 15% to 20%, respectively.\n\nClinical Considerations\n\nDisease-Associated Maternal and/or Embryo/Fetal Risk\n\nMaternal gonorrhea may be associated with preterm birth, low neonatal birth weight, chorioamnionitis, intrauterine growth restriction, small for gestational age and premature rupture of membranes. Perinatal transmission of gonorrhea to the offspring can result in infant blindness, joint infections, and bloodstream infections.\n\nData\n\nHuman Data\n\nWhile available studies cannot definitively establish the absence of risk, published data from prospective cohort studies, case series, and case reports over several decades have not identified a consistent association with cephalosporin use, including cefixime, during pregnancy, and major birth defects, miscarriage, or other adverse maternal or fetal outcomes. Available studies have methodological limitations, including small sample size, retrospective data collection, and inconsistent comparator groups.\n\nAnimal Data\n\nThe results of embryo-fetal development studies in mice and rats show that cefixime, at doses up to 3200 mg/kg/day administered during the period of organogenesis did not adversely affect development. In these studies, in mice and rats, cefixime did not affect postnatal development or reproductive capacity of the F\n\n 1generation or fetal development of the F\n\n 2generation. In an embryo-fetal development study in rabbits, cefixime at doses of 3.2, 10 or 32 mg/kg given daily during the period of organogenesis (gestation days 6 through 18) resulted in abortions and/or maternal deaths at doses > 10 mg/kg (typically associated with the administration of antibiotics in this species), but no malformations were reported at lower doses. A pre- and post-natal development study of cefixime at oral doses up to 3200 mg/kg/day in rats demonstrated no effect on the duration of pregnancy, process of parturition, development and viability of offspring, or reproductive capacity of the F\n\n 1generation and development of their fetuses (F\n\n 2).\n\n8.2 Lactation\nRisk Summary\n\nThere are no available data on the presence of cefixime in human milk, the effects on the breast­fed infant, or the effects on milk production. Cefixime is present in animal milk\n\n (see Data).When a drug is present in animal milk, it is likely the drug will be present in human milk. The developmental and health benefits of breastfeeding should be considered along with the mother’s clinical need for cefixime and any potential adverse effects on the breast-fed infant from cefixime or from the mother’s underlying condition.\n\nData\n\nIn a study on disposition of cefixime in pregnant and lactating rats, continuous intra-peritoneal infusion of 2.54 mg/kg/day of\n\n 14C-cefixime from days 10 to 14 postpartum resulted in steady state plasma concentrations of radioactivity in the dams that were 70 times greater than in their nursing pups.\n\nAfter 102 hours of drug infusion, total radioactivity in the body of the pups, including the stomach and intestinal contents, was 1.5% of the\n\n 14C-cefixime estimated to be in the mother's body at steady state.\n\n 1\n\n8.4 Pediatric Use\nThe safety and effectiveness of cefixime have been established in pediatric patients 6 months of age and older. Safety and effectiveness of cefixime in pediatric patients younger than 6 months of age have not been established. The incidence of gastrointestinal adverse reactions, including diarrhea and loose stools, in the pediatric patients receiving the Suprax for oral suspension, was comparable to the incidence seen in adult patients receiving tablets.\n\n8.5 Geriatric Use\nClinical studies did not include sufficient numbers of subjects aged 65 and older to determine whether they respond differently than younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. A pharmacokinetic study in the elderly detected differences in pharmacokinetic parameters\n\n [see\n\n Clinical Pharmacology (12.3)]\n\n . These differences were small and do not indicate a need for dosage adjustment of cefixime in the elderly.\n\nUnclassified\nThe dose of cefixime should be adjusted in patients with renal impairment as well as those undergoing continuous ambulatory peritoneal dialysis (CAPD) and hemodialysis (HD). Patients on dialysis should be monitored carefully\n\n [see\n\n Dosage and Administration (2.3)]\n\n .\n\nOverdosage\nGastric lavage may be indicated; otherwise, no specific antidote exists. Cefixime is not removed in significant quantities from the circulation by hemodialysis or peritoneal dialysis. Adverse reactions in small numbers of healthy adult volunteers receiving single doses up to 2 g of cefixime did not differ from the profile seen in patients treated at the recommended doses.\n\nDescription\nCefixime is a semisynthetic, cephalosporin antibacterial for oral administration. Chemically, it is (\n\n 6R,7R)-7-[2-(2-Amino-4-thiazolyl)glyoxylamido]-8-oxo-3-vinyl-5-thia-1-azabicyclo [4.2.0] oct-2-ene-2-carboxylic acid, 7\n\n 2-(\n\n Z)-[\n\n O-(carboxy methyl) oxime] trihydrate.\n\nMolecular weight = 507.50 as the trihydrate. Chemical Formula is C\n\n 16H\n\n 15N\n\n 5O\n\n 7S\n\n 2.3H\n\n 2O\n\nThe structural formula for cefixime is:\n\nInactive ingredients contained in cefixime 400 mg capsules are: colloidal silicon dioxide, croscarmellose sodium, low-substituted hydroxypropyl cellulose, magnesium stearate, and mannitol. The capsule shell contains the following inactive ingredients: gelatin, iron oxide red, sodium lauryl sulfate and titanium dioxide. The capsules are imprinted with black ink containing black iron oxide, potassium hydroxide, propylene glycol and shellac.\n\nstr\n\nMechanism of Action\nCefixime is a semisynthetic cephalosporin antibacterial drug\n\n [see\n\n Microbiology (12.4)]\n\n .\n\nPharmacokinetics\nSuprax tablets and Suprax for oral suspension, given orally, are about 40% to 50% absorbed whether administered with or without food; however, time to maximal absorption is increased approximately 0.8 hours when administered with food. A single 200 mg tablet of Suprax produces an average peak serum concentration of approximately 2 mcg/mL (range 1 to 4 mcg/mL); a single 400 mg Suprax tablet produces an average peak concentration of approximately 3.7 mcg/mL (range 1.3 to 7.7 mcg/mL). The Suprax for oral suspension produces average peak concentrations approximately 25% to 50% higher than the tablets, when tested in normal\n\n adultvolunteers. Two hundred and 400 mg doses of Suprax for oral suspension produce average peak concentrations of 3 mcg/mL (range 1 to 4.5 mcg/mL) and 4.6 mcg/mL (range 1.9 to 7.7 mcg/mL), respectively, when tested in normal\n\n adultvolunteers. The area under the time versus concentration curve (AUC) is greater by approximately 10% to 25% with the Suprax for oral suspension than with the Suprax tablet after doses of 100 to 400 mg, when tested in normal\n\n adultvolunteers. This increased absorption should be taken into consideration if the Suprax for oral suspension is to be substituted for the Suprax tablet. Because of the lack of bioequivalence, SUPRAX tablets should not be substituted for SUPRAX for oral suspension in the treatment of otitis media\n\n [see\n\n Dosage and Administration (2)]\n\n . Cross-over studies of Suprax tablet versus Suprax for oral suspension have not been performed in pediatric patients.\n\nThe 400 mg cefixime capsule is bioequivalent to the 400 mg Suprax tablet under fasting conditions. However, food reduces the absorption following administration of the capsule by approximately 15% based on AUC and 25% based on C\n\n max.\n\nPeak serum concentrations occur between 2 and 6 hours following oral administration of a single 200 mg tablet, a single 400 mg Suprax tablet or 400 mg of Suprax for oral suspension. Peak serum concentrations occur between 2 and 5 hours following a single administration of 200 mg of Suprax for oral suspension. Peak serum concentrations occur between 3 and 8 hours following oral administration of a single 400 mg cefixime capsule.\n\nDistribution\n\nSerum protein binding is concentration independent with a bound fraction of approximately 65%. In a multiple dose study conducted with a research formulation which is less bioavailable than the Suprax tablet or Suprax for oral suspension, there was little accumulation of drug in serum or urine after dosing for 14 days. Adequate data on CSF levels of cefixime are not available.\n\nElimination\n\nMetabolism and Excretion\n\nThere is no evidence of metabolism of cefixime\n\n in vivo.Approximately 50% of the absorbed dose is excreted unchanged in the urine in 24 hours. In animal studies, it was noted that cefixime is also excreted in the bile in excess of 10% of the administered dose. The serum half-life of cefixime in healthy subjects is independent of dosage form and averages 3 to 4 hours but may range up to 9 hours in some normal volunteers.\n\nSpecific Populations \n\nGeriatric Patients:Average AUCs at steady state in elderly patients are approximately 40% higher than average AUCs in other healthy adults. Differences in the pharmacokinetic parameters between 12 young and 12 elderly subjects who received 400 mg of cefixime once daily for 5 days are summarized as follows:                                      \n\nTable 4. Pharmacokinetic Parameters for Cefixime in Both Young and Elderly Subjects\n\n Pharmacokinetic\n\nParameters (mean ± SD) for Cefixime in Both Young and Elderly Subjects\n\n | \n\n Pharmacokinetic\n\nparameter\n\n | \n\n Young\n\n | \n\n Elderly\n\n | \n\n C\n\n max (mg/L) \n\n | \n 4.74 ± 1.43 \n\n | \n 5.68 ± 1.83 \n\n | \n\n T\n\n max (h)* \n\n | \n 3.9 ± 0.3 \n\n | \n 4.3 ± 0.6 \n\n | \n\n AUC (mg.h/L)* \n\n | \n 34.9 ± 12.2 \n\n | \n 49.5 ± 19.1 \n\n | \n\n T\n\n ½ (h)* \n\n | \n 3.5 ± 0.6 \n\n | \n 4.2 ± 0.4 \n\n | \n\n C\n\n ave\n (mg/L)* \n\n | \n 1.42 ±0.50 \n\n | \n 1.99 ± 0.75 \n\n | \n\n *Difference between age groups was significant. (p<0.05) \n\n | \n\nHowever, these increases were not clinically significant\n\n [see\n\n Dosage and Administration (2)]\n\n .\n\nPatients with Renal Impairment:In subjects with moderate impairment of renal function (20 to 40 mL/min creatinine clearance), the average serum half-life of cefixime is prolonged to 6.4 hours. In severe renal impairment (5 to 20 mL/min creatinine clearance), the half-life increased to an average of 11.5 hours. The drug is not cleared significantly from the blood by hemodialysis or peritoneal dialysis. However, a study indicated that with doses of 400 mg of cefixime, patients undergoing hemodialysis have similar blood profiles as subjects with creatinine clearances of 21 to 60 mL/min.\n\nUnclassified\nMechanism of Action\n\nAs with other cephalosporins, the bactericidal action of cefixime results from inhibition of cell wall synthesis. Cefixime is stable in the presence of certain beta-lactamase enzymes. As a result, certain organisms resistant to penicillins and some cephalosporins due to the presence of beta-lactamases may be susceptible to cefixime.\n\nResistance\n\nResistance to cefixime in isolates of\n\n Haemophilus influenzaeand\n\n Neisseria gonorrhoeaeis most often associated with alterations in penicillin-binding proteins (PBPs). Cefixime may have limited activity against Enterobacteriaceae producing extended spectrum beta-lactamases (ESBLs).\n\n Pseudomonasspecies,\n\n Enterococcusspecies, strains of Group D streptococci,\n\n Listeria monocytogenes,most strains of staphylococci (including methicillin-resistant strains), most strains of\n\n Enterobacterspecies, most strains of\n\n Bacteroides fragilis,and most strains of\n\n Clostridiumspecies are resistant to cefixime.\n\nAntimicrobial Activity\n\nCefixime has been shown to be active against most isolates of the following microorganisms, both\n\n in vitroand in clinical infections\n\n [see\n\n Indications and Usage (1)].\n\nGram-positive Bacteria \n\nStreptococcus pneumoniae \n\nStreptococcus pyogenes\n\nGram-negative Bacteria \n\nEscherichia coli \n\nHaemophilus influenzae \n\nMoraxella catarrhalis \n\nNeisseria gonorrhoeae \n\nProteus mirabilis\n\nThe following\n\n in vitrodata are available, but their clinical significance is unknown. At least 90 percent of the following bacteria exhibit an\n\n in vitrominimum inhibitory concentration (MIC) less than or equal to the susceptible breakpoint for cefixime against isolates of similar genus or organism group. However, the efficacy of cefixime in treating clinical infections caused by these bacteria has not been established in adequate and well-controlled clinical trials.\n\nGram-positive Bacteria \n\nStreptococcus agalactiae\n\nGram-negative Bacteria \n\nCitrobacter amalonaticus \n\nCitrobacter diversus \n\nHaemophilus parainfluenzae \n\nKlebsiella oxytoca \n\nKlebsiella pneumoniae \n\nPasteurella multocida \n\nProteus vulgaris \n\nProvidenciaspecies \n\nSalmonellaspecies \n\nSerratia marcescens \n\nShigellaspecies\n\nSusceptibility Testing\n\nFor specific information regarding susceptibility test interpretive criteria and associated test methods and quality control standards recognized by FDA for this drug, please see: https://www.fda.gov/STIC.\n\n13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility\nLifetime studies in animals to evaluate carcinogenic potential have not been conducted. Cefixime did not cause point mutations in bacteria or mammalian cells, DNA damage, or chromosome damage\n\n in vitroand did not exhibit clastogenic potential\n\n in vivoin the mouse micronucleus test. In the fertility and reproductive performance study in rats, no difference between control and drug-treated animals was detected in mating behavior, pregnancy rate, or litter parameters (determined at sacrifice on day 13 of pregnancy) at oral doses up to 1000 mg/kg/day (25 times the adult therapeutic dose) administered to males (for 68 days prior to pairing and during the cohabitation period) and females (for 14 days before pairing to weaning).\n\n15 REFERENCES\nHalperin-Walega, E. Batra VK, Tonelli AP, Barr A, Yacobi A. ‘Disposition of Cefixime in the Pregnant and Lactating Rat. Transfer to the Fetus and Nursing Pup’.\n\n Drug Metabolism and Disposition. 1988:16(1): pp130–134.\n\n16 HOW SUPPLIED/STORAGE AND HANDLING\nCefixime Capsules, 400 mg are size “0” capsules with pink opaque cap imprinted with “CMI” and pink opaque body imprinted with “400” in black ink containing white to yellowish white powder containing 400 mg of cefixime USP as the trihydrate. They are supplied as follows:\n\nNDC: 70518-4759-00\nPACKAGING: 2 in 1 BOTTLE PLASTIC\n\nStore at 20° to 25°C (68° to 77°F); excursions permitted to 15° to 30°C (59° to 86°F) [See USP Controlled Room Temperature]\n\nRepackaged and Distributed By:\nRemedy Repack, Inc.\n625 Kolter Dr. Suite #4 Indiana, PA 1-724-465-8762\n\nInformation for Patients\nDevelopment of Drug Resistance Bacteria\n\nPatients should be counseled that antibacterial drugs, including cefixime, should only be used to treat bacterial infections. They do not treat viral infections (e.g., the common cold). When cefixime is prescribed to treat a bacterial infection, patients should be told that although it is common to feel better early in the course of therapy, the medication should be taken exactly as directed. Skipping doses or not completing the full course of therapy may: (1) decrease the effectiveness of the immediate treatment and (2) increase the likelihood that bacteria will develop resistance and will not be treatable by cefixime or other antibacterial drugs in the future.\n\nDiarrhea\n\nAdvise patients that diarrhea is a common problem caused by antibacterial drugs, including cefixime, which usually ends when the antibacterial drug is discontinued. Sometimes after starting treatment with antibacterial drugs, patients can develop watery and bloody stools (with or without stomach cramps and fever) even as late as two or more months after having taken the last dose of the antibacterial drug. If this occurs, patients should contact their physician as soon as possible.\n\nThe brands listed are trademarks of their respective owners and are not trademarks of Aurobindo Pharma Limited.\n\nRepackaged By / Distributed By: RemedyRepack Inc.\n625 Kolter Drive, Indiana, PA 15701\n(724) 465-8762\n\nPACKAGE LABEL.PRINCIPAL DISPLAY PANEL\nDRUG: Cefixime\nGENERIC: Cefixime\nDOSAGE: CAPSULE\nADMINSTRATION: ORAL\nNDC: 70518-4759-0\nCOLOR: pink\nSHAPE: CAPSULE\nSCORE: No score\nSIZE: 21 mm\nIMPRINT: CMI;400\nPACKAGING: 2 in 1 BOTTLE, PLASTIC\nACTIVE INGREDIENT(S):\n\nCEFIXIME 400mg in 1\n\nINACTIVE INGREDIENT(S):\n\nSILICON DIOXIDE\nCROSCARMELLOSE SODIUM\nLOW-SUBSTITUTED HYDROXYPROPYL CELLULOSE (11% HYDROXYPROPYL; 120000 MW)\nMAGNESIUM STEARATE\nMANNITOL\nGELATIN, UNSPECIFIED\nFERRIC OXIDE RED\nSODIUM LAURYL SULFATE\nTITANIUM DIOXIDE\nFERROSOFERRIC OXIDE\nPOTASSIUM HYDROXIDE\nPROPYLENE GLYCOL\nSHELLAC\n\nRemedy_Label",
+  "source_rank": 3
+}

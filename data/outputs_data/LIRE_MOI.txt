@@ -1,0 +1,18 @@
+﻿DATA FILTRÉE — PHARMEAZOR
+=========================
+Documents d'origine : 1320
+Documents copiés     : 989
+Statuts : doublon=11, exact=966, exclude=316, exclude_vet=4, reassigned=23
+
+Règle : on garde uniquement les produits dont l'ensemble des substances actives
+est exactement celui du dossier (DCI seule, ou combinaison explicitement prévue
+dans la liste des 40 : paracétamol+codéine, amoxicilline+acide clavulanique,
+cotrimoxazole). Les autres combinaisons et les dérivés (ex. dexkétoprofène)
+sont exclus et listés dans _EXCLUS.csv / _COMBINAISONS_HORS_LISTE.csv.
+Les produits vétérinaires (usage animal) sont également exclus et tracés dans _EXCLUS.csv.
+
+Fichiers de contrôle :
+  _MANIFESTE.csv  : une ligne par document d'origine, avec décision
+  _RESUME.csv     : comptes par dossier
+  _EXCLUS.csv     : documents écartés + raison
+  _COMBINAISONS_HORS_LISTE.csv : combinaisons écartées (pour arbitrage)

@@ -1,0 +1,171 @@
+{
+  "source": "dailymed",
+  "source_priority": 3,
+  "drug_id": 1,
+  "language": "en",
+  "doc_type": "label",
+  "label_type": "HUMAN OTC DRUG LABEL",
+  "title": "PAIN RELIEF (ACETAMINOPHEN) TABLET, COATED [DISCOUNT DRUG MART]",
+  "brand": "PAIN RELIEF (ACETAMINOPHEN) TABLET, COATED",
+  "dci": "",
+  "manufacturer": "DISCOUNT DRUG MART",
+  "setid": "146c735b-5081-4de4-9025-d939d560bbba",
+  "spl_version": "5",
+  "published_date": "Nov 13, 2026",
+  "effective_date": "20261110",
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=146c735b-5081-4de4-9025-d939d560bbba",
+  "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=146c735b-5081-4de4-9025-d939d560bbba",
+  "sections": [
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Drug Facts"
+    },
+    {
+      "key": "section_active_ingredient_in_each_caplet",
+      "label": "Active ingredient (in each caplet)",
+      "number": "55106-9",
+      "title": "Active ingredient (in each caplet)",
+      "text": "Acetaminophen 500 mg"
+    },
+    {
+      "key": "section_purpose",
+      "label": "Purpose",
+      "number": "55105-1",
+      "title": "Purpose",
+      "text": "Pain reliever/fever reducer"
+    },
+    {
+      "key": [
+        "indications",
+        "Indications and Usage"
+      ],
+      "label": "Indications and Usage",
+      "number": "34067-9",
+      "title": "Uses",
+      "text": "temporarily relieves minor aches and pains due to:\n\nthe common cold\nheadache\nbackache\nminor pain of arthritis\ntoothache\nmuscular aches\npremenstrual and menstrual cramps\n\ntemporarily reduces fever"
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "Liver warning",
+      "text": "This product contains acetaminophen. Severe liver damage may occur if you take\n\nmore than 4,000 mg of acetaminophen in 24 hours\nwith other drugs containing acetaminophen\n3 or more alcoholic drinks every day while using this product"
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "Allergy alert",
+      "text": "acetaminophen may cause severe skin reactions. Symptoms may include:\n\nskin reddening\nblisters\nrash\n\nIf a skin reaction occurs, stop use and seek medical help right away."
+    },
+    {
+      "key": "section_do_not_use",
+      "label": "Do not use",
+      "number": "50570-1",
+      "title": "Do not use",
+      "text": "with any other drug containing acetaminophen (prescription or nonprescription). If you are not sure whether a drug contains acetaminophen, ask a doctor or pharmacist.\nif you are allergic to acetaminophen or any of the inactive ingredients in this product"
+    },
+    {
+      "key": "section_otc_ask_doctor_section",
+      "label": "OTC - ASK DOCTOR SECTION",
+      "number": "50569-3",
+      "title": "OTC - ASK DOCTOR SECTION",
+      "text": "Ask a doctor before use if you have liver disease."
+    },
+    {
+      "key": "section_otc_ask_doctor_pharmacist_section",
+      "label": "OTC - ASK DOCTOR/PHARMACIST SECTION",
+      "number": "50568-5",
+      "title": "OTC - ASK DOCTOR/PHARMACIST SECTION",
+      "text": "Ask a doctor or pharmacist before use if you are taking the blood thinning drug warfarin"
+    },
+    {
+      "key": "section_stop_use_and_ask_a_doctor_if",
+      "label": "Stop use and ask a doctor if",
+      "number": "50566-9",
+      "title": "Stop use and ask a doctor if",
+      "text": "pain gets worse or lasts more than 10 days\nfever gets worse or lasts more than 3 days\nnew symptoms occur\nredness or swelling is present\n\nThese could be signs of a serious condition."
+    },
+    {
+      "key": "section_otc_pregnancy_or_breast_feeding_section",
+      "label": "OTC - PREGNANCY OR BREAST FEEDING SECTION",
+      "number": "53414-9",
+      "title": "OTC - PREGNANCY OR BREAST FEEDING SECTION",
+      "text": "If pregnant or breast-feeding, ask a health professional before use."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "Overdose warning",
+      "text": "In case of overdose, get medical help or contact a Poison Control Center right away (1-800-222-1222). Quick medical attention is critical for adults as well as for children even if you do not notice any signs or symptoms."
+    },
+    {
+      "key": [
+        "posologie",
+        "Dosage and Administration"
+      ],
+      "label": "Dosage and Administration",
+      "number": "34068-7",
+      "title": "Directions",
+      "text": "do not take more than directed (see \n\n overdose warning)\n\nadults and children 12 years and over | \n\ntake 2 caplets every 6 hours while symptoms last\nswallow whole – do not crush, chew, or dissolve\ndo not take more than 6 caplets in 24 hours, unless directed by a doctor\ndo not use for more than 10 days unless directed by a doctor\n\n | \n\nchildren under 12 years | \n\nask a doctor\n\n |"
+    },
+    {
+      "key": "section_other_information",
+      "label": "Other information",
+      "number": "44425-7",
+      "title": "Other information",
+      "text": "store between 20-25°C (68-77°F)\nretain carton for complete product information"
+    },
+    {
+      "key": "section_inactive_ingredients",
+      "label": "Inactive ingredients",
+      "number": "51727-6",
+      "title": "Inactive ingredients",
+      "text": "acesulfame potassium, flavor, hypromellose, polyethylene glycol, povidone, pregelatinized starch, propylene glycol, sodium starch glycolate, stearic acid, titanium dioxide"
+    },
+    {
+      "key": "section_questions_or_comments",
+      "label": "Questions or comments?",
+      "number": "53413-1",
+      "title": "Questions or comments?",
+      "text": "1-844-705-4384"
+    },
+    {
+      "key": "section_principal_display_panel",
+      "label": "PRINCIPAL DISPLAY PANEL",
+      "number": "51945-4",
+      "title": "PRINCIPAL DISPLAY PANEL",
+      "text": "DISCOUNT drug mart FOOD FAIR\nNDC 53943-298-03\n†Compare to the active ingredient in Tylenol® Extra Strength\nExtra Strength\nPain Relief\nAcetaminophen Caplets, 500 mg\nPain Reliever / Fever Reducer\nInstant Cooling Sensation\nFor Adults\nCOOL TASTE CAPLETS\nActual Size\n100 CAPLETS - 500 MG EACH\n\nimage description"
+    }
+  ],
+  "ingredients": [
+    "ACETAMINOPHEN (ACTIB) - 500 mg",
+    "ACESULFAME POTASSIUM (Inactive)",
+    "HYPROMELLOSES (Inactive)",
+    "POLYETHYLENE GLYCOL, UNSPECIFIED (Inactive)",
+    "POVIDONE (Inactive)",
+    "STARCH, PREGELATINIZED CORN (Inactive)",
+    "PROPYLENE GLYCOL (Inactive)",
+    "SODIUM STARCH GLYCOLATE TYPE A CORN (Inactive)",
+    "STEARIC ACID (Inactive)",
+    "TITANIUM DIOXIDE (Inactive)"
+  ],
+  "text": "Unclassified\nDrug Facts\n\nActive ingredient (in each caplet)\nAcetaminophen 500 mg\n\nPurpose\nPain reliever/fever reducer\n\nIndications and Usage\ntemporarily relieves minor aches and pains due to:\n\nthe common cold\nheadache\nbackache\nminor pain of arthritis\ntoothache\nmuscular aches\npremenstrual and menstrual cramps\n\ntemporarily reduces fever\n\nUnclassified\nThis product contains acetaminophen. Severe liver damage may occur if you take\n\nmore than 4,000 mg of acetaminophen in 24 hours\nwith other drugs containing acetaminophen\n3 or more alcoholic drinks every day while using this product\n\nUnclassified\nacetaminophen may cause severe skin reactions. Symptoms may include:\n\nskin reddening\nblisters\nrash\n\nIf a skin reaction occurs, stop use and seek medical help right away.\n\nDo not use\nwith any other drug containing acetaminophen (prescription or nonprescription). If you are not sure whether a drug contains acetaminophen, ask a doctor or pharmacist.\nif you are allergic to acetaminophen or any of the inactive ingredients in this product\n\nOTC - ASK DOCTOR SECTION\nAsk a doctor before use if you have liver disease.\n\nOTC - ASK DOCTOR/PHARMACIST SECTION\nAsk a doctor or pharmacist before use if you are taking the blood thinning drug warfarin\n\nStop use and ask a doctor if\npain gets worse or lasts more than 10 days\nfever gets worse or lasts more than 3 days\nnew symptoms occur\nredness or swelling is present\n\nThese could be signs of a serious condition.\n\nOTC - PREGNANCY OR BREAST FEEDING SECTION\nIf pregnant or breast-feeding, ask a health professional before use.\n\nUnclassified\nIn case of overdose, get medical help or contact a Poison Control Center right away (1-800-222-1222). Quick medical attention is critical for adults as well as for children even if you do not notice any signs or symptoms.\n\nDosage and Administration\ndo not take more than directed (see \n\n overdose warning)\n\nadults and children 12 years and over | \n\ntake 2 caplets every 6 hours while symptoms last\nswallow whole – do not crush, chew, or dissolve\ndo not take more than 6 caplets in 24 hours, unless directed by a doctor\ndo not use for more than 10 days unless directed by a doctor\n\n | \n\nchildren under 12 years | \n\nask a doctor\n\n |\n\nOther information\nstore between 20-25°C (68-77°F)\nretain carton for complete product information\n\nInactive ingredients\nacesulfame potassium, flavor, hypromellose, polyethylene glycol, povidone, pregelatinized starch, propylene glycol, sodium starch glycolate, stearic acid, titanium dioxide\n\nQuestions or comments?\n1-844-705-4384\n\nPRINCIPAL DISPLAY PANEL\nDISCOUNT drug mart FOOD FAIR\nNDC 53943-298-03\n†Compare to the active ingredient in Tylenol® Extra Strength\nExtra Strength\nPain Relief\nAcetaminophen Caplets, 500 mg\nPain Reliever / Fever Reducer\nInstant Cooling Sensation\nFor Adults\nCOOL TASTE CAPLETS\nActual Size\n100 CAPLETS - 500 MG EACH\n\nimage description",
+  "source_rank": 3
+}

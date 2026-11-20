@@ -1,0 +1,142 @@
+{
+  "source": "dailymed",
+  "source_priority": 3,
+  "drug_id": 6,
+  "language": "en",
+  "doc_type": "label",
+  "label_type": "HUMAN OTC DRUG LABEL",
+  "title": "ASPIRIN TABLET, FILM COATED [BI-MART]",
+  "brand": "ASPIRIN TABLET, FILM COATED",
+  "dci": "",
+  "manufacturer": "Bi-Mart",
+  "setid": "cc5db55a-a2b0-48f4-802b-9e5e94fd9ceb",
+  "spl_version": "2",
+  "published_date": "Nov 09, 2026",
+  "effective_date": "20261105",
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc5db55a-a2b0-48f4-802b-9e5e94fd9ceb",
+  "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc5db55a-a2b0-48f4-802b-9e5e94fd9ceb",
+  "sections": [
+    {
+      "key": "section_otc_active_ingredient_section",
+      "label": "OTC - ACTIVE INGREDIENT SECTION",
+      "number": "55106-9",
+      "title": "OTC - ACTIVE INGREDIENT SECTION",
+      "text": "Aspirin 325 mg (NSAID)*\n*nonsteroidal anti-inflammatory drug"
+    },
+    {
+      "key": "section_otc_purpose_section",
+      "label": "OTC - PURPOSE SECTION",
+      "number": "55105-1",
+      "title": "OTC - PURPOSE SECTION",
+      "text": "Pain reliever/fever reducer"
+    },
+    {
+      "key": [
+        "indications",
+        "Indications and Usage"
+      ],
+      "label": "Indications and Usage",
+      "number": "34067-9",
+      "title": "INDICATIONS & USAGE SECTION",
+      "text": "temporary relieves minor aches and pains due to:\n\nminor pain of arthritis\nheadache\nmuscle pain\nthe common cold\nmenstrual pain\ntoothache\ntemporarily reduces fever"
+    },
+    {
+      "key": "section_warnings_section",
+      "label": "WARNINGS SECTION",
+      "number": "34071-1",
+      "title": "WARNINGS SECTION",
+      "text": "Reye’s syndrome: Children and teenagers who have or are recovering from chicken pox or flu-like symptoms should not use this product. When using this product, if changes in behavior with nausea and vomiting occur, consult a doctor because these symptoms could be an early sign of Reye's syndrome, a rare but serious illness.\n\nAllergy alert: Aspirin may cause a severe allergic reaction, which may include:\n\nfacial swelling\nshock\nhives\nasthma (wheezing)\n\nStomach bleeding warning: This product contains an NSAID, which may cause severe stomach bleeding. The chance is higher if you\n\nare age 60 or older\nhave had stomach ulcers or bleeding problems\ntake a blood thinning (anticoagulant) or steroid drug\nhave 3 or more alcoholic drinks every day while using this product\ntake more or for a longer time than directed\ntake other drugs containing prescription or nonprescription NSAIDs [aspirin, ibuprofen, naproxen, or others]"
+    },
+    {
+      "key": "section_otc_do_not_use_section",
+      "label": "OTC - DO NOT USE SECTION",
+      "number": "50570-1",
+      "title": "OTC - DO NOT USE SECTION",
+      "text": "if you are allergic to aspirin or any other pain reliever/fever reducer\nif you have ever had an allergic reaction to this product or any of its ingredients"
+    },
+    {
+      "key": "section_otc_ask_doctor_section",
+      "label": "OTC - ASK DOCTOR SECTION",
+      "number": "50569-3",
+      "title": "OTC - ASK DOCTOR SECTION",
+      "text": "you are taking a diuretic\nstomach bleeding warning applies to you\nyou have a history of stomach problems, such as heartburn\nyou have high blood pressure, heart disease, liver cirrhosis, or kidney disease\nyou have asthma"
+    },
+    {
+      "key": "section_otc_ask_doctor_pharmacist_section",
+      "label": "OTC - ASK DOCTOR/PHARMACIST SECTION",
+      "number": "50568-5",
+      "title": "OTC - ASK DOCTOR/PHARMACIST SECTION",
+      "text": "taking a prescription drug for \n\ngout\ndiabetes \narthritis"
+    },
+    {
+      "key": "section_otc_stop_use_section",
+      "label": "OTC - STOP USE SECTION",
+      "number": "50566-9",
+      "title": "OTC - STOP USE SECTION",
+      "text": "an allergic reaction occurs. Seek medical help right away.\nyou experience any of the following signs of stomach bleeding:\n\nfeel faint\nvomit blood\nhave bloody or black stools\nhave stomach pain that does not get better\n\nringing in the ears or a loss of hearing occurs\npain gets worse or lasts for more than 10 days\nfever gets worse or lasts more than 3 days\nredness or swelling is present\nnew symptoms occur\n\nThese could be signs of a serious condition."
+    },
+    {
+      "key": "section_otc_pregnancy_or_breast_feeding_section",
+      "label": "OTC - PREGNANCY OR BREAST FEEDING SECTION",
+      "number": "53414-9",
+      "title": "OTC - PREGNANCY OR BREAST FEEDING SECTION",
+      "text": "ask a health professional before use. It is especially important not to use aspirin at 20 weeks or later in pregnancy unless definitely directed to do so by a doctor because it may cause problems in the unborn child or complications during delivery."
+    },
+    {
+      "key": "section_otc_keep_out_of_reach_of_children_sectio",
+      "label": "OTC - KEEP OUT OF REACH OF CHILDREN SECTION",
+      "number": "50565-1",
+      "title": "OTC - KEEP OUT OF REACH OF CHILDREN SECTION",
+      "text": "In case of overdose, get medical help or contact a Poison Control Center (1-800-222-1222) right away."
+    },
+    {
+      "key": [
+        "posologie",
+        "Dosage and Administration"
+      ],
+      "label": "Dosage and Administration",
+      "number": "34068-7",
+      "title": "DOSAGE & ADMINISTRATION SECTION",
+      "text": "do not take more than directed\n\ndrink a full glass of water with each dose\n\nadults and children 12 years and over: take 1 or 2 tablets every 4 hours or 3 tablets every 6 hours, not to exceed 12 tablets in 24 hours unless directed by a doctor\n\nchildren under 12 years: do not useunless directed by a doctor"
+    },
+    {
+      "key": "section_storage_and_handling_section",
+      "label": "STORAGE AND HANDLING SECTION",
+      "number": "44425-7",
+      "title": "STORAGE AND HANDLING SECTION",
+      "text": "store between 20⁰ to 25⁰C (68⁰ to 77⁰F)\nTAMPER EVIDENT: DO NOT USE IF IMPRINTED SAFETY SEAL UNDER CAP IS BROKEN OR MISSING."
+    },
+    {
+      "key": "section_inactive_ingredient_section",
+      "label": "INACTIVE INGREDIENT SECTION",
+      "number": "51727-6",
+      "title": "INACTIVE INGREDIENT SECTION",
+      "text": "corn starch, croscarmellose sodium, microcrystalline cellulose, polyvinyl alcohol, talc, titanium dioxide"
+    },
+    {
+      "key": "section_otc_questions_section",
+      "label": "OTC - QUESTIONS SECTION",
+      "number": "53413-1",
+      "title": "OTC - QUESTIONS SECTION",
+      "text": "call toll-free\n\n 1-844-912-4012"
+    },
+    {
+      "key": "section_package_label_principal_display_panel",
+      "label": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+      "number": "51945-4",
+      "title": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+      "text": "Principal Display Panel\n\n1"
+    }
+  ],
+  "ingredients": [
+    "ASPIRIN (ACTIB) - 325 mg",
+    "CROSCARMELLOSE SODIUM (Inactive)",
+    "STARCH, CORN (Inactive)",
+    "MICROCRYSTALLINE CELLULOSE (Inactive)",
+    "POLYVINYL ALCOHOL (Inactive)",
+    "TALC (Inactive)",
+    "TITANIUM DIOXIDE (Inactive)"
+  ],
+  "text": "OTC - ACTIVE INGREDIENT SECTION\nAspirin 325 mg (NSAID)*\n*nonsteroidal anti-inflammatory drug\n\nOTC - PURPOSE SECTION\nPain reliever/fever reducer\n\nIndications and Usage\ntemporary relieves minor aches and pains due to:\n\nminor pain of arthritis\nheadache\nmuscle pain\nthe common cold\nmenstrual pain\ntoothache\ntemporarily reduces fever\n\nWARNINGS SECTION\nReye’s syndrome: Children and teenagers who have or are recovering from chicken pox or flu-like symptoms should not use this product. When using this product, if changes in behavior with nausea and vomiting occur, consult a doctor because these symptoms could be an early sign of Reye's syndrome, a rare but serious illness.\n\nAllergy alert: Aspirin may cause a severe allergic reaction, which may include:\n\nfacial swelling\nshock\nhives\nasthma (wheezing)\n\nStomach bleeding warning: This product contains an NSAID, which may cause severe stomach bleeding. The chance is higher if you\n\nare age 60 or older\nhave had stomach ulcers or bleeding problems\ntake a blood thinning (anticoagulant) or steroid drug\nhave 3 or more alcoholic drinks every day while using this product\ntake more or for a longer time than directed\ntake other drugs containing prescription or nonprescription NSAIDs [aspirin, ibuprofen, naproxen, or others]\n\nOTC - DO NOT USE SECTION\nif you are allergic to aspirin or any other pain reliever/fever reducer\nif you have ever had an allergic reaction to this product or any of its ingredients\n\nOTC - ASK DOCTOR SECTION\nyou are taking a diuretic\nstomach bleeding warning applies to you\nyou have a history of stomach problems, such as heartburn\nyou have high blood pressure, heart disease, liver cirrhosis, or kidney disease\nyou have asthma\n\nOTC - ASK DOCTOR/PHARMACIST SECTION\ntaking a prescription drug for \n\ngout\ndiabetes \narthritis\n\nOTC - STOP USE SECTION\nan allergic reaction occurs. Seek medical help right away.\nyou experience any of the following signs of stomach bleeding:\n\nfeel faint\nvomit blood\nhave bloody or black stools\nhave stomach pain that does not get better\n\nringing in the ears or a loss of hearing occurs\npain gets worse or lasts for more than 10 days\nfever gets worse or lasts more than 3 days\nredness or swelling is present\nnew symptoms occur\n\nThese could be signs of a serious condition.\n\nOTC - PREGNANCY OR BREAST FEEDING SECTION\nask a health professional before use. It is especially important not to use aspirin at 20 weeks or later in pregnancy unless definitely directed to do so by a doctor because it may cause problems in the unborn child or complications during delivery.\n\nOTC - KEEP OUT OF REACH OF CHILDREN SECTION\nIn case of overdose, get medical help or contact a Poison Control Center (1-800-222-1222) right away.\n\nDosage and Administration\ndo not take more than directed\n\ndrink a full glass of water with each dose\n\nadults and children 12 years and over: take 1 or 2 tablets every 4 hours or 3 tablets every 6 hours, not to exceed 12 tablets in 24 hours unless directed by a doctor\n\nchildren under 12 years: do not useunless directed by a doctor\n\nSTORAGE AND HANDLING SECTION\nstore between 20⁰ to 25⁰C (68⁰ to 77⁰F)\nTAMPER EVIDENT: DO NOT USE IF IMPRINTED SAFETY SEAL UNDER CAP IS BROKEN OR MISSING.\n\nINACTIVE INGREDIENT SECTION\ncorn starch, croscarmellose sodium, microcrystalline cellulose, polyvinyl alcohol, talc, titanium dioxide\n\nOTC - QUESTIONS SECTION\ncall toll-free\n\n 1-844-912-4012\n\nPACKAGE LABEL.PRINCIPAL DISPLAY PANEL\nPrincipal Display Panel\n\n1",
+  "source_rank": 3
+}

@@ -1,0 +1,141 @@
+{
+  "source": "dailymed",
+  "source_priority": 3,
+  "drug_id": 6,
+  "language": "en",
+  "doc_type": "label",
+  "label_type": "HUMAN OTC DRUG LABEL",
+  "title": "ASPIRIN LOW DOSE (ASPIRIN) TABLET, CHEWABLE [L.N.K. INTERNATIONAL, INC.]",
+  "brand": "ASPIRIN LOW DOSE (ASPIRIN) TABLET, CHEWABLE",
+  "dci": "",
+  "manufacturer": "L.N.K. International, Inc.",
+  "setid": "39e142a7-8590-4e1e-8319-6904fb57cc8a",
+  "spl_version": "11",
+  "published_date": "Nov 09, 2026",
+  "effective_date": "20261105",
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=39e142a7-8590-4e1e-8319-6904fb57cc8a",
+  "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=39e142a7-8590-4e1e-8319-6904fb57cc8a",
+  "sections": [
+    {
+      "key": "section_otc_active_ingredient_section",
+      "label": "OTC - ACTIVE INGREDIENT SECTION",
+      "number": "55106-9",
+      "title": "OTC - ACTIVE INGREDIENT SECTION",
+      "text": "Aspirin 81 mg (NSAID)*\n*nonsteroidal anti-inflammatory drug"
+    },
+    {
+      "key": "section_otc_purpose_section",
+      "label": "OTC - PURPOSE SECTION",
+      "number": "55105-1",
+      "title": "OTC - PURPOSE SECTION",
+      "text": "Pain reliever"
+    },
+    {
+      "key": [
+        "indications",
+        "Indications and Usage"
+      ],
+      "label": "Indications and Usage",
+      "number": "34067-9",
+      "title": "INDICATIONS & USAGE SECTION",
+      "text": "for the temporary relief of minor aches and pains or as recommended by your doctor"
+    },
+    {
+      "key": "section_warnings_section",
+      "label": "WARNINGS SECTION",
+      "number": "34071-1",
+      "title": "WARNINGS SECTION",
+      "text": "Reye’s syndrome: Children and teenagers who have or are recovering from chicken pox or flu-like symptoms should not use this product. When using this product, if changes in behavior with nausea and vomiting occur, consult a doctor because these symptoms could be an early sign of Reye's syndrome, a rare but serious illness.\n\nAllergy alert: Aspirin may cause a severe allergic reaction, which may include:\n\nhives\nfacial swelling\nshock\nasthma (wheezing)\n\nStomach bleeding warning: This product contains an NSAID, which may cause severe stomach bleeding. The chance is higher if you\n\ntake a blood thinning (anticoagulant) or steroid drug\ntake other drugs containing prescription or nonprescription NSAIDs [aspirin, ibuprofen, naproxen, or others]\nhave 3 or more alcoholic drinks every day while using this product\nare age 60 or older\ntake more or for a longer time than directed\nhave had stomach ulcers or bleeding problems"
+    },
+    {
+      "key": "section_otc_do_not_use_section",
+      "label": "OTC - DO NOT USE SECTION",
+      "number": "50570-1",
+      "title": "OTC - DO NOT USE SECTION",
+      "text": "if you are allergic to aspirin or any other pain reliever/fever reducer\nfor at least 7 days after tonsillectomy or oral surgery unless directed by a doctor\nif you have ever had an allergic reaction to this product or any of its ingredients"
+    },
+    {
+      "key": "section_otc_ask_doctor_section",
+      "label": "OTC - ASK DOCTOR SECTION",
+      "number": "50569-3",
+      "title": "OTC - ASK DOCTOR SECTION",
+      "text": "stomach bleeding warning applies to you\nyou have a history of stomach problems, such as heartburn\nyou have high blood pressure, heart disease, liver cirrhosis, or kidney disease\nyou have asthma\nyou are taking a diuretic"
+    },
+    {
+      "key": "section_otc_ask_doctor_pharmacist_section",
+      "label": "OTC - ASK DOCTOR/PHARMACIST SECTION",
+      "number": "50568-5",
+      "title": "OTC - ASK DOCTOR/PHARMACIST SECTION",
+      "text": "taking a prescription drug for\n\ngout\ndiabetes\narthritis"
+    },
+    {
+      "key": "section_otc_stop_use_section",
+      "label": "OTC - STOP USE SECTION",
+      "number": "50566-9",
+      "title": "OTC - STOP USE SECTION",
+      "text": "an allergic reaction occurs. Seek medical help right away.\nyou experience any of the following signs of stomach bleeding:\nvomit blood\nhave bloody or black stools\nfeel faint\nhave stomach pain that does not get better\n\nringing in the ears or a loss of hearing occurs\npain gets worse or lasts more than 10 days\nfever gets worse or lasts more than 3 days\nredness or swelling is present\nnew symptoms occur\n\nThese could be signs of a serious condition."
+    },
+    {
+      "key": "section_otc_pregnancy_or_breast_feeding_section",
+      "label": "OTC - PREGNANCY OR BREAST FEEDING SECTION",
+      "number": "53414-9",
+      "title": "OTC - PREGNANCY OR BREAST FEEDING SECTION",
+      "text": "ask a health professional before use. It is especially important not to use aspirin at 20 weeks or later in pregnancy unless definitely directed to do so by a doctor because it may cause problems in the unborn child or complications during delivery."
+    },
+    {
+      "key": "section_otc_keep_out_of_reach_of_children_sectio",
+      "label": "OTC - KEEP OUT OF REACH OF CHILDREN SECTION",
+      "number": "50565-1",
+      "title": "OTC - KEEP OUT OF REACH OF CHILDREN SECTION",
+      "text": "In case of overdose, get medical help or contact a Poison Control Center right away."
+    },
+    {
+      "key": [
+        "posologie",
+        "Dosage and Administration"
+      ],
+      "label": "Dosage and Administration",
+      "number": "34068-7",
+      "title": "DOSAGE & ADMINISTRATION SECTION",
+      "text": "do not take more than directed\n\ndrink a full glass of water with each dose\nchew or crush tablets completely before swallowing; do not swallow tablets whole\nadults and children 12 years and over: take 4 to 8 chewable tablets every 4 hours not to exceed 48 chewable tablets in 24 hours unless directed by a doctor\nchildren under 12 years: do not use unless directed by a doctor"
+    },
+    {
+      "key": "section_storage_and_handling_section",
+      "label": "STORAGE AND HANDLING SECTION",
+      "number": "44425-7",
+      "title": "STORAGE AND HANDLING SECTION",
+      "text": "store at 25°C (77°F); excursions permitted between 15°-30°C (59°-86°F)\nsee end flap for expiration date and lot number"
+    },
+    {
+      "key": "section_inactive_ingredient_section",
+      "label": "INACTIVE INGREDIENT SECTION",
+      "number": "51727-6",
+      "title": "INACTIVE INGREDIENT SECTION",
+      "text": "corn starch, dextrates hydrated, FD&C yellow #6 aluminum lake, flavor, maltodextrin, sucralose"
+    },
+    {
+      "key": "section_otc_questions_section",
+      "label": "OTC - QUESTIONS SECTION",
+      "number": "53413-1",
+      "title": "OTC - QUESTIONS SECTION",
+      "text": "1-800-426-9391"
+    },
+    {
+      "key": "section_package_label_principal_display_panel",
+      "label": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+      "number": "51945-4",
+      "title": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+      "text": "QUALITY \n\n+PLUS\n\nNDC 50844-218-07\n\n†Compare to active ingredient in\n\nBayer® Chewable Low Dose Aspirin\nLOW DOSE\n\nASPIRIN\n\nCHEWABLE\n\nTABLETS 81 mg\n\nPAIN RELIEVER\n\n(NSAID)\n\nChew or\n\ncrush tablets\n\ncompletely\n\nbefore\n\nswallowing.\n\n• ASPIRIN REGIMEN\n\n• ORANGE FLAVORED\nACTUAL SIZE\n\n36 \n\nChewable Tablets\nTalk to your doctor or other healthcare provider\n\nbefore using this product for your heart.\n\nT\n\nQuality Plus 44-218\n\nQuality Plus 44-218"
+    }
+  ],
+  "ingredients": [
+    "ASPIRIN (ACTIB) - 81 mg",
+    "STARCH, CORN (Inactive)",
+    "DEXTROSE MONOHYDRATE (Inactive)",
+    "FD&C YELLOW NO. 6 ALUMINUM LAKE (Inactive)",
+    "MALTODEXTRIN (Inactive)",
+    "SUCRALOSE (Inactive)"
+  ],
+  "text": "OTC - ACTIVE INGREDIENT SECTION\nAspirin 81 mg (NSAID)*\n*nonsteroidal anti-inflammatory drug\n\nOTC - PURPOSE SECTION\nPain reliever\n\nIndications and Usage\nfor the temporary relief of minor aches and pains or as recommended by your doctor\n\nWARNINGS SECTION\nReye’s syndrome: Children and teenagers who have or are recovering from chicken pox or flu-like symptoms should not use this product. When using this product, if changes in behavior with nausea and vomiting occur, consult a doctor because these symptoms could be an early sign of Reye's syndrome, a rare but serious illness.\n\nAllergy alert: Aspirin may cause a severe allergic reaction, which may include:\n\nhives\nfacial swelling\nshock\nasthma (wheezing)\n\nStomach bleeding warning: This product contains an NSAID, which may cause severe stomach bleeding. The chance is higher if you\n\ntake a blood thinning (anticoagulant) or steroid drug\ntake other drugs containing prescription or nonprescription NSAIDs [aspirin, ibuprofen, naproxen, or others]\nhave 3 or more alcoholic drinks every day while using this product\nare age 60 or older\ntake more or for a longer time than directed\nhave had stomach ulcers or bleeding problems\n\nOTC - DO NOT USE SECTION\nif you are allergic to aspirin or any other pain reliever/fever reducer\nfor at least 7 days after tonsillectomy or oral surgery unless directed by a doctor\nif you have ever had an allergic reaction to this product or any of its ingredients\n\nOTC - ASK DOCTOR SECTION\nstomach bleeding warning applies to you\nyou have a history of stomach problems, such as heartburn\nyou have high blood pressure, heart disease, liver cirrhosis, or kidney disease\nyou have asthma\nyou are taking a diuretic\n\nOTC - ASK DOCTOR/PHARMACIST SECTION\ntaking a prescription drug for\n\ngout\ndiabetes\narthritis\n\nOTC - STOP USE SECTION\nan allergic reaction occurs. Seek medical help right away.\nyou experience any of the following signs of stomach bleeding:\nvomit blood\nhave bloody or black stools\nfeel faint\nhave stomach pain that does not get better\n\nringing in the ears or a loss of hearing occurs\npain gets worse or lasts more than 10 days\nfever gets worse or lasts more than 3 days\nredness or swelling is present\nnew symptoms occur\n\nThese could be signs of a serious condition.\n\nOTC - PREGNANCY OR BREAST FEEDING SECTION\nask a health professional before use. It is especially important not to use aspirin at 20 weeks or later in pregnancy unless definitely directed to do so by a doctor because it may cause problems in the unborn child or complications during delivery.\n\nOTC - KEEP OUT OF REACH OF CHILDREN SECTION\nIn case of overdose, get medical help or contact a Poison Control Center right away.\n\nDosage and Administration\ndo not take more than directed\n\ndrink a full glass of water with each dose\nchew or crush tablets completely before swallowing; do not swallow tablets whole\nadults and children 12 years and over: take 4 to 8 chewable tablets every 4 hours not to exceed 48 chewable tablets in 24 hours unless directed by a doctor\nchildren under 12 years: do not use unless directed by a doctor\n\nSTORAGE AND HANDLING SECTION\nstore at 25°C (77°F); excursions permitted between 15°-30°C (59°-86°F)\nsee end flap for expiration date and lot number\n\nINACTIVE INGREDIENT SECTION\ncorn starch, dextrates hydrated, FD&C yellow #6 aluminum lake, flavor, maltodextrin, sucralose\n\nOTC - QUESTIONS SECTION\n1-800-426-9391\n\nPACKAGE LABEL.PRINCIPAL DISPLAY PANEL\nQUALITY \n\n+PLUS\n\nNDC 50844-218-07\n\n†Compare to active ingredient in\n\nBayer® Chewable Low Dose Aspirin\nLOW DOSE\n\nASPIRIN\n\nCHEWABLE\n\nTABLETS 81 mg\n\nPAIN RELIEVER\n\n(NSAID)\n\nChew or\n\ncrush tablets\n\ncompletely\n\nbefore\n\nswallowing.\n\n• ASPIRIN REGIMEN\n\n• ORANGE FLAVORED\nACTUAL SIZE\n\n36 \n\nChewable Tablets\nTalk to your doctor or other healthcare provider\n\nbefore using this product for your heart.\n\nT\n\nQuality Plus 44-218\n\nQuality Plus 44-218",
+  "source_rank": 3
+}

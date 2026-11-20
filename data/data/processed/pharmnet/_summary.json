@@ -1,0 +1,282 @@
+[
+  {
+    "drug_id": 1,
+    "name": "paracétamol",
+    "dci_codes": 75,
+    "produits": 308,
+    "docs": 308
+  },
+  {
+    "drug_id": 2,
+    "name": "ibuprofène",
+    "dci_codes": 17,
+    "produits": 114,
+    "docs": 114
+  },
+  {
+    "drug_id": 3,
+    "name": "diclofénac",
+    "dci_codes": 18,
+    "produits": 202,
+    "docs": 202
+  },
+  {
+    "drug_id": 4,
+    "name": "kétoprofène",
+    "dci_codes": 12,
+    "produits": 45,
+    "docs": 45
+  },
+  {
+    "drug_id": 5,
+    "name": "naproxène",
+    "dci_codes": 5,
+    "produits": 24,
+    "docs": 24
+  },
+  {
+    "drug_id": 6,
+    "name": "acide acétylsalicylique",
+    "dci_codes": 21,
+    "produits": 44,
+    "docs": 44
+  },
+  {
+    "drug_id": 7,
+    "name": "méloxicam",
+    "dci_codes": 2,
+    "produits": 9,
+    "docs": 9
+  },
+  {
+    "drug_id": 8,
+    "name": "piroxicam",
+    "dci_codes": 8,
+    "produits": 72,
+    "docs": 72
+  },
+  {
+    "drug_id": 9,
+    "name": "célécoxib",
+    "dci_codes": 2,
+    "produits": 36,
+    "docs": 36
+  },
+  {
+    "drug_id": 10,
+    "name": "tramadol",
+    "dci_codes": 8,
+    "produits": 41,
+    "docs": 41
+  },
+  {
+    "drug_id": 11,
+    "name": "paracétamol + codéine",
+    "dci_codes": 5,
+    "produits": 19,
+    "docs": 19
+  },
+  {
+    "drug_id": 12,
+    "name": "néfopam",
+    "dci_codes": 1,
+    "produits": 2,
+    "docs": 2
+  },
+  {
+    "drug_id": 13,
+    "name": "amoxicilline",
+    "dci_codes": 27,
+    "produits": 220,
+    "docs": 220
+  },
+  {
+    "drug_id": 14,
+    "name": "amoxicilline + acide clavulanique",
+    "dci_codes": 15,
+    "produits": 80,
+    "docs": 80
+  },
+  {
+    "drug_id": 15,
+    "name": "céfixime",
+    "dci_codes": 9,
+    "produits": 27,
+    "docs": 27
+  },
+  {
+    "drug_id": 16,
+    "name": "céfuroxime",
+    "dci_codes": 6,
+    "produits": 24,
+    "docs": 24
+  },
+  {
+    "drug_id": 17,
+    "name": "ceftriaxone",
+    "dci_codes": 5,
+    "produits": 20,
+    "docs": 20
+  },
+  {
+    "drug_id": 18,
+    "name": "azithromycine",
+    "dci_codes": 5,
+    "produits": 34,
+    "docs": 34
+  },
+  {
+    "drug_id": 19,
+    "name": "clarithromycine",
+    "dci_codes": 4,
+    "produits": 31,
+    "docs": 31
+  },
+  {
+    "drug_id": 20,
+    "name": "ciprofloxacine",
+    "dci_codes": 8,
+    "produits": 45,
+    "docs": 45
+  },
+  {
+    "drug_id": 21,
+    "name": "lévofloxacine",
+    "dci_codes": 5,
+    "produits": 18,
+    "docs": 18
+  },
+  {
+    "drug_id": 22,
+    "name": "doxycycline",
+    "dci_codes": 2,
+    "produits": 18,
+    "docs": 18
+  },
+  {
+    "drug_id": 23,
+    "name": "cotrimoxazole (sulfaméthoxazole + triméthoprime)",
+    "dci_codes": 4,
+    "produits": 42,
+    "docs": 42
+  },
+  {
+    "drug_id": 24,
+    "name": "métronidazole",
+    "dci_codes": 16,
+    "produits": 93,
+    "docs": 93
+  },
+  {
+    "drug_id": 25,
+    "name": "gentamicine",
+    "dci_codes": 8,
+    "produits": 60,
+    "docs": 60
+  },
+  {
+    "drug_id": 26,
+    "name": "clindamycine",
+    "dci_codes": 4,
+    "produits": 12,
+    "docs": 12
+  },
+  {
+    "drug_id": 27,
+    "name": "amlodipine",
+    "dci_codes": 28,
+    "produits": 136,
+    "docs": 136
+  },
+  {
+    "drug_id": 28,
+    "name": "nifédipine",
+    "dci_codes": 3,
+    "produits": 29,
+    "docs": 29
+  },
+  {
+    "drug_id": 29,
+    "name": "périndopril",
+    "dci_codes": 17,
+    "produits": 30,
+    "docs": 30
+  },
+  {
+    "drug_id": 30,
+    "name": "ramipril",
+    "dci_codes": 8,
+    "produits": 52,
+    "docs": 52
+  },
+  {
+    "drug_id": 31,
+    "name": "énalapril",
+    "dci_codes": 3,
+    "produits": 28,
+    "docs": 28
+  },
+  {
+    "drug_id": 32,
+    "name": "losartan",
+    "dci_codes": 5,
+    "produits": 30,
+    "docs": 30
+  },
+  {
+    "drug_id": 33,
+    "name": "valsartan",
+    "dci_codes": 17,
+    "produits": 128,
+    "docs": 128
+  },
+  {
+    "drug_id": 34,
+    "name": "bisoprolol",
+    "dci_codes": 5,
+    "produits": 34,
+    "docs": 34
+  },
+  {
+    "drug_id": 35,
+    "name": "aténolol",
+    "dci_codes": 4,
+    "produits": 36,
+    "docs": 36
+  },
+  {
+    "drug_id": 36,
+    "name": "nébivolol",
+    "dci_codes": 2,
+    "produits": 4,
+    "docs": 4
+  },
+  {
+    "drug_id": 37,
+    "name": "hydrochlorothiazide",
+    "dci_codes": 32,
+    "produits": 181,
+    "docs": 181
+  },
+  {
+    "drug_id": 38,
+    "name": "indapamide",
+    "dci_codes": 11,
+    "produits": 20,
+    "docs": 20
+  },
+  {
+    "drug_id": 39,
+    "name": "spironolactone",
+    "dci_codes": 4,
+    "produits": 10,
+    "docs": 10
+  },
+  {
+    "drug_id": 40,
+    "name": "méthyldopa",
+    "dci_codes": 2,
+    "produits": 12,
+    "docs": 12
+  }
+]

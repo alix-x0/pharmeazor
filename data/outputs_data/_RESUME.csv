@@ -1,0 +1,41 @@
+﻿dossier;actifs_attendus;docs_origine;docs_gardes;deplaces_sortants;deplaces_entrants;exclus;total_final
+01_paracetamol;paracetamol;50;26;2;0;22;26
+02_ibuprofene;ibuprofene;38;37;0;0;1;37
+03_diclofenac;diclofenac;45;42;0;0;3;42
+04_ketoprofene;ketoprofene;40;29;0;0;11;29
+05_naproxene;naproxene;27;25;0;0;2;25
+06_acide-acetylsalicylique;aspirine;38;26;0;0;12;26
+07_meloxicam;meloxicam;27;26;0;0;1;26
+08_piroxicam;piroxicam;35;35;0;0;0;35
+09_celecoxib;celecoxib;39;39;0;0;0;39
+10_tramadol;tramadol;38;19;0;0;19;19
+11_paracetamol-codeine;codeine, paracetamol;45;22;0;2;23;24
+12_nefopam;nefopam;18;18;0;0;0;18
+13_amoxicilline;amoxicilline;39;18;21;0;0;18
+14_amoxicilline-acide-clavulanique;amoxicilline, clavulanique;3;3;0;21;0;24
+15_cefixime;cefixime;27;27;0;0;0;27
+16_cefuroxime;cefuroxime;39;39;0;0;0;39
+17_ceftriaxone;ceftriaxone;37;37;0;0;0;37
+18_azithromycine;azithromycine;39;39;0;0;0;39
+19_clarithromycine;clarithromycine;37;37;0;0;0;37
+20_ciprofloxacine;ciprofloxacine;40;39;0;0;1;39
+21_levofloxacine;levofloxacine;39;37;0;0;2;37
+22_doxycycline;doxycycline;35;35;0;0;0;35
+23_cotrimoxazole-sulfamethoxazole-trimethoprime;sulfamethoxazole, trimethoprime;10;10;0;0;0;10
+24_metronidazole;metronidazole;39;19;0;0;20;19
+25_gentamicine;gentamicine;13;9;0;0;4;9
+26_clindamycine;clindamycine;29;25;0;0;4;25
+27_amlodipine;amlodipine;29;11;0;0;18;11
+28_nifedipine;nifedipine;17;11;0;0;6;11
+29_perindopril;perindopril;29;10;0;0;19;10
+30_ramipril;ramipril;33;29;0;0;4;29
+31_enalapril;enalapril;39;21;0;0;18;21
+32_losartan;losartan;41;19;0;0;22;19
+33_valsartan;valsartan;37;9;0;0;28;9
+34_bisoprolol;bisoprolol;41;28;0;0;13;28
+35_atenolol;atenolol;38;35;0;0;3;35
+36_nebivolol;nebivolol;33;23;0;0;10;23
+37_hydrochlorothiazide;hydrochlorothiazide;40;2;0;0;38;2
+38_indapamide;indapamide;33;8;0;0;25;8
+39_spironolactone;spironolactone;37;35;0;0;2;35
+40_methyldopa;methyldopa;7;7;0;0;0;7

@@ -1,0 +1,577 @@
+{
+  "source": "dailymed",
+  "source_priority": 3,
+  "drug_id": 14,
+  "language": "en",
+  "doc_type": "label",
+  "label_type": "HUMAN PRESCRIPTION DRUG LABEL",
+  "title": "AUGMENTIN ES-600 (AMOXICILLIN AND CLAVULANATE POTASSIUM) FOR SUSPENSION [USANTIBIOTICS, LLC]",
+  "brand": "AUGMENTIN ES-600 (AMOXICILLIN AND CLAVULANATE POTASSIUM) FOR SUSPENSION",
+  "dci": "",
+  "manufacturer": "USAntibiotics, LLC",
+  "setid": "59979859-8c9b-4173-a5e3-2e6312fd9d79",
+  "spl_version": "6",
+  "published_date": "Jul 09, 2026",
+  "effective_date": "20260707",
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=59979859-8c9b-4173-a5e3-2e6312fd9d79",
+  "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=59979859-8c9b-4173-a5e3-2e6312fd9d79",
+  "sections": [
+    {
+      "key": [
+        "changements_majeurs",
+        "Recent Major Changes"
+      ],
+      "label": "Recent Major Changes",
+      "number": "43683-2",
+      "title": "RECENT MAJOR CHANGES SECTION",
+      "text": "Indications and Usage (1)\nDosage and Administration, Dosage in Pediatric Patients (2.2)\nWarnings and Precautions\nDrug-Induced Enterocolitis Syndrome (DIES) (5.3)\n | \n\n12/2024\n12/2024\n\n5/2024\n |"
+    },
+    {
+      "key": [
+        "indications",
+        "Indications and Usage"
+      ],
+      "label": "Indications and Usage",
+      "number": "34067-9",
+      "title": "1 INDICATIONS AND USAGE",
+      "text": "AUGMENTIN ES-600 is indicated for the treatment of pediatric patients aged 3 months to 12 years weighing less than or equal to 40 kg with:\n\nRecurrent or persistent acute otitis media due to\n\n S. pneumoniae(penicillin MICs less than or equal to 2 mcg/mL),\n\n H. influenzae(including beta-lactamase-producing strains), or\n\n M. catarrhalis(including beta-lactamase-producing strains) characterized by the following risk factors:  \n\n - Antibacterial drug exposure for acute otitis media within the preceding 3 months, and either of the following: 1) age 2 years, or younger or 2) day care attendance\n\n [see Microbiology (12.4)].\n\nLimitations of Use\n\nAUGMENTIN ES-600 is not indicated for the treatment of acute otitis media due to\n\n S. pneumoniaewith penicillin MIC greater than or equal to 4 mcg/mL. Acute otitis media due to\n\n S. pneumoniaealone can be treated with amoxicillin. Therapy may be instituted prior to obtaining the results from bacteriological studies when there is reason to believe the infection may involve both\n\n S. pneumoniae(penicillin MIC less than or equal to 2 mcg/mL) and the beta-lactamase-producing organisms listed above.\n\nUsage\n\nTo reduce the development of drug-resistant bacteria and maintain the effectiveness of AUGMENTIN ES-600 and other antibacterial drugs, AUGMENTIN ES-600 should be used only to treat or prevent infections that are proven or strongly suspected to be caused by susceptible bacteria. When culture and susceptibility information are available, they should be considered in selecting or modifying antibacterial therapy. In the absence of such data, local epidemiology and susceptibility patterns may contribute to the empiric selection of therapy.\n\nAUGMENTIN ES-600 is a combination of amoxicillin, a penicillin-class antibacterial and clavulanate potassium, a beta-lactamase inhibitor,  indicated for the treatment of pediatric patients aged 3 months to 12 years weighing less than or equal to 40 kg with:\n\nRecurrent or persistent acute otitis media due to\n\n S. pneumoniae(penicillin MICs less than or equal to 2 mcg/mL),\n\n H. influenzae(including beta-lactamase-producing strains), or\n\n M. catarrhalis(including beta-lactamase-producing strains) characterized by the following risk factors (\n\n 1): Antibacterial exposure for acute otitis media within the preceding 3 months, and either of the following: 1) age 2 years, or younger or 2) day care attendance.\n\nLimitations of Use\n\nAUGMENTIN ES-600 is not indicated for the treatment of acute otitis media due to\n\n S. pneumoniaewith penicillin MIC greater than or equal to 4 mcg/mL. Acute otitis media due to\n\n S. pneumoniaealone can be treated with amoxicillin. Therapy may be instituted prior to obtaining the results from bacteriological studies when there is reason to believe the infection may involve both\n\n S. pneumoniae(penicillin MIC less than or equal to 2 mcg/mL) and the beta lactamase producing organisms listed above. (1)\n\nUsage\n\nTo reduce the development of drug-resistant bacteria and maintain the effectiveness of AUGMENTIN ES-600 and other antibacterial drugs, AUGMENTIN ES-600 should be used only to treat or prevent infections that are proven or strongly suspected to be caused by bacteria. (1)"
+    },
+    {
+      "key": [
+        "posologie",
+        "Dosage and Administration"
+      ],
+      "label": "Dosage and Administration",
+      "number": "34068-7",
+      "title": "2 DOSAGE AND ADMINISTRATION",
+      "text": "Pediatric Patients aged 3 months to 12 years weighing less than or equal to 40 kg: 90 mg/kg/day divided every 12 hours, administered for 10 days. (2)"
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "2.1 Important Administration Instructions",
+      "text": "To minimize the potential for gastrointestinal intolerance, AUGMENTIN ES-600 should be taken at the start of a meal. Absorption of clavulanate potassium may be enhanced when AUGMENTIN ES-600 is administered at the start of a meal."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "2.2 Dosage in Pediatric Patients",
+      "text": "Pediatric patients aged 3 months to 12 years weighing less than or equal to 40 kg: Based on the amoxicillin component (600 mg/5 mL), the recommended dose of AUGMENTIN ES-600 is 90 mg/kg/day divided every 12 hours, administered for 10 days (see Table 1 as a general example guideline for attainment of this dosage). This dose provides 6.4 mg/kg/day of the clavulanic acid component.\n\nTable 1: General Dosage Guidelines for AUGMENTIN ES-600 in Pediatric Patients\n\nBody Weight (kg)\n\n | \n\nVolume of\nAUGMENTIN ES-600\nfor oral suspension\nproviding 90 mg/kg/day\n\n | \n\n8\n | \n\n3 mL twice daily\n | \n\n12\n | \n\n4.5 mL twice daily\n | \n\n16\n | \n\n6 mL twice daily\n | \n\n20\n | \n\n7.5 mL twice daily\n | \n\n24\n | \n\n9 mL twice daily\n | \n\n28\n | \n\n10.5 mL twice daily\n | \n\n32\n | \n\n12 mL twice daily\n | \n\n36\n | \n\n13.5 mL twice daily\n | \n\n40\n | \n\n15 mL twice daily\n |"
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Pediatric patients weighing greater than 40 kg:Experience with AUGMENTIN ES-600 in this group is not available."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "2.3 Dosage in Adult Patients",
+      "text": "Experience with AUGMENTIN ES-600 in adults is not available and adults who have difficulty swallowing should not be given AUGMENTIN ES-600 in place of the 500 mg or 875 mg tablet of AUGMENTIN."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "2.4 Dosage in Patients with Hepatic Impairment",
+      "text": "Hepatically impaired patients should be dosed with caution and hepatic function monitored at regular intervals\n\n [see Warnings and Precautions (\n\n 5.4)]\n\n ."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "2.5 Preparation of the Oral Suspension",
+      "text": "Prepare the suspension at time of dispensing as follows: Tap bottle until all powder flows freely. Measure the total amount of water (see Table 2) to be added in two parts. Add approximately 2/3 of the total amount of water for reconstitution, replace cap and shake vigorously to suspend powder. Add remainder of the water (that had been measured), replace cap and again shake vigorously.\n\nTable 2: Volume of Water for Reconstituting AUGMENTIN ES-600\n\n | \n\nBottle Size | \nAmount of Water \n\n Required for Reconstitution\n | \n\n75 mL | \n70 mL | \n\n125 mL | \n110 mL | \n\n200 mL | \n180 mL | \n\nEach 5 mL will contain 600 mg of amoxicillin as the trihydrate, and 42.9 mg of clavulanic acid as the potassium salt.\nShake oral suspension well before each use.   Suspension must be refrigerated.  Discard after 10 days.  Suspension is off-white at time of reconstitution; some color change is normal during the dosing period."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Flavoring Information: For patients who wish to alter the taste of AUGMENTIN ES-600, immediately after reconstitution, 1 drop of FLAVORx® (apple, banana cream, bubble gum, cherry, or watermelon flavor) may be added for every 5 mL of AUGMENTIN ES-600. The resulting suspension is stable for 10 days under refrigeration. Stability of AUGMENTIN ES-600 when mixed with other flavors other than the 5 flavors listed above has not been evaluated."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "2.6 Switching between Dosage Forms and between Strengths",
+      "text": "AUGMENTIN ES-600 does not contain the same amount of clavulanic acid (as the potassium salt) as any of the other suspensions of AUGMENTIN. AUGMENTIN ES-600 contains 42.9 mg of clavulanic acid per 5 mL, whereas the 200 mg/28.5 mg per 5 mL suspension of AUGMENTIN contains 28.5 mg clavulanic acid per 5 mL and the 400 mg/57 mg per 5 mL suspension of AUGMENTIN contains 57 mg clavulanic acid per 5 mL. Therefore, the 200 mg/28.5 mg per 5 mL and 400 mg/57 mg per 5 mL suspensions of AUGMENTIN should not be substituted for AUGMENTIN ES-600 as they are not interchangeable."
+    },
+    {
+      "key": [
+        "formes_et_dosages",
+        "Dosage Forms and Strengths"
+      ],
+      "label": "Dosage Forms and Strengths",
+      "number": "43678-2",
+      "title": "3 DOSAGE FORMS AND STRENGTHS",
+      "text": "Augmentin ES 600 for Oral Suspension: 600 mg/42.9 mg per 5 mL: Strawberry cream-flavored for oral suspension (each 5 mL of reconstituted suspension contains 600 mg of amoxicillin as the trihydrate, and 42.9 mg of clavulanic acid as the potassium salt).\n\nFor oral suspension: 600 mg/42.9 mg per 5 mL."
+    },
+    {
+      "key": [
+        "contre_indications",
+        "Contraindications"
+      ],
+      "label": "Contraindications",
+      "number": "34070-3",
+      "title": "4 CONTRAINDICATIONS",
+      "text": "History of a serious hypersensitivity reaction (e.g., anaphylaxis or Stevens-Johnson syndrome) to AUGMENTIN ES-600 or any other beta-lactams (e.g., penicillins or cephalosporins). (\n\n 4.1)\n\nHistory of cholestatic jaundice/hepatic dysfunction associated with AUGMENTIN ES-600. (\n\n 4.2)"
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "4.1 Serious Hypersensitivity Reactions",
+      "text": "AUGMENTIN ES-600 is contraindicated in patients with a history of serious hypersensitivity reactions (e.g., anaphylaxis or Stevens-Johnson syndrome) to amoxicillin, clavulanate, or to other beta-lactam antibacterial drugs (e.g., penicillins and cephalosporins)."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "4.2 Cholestatic Jaundice/Hepatic Dysfunction",
+      "text": "AUGMENTIN ES-600 is contraindicated in patients with a previous history of cholestatic jaundice/hepatic dysfunction associated with treatment with amoxicillin and clavulanate potassium."
+    },
+    {
+      "key": [
+        "mises_en_garde",
+        "Warnings and Precautions"
+      ],
+      "label": "Warnings and Precautions",
+      "number": "43685-7",
+      "title": "5 WARNINGS AND PRECAUTIONS",
+      "text": "Serious (including fatal) hypersensitivity reactions: Discontinue AUGMENTIN ES-600 if a reaction occurs and institute appropriate therapy. (\n\n 5.1)\n\nSevere cutaneous adverse reactions (SCAR): Monitor closely. Discontinue if rash progresses. (\n\n 5.2)\n\nDrug-induced enterocolitis syndrome (DIES) has been reported with use of amoxicillin, a component of AUGMENTIN ES-600. If this occurs, discontinue AUGMENTIN ES-600 and institute appropriate therapy. (\n\n 5.3)\n\nHepatic dysfunction and cholestatic jaundice: Discontinue if signs/symptoms of hepatitis occur. Monitor liver function tests in patients with hepatic impairment. (\n\n 5.4)\n\nClostridioides difficile-associated diarrhea (CDAD) (ranging from mild diarrhea to fatal colitis): Evaluate patients if diarrhea occurs. (\n\n 5.5)\n\nPatients with mononucleosis who receive AUGMENTIN ES-600 develop skin rash. Avoid AUGMENTIN ES-600 use in these patients. (\n\n 5.6)"
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "5.1 Serious Allergic Reactions, including Anaphylaxis",
+      "text": "Serious and occasionally fatal hypersensitivity (anaphylactic) reactions have been reported in patients receiving beta-lactam antibacterials, including AUGMENTIN ES-600. These reactions are more likely to occur in individuals with a history of penicillin hypersensitivity and/or a history of sensitivity to multiple allergens. Before initiating therapy with AUGMENTIN ES-600, careful inquiry should be made concerning previous hypersensitivity reactions to penicillins, cephalosporins, or other allergens. If an allergic reaction occurs, discontinue AUGMENTIN ES-600 and institute appropriate therapy."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "5.2 Severe Cutaneous Adverse Reactions",
+      "text": "AUGMENTIN ES-600 may cause severe cutaneous adverse reactions (SCAR), such as Stevens-Johnson syndrome (SJS), toxic epidermal necrolysis (TEN), drug reaction with eosinophilia and systemic symptoms (DRESS), and acute generalized exanthematous pustulosis (AGEP). If patients develop a skin rash, they should be monitored closely, and AUGMENTIN ES-600 discontinued if lesions progress."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "5.3 Drug-Induced Enterocolitis Syndrome (DIES)",
+      "text": "Drug-induced enterocolitis syndrome (DIES) has been reported with use of amoxicillin, a component of AUGMENTIN ES-600 [see Adverse Reactions (6.2)], with most cases occurring in pediatric patients  18 years of age. DIES is a non-IgE mediated hypersensitivity reaction characterized by protracted vomiting occurring 1 to 4 hours after drug ingestion in the absence of skin or respiratory symptoms. DIES may be associated with pallor, lethargy, hypotension, shock, diarrhea within 24 hours after ingesting amoxicillin, and leukocytosis with neutrophilia. If DIES occurs, discontinue AUGMENTIN ES-600 and institute appropriate therapy."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "5.4 Hepatic Dysfunction",
+      "text": "Use AUGMENTIN ES-600 with caution in patients with evidence of hepatic dysfunction. Hepatic toxicity associated with the use of AUGMENTIN ES-600 is usually reversible. Deaths have been reported (fewer than one death reported per estimated four million prescriptions worldwide). These have generally been cases associated with serious underlying diseases or concomitant medications [\n\n see Contraindications (4.2) and Adverse Reactions (6.2)]."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "5.5",
+      "text": "Clostridioides difficile-associated diarrhea (CDAD) has been reported with use of nearly all antibacterial agents, including AUGMENTIN ES-600, and may range in severity from mild diarrhea to fatal colitis. Treatment with antibacterial agents alters the normal flora of the colon leading to overgrowth of\n\n C. difficile.\n\nC. difficileproduces toxins A and B which contribute to the development of CDAD. Hypertoxin-producing strains of\n\n C. difficilecause increased morbidity and mortality, as these infections can be refractory to antimicrobial therapy and may require colectomy. CDAD must be considered in all patients who present with diarrhea following antibacterial drug use. Careful medical history is necessary since CDAD has been reported to occur over two months after the administration of antibacterial agents.\n\nIf CDAD is suspected or confirmed, ongoing antibacterial drug use not directed against\n\n C. difficilemay need to be discontinued. Appropriate fluid and electrolyte management, protein supplementation, antibacterial treatment of\n\n C. difficile, and surgical evaluation should be instituted as clinically indicated."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "5.6 Skin Rash in Patients with Mononucleosis",
+      "text": "A high percentage of patients with mononucleosis who receive amoxicillin develop an erythematous skin rash. Avoid AUGMENTIN ES-600 use in patients with mononucleosis."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "5.7 Potential for Microbial Overgrowth",
+      "text": "The possibility of superinfections with mycotic or bacterial pathogens should be kept in mind during therapy. If superinfections occur (usually involving\n\n Pseudomonasspp. or\n\n Candidaspp.), the drug should be discontinued, and appropriate therapy instituted."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "5.8 Phenylketonurics",
+      "text": "AUGMENTIN ES-600 contains aspartame which contains phenylalanine. Each 5 mL of suspension of AUGMENTIN ES-600 contains 7 mg phenylalanine."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "5.9 Development of Drug-Resistant Bacteria",
+      "text": "Prescribing AUGMENTIN ES-600 in the absence of a proven or strongly suspected bacterial infection or a prophylactic indication is unlikely to provide benefit to the patient and increases the risk of the development of drug-resistant bacteria."
+    },
+    {
+      "key": [
+        "effets_indesirables",
+        "Adverse Reactions"
+      ],
+      "label": "Adverse Reactions",
+      "number": "34084-4",
+      "title": "6 ADVERSE REACTIONS",
+      "text": "The following clinically significant adverse reactions are described elsewhere in labeling:\n\nAnaphylactic reactions\n\n [see Warnings and Precautions (5.1)]\n\nSevere Cutaneous Adverse Reactions (SCAR)\n\n [see Warnings and Precautions (5.2)]\n\nDrug-Induced Enterocolitis Syndrome (DIES)\n\n [see Warnings and Precautions (5.3)]\n\nHepatic Dysfunction\n\n [see Warnings and Precautions (5.4)]\n\nClostridioides difficile-Associated Diarrhea (CDAD)\n\n [see Warnings and Precautions (5.5)]\n\nSkin Rash in Patients with Mononucleosis\n\n [see Warnings and Precautions (5.6)]\n\nThe most frequently reported adverse reactions (incidence rate > 4 %) were coughing, vomiting, contact dermatitis (i.e., diaper rash), fever, upper respiratory tract infection, and diarrhea. (\n\n 6.1)\n\nTo report SUSPECTED ADVERSE REACTIONS, contact USAntibiotics, LLC at 1-844-454-5532\nor FDA at 1-800-FDA-1088 or\n\n www.fda.gov/medwatch."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "6.1 Clinical Trial Experience",
+      "text": "Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in practice.\nTwo clinical trials evaluated the safety of a 10-day treatment course of AUGMENTIN ES-600 90/6.4 mg/kg/day, divided every 12 hours, in pediatric patients with acute otitis media [\n\n see Clinical Studies (\n\n 14)\n\n ]. The first trial involved 521 pediatric patients (3 months to 50 months) and the second trial involved 450 pediatric patients (3 months to 12 years). In the intent-to-treat population of the first trial of 521 patients, the most frequently reported adverse events were vomiting (7%), fever (6%), contact dermatitis (i.e., diaper rash) (6%), upper respiratory tract infection (4%), and diarrhea (4%). Protocol-defined diarrhea (i.e., 3 or more watery stools in one day or 2 watery stools per day for 2 consecutive days as recorded on diary cards) occurred in 13% of patients.\n\nThe primary objective of the second study was to compare the safety of AUGMENTIN ES-600 (90/6.4 mg/kg/day, divided every 12 hours) to AUGMENTIN (45/6.4 mg/kg/day, divided every 12 hours) for ten days. There was no statistically significant difference between treatments in the proportion of patients with 1 or more adverse events. The most frequently reported adverse reactions for AUGMENTIN ES-600 and the comparator of AUGMENTIN were coughing (12% versus 7%), vomiting (7% versus 8%), contact dermatitis (i.e., diaper rash, 6% versus 5%), fever (6% versus 4%), and upper respiratory infection (3% versus 9%), respectively. The frequencies of protocol-defined diarrhea with AUGMENTIN ES-600 (11%) and AUGMENTIN (9%) were not statistically different. Two patients in the group treated with AUGMENTIN ES-600 and one patient in the group treated with AUGMENTIN were withdrawn due to diarrhea."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "6.2 Postmarketing Experience",
+      "text": "The following adverse reactions have been identified during postmarketing use of AUGMENTIN products, including AUGMENTIN ES-600. Because these reactions are reported voluntarily from a population of unknown size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure.\n\nGastrointestinal:Drug-induced enterocolitis syndrome (DIES), diarrhe, nausea, vomiting, indigestion, gastritis, stomatitis, glossitis, black “hairy” tongue, mucocutaneous candidiasis, enterocolitis, and hemorrhagic/pseudomembranous colitis. Onset of pseudomembranous colitis symptoms may occur during or after antibacterial treatment\n\n [see Warnings and Precautions (\n\n 5.5)]\n\n .\n\nImmune: Hypersensitivity reactions, anaphylactic/anaphylactoid reactions (including shock), angioedema, serum sickness-like reactions (urticaria or skin rash accompanied by arthritis, arthralgia, myalgia, and frequently fever), hypersensitivity vasculitis\n\n [see Warnings and Precautions (\n\n 5.1)]\n\n .\n\nSkin and Appendages:Rashes, pruritus, urticaria, erythema multiforme, SJS, TEN, DRESS, AGEP, exfoliative dermatitis, and linear IgA bullous dermatosis [\n\n see Warnings and Precautions (5.1, 5.2, 5.6)].\n\nLiver: A moderate rise in AST (SGOT) and/or ALT (SGPT) has been noted in patients treated with ampicillin-class antibacterials. Hepatic dysfunction, including increases in serum transaminases (AST and/or ALT), serum bilirubin, and/or alkaline phosphatase, has been infrequently reported with AUGMENTIN or AUGMENTIN ES-600. It has been reported more commonly in the elderly, in males, or in patients on prolonged treatment. The histologic findings on liver biopsy have consisted of cholestatic, hepatocellular, or mixed cholestatic-hepatocellular changes. The onset of signs/symptoms of hepatic dysfunction may occur during or several weeks after therapy has been discontinued. The hepatic dysfunction, which may be severe, is usually reversible. Deaths have been reported\n\n [see Contraindications (\n\n 4.2), Warnings and Precautions (\n\n 5.4)]\n\n .\n\nRenal:Interstitial nephritis and hematuria have been reported. Crystalluria has also been reported\n\n [see Overdosage (\n\n 10)]\n\n .\n\nHemic and Lymphatic Systems:Anemia, including hemolytic anemia, thrombocytopenia, thrombocytopenic purpura, eosinophilia, leukopenia, and agranulocytosis have been reported during therapy with penicillins. These reactions are usually reversible on discontinuation of therapy and are believed to be hypersensitivity phenomena. There have been reports of increased prothrombin time in patients receiving AUGMENTIN and anticoagulant therapy concomitantly.\n\nCentral Nervous System: Agitation, anxiety, behavioral changes, aseptic meningitis, confusion, convulsions, dizziness, insomnia, and reversible hyperactivity have been reported.\n\nMiscellaneous:Tooth discoloration (brown, yellow, or gray staining) has been reported. Most reports occurred in pediatric patients. Discoloration was reduced or eliminated with brushing or dental cleaning in most cases."
+    },
+    {
+      "key": [
+        "interactions",
+        "Drug Interactions"
+      ],
+      "label": "Drug Interactions",
+      "number": "34073-7",
+      "title": "7 DRUG INTERACTIONS",
+      "text": "Co-administration with probenecid is not recommended. (\n\n 7.1)\n\nConcomitant use of AUGMENTIN ES-600 with oral anticoagulants may increase the prolongation of prothrombin time. (\n\n 7.2)\n\nCo-administration with allopurinol increases the risk of rash. (\n\n 7.3)\n\nAUGMENTIN ES-600 may reduce efficacy of oral contraceptives. (\n\n 7.4)"
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "7.1 Probenecid",
+      "text": "Probenecid decreases the renal tubular secretion of amoxicillin. Concurrent use with AUGMENTIN ES-600 may result in increased and prolonged blood levels of amoxicillin. Co-administration of probenecid is not recommended."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "7.2 Oral Anticoagulants",
+      "text": "Abnormal prolongation of prothrombin time (increased international normalized ratio [INR]) has been reported in patients receiving amoxicillin and oral anticoagulants. Appropriate monitoring should be undertaken when anticoagulants are prescribed concurrently.  Adjustments in the dose of oral anticoagulants may be necessary to maintain the desired level of anticoagulation."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "7.3 Allopurinol",
+      "text": "The concurrent administration of allopurinol and amoxicillin increases substantially the incidence of rashes in patients receiving both drugs as compared to patients receiving amoxicillin alone. It is not known whether this potentiation of amoxicillin rashes is due to allopurinol or the hyperuricemia present in these patients. There are no data with AUGMENTIN ES-600 and allopurinol administered concurrently."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "7.4 Oral Contraceptives",
+      "text": "AUGMENTIN ES-600 may affect intestinal flora, leading to lower estrogen reabsorption and reduced efficacy of combined oral estrogen/progesterone contraceptives."
+    },
+    {
+      "key": "section_7_5_effects_on_laboratory_tests",
+      "label": "7.5 Effects on Laboratory Tests",
+      "number": "34075-2",
+      "title": "7.5 Effects on Laboratory Tests",
+      "text": "High urine concentrations of amoxicillin may result in false-positive reactions when testing for the presence of glucose in urine using CLINITEST\n\n ®, Benedict's Solution, or Fehling's Solution. Since this effect may also occur with AUGMENTIN ES-600, it is recommended that glucose tests based on enzymatic glucose oxidase reactions be used.\n\nFollowing administration of amoxicillin to pregnant women, a transient decrease in plasma concentration of total conjugated estriol, estriol-glucuronide, conjugated estrone, and estradiol has been noted."
+    },
+    {
+      "key": [
+        "fertilite_grossesse",
+        "Pregnancy"
+      ],
+      "label": "Pregnancy",
+      "number": "42228-7",
+      "title": "8.1 Pregnancy",
+      "text": "Risk Summary\n\nAvailable data from published epidemiologic studies and pharmacovigilance case reports over several decades of use with amoxicillin and clavulanate during pregnancy have not established a drug-associated risk of major birth defects, miscarriage, or adverse maternal outcomes. A study in women with preterm prelabor rupture of membranes (PPROM) reported that prophylactic treatment with amoxicillin and clavulanate may be associated with an increased risk of necrotizing enterocolitis in neonates\n\n (see Data). Reproduction studies performed in pregnant rodents, given up to approximately 2 times the amount of amoxicillin and 15 times the amount of clavulanate in the Maximum Human Recommended Dose (MHRD) of AUGMENTIN ES-600, revealed no evidence of harm to the fetus\n\n (see Data).\n\nThe background risk of major birth defects and miscarriage for the indicated populations is unknown. All pregnancies have a background risk of birth defect, loss, or other adverse outcomes. In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2 to 4% and 15 to 20%, respectively.\n\nData\n\nHuman Data\n\nOne randomized, controlled trial included 4,826 pregnant women with premature rupture of fetal membranes who were randomly assigned to 250 mg erythromycin (n=1,197), 250 mg amoxicillin and 125 mg clavulanic acid (amoxicillin and clavulanate, n=1,212), amoxicillin and clavulanate and erythromycin (n=1,192), or placebo (n=1,225) four times daily for 10 days or until delivery. Amoxicillin and clavulanate was associated with a significantly increased rate of proven neonatal necrotizing enterocolitis: 1.9% (n = 24) in the amoxicillin and clavulanate only group versus 0.5% (n = 6) in the placebo group (p = 0.001), and 1.8% (n = 44) in the any amoxicillin and clavulanate group versus 0.7% (n =17) in the no amoxicillin and clavulanate group (p = 0.0005).\n\nAnimal Data\n\nReproduction studies performed in pregnant rats and mice given amoxicillin and clavulanate (2:1 ratio formulation of amoxicillin:clavulanate) at oral doses up to 1200 mg/kg/day revealed no evidence of harm to the fetus due to amoxicillin and clavulanate. The amoxicillin doses in rodents (based on body surface area and assuming a 20 kg child) were approximately 2 times (rats) or equal to (mice) the recommended clinical AUGMENTIN ES-600 dose of 90/6.4 mg/kg/day. For clavulanate, these dose multiples were approximately 15 times and 7.5 times the recommended daily dose of AUGMENTIN ES-600."
+    },
+    {
+      "key": "section_8_2_lactation",
+      "label": "8.2 Lactation",
+      "number": "34079-4",
+      "title": "8.2 Lactation",
+      "text": "Risk Summary\n\nData from a published clinical lactation study report that amoxicillin is present in human milk. There are reports of diarrhea, irritability, and rash in infants exposed to amoxicillin and clavulanate through breast milk; therefore, infants exposed to AUGMENTIN ES-600 should be monitored for these symptoms. There are no data on the effects of amoxicillin and clavulanate on milk production. The developmental and health benefits of breastfeeding should be considered along with the mother’s clinical need for AUGMENTIN ES-600 and any potential adverse effects on the breastfed child from AUGMENTIN ES-600 or from the underlying maternal condition."
+    },
+    {
+      "key": "section_8_4_pediatric_use",
+      "label": "8.4 Pediatric Use",
+      "number": "34081-0",
+      "title": "8.4 Pediatric Use",
+      "text": "Acute Otitis Media\n\nThe safety and effectiveness of AUGMENTIN ES-600 have been established in pediatric patients aged 3 months to 12 years weighing less than or equal to 40 kg, for the treatment of acute otitis media, and the information on this use is discussed throughout the labeling.\n\nThe safety and effectiveness of AUGMENTIN ES-600 in pediatric patients younger than 3 months of age have not been established.\nThe safety and effectiveness of Augmentin ES-600 have not been established in pediatric patients aged 3 months to 12 years weighing more than 40 kg.\n\nAcute Bacterial Sinusitis\n\nThe safety and effectiveness of AUGMENTIN ES-600 have been established for the treatment of pediatric patients (3 months to 12 years of age) with acute bacterial sinusitis. This use is supported by evidence from adequate and well-controlled studies of AUGMENTIN XRTM Extended Release Tablets in adults with acute bacterial sinusitis, studies of AUGMENTIN ES-600 in pediatric patients with acute otitis media, and by similar pharmacokinetics of amoxicillin and clavulanate in pediatric patients taking AUGMENTIN ES-600\n\n [see Clinical Pharmacology (12)]and adults taking AUGMENTIN XR."
+    },
+    {
+      "key": [
+        "surdosage",
+        "Overdosage"
+      ],
+      "label": "Overdosage",
+      "number": "34088-5",
+      "title": "10 OVERDOSAGE",
+      "text": "Following overdosage, patients have experienced primarily gastrointestinal symptoms including stomach and abdominal pain, vomiting, and diarrhea. Rash, hyperactivity, or drowsiness have also been observed in a small number of patients.\nIn the case of overdosage, discontinue AUGMENTIN ES-600, treat symptomatically, and institute supportive measures as required. If the overdosage is very recent and there is no contraindication, an attempt at emesis or other means of removal of drug from the stomach may be performed. A prospective study of 51 pediatric patients at a poison control center suggested that overdosages of less than 250 mg/kg of amoxicillin are not associated with significant clinical symptoms and do not require gastric emptying.\n\n 1\n\nInterstitial nephritis resulting in oliguric renal failure has been reported in a small number of patients after overdosage with amoxicillin.\nCrystalluria, in some cases leading to renal failure, has also been reported after amoxicillin overdosage in adult and pediatric patients. In case of overdosage, adequate fluid intake and diuresis should be maintained to reduce the risk of amoxicillin crystalluria.\nRenal impairment appears to be reversible with cessation of drug administration. High blood levels may occur more readily in patients with impaired renal function because of decreased renal clearance of both amoxicillin and clavulanate. Both amoxicillin and clavulanate are removed from the circulation by hemodialysis\n\n [see Dosage and Administration (\n\n 2)]\n\n ."
+    },
+    {
+      "key": [
+        "description",
+        "Description"
+      ],
+      "label": "Description",
+      "number": "34089-3",
+      "title": "11 DESCRIPTION",
+      "text": "AUGMENTIN ES-600 is an oral antibacterial combination consisting of the semisynthetic antibacterial amoxicillin and the beta-lactamase inhibitor, clavulanate potassium (the potassium salt of clavulanic acid). Amoxicillin is an analog of ampicillin, derived from the basic penicillin nucleus, 6-aminopenicillanic acid. The amoxicillin molecular formula is C\n\n 16H\n\n 19N\n\n 3O\n\n 5S•3H\n\n 2O, and the molecular weight is 419.46. Chemically, amoxicillin is (2\n\n S,5\n\n R,6\n\n R)-6-[(\n\n R)-(-)-2-Amino-2-(\n\n p-hydroxyphenyl)acetamido]-3,3-dimethyl-7-oxo-4-thia-1-azabicyclo [3.2.0] heptane-2-carboxylic acid trihydrate and may be represented structurally as:\n\nClavulanic acid is produced by the fermentation of\n\n Streptomyces clavuligerus. It is a beta-lactam structurally related to the penicillins and possesses the ability to inactivate a wide variety of beta-lactamases by blocking the active sites of these enzymes. Clavulanic acid is particularly active against the clinically important plasmid-mediated beta-lactamases frequently responsible for transferred drug resistance to penicillins and cephalosporins. The clavulanate potassium molecular formula is C\n\n 8H\n\n 8KNO\n\n 5and the molecular weight is 237.25. Chemically, clavulanate potassium is potassium (\n\n Z)-(\n\n 2R,5R)-3-(2-hydroxyethylidene)-7-oxo-4-oxa-1-azabicyclo[3.2.0]-heptane-2-carboxylate and may be represented structurally as:\n\nFollowing constitution, each 5 mL of oral suspension contains 600 mg of amoxicillin as the trihydrate and 42.9 mg of clavulanic acid (equivalent to 51.1 mg of clavulanate potassium).\n\nInactive Ingredients: Aspartame, colloidal silicon dioxide, silicon dioxide, sodium carboxymethylcellulose, strawberry cream flavor, and xanthan gum\n\n [see Warnings and Precautions (5.8)]. Each 5 mL of reconstituted AUGMENTIN ES-600 contains approximately 9 mg of potassium and 4 mg of sodium.\n\nFigure\n\nFigure"
+    },
+    {
+      "key": [
+        "mecanisme_action",
+        "Mechanism of Action"
+      ],
+      "label": "Mechanism of Action",
+      "number": "43679-0",
+      "title": "12.1 Mechanism of Action",
+      "text": "AUGMENTIN ES-600 is an antibacterial drug\n\n [see Microbiology (\n\n 12.4)]\n\n ."
+    },
+    {
+      "key": [
+        "pharmacocinetique",
+        "Pharmacokinetics"
+      ],
+      "label": "Pharmacokinetics",
+      "number": "43682-4",
+      "title": "12.3 Pharmacokinetics",
+      "text": "The pharmacokinetics of amoxicillin and clavulanate were determined in a study of 19 pediatric patients, 8 months to 11 years, given AUGMENTIN ES-600 at an amoxicillin dose of 45 mg/kg q12h with a snack or meal. The mean plasma amoxicillin and clavulanate pharmacokinetic parameter values are listed in the Table 3.\n\nTable 3. Mean (±SD) Plasma Amoxicillin and Clavulanate Pharmacokinetic Parameter Values Following Administration of 45 mg/kg of AUGMENTIN ES-600 Every 12 Hours to Pediatric Patients\n\n* Arithmetic mean ± standard deviation, except T\n\n maxvalues which are medians (ranges).\n\n | \n\nPARAMETER\n | \n\nAMOXICILLIN\n | \n\nCLAVULANATE\n | \n\nC\n\n max(mcg/mL)\n\n | \n15.7 ± 7.7 | \n1.7 ± 0.9 | \n\nT\n\n max(hr)\n\n | \n2.0 (1.0 to 4.0) | \n1.1 (1.0 to 4.0) | \n\nAUC\n\n 0-T(mcg*hr/mL)\n\n | \n59.8 ± 20.0 | \n4.0 ± 1.9 | \n\nT½ (hr) | \n1.4 ± 0.3 | \n1.1 ± 0.3 | \n\nCL/F (L/hr/kg) | \n0.9 ± 0.4 | \n1.1 ± 1.1 | \n\nThe effect of food on the oral absorption of AUGMENTIN ES-600 has not been studied.\nApproximately 50% to 70% of the amoxicillin and approximately 25% to 40% of the clavulanic acid are excreted unchanged in urine during the first 6 hours after administration of 10 mL of 250 mg/5 mL suspension of AUGMENTIN.\nNeither component in AUGMENTIN ES-600 is highly protein-bound; clavulanic acid has been found to be approximately 25% bound to human serum and amoxicillin approximately 18% bound.\nOral administration of a single dose of AUGMENTIN ES-600 at 45 mg/kg (based on the amoxicillin component) to pediatric patients, 9 months to 8 years, yielded the following pharmacokinetic data for amoxicillin in plasma and middle ear fluid (MEF):\n\nTable 4. Amoxicillin Concentrations in Plasma and Middle Ear Fluid Following Administration of 45 mg/kg of AUGMENTIN ES-600 to Pediatric Patients\n*\n\n | \n\nTimepoint\n\n | \n\nAmoxicillin concentration in plasma (mcg/mL)\n\n | \n\nAmoxicillin concentration in MEF (mcg/mL)\n\n | \n\n1 hour\n | \n\nmean \n\n median \n\n range\n\n | \n\n7.7 \n\n 9.3 \n\n 1.5 to 14.0 \n\n (n = 5)\n\n | \n\n3.2 \n\n 3.5 \n\n 0.2 to 5.5 \n\n (n = 4)\n\n | \n\n2 hour\n | \n\nmean \n\n median \n\n range\n\n | \n\n15.7 \n\n 13.0 \n\n 11.0 to 25.0 \n\n (n = 7)\n\n | \n\n3.3 \n\n 2.4 \n\n 1.9 to 6 \n\n (n = 5)\n\n | \n\n3 hour\n | \n\nmean \n\n median \n\n range\n\n | \n\n13.0 \n\n 12.0 \n\n 5.5 to 21.0 \n\n (n = 5)\n\n | \n\n5.8 \n\n 6.5 \n\n 3.9 to 7.4 \n\n (n = 5)\n\n | \n\n* Dose administered immediately prior to eating.\n | \n\nAmoxicillin diffuses readily into most body tissues and fluids, with the exception of the brain and spinal fluid. The results of experiments involving the administration of clavulanic acid to animals suggest that this compound, like amoxicillin, is well distributed in body tissues.\n\nDrug Interaction Studies\n\nClinical Studies\n\n Concurrent administration of probenecid delays amoxicillin excretion but does not delay renal excretion of clavulanic acid."
+    },
+    {
+      "key": "section_12_4_microbiology",
+      "label": "12.4 Microbiology",
+      "number": "49489-8",
+      "title": "12.4 Microbiology",
+      "text": "Mechanism of Action\n\nAmoxicillin is a semisynthetic antibacterial with a broad spectrum of bactericidal activity against many gram-positive and gram-negativemicroorganisms. Amoxicillin is, however, susceptible to degradation by beta-lactamases, and therefore, its spectrum of activity does not include organisms which produce these enzymes. Clavulanic acid is a beta-lactam, structurally related to penicillin, which possesses the ability to inactivate a wide range of beta-lactamase enzymes commonly found in microorganisms resistant to penicillins and cephalosporins. In particular, it has good activity against the clinically important plasmid-mediated beta-lactamases frequently found responsible for transferred drug resistance\n\n .\n\nThe clavulanic acid component of AUGMENTIN ES-600 protects amoxicillin from degradation by beta-lactamase enzymes and effectively extends the antibacterial spectrum of amoxicillin to include many bacteria normally resistant to amoxicillin and other beta-lactam antibacterials. Thus, AUGMENTIN ES-600 possesses the distinctive properties of a broad spectrum antibacterial and a beta-lactamase inhibitor.\n\nAntimicrobial Activity\n\nAmoxicillin/clavulanic acid has been shown to be active against most isolates of the following microorganisms, both in vitro and in clinical infections\n\n [see Indications and Usage (1)].\n\nGram-Positive bacteria:\n\nStreptococcus pneumoniae(including isolates with penicillin MICs less than or equal to 2 mcg/mL)\n\nGram-Negative bacteria:\n\nHaemophilus influenzae(including beta-lactamase-producing isolates)\n\nMoraxella catarrhalis(including beta-lactamase-producing isolates)\n\nThe following\n\n in vitrodata are available, but their clinical significance is unknown. At least 90% of the following microorganisms exhibit in vitro minimum inhibitory concentrations (MICs) less than or equal to the susceptible breakpoint for amoxicillin/clavulanic acid. However, the safety and efficacy of amoxicillin/clavulanic acid in treating infections due to these microorganisms have not been established in adequate and well-controlled trials.\n\nGram-Positive bacteria:\n\nStaphylococcus aureus(including beta-lactamase-producing isolates)\n\nStaphylococci which are resistant to methicillin/oxacillin must be considered resistant to amoxicillin/clavulanic acid.\n\nStreptococcus pyogenes\n\nS. pyogenesdo not produce beta-lactamase, and therefore, are susceptible to amoxicillin alone. Adequate and well-controlled clinical trials have established the effectiveness of amoxicillin alone in treating certain clinical infections due to\n\n S. pyogenes."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Susceptibility Test Methods:\n\nFor specific information regarding susceptibility test interpretive criteria and associated test methods and quality control standards recognized by FDA for this drug, please see:\n\n https://www.fda.gov/STIC."
+    },
+    {
+      "key": "section_13_1_carcinogenesis_mutagenesis_impairme",
+      "label": "13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility",
+      "number": "34083-6",
+      "title": "13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility",
+      "text": "Long-term studies in animals have not been performed to evaluate carcinogenic potential.\n\n Amoxicillin and clavulanate (4:1 ratio formulation of amoxicillin:clavulanate) was non-mutagenic in the Ames bacterial mutation assay, and the yeast gene conversion assay. Amoxicillin and clavulanate was weakly positive in the mouse lymphoma assay, but the trend toward increased mutation frequencies in this assay occurred at concentrations that were also associated with decreased cell survival. Amoxicillin and clavulanate was negative in the mouse micronucleus test, and in the dominant lethal assay in mice. Clavulanate potassium alone was tested in the Ames bacterial mutation assay and in the mouse micronucleus test and was negative in each of these assays.\n\nAmoxicillin and clavulanate (2:1 ratio formulation of amoxicillin:clavulanate) at oral doses of up to 1,200 mg/kg/day was found to have no effect on fertility and reproductive performance in rats. Based on body surface area (assuming a 20 kg child), this dose of amoxicillin is approximately 2 times the recommended clinical AUGMENTIN ES-600 dose of 90/6.4 mg/kg/day. For clavulanate, the dose multiple is approximately 15 times higher than the recommended clinical daily dose, also based on body surface area."
+    },
+    {
+      "key": "section_14_clinical_studies",
+      "label": "14 CLINICAL STUDIES",
+      "number": "34092-7",
+      "title": "14 CLINICAL STUDIES",
+      "text": "Two clinical studies were conducted in pediatric patients with acute otitis media. A non-comparative, open-label study assessed the bacteriologic and clinical efficacy of AUGMENTIN ES-600 (90/6.4 mg/kg/day, divided every 12 hours) for 10 days in 521 pediatric patients (3 to 50 months) with acute otitis media. The primary objective was to assess bacteriological response in children with acute otitis media due to S. pneumoniae with amoxicillin/clavulanic acid MICs of 4 mcg/mL. The study sought the enrollment of patients with the following risk factors: Failure of antibacterial therapy for acute otitis media in the previous 3 months, history of recurrent episodes of acute otitis media, 2 years or younger, or daycare attendance. Prior to receiving AUGMENTIN ES-600, all patients had tympanocentesis to obtain middle ear fluid for bacteriological evaluation. Patients from whom S. pneumoniae (alone or in combination with other bacteria) was isolated had a second tympanocentesis 4 to 6 days after the start of therapy. Clinical assessments were planned for all patients during treatment (4 to 6 days after starting therapy), as well as 2 to 4 days post-treatment and 15 to 18 days post-treatment. Bacteriological success was defined as the absence of the pretreatment pathogen from the on-therapy tympanocentesis specimen. Clinical success was defined as improvement or resolution of signs and symptoms. Clinical failure was defined as lack of improvement or worsening of signs and/or symptoms at any time following at least 72 hours of AUGMENTIN ES-600; patients who received an additional systemic antibacterial drug for otitis media after 3 days of therapy were considered clinical failures. Bacteriological eradication on therapy (day 4 to 6 visit) in the per protocol population is summarized in Table 5.\n\nTable 5. Bacteriologic Eradication Rates in the Per Protocol Population\n\n* CI equals confidence intervals; 95% CIs are not adjusted for multiple comparisons.\n | \n\n | \n\nBacteriologic Eradication on Therapy\n | \n\nPathogen\n | \n\nn/N\n | \n\n%\n | \n\n95% CI*\n | \n\nAll\n\n S. pneumoniae\n | \n121/123 | \n98 | \n(94.3, 99.8) | \n\nS. pneumoniaewith penicillin \n\n MIC equal to 2 mcg/mL\n\n | \n19/19 | \n100 | \n(82.4, 100.0) | \n\nS. pneumoniaewith penicillin \n\n MIC equal to 4 mcg/mL\n\n | \n12/14 | \n86 | \n(57.2, 98.2) | \n\nH. influenzae\n | \n75/81 | \n93 | \n(84.6, 97.2) | \n\nM. catarrhalis\n | \n11/11 | \n100 | \n(71.5, 100.0) | \n\nClinical assessments were made in the per protocol population 2 to 4 days post-therapy and 15 to 18 days post-therapy. Patients who responded to therapy 2 to 4 days post-therapy were followed for 15 to 18 days post-therapy to assess them for acute otitis media. Non-responders at 2 to 4 days post-therapy were considered failures at the latter timepoint. The clinical assessments in the per protocol population are presented in Table 6.\n\nTable 6. Clinical Assessments in the Per Protocol Population (Includes S. pneumoniae Patients with Penicillin MICs equal to 2 or 4 mcg/mL*)\n\n | \n\n2 to 4 Days Post-Therapy (Primary Endpoint)\n | \n\nPathogen\n | \n\nn/N\n | \n\n%\n | \n\n95% CI†\n\n | \n\nAll\n\n S. pneumoniae\n | \n122/137 | \n89 | \n(82.6, 93.7) | \n\nS. pneumoniaewith penicillin \n\n MIC equal to 2 mcg/mL\n\n | \n17/20 | \n85 | \n(62.1, 96.8) | \n\nS. pneumoniaewith penicillin \n\n MIC equal to 4 mcg/mL\n\n | \n11/14 | \n79 | \n(49.2, 95.3) | \n\nH. influenzae\n | \n141/162 | \n87 | \n(80.9, 91.8) | \n\nM. catarrhalis\n | \n22/26 | \n85 | \n(65.1, 95.6) | \n\n*\n\n S. pneumoniaestrains with penicillin MICs of 2 or 4 mcg/mL are considered resistant to penicillin.\n\n | \n\n† CI equals confidence intervals; 95% CIs are not adjusted for multiple comparisons.\n | \n\n‡ Clinical assessments at 15 to 18 days post-therapy may have been confounded by viral infections and new episodes of acute otitis media with time elapsed post-treatment.\n | \n\n | \n\n15 to 18 Days Post-Therapy‡ \n\n(Secondary Endpoint)\n | \n\nPathogen\n | \n\nn/N\n | \n\n%\n | \n\n95% CI†\n\n | \n\nAll\n\n S. pneumoniae\n | \n95/136 | \n70 | \n(61.4, 77.4) | \n\nS. pneumoniaewith penicillin \n\n MIC equal to 2 mcg/mL\n\n | \n11/20 | \n55 | \n(31.5, 76.9) | \n\nS. pneumoniaewith penicillin \n\n MIC equal to 4 mcg/mL\n\n | \n5/14 | \n36 | \n(12.8, 64.9) | \n\nH. influenzae\n | \n106/156 | \n68 | \n(60.0, 75.2) | \n\nM. catarrhalis\n | \n14/25 | \n56 | \n(34.9, 75.6) | \n\nIn the intent-to-treat analysis, overall clinical outcomes at 2 to 4 days and 15 to 18 days post-treatment in patients with\n\n S. pneumoniaewith penicillin MIC equal to 2 mcg/mL and 4 mcg/mL were 29/41 (71%) and 17/41 (42%), respectively."
+    },
+    {
+      "key": "section_15_references",
+      "label": "15 REFERENCES",
+      "number": "34093-5",
+      "title": "15 REFERENCES",
+      "text": "Swanson-Biearman B, Dean BS, Lopez G, Krenzelok EP. The effects of penicillin and cephalosporin ingestions in children less than six years of age. Vet Hum Toxicol. 1988; 30:66-67."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "How Supplied\n\nAUGMENTIN ES-600 (amoxicillin and clavulanate potassium) for oral suspension is a strawberry cream-flavored powder for oral suspension. Following constitution, each 5 mL of oral suspension contains 600 mg of amoxicillin as the trihydrate and 42.9 mg of clavulanic acid as the potassium salt.Strawberry cream-flavored powder for oral suspension. Following constitution, each 5 mL of oral suspension contains 600 mg of amoxicillin as the trihydrate and 42.9 mg of clavulanic acid as the potassium salt (equivalent to 51.1 mg of clavulanate potassium).\n\nAUGMENTIN ES-600 is supplied as follows: \n\n • NDC 81964-003-51 75 mL bottle \n\n • NDC 81964-003-69 125 mL bottle \n\n • NDC 81964-003-54 200 mL bottle"
+    },
+    {
+      "key": "section_storage_and_handling_section",
+      "label": "STORAGE AND HANDLING SECTION",
+      "number": "44425-7",
+      "title": "STORAGE AND HANDLING SECTION",
+      "text": "Storage\n\nStore dry powder for oral suspension at or below 25°C (77°F). Dispense in original container. Store reconstituted suspension under refrigeration. Discard unused suspension after 10 days."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Administration Instructions\n\nInform patients to take AUGMENTIN ES-600 every 12 hours with a meal or snack to reduce the possibility of gastrointestinal upset. If diarrhea develops and is severe or lasts more than 2 or 3 days, they should call their doctor [see Dosage and Administration (2.1), Warnings and Precautions (5.5)]."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Allergic Reactions\n\nCounsel patients that AUGMENTIN ES-600 contains a penicillin class drug product that can cause allergic reactions in some individuals [see Warnings and Precautions (5.1, 5.3)].\n\nSevere Cutaneous Adverse Reactions (SCAR)\n\nAdvise patients about the signs and symptoms of serious skin manifestations. Instruct patients to stop taking AUGMENTIN ES-600 immediately and promptly report the first signs or symptoms of skin rash, mucosal lesions, or any other sign of hypersensitivity\n\n [see Warnings and Precautions (\n\n 5.2)]\n\n ."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Diarrhea\n\nCounsel patients that diarrhea is a common problem caused by antibacterial drugs, including AUGMENTIN ES-600, which usually ends when the antibacterial is discontinued. Sometimes after starting treatment with antibacterial drugs, patients can develop watery and bloody stools (with or without stomach cramps and fever) even as late as 2 or more months after having taken the last dose of the antibacterial drug. If this occurs, patients should contact their physician as soon as possible\n\n [see Warnings and Precautions (5.5)]."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Phenylketonuria\nCounsel patients with phenylketonuria: Each 5 mL of suspension of AUGMENTIN ES-600 contains 7 mg phenylalanine. [see Warnings and Precautions (5.8)]."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Antibacterial Resistance\n\nPatients should be counseled that antibacterial drugs, including AUGMENTIN ES-600, should only be used to treat bacterial infections. Antibacterial drugs do not treat viral infections (e.g., the common cold). When AUGMENTIN ES-600 is prescribed to treat a bacterial infection, patients should be told that although it is common to feel better early in the course of therapy, the medication should be taken exactly as directed. Skipping doses or not completing the full course of therapy may: (1) decrease the effectiveness of the immediate treatment, and (2) increase the likelihood that bacteria will develop resistance and will not be treatable by AUGMENTIN ES-600 or other antibacterial drugs in the future [see Warnings and Precautions (5.9)]."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Storage Instructions\n\nKeep suspension refrigerated. Shake well before using. When dosing a child with the suspension (liquid) of AUGMENTIN ES-600, use a dosing spoon or medicine dropper. Be sure to rinse the spoon or dropper after each use. Bottles of suspension of AUGMENTIN ES-600 may contain more liquid than required. Follow your doctor's instructions about the amount to use and the days of treatment your child requires. Discard any unused medicine."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Manufactured by:\n\nUSAntibiotics, LLC \n\n Bristol, TN 37620 (USA)\n\nAUGMENTIN ES-600 and AUGMENTIN XR are registered trademarks of GlaxoSmithKline and are licensed to USAntibiotics, LLC.\nCLINITEST is a registered trademark of Miles, Inc.\nFLAVORx is a trademark of FLAVORx. Inc."
+    },
+    {
+      "key": "section_prinicple_display_panel_container_label_",
+      "label": "PRINICPLE DISPLAY PANEL: Container Label - 75 mL",
+      "number": "51945-4",
+      "title": "PRINICPLE DISPLAY PANEL: Container Label - 75 mL",
+      "text": "NDC 81964-\n\n 003-51 \n\n 600 mg/42.9 mg per 5 mL\n\nAUGMENTIN ES-600\n\n ®\n\namoxicillin and\n\nclavulanate potassium\n\nfor oral suspension, USP\n\nWhen reconstituted, each 5 mL contains: \n\nAMOXICILLIN, 600 mg\n\n as the trihydrate, and \n\nCLAVULANIC ACID, 42.9 mg\n\n (equivalent to 51.1 mg of clavulanate potassium)\n\n75 mL (when reconstituted)\n\nUSANTIBIOTICS         Rx only\n\nlabel - 75 mL"
+    },
+    {
+      "key": "section_prinicple_display_panel_container_label_",
+      "label": "PRINICPLE DISPLAY PANEL: Container Label - 125 mL",
+      "number": "51945-4",
+      "title": "PRINICPLE DISPLAY PANEL: Container Label - 125 mL",
+      "text": "NDC 81964-\n\n 003-69 \n\n 600 mg/42.9 mg per 5 mL\n\nAUGMENTIN ES-600\n\n ®\n\namoxicillin and\n\nclavulanate potassium\n\nfor oral suspension, USP\n\nWhen reconstituted, each 5 mL contains: \n\nAMOXICILLIN, 600 mg\n\n as the trihydrate, and \n\nCLAVULANIC ACID, 42.9 mg\n\n (equivalent to 51.1 mg of clavulanate potassium)\n\n125 mL (when reconstituted)\n\nUSANTIBIOTICS          Rx only\n\nlabel- 125 mL"
+    },
+    {
+      "key": "section_prinicple_display_panel_container_label_",
+      "label": "PRINICPLE DISPLAY PANEL: Container Label - 200 mL",
+      "number": "51945-4",
+      "title": "PRINICPLE DISPLAY PANEL: Container Label - 200 mL",
+      "text": "NDC 81964-\n\n 003-54\n\n600 mg/42.9 mg per 5 mL\n\nAUGMENTIN ES-600\n\n ®\n\namoxicillin and\n\nclavulanate potassium\n\nfor oral suspension, USP\n\nWhen reconstituted, each 5 mL contains: \n\nAMOXICILLIN, 600 mg\n\n as the trihydrate, and \n\nCLAVULANIC ACID, 42.9 mg\n\n (equivalent to 51.1 mg of clavulanate potassium)\n\n200 mL (when reconstituted)\n\nUSANTIBIOTICS     Rx only\n\nlabel - 200 mL"
+    }
+  ],
+  "ingredients": [
+    "SILICON DIOXIDE (Inactive)",
+    "XANTHAN GUM (Inactive)",
+    "ASPARTAME (Inactive)",
+    "CARBOXYMETHYLCELLULOSE SODIUM (Inactive)",
+    "AMOXICILLIN (Active) - 600 mg",
+    "CLAVULANATE POTASSIUM (Active) - 42.9 mg"
+  ],
+  "text": "Recent Major Changes\nIndications and Usage (1)\nDosage and Administration, Dosage in Pediatric Patients (2.2)\nWarnings and Precautions\nDrug-Induced Enterocolitis Syndrome (DIES) (5.3)\n | \n\n12/2024\n12/2024\n\n5/2024\n |\n\nIndications and Usage\nAUGMENTIN ES-600 is indicated for the treatment of pediatric patients aged 3 months to 12 years weighing less than or equal to 40 kg with:\n\nRecurrent or persistent acute otitis media due to\n\n S. pneumoniae(penicillin MICs less than or equal to 2 mcg/mL),\n\n H. influenzae(including beta-lactamase-producing strains), or\n\n M. catarrhalis(including beta-lactamase-producing strains) characterized by the following risk factors:  \n\n - Antibacterial drug exposure for acute otitis media within the preceding 3 months, and either of the following: 1) age 2 years, or younger or 2) day care attendance\n\n [see Microbiology (12.4)].\n\nLimitations of Use\n\nAUGMENTIN ES-600 is not indicated for the treatment of acute otitis media due to\n\n S. pneumoniaewith penicillin MIC greater than or equal to 4 mcg/mL. Acute otitis media due to\n\n S. pneumoniaealone can be treated with amoxicillin. Therapy may be instituted prior to obtaining the results from bacteriological studies when there is reason to believe the infection may involve both\n\n S. pneumoniae(penicillin MIC less than or equal to 2 mcg/mL) and the beta-lactamase-producing organisms listed above.\n\nUsage\n\nTo reduce the development of drug-resistant bacteria and maintain the effectiveness of AUGMENTIN ES-600 and other antibacterial drugs, AUGMENTIN ES-600 should be used only to treat or prevent infections that are proven or strongly suspected to be caused by susceptible bacteria. When culture and susceptibility information are available, they should be considered in selecting or modifying antibacterial therapy. In the absence of such data, local epidemiology and susceptibility patterns may contribute to the empiric selection of therapy.\n\nAUGMENTIN ES-600 is a combination of amoxicillin, a penicillin-class antibacterial and clavulanate potassium, a beta-lactamase inhibitor,  indicated for the treatment of pediatric patients aged 3 months to 12 years weighing less than or equal to 40 kg with:\n\nRecurrent or persistent acute otitis media due to\n\n S. pneumoniae(penicillin MICs less than or equal to 2 mcg/mL),\n\n H. influenzae(including beta-lactamase-producing strains), or\n\n M. catarrhalis(including beta-lactamase-producing strains) characterized by the following risk factors (\n\n 1): Antibacterial exposure for acute otitis media within the preceding 3 months, and either of the following: 1) age 2 years, or younger or 2) day care attendance.\n\nLimitations of Use\n\nAUGMENTIN ES-600 is not indicated for the treatment of acute otitis media due to\n\n S. pneumoniaewith penicillin MIC greater than or equal to 4 mcg/mL. Acute otitis media due to\n\n S. pneumoniaealone can be treated with amoxicillin. Therapy may be instituted prior to obtaining the results from bacteriological studies when there is reason to believe the infection may involve both\n\n S. pneumoniae(penicillin MIC less than or equal to 2 mcg/mL) and the beta lactamase producing organisms listed above. (1)\n\nUsage\n\nTo reduce the development of drug-resistant bacteria and maintain the effectiveness of AUGMENTIN ES-600 and other antibacterial drugs, AUGMENTIN ES-600 should be used only to treat or prevent infections that are proven or strongly suspected to be caused by bacteria. (1)\n\nDosage and Administration\nPediatric Patients aged 3 months to 12 years weighing less than or equal to 40 kg: 90 mg/kg/day divided every 12 hours, administered for 10 days. (2)\n\nUnclassified\nTo minimize the potential for gastrointestinal intolerance, AUGMENTIN ES-600 should be taken at the start of a meal. Absorption of clavulanate potassium may be enhanced when AUGMENTIN ES-600 is administered at the start of a meal.\n\nUnclassified\nPediatric patients aged 3 months to 12 years weighing less than or equal to 40 kg: Based on the amoxicillin component (600 mg/5 mL), the recommended dose of AUGMENTIN ES-600 is 90 mg/kg/day divided every 12 hours, administered for 10 days (see Table 1 as a general example guideline for attainment of this dosage). This dose provides 6.4 mg/kg/day of the clavulanic acid component.\n\nTable 1: General Dosage Guidelines for AUGMENTIN ES-600 in Pediatric Patients\n\nBody Weight (kg)\n\n | \n\nVolume of\nAUGMENTIN ES-600\nfor oral suspension\nproviding 90 mg/kg/day\n\n | \n\n8\n | \n\n3 mL twice daily\n | \n\n12\n | \n\n4.5 mL twice daily\n | \n\n16\n | \n\n6 mL twice daily\n | \n\n20\n | \n\n7.5 mL twice daily\n | \n\n24\n | \n\n9 mL twice daily\n | \n\n28\n | \n\n10.5 mL twice daily\n | \n\n32\n | \n\n12 mL twice daily\n | \n\n36\n | \n\n13.5 mL twice daily\n | \n\n40\n | \n\n15 mL twice daily\n |\n\nUnclassified\nPediatric patients weighing greater than 40 kg:Experience with AUGMENTIN ES-600 in this group is not available.\n\nUnclassified\nExperience with AUGMENTIN ES-600 in adults is not available and adults who have difficulty swallowing should not be given AUGMENTIN ES-600 in place of the 500 mg or 875 mg tablet of AUGMENTIN.\n\nUnclassified\nHepatically impaired patients should be dosed with caution and hepatic function monitored at regular intervals\n\n [see Warnings and Precautions (\n\n 5.4)]\n\n .\n\nUnclassified\nPrepare the suspension at time of dispensing as follows: Tap bottle until all powder flows freely. Measure the total amount of water (see Table 2) to be added in two parts. Add approximately 2/3 of the total amount of water for reconstitution, replace cap and shake vigorously to suspend powder. Add remainder of the water (that had been measured), replace cap and again shake vigorously.\n\nTable 2: Volume of Water for Reconstituting AUGMENTIN ES-600\n\n | \n\nBottle Size | \nAmount of Water \n\n Required for Reconstitution\n | \n\n75 mL | \n70 mL | \n\n125 mL | \n110 mL | \n\n200 mL | \n180 mL | \n\nEach 5 mL will contain 600 mg of amoxicillin as the trihydrate, and 42.9 mg of clavulanic acid as the potassium salt.\nShake oral suspension well before each use.   Suspension must be refrigerated.  Discard after 10 days.  Suspension is off-white at time of reconstitution; some color change is normal during the dosing period.\n\nUnclassified\nFlavoring Information: For patients who wish to alter the taste of AUGMENTIN ES-600, immediately after reconstitution, 1 drop of FLAVORx® (apple, banana cream, bubble gum, cherry, or watermelon flavor) may be added for every 5 mL of AUGMENTIN ES-600. The resulting suspension is stable for 10 days under refrigeration. Stability of AUGMENTIN ES-600 when mixed with other flavors other than the 5 flavors listed above has not been evaluated.\n\nUnclassified\nAUGMENTIN ES-600 does not contain the same amount of clavulanic acid (as the potassium salt) as any of the other suspensions of AUGMENTIN. AUGMENTIN ES-600 contains 42.9 mg of clavulanic acid per 5 mL, whereas the 200 mg/28.5 mg per 5 mL suspension of AUGMENTIN contains 28.5 mg clavulanic acid per 5 mL and the 400 mg/57 mg per 5 mL suspension of AUGMENTIN contains 57 mg clavulanic acid per 5 mL. Therefore, the 200 mg/28.5 mg per 5 mL and 400 mg/57 mg per 5 mL suspensions of AUGMENTIN should not be substituted for AUGMENTIN ES-600 as they are not interchangeable.\n\nDosage Forms and Strengths\nAugmentin ES 600 for Oral Suspension: 600 mg/42.9 mg per 5 mL: Strawberry cream-flavored for oral suspension (each 5 mL of reconstituted suspension contains 600 mg of amoxicillin as the trihydrate, and 42.9 mg of clavulanic acid as the potassium salt).\n\nFor oral suspension: 600 mg/42.9 mg per 5 mL.\n\nContraindications\nHistory of a serious hypersensitivity reaction (e.g., anaphylaxis or Stevens-Johnson syndrome) to AUGMENTIN ES-600 or any other beta-lactams (e.g., penicillins or cephalosporins). (\n\n 4.1)\n\nHistory of cholestatic jaundice/hepatic dysfunction associated with AUGMENTIN ES-600. (\n\n 4.2)\n\nUnclassified\nAUGMENTIN ES-600 is contraindicated in patients with a history of serious hypersensitivity reactions (e.g., anaphylaxis or Stevens-Johnson syndrome) to amoxicillin, clavulanate, or to other beta-lactam antibacterial drugs (e.g., penicillins and cephalosporins).\n\nUnclassified\nAUGMENTIN ES-600 is contraindicated in patients with a previous history of cholestatic jaundice/hepatic dysfunction associated with treatment with amoxicillin and clavulanate potassium.\n\nWarnings and Precautions\nSerious (including fatal) hypersensitivity reactions: Discontinue AUGMENTIN ES-600 if a reaction occurs and institute appropriate therapy. (\n\n 5.1)\n\nSevere cutaneous adverse reactions (SCAR): Monitor closely. Discontinue if rash progresses. (\n\n 5.2)\n\nDrug-induced enterocolitis syndrome (DIES) has been reported with use of amoxicillin, a component of AUGMENTIN ES-600. If this occurs, discontinue AUGMENTIN ES-600 and institute appropriate therapy. (\n\n 5.3)\n\nHepatic dysfunction and cholestatic jaundice: Discontinue if signs/symptoms of hepatitis occur. Monitor liver function tests in patients with hepatic impairment. (\n\n 5.4)\n\nClostridioides difficile-associated diarrhea (CDAD) (ranging from mild diarrhea to fatal colitis): Evaluate patients if diarrhea occurs. (\n\n 5.5)\n\nPatients with mononucleosis who receive AUGMENTIN ES-600 develop skin rash. Avoid AUGMENTIN ES-600 use in these patients. (\n\n 5.6)\n\nUnclassified\nSerious and occasionally fatal hypersensitivity (anaphylactic) reactions have been reported in patients receiving beta-lactam antibacterials, including AUGMENTIN ES-600. These reactions are more likely to occur in individuals with a history of penicillin hypersensitivity and/or a history of sensitivity to multiple allergens. Before initiating therapy with AUGMENTIN ES-600, careful inquiry should be made concerning previous hypersensitivity reactions to penicillins, cephalosporins, or other allergens. If an allergic reaction occurs, discontinue AUGMENTIN ES-600 and institute appropriate therapy.\n\nUnclassified\nAUGMENTIN ES-600 may cause severe cutaneous adverse reactions (SCAR), such as Stevens-Johnson syndrome (SJS), toxic epidermal necrolysis (TEN), drug reaction with eosinophilia and systemic symptoms (DRESS), and acute generalized exanthematous pustulosis (AGEP). If patients develop a skin rash, they should be monitored closely, and AUGMENTIN ES-600 discontinued if lesions progress.\n\nUnclassified\nDrug-induced enterocolitis syndrome (DIES) has been reported with use of amoxicillin, a component of AUGMENTIN ES-600 [see Adverse Reactions (6.2)], with most cases occurring in pediatric patients  18 years of age. DIES is a non-IgE mediated hypersensitivity reaction characterized by protracted vomiting occurring 1 to 4 hours after drug ingestion in the absence of skin or respiratory symptoms. DIES may be associated with pallor, lethargy, hypotension, shock, diarrhea within 24 hours after ingesting amoxicillin, and leukocytosis with neutrophilia. If DIES occurs, discontinue AUGMENTIN ES-600 and institute appropriate therapy.\n\nUnclassified\nUse AUGMENTIN ES-600 with caution in patients with evidence of hepatic dysfunction. Hepatic toxicity associated with the use of AUGMENTIN ES-600 is usually reversible. Deaths have been reported (fewer than one death reported per estimated four million prescriptions worldwide). These have generally been cases associated with serious underlying diseases or concomitant medications [\n\n see Contraindications (4.2) and Adverse Reactions (6.2)].\n\nUnclassified\nClostridioides difficile-associated diarrhea (CDAD) has been reported with use of nearly all antibacterial agents, including AUGMENTIN ES-600, and may range in severity from mild diarrhea to fatal colitis. Treatment with antibacterial agents alters the normal flora of the colon leading to overgrowth of\n\n C. difficile.\n\nC. difficileproduces toxins A and B which contribute to the development of CDAD. Hypertoxin-producing strains of\n\n C. difficilecause increased morbidity and mortality, as these infections can be refractory to antimicrobial therapy and may require colectomy. CDAD must be considered in all patients who present with diarrhea following antibacterial drug use. Careful medical history is necessary since CDAD has been reported to occur over two months after the administration of antibacterial agents.\n\nIf CDAD is suspected or confirmed, ongoing antibacterial drug use not directed against\n\n C. difficilemay need to be discontinued. Appropriate fluid and electrolyte management, protein supplementation, antibacterial treatment of\n\n C. difficile, and surgical evaluation should be instituted as clinically indicated.\n\nUnclassified\nA high percentage of patients with mononucleosis who receive amoxicillin develop an erythematous skin rash. Avoid AUGMENTIN ES-600 use in patients with mononucleosis.\n\nUnclassified\nThe possibility of superinfections with mycotic or bacterial pathogens should be kept in mind during therapy. If superinfections occur (usually involving\n\n Pseudomonasspp. or\n\n Candidaspp.), the drug should be discontinued, and appropriate therapy instituted.\n\nUnclassified\nAUGMENTIN ES-600 contains aspartame which contains phenylalanine. Each 5 mL of suspension of AUGMENTIN ES-600 contains 7 mg phenylalanine.\n\nUnclassified\nPrescribing AUGMENTIN ES-600 in the absence of a proven or strongly suspected bacterial infection or a prophylactic indication is unlikely to provide benefit to the patient and increases the risk of the development of drug-resistant bacteria.\n\nAdverse Reactions\nThe following clinically significant adverse reactions are described elsewhere in labeling:\n\nAnaphylactic reactions\n\n [see Warnings and Precautions (5.1)]\n\nSevere Cutaneous Adverse Reactions (SCAR)\n\n [see Warnings and Precautions (5.2)]\n\nDrug-Induced Enterocolitis Syndrome (DIES)\n\n [see Warnings and Precautions (5.3)]\n\nHepatic Dysfunction\n\n [see Warnings and Precautions (5.4)]\n\nClostridioides difficile-Associated Diarrhea (CDAD)\n\n [see Warnings and Precautions (5.5)]\n\nSkin Rash in Patients with Mononucleosis\n\n [see Warnings and Precautions (5.6)]\n\nThe most frequently reported adverse reactions (incidence rate > 4 %) were coughing, vomiting, contact dermatitis (i.e., diaper rash), fever, upper respiratory tract infection, and diarrhea. (\n\n 6.1)\n\nTo report SUSPECTED ADVERSE REACTIONS, contact USAntibiotics, LLC at 1-844-454-5532\nor FDA at 1-800-FDA-1088 or\n\n www.fda.gov/medwatch.\n\nUnclassified\nBecause clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in practice.\nTwo clinical trials evaluated the safety of a 10-day treatment course of AUGMENTIN ES-600 90/6.4 mg/kg/day, divided every 12 hours, in pediatric patients with acute otitis media [\n\n see Clinical Studies (\n\n 14)\n\n ]. The first trial involved 521 pediatric patients (3 months to 50 months) and the second trial involved 450 pediatric patients (3 months to 12 years). In the intent-to-treat population of the first trial of 521 patients, the most frequently reported adverse events were vomiting (7%), fever (6%), contact dermatitis (i.e., diaper rash) (6%), upper respiratory tract infection (4%), and diarrhea (4%). Protocol-defined diarrhea (i.e., 3 or more watery stools in one day or 2 watery stools per day for 2 consecutive days as recorded on diary cards) occurred in 13% of patients.\n\nThe primary objective of the second study was to compare the safety of AUGMENTIN ES-600 (90/6.4 mg/kg/day, divided every 12 hours) to AUGMENTIN (45/6.4 mg/kg/day, divided every 12 hours) for ten days. There was no statistically significant difference between treatments in the proportion of patients with 1 or more adverse events. The most frequently reported adverse reactions for AUGMENTIN ES-600 and the comparator of AUGMENTIN were coughing (12% versus 7%), vomiting (7% versus 8%), contact dermatitis (i.e., diaper rash, 6% versus 5%), fever (6% versus 4%), and upper respiratory infection (3% versus 9%), respectively. The frequencies of protocol-defined diarrhea with AUGMENTIN ES-600 (11%) and AUGMENTIN (9%) were not statistically different. Two patients in the group treated with AUGMENTIN ES-600 and one patient in the group treated with AUGMENTIN were withdrawn due to diarrhea.\n\nUnclassified\nThe following adverse reactions have been identified during postmarketing use of AUGMENTIN products, including AUGMENTIN ES-600. Because these reactions are reported voluntarily from a population of unknown size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure.\n\nGastrointestinal:Drug-induced enterocolitis syndrome (DIES), diarrhe, nausea, vomiting, indigestion, gastritis, stomatitis, glossitis, black “hairy” tongue, mucocutaneous candidiasis, enterocolitis, and hemorrhagic/pseudomembranous colitis. Onset of pseudomembranous colitis symptoms may occur during or after antibacterial treatment\n\n [see Warnings and Precautions (\n\n 5.5)]\n\n .\n\nImmune: Hypersensitivity reactions, anaphylactic/anaphylactoid reactions (including shock), angioedema, serum sickness-like reactions (urticaria or skin rash accompanied by arthritis, arthralgia, myalgia, and frequently fever), hypersensitivity vasculitis\n\n [see Warnings and Precautions (\n\n 5.1)]\n\n .\n\nSkin and Appendages:Rashes, pruritus, urticaria, erythema multiforme, SJS, TEN, DRESS, AGEP, exfoliative dermatitis, and linear IgA bullous dermatosis [\n\n see Warnings and Precautions (5.1, 5.2, 5.6)].\n\nLiver: A moderate rise in AST (SGOT) and/or ALT (SGPT) has been noted in patients treated with ampicillin-class antibacterials. Hepatic dysfunction, including increases in serum transaminases (AST and/or ALT), serum bilirubin, and/or alkaline phosphatase, has been infrequently reported with AUGMENTIN or AUGMENTIN ES-600. It has been reported more commonly in the elderly, in males, or in patients on prolonged treatment. The histologic findings on liver biopsy have consisted of cholestatic, hepatocellular, or mixed cholestatic-hepatocellular changes. The onset of signs/symptoms of hepatic dysfunction may occur during or several weeks after therapy has been discontinued. The hepatic dysfunction, which may be severe, is usually reversible. Deaths have been reported\n\n [see Contraindications (\n\n 4.2), Warnings and Precautions (\n\n 5.4)]\n\n .\n\nRenal:Interstitial nephritis and hematuria have been reported. Crystalluria has also been reported\n\n [see Overdosage (\n\n 10)]\n\n .\n\nHemic and Lymphatic Systems:Anemia, including hemolytic anemia, thrombocytopenia, thrombocytopenic purpura, eosinophilia, leukopenia, and agranulocytosis have been reported during therapy with penicillins. These reactions are usually reversible on discontinuation of therapy and are believed to be hypersensitivity phenomena. There have been reports of increased prothrombin time in patients receiving AUGMENTIN and anticoagulant therapy concomitantly.\n\nCentral Nervous System: Agitation, anxiety, behavioral changes, aseptic meningitis, confusion, convulsions, dizziness, insomnia, and reversible hyperactivity have been reported.\n\nMiscellaneous:Tooth discoloration (brown, yellow, or gray staining) has been reported. Most reports occurred in pediatric patients. Discoloration was reduced or eliminated with brushing or dental cleaning in most cases.\n\nDrug Interactions\nCo-administration with probenecid is not recommended. (\n\n 7.1)\n\nConcomitant use of AUGMENTIN ES-600 with oral anticoagulants may increase the prolongation of prothrombin time. (\n\n 7.2)\n\nCo-administration with allopurinol increases the risk of rash. (\n\n 7.3)\n\nAUGMENTIN ES-600 may reduce efficacy of oral contraceptives. (\n\n 7.4)\n\nUnclassified\nProbenecid decreases the renal tubular secretion of amoxicillin. Concurrent use with AUGMENTIN ES-600 may result in increased and prolonged blood levels of amoxicillin. Co-administration of probenecid is not recommended.\n\nUnclassified\nAbnormal prolongation of prothrombin time (increased international normalized ratio [INR]) has been reported in patients receiving amoxicillin and oral anticoagulants. Appropriate monitoring should be undertaken when anticoagulants are prescribed concurrently.  Adjustments in the dose of oral anticoagulants may be necessary to maintain the desired level of anticoagulation.\n\nUnclassified\nThe concurrent administration of allopurinol and amoxicillin increases substantially the incidence of rashes in patients receiving both drugs as compared to patients receiving amoxicillin alone. It is not known whether this potentiation of amoxicillin rashes is due to allopurinol or the hyperuricemia present in these patients. There are no data with AUGMENTIN ES-600 and allopurinol administered concurrently.\n\nUnclassified\nAUGMENTIN ES-600 may affect intestinal flora, leading to lower estrogen reabsorption and reduced efficacy of combined oral estrogen/progesterone contraceptives.\n\n7.5 Effects on Laboratory Tests\nHigh urine concentrations of amoxicillin may result in false-positive reactions when testing for the presence of glucose in urine using CLINITEST\n\n ®, Benedict's Solution, or Fehling's Solution. Since this effect may also occur with AUGMENTIN ES-600, it is recommended that glucose tests based on enzymatic glucose oxidase reactions be used.\n\nFollowing administration of amoxicillin to pregnant women, a transient decrease in plasma concentration of total conjugated estriol, estriol-glucuronide, conjugated estrone, and estradiol has been noted.\n\nPregnancy\nRisk Summary\n\nAvailable data from published epidemiologic studies and pharmacovigilance case reports over several decades of use with amoxicillin and clavulanate during pregnancy have not established a drug-associated risk of major birth defects, miscarriage, or adverse maternal outcomes. A study in women with preterm prelabor rupture of membranes (PPROM) reported that prophylactic treatment with amoxicillin and clavulanate may be associated with an increased risk of necrotizing enterocolitis in neonates\n\n (see Data). Reproduction studies performed in pregnant rodents, given up to approximately 2 times the amount of amoxicillin and 15 times the amount of clavulanate in the Maximum Human Recommended Dose (MHRD) of AUGMENTIN ES-600, revealed no evidence of harm to the fetus\n\n (see Data).\n\nThe background risk of major birth defects and miscarriage for the indicated populations is unknown. All pregnancies have a background risk of birth defect, loss, or other adverse outcomes. In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2 to 4% and 15 to 20%, respectively.\n\nData\n\nHuman Data\n\nOne randomized, controlled trial included 4,826 pregnant women with premature rupture of fetal membranes who were randomly assigned to 250 mg erythromycin (n=1,197), 250 mg amoxicillin and 125 mg clavulanic acid (amoxicillin and clavulanate, n=1,212), amoxicillin and clavulanate and erythromycin (n=1,192), or placebo (n=1,225) four times daily for 10 days or until delivery. Amoxicillin and clavulanate was associated with a significantly increased rate of proven neonatal necrotizing enterocolitis: 1.9% (n = 24) in the amoxicillin and clavulanate only group versus 0.5% (n = 6) in the placebo group (p = 0.001), and 1.8% (n = 44) in the any amoxicillin and clavulanate group versus 0.7% (n =17) in the no amoxicillin and clavulanate group (p = 0.0005).\n\nAnimal Data\n\nReproduction studies performed in pregnant rats and mice given amoxicillin and clavulanate (2:1 ratio formulation of amoxicillin:clavulanate) at oral doses up to 1200 mg/kg/day revealed no evidence of harm to the fetus due to amoxicillin and clavulanate. The amoxicillin doses in rodents (based on body surface area and assuming a 20 kg child) were approximately 2 times (rats) or equal to (mice) the recommended clinical AUGMENTIN ES-600 dose of 90/6.4 mg/kg/day. For clavulanate, these dose multiples were approximately 15 times and 7.5 times the recommended daily dose of AUGMENTIN ES-600.\n\n8.2 Lactation\nRisk Summary\n\nData from a published clinical lactation study report that amoxicillin is present in human milk. There are reports of diarrhea, irritability, and rash in infants exposed to amoxicillin and clavulanate through breast milk; therefore, infants exposed to AUGMENTIN ES-600 should be monitored for these symptoms. There are no data on the effects of amoxicillin and clavulanate on milk production. The developmental and health benefits of breastfeeding should be considered along with the mother’s clinical need for AUGMENTIN ES-600 and any potential adverse effects on the breastfed child from AUGMENTIN ES-600 or from the underlying maternal condition.\n\n8.4 Pediatric Use\nAcute Otitis Media\n\nThe safety and effectiveness of AUGMENTIN ES-600 have been established in pediatric patients aged 3 months to 12 years weighing less than or equal to 40 kg, for the treatment of acute otitis media, and the information on this use is discussed throughout the labeling.\n\nThe safety and effectiveness of AUGMENTIN ES-600 in pediatric patients younger than 3 months of age have not been established.\nThe safety and effectiveness of Augmentin ES-600 have not been established in pediatric patients aged 3 months to 12 years weighing more than 40 kg.\n\nAcute Bacterial Sinusitis\n\nThe safety and effectiveness of AUGMENTIN ES-600 have been established for the treatment of pediatric patients (3 months to 12 years of age) with acute bacterial sinusitis. This use is supported by evidence from adequate and well-controlled studies of AUGMENTIN XRTM Extended Release Tablets in adults with acute bacterial sinusitis, studies of AUGMENTIN ES-600 in pediatric patients with acute otitis media, and by similar pharmacokinetics of amoxicillin and clavulanate in pediatric patients taking AUGMENTIN ES-600\n\n [see Clinical Pharmacology (12)]and adults taking AUGMENTIN XR.\n\nOverdosage\nFollowing overdosage, patients have experienced primarily gastrointestinal symptoms including stomach and abdominal pain, vomiting, and diarrhea. Rash, hyperactivity, or drowsiness have also been observed in a small number of patients.\nIn the case of overdosage, discontinue AUGMENTIN ES-600, treat symptomatically, and institute supportive measures as required. If the overdosage is very recent and there is no contraindication, an attempt at emesis or other means of removal of drug from the stomach may be performed. A prospective study of 51 pediatric patients at a poison control center suggested that overdosages of less than 250 mg/kg of amoxicillin are not associated with significant clinical symptoms and do not require gastric emptying.\n\n 1\n\nInterstitial nephritis resulting in oliguric renal failure has been reported in a small number of patients after overdosage with amoxicillin.\nCrystalluria, in some cases leading to renal failure, has also been reported after amoxicillin overdosage in adult and pediatric patients. In case of overdosage, adequate fluid intake and diuresis should be maintained to reduce the risk of amoxicillin crystalluria.\nRenal impairment appears to be reversible with cessation of drug administration. High blood levels may occur more readily in patients with impaired renal function because of decreased renal clearance of both amoxicillin and clavulanate. Both amoxicillin and clavulanate are removed from the circulation by hemodialysis\n\n [see Dosage and Administration (\n\n 2)]\n\n .\n\nDescription\nAUGMENTIN ES-600 is an oral antibacterial combination consisting of the semisynthetic antibacterial amoxicillin and the beta-lactamase inhibitor, clavulanate potassium (the potassium salt of clavulanic acid). Amoxicillin is an analog of ampicillin, derived from the basic penicillin nucleus, 6-aminopenicillanic acid. The amoxicillin molecular formula is C\n\n 16H\n\n 19N\n\n 3O\n\n 5S•3H\n\n 2O, and the molecular weight is 419.46. Chemically, amoxicillin is (2\n\n S,5\n\n R,6\n\n R)-6-[(\n\n R)-(-)-2-Amino-2-(\n\n p-hydroxyphenyl)acetamido]-3,3-dimethyl-7-oxo-4-thia-1-azabicyclo [3.2.0] heptane-2-carboxylic acid trihydrate and may be represented structurally as:\n\nClavulanic acid is produced by the fermentation of\n\n Streptomyces clavuligerus. It is a beta-lactam structurally related to the penicillins and possesses the ability to inactivate a wide variety of beta-lactamases by blocking the active sites of these enzymes. Clavulanic acid is particularly active against the clinically important plasmid-mediated beta-lactamases frequently responsible for transferred drug resistance to penicillins and cephalosporins. The clavulanate potassium molecular formula is C\n\n 8H\n\n 8KNO\n\n 5and the molecular weight is 237.25. Chemically, clavulanate potassium is potassium (\n\n Z)-(\n\n 2R,5R)-3-(2-hydroxyethylidene)-7-oxo-4-oxa-1-azabicyclo[3.2.0]-heptane-2-carboxylate and may be represented structurally as:\n\nFollowing constitution, each 5 mL of oral suspension contains 600 mg of amoxicillin as the trihydrate and 42.9 mg of clavulanic acid (equivalent to 51.1 mg of clavulanate potassium).\n\nInactive Ingredients: Aspartame, colloidal silicon dioxide, silicon dioxide, sodium carboxymethylcellulose, strawberry cream flavor, and xanthan gum\n\n [see Warnings and Precautions (5.8)]. Each 5 mL of reconstituted AUGMENTIN ES-600 contains approximately 9 mg of potassium and 4 mg of sodium.\n\nFigure\n\nFigure\n\nMechanism of Action\nAUGMENTIN ES-600 is an antibacterial drug\n\n [see Microbiology (\n\n 12.4)]\n\n .\n\nPharmacokinetics\nThe pharmacokinetics of amoxicillin and clavulanate were determined in a study of 19 pediatric patients, 8 months to 11 years, given AUGMENTIN ES-600 at an amoxicillin dose of 45 mg/kg q12h with a snack or meal. The mean plasma amoxicillin and clavulanate pharmacokinetic parameter values are listed in the Table 3.\n\nTable 3. Mean (±SD) Plasma Amoxicillin and Clavulanate Pharmacokinetic Parameter Values Following Administration of 45 mg/kg of AUGMENTIN ES-600 Every 12 Hours to Pediatric Patients\n\n* Arithmetic mean ± standard deviation, except T\n\n maxvalues which are medians (ranges).\n\n | \n\nPARAMETER\n | \n\nAMOXICILLIN\n | \n\nCLAVULANATE\n | \n\nC\n\n max(mcg/mL)\n\n | \n15.7 ± 7.7 | \n1.7 ± 0.9 | \n\nT\n\n max(hr)\n\n | \n2.0 (1.0 to 4.0) | \n1.1 (1.0 to 4.0) | \n\nAUC\n\n 0-T(mcg*hr/mL)\n\n | \n59.8 ± 20.0 | \n4.0 ± 1.9 | \n\nT½ (hr) | \n1.4 ± 0.3 | \n1.1 ± 0.3 | \n\nCL/F (L/hr/kg) | \n0.9 ± 0.4 | \n1.1 ± 1.1 | \n\nThe effect of food on the oral absorption of AUGMENTIN ES-600 has not been studied.\nApproximately 50% to 70% of the amoxicillin and approximately 25% to 40% of the clavulanic acid are excreted unchanged in urine during the first 6 hours after administration of 10 mL of 250 mg/5 mL suspension of AUGMENTIN.\nNeither component in AUGMENTIN ES-600 is highly protein-bound; clavulanic acid has been found to be approximately 25% bound to human serum and amoxicillin approximately 18% bound.\nOral administration of a single dose of AUGMENTIN ES-600 at 45 mg/kg (based on the amoxicillin component) to pediatric patients, 9 months to 8 years, yielded the following pharmacokinetic data for amoxicillin in plasma and middle ear fluid (MEF):\n\nTable 4. Amoxicillin Concentrations in Plasma and Middle Ear Fluid Following Administration of 45 mg/kg of AUGMENTIN ES-600 to Pediatric Patients\n*\n\n | \n\nTimepoint\n\n | \n\nAmoxicillin concentration in plasma (mcg/mL)\n\n | \n\nAmoxicillin concentration in MEF (mcg/mL)\n\n | \n\n1 hour\n | \n\nmean \n\n median \n\n range\n\n | \n\n7.7 \n\n 9.3 \n\n 1.5 to 14.0 \n\n (n = 5)\n\n | \n\n3.2 \n\n 3.5 \n\n 0.2 to 5.5 \n\n (n = 4)\n\n | \n\n2 hour\n | \n\nmean \n\n median \n\n range\n\n | \n\n15.7 \n\n 13.0 \n\n 11.0 to 25.0 \n\n (n = 7)\n\n | \n\n3.3 \n\n 2.4 \n\n 1.9 to 6 \n\n (n = 5)\n\n | \n\n3 hour\n | \n\nmean \n\n median \n\n range\n\n | \n\n13.0 \n\n 12.0 \n\n 5.5 to 21.0 \n\n (n = 5)\n\n | \n\n5.8 \n\n 6.5 \n\n 3.9 to 7.4 \n\n (n = 5)\n\n | \n\n* Dose administered immediately prior to eating.\n | \n\nAmoxicillin diffuses readily into most body tissues and fluids, with the exception of the brain and spinal fluid. The results of experiments involving the administration of clavulanic acid to animals suggest that this compound, like amoxicillin, is well distributed in body tissues.\n\nDrug Interaction Studies\n\nClinical Studies\n\n Concurrent administration of probenecid delays amoxicillin excretion but does not delay renal excretion of clavulanic acid.\n\n12.4 Microbiology\nMechanism of Action\n\nAmoxicillin is a semisynthetic antibacterial with a broad spectrum of bactericidal activity against many gram-positive and gram-negativemicroorganisms. Amoxicillin is, however, susceptible to degradation by beta-lactamases, and therefore, its spectrum of activity does not include organisms which produce these enzymes. Clavulanic acid is a beta-lactam, structurally related to penicillin, which possesses the ability to inactivate a wide range of beta-lactamase enzymes commonly found in microorganisms resistant to penicillins and cephalosporins. In particular, it has good activity against the clinically important plasmid-mediated beta-lactamases frequently found responsible for transferred drug resistance\n\n .\n\nThe clavulanic acid component of AUGMENTIN ES-600 protects amoxicillin from degradation by beta-lactamase enzymes and effectively extends the antibacterial spectrum of amoxicillin to include many bacteria normally resistant to amoxicillin and other beta-lactam antibacterials. Thus, AUGMENTIN ES-600 possesses the distinctive properties of a broad spectrum antibacterial and a beta-lactamase inhibitor.\n\nAntimicrobial Activity\n\nAmoxicillin/clavulanic acid has been shown to be active against most isolates of the following microorganisms, both in vitro and in clinical infections\n\n [see Indications and Usage (1)].\n\nGram-Positive bacteria:\n\nStreptococcus pneumoniae(including isolates with penicillin MICs less than or equal to 2 mcg/mL)\n\nGram-Negative bacteria:\n\nHaemophilus influenzae(including beta-lactamase-producing isolates)\n\nMoraxella catarrhalis(including beta-lactamase-producing isolates)\n\nThe following\n\n in vitrodata are available, but their clinical significance is unknown. At least 90% of the following microorganisms exhibit in vitro minimum inhibitory concentrations (MICs) less than or equal to the susceptible breakpoint for amoxicillin/clavulanic acid. However, the safety and efficacy of amoxicillin/clavulanic acid in treating infections due to these microorganisms have not been established in adequate and well-controlled trials.\n\nGram-Positive bacteria:\n\nStaphylococcus aureus(including beta-lactamase-producing isolates)\n\nStaphylococci which are resistant to methicillin/oxacillin must be considered resistant to amoxicillin/clavulanic acid.\n\nStreptococcus pyogenes\n\nS. pyogenesdo not produce beta-lactamase, and therefore, are susceptible to amoxicillin alone. Adequate and well-controlled clinical trials have established the effectiveness of amoxicillin alone in treating certain clinical infections due to\n\n S. pyogenes.\n\nUnclassified\nSusceptibility Test Methods:\n\nFor specific information regarding susceptibility test interpretive criteria and associated test methods and quality control standards recognized by FDA for this drug, please see:\n\n https://www.fda.gov/STIC.\n\n13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility\nLong-term studies in animals have not been performed to evaluate carcinogenic potential.\n\n Amoxicillin and clavulanate (4:1 ratio formulation of amoxicillin:clavulanate) was non-mutagenic in the Ames bacterial mutation assay, and the yeast gene conversion assay. Amoxicillin and clavulanate was weakly positive in the mouse lymphoma assay, but the trend toward increased mutation frequencies in this assay occurred at concentrations that were also associated with decreased cell survival. Amoxicillin and clavulanate was negative in the mouse micronucleus test, and in the dominant lethal assay in mice. Clavulanate potassium alone was tested in the Ames bacterial mutation assay and in the mouse micronucleus test and was negative in each of these assays.\n\nAmoxicillin and clavulanate (2:1 ratio formulation of amoxicillin:clavulanate) at oral doses of up to 1,200 mg/kg/day was found to have no effect on fertility and reproductive performance in rats. Based on body surface area (assuming a 20 kg child), this dose of amoxicillin is approximately 2 times the recommended clinical AUGMENTIN ES-600 dose of 90/6.4 mg/kg/day. For clavulanate, the dose multiple is approximately 15 times higher than the recommended clinical daily dose, also based on body surface area.\n\n14 CLINICAL STUDIES\nTwo clinical studies were conducted in pediatric patients with acute otitis media. A non-comparative, open-label study assessed the bacteriologic and clinical efficacy of AUGMENTIN ES-600 (90/6.4 mg/kg/day, divided every 12 hours) for 10 days in 521 pediatric patients (3 to 50 months) with acute otitis media. The primary objective was to assess bacteriological response in children with acute otitis media due to S. pneumoniae with amoxicillin/clavulanic acid MICs of 4 mcg/mL. The study sought the enrollment of patients with the following risk factors: Failure of antibacterial therapy for acute otitis media in the previous 3 months, history of recurrent episodes of acute otitis media, 2 years or younger, or daycare attendance. Prior to receiving AUGMENTIN ES-600, all patients had tympanocentesis to obtain middle ear fluid for bacteriological evaluation. Patients from whom S. pneumoniae (alone or in combination with other bacteria) was isolated had a second tympanocentesis 4 to 6 days after the start of therapy. Clinical assessments were planned for all patients during treatment (4 to 6 days after starting therapy), as well as 2 to 4 days post-treatment and 15 to 18 days post-treatment. Bacteriological success was defined as the absence of the pretreatment pathogen from the on-therapy tympanocentesis specimen. Clinical success was defined as improvement or resolution of signs and symptoms. Clinical failure was defined as lack of improvement or worsening of signs and/or symptoms at any time following at least 72 hours of AUGMENTIN ES-600; patients who received an additional systemic antibacterial drug for otitis media after 3 days of therapy were considered clinical failures. Bacteriological eradication on therapy (day 4 to 6 visit) in the per protocol population is summarized in Table 5.\n\nTable 5. Bacteriologic Eradication Rates in the Per Protocol Population\n\n* CI equals confidence intervals; 95% CIs are not adjusted for multiple comparisons.\n | \n\n | \n\nBacteriologic Eradication on Therapy\n | \n\nPathogen\n | \n\nn/N\n | \n\n%\n | \n\n95% CI*\n | \n\nAll\n\n S. pneumoniae\n | \n121/123 | \n98 | \n(94.3, 99.8) | \n\nS. pneumoniaewith penicillin \n\n MIC equal to 2 mcg/mL\n\n | \n19/19 | \n100 | \n(82.4, 100.0) | \n\nS. pneumoniaewith penicillin \n\n MIC equal to 4 mcg/mL\n\n | \n12/14 | \n86 | \n(57.2, 98.2) | \n\nH. influenzae\n | \n75/81 | \n93 | \n(84.6, 97.2) | \n\nM. catarrhalis\n | \n11/11 | \n100 | \n(71.5, 100.0) | \n\nClinical assessments were made in the per protocol population 2 to 4 days post-therapy and 15 to 18 days post-therapy. Patients who responded to therapy 2 to 4 days post-therapy were followed for 15 to 18 days post-therapy to assess them for acute otitis media. Non-responders at 2 to 4 days post-therapy were considered failures at the latter timepoint. The clinical assessments in the per protocol population are presented in Table 6.\n\nTable 6. Clinical Assessments in the Per Protocol Population (Includes S. pneumoniae Patients with Penicillin MICs equal to 2 or 4 mcg/mL*)\n\n | \n\n2 to 4 Days Post-Therapy (Primary Endpoint)\n | \n\nPathogen\n | \n\nn/N\n | \n\n%\n | \n\n95% CI†\n\n | \n\nAll\n\n S. pneumoniae\n | \n122/137 | \n89 | \n(82.6, 93.7) | \n\nS. pneumoniaewith penicillin \n\n MIC equal to 2 mcg/mL\n\n | \n17/20 | \n85 | \n(62.1, 96.8) | \n\nS. pneumoniaewith penicillin \n\n MIC equal to 4 mcg/mL\n\n | \n11/14 | \n79 | \n(49.2, 95.3) | \n\nH. influenzae\n | \n141/162 | \n87 | \n(80.9, 91.8) | \n\nM. catarrhalis\n | \n22/26 | \n85 | \n(65.1, 95.6) | \n\n*\n\n S. pneumoniaestrains with penicillin MICs of 2 or 4 mcg/mL are considered resistant to penicillin.\n\n | \n\n† CI equals confidence intervals; 95% CIs are not adjusted for multiple comparisons.\n | \n\n‡ Clinical assessments at 15 to 18 days post-therapy may have been confounded by viral infections and new episodes of acute otitis media with time elapsed post-treatment.\n | \n\n | \n\n15 to 18 Days Post-Therapy‡ \n\n(Secondary Endpoint)\n | \n\nPathogen\n | \n\nn/N\n | \n\n%\n | \n\n95% CI†\n\n | \n\nAll\n\n S. pneumoniae\n | \n95/136 | \n70 | \n(61.4, 77.4) | \n\nS. pneumoniaewith penicillin \n\n MIC equal to 2 mcg/mL\n\n | \n11/20 | \n55 | \n(31.5, 76.9) | \n\nS. pneumoniaewith penicillin \n\n MIC equal to 4 mcg/mL\n\n | \n5/14 | \n36 | \n(12.8, 64.9) | \n\nH. influenzae\n | \n106/156 | \n68 | \n(60.0, 75.2) | \n\nM. catarrhalis\n | \n14/25 | \n56 | \n(34.9, 75.6) | \n\nIn the intent-to-treat analysis, overall clinical outcomes at 2 to 4 days and 15 to 18 days post-treatment in patients with\n\n S. pneumoniaewith penicillin MIC equal to 2 mcg/mL and 4 mcg/mL were 29/41 (71%) and 17/41 (42%), respectively.\n\n15 REFERENCES\nSwanson-Biearman B, Dean BS, Lopez G, Krenzelok EP. The effects of penicillin and cephalosporin ingestions in children less than six years of age. Vet Hum Toxicol. 1988; 30:66-67.\n\nUnclassified\nHow Supplied\n\nAUGMENTIN ES-600 (amoxicillin and clavulanate potassium) for oral suspension is a strawberry cream-flavored powder for oral suspension. Following constitution, each 5 mL of oral suspension contains 600 mg of amoxicillin as the trihydrate and 42.9 mg of clavulanic acid as the potassium salt.Strawberry cream-flavored powder for oral suspension. Following constitution, each 5 mL of oral suspension contains 600 mg of amoxicillin as the trihydrate and 42.9 mg of clavulanic acid as the potassium salt (equivalent to 51.1 mg of clavulanate potassium).\n\nAUGMENTIN ES-600 is supplied as follows: \n\n • NDC 81964-003-51 75 mL bottle \n\n • NDC 81964-003-69 125 mL bottle \n\n • NDC 81964-003-54 200 mL bottle\n\nSTORAGE AND HANDLING SECTION\nStorage\n\nStore dry powder for oral suspension at or below 25°C (77°F). Dispense in original container. Store reconstituted suspension under refrigeration. Discard unused suspension after 10 days.\n\nUnclassified\nAdministration Instructions\n\nInform patients to take AUGMENTIN ES-600 every 12 hours with a meal or snack to reduce the possibility of gastrointestinal upset. If diarrhea develops and is severe or lasts more than 2 or 3 days, they should call their doctor [see Dosage and Administration (2.1), Warnings and Precautions (5.5)].\n\nUnclassified\nAllergic Reactions\n\nCounsel patients that AUGMENTIN ES-600 contains a penicillin class drug product that can cause allergic reactions in some individuals [see Warnings and Precautions (5.1, 5.3)].\n\nSevere Cutaneous Adverse Reactions (SCAR)\n\nAdvise patients about the signs and symptoms of serious skin manifestations. Instruct patients to stop taking AUGMENTIN ES-600 immediately and promptly report the first signs or symptoms of skin rash, mucosal lesions, or any other sign of hypersensitivity\n\n [see Warnings and Precautions (\n\n 5.2)]\n\n .\n\nUnclassified\nDiarrhea\n\nCounsel patients that diarrhea is a common problem caused by antibacterial drugs, including AUGMENTIN ES-600, which usually ends when the antibacterial is discontinued. Sometimes after starting treatment with antibacterial drugs, patients can develop watery and bloody stools (with or without stomach cramps and fever) even as late as 2 or more months after having taken the last dose of the antibacterial drug. If this occurs, patients should contact their physician as soon as possible\n\n [see Warnings and Precautions (5.5)].\n\nUnclassified\nPhenylketonuria\nCounsel patients with phenylketonuria: Each 5 mL of suspension of AUGMENTIN ES-600 contains 7 mg phenylalanine. [see Warnings and Precautions (5.8)].\n\nUnclassified\nAntibacterial Resistance\n\nPatients should be counseled that antibacterial drugs, including AUGMENTIN ES-600, should only be used to treat bacterial infections. Antibacterial drugs do not treat viral infections (e.g., the common cold). When AUGMENTIN ES-600 is prescribed to treat a bacterial infection, patients should be told that although it is common to feel better early in the course of therapy, the medication should be taken exactly as directed. Skipping doses or not completing the full course of therapy may: (1) decrease the effectiveness of the immediate treatment, and (2) increase the likelihood that bacteria will develop resistance and will not be treatable by AUGMENTIN ES-600 or other antibacterial drugs in the future [see Warnings and Precautions (5.9)].\n\nUnclassified\nStorage Instructions\n\nKeep suspension refrigerated. Shake well before using. When dosing a child with the suspension (liquid) of AUGMENTIN ES-600, use a dosing spoon or medicine dropper. Be sure to rinse the spoon or dropper after each use. Bottles of suspension of AUGMENTIN ES-600 may contain more liquid than required. Follow your doctor's instructions about the amount to use and the days of treatment your child requires. Discard any unused medicine.\n\nUnclassified\nManufactured by:\n\nUSAntibiotics, LLC \n\n Bristol, TN 37620 (USA)\n\nAUGMENTIN ES-600 and AUGMENTIN XR are registered trademarks of GlaxoSmithKline and are licensed to USAntibiotics, LLC.\nCLINITEST is a registered trademark of Miles, Inc.\nFLAVORx is a trademark of FLAVORx. Inc.\n\nPRINICPLE DISPLAY PANEL: Container Label - 75 mL\nNDC 81964-\n\n 003-51 \n\n 600 mg/42.9 mg per 5 mL\n\nAUGMENTIN ES-600\n\n ®\n\namoxicillin and\n\nclavulanate potassium\n\nfor oral suspension, USP\n\nWhen reconstituted, each 5 mL contains: \n\nAMOXICILLIN, 600 mg\n\n as the trihydrate, and \n\nCLAVULANIC ACID, 42.9 mg\n\n (equivalent to 51.1 mg of clavulanate potassium)\n\n75 mL (when reconstituted)\n\nUSANTIBIOTICS         Rx only\n\nlabel - 75 mL\n\nPRINICPLE DISPLAY PANEL: Container Label - 125 mL\nNDC 81964-\n\n 003-69 \n\n 600 mg/42.9 mg per 5 mL\n\nAUGMENTIN ES-600\n\n ®\n\namoxicillin and\n\nclavulanate potassium\n\nfor oral suspension, USP\n\nWhen reconstituted, each 5 mL contains: \n\nAMOXICILLIN, 600 mg\n\n as the trihydrate, and \n\nCLAVULANIC ACID, 42.9 mg\n\n (equivalent to 51.1 mg of clavulanate potassium)\n\n125 mL (when reconstituted)\n\nUSANTIBIOTICS          Rx only\n\nlabel- 125 mL\n\nPRINICPLE DISPLAY PANEL: Container Label - 200 mL\nNDC 81964-\n\n 003-54\n\n600 mg/42.9 mg per 5 mL\n\nAUGMENTIN ES-600\n\n ®\n\namoxicillin and\n\nclavulanate potassium\n\nfor oral suspension, USP\n\nWhen reconstituted, each 5 mL contains: \n\nAMOXICILLIN, 600 mg\n\n as the trihydrate, and \n\nCLAVULANIC ACID, 42.9 mg\n\n (equivalent to 51.1 mg of clavulanate potassium)\n\n200 mL (when reconstituted)\n\nUSANTIBIOTICS     Rx only\n\nlabel - 200 mL",
+  "source_rank": 3
+}

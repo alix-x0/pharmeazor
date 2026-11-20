@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="466300ca-f48d-6568-e063-6294a90ac2a0"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Cefixime 400 mg UD</title>
+   <effectiveTime value="20251220"/>
+   <setId root="f0fdb14b-e4fb-707e-e053-2a95a90a9049"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="143673015"/>
+            <name>Health Department, Oklahoma State</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="47400396-6912-b66c-e063-6294a90ab160"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20251220"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="83112-400" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Cefixime 400 mg</name>
+                        <formCode code="C25158" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Cefixime</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="67877-584" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="mg" value="400"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="97I1C92E55" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CEFIXIME</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="XZ7BG04GJX" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CEFIXIME ANHYDROUS</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="2" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="83112-400-02" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43199" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACKET"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20181012"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="2" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="83112-400-00" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43199" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACKET"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20181012"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA210574" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20181012"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">CFX;400</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48328" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="pink" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48336" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="21" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMAGE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value mediaType="image/jpeg" xsi:type="ED">
+                              <reference value="46631653-ebb5-ed24-e063-6394a90ac262.jpg"/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_f22a93e6-80bf-4c7b-e053-2a95a90a89a7">
+               <id root="f22ab5b4-117e-8328-e053-2995a90a9183"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>WARNINGS AND PRECAUTIONS</title>
+               <text>
+                  <paragraph>5.1 Hypersensitivity Reactions</paragraph>
+                  <paragraph>Anaphylactic/anaphylactoid reactions (including shock and fatalities) have been reported with the use of cefixime.</paragraph>
+                  <paragraph>Before therapy with cefixime is instituted, careful inquiry should be made to determine whether the patient has had previous hypersensitivity reactions to cephalosporins, penicillins, or other drugs. If this product is to be given to penicillin-sensitive patients, caution should be exercised because cross hypersensitivity among beta-lactam antibiotics has been clearly documented and may occur in up to 10% of patients with a history of penicillin allergy. If an allergic reaction to cefixime occurs, discontinue the drug.</paragraph>
+                  <paragraph>5.2 Clostridium difficile-Associated Diarrhea</paragraph>
+                  <paragraph>Clostridium difficile associated diarrhea (CDAD) has been reported with use of nearly all antibacterial agents, including cefixime, and may range in severity from mild diarrhea to fatal colitis. Treatment with antibacterial agents alters the normal flora of the colon leading to overgrowth of C. difficile.</paragraph>
+                  <paragraph>C. difficile produces toxins A and B which contribute to the development of CDAD. Hypertoxin producing isolates of C. difficile cause increased morbidity and mortality, as these infections can be refractory to antimicrobial therapy and may require colectomy. CDAD must be considered in all patients who present with diarrhea following antibacterial use. Careful medical history is necessary since CDAD has been reported to occur over two months after the administration of antibacterial agents.</paragraph>
+                  <paragraph>If CDAD is suspected or confirmed, ongoing antibacterial use not directed against C. difficile may need to be discontinued. Appropriate fluid and electrolyte management, protein supplementation, antibacterial treatment of C. difficile, and surgical evaluation should be instituted as clinically indicated.</paragraph>
+                  <paragraph>5.3 Dose Adjustment in Renal Impairment</paragraph>
+                  <paragraph>The dose of cefixime should be adjusted in patients with renal impairment as well as those undergoing continuous ambulatory peritoneal dialysis (CAPD) and hemodialysis (HD). Patients on dialysis should be monitored carefully [see DOSAGE AND ADMINISTRATION (2)].</paragraph>
+                  <paragraph>5.4 Coagulation Effects</paragraph>
+                  <paragraph>Cephalosporins, including cefixime, may be associated with a fall in prothrombin activity. Those at risk include patients with renal or hepatic impairment, or poor nutritional state, as well as patients receiving a protracted course of antimicrobial therapy, and patients previously stabilized on anticoagulant therapy. Prothrombin time should be monitored in patients at risk and exogenous vitamin K administered as indicated.</paragraph>
+                  <paragraph>5.5 Development of Drug-Resistant Bacteria</paragraph>
+                  <paragraph>Prescribing cefixime in the absence of a proven or strongly suspected bacterial infection is unlikely to provide benefit to the patient and increases the risk of the development of drug-resistant bacteria.</paragraph>
+               </text>
+               <effectiveTime value="20230113"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_f22ab5b4-1180-8328-e053-2995a90a9183">
+               <id root="f22ab253-973f-6405-e053-2995a90abc6c"/>
+               <code code="43683-2" codeSystem="2.16.840.1.113883.6.1" displayName="RECENT MAJOR CHANGES SECTION"/>
+               <effectiveTime value="20230113"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_f22a93e6-80c2-4c7b-e053-2a95a90a89a7">
+               <id root="4664742e-0c1f-8fc0-e063-6394a90aae66"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Cefixime 400 mg UD Packaging</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_46644b36-133e-62b5-e063-6394a90a3da2"/>
+                     <renderMultiMedia referencedObject="img_4663f299-57fe-8ef7-e063-6294a90a8255"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20230113"/>
+               <component>
+                  <observationMedia ID="img_46644b36-133e-62b5-e063-6394a90a3da2">
+                     <text>Cefixime Front</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Cefixime 400mg Packet (Front).jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_4663f299-57fe-8ef7-e063-6294a90a8255">
+                     <text>EPT Cefixime</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Cefixime 400mg Packet (EPT).jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

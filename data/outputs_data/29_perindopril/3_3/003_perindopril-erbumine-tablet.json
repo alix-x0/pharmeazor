@@ -1,0 +1,546 @@
+{
+  "source": "dailymed",
+  "source_priority": 3,
+  "drug_id": 29,
+  "language": "en",
+  "doc_type": "label",
+  "label_type": "HUMAN PRESCRIPTION DRUG LABEL",
+  "title": "PERINDOPRIL ERBUMINE TABLET [MARLEX PHARMACEUTICALS INC]",
+  "brand": "PERINDOPRIL ERBUMINE TABLET",
+  "dci": "",
+  "manufacturer": "Marlex Pharmaceuticals Inc",
+  "setid": "fcaefca9-e6ca-4c97-9eb8-7f1c619ce4d0",
+  "spl_version": "1",
+  "published_date": "Jun 05, 2015",
+  "effective_date": "20150528",
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fcaefca9-e6ca-4c97-9eb8-7f1c619ce4d0",
+  "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fcaefca9-e6ca-4c97-9eb8-7f1c619ce4d0",
+  "sections": [
+    {
+      "key": [
+        "changements_majeurs",
+        "Recent Major Changes"
+      ],
+      "label": "Recent Major Changes",
+      "number": "43683-2",
+      "title": "RECENT MAJOR CHANGES SECTION",
+      "text": "•\n\n Drug Interaction Dual Blockade of the Renin-Angiotensin System (7.8) 03/2013"
+    },
+    {
+      "key": "section_boxed_warning_section",
+      "label": "BOXED WARNING SECTION",
+      "number": "34066-1",
+      "title": "BOXED WARNING SECTION",
+      "text": "When pregnancy is detected, discontinue \nPerindopril\n\nErbumine\n Tablets as soon as possible. (\n\n5.4\n\n)\n\nDrugs that act directly on the \nrenin-angiotensin\n system can cause injury and death to the developing fetus. (\n\n5.4\n\n)\n\nWARNING: FETAL TOXICITY\n\nSee full prescribing information for complete boxed warning.\n\nWhen pregnancy is detected, discontinue \nPerindopril\n\nErbumine\n Tablets as soon as possible. (\n5.4\n)\n\nDrugs that act directly on the \nrenin-angiotensin\n system can cause injury and death to the developing fetus. (\n5.4\n)"
+    },
+    {
+      "key": [
+        "indications",
+        "Indications and Usage"
+      ],
+      "label": "Indications and Usage",
+      "number": "34067-9",
+      "title": "INDICATIONS & USAGE SECTION",
+      "text": "•\n\n Perindopril Erbumine Tablets are indicated for the treatment of patients with essential hypertension (1.1) \n•\n\n Perindopril Erbumine Tablets are indicated for treatment of patients with stable coronary artery disease to reduce the risk of cardiovascular mortality or nonfatal myocardial infarction (1.2)"
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Perindopril Erbumine Tablets are indicated for the treatment of patients with essential hypertension. Perindopril Erbumine Tablets may be used alone or given with other classes of antihypertensives, especially thiazide diuretics."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Perindopril Erbumine Tablets are indicated for treatment of patients with stable coronary artery disease to reduce the risk of cardiovascular mortality or nonfatal myocardial infarction. Perindopril Erbumine Tablets can be used with conventional treatment for management of coronary artery disease, such as antiplatelet, antihypertensive or lipid-lowering therapy."
+    },
+    {
+      "key": [
+        "posologie",
+        "Dosage and Administration"
+      ],
+      "label": "Dosage and Administration",
+      "number": "34068-7",
+      "title": "DOSAGE & ADMINISTRATION SECTION",
+      "text": "Hypertension \n• \n\n The recommended initial dose is 4 mg once a day. The dosage may be titrated upward until blood pressure, when measured just before the next dose, is controlled or to a maximum of 16 mg per day (2.1) \nStable Coronary Artery Disease \n•\n\n Perindopril Erbumine should be given at an initial dose of 4 mg once daily for 2 weeks, and then increased, as tolerated, to a maintenance dose of 8 mg once daily (2.2)"
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Use in Uncomplicated Hypertensive Patients: In patients with essential hypertension, the recommended initial dose is 4 mg once a day. The dose may be titrated, as needed to a maximum of 16 mg per day. The usual maintenance dose range is 4 mg to 8 mg administered as a single daily dose or in two divided doses. \n\nUse in Elderly Patients: The recommended initial daily dosage of Perindopril Erbumine for the elderly is \n4 mg daily, given in one or two divided doses. Experience with Perindopril Erbumine is limited in the elderly at doses exceeding 8 mg. Dosages above 8 mg should be administered with careful blood pressure monitoring and dose titration [see Use in Specific Populations (\n\n8.5\n\n)]. \n\nUse with Diuretics: In patients who are currently being treated with a diuretic, symptomatic hypotension can occur following the initial dose of Perindopril Erbumine. Consider reducing the dose of diuretic prior to starting Perindopril Erbumine [see Drug Interactions (\n\n7.1\n\n)]."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "In patients with stable coronary artery disease, Perindopril Erbumine should be given at an initial dose of \n4 mg once daily for 2 weeks, and then increased as tolerated, to a maintenance dose of 8 mg once daily. In elderly patients (greater than 70 years), Perindopril Erbumine should be given as a 2 mg dose once daily in the first week, followed by 4 mg once daily in the second week and 8 mg once daily for maintenance dose if tolerated."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Perindoprilat elimination is decreased in renally impaired patients. Perindopril Erbumine is not recommended in patients with creatinine clearance <30 mL/min. For patients with lesser degrees of impairment, the initial dosage should be 2 mg/day and dosage should not exceed 8 mg/day. \nDuring dialysis, perindopril is removed with the same clearance as in patients with normal renal function."
+    },
+    {
+      "key": [
+        "formes_et_dosages",
+        "Dosage Forms and Strengths"
+      ],
+      "label": "Dosage Forms and Strengths",
+      "number": "43678-2",
+      "title": "DOSAGE FORMS & STRENGTHS SECTION",
+      "text": "Tablets are oblong with a score on one side. \n4 mg tablet is pink and debossed on the unscored side with “ACN 4”. \n8 mg tablet is salmon and debossed on the unscored side with “ACN 8”.\n\n•\n\n Tablets: 4 and 8 mg (3)"
+    },
+    {
+      "key": [
+        "contre_indications",
+        "Contraindications"
+      ],
+      "label": "Contraindications",
+      "number": "34070-3",
+      "title": "CONTRAINDICATIONS SECTION",
+      "text": "Perindopril Erbumine Tablets are contraindicated in patients known to be hypersensitive (including angioedema) to this product or to any other ACE inhibitor. Perindopril Erbumine Tablets are also contraindicated in patients with hereditary or idiopathic angioedema. \nDo not co-administer aliskiren with Perindopril Erbumine in patients with diabetes [see Drug Interactions (\n\n7.8\n\n)].\n\n•\n\n Angioedema related to previous treatment with an ACE inhibitor, or a history of hereditary or idiopathic angioedema (4.0, 5.1) \n•\n\n Do not co-administer aliskiren with Perindopril Erbumine in patients with diabetes (4.0, 7.8)"
+    },
+    {
+      "key": [
+        "mises_en_garde",
+        "Warnings and Precautions"
+      ],
+      "label": "Warnings and Precautions",
+      "number": "43685-7",
+      "title": "WARNINGS AND PRECAUTIONS SECTION",
+      "text": "•\n\n Watch for anaphylactoid reactions, including angioedema (5.1) \n•\n\n Monitor renal function during therapy (5.8) \n•\n\n Assess for hypotension and hyperkalemia (5.2, 5.6)"
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Presumably because angiotensin-converting enzyme inhibitors affect the metabolism of eicosanoids and polypeptides, including endogenous bradykinin, patients receiving ACE inhibitors (including Perindopril Erbumine) may be subject to a variety of adverse events, some of them serious. Black patients receiving ACE inhibitors have a higher incidence of angioedema compared to nonblacks. \n\nHead and Neck \nAngioedema\n: Angioedema of the face, extremities, lips, tongue, glottis, or larynx has been reported in patients treated with ACE inhibitors, including Perindopril Erbumine (0.1% of patients treated with Perindopril Erbumine in U.S. clinical trials). Angioedema associated with involvement of the tongue, glottis or larynx may be fatal. In such cases, discontinue Perindopril Erbumine treatment immediately and observe until the swelling disappears. When involvement of the tongue, glottis, or larynx appears likely to cause airway obstruction, administer appropriate therapy, such as subcutaneous epinephrine solution 1:1000 (0.3 to 0.5 mL), promptly. \n\nIntestinal \nAngioedema\n: Intestinal angioedema has been reported in patients treated with ACE inhibitors. These patients presented with abdominal pain (with or without nausea or vomiting); in some cases there was no prior history of facial angioedema and C-1 esterase levels were normal. The angioedema was diagnosed by procedures including abdominal CT scan or ultrasound, or at surgery, and symptoms resolved after stopping the ACE inhibitor. Intestinal angioedema should be included in the differential diagnosis of patients on ACE inhibitors presenting with abdominal pain."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Perindopril Erbumine can cause symptomatic hypotension. Perindopril Erbumine has been associated with hypotension in 0.3% of uncomplicated hypertensive patients in U.S. placebo-controlled trials. Symptoms related to orthostatic hypotension were reported in another 0.8% of patients. \nSymptomatic hypotension is most likely to occur in patients who have been volume or salt-depleted as a result of prolonged diuretic therapy, dietary salt restriction, dialysis, diarrhea or vomiting [see Dosage and Administration (\n\n2.1\n\n)]. \nACE inhibitors may cause excessive hypotension, and may be associated with oliguria or azotemia, and rarely with acute renal failure and death. In patients with ischemic heart disease or cerebrovascular disease, an excessive fall in blood pressure could result in a myocardial infarction or a cerebrovascular accident. \nIn patients at risk of excessive hypotension, Perindopril Erbumine therapy should be started under very close medical supervision. Patients should be followed closely for the first two weeks of treatment and whenever the dose of Perindopril Erbumine and/or diuretic is increased. \nIf excessive hypotension occurs, the patient should be placed immediately in a supine position and, if necessary, treated with an intravenous infusion of physiological saline. Perindopril Erbumine treatment can usually be continued following restoration of volume and blood pressure."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "ACE inhibitors have been associated with agranulocytosis and bone marrow depression, most frequently in patients with renal impairment, especially patients with a collagen vascular disease such as systemic lupus erythematosus or scleroderma."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Pregnancy Category D \n\nUse of drugs that act on the renin-angiotensin system during the second and third trimesters of pregnancy reduces fetal renal function and increases fetal and neonatal morbidity and death. Resulting oligohydramnios can be associated with fetal lung hypoplasia and skeletal deformations. Potential neonatal adverse effects include skull hypoplasia, anuria, hypotension, renal failure, and death. When pregnancy is detected discontinue Perindopril Erbumine Tablets as soon as possible [see Use in Specific Populations (\n\n8.1\n\n)]."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "As a consequence of inhibiting the renin-angiotensin-aldosterone system, changes in renal function may be anticipated in susceptible individuals. Renal function should be monitored periodically in patients receiving Perindopril Erbumine [see Dosage and Administration (\n\n2.3\n\n)], [see Drug Interactions (\n\n7.8\n\n)]. \nIn patients with severe congestive heart failure, where renal function may depend on the activity of the renin-angiotensin-aldosterone system, treatment with ACE inhibitors, including Perindopril Erbumine, may be associated with oliguria, progressive azotemia, and, rarely, acute renal failure and death. \nIn hypertensive patients with unilateral or bilateral renal artery stenosis, increases in blood urea nitrogen and serum creatinine may occur; usually reversible upon discontinuation of the ACE inhibitor. In such patients, renal function should be monitored during the first few weeks of therapy. \nSome Perindopril Erbumine-treated patients have developed minor and transient increases in blood urea nitrogen and serum creatinine especially in those concomitantly treated with a diuretic."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Elevations of serum potassium have been observed in some patients treated with ACE inhibitors, including Perindopril Erbumine. Most cases were isolated single values that did not appear clinically relevant and were rarely a cause for withdrawal. Risk factors for the development of hyperkalemia include renal insufficiency, diabetes mellitus and the concomitant use of agents such as potassium-sparing diuretics, potassium supplements and/or potassium-containing salt substitutes [see Drug Interactions (\n\n7.2\n\n)]. \nSerum potassium should be monitored periodically in patients receiving Perindopril Erbumine."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Presumably because of the inhibition of the degradation of endogenous bradykinin, persistent nonproductive cough has been reported with all ACE inhibitors, generally resolving after discontinuation of therapy. Consider ACE inhibitor-induced cough in the differential diagnosis of cough."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Rarely, ACE inhibitors have been associated with a syndrome that starts with cholestatic jaundice and progresses to fulminant hepatic necrosis and sometimes death. The mechanism of this syndrome is not understood. Patients receiving ACE inhibitors who develop jaundice or marked elevations of hepatic enzymes should discontinue the ACE inhibitor and receive appropriate medical follow-up."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "In patients undergoing surgery or during anesthesia with agents that produce hypotension, Perindopril Erbumine may block angiotensin II formation that would otherwise occur secondary to compensatory renin release. Hypotension attributable to this mechanism can be corrected by volume expansion."
+    },
+    {
+      "key": [
+        "effets_indesirables",
+        "Adverse Reactions"
+      ],
+      "label": "Adverse Reactions",
+      "number": "34084-4",
+      "title": "ADVERSE REACTIONS SECTION",
+      "text": "Because clinical trials are conducted under widely varying conditions, adverse event rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in practice.\n\n•\n\n Hypertension: Most common adverse events (incidence greater than or equal to 5%) are cough, dizziness and back pain (6.1) \n\n•\n\n Stable Coronary Artery Disease: Most common adverse events leading to discontinuation were cough, drug intolerance, and hypotension (6.1) \n\nTo report SUSPECTED ADVERSE REACTIONS, contact Lannett Company, Inc. at 1-800-325-9994 or FDA at 1-800-FDA-1088 or www.FDA.gov/Medwatch."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "The following adverse reactions are discussed elsewhere in labeling: \n• Anaphylactoid reactions, including angioedema [see Warnings and Precautions (\n\n5.1\n\n)] \n• Hypotension [see Warnings and Precautions (\n\n5.2\n\n)] \n\n• Neutropenia and agranulocytosis [see Warnings and Precautions (\n\n5.3\n\n)]\n\n• Impaired renal function [see Warnings and Precautions (\n\n5.5\n\n)] \n\n• Hyperkalemia [see Warnings and Precautions (\n\n5.6\n\n)] \n\n• Cough [see Warnings and Precautions (\n\n5.7\n\n)] \n\nHypertension  \nPerindopril Erbumine has been evaluated for safety in approximately 3,400 patients with hypertension in U.S. and foreign clinical trials. The data presented here are based on results from the 1,417 Perindopril Erbumine-treated patients who participated in the U.S. clinical trials. Over 220 of these patients were treated with Perindopril Erbumine for at least one year. \nIn placebo-controlled U.S. clinical trials, the incidence of premature discontinuation of therapy due to adverse events was 6.5% in patients treated with Perindopril Erbumine and 6.7% in patients treated with placebo. The most common causes were cough, headache, asthenia and dizziness. \nAmong 1,012 patients in placebo-controlled U.S. trials, the overall frequency of reported adverse events was similar in patients treated with Perindopril Erbumine and in those treated with placebo (approximately 75% in each group). The only adverse events whose incidence on Perindopril Erbumine was at least 2% greater than on placebo were cough (12% vs. 4.5%) and back pain (5.8% vs. 3.1%). \nDizziness was not reported more frequently in the perindopril group (8.2%) than in the placebo group (8.5%), but its likelihood increased with dose, suggesting a causal relationship with perindopril. \n\nStable Coronary Artery Disease \nPerindopril has been evaluated for safety in EUROPA, a double-blind, placebo-controlled study in \n12,218 patients with stable coronary artery disease. The overall rate of discontinuation was about 22% on drug and placebo. The most common medical reasons for discontinuation that were more frequent on perindopril than placebo were cough, drug intolerance and hypotension."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Voluntary reports of adverse events in patients taking Perindopril Erbumine Tablets that have been received since market introduction and are of unknown causal relationship to Perindopril Erbumine Tablets include: cardiac arrest, eosinophilic pneumonitis, neutropenia/agranulocytosis, pancytopenia, anemia (including hemolytic and aplastic), thrombocytopenia, acute renal failure, nephritis, hepatic failure, jaundice (hepatocellular or cholestatic), symptomatic hyponatremia, bullous pemphigoid, pemphigus, acute pancreatitis, falls, psoriasis, exfoliative dermatitis and a syndrome which may include: arthralgia/arthritis, vasculitis, serositis, myalgia, fever, rash or other dermatologic manifestations, a positive antinuclear antibody (ANA), leukocytosis, eosinophilia or an elevated erythrocyte sedimentation rate (ESR)."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Hematology: Small decreases in hemoglobin and hematocrit occur frequently in hypertensive patients treated with Perindopril Erbumine, but are rarely of clinical importance. In controlled clinical trials, no patient was discontinued from therapy due to the development of anemia. Leukopenia (including neutropenia) was observed in 0.1% of patients in U.S. clinical trials [see Warnings and Precautions (\n\n5.3\n\n)]. \n\nLiver Function Tests: Elevations in ALT (1.6% Perindopril Erbumine versus 0.9% placebo) and AST (0.5% Perindopril Erbumine versus 0.4% placebo) have been observed in placebo-controlled clinical trials. The elevations were generally mild and transient and resolved after discontinuation of therapy."
+    },
+    {
+      "key": [
+        "interactions",
+        "Drug Interactions"
+      ],
+      "label": "Drug Interactions",
+      "number": "34073-7",
+      "title": "DRUG INTERACTIONS SECTION",
+      "text": "•\n\n Diuretics: Excessive drop in blood pressure (7.1) \n•\n\n Potassium-sparing diuretics/potassium supplements: Hyperkalemia (7.2) \n•\n\n Lithium: Increase serum lithium levels, symptoms of lithium toxicity (7.3) \n•\n\n Injectable gold: Nitritoid reactions (facial flushing, nausea, vomiting, and hypotension) (7.4) \n•\n\n NSAID use may lead to increased risk of renal impairment and loss of antihypertensive effect (7.7) \n•\n\n Dual inhibition of the renin-angiotensin system: Increased risk of renal impairment, hypotension, and hyperkalemia (7.8)."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Patients on diuretics, and especially those started recently, may occasionally experience an excessive reduction of blood pressure after initiation of Perindopril Erbumine therapy. The possibility of hypotensive effects can be minimized by either decreasing the dose of or discontinuing the diuretic or increasing the salt intake prior to initiation of treatment with perindopril. If diuretic therapy cannot be altered, provide close medical supervision with the first dose of Perindopril Erbumine, for at least two hours and until blood pressure has stabilized for another hour [see Warnings and Precautions (\n\n5.2\n\n)]. \nThe rate and extent of perindopril absorption and elimination are not affected by concomitant diuretics. The bioavailability of perindoprilat was reduced by diuretics, however, and this was associated with a decrease in plasma ACE inhibition."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Perindopril Erbumine may increase serum potassium because of its potential to decrease aldosterone production. Use of potassium-sparing diuretics (spironolactone, amiloride, triamterene and others), potassium supplements or other drugs capable of increasing serum potassium (indomethacin, heparin, cyclosporine and others) can increase the risk of hyperkalemia. Therefore, if concomitant use of such agents is indicated, monitor the patient’s serum potassium frequently."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Increased serum lithium and symptoms of lithium toxicity have been reported in patients receiving concomitant lithium and ACE inhibitor therapy. Frequent monitoring of serum lithium concentration is recommended. Use of a diuretic may further increase the risk of lithium toxicity."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Nitritoid reactions (symptoms include facial flushing, nausea, vomiting and hypotension) have been reported rarely in patients on therapy with injectable gold (sodium aurothiomalate) and concomitant ACE Inhibitor therapy including Perindopril Erbumine."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "A controlled pharmacokinetic study has shown no effect on plasma digoxin concentrations when coadministered with Perindopril Erbumine, but an effect of digoxin on the plasma concentration of perindopril/perindoprilat has not been excluded."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Animal data have suggested the possibility of interaction between perindopril and gentamicin. However, this has not been investigated in human studies."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "In patients who are elderly, volume-depleted (including those on diuretic therapy), or with compromised renal function, co-administration of NSAIDs, including selective COX-2 inhibitors, with ACE inhibitors, including perindopril, may result in deterioration of renal function, including possible acute renal failure. These effects are usually reversible. Monitor renal function periodically in patients receiving perindopril and NSAID therapy. \nThe antihypertensive effect of ACE inhibitors, including perindopril, may be attenuated by NSAIDs including selective COX-2 inhibitors."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Dual blockade of the RAS with angiotensin receptor blockers, ACE inhibitors, or aliskiren is associated with increased risks of hypotension, hyperkalemia, and changes in renal function (including acute renal failure) compared to monotherapy. Closely monitor blood pressure, renal function and electrolytes in patients on Perindopril Erbumine and other agents that affect the RAS. \nDo not co-administer aliskiren with Perindopril Erbumine in patients with diabetes. Avoid use of aliskiren with Perindopril Erbumine in patients with renal impairment (GFR <60 ml/min)."
+    },
+    {
+      "key": [
+        "populations_specifiques",
+        "Use in Specific Populations"
+      ],
+      "label": "Use in Specific Populations",
+      "number": "43684-0",
+      "title": "USE IN SPECIFIC POPULATIONS SECTION",
+      "text": "•\n\n Geriatrics: Start at low daily dose (4 mg or less) and titrate slowly as needed. Experience with doses exceeding 8 mg is limited (8.5) \n•\n\n Dosage adjustment may be necessary in renally impaired patients (8.7)"
+    },
+    {
+      "key": [
+        "fertilite_grossesse",
+        "Pregnancy"
+      ],
+      "label": "Pregnancy",
+      "number": "42228-7",
+      "title": "PREGNANCY SECTION",
+      "text": "Pregnancy Category D [see \nBoxed Warning\n and Warnings and Precautions (\n\n5.4\n\n)]. \nUse of drugs that act on the renin-angiotensin system during the second and third trimesters of pregnancy reduces fetal renal function and increases fetal and neonatal morbidity and death. Resulting oligohydramnios can be associated with fetal lung hypoplasia and skeletal deformations. Potential neonatal adverse effects include skull hypoplasia, anuria, hypotension, renal failure, and death. When pregnancy is detected, discontinue Perindopril Erbumine Tablets as soon as possible. These adverse outcomes are usually associated with use of these drugs in the second and third trimester of pregnancy. Most epidemiologic studies examining fetal abnormalities after exposure to antihypertensive use in the first trimester have not distinguished drugs affecting the renin-angiotensin system from other antihypertensive agents. Appropriate management of maternal hypertension during pregnancy is important to optimize outcomes for both mother and fetus. \nIn the unusual case that there is no appropriate alternative to therapy with drugs affecting the renin-angiotensin system for a particular patient, apprise the mother of the potential risk to the fetus. Perform serial ultrasound examinations to assess the intra-amniotic environment. If oligohydramnios is observed, discontinue Perindopril Erbumine Tablets, unless it is considered lifesaving for the mother. Fetal testing may be appropriate, based on the week of pregnancy. Patients and physicians should be aware, however, that oligohydramnios may not appear until after the fetus has sustained irreversible injury. Closely observe infants with histories of in \nutero exposure to Perindopril Erbumine for hypotension, oliguria, and hyperkalemia [see Use in Specific Populations (\n\n8.4\n\n)]. \nRadioactivity was detectable in fetuses after administration of 14C-perindopril to pregnant rats."
+    },
+    {
+      "key": "section_nursing_mothers_section",
+      "label": "NURSING MOTHERS SECTION",
+      "number": "34080-2",
+      "title": "NURSING MOTHERS SECTION",
+      "text": "Milk of lactating rats contained radioactivity following administration of C-perindopril. It is not known whether perindopril is secreted in human milk. Because many drugs are secreted in human milk, caution should be exercised when Perindopril Erbumine Tablets are given to nursing mothers."
+    },
+    {
+      "key": "section_pediatric_use_section",
+      "label": "PEDIATRIC USE SECTION",
+      "number": "34081-0",
+      "title": "PEDIATRIC USE SECTION",
+      "text": "Neonates with a history of in \nutero\n exposure to \nPerindopril\n\nErbumine\n: \nIf oliguria or hypotension occurs, direct attention toward support of blood pressure and renal perfusion. Exchange transfusions or dialysis may be required as a means of reversing hypotension and/or substituting for disordered renal function. \nPerindopril, which crosses the placenta, can theoretically be removed from the neonatal circulation by these means, but limited experience has not shown that such removal is central to the treatment of these infants. \nSafety and effectiveness of Perindopril Erbumine Tablets in pediatric patients have not been established."
+    },
+    {
+      "key": "section_geriatric_use_section",
+      "label": "GERIATRIC USE SECTION",
+      "number": "34082-8",
+      "title": "GERIATRIC USE SECTION",
+      "text": "The mean blood pressure effect of perindopril was somewhat smaller in patients over 60 than in younger patients, although the difference was not significant. Plasma concentrations of both perindopril and perindoprilat were increased in elderly patients compared to concentrations in younger patients. No adverse effects were clearly increased in older patients with the exception of dizziness and possibly rash. \nStart at a low dose and titrate slowly as needed. Monitor for dizziness because of potential for falls. \nExperience with Perindopril Erbumine Tablets in elderly patients at daily doses exceeding 8 mg is limited."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Dosage adjustment may be necessary in renally impaired patients [see Dosage and Administration (\n\n2.3\n\n) and Clinical Pharmacology (\n\n12.3\n\n)]."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "The bioavailability of perindoprilat is increased in patients with impaired hepatic function [see Clinical Pharmacology (\n\n12.3\n\n)]."
+    },
+    {
+      "key": [
+        "surdosage",
+        "Overdosage"
+      ],
+      "label": "Overdosage",
+      "number": "34088-5",
+      "title": "OVERDOSAGE SECTION",
+      "text": "In animals, doses of perindopril up to 2,500 mg/kg in mice, 3,000 mg/kg in rats and 1,600 mg/kg in dogs were non-lethal. Past experiences were scant but suggested that overdosage with other ACE inhibitors was also fairly well tolerated by humans. The most likely manifestation is hypotension, and treatment should be symptomatic and supportive. Therapy with the ACE inhibitor should be discontinued, and the patient should be observed. Dehydration, electrolyte imbalance and hypotension should be treated by established procedures. \nAmong the reported cases of perindopril overdosage, patients who were known to have ingested a dose of 80 mg to 120 mg required assisted ventilation and circulatory support. One additional patient developed hypothermia, circulatory arrest and died following ingestion of up to 180 mg of perindopril. The intervention for perindopril overdose may require vigorous support. \nLaboratory determinations of serum levels of perindopril and its metabolites are not widely available, and such determinations have, in any event, no established role in the management of perindopril overdose. No data are available to suggest physiological maneuvers (e.g., maneuvers to change the pH of the urine) that might accelerate elimination of perindopril and its metabolites. Perindopril can be removed by hemodialysis, with clearance of 52 mL/min for perindopril and 67 mL/min for perindoprilat. \nAngiotensin II could presumably serve as a specific antagonist-antidote in the settling of perindopril overdose, but angiotensin II is essentially unavailable outside of scattered research facilities. Because the hypotensive effect of perindopril is achieved through vasodilation and effective hypovolemia, it is reasonable to treat perindopril overdose by infusion of normal saline solution."
+    },
+    {
+      "key": [
+        "description",
+        "Description"
+      ],
+      "label": "Description",
+      "number": "34089-3",
+      "title": "DESCRIPTION SECTION",
+      "text": "Perindopril Erbumine Tablets contain the tert-butylamine salt of perindopril, the ethyl ester of a \nnon-sulfhydryl angiotensin-converting enzyme (ACE) inhibitor. Perindopril erbumine is chemically described as (2S,3αS,7αS)-1-[(S)-N-[(S)-1-Carboxy-butyl]alanyl]hexahydro-2-indolinecarboxylic acid, 1-ethyl ester, compound with tert-butylamine (1:1). Its molecular formula is C19H32N2O5C4H11N. Its structural formula is:\n\nPerindopril erbumine is a white, crystalline powder with a molecular weight of 368.47 (free acid) or 441.61 (salt form). It is freely soluble in water (60% w/w), alcohol and chloroform. \nPerindopril is the free acid form of perindopril erbumine, is a pro-drug and metabolized in vivo by hydrolysis of the ester group to form perindoprilat, the biologically active metabolite. \nPerindopril Erbumine Tablets are available in 4 mg and 8 mg strengths for oral administration. In addition to perindopril erbumine, each tablet contains the following inactive ingredients: colloidal silica (hydrophobic), lactose, magnesium stearate and microcrystalline cellulose. The 4 mg and 8 mg tablets also contain iron oxide.\n\nThe structural formula of Perindopril Erbumine."
+    },
+    {
+      "key": [
+        "mecanisme_action",
+        "Mechanism of Action"
+      ],
+      "label": "Mechanism of Action",
+      "number": "43679-0",
+      "title": "MECHANISM OF ACTION SECTION",
+      "text": "Perindopril Erbumine is a pro-drug for perindoprilat, which inhibits ACE in human subjects and animals. The mechanism through which perindoprilat lowers blood pressure is believed to be primarily inhibition of ACE activity. ACE is a peptidyl dipeptidase that catalyzes conversion of the inactive decapeptide, angiotensin I, to the vasoconstrictor, angiotensin II. \nAngiotensin II is a potent peripheral vasoconstrictor, which stimulates aldosterone secretion by the adrenal cortex, and provides negative feedback on renin secretion. Inhibition of ACE results in decreased plasma angiotensin II, leading to decreased vasoconstriction, increased plasma renin activity and decreased aldosterone secretion. The latter results in diuresis and natriuresis and may be associated with a small increase of serum potassium. \nACE is identical to kininase II, an enzyme that degrades bradykinin. Whether increased levels of bradykinin, a potent vasodepressor peptide, play a role in the therapeutic effects of Perindopril Erbumine remains to be elucidated. \nWhile the principal mechanism of perindopril in blood pressure reduction is believed to be through the renin-angiotensin-aldosterone system, ACE inhibitors have some effect even in apparent low-renin hypertension. Perindopril has been studied in relatively few black patients, usually a low-renin population, and the average response of diastolic blood pressure to perindopril was about half the response seen in nonblack patients, a finding consistent with previous experience of other ACE inhibitors."
+    },
+    {
+      "key": "section_pharmacodynamics_section",
+      "label": "PHARMACODYNAMICS SECTION",
+      "number": "43681-6",
+      "title": "PHARMACODYNAMICS SECTION",
+      "text": "After administration of perindopril, ACE is inhibited in a dose and blood concentration-related fashion, with the maximal inhibition of 80 to 90% attained by 8 mg persisting for 10 to 12 hours. Twenty-four hour ACE inhibition is about 60% after these doses. The degree of ACE inhibition achieved by a given dose appears to diminish over time (the ID increases). The pressor response to an angiotensin I infusion is reduced by perindopril, but this effect is not as persistent as the effect on ACE; there is about 35% inhibition at 24 hours after a 12 mg dose."
+    },
+    {
+      "key": [
+        "pharmacocinetique",
+        "Pharmacokinetics"
+      ],
+      "label": "Pharmacokinetics",
+      "number": "43682-4",
+      "title": "PHARMACOKINETICS SECTION",
+      "text": "Absorption: Oral administration of Perindopril Erbumine results in peak plasma concentrations that occur at approximately 1 hour. The absolute oral bioavailability of perindopril is about 75%. Following absorption, approximately 30 to 50% of systemically available perindopril is hydrolyzed to its active metabolite, perindoprilat, which has a mean bioavailability of about 25%. Peak plasma concentrations of perindoprilat are attained 3 to 7 hours after perindopril administration. Oral administration of Perindopril Erbumine with food does not significantly lower the rate or extent of perindopril absorption relative to the fasted state. However, the extent of biotransformation of perindopril to the active metabolite, perindoprilat, is reduced approximately 43%, resulting in a reduction in the plasma ACE inhibition curve of approximately 20%, probably clinically insignificant. In clinical trials, perindopril was generally administered in a non-fasting state. \nWith 4 mg, 8 mg and 16 mg doses of Perindopril Erbumine, Cmax and AUC of perindopril and perindoprilat increase in a dose-proportional manner following both single oral dosing and at steady state during a \nonce-a-day multiple dosing regimen. \n\nDistribution: Approximately 60% of circulating perindopril is bound to plasma proteins, and only 10 to 20% of perindoprilat is bound. Therefore, drug interactions mediated through effects on protein binding are not anticipated. \n\nMetabolism and Elimination: Following oral administration perindopril exhibits multicompartment pharmacokinetics including a deep tissue compartment (ACE binding sites). The mean half-life of perindopril associated with most of its elimination is approximately 0.8 to 1 hours. \nPerindopril is extensively metabolized following oral administration, with only 4 to 12% of the dose recovered unchanged in the urine. Six metabolites resulting from hydrolysis, glucuronidation and cyclization via dehydration have been identified. These include the active ACE inhibitor, perindoprilat (hydrolyzed perindopril), perindopril and perindoprilat glucuronides, dehydrated perindopril and the diastereoisomers of dehydrated perindoprilat. In humans, hepatic esterase appears to be responsible for the hydrolysis of perindopril. \nThe active metabolite, perindoprilat, also exhibits multicompartment pharmacokinetics following the oral administration of Perindopril Erbumine. Formation of perindoprilat is gradual with peak plasma concentrations occurring between 3 and 7 hours. The subsequent decline in plasma concentration shows an apparent mean half-life of 3 to 10 hours for the majority of the elimination, with a prolonged terminal elimination half-life of 30 to 120 hours resulting from slow dissociation of perindoprilat from plasma/tissue ACE binding sites. During repeated oral once daily dosing with perindopril, perindoprilat accumulates about 1.5 to 2 fold and attains steady state plasma levels in 3 to 6 days. The clearance of perindoprilat and its metabolites is almost exclusively renal. \n\nElderly: Plasma concentrations of both perindopril and perindoprilat in elderly patients (greater than \n70 years) are approximately twice those observed in younger patients, reflecting both increased conversion of perindopril to perindoprilat and decreased renal excretion of perindoprilat [see Dosage and Administration (\n\n2.1\n\n) and Use In Specific Populations (\n\n8.5\n\n)].  \n\nHeart Failure: Perindoprilat clearance is reduced in congestive heart failure patients, resulting in a 40% higher dose interval AUC. \n\nRenal Impairment: With perindopril doses of 2 mg to 4 mg, perindoprilat AUC increases with decreasing renal function. At creatinine clearances of 30 to 80 mL/min, AUC is about double that at 100 mL/min. When creatinine clearance drops below 30 mL/min, AUC increases more markedly. \nIn a limited number of patients studied, perindopril clearance by dialysis ranged from about 40 to \n80 mL/min. Perindoprilat clearance by dialysis ranged from about 40 to 90 mL/min [see Dosage and Administration (\n\n2.3\n\n)]. \n\nHepatic Impairment: The bioavailability of perindoprilat is increased in patients with impaired hepatic function. Plasma concentrations of perindoprilat in patients with impaired liver function were about 50% higher than those observed in healthy subjects or hypertensive patients with normal liver function."
+    },
+    {
+      "key": "section_carcinogenesis_mutagenesis_impairment_of",
+      "label": "CARCINOGENESIS & MUTAGENESIS & IMPAIRMENT OF FERTILITY SECTION",
+      "number": "34083-6",
+      "title": "CARCINOGENESIS & MUTAGENESIS & IMPAIRMENT OF FERTILITY SECTION",
+      "text": "Carcinogenicity: No evidence of carcinogenic effect was observed in studies in rats and mice when perindopril was administered at dosages up to 20 times (mg/kg) or 2 to 4 times (mg/m2) the maximum proposed clinical doses (16 mg/day) for 104 weeks. \n\nMutagenesis: No genotoxic potential was detected for Perindopril Erbumine, perindoprilat and other metabolites in various in vitro and in vivo investigations, including the Ames test, the Saccharomyces\n\ncerevisiae D4 test, cultured human lymphocytes, TK ± mouse lymphoma assay, mouse and rat micronucleus tests and Chinese hamster bone marrow assay. \n\nImpairment of Fertility: There was no meaningful effect on reproductive performance or fertility in the rat given up to 30 times (mg/kg) or 6 times (mg/m2) the proposed maximum clinical dosage of Perindopril Erbumine during the period of spermatogenesis in males or oogenesis and gestation in females."
+    },
+    {
+      "key": "section_clinical_studies_section",
+      "label": "CLINICAL STUDIES SECTION",
+      "number": "34092-7",
+      "title": "CLINICAL STUDIES SECTION",
+      "text": "Figure 1.\n\nFigure 2."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "In placebo-controlled studies of perindopril monotherapy (2 mg to 16 mg once daily) in patients with a mean blood pressure of about 150/100 mm Hg, 2 mg had little effect, but doses of 4 mg to 16 mg lowered blood pressure. The 8 mg and 16 mg doses were indistinguishable, and both had a greater effect than the 4 mg dose. In these studies, doses of 8 mg and 16 mg per day gave supine, through blood pressure reductions of 9 to 15/5 to 6 mm Hg. When once daily and twice daily dosing were compared, the twice daily dosing regimen was generally slightly superior, but by not more than about 0.5 mm Hg to 1 mm Hg. After 2 mg to 16 mg doses of perindopril, the trough mean systolic and diastolic blood pressure effects were about 75 to 100% of peak effects. \nPerindopril’s effects on blood pressure were similar when given alone or on a background of 25 mg hydrochlorothiazide In general, the effect of perindopril occurred promptly, with effects increasing slightly over several weeks. \nFormal interaction studies of Perindopril Erbumine have not been carried out with antihypertensive agents other than thiazides. Limited experience in controlled and uncontrolled trials coadministering Perindopril Erbumine with a calcium channel blocker, a loop diuretic or triple therapy (beta-blocker, vasodilator and a diuretic), does not suggest any unexpected interactions. In general, ACE inhibitors have less than additive effects when given with beta-adrenergic blockers, presumably because both work in part through the renin-angiotensin system. \nIn uncontrolled studies in patients with insulin-dependent diabetes, perindopril did not appear to affect glycemic control. In long-term use, no effect on urinary protein excretion was seen in these patients. \nThe effectiveness of Perindopril Erbumine was not influenced by sex and it was less effective in black patients than in nonblack patients. In elderly patients (greater than or equal to 60 years), the mean blood pressure effect was somewhat smaller than in younger patients, although the difference was not significant."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "The EURopean trial On reduction of cardiac events with Perindopril in stable coronary Artery disease (EUROPA) was a multicenter, randomized, double-blind and placebo-controlled study conducted in \n12,218 patients who had evidence of stable coronary artery disease without clinical heart failure. Patients had evidence of coronary artery disease documented by previous myocardial infarction more than 3 months before screening, coronary revascularization more than 6 months before screening, angiographic evidence of stenosis (at least 70% narrowing of one or more major coronary arteries), or positive stress test in men with a history of chest pain. After a run-in period of 4 weeks during which all patients received perindopril 2 mg to 8 mg, the patients were randomly assigned to perindopril 8 mg once daily (n=6,110) or matching placebo (n=6,108). The mean follow-up was 4.2 years. The study examined the long-term effects of perindopril on time to first event of cardiovascular mortality, nonfatal myocardial infarction, or cardiac arrest in patients with stable coronary artery disease. The mean age of patients was 60 years; 85% were male, 92% were taking platelet inhibitors, 63% were taking β blockers, and 56% were taking lipid-lowering therapy. The EUROPA study showed that perindopril significantly reduced the relative risk for the primary endpoint events (Table 1). This beneficial effect is largely attributable to a reduction in the risk of nonfatal myocardial infarction. This beneficial effect of perindopril on the primary outcome was evident after about one year of treatment (Figure 1). The outcome was similar across all predefined subgroups by age, underlying disease or concomitant medication (Figure 2). \n\nTable 1. Primary Endpoint and Relative Risk Reduction \n\n | \n\nPerindopril\n\n(N = 6,110)\n | \n\nPlacebo\n\n(N = 6,108)\n | \n\nRRR\n\n(95% CI)\n | \n\nP\n | \n\nCombined Endpoint \n\nCardiovascular mortality, nonfatal MI or cardiac arrest | \n488 (8%) | \n603\n(9.9%) | \n20% (9 to 29) | \n0.0003 | \n\nComponent Endpoint \n\nCardiovascular mortality | \n215 (3.5%) | \n249\n(4.1%) | \n14% (-3 to 28) | \n0.107 | \n\nNonfatal MI | \n295 (4.8%) | \n378\n(6.2%) | \n22% (10 to 33) | \n0.001 | \n\nCardiac arrest | \n6 (0.1%) | \n11\n(0.2%) | \n46% (-47 to 80) | \n0.22 | \n\nCI=confidence interval; RRR: relative risk reduction; MI: myocardial infarction"
+    },
+    {
+      "key": "section_how_supplied_section",
+      "label": "HOW SUPPLIED SECTION",
+      "number": "34069-5",
+      "title": "HOW SUPPLIED SECTION",
+      "text": "Tablets are oblong with a score on one side.\n\nTablets\n | \n\nAppearance\n | \n\nNDC (Bottles of 100) \n | \n\n4 mg | \nPink, debossed “ACN 4” on unscored side | \nNDC 10135-0599-01 | \n\n8 mg | \nSalmon-colored, debossed “ACN 8” on \nunscored side | \nNDC 10135-0600-01 | \n\nKeep out of the reach of children. \n\nStore at controlled room temperature 20° to 25°C (68° to 77°F) [see USP]. Protect from moisture."
+    },
+    {
+      "key": [
+        "information_patient",
+        "Information for Patients"
+      ],
+      "label": "Information for Patients",
+      "number": "34076-0",
+      "title": "INFORMATION FOR PATIENTS SECTION",
+      "text": "Female patients of childbearing age should be told about the consequences of exposure to Perindopril Erbumine during pregnancy. Discuss treatment options with women planning to become pregnant. Patients should be asked to report pregnancies to their physicians as soon as possible. \nTell patients to report promptly any indication of infection (e.g., sore throat, fever) which could be a sign of neutropenia. \n\nManufactured by: \n\nPatheon Pharmaceuticals, Inc. \nCincinnati, OH 45237 USA \n\nDistributed by: \n\nMarlex Pharmaceuticals, Inc.\nNew Castle, DE 19720\nRev. 05/15 LAN"
+    },
+    {
+      "key": "section_package_label_principal_display_panel",
+      "label": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+      "number": "51945-4",
+      "title": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+      "text": "NDC\n 10135-05\n99-01\n\nPerindopril\n\nErbumine\n Tablets\n\n4 mg\n\nRx Only\n\n100 TABLETS\n\nPRINCIPAL DISPLAY PANEL\nNDC 10135-0599-01\nPerindopril\nErbumine Tablets\n4 mg\nRx Only\n100 TABLETS"
+    },
+    {
+      "key": "section_package_label_principal_display_panel",
+      "label": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+      "number": "51945-4",
+      "title": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+      "text": "NDC\n 10135-0600\n-01\n\nPerindopril\n\nErbumine\n Tablets\n\n8\n mg\n\nRx Only\n\n100 TABLETS\n\nPRINCIPAL DISPLAY PANEL\nNDC 10135-0600-01\nPerindopril\nErbumine Tablets\n8 mg\nRx Only\n100 TABLETS"
+    }
+  ],
+  "ingredients": [
+    "PERINDOPRIL ERBUMINE (ACTIB) - 4 mg",
+    "SILICON DIOXIDE (Inactive)",
+    "LACTOSE (Inactive)",
+    "MAGNESIUM STEARATE (Inactive)",
+    "CELLULOSE, MICROCRYSTALLINE (Inactive)",
+    "FERRIC OXIDE RED (Inactive)",
+    "PERINDOPRIL ERBUMINE (ACTIB) - 8 mg",
+    "SILICON DIOXIDE (Inactive)",
+    "LACTOSE (Inactive)",
+    "MAGNESIUM STEARATE (Inactive)",
+    "CELLULOSE, MICROCRYSTALLINE (Inactive)",
+    "FERRIC OXIDE RED (Inactive)"
+  ],
+  "text": "Recent Major Changes\n•\n\n Drug Interaction Dual Blockade of the Renin-Angiotensin System (7.8) 03/2013\n\nBOXED WARNING SECTION\nWhen pregnancy is detected, discontinue \nPerindopril\n\nErbumine\n Tablets as soon as possible. (\n\n5.4\n\n)\n\nDrugs that act directly on the \nrenin-angiotensin\n system can cause injury and death to the developing fetus. (\n\n5.4\n\n)\n\nWARNING: FETAL TOXICITY\n\nSee full prescribing information for complete boxed warning.\n\nWhen pregnancy is detected, discontinue \nPerindopril\n\nErbumine\n Tablets as soon as possible. (\n5.4\n)\n\nDrugs that act directly on the \nrenin-angiotensin\n system can cause injury and death to the developing fetus. (\n5.4\n)\n\nIndications and Usage\n•\n\n Perindopril Erbumine Tablets are indicated for the treatment of patients with essential hypertension (1.1) \n•\n\n Perindopril Erbumine Tablets are indicated for treatment of patients with stable coronary artery disease to reduce the risk of cardiovascular mortality or nonfatal myocardial infarction (1.2)\n\nUnclassified\nPerindopril Erbumine Tablets are indicated for the treatment of patients with essential hypertension. Perindopril Erbumine Tablets may be used alone or given with other classes of antihypertensives, especially thiazide diuretics.\n\nUnclassified\nPerindopril Erbumine Tablets are indicated for treatment of patients with stable coronary artery disease to reduce the risk of cardiovascular mortality or nonfatal myocardial infarction. Perindopril Erbumine Tablets can be used with conventional treatment for management of coronary artery disease, such as antiplatelet, antihypertensive or lipid-lowering therapy.\n\nDosage and Administration\nHypertension \n• \n\n The recommended initial dose is 4 mg once a day. The dosage may be titrated upward until blood pressure, when measured just before the next dose, is controlled or to a maximum of 16 mg per day (2.1) \nStable Coronary Artery Disease \n•\n\n Perindopril Erbumine should be given at an initial dose of 4 mg once daily for 2 weeks, and then increased, as tolerated, to a maintenance dose of 8 mg once daily (2.2)\n\nUnclassified\nUse in Uncomplicated Hypertensive Patients: In patients with essential hypertension, the recommended initial dose is 4 mg once a day. The dose may be titrated, as needed to a maximum of 16 mg per day. The usual maintenance dose range is 4 mg to 8 mg administered as a single daily dose or in two divided doses. \n\nUse in Elderly Patients: The recommended initial daily dosage of Perindopril Erbumine for the elderly is \n4 mg daily, given in one or two divided doses. Experience with Perindopril Erbumine is limited in the elderly at doses exceeding 8 mg. Dosages above 8 mg should be administered with careful blood pressure monitoring and dose titration [see Use in Specific Populations (\n\n8.5\n\n)]. \n\nUse with Diuretics: In patients who are currently being treated with a diuretic, symptomatic hypotension can occur following the initial dose of Perindopril Erbumine. Consider reducing the dose of diuretic prior to starting Perindopril Erbumine [see Drug Interactions (\n\n7.1\n\n)].\n\nUnclassified\nIn patients with stable coronary artery disease, Perindopril Erbumine should be given at an initial dose of \n4 mg once daily for 2 weeks, and then increased as tolerated, to a maintenance dose of 8 mg once daily. In elderly patients (greater than 70 years), Perindopril Erbumine should be given as a 2 mg dose once daily in the first week, followed by 4 mg once daily in the second week and 8 mg once daily for maintenance dose if tolerated.\n\nUnclassified\nPerindoprilat elimination is decreased in renally impaired patients. Perindopril Erbumine is not recommended in patients with creatinine clearance <30 mL/min. For patients with lesser degrees of impairment, the initial dosage should be 2 mg/day and dosage should not exceed 8 mg/day. \nDuring dialysis, perindopril is removed with the same clearance as in patients with normal renal function.\n\nDosage Forms and Strengths\nTablets are oblong with a score on one side. \n4 mg tablet is pink and debossed on the unscored side with “ACN 4”. \n8 mg tablet is salmon and debossed on the unscored side with “ACN 8”.\n\n•\n\n Tablets: 4 and 8 mg (3)\n\nContraindications\nPerindopril Erbumine Tablets are contraindicated in patients known to be hypersensitive (including angioedema) to this product or to any other ACE inhibitor. Perindopril Erbumine Tablets are also contraindicated in patients with hereditary or idiopathic angioedema. \nDo not co-administer aliskiren with Perindopril Erbumine in patients with diabetes [see Drug Interactions (\n\n7.8\n\n)].\n\n•\n\n Angioedema related to previous treatment with an ACE inhibitor, or a history of hereditary or idiopathic angioedema (4.0, 5.1) \n•\n\n Do not co-administer aliskiren with Perindopril Erbumine in patients with diabetes (4.0, 7.8)\n\nWarnings and Precautions\n•\n\n Watch for anaphylactoid reactions, including angioedema (5.1) \n•\n\n Monitor renal function during therapy (5.8) \n•\n\n Assess for hypotension and hyperkalemia (5.2, 5.6)\n\nUnclassified\nPresumably because angiotensin-converting enzyme inhibitors affect the metabolism of eicosanoids and polypeptides, including endogenous bradykinin, patients receiving ACE inhibitors (including Perindopril Erbumine) may be subject to a variety of adverse events, some of them serious. Black patients receiving ACE inhibitors have a higher incidence of angioedema compared to nonblacks. \n\nHead and Neck \nAngioedema\n: Angioedema of the face, extremities, lips, tongue, glottis, or larynx has been reported in patients treated with ACE inhibitors, including Perindopril Erbumine (0.1% of patients treated with Perindopril Erbumine in U.S. clinical trials). Angioedema associated with involvement of the tongue, glottis or larynx may be fatal. In such cases, discontinue Perindopril Erbumine treatment immediately and observe until the swelling disappears. When involvement of the tongue, glottis, or larynx appears likely to cause airway obstruction, administer appropriate therapy, such as subcutaneous epinephrine solution 1:1000 (0.3 to 0.5 mL), promptly. \n\nIntestinal \nAngioedema\n: Intestinal angioedema has been reported in patients treated with ACE inhibitors. These patients presented with abdominal pain (with or without nausea or vomiting); in some cases there was no prior history of facial angioedema and C-1 esterase levels were normal. The angioedema was diagnosed by procedures including abdominal CT scan or ultrasound, or at surgery, and symptoms resolved after stopping the ACE inhibitor. Intestinal angioedema should be included in the differential diagnosis of patients on ACE inhibitors presenting with abdominal pain.\n\nUnclassified\nPerindopril Erbumine can cause symptomatic hypotension. Perindopril Erbumine has been associated with hypotension in 0.3% of uncomplicated hypertensive patients in U.S. placebo-controlled trials. Symptoms related to orthostatic hypotension were reported in another 0.8% of patients. \nSymptomatic hypotension is most likely to occur in patients who have been volume or salt-depleted as a result of prolonged diuretic therapy, dietary salt restriction, dialysis, diarrhea or vomiting [see Dosage and Administration (\n\n2.1\n\n)]. \nACE inhibitors may cause excessive hypotension, and may be associated with oliguria or azotemia, and rarely with acute renal failure and death. In patients with ischemic heart disease or cerebrovascular disease, an excessive fall in blood pressure could result in a myocardial infarction or a cerebrovascular accident. \nIn patients at risk of excessive hypotension, Perindopril Erbumine therapy should be started under very close medical supervision. Patients should be followed closely for the first two weeks of treatment and whenever the dose of Perindopril Erbumine and/or diuretic is increased. \nIf excessive hypotension occurs, the patient should be placed immediately in a supine position and, if necessary, treated with an intravenous infusion of physiological saline. Perindopril Erbumine treatment can usually be continued following restoration of volume and blood pressure.\n\nUnclassified\nACE inhibitors have been associated with agranulocytosis and bone marrow depression, most frequently in patients with renal impairment, especially patients with a collagen vascular disease such as systemic lupus erythematosus or scleroderma.\n\nUnclassified\nPregnancy Category D \n\nUse of drugs that act on the renin-angiotensin system during the second and third trimesters of pregnancy reduces fetal renal function and increases fetal and neonatal morbidity and death. Resulting oligohydramnios can be associated with fetal lung hypoplasia and skeletal deformations. Potential neonatal adverse effects include skull hypoplasia, anuria, hypotension, renal failure, and death. When pregnancy is detected discontinue Perindopril Erbumine Tablets as soon as possible [see Use in Specific Populations (\n\n8.1\n\n)].\n\nUnclassified\nAs a consequence of inhibiting the renin-angiotensin-aldosterone system, changes in renal function may be anticipated in susceptible individuals. Renal function should be monitored periodically in patients receiving Perindopril Erbumine [see Dosage and Administration (\n\n2.3\n\n)], [see Drug Interactions (\n\n7.8\n\n)]. \nIn patients with severe congestive heart failure, where renal function may depend on the activity of the renin-angiotensin-aldosterone system, treatment with ACE inhibitors, including Perindopril Erbumine, may be associated with oliguria, progressive azotemia, and, rarely, acute renal failure and death. \nIn hypertensive patients with unilateral or bilateral renal artery stenosis, increases in blood urea nitrogen and serum creatinine may occur; usually reversible upon discontinuation of the ACE inhibitor. In such patients, renal function should be monitored during the first few weeks of therapy. \nSome Perindopril Erbumine-treated patients have developed minor and transient increases in blood urea nitrogen and serum creatinine especially in those concomitantly treated with a diuretic.\n\nUnclassified\nElevations of serum potassium have been observed in some patients treated with ACE inhibitors, including Perindopril Erbumine. Most cases were isolated single values that did not appear clinically relevant and were rarely a cause for withdrawal. Risk factors for the development of hyperkalemia include renal insufficiency, diabetes mellitus and the concomitant use of agents such as potassium-sparing diuretics, potassium supplements and/or potassium-containing salt substitutes [see Drug Interactions (\n\n7.2\n\n)]. \nSerum potassium should be monitored periodically in patients receiving Perindopril Erbumine.\n\nUnclassified\nPresumably because of the inhibition of the degradation of endogenous bradykinin, persistent nonproductive cough has been reported with all ACE inhibitors, generally resolving after discontinuation of therapy. Consider ACE inhibitor-induced cough in the differential diagnosis of cough.\n\nUnclassified\nRarely, ACE inhibitors have been associated with a syndrome that starts with cholestatic jaundice and progresses to fulminant hepatic necrosis and sometimes death. The mechanism of this syndrome is not understood. Patients receiving ACE inhibitors who develop jaundice or marked elevations of hepatic enzymes should discontinue the ACE inhibitor and receive appropriate medical follow-up.\n\nUnclassified\nIn patients undergoing surgery or during anesthesia with agents that produce hypotension, Perindopril Erbumine may block angiotensin II formation that would otherwise occur secondary to compensatory renin release. Hypotension attributable to this mechanism can be corrected by volume expansion.\n\nAdverse Reactions\nBecause clinical trials are conducted under widely varying conditions, adverse event rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in practice.\n\n•\n\n Hypertension: Most common adverse events (incidence greater than or equal to 5%) are cough, dizziness and back pain (6.1) \n\n•\n\n Stable Coronary Artery Disease: Most common adverse events leading to discontinuation were cough, drug intolerance, and hypotension (6.1) \n\nTo report SUSPECTED ADVERSE REACTIONS, contact Lannett Company, Inc. at 1-800-325-9994 or FDA at 1-800-FDA-1088 or www.FDA.gov/Medwatch.\n\nUnclassified\nThe following adverse reactions are discussed elsewhere in labeling: \n• Anaphylactoid reactions, including angioedema [see Warnings and Precautions (\n\n5.1\n\n)] \n• Hypotension [see Warnings and Precautions (\n\n5.2\n\n)] \n\n• Neutropenia and agranulocytosis [see Warnings and Precautions (\n\n5.3\n\n)]\n\n• Impaired renal function [see Warnings and Precautions (\n\n5.5\n\n)] \n\n• Hyperkalemia [see Warnings and Precautions (\n\n5.6\n\n)] \n\n• Cough [see Warnings and Precautions (\n\n5.7\n\n)] \n\nHypertension  \nPerindopril Erbumine has been evaluated for safety in approximately 3,400 patients with hypertension in U.S. and foreign clinical trials. The data presented here are based on results from the 1,417 Perindopril Erbumine-treated patients who participated in the U.S. clinical trials. Over 220 of these patients were treated with Perindopril Erbumine for at least one year. \nIn placebo-controlled U.S. clinical trials, the incidence of premature discontinuation of therapy due to adverse events was 6.5% in patients treated with Perindopril Erbumine and 6.7% in patients treated with placebo. The most common causes were cough, headache, asthenia and dizziness. \nAmong 1,012 patients in placebo-controlled U.S. trials, the overall frequency of reported adverse events was similar in patients treated with Perindopril Erbumine and in those treated with placebo (approximately 75% in each group). The only adverse events whose incidence on Perindopril Erbumine was at least 2% greater than on placebo were cough (12% vs. 4.5%) and back pain (5.8% vs. 3.1%). \nDizziness was not reported more frequently in the perindopril group (8.2%) than in the placebo group (8.5%), but its likelihood increased with dose, suggesting a causal relationship with perindopril. \n\nStable Coronary Artery Disease \nPerindopril has been evaluated for safety in EUROPA, a double-blind, placebo-controlled study in \n12,218 patients with stable coronary artery disease. The overall rate of discontinuation was about 22% on drug and placebo. The most common medical reasons for discontinuation that were more frequent on perindopril than placebo were cough, drug intolerance and hypotension.\n\nUnclassified\nVoluntary reports of adverse events in patients taking Perindopril Erbumine Tablets that have been received since market introduction and are of unknown causal relationship to Perindopril Erbumine Tablets include: cardiac arrest, eosinophilic pneumonitis, neutropenia/agranulocytosis, pancytopenia, anemia (including hemolytic and aplastic), thrombocytopenia, acute renal failure, nephritis, hepatic failure, jaundice (hepatocellular or cholestatic), symptomatic hyponatremia, bullous pemphigoid, pemphigus, acute pancreatitis, falls, psoriasis, exfoliative dermatitis and a syndrome which may include: arthralgia/arthritis, vasculitis, serositis, myalgia, fever, rash or other dermatologic manifestations, a positive antinuclear antibody (ANA), leukocytosis, eosinophilia or an elevated erythrocyte sedimentation rate (ESR).\n\nUnclassified\nHematology: Small decreases in hemoglobin and hematocrit occur frequently in hypertensive patients treated with Perindopril Erbumine, but are rarely of clinical importance. In controlled clinical trials, no patient was discontinued from therapy due to the development of anemia. Leukopenia (including neutropenia) was observed in 0.1% of patients in U.S. clinical trials [see Warnings and Precautions (\n\n5.3\n\n)]. \n\nLiver Function Tests: Elevations in ALT (1.6% Perindopril Erbumine versus 0.9% placebo) and AST (0.5% Perindopril Erbumine versus 0.4% placebo) have been observed in placebo-controlled clinical trials. The elevations were generally mild and transient and resolved after discontinuation of therapy.\n\nDrug Interactions\n•\n\n Diuretics: Excessive drop in blood pressure (7.1) \n•\n\n Potassium-sparing diuretics/potassium supplements: Hyperkalemia (7.2) \n•\n\n Lithium: Increase serum lithium levels, symptoms of lithium toxicity (7.3) \n•\n\n Injectable gold: Nitritoid reactions (facial flushing, nausea, vomiting, and hypotension) (7.4) \n•\n\n NSAID use may lead to increased risk of renal impairment and loss of antihypertensive effect (7.7) \n•\n\n Dual inhibition of the renin-angiotensin system: Increased risk of renal impairment, hypotension, and hyperkalemia (7.8).\n\nUnclassified\nPatients on diuretics, and especially those started recently, may occasionally experience an excessive reduction of blood pressure after initiation of Perindopril Erbumine therapy. The possibility of hypotensive effects can be minimized by either decreasing the dose of or discontinuing the diuretic or increasing the salt intake prior to initiation of treatment with perindopril. If diuretic therapy cannot be altered, provide close medical supervision with the first dose of Perindopril Erbumine, for at least two hours and until blood pressure has stabilized for another hour [see Warnings and Precautions (\n\n5.2\n\n)]. \nThe rate and extent of perindopril absorption and elimination are not affected by concomitant diuretics. The bioavailability of perindoprilat was reduced by diuretics, however, and this was associated with a decrease in plasma ACE inhibition.\n\nUnclassified\nPerindopril Erbumine may increase serum potassium because of its potential to decrease aldosterone production. Use of potassium-sparing diuretics (spironolactone, amiloride, triamterene and others), potassium supplements or other drugs capable of increasing serum potassium (indomethacin, heparin, cyclosporine and others) can increase the risk of hyperkalemia. Therefore, if concomitant use of such agents is indicated, monitor the patient’s serum potassium frequently.\n\nUnclassified\nIncreased serum lithium and symptoms of lithium toxicity have been reported in patients receiving concomitant lithium and ACE inhibitor therapy. Frequent monitoring of serum lithium concentration is recommended. Use of a diuretic may further increase the risk of lithium toxicity.\n\nUnclassified\nNitritoid reactions (symptoms include facial flushing, nausea, vomiting and hypotension) have been reported rarely in patients on therapy with injectable gold (sodium aurothiomalate) and concomitant ACE Inhibitor therapy including Perindopril Erbumine.\n\nUnclassified\nA controlled pharmacokinetic study has shown no effect on plasma digoxin concentrations when coadministered with Perindopril Erbumine, but an effect of digoxin on the plasma concentration of perindopril/perindoprilat has not been excluded.\n\nUnclassified\nAnimal data have suggested the possibility of interaction between perindopril and gentamicin. However, this has not been investigated in human studies.\n\nUnclassified\nIn patients who are elderly, volume-depleted (including those on diuretic therapy), or with compromised renal function, co-administration of NSAIDs, including selective COX-2 inhibitors, with ACE inhibitors, including perindopril, may result in deterioration of renal function, including possible acute renal failure. These effects are usually reversible. Monitor renal function periodically in patients receiving perindopril and NSAID therapy. \nThe antihypertensive effect of ACE inhibitors, including perindopril, may be attenuated by NSAIDs including selective COX-2 inhibitors.\n\nUnclassified\nDual blockade of the RAS with angiotensin receptor blockers, ACE inhibitors, or aliskiren is associated with increased risks of hypotension, hyperkalemia, and changes in renal function (including acute renal failure) compared to monotherapy. Closely monitor blood pressure, renal function and electrolytes in patients on Perindopril Erbumine and other agents that affect the RAS. \nDo not co-administer aliskiren with Perindopril Erbumine in patients with diabetes. Avoid use of aliskiren with Perindopril Erbumine in patients with renal impairment (GFR <60 ml/min).\n\nUse in Specific Populations\n•\n\n Geriatrics: Start at low daily dose (4 mg or less) and titrate slowly as needed. Experience with doses exceeding 8 mg is limited (8.5) \n•\n\n Dosage adjustment may be necessary in renally impaired patients (8.7)\n\nPregnancy\nPregnancy Category D [see \nBoxed Warning\n and Warnings and Precautions (\n\n5.4\n\n)]. \nUse of drugs that act on the renin-angiotensin system during the second and third trimesters of pregnancy reduces fetal renal function and increases fetal and neonatal morbidity and death. Resulting oligohydramnios can be associated with fetal lung hypoplasia and skeletal deformations. Potential neonatal adverse effects include skull hypoplasia, anuria, hypotension, renal failure, and death. When pregnancy is detected, discontinue Perindopril Erbumine Tablets as soon as possible. These adverse outcomes are usually associated with use of these drugs in the second and third trimester of pregnancy. Most epidemiologic studies examining fetal abnormalities after exposure to antihypertensive use in the first trimester have not distinguished drugs affecting the renin-angiotensin system from other antihypertensive agents. Appropriate management of maternal hypertension during pregnancy is important to optimize outcomes for both mother and fetus. \nIn the unusual case that there is no appropriate alternative to therapy with drugs affecting the renin-angiotensin system for a particular patient, apprise the mother of the potential risk to the fetus. Perform serial ultrasound examinations to assess the intra-amniotic environment. If oligohydramnios is observed, discontinue Perindopril Erbumine Tablets, unless it is considered lifesaving for the mother. Fetal testing may be appropriate, based on the week of pregnancy. Patients and physicians should be aware, however, that oligohydramnios may not appear until after the fetus has sustained irreversible injury. Closely observe infants with histories of in \nutero exposure to Perindopril Erbumine for hypotension, oliguria, and hyperkalemia [see Use in Specific Populations (\n\n8.4\n\n)]. \nRadioactivity was detectable in fetuses after administration of 14C-perindopril to pregnant rats.\n\nNURSING MOTHERS SECTION\nMilk of lactating rats contained radioactivity following administration of C-perindopril. It is not known whether perindopril is secreted in human milk. Because many drugs are secreted in human milk, caution should be exercised when Perindopril Erbumine Tablets are given to nursing mothers.\n\nPEDIATRIC USE SECTION\nNeonates with a history of in \nutero\n exposure to \nPerindopril\n\nErbumine\n: \nIf oliguria or hypotension occurs, direct attention toward support of blood pressure and renal perfusion. Exchange transfusions or dialysis may be required as a means of reversing hypotension and/or substituting for disordered renal function. \nPerindopril, which crosses the placenta, can theoretically be removed from the neonatal circulation by these means, but limited experience has not shown that such removal is central to the treatment of these infants. \nSafety and effectiveness of Perindopril Erbumine Tablets in pediatric patients have not been established.\n\nGERIATRIC USE SECTION\nThe mean blood pressure effect of perindopril was somewhat smaller in patients over 60 than in younger patients, although the difference was not significant. Plasma concentrations of both perindopril and perindoprilat were increased in elderly patients compared to concentrations in younger patients. No adverse effects were clearly increased in older patients with the exception of dizziness and possibly rash. \nStart at a low dose and titrate slowly as needed. Monitor for dizziness because of potential for falls. \nExperience with Perindopril Erbumine Tablets in elderly patients at daily doses exceeding 8 mg is limited.\n\nUnclassified\nDosage adjustment may be necessary in renally impaired patients [see Dosage and Administration (\n\n2.3\n\n) and Clinical Pharmacology (\n\n12.3\n\n)].\n\nUnclassified\nThe bioavailability of perindoprilat is increased in patients with impaired hepatic function [see Clinical Pharmacology (\n\n12.3\n\n)].\n\nOverdosage\nIn animals, doses of perindopril up to 2,500 mg/kg in mice, 3,000 mg/kg in rats and 1,600 mg/kg in dogs were non-lethal. Past experiences were scant but suggested that overdosage with other ACE inhibitors was also fairly well tolerated by humans. The most likely manifestation is hypotension, and treatment should be symptomatic and supportive. Therapy with the ACE inhibitor should be discontinued, and the patient should be observed. Dehydration, electrolyte imbalance and hypotension should be treated by established procedures. \nAmong the reported cases of perindopril overdosage, patients who were known to have ingested a dose of 80 mg to 120 mg required assisted ventilation and circulatory support. One additional patient developed hypothermia, circulatory arrest and died following ingestion of up to 180 mg of perindopril. The intervention for perindopril overdose may require vigorous support. \nLaboratory determinations of serum levels of perindopril and its metabolites are not widely available, and such determinations have, in any event, no established role in the management of perindopril overdose. No data are available to suggest physiological maneuvers (e.g., maneuvers to change the pH of the urine) that might accelerate elimination of perindopril and its metabolites. Perindopril can be removed by hemodialysis, with clearance of 52 mL/min for perindopril and 67 mL/min for perindoprilat. \nAngiotensin II could presumably serve as a specific antagonist-antidote in the settling of perindopril overdose, but angiotensin II is essentially unavailable outside of scattered research facilities. Because the hypotensive effect of perindopril is achieved through vasodilation and effective hypovolemia, it is reasonable to treat perindopril overdose by infusion of normal saline solution.\n\nDescription\nPerindopril Erbumine Tablets contain the tert-butylamine salt of perindopril, the ethyl ester of a \nnon-sulfhydryl angiotensin-converting enzyme (ACE) inhibitor. Perindopril erbumine is chemically described as (2S,3αS,7αS)-1-[(S)-N-[(S)-1-Carboxy-butyl]alanyl]hexahydro-2-indolinecarboxylic acid, 1-ethyl ester, compound with tert-butylamine (1:1). Its molecular formula is C19H32N2O5C4H11N. Its structural formula is:\n\nPerindopril erbumine is a white, crystalline powder with a molecular weight of 368.47 (free acid) or 441.61 (salt form). It is freely soluble in water (60% w/w), alcohol and chloroform. \nPerindopril is the free acid form of perindopril erbumine, is a pro-drug and metabolized in vivo by hydrolysis of the ester group to form perindoprilat, the biologically active metabolite. \nPerindopril Erbumine Tablets are available in 4 mg and 8 mg strengths for oral administration. In addition to perindopril erbumine, each tablet contains the following inactive ingredients: colloidal silica (hydrophobic), lactose, magnesium stearate and microcrystalline cellulose. The 4 mg and 8 mg tablets also contain iron oxide.\n\nThe structural formula of Perindopril Erbumine.\n\nMechanism of Action\nPerindopril Erbumine is a pro-drug for perindoprilat, which inhibits ACE in human subjects and animals. The mechanism through which perindoprilat lowers blood pressure is believed to be primarily inhibition of ACE activity. ACE is a peptidyl dipeptidase that catalyzes conversion of the inactive decapeptide, angiotensin I, to the vasoconstrictor, angiotensin II. \nAngiotensin II is a potent peripheral vasoconstrictor, which stimulates aldosterone secretion by the adrenal cortex, and provides negative feedback on renin secretion. Inhibition of ACE results in decreased plasma angiotensin II, leading to decreased vasoconstriction, increased plasma renin activity and decreased aldosterone secretion. The latter results in diuresis and natriuresis and may be associated with a small increase of serum potassium. \nACE is identical to kininase II, an enzyme that degrades bradykinin. Whether increased levels of bradykinin, a potent vasodepressor peptide, play a role in the therapeutic effects of Perindopril Erbumine remains to be elucidated. \nWhile the principal mechanism of perindopril in blood pressure reduction is believed to be through the renin-angiotensin-aldosterone system, ACE inhibitors have some effect even in apparent low-renin hypertension. Perindopril has been studied in relatively few black patients, usually a low-renin population, and the average response of diastolic blood pressure to perindopril was about half the response seen in nonblack patients, a finding consistent with previous experience of other ACE inhibitors.\n\nPHARMACODYNAMICS SECTION\nAfter administration of perindopril, ACE is inhibited in a dose and blood concentration-related fashion, with the maximal inhibition of 80 to 90% attained by 8 mg persisting for 10 to 12 hours. Twenty-four hour ACE inhibition is about 60% after these doses. The degree of ACE inhibition achieved by a given dose appears to diminish over time (the ID increases). The pressor response to an angiotensin I infusion is reduced by perindopril, but this effect is not as persistent as the effect on ACE; there is about 35% inhibition at 24 hours after a 12 mg dose.\n\nPharmacokinetics\nAbsorption: Oral administration of Perindopril Erbumine results in peak plasma concentrations that occur at approximately 1 hour. The absolute oral bioavailability of perindopril is about 75%. Following absorption, approximately 30 to 50% of systemically available perindopril is hydrolyzed to its active metabolite, perindoprilat, which has a mean bioavailability of about 25%. Peak plasma concentrations of perindoprilat are attained 3 to 7 hours after perindopril administration. Oral administration of Perindopril Erbumine with food does not significantly lower the rate or extent of perindopril absorption relative to the fasted state. However, the extent of biotransformation of perindopril to the active metabolite, perindoprilat, is reduced approximately 43%, resulting in a reduction in the plasma ACE inhibition curve of approximately 20%, probably clinically insignificant. In clinical trials, perindopril was generally administered in a non-fasting state. \nWith 4 mg, 8 mg and 16 mg doses of Perindopril Erbumine, Cmax and AUC of perindopril and perindoprilat increase in a dose-proportional manner following both single oral dosing and at steady state during a \nonce-a-day multiple dosing regimen. \n\nDistribution: Approximately 60% of circulating perindopril is bound to plasma proteins, and only 10 to 20% of perindoprilat is bound. Therefore, drug interactions mediated through effects on protein binding are not anticipated. \n\nMetabolism and Elimination: Following oral administration perindopril exhibits multicompartment pharmacokinetics including a deep tissue compartment (ACE binding sites). The mean half-life of perindopril associated with most of its elimination is approximately 0.8 to 1 hours. \nPerindopril is extensively metabolized following oral administration, with only 4 to 12% of the dose recovered unchanged in the urine. Six metabolites resulting from hydrolysis, glucuronidation and cyclization via dehydration have been identified. These include the active ACE inhibitor, perindoprilat (hydrolyzed perindopril), perindopril and perindoprilat glucuronides, dehydrated perindopril and the diastereoisomers of dehydrated perindoprilat. In humans, hepatic esterase appears to be responsible for the hydrolysis of perindopril. \nThe active metabolite, perindoprilat, also exhibits multicompartment pharmacokinetics following the oral administration of Perindopril Erbumine. Formation of perindoprilat is gradual with peak plasma concentrations occurring between 3 and 7 hours. The subsequent decline in plasma concentration shows an apparent mean half-life of 3 to 10 hours for the majority of the elimination, with a prolonged terminal elimination half-life of 30 to 120 hours resulting from slow dissociation of perindoprilat from plasma/tissue ACE binding sites. During repeated oral once daily dosing with perindopril, perindoprilat accumulates about 1.5 to 2 fold and attains steady state plasma levels in 3 to 6 days. The clearance of perindoprilat and its metabolites is almost exclusively renal. \n\nElderly: Plasma concentrations of both perindopril and perindoprilat in elderly patients (greater than \n70 years) are approximately twice those observed in younger patients, reflecting both increased conversion of perindopril to perindoprilat and decreased renal excretion of perindoprilat [see Dosage and Administration (\n\n2.1\n\n) and Use In Specific Populations (\n\n8.5\n\n)].  \n\nHeart Failure: Perindoprilat clearance is reduced in congestive heart failure patients, resulting in a 40% higher dose interval AUC. \n\nRenal Impairment: With perindopril doses of 2 mg to 4 mg, perindoprilat AUC increases with decreasing renal function. At creatinine clearances of 30 to 80 mL/min, AUC is about double that at 100 mL/min. When creatinine clearance drops below 30 mL/min, AUC increases more markedly. \nIn a limited number of patients studied, perindopril clearance by dialysis ranged from about 40 to \n80 mL/min. Perindoprilat clearance by dialysis ranged from about 40 to 90 mL/min [see Dosage and Administration (\n\n2.3\n\n)]. \n\nHepatic Impairment: The bioavailability of perindoprilat is increased in patients with impaired hepatic function. Plasma concentrations of perindoprilat in patients with impaired liver function were about 50% higher than those observed in healthy subjects or hypertensive patients with normal liver function.\n\nCARCINOGENESIS & MUTAGENESIS & IMPAIRMENT OF FERTILITY SECTION\nCarcinogenicity: No evidence of carcinogenic effect was observed in studies in rats and mice when perindopril was administered at dosages up to 20 times (mg/kg) or 2 to 4 times (mg/m2) the maximum proposed clinical doses (16 mg/day) for 104 weeks. \n\nMutagenesis: No genotoxic potential was detected for Perindopril Erbumine, perindoprilat and other metabolites in various in vitro and in vivo investigations, including the Ames test, the Saccharomyces\n\ncerevisiae D4 test, cultured human lymphocytes, TK ± mouse lymphoma assay, mouse and rat micronucleus tests and Chinese hamster bone marrow assay. \n\nImpairment of Fertility: There was no meaningful effect on reproductive performance or fertility in the rat given up to 30 times (mg/kg) or 6 times (mg/m2) the proposed maximum clinical dosage of Perindopril Erbumine during the period of spermatogenesis in males or oogenesis and gestation in females.\n\nCLINICAL STUDIES SECTION\nFigure 1.\n\nFigure 2.\n\nUnclassified\nIn placebo-controlled studies of perindopril monotherapy (2 mg to 16 mg once daily) in patients with a mean blood pressure of about 150/100 mm Hg, 2 mg had little effect, but doses of 4 mg to 16 mg lowered blood pressure. The 8 mg and 16 mg doses were indistinguishable, and both had a greater effect than the 4 mg dose. In these studies, doses of 8 mg and 16 mg per day gave supine, through blood pressure reductions of 9 to 15/5 to 6 mm Hg. When once daily and twice daily dosing were compared, the twice daily dosing regimen was generally slightly superior, but by not more than about 0.5 mm Hg to 1 mm Hg. After 2 mg to 16 mg doses of perindopril, the trough mean systolic and diastolic blood pressure effects were about 75 to 100% of peak effects. \nPerindopril’s effects on blood pressure were similar when given alone or on a background of 25 mg hydrochlorothiazide In general, the effect of perindopril occurred promptly, with effects increasing slightly over several weeks. \nFormal interaction studies of Perindopril Erbumine have not been carried out with antihypertensive agents other than thiazides. Limited experience in controlled and uncontrolled trials coadministering Perindopril Erbumine with a calcium channel blocker, a loop diuretic or triple therapy (beta-blocker, vasodilator and a diuretic), does not suggest any unexpected interactions. In general, ACE inhibitors have less than additive effects when given with beta-adrenergic blockers, presumably because both work in part through the renin-angiotensin system. \nIn uncontrolled studies in patients with insulin-dependent diabetes, perindopril did not appear to affect glycemic control. In long-term use, no effect on urinary protein excretion was seen in these patients. \nThe effectiveness of Perindopril Erbumine was not influenced by sex and it was less effective in black patients than in nonblack patients. In elderly patients (greater than or equal to 60 years), the mean blood pressure effect was somewhat smaller than in younger patients, although the difference was not significant.\n\nUnclassified\nThe EURopean trial On reduction of cardiac events with Perindopril in stable coronary Artery disease (EUROPA) was a multicenter, randomized, double-blind and placebo-controlled study conducted in \n12,218 patients who had evidence of stable coronary artery disease without clinical heart failure. Patients had evidence of coronary artery disease documented by previous myocardial infarction more than 3 months before screening, coronary revascularization more than 6 months before screening, angiographic evidence of stenosis (at least 70% narrowing of one or more major coronary arteries), or positive stress test in men with a history of chest pain. After a run-in period of 4 weeks during which all patients received perindopril 2 mg to 8 mg, the patients were randomly assigned to perindopril 8 mg once daily (n=6,110) or matching placebo (n=6,108). The mean follow-up was 4.2 years. The study examined the long-term effects of perindopril on time to first event of cardiovascular mortality, nonfatal myocardial infarction, or cardiac arrest in patients with stable coronary artery disease. The mean age of patients was 60 years; 85% were male, 92% were taking platelet inhibitors, 63% were taking β blockers, and 56% were taking lipid-lowering therapy. The EUROPA study showed that perindopril significantly reduced the relative risk for the primary endpoint events (Table 1). This beneficial effect is largely attributable to a reduction in the risk of nonfatal myocardial infarction. This beneficial effect of perindopril on the primary outcome was evident after about one year of treatment (Figure 1). The outcome was similar across all predefined subgroups by age, underlying disease or concomitant medication (Figure 2). \n\nTable 1. Primary Endpoint and Relative Risk Reduction \n\n | \n\nPerindopril\n\n(N = 6,110)\n | \n\nPlacebo\n\n(N = 6,108)\n | \n\nRRR\n\n(95% CI)\n | \n\nP\n | \n\nCombined Endpoint \n\nCardiovascular mortality, nonfatal MI or cardiac arrest | \n488 (8%) | \n603\n(9.9%) | \n20% (9 to 29) | \n0.0003 | \n\nComponent Endpoint \n\nCardiovascular mortality | \n215 (3.5%) | \n249\n(4.1%) | \n14% (-3 to 28) | \n0.107 | \n\nNonfatal MI | \n295 (4.8%) | \n378\n(6.2%) | \n22% (10 to 33) | \n0.001 | \n\nCardiac arrest | \n6 (0.1%) | \n11\n(0.2%) | \n46% (-47 to 80) | \n0.22 | \n\nCI=confidence interval; RRR: relative risk reduction; MI: myocardial infarction\n\nHOW SUPPLIED SECTION\nTablets are oblong with a score on one side.\n\nTablets\n | \n\nAppearance\n | \n\nNDC (Bottles of 100) \n | \n\n4 mg | \nPink, debossed “ACN 4” on unscored side | \nNDC 10135-0599-01 | \n\n8 mg | \nSalmon-colored, debossed “ACN 8” on \nunscored side | \nNDC 10135-0600-01 | \n\nKeep out of the reach of children. \n\nStore at controlled room temperature 20° to 25°C (68° to 77°F) [see USP]. Protect from moisture.\n\nInformation for Patients\nFemale patients of childbearing age should be told about the consequences of exposure to Perindopril Erbumine during pregnancy. Discuss treatment options with women planning to become pregnant. Patients should be asked to report pregnancies to their physicians as soon as possible. \nTell patients to report promptly any indication of infection (e.g., sore throat, fever) which could be a sign of neutropenia. \n\nManufactured by: \n\nPatheon Pharmaceuticals, Inc. \nCincinnati, OH 45237 USA \n\nDistributed by: \n\nMarlex Pharmaceuticals, Inc.\nNew Castle, DE 19720\nRev. 05/15 LAN\n\nPACKAGE LABEL.PRINCIPAL DISPLAY PANEL\nNDC\n 10135-05\n99-01\n\nPerindopril\n\nErbumine\n Tablets\n\n4 mg\n\nRx Only\n\n100 TABLETS\n\nPRINCIPAL DISPLAY PANEL\nNDC 10135-0599-01\nPerindopril\nErbumine Tablets\n4 mg\nRx Only\n100 TABLETS\n\nPACKAGE LABEL.PRINCIPAL DISPLAY PANEL\nNDC\n 10135-0600\n-01\n\nPerindopril\n\nErbumine\n Tablets\n\n8\n mg\n\nRx Only\n\n100 TABLETS\n\nPRINCIPAL DISPLAY PANEL\nNDC 10135-0600-01\nPerindopril\nErbumine Tablets\n8 mg\nRx Only\n100 TABLETS",
+  "source_rank": 3
+}

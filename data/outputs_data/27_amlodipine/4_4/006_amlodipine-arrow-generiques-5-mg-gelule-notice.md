@@ -1,0 +1,44 @@
+# AMLODIPINE ARROW GENERIQUES 5 mg, gélule - Notice
+- **source** : bdpm
+- **source_priority** : 3
+- **doc_type** : notice
+- **brand** : AMLODIPINE ARROW GENERIQUES 5 mg, gélule
+- **lab** :  ARROW GENERIQUES
+- **language** : fr
+- **url** : https://base-donnees-publique.medicaments.gouv.fr/medicament/66320225/extrait
+
+## Titulaire de l'AMM
+
+ARROW GENERIQUES
+26 AVENUE TONY GARNIER
+69007 LYON
+ARROW GENERIQUES
+26 AVENUE TONY GARNIER
+69007 LYON
+ACTAVIS HF.
+REYKJAVIKURVEGUR 78
+220 HAFNARFJÖRÐUR
+ISLANDE
+OU
+PHARMAPACK INTERNATIONAL BV
+BLEISWIJKSEWEG 51
+2712 PB ZOETERMEER
+PAYS-BAS
+OU
+BALKANPHARMA –  DUPNITSA AD
+3, SAMOKOVSKO SHOSSE STR.
+2600 DUPNITSA
+BULGARIE
+OU
+LABORATOIRES BTT
+ZI DE KRAFFT
+67150 ERSTEIN
+FRANCE
+OU
+MPF B.V. (Manufacturing Packaging Farmaca)
+NEPTUNUS 12
+8448 CN HEERENVEEN
+THE NETHERLANDS
+Sans objet.
+[à compléter ultérieurement par le titulaire]
+Sans objet.

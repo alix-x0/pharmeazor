@@ -1,0 +1,261 @@
+{
+  "source": "bdpm",
+  "source_priority": 3,
+  "drug_id": 12,
+  "language": "fr",
+  "doc_type": "rcp",
+  "title": "NEFOPAM TEVA 20 mg/2 mL, solution injectable",
+  "brand": "NEFOPAM TEVA 20 mg/2 mL, solution injectable",
+  "dci": "",
+  "lab": " TEVA (PAYS-BAS)",
+  "manufacturer": " TEVA (PAYS-BAS)",
+  "cis": "66446117",
+  "form": "solution injectable",
+  "status": "Autorisation active",
+  "marketing_status": "Commercialisée",
+  "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66446117/extrait",
+  "source_url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66446117/extrait",
+  "sections": [
+    {
+      "key": "indications",
+      "label": "Indications thérapeutiques",
+      "number": "4.1",
+      "title": "Indications thérapeutiques",
+      "text": "Indications thérapeutiques\nRedirection vers le haut de page\nClasse pharmacothérapeutique : AUTRES ANALGESIQUES ET ANTIPYRETIQUES, code ATC : N02BG06\nTraitement symptomatique de la douleur aiguë, notamment de la douleur post-opératoire."
+    },
+    {
+      "key": "denomination",
+      "label": "Dénomination du médicament",
+      "number": "1",
+      "title": "DENOMINATION DU MEDICAMENT",
+      "text": "NEFOPAM TEVA 20 mg/2 mL, solut i on injectable"
+    },
+    {
+      "key": "composition",
+      "label": "Composition qualitative et quantitative",
+      "number": "2",
+      "title": "COMPOSITION QUALITATIVE ET QUANTITATIVE",
+      "text": "Chlorhydrate de néfopam ............................................................................................................. 20 mg\nPour une ampoule de 2 mL\nExcipient à effet notoire : sodium.\nCe médicament contient 5,23 mg de sodium par ampoule. Pour la liste complète des excipients, voir rubrique 6.1."
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Forme pharmaceutique",
+      "number": "3",
+      "title": "FORME PHARMACEUTIQUE",
+      "text": "Solution injectable.\nSolution limpide, incolore, exempt de toute particule visible.\npH=4.80-6.00.\nOsmolalité entre 230-290 mOsmol/kg."
+    },
+    {
+      "key": "donnees_cliniques",
+      "label": "Données cliniques",
+      "number": "4",
+      "title": "DONNEES CLINIQUES",
+      "text": ""
+    },
+    {
+      "key": "indications",
+      "label": "Indications thérapeutiques",
+      "number": "4.1",
+      "title": "Indications thérapeutiques",
+      "text": "Traitement symptomatique des affections douloureuses aiguës, notamment des douleurs post-opératoires."
+    },
+    {
+      "key": "posologie",
+      "label": "Posologie et mode d'administration",
+      "number": "4.2",
+      "title": "Posologie et mode d'administration",
+      "text": ""
+    },
+    {
+      "key": "posologie",
+      "label": "Posologie et mode d'administration",
+      "number": null,
+      "title": "Posologie",
+      "text": "Comme pour tous les médicaments antalgiques, la posologie doit être adaptée à l'intensité de la douleur et à la réponse clinique de chaque patient.\n· Voie IM : NEFOPAM TEVA doit être administré en IM profonde. La dose usuelle recommandée est de 20 mg par injection. Si nécessaire, elle peut être répétée toutes les 6 heures sans dépasser une dose totale de 120 mg/24 heures.\n· Voie IV : NEFOPAM TEVA doit être administré en perfusion IV lente sur plus de 15 minutes, le patient étant en décubitus, afin d'éviter la survenue d'effets indésirables (nausées, vertiges, sueurs). La dose unique usuelle recommandée est de 20 mg par injection, répétée toutes les 4 heures, si nécessaire, sans dépasser une dose totale de 120 mg/24 heures.\nNEFOPAM TEVA peut être administré dans les solutions usuelles pour perfusion (solution isotonique de chlorure de sodium ou glucosée). Il est recommandé d'éviter de mélanger dans la même seringue NEFOPAM TEVA et d'autres spécialités injectables."
+    },
+    {
+      "key": "contre_indications",
+      "label": "Contre-indications",
+      "number": "4.3",
+      "title": "Contre-indications",
+      "text": "· Hypersensibilité à la substance active ou à l’un des excipients mentionnés à la rubrique 6.1.\n· Enfant de moins de 15 ans, en l'absence d'étude clinique.\n· Convulsions ou antécédents de troubles convulsifs.\n· Risques de rétention urinaire liés à des troubles urétroprostatiques.\n· Risque de glaucome par fermeture de l'angle."
+    },
+    {
+      "key": "mises_en_garde",
+      "label": "Mises en garde et précautions d'emploi",
+      "number": "4.4",
+      "title": "Mises en garde spéciales et précautions d'emploi",
+      "text": ""
+    },
+    {
+      "key": "mises_en_garde",
+      "label": "Mises en garde et précautions d'emploi",
+      "number": null,
+      "title": "Mises en garde spéciales",
+      "text": "NEFOPAM TEVA n'est ni un morphinique, ni un antagoniste des morphiniques. De ce fait, arrêter un morphinique chez un patient physiquement dépendant, et traité par NEFOPAM TEVA, risque d'aboutir à un syndrome de sevrage.\nLe rapport bénéfice/risque du traitement par NEFOPAM TEVA doit être régulièrement réévalué.\nNEFOPAM TEVA n'est pas indiqué dans le traitement des affections douloureuses chroniques.\nIl conviendra d'être particulièrement prudent en cas :\n· d'insuffisance hépatique ;\n· d'insuffisance rénale, en raison du risque d'accumulation et donc du risque augmenté d'effet indésirable ;\n· chez tous les patients avec pathologie cardiovasculaire en raison de l'effet tachycardisant du produit (voir rubriques 4.5 et 4.8) ;\n· en raison de ces effets anticholinergiques, le traitement par NEFOPAM TEVA est déconseillé chez le sujet âgé.\nCe médicament contient moins de 1 mmol (23 mg) de sodium par ampoule, c’est-à-dire qu’il est essentiellement « sans sodium ».\nCe médicament contient 31,38 mg de sodium par dose maximale de 6 ampoules, ce qui équivaut à 1,57% de l’apport alimentaire quotidien maximal recommandé par l’OMS de 2 g de sodium par adulte."
+    },
+    {
+      "key": "interactions",
+      "label": "Interactions médicamenteuses",
+      "number": "4.5",
+      "title": "Interactions avec d'autres médicaments et autres formes d'interactions",
+      "text": "Il faut prendre en compte le fait que de nombreux médicaments ou substances peuvent additionner leurs effets dépresseurs du système nerveux central et contribuer à diminuer la vigilance. Il s'agit des dérivés morphiniques (analgésiques, antitussifs et traitements de substitution), des neuroleptiques, des barbituriques, des benzodiazépines, des anxiolytiques autres que les benzodiazépines (par exemple, le méprobamate), des hypnotiques, des antidépresseurs sédatifs (amitriptyline, doxépine, miansérine, mirtazapine, trimipramine), des antihistaminiques H1 sédatifs, des antihypertenseurs centraux, du baclofène et du thalidomide.\n+ Consommation d'alcool\nMajoration par l'alcool de l'effet sédatif de ces substances.\nL'altération de la vigilance peut rendre dangereuse la conduite de véhicules et l'utilisation de machines.\nEviter la prise de boissons alcoolisées et de médicaments contenant de l'alcool.\n+ Autres médicaments sédatifs\nDérivés morphiniques (analgésiques, antitussifs et traitements de substitution), neuroleptiques, barbituriques, benzodiazépines, anxiolytiques autres que les benzodiazépines (par exemple, le méprobamate), hypnotiques, antidépresseurs sédatifs (amitriptyline, doxépine, miansérine, mirtazapine, trimipramine), antihistaminiques H1 sédatifs, antihypertenseurs centraux, baclofène et thalidomide.\nMajoration de la dépression centrale. L'altération de la vigilance peut rendre dangereuses la conduite de véhicules et l'utilisation de machines."
+    },
+    {
+      "key": "fertilite_grossesse",
+      "label": "Fertilité, grossesse et allaitement",
+      "number": "4.6",
+      "title": "Fertilité, grossesse et allaitement",
+      "text": "En l'absence d'étude chez l'animal et de données cliniques humaines, le risque n'est pas connu ; par conséquent, par mesure de prudence, ne pas prescrire pendant la grossesse, ni pendant l'allaitement."
+    },
+    {
+      "key": "aptitude_conduite",
+      "label": "Aptitude à conduire",
+      "number": "4.7",
+      "title": "Effets sur l'aptitude à conduire des véhicules et à utiliser des machines",
+      "text": "En raison d'un risque éventuel de somnolence, la vigilance peut être altérée et rendre dangereuse la conduite de véhicules et l'utilisation de machines ."
+    },
+    {
+      "key": "effets_indesirables",
+      "label": "Effets indésirables",
+      "number": "4.8",
+      "title": "Effets indésirables",
+      "text": "Les effets indésirables qui ont été rapportés sont classés ci-dessous par système-organe et par fréquence comme définies ci-après : très fréquents (> 1/10), fréquents (> 1/100, < 1/10), peu fréquents (> 1/1.000, < 1/100), rares (> 1/10.000, < 1/1.000) et indéterminées (ne peut être estimée sur la base des données disponibles).\nSystème -Organe\nTrès fréquents\nFréquents\nRares\nIndéterminées\nPsychiatrie\nexcitabilité*, irritabilité*, hallucination, abus, pharmacodépendance\nétat confusionnel\nSystème Nerveux Central\nsomnolence\nvertige*\nConvulsion*\ncoma\nCœur\ntachycardie*, palpitation*\nGastro-intestinal\nnausée avec ou sans vomissement\nbouche sèche*\nRein\nrétention urinaire\nGénéral\nhyperhydrose*\nmalaise\nSystème immunitaire\nréaction d'hypersensibilité (urticaire, œdème de Quincke, choc anaphylactique)\nTroubles généraux et anomalies au site d’administration\nDouleur au site d’injection\n* Bien que n'ayant jamais été rapportés, d'autres effets atropiniques que ceux décrits sont susceptibles d'être constatés\nLa déclaration des effets indésirables suspectés après autorisation du médicament est importante. Elle permet une surveillance continue du rapport bénéfice/risque du médicament. Les professionnels de santé déclarent tout effet indésirable suspecté via le système national de déclaration : Agence nationale de sécurité du médicament et des produits de santé (ANSM) et réseau des Centres Régionaux de Pharmacovigilance - Site internet : https://signalement.social-sante.gouv.fr/ ."
+    },
+    {
+      "key": "surdosage",
+      "label": "Surdosage",
+      "number": "4.9",
+      "title": "Surdosage",
+      "text": "Ce sont des manifestations de type anticholinergique : tachycardie, coma, convulsions et hallucinations ( voir rubrique 4.4 ).\nTraitement\nTraitement symptomatique avec surveillance cardiaque et respiratoire, en milieu hospitalier ."
+    },
+    {
+      "key": "proprietes_pharmacologiques",
+      "label": "Propriétés pharmacologiques",
+      "number": "5",
+      "title": "PROPRIETES PHARMACOLOGIQUES",
+      "text": ""
+    },
+    {
+      "key": "pharmacodynamique",
+      "label": "Propriétés pharmacodynamiques",
+      "number": "5.1",
+      "title": "Propriétés pharmacodynamiques",
+      "text": "Classe pharmacothérapeutique : AUTRES ANALGESIQUES ET ANTIPYRETIQUES, N : Système Nerveux Central, code ATC : N02BG06\n· Analgésique central non morphinique, le néfopam possède une structure chimique non apparentée à celle des antalgiques actuellement connus.\n· In vitro, sur des synaptosomes de rat, une inhibition de la recapture des catécholamines et de la sérotonine est évoquée.\n· In vivo, chez l'animal, le néfopam a montré des propriétés anti-nociceptives. Il a également été démontré une activité antihyperalgésique par un mécanisme qui n'est pas complètement élucidé.\n· Le néfopam a montré un effet sur le frisson post-opératoire au cours d'études cliniques.\n· Le néfopam n'a aucune action anti-inflammatoire ou antipyrétique. Il n'entraîne pas de dépression respiratoire et ne ralentit pas le transit intestinal.\n· Le néfopam possède une activité anticholinergique.\n· Sur le plan hémodynamique, il a été observé une augmentation modérée et transitoire de la fréquence cardiaque et de la pression artérielle"
+    },
+    {
+      "key": "pharmacocinetique",
+      "label": "Propriétés pharmacocinétiques",
+      "number": "5.2",
+      "title": "Propriétés pharmacocinétiques",
+      "text": "Après administration d'une dose de 20 mg par voie IM, le pic plasmatique (Tmax) est situé entre 0,5 et 1 heure et les concentrations maximales (Cmax) sont en moyenne de 25 ng/mL. La demi-vie plasmatique moyenne est de 5 heures.\nLors d'une administration par voie IV d'une même dose, la demi-vie plasmatique moyenne est de 4 heures.\nLa liaison aux protéines plasmatiques est de 71-76 %.\nLa biotransformation est importante et 3 métabolites majeurs ont été identifiés : le déméthyl-néfopam, le N-oxyde-néfopam et le N-glucuronide-néfopam. Les deux premiers métabolites, non conjugués, n'ont pas montré d'activité analgésique chez l'animal.\nL'élimination est essentiellement urinaire : 87 % de la dose administrée sont retrouvés dans les urines.\nMoins de 5 % de la dose sont excrétés sous forme inchangée ; les métabolites identifiés dans les urines représentent respectivement 6 %, 3 %, et 36 % de la dose administrée par voie IV."
+    },
+    {
+      "key": "securite_preclinique",
+      "label": "Données de sécurité préclinique",
+      "number": "5.3",
+      "title": "Données de sécurité préclinique",
+      "text": "Sans objet."
+    },
+    {
+      "key": "donnees_pharmaceutiques",
+      "label": "Données pharmaceutiques",
+      "number": "6",
+      "title": "DONNEES PHARMACEUTIQUES",
+      "text": ""
+    },
+    {
+      "key": "excipients",
+      "label": "Liste des excipients",
+      "number": "6.1",
+      "title": "Liste des excipients",
+      "text": "Phosphate monosodique dihydraté, phosphate disodique dodécahydraté, eau pour préparations injectables."
+    },
+    {
+      "key": "incompatibilites",
+      "label": "Incompatibilités",
+      "number": "6.2",
+      "title": "Incompatibilités",
+      "text": "Ce médicament ne doit pas être mélangé avec d'autres médicaments à l'exception de ceux mentionnés dans la rubrique 4.2."
+    },
+    {
+      "key": "duree_conservation",
+      "label": "Durée de conservation",
+      "number": "6.3",
+      "title": "Durée de conservation",
+      "text": "3 ans.\nAprès ouverture/reconstitution/dilution : le produit doit être utilisé immédiatement."
+    },
+    {
+      "key": "precautions_conservation",
+      "label": "Précautions de conservation",
+      "number": "6.4",
+      "title": "Précautions particulières de conservation",
+      "text": "Ce médicament ne nécessite pas de précautions particulières de conservation ."
+    },
+    {
+      "key": "conditionnement",
+      "label": "Nature et contenu de l'emballage",
+      "number": "6.5",
+      "title": "Nature et contenu de l'emballage extérieur",
+      "text": "Ampoule en verre transparent de 2 mL avec une seule bande bleue et une marque OPC bleue.\nBoite de 5 et 20 ampoules de 2 mL emballées dans un conditionnement en PVC ou Polystyrène Blanc.\nToutes les présentations peuvent ne pas être commercialisées."
+    },
+    {
+      "key": "elimination",
+      "label": "Précautions d'élimination",
+      "number": "6.6",
+      "title": "Précautions particulières d’élimination et de manipulation",
+      "text": "Pas d’exigences particulières pour l’élimination ."
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "TITULAIRE DE L’AUTORISATION DE MISE SUR LE MARCHE",
+      "text": "TEVA B.V.\nSWENSWEG 5\n2031 GA HAARLEM\nPAYS-BAS"
+    },
+    {
+      "key": "numero_autorisation",
+      "label": "Numéro d'AMM",
+      "number": "8",
+      "title": "NUMERO(S) D’AUTORISATION DE MISE SUR LE MARCHE",
+      "text": "· 34009 302 824 2 7 : Ampoule de 2mL. Boîte de 5.\n· 34009 302 824 3 4 : Ampoule de 2mL. Boîte de 20."
+    },
+    {
+      "key": "date_premiere_autorisation",
+      "label": "Date de première autorisation",
+      "number": "9",
+      "title": "DATE DE PREMIERE AUTORISATION/DE RENOUVELLEMENT DE L’AUTORISATION",
+      "text": "[à compléter ultérieurement par le titulaire]"
+    },
+    {
+      "key": "date_mise_a_jour",
+      "label": "Date de mise à jour du texte",
+      "number": "10",
+      "title": "DATE DE MISE A JOUR DU TEXTE",
+      "text": "[à compléter ultérieurement par le titulaire]"
+    },
+    {
+      "key": "dosimetrie",
+      "label": "Dosimétrie",
+      "number": "11",
+      "title": "DOSIMETRIE",
+      "text": "Sans objet."
+    },
+    {
+      "key": "radiopharma",
+      "label": "Instructions radiopharmaceutiques",
+      "number": "12",
+      "title": "INSTRUCTIONS POUR LA PREPARATION DES RADIOPHARMACEUTIQUES",
+      "text": "Sans objet.\nCONDITIONS DE PRESCRIPTION ET DE DELIVRANCE\nListe I."
+    }
+  ],
+  "rcp_text": "Résumé des Caractéristiques du Produit\nANSM - Mis à jour le : 11/05/2026\n1. DENOMINATION DU MEDICAMENT\nRedirection vers le haut de page\nNEFOPAM TEVA 20\nmg/2\nmL, solut\ni\non injectable\n2. COMPOSITION QUALITATIVE ET QUANTITATIVE\nRedirection vers le haut de page\nChlorhydrate de néfopam ............................................................................................................. 20 mg\nPour une ampoule de 2 mL\nExcipient à effet notoire\n: sodium.\nCe médicament contient 5,23 mg de sodium par ampoule. Pour la liste complète des excipients, voir rubrique 6.1.\n3. FORME PHARMACEUTIQUE\nRedirection vers le haut de page\nSolution injectable.\nSolution limpide, incolore, exempt de toute particule visible.\npH=4.80-6.00.\nOsmolalité entre 230-290 mOsmol/kg.\n4. DONNEES CLINIQUES\nRedirection vers le haut de page\n4.1. Indications thérapeutiques\nTraitement symptomatique des affections douloureuses aiguës, notamment des douleurs post-opératoires.\n4.2. Posologie et mode d'administration\nPosologie\nComme pour tous les médicaments antalgiques, la posologie doit être adaptée à l'intensité de la douleur et à la réponse clinique de chaque patient.\n·\nVoie IM : NEFOPAM TEVA doit être administré en IM profonde. La dose usuelle recommandée est de 20 mg par injection. Si nécessaire, elle peut être répétée toutes les 6 heures sans dépasser une dose totale de 120 mg/24 heures.\n·\nVoie IV : NEFOPAM TEVA doit être administré en perfusion IV lente sur plus de 15 minutes, le patient étant en décubitus, afin d'éviter la survenue d'effets indésirables (nausées, vertiges, sueurs). La dose unique usuelle recommandée est de 20 mg par injection, répétée toutes les 4 heures, si nécessaire, sans dépasser une dose totale de 120 mg/24 heures.\nMode d’administration\nNEFOPAM TEVA peut être administré dans les solutions usuelles pour perfusion (solution isotonique de chlorure de sodium ou glucosée). Il est recommandé d'éviter de mélanger dans la même seringue NEFOPAM TEVA et d'autres spécialités injectables.\n4.3. Contre-indications\n·\nHypersensibilité à la substance active ou à l’un des excipients mentionnés à la rubrique 6.1.\n·\nEnfant de moins de 15 ans, en l'absence d'étude clinique.\n·\nConvulsions ou antécédents de troubles convulsifs.\n·\nRisques de rétention urinaire liés à des troubles urétroprostatiques.\n·\nRisque de glaucome par fermeture de l'angle.\n4.4. Mises en garde spéciales et précautions d'emploi\nPharmacodépendance\nL’utilisation du néfopam peut entraîner une pharmacodépendance, pouvant conduire à un abus, en particulier chez les patients ayant des antécédents de consommation de substances psychoactives et/ou de troubles de la santé mentale. Chez ces patients, le néfopam doit être prescrit avec prudence et les signes de dépendance doivent être surveillés.\nMises en garde spéciales\nNEFOPAM TEVA n'est ni un morphinique, ni un antagoniste des morphiniques. De ce fait, arrêter un morphinique chez un patient physiquement dépendant, et traité par NEFOPAM TEVA, risque d'aboutir à un syndrome de sevrage.\nLe rapport bénéfice/risque du traitement par NEFOPAM TEVA doit être régulièrement réévalué.\nNEFOPAM TEVA n'est pas indiqué dans le traitement des affections douloureuses chroniques.\nPrécautions d'emploi\nIl conviendra d'être particulièrement prudent en cas :\n·\nd'insuffisance hépatique ;\n·\nd'insuffisance rénale, en raison du risque d'accumulation et donc du risque augmenté d'effet indésirable ;\n·\nchez tous les patients avec pathologie cardiovasculaire en raison de l'effet tachycardisant du produit (voir rubriques 4.5 et 4.8) ;\n·\nen raison de ces effets anticholinergiques, le traitement par NEFOPAM TEVA est déconseillé chez le sujet âgé.\nCe médicament contient moins de 1 mmol (23 mg) de sodium par ampoule, c’est-à-dire qu’il est essentiellement « sans sodium ».\nCe médicament contient 31,38 mg de sodium par dose maximale de 6 ampoules, ce qui équivaut à 1,57% de l’apport alimentaire quotidien maximal recommandé par l’OMS de 2 g de sodium par adulte.\n4.5. Interactions avec d'autres médicaments et autres formes d'interactions\nIl faut prendre en compte le fait que de nombreux médicaments ou substances peuvent additionner leurs effets dépresseurs du système nerveux central et contribuer à diminuer la vigilance. Il s'agit des dérivés morphiniques (analgésiques, antitussifs et traitements de substitution), des neuroleptiques, des barbituriques, des benzodiazépines, des anxiolytiques autres que les benzodiazépines (par exemple, le méprobamate), des hypnotiques, des antidépresseurs sédatifs (amitriptyline, doxépine, miansérine, mirtazapine, trimipramine), des antihistaminiques H1 sédatifs, des antihypertenseurs centraux, du baclofène et du thalidomide.\nAssociations déconseillées\n+\nConsommation d'alcool\nMajoration par l'alcool de l'effet sédatif de ces substances.\nL'altération de la vigilance peut rendre dangereuse la conduite de véhicules et l'utilisation de machines.\nEviter la prise de boissons alcoolisées et de médicaments contenant de l'alcool.\nAssociations à prendre en compte\n+\nAutres médicaments sédatifs\nDérivés morphiniques (analgésiques, antitussifs et traitements de substitution), neuroleptiques, barbituriques, benzodiazépines, anxiolytiques autres que les benzodiazépines (par exemple, le méprobamate), hypnotiques, antidépresseurs sédatifs (amitriptyline, doxépine, miansérine, mirtazapine, trimipramine), antihistaminiques H1 sédatifs, antihypertenseurs centraux, baclofène et thalidomide.\nMajoration de la dépression centrale. L'altération de la vigilance peut rendre dangereuses la conduite de véhicules et l'utilisation de machines.\n4.6. Fertilité, grossesse et allaitement\nEn l'absence d'étude chez l'animal et de données cliniques humaines, le risque n'est pas connu ; par conséquent, par mesure de prudence, ne pas prescrire pendant la grossesse, ni pendant l'allaitement.\n4.7. Effets sur l'aptitude à conduire des véhicules et à utiliser des machines\nEn raison d'un risque éventuel de somnolence, la vigilance peut être altérée et rendre dangereuse la conduite de véhicules et l'utilisation de machines\n.\n4.8. Effets indésirables\nLes effets indésirables qui ont été rapportés sont classés ci-dessous par système-organe et par fréquence comme définies ci-après : très fréquents (> 1/10), fréquents (> 1/100, < 1/10), peu fréquents (> 1/1.000, < 1/100), rares (> 1/10.000, < 1/1.000) et indéterminées (ne peut être estimée sur la base des données disponibles).\nSystème -Organe\nTrès fréquents\nFréquents\nRares\nIndéterminées\nPsychiatrie\nexcitabilité*, irritabilité*, hallucination, abus, pharmacodépendance\nétat confusionnel\nSystème Nerveux Central\nsomnolence\nvertige*\nConvulsion*\ncoma\nCœur\ntachycardie*, palpitation*\nGastro-intestinal\nnausée avec ou sans vomissement\nbouche sèche*\nRein\nrétention urinaire\nGénéral\nhyperhydrose*\nmalaise\nSystème immunitaire\nréaction d'hypersensibilité (urticaire, œdème de Quincke, choc anaphylactique)\nTroubles généraux et anomalies au site d’administration\nDouleur au site d’injection\n*\nBien que n'ayant jamais été rapportés, d'autres effets atropiniques que ceux décrits sont susceptibles d'être constatés\nPharmacodépendance\nL’utilisation de NEFOPAM TEVA peut entraîner une pharmacodépendance. Le risque de dépendance peut varier en fonction des facteurs de risque individuels du patient (voir section 4.4).\nDéclaration des effets indésirables suspectés.\nLa déclaration des effets indésirables suspectés après autorisation du médicament est importante. Elle permet une surveillance continue du rapport bénéfice/risque du médicament. Les professionnels de santé déclarent tout effet indésirable suspecté via le système national de déclaration : Agence nationale de sécurité du médicament et des produits de santé (ANSM) et réseau des Centres Régionaux de Pharmacovigilance - Site internet :\nhttps://signalement.social-sante.gouv.fr/\n.\n4.9. Surdosage\nCe sont des manifestations de type anticholinergique : tachycardie, coma, convulsions et hallucinations (\nvoir rubrique 4.4\n).\nTraitement\nTraitement symptomatique avec surveillance cardiaque et respiratoire, en milieu hospitalier\n.\n5. PROPRIETES PHARMACOLOGIQUES\nRedirection vers le haut de page\n5.1. Propriétés pharmacodynamiques\nClasse pharmacothérapeutique : AUTRES ANALGESIQUES ET ANTIPYRETIQUES, N : Système Nerveux Central, code ATC : N02BG06\n·\nAnalgésique central non morphinique, le néfopam possède une structure chimique non apparentée à celle des antalgiques actuellement connus.\n·\nIn vitro, sur des synaptosomes de rat, une inhibition de la recapture des catécholamines et de la sérotonine est évoquée.\n·\nIn vivo, chez l'animal, le néfopam a montré des propriétés anti-nociceptives. Il a également été démontré une activité antihyperalgésique par un mécanisme qui n'est pas complètement élucidé.\n·\nLe néfopam a montré un effet sur le frisson post-opératoire au cours d'études cliniques.\n·\nLe néfopam n'a aucune action anti-inflammatoire ou antipyrétique. Il n'entraîne pas de dépression respiratoire et ne ralentit pas le transit intestinal.\n·\nLe néfopam possède une activité anticholinergique.\n·\nSur le plan hémodynamique, il a été observé une augmentation modérée et transitoire de la fréquence cardiaque et de la pression artérielle\n5.2. Propriétés pharmacocinétiques\nAbsorption\nAprès administration d'une dose de 20 mg par voie IM, le pic plasmatique (Tmax) est situé entre 0,5 et 1 heure et les concentrations maximales (Cmax) sont en moyenne de 25 ng/mL. La demi-vie plasmatique moyenne est de 5 heures.\nLors d'une administration par voie IV d'une même dose, la demi-vie plasmatique moyenne est de 4 heures.\nDistribution\nLa liaison aux protéines plasmatiques est de 71-76 %.\nBiotransformation\nLa biotransformation est importante et 3 métabolites majeurs ont été identifiés : le déméthyl-néfopam, le N-oxyde-néfopam et le N-glucuronide-néfopam. Les deux premiers métabolites, non conjugués, n'ont pas montré d'activité analgésique chez l'animal.\nÉlimination\nL'élimination est essentiellement urinaire : 87 % de la dose administrée sont retrouvés dans les urines.\nMoins de 5 % de la dose sont excrétés sous forme inchangée ; les métabolites identifiés dans les urines représentent respectivement 6 %, 3 %, et 36 % de la dose administrée par voie IV.\n5.3. Données de sécurité préclinique\nSans objet.\n6. DONNEES PHARMACEUTIQUES\nRedirection vers le haut de page\n6.1. Liste des excipients\nPhosphate monosodique dihydraté, phosphate disodique dodécahydraté, eau pour préparations injectables.\n6.2. Incompatibilités\nCe médicament ne doit pas être mélangé avec d'autres médicaments à l'exception de ceux mentionnés dans la rubrique 4.2.\n6.3. Durée de conservation\n3 ans.\nAprès ouverture/reconstitution/dilution\n: le produit doit être utilisé immédiatement.\n6.4. Précautions particulières de conservation\nCe médicament ne nécessite pas de précautions particulières de conservation\n.\n6.5. Nature et contenu de l'emballage extérieur\nAmpoule en verre transparent de 2 mL avec une seule bande bleue et une marque OPC bleue.\nBoite de 5 et 20 ampoules de 2 mL emballées dans un conditionnement en PVC ou Polystyrène Blanc.\nToutes les présentations peuvent ne pas être commercialisées.\n6.6. Précautions particulières d’élimination et de manipulation\nPas d’exigences particulières pour l’élimination\n.\n7. TITULAIRE DE L’AUTORISATION DE MISE SUR LE MARCHE\nRedirection vers le haut de page\nTEVA B.V.\nSWENSWEG 5\n2031 GA HAARLEM\nPAYS-BAS\n8. NUMERO(S) D’AUTORISATION DE MISE SUR LE MARCHE\nRedirection vers le haut de page\n·\n34009 302 824 2 7 : Ampoule de 2mL. Boîte de 5.\n·\n34009 302 824 3 4 : Ampoule de 2mL. Boîte de 20.\n9. DATE DE PREMIERE AUTORISATION/DE RENOUVELLEMENT DE L’AUTORISATION\nRedirection vers le haut de page\n[à compléter ultérieurement par le titulaire]\n10. DATE DE MISE A JOUR DU TEXTE\nRedirection vers le haut de page\n[à compléter ultérieurement par le titulaire]\n11. DOSIMETRIE\nRedirection vers le haut de page\nSans objet.\n12. INSTRUCTIONS POUR LA PREPARATION DES RADIOPHARMACEUTIQUES\nRedirection vers le haut de page\nSans objet.\nCONDITIONS DE PRESCRIPTION ET DE DELIVRANCE\nListe I.",
+  "notice_text": "Notice patient\nANSM - Mis à jour le : 11/05/2026\nDénomination du médicament\nRedirection vers le haut de page\nNEFOPAM TEVA 20\nmg/2 mL, solution injectable\nChlorhydrate de néfopam\nEncadré\nRedirection vers le haut de page\nVeuillez lire attentivement cette notice avant d’utiliser ce médicament car elle contient des informations importantes pour vous.\n·\nGardez cette notice. Vous pourriez avoir besoin de la relire.\n·\nSi vous avez d’autres questions, interrogez votre médecin ou votre pharmacien.\n·\nCe médicament vous a été personnellement prescrit. Ne le donnez pas à d’autres personnes. Il pourrait leur être nocif, même si les signes de leur maladie sont identiques aux vôtres.\n·\nSi vous ressentez un quelconque effet indésirable, parlez-en à votre médecin ou votre pharmacien. Ceci s’applique aussi à tout effet indésirable qui ne serait pas mentionné dans cette notice. Voir rubrique 4\n.\nQue contient cette notice ?\nRedirection vers le haut de page\n1. Qu'est-ce que NEFOPAM TEVA 20 mg/2 mL, solution injectable et dans quels cas est-il utilisé ?\n2. Quelles sont les informations à connaître avant d’utiliser NEFOPAM TEVA 20 mg/2 mL, solution injectable ?\n3. Comment utiliser NEFOPAM TEVA 20 mg/2 mL, solution injectable ?\n4. Quels sont les effets indésirables éventuels ?\n5. Comment conserver NEFOPAM TEVA 20 mg/2 mL, solution injectable ?\n6. Contenu de l’emballage et autres informations\n.\n1. QU’EST-CE QUE NEFOPAM TEVA 20 mg/2 mL, solution injectable ET DANS QUELS CAS EST-IL UTILISE ?\nRedirection vers le haut de page\nClasse pharmacothérapeutique : AUTRES ANALGESIQUES ET ANTIPYRETIQUES, code ATC : N02BG06\nTraitement symptomatique de la douleur aiguë, notamment de la douleur post-opératoire.\n2. QUELLES SONT LES INFORMATIONS A CONNAITRE AVANT D’UTILISER NEFOPAM TEVA 20 mg/2 mL, solution injectable ?\nRedirection vers le haut de page\nN’utilisez jamais\nNEFOPAM TEVA 20 mg/2 mL, solution injectable :\n·\nsi vous êtes allergique à la substance active ou à l’un des autres composants contenus dans ce médicament, mentionnés dans la rubrique 6.\n·\nDans les cas suivants :\no\nglaucome à angle fermé (augmentation de la pression à l'intérieur de l'œil),\no\ndifficultés pour uriner d'origine prostatique,\no\nconvulsions ou antécédents de convulsion,\no\nenfants de moins de 15 ans.\nAvertissements et précautions\nAdressez-vous à votre médecin ou pharmacien avant de prendre\nNEFOPAM TEVA 20 mg/2 mL, solution injectable.\nL’utilisation de NEFOPAM TEVA peut entraîner une dépendance et un abus. Si vous craignez de devenir dépendant(e) de NEFOPAM TEVA, il est important d’en parler à votre médecin.\nEn cas d’utilisation conjointe d’un médicament dérivé de la morphine, l’arrêt brutal de ce médicament dérivé de la morphine peut provoquer un syndrome de sevrage,\nNEFOPAM TEVA\nn’étant pas un médicament dérivé de la morphine.\nUtiliser ce médicament avec précaution :\n·\nEn cas d’insuffisance hépatique.\n·\nEn cas d’insuffisance rénale.\n·\nChez les patients présentant une pathologie cardiovasculaire en raison de l’effet tachycardisant de ce médicament (augmentation de la fréquence cardiaque).\nEn raison de ses effets anticholinergiques, le traitement par\nNEFOPAM TEVA\nest déconseillé chez le sujet âgé.\nAutres médicaments et NEFOPAM TEVA 20 mg/2 mL, solution injectable\nInformez votre médecin ou pharmacien si vous prenez, avez récemment pris ou pourriez prendre tout autre médicament.\nNEFOPAM TEVA peut interagir avec d’autres médicaments.\nNEFOPAM TEVA 20 mg/2 mL, solution injectable avec des aliments, boissons et de l’alcool\nSans objet.\nGrossesse et allaitement\nL’effet de ce médicament pendant la grossesse ou l’allaitement étant mal connu, la prise de ce médicament est déconseillée en cas de grossesse et d’allaitement.\nDemandez conseil à votre médecin ou à votre pharmacien avant de prendre tout médicament.\nConduite de véhicules et utilisation de machines\nEn raison d’un risque éventuel de somnolence, les conducteurs et utilisateurs de machine devront être vigilants.\nNEFOPAM TEVA 20 mg/2 mL, solution injectable contient du sodium.\nCe médicament contient moins de 1 mmol (23 mg) de sodium par ampoule, c’est-à-dire qu’il est essentiellement « sans sodium ».\nCe médicament contient 31,38 mg de sodium par dose maximale de 6 ampoules, ce qui équivaut à\n1,57% de l’apport alimentaire quotidien maximal recommandé par l’OMS de 2 g de sodium par adulte.\n3. COMMENT UTILISER NEFOPAM TEVA 20 mg/2 mL, solution injectable ?\nRedirection vers le haut de page\nPosologie\nLa posologie est strictement individuelle.\nElle est généralement de 1 ampoule (voie IV ou voie IM) par prise, à renouveler jusqu'à 6 ampoules par jour si nécessaire.\nMode et voie d'administration\nNEFOPAM TEVA\npeut être administré par voie intramusculaire (IM) profonde ou en perfusion intraveineuse (IV) lente (de plus de 15 minutes).\nPar voie intraveineuse, il est nécessaire d'être allongé pour éviter la survenue d'effets indésirables tels que nausées, vertiges et sueurs.\nComment ouvrir les ampoules\nL’ampoule est prélimée en un point de l’étranglement. La tache colorée sur l’olive permet l’orientation de celle-ci. Saisir l’ampoule, le point coloré dirigé vers soi. L’ampoule s’ouvre facilement en plaçant le pouce sur le point coloré et en exerçant une légère flexion du haut vers le bas comme indiqué sur le dessin.\nUtilisez un mouchoir ou une compresse pour protéger vos doigts.\n·\nVérifiez qu’aucun fragment de verre n’est présent dans la solution. Si tel est le cas,\nne l’utilisez pas et prenez-en une autre.\n·\nLes bords peuvent être tranchants : manipulez avec précaution.\nFréquence d'administration\nLes injections pourront être renouvelées toutes les 6 heures (voie IM) ou toutes les 4 heures (voie IV).\nDurée du traitement\nLa durée du traitement prescrit par votre médecin doit être scrupuleusement respectée.\nSi vous avez utilisé plus de de NEFOPAM TEVA 20 mg/2 mL, solution injectable que vous n'auriez dû\nSans objet.\nSi vous oubliez d’utiliser NEFOPAM TEVA 20 mg/2 mL, solution injectable\nLorsqu'une injection a été omise, il n'est pas nécessaire d'augmenter d'autant la dose suivante.\nSi vous arrêtez d’utiliser NEFOPAM TEVA 20 mg/2 mL, solution injectable\nL'arrêt du traitement n'entraîne pas de syndrome de sevrage (état de privation ou de manque ressenti après l'arrêt de certains médicaments avec réapparition ou aggravation des troubles).\nSi vous avez d’autres questions sur l’utilisation de ce médicament, demandez plus d’informations à votre médecin ou à votre pharmacien.\n4. QUELS SONT LES EFFETS INDESIRABLES EVENTUELS ?\nRedirection vers le haut de page\nComme tous les médicaments, ce médicament peut provoquer des effets indésirables, mais ils ne surviennent pas systématiquement chez tout le monde.\nLes effets indésirables les plus fréquemment rapportés sont : vertiges, nausées avec ou sans vomissements, somnolence, sueurs.\nIl a été également observé, des troubles tels que bouche sèche, accélération du rythme cardiaque, palpitations, rétention d'urine.\nPlus rarement ont été rapportés excitabilité, irritabilité, malaise, hallucination, abus, devenir dépendant(e) de NEFOPAM TEVA (pharmacodépendance), convulsion, réactions allergiques (éruption cutanée, œdème de Quincke, choc anaphylactique).\nD’autres effets indésirables de fréquence indéterminée (ne peut être estimée sur la base de données disponibles) ont également été observés : coma, confusion, douleur au site d’injection.\nDéclaration des effets secondaires\nSi vous ressentez un quelconque effet indésirable, parlez-en à votre médecin, votre pharmacien ou à votre infirmier/ère. Ceci s’applique aussi à tout effet indésirable qui ne serait pas mentionné dans cette notice. Vous pouvez également déclarer les effets indésirables directement via le système national de déclaration : Agence Nationale de Sécurité du Médicament et des produits de santé (ANSM) et réseau des Centres Régionaux de Pharmacovigilance - Site internet :\nhttps://signalement.social-sante.gouv.fr/\nEn signalant les effets indésirables, vous contribuez à fournir davantage d’informations sur la sécurité du médicament.\n5. COMMENT CONSERVER NEFOPAM TEVA 20 mg/2 mL, solution injectable ?\nRedirection vers le haut de page\nTenir ce médicament hors de la vue et de la portée des enfants.\nN’utilisez pas ce médicament après la date de péremption indiquée sur l’emballage ou l’ampoule après EXP. La date de péremption fait référence au dernier jour de ce mois.\nCe médicament ne nécessite pas de précautions particulières de conservation.\nAprès ouverture/reconstitution/dilution\n: le produit doit être utilisé immédiatement.\nNe jetez aucun médicament au tout-à-l’égout ou avec les ordures ménagères. Demandez à votre pharmacien d’éliminer les médicaments que vous n’utilisez plus. Ces mesures contribueront à protéger l’environnement\n.\n6. CONTENU DE L’EMBALLAGE ET AUTRES INFORMATIONS\nRedirection vers le haut de page\nCe que contient NEFOPAM TEVA 20 mg/2 mL, solution injectable\n·\nLa substance active est :\nChlorhydrate de néfopam....................................................................................................... 20 mg\nPour une ampoule de 2 mL\n·\nLes autres composants sont :\nPhosphate monosodique dihydraté, phosphate disodique dodécahydraté, eau pour préparations injectables.\nQu’est-ce que NEFOPAM TEVA 20 mg/2 mL, solution injectable et contenu de l’emballage extérieur\nCe médicament se présente sous forme de solution injectable limpide, incolore, exempt de toute particule visible.\nIl est disponible en boite de 5 et 20 ampoules (verre) transparent de 2 mL.\nToutes les présentations peuvent ne pas être commercialisées.\nTitulaire de l’autorisation de mise sur le marché\nTEVA B.V.\nSWENSWEG 5\n2031 GA HAARLEM\nPAYS-BAS\nExploitant de l’autorisation de mise sur le marché\nTEVA SANTE\n100-110 ESPLANADE DU GENERAL DE GAULLE\n92931 PARIS LA DEFENSE CEDEX\nFRANCE\nFabricant\nMICRO LABS GMBH\nLYONER STRA\nΒ\nE 20\n60528 FRANKFURT AM MAIN\nALLEMAGNE\nOU\nPHARMADOX HEALTHCARE LIMITED\nKW20A KORDIN INDUSTRIAL PARK, PAOLA,\nPLA 3000\nMALTE\nOU\nESSETI FARMACEUTICI SRL\nVIA CAMPOBELLO,15\n00071 POMEZIA(RM)\nITALIE\nNoms du médicament dans les Etats membres de l'Espace Economique Européen\nSans objet.\nLa dernière date à laquelle cette notice a été révisée est :\n[à compléter ultérieurement par le titulaire]\nAutres\nDes informations détaillées sur ce médicament sont disponibles sur le site Internet de l’ANSM (France).",
+  "text": "Résumé des Caractéristiques du Produit\nANSM - Mis à jour le : 11/05/2026\n1. DENOMINATION DU MEDICAMENT\nRedirection vers le haut de page\nNEFOPAM TEVA 20\nmg/2\nmL, solut\ni\non injectable\n2. COMPOSITION QUALITATIVE ET QUANTITATIVE\nRedirection vers le haut de page\nChlorhydrate de néfopam ............................................................................................................. 20 mg\nPour une ampoule de 2 mL\nExcipient à effet notoire\n: sodium.\nCe médicament contient 5,23 mg de sodium par ampoule. Pour la liste complète des excipients, voir rubrique 6.1.\n3. FORME PHARMACEUTIQUE\nRedirection vers le haut de page\nSolution injectable.\nSolution limpide, incolore, exempt de toute particule visible.\npH=4.80-6.00.\nOsmolalité entre 230-290 mOsmol/kg.\n4. DONNEES CLINIQUES\nRedirection vers le haut de page\n4.1. Indications thérapeutiques\nTraitement symptomatique des affections douloureuses aiguës, notamment des douleurs post-opératoires.\n4.2. Posologie et mode d'administration\nPosologie\nComme pour tous les médicaments antalgiques, la posologie doit être adaptée à l'intensité de la douleur et à la réponse clinique de chaque patient.\n·\nVoie IM : NEFOPAM TEVA doit être administré en IM profonde. La dose usuelle recommandée est de 20 mg par injection. Si nécessaire, elle peut être répétée toutes les 6 heures sans dépasser une dose totale de 120 mg/24 heures.\n·\nVoie IV : NEFOPAM TEVA doit être administré en perfusion IV lente sur plus de 15 minutes, le patient étant en décubitus, afin d'éviter la survenue d'effets indésirables (nausées, vertiges, sueurs). La dose unique usuelle recommandée est de 20 mg par injection, répétée toutes les 4 heures, si nécessaire, sans dépasser une dose totale de 120 mg/24 heures.\nMode d’administration\nNEFOPAM TEVA peut être administré dans les solutions usuelles pour perfusion (solution isotonique de chlorure de sodium ou glucosée). Il est recommandé d'éviter de mélanger dans la même seringue NEFOPAM TEVA et d'autres spécialités injectables.\n4.3. Contre-indications\n·\nHypersensibilité à la substance active ou à l’un des excipients mentionnés à la rubrique 6.1.\n·\nEnfant de moins de 15 ans, en l'absence d'étude clinique.\n·\nConvulsions ou antécédents de troubles convulsifs.\n·\nRisques de rétention urinaire liés à des troubles urétroprostatiques.\n·\nRisque de glaucome par fermeture de l'angle.\n4.4. Mises en garde spéciales et précautions d'emploi\nPharmacodépendance\nL’utilisation du néfopam peut entraîner une pharmacodépendance, pouvant conduire à un abus, en particulier chez les patients ayant des antécédents de consommation de substances psychoactives et/ou de troubles de la santé mentale. Chez ces patients, le néfopam doit être prescrit avec prudence et les signes de dépendance doivent être surveillés.\nMises en garde spéciales\nNEFOPAM TEVA n'est ni un morphinique, ni un antagoniste des morphiniques. De ce fait, arrêter un morphinique chez un patient physiquement dépendant, et traité par NEFOPAM TEVA, risque d'aboutir à un syndrome de sevrage.\nLe rapport bénéfice/risque du traitement par NEFOPAM TEVA doit être régulièrement réévalué.\nNEFOPAM TEVA n'est pas indiqué dans le traitement des affections douloureuses chroniques.\nPrécautions d'emploi\nIl conviendra d'être particulièrement prudent en cas :\n·\nd'insuffisance hépatique ;\n·\nd'insuffisance rénale, en raison du risque d'accumulation et donc du risque augmenté d'effet indésirable ;\n·\nchez tous les patients avec pathologie cardiovasculaire en raison de l'effet tachycardisant du produit (voir rubriques 4.5 et 4.8) ;\n·\nen raison de ces effets anticholinergiques, le traitement par NEFOPAM TEVA est déconseillé chez le sujet âgé.\nCe médicament contient moins de 1 mmol (23 mg) de sodium par ampoule, c’est-à-dire qu’il est essentiellement « sans sodium ».\nCe médicament contient 31,38 mg de sodium par dose maximale de 6 ampoules, ce qui équivaut à 1,57% de l’apport alimentaire quotidien maximal recommandé par l’OMS de 2 g de sodium par adulte.\n4.5. Interactions avec d'autres médicaments et autres formes d'interactions\nIl faut prendre en compte le fait que de nombreux médicaments ou substances peuvent additionner leurs effets dépresseurs du système nerveux central et contribuer à diminuer la vigilance. Il s'agit des dérivés morphiniques (analgésiques, antitussifs et traitements de substitution), des neuroleptiques, des barbituriques, des benzodiazépines, des anxiolytiques autres que les benzodiazépines (par exemple, le méprobamate), des hypnotiques, des antidépresseurs sédatifs (amitriptyline, doxépine, miansérine, mirtazapine, trimipramine), des antihistaminiques H1 sédatifs, des antihypertenseurs centraux, du baclofène et du thalidomide.\nAssociations déconseillées\n+\nConsommation d'alcool\nMajoration par l'alcool de l'effet sédatif de ces substances.\nL'altération de la vigilance peut rendre dangereuse la conduite de véhicules et l'utilisation de machines.\nEviter la prise de boissons alcoolisées et de médicaments contenant de l'alcool.\nAssociations à prendre en compte\n+\nAutres médicaments sédatifs\nDérivés morphiniques (analgésiques, antitussifs et traitements de substitution), neuroleptiques, barbituriques, benzodiazépines, anxiolytiques autres que les benzodiazépines (par exemple, le méprobamate), hypnotiques, antidépresseurs sédatifs (amitriptyline, doxépine, miansérine, mirtazapine, trimipramine), antihistaminiques H1 sédatifs, antihypertenseurs centraux, baclofène et thalidomide.\nMajoration de la dépression centrale. L'altération de la vigilance peut rendre dangereuses la conduite de véhicules et l'utilisation de machines.\n4.6. Fertilité, grossesse et allaitement\nEn l'absence d'étude chez l'animal et de données cliniques humaines, le risque n'est pas connu ; par conséquent, par mesure de prudence, ne pas prescrire pendant la grossesse, ni pendant l'allaitement.\n4.7. Effets sur l'aptitude à conduire des véhicules et à utiliser des machines\nEn raison d'un risque éventuel de somnolence, la vigilance peut être altérée et rendre dangereuse la conduite de véhicules et l'utilisation de machines\n.\n4.8. Effets indésirables\nLes effets indésirables qui ont été rapportés sont classés ci-dessous par système-organe et par fréquence comme définies ci-après : très fréquents (> 1/10), fréquents (> 1/100, < 1/10), peu fréquents (> 1/1.000, < 1/100), rares (> 1/10.000, < 1/1.000) et indéterminées (ne peut être estimée sur la base des données disponibles).\nSystème -Organe\nTrès fréquents\nFréquents\nRares\nIndéterminées\nPsychiatrie\nexcitabilité*, irritabilité*, hallucination, abus, pharmacodépendance\nétat confusionnel\nSystème Nerveux Central\nsomnolence\nvertige*\nConvulsion*\ncoma\nCœur\ntachycardie*, palpitation*\nGastro-intestinal\nnausée avec ou sans vomissement\nbouche sèche*\nRein\nrétention urinaire\nGénéral\nhyperhydrose*\nmalaise\nSystème immunitaire\nréaction d'hypersensibilité (urticaire, œdème de Quincke, choc anaphylactique)\nTroubles généraux et anomalies au site d’administration\nDouleur au site d’injection\n*\nBien que n'ayant jamais été rapportés, d'autres effets atropiniques que ceux décrits sont susceptibles d'être constatés\nPharmacodépendance\nL’utilisation de NEFOPAM TEVA peut entraîner une pharmacodépendance. Le risque de dépendance peut varier en fonction des facteurs de risque individuels du patient (voir section 4.4).\nDéclaration des effets indésirables suspectés.\nLa déclaration des effets indésirables suspectés après autorisation du médicament est importante. Elle permet une surveillance continue du rapport bénéfice/risque du médicament. Les professionnels de santé déclarent tout effet indésirable suspecté via le système national de déclaration : Agence nationale de sécurité du médicament et des produits de santé (ANSM) et réseau des Centres Régionaux de Pharmacovigilance - Site internet :\nhttps://signalement.social-sante.gouv.fr/\n.\n4.9. Surdosage\nCe sont des manifestations de type anticholinergique : tachycardie, coma, convulsions et hallucinations (\nvoir rubrique 4.4\n).\nTraitement\nTraitement symptomatique avec surveillance cardiaque et respiratoire, en milieu hospitalier\n.\n5. PROPRIETES PHARMACOLOGIQUES\nRedirection vers le haut de page\n5.1. Propriétés pharmacodynamiques\nClasse pharmacothérapeutique : AUTRES ANALGESIQUES ET ANTIPYRETIQUES, N : Système Nerveux Central, code ATC : N02BG06\n·\nAnalgésique central non morphinique, le néfopam possède une structure chimique non apparentée à celle des antalgiques actuellement connus.\n·\nIn vitro, sur des synaptosomes de rat, une inhibition de la recapture des catécholamines et de la sérotonine est évoquée.\n·\nIn vivo, chez l'animal, le néfopam a montré des propriétés anti-nociceptives. Il a également été démontré une activité antihyperalgésique par un mécanisme qui n'est pas complètement élucidé.\n·\nLe néfopam a montré un effet sur le frisson post-opératoire au cours d'études cliniques.\n·\nLe néfopam n'a aucune action anti-inflammatoire ou antipyrétique. Il n'entraîne pas de dépression respiratoire et ne ralentit pas le transit intestinal.\n·\nLe néfopam possède une activité anticholinergique.\n·\nSur le plan hémodynamique, il a été observé une augmentation modérée et transitoire de la fréquence cardiaque et de la pression artérielle\n5.2. Propriétés pharmacocinétiques\nAbsorption\nAprès administration d'une dose de 20 mg par voie IM, le pic plasmatique (Tmax) est situé entre 0,5 et 1 heure et les concentrations maximales (Cmax) sont en moyenne de 25 ng/mL. La demi-vie plasmatique moyenne est de 5 heures.\nLors d'une administration par voie IV d'une même dose, la demi-vie plasmatique moyenne est de 4 heures.\nDistribution\nLa liaison aux protéines plasmatiques est de 71-76 %.\nBiotransformation\nLa biotransformation est importante et 3 métabolites majeurs ont été identifiés : le déméthyl-néfopam, le N-oxyde-néfopam et le N-glucuronide-néfopam. Les deux premiers métabolites, non conjugués, n'ont pas montré d'activité analgésique chez l'animal.\nÉlimination\nL'élimination est essentiellement urinaire : 87 % de la dose administrée sont retrouvés dans les urines.\nMoins de 5 % de la dose sont excrétés sous forme inchangée ; les métabolites identifiés dans les urines représentent respectivement 6 %, 3 %, et 36 % de la dose administrée par voie IV.\n5.3. Données de sécurité préclinique\nSans objet.\n6. DONNEES PHARMACEUTIQUES\nRedirection vers le haut de page\n6.1. Liste des excipients\nPhosphate monosodique dihydraté, phosphate disodique dodécahydraté, eau pour préparations injectables.\n6.2. Incompatibilités\nCe médicament ne doit pas être mélangé avec d'autres médicaments à l'exception de ceux mentionnés dans la rubrique 4.2.\n6.3. Durée de conservation\n3 ans.\nAprès ouverture/reconstitution/dilution\n: le produit doit être utilisé immédiatement.\n6.4. Précautions particulières de conservation\nCe médicament ne nécessite pas de précautions particulières de conservation\n.\n6.5. Nature et contenu de l'emballage extérieur\nAmpoule en verre transparent de 2 mL avec une seule bande bleue et une marque OPC bleue.\nBoite de 5 et 20 ampoules de 2 mL emballées dans un conditionnement en PVC ou Polystyrène Blanc.\nToutes les présentations peuvent ne pas être commercialisées.\n6.6. Précautions particulières d’élimination et de manipulation\nPas d’exigences particulières pour l’élimination\n.\n7. TITULAIRE DE L’AUTORISATION DE MISE SUR LE MARCHE\nRedirection vers le haut de page\nTEVA B.V.\nSWENSWEG 5\n2031 GA HAARLEM\nPAYS-BAS\n8. NUMERO(S) D’AUTORISATION DE MISE SUR LE MARCHE\nRedirection vers le haut de page\n·\n34009 302 824 2 7 : Ampoule de 2mL. Boîte de 5.\n·\n34009 302 824 3 4 : Ampoule de 2mL. Boîte de 20.\n9. DATE DE PREMIERE AUTORISATION/DE RENOUVELLEMENT DE L’AUTORISATION\nRedirection vers le haut de page\n[à compléter ultérieurement par le titulaire]\n10. DATE DE MISE A JOUR DU TEXTE\nRedirection vers le haut de page\n[à compléter ultérieurement par le titulaire]\n11. DOSIMETRIE\nRedirection vers le haut de page\nSans objet.\n12. INSTRUCTIONS POUR LA PREPARATION DES RADIOPHARMACEUTIQUES\nRedirection vers le haut de page\nSans objet.\nCONDITIONS DE PRESCRIPTION ET DE DELIVRANCE\nListe I.",
+  "ingredients": [
+    "Chlorhydrate de néfopam ............................................................................................................. 20 mg",
+    "Pour une ampoule de 2 mL",
+    "Excipient à effet notoire : sodium.",
+    "Ce médicament contient 5,23 mg de sodium par ampoule. Pour la liste complète des excipients, voir rubrique 6.1."
+  ],
+  "source_rank": 4
+}

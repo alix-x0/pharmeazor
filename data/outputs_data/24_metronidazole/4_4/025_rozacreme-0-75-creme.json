@@ -1,0 +1,254 @@
+{
+  "source": "bdpm",
+  "source_priority": 3,
+  "drug_id": 24,
+  "language": "fr",
+  "doc_type": "rcp",
+  "title": "ROZACREME 0,75 %, crème",
+  "brand": "ROZACREME 0,75 %, crème",
+  "dci": "",
+  "lab": " LABORATOIRES BAILLEUL (LUXEMBOURG)",
+  "manufacturer": " LABORATOIRES BAILLEUL (LUXEMBOURG)",
+  "cis": "62806411",
+  "form": "crème",
+  "status": "Autorisation active",
+  "marketing_status": "Commercialisée",
+  "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62806411/extrait",
+  "source_url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62806411/extrait",
+  "sections": [
+    {
+      "key": "indications",
+      "label": "Indications thérapeutiques",
+      "number": "4.1",
+      "title": "Indications thérapeutiques",
+      "text": "Indications thérapeutiques\nRedirection vers le haut de page\nClasse pharmacothérapeutique : antibiotique et chimiothérapie à usage dermatologique, autres chimiothérapies - Code ATC : D06BX01.\nIl est indiqué dans le traitement local de la rosacée (maladie inflammatoire, chronique et évolutive de la peau du visage)."
+    },
+    {
+      "key": "denomination",
+      "label": "Dénomination du médicament",
+      "number": "1",
+      "title": "DENOMINATION DU MEDICAMENT",
+      "text": "ROZACREME 0,75%, crème"
+    },
+    {
+      "key": "composition",
+      "label": "Composition qualitative et quantitative",
+      "number": "2",
+      "title": "COMPOSITION QUALITATIVE ET QUANTITATIVE",
+      "text": "Métronidazole........................................................................................................................ 0,75 g\nPour 100 g.\nExcipient à effet notoire : alcool benzylique (22 mg/g de crème)\nPour la liste complète des excipients, voir rubrique 6.1."
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Forme pharmaceutique",
+      "number": "3",
+      "title": "FORME PHARMACEUTIQUE",
+      "text": "Crème blanche et brillante."
+    },
+    {
+      "key": "donnees_cliniques",
+      "label": "Données cliniques",
+      "number": "4",
+      "title": "DONNEES CLINIQUES",
+      "text": ""
+    },
+    {
+      "key": "indications",
+      "label": "Indications thérapeutiques",
+      "number": "4.1",
+      "title": "Indications thérapeutiques",
+      "text": "Traitement local de la rosacée.\nIl convient de tenir compte des recommandations officielles concernant l'utilisation appropriée des antibactériens."
+    },
+    {
+      "key": "posologie",
+      "label": "Posologie et mode d'administration",
+      "number": "4.2",
+      "title": "Posologie et mode d'administration",
+      "text": ""
+    },
+    {
+      "key": "posologie",
+      "label": "Posologie et mode d'administration",
+      "number": null,
+      "title": "Posologie",
+      "text": "Appliquer la crème en couche mince sur toute la surface à traiter, deux fois par jour après la toilette.\nLa durée habituelle du traitement est de 3 à 4 mois.\nPopulation pédiatrique\nSans objet.\nVoie cutanée."
+    },
+    {
+      "key": "contre_indications",
+      "label": "Contre-indications",
+      "number": "4.3",
+      "title": "Contre-indications",
+      "text": "Hypersensibilité à la substance active ou à l’un des excipients mentionnés à la rubrique 6.1."
+    },
+    {
+      "key": "mises_en_garde",
+      "label": "Mises en garde et précautions d'emploi",
+      "number": "4.4",
+      "title": "Mises en garde spéciales et précautions d'emploi",
+      "text": "Eviter le contact avec les yeux.\nInterrompre totalement ou momentanément le traitement en cas d'intolérance locale.\nLa zone traitée par le métronidazole ne doit pas être exposée au soleil, ni aux rayonnements ultra-violets.\nCe médicament contient 22 mg d’alcool benzylique par g de crème.\nL’alcool benzylique peut provoquer des réactions allergiques et peut provoquer une légère irritation locale."
+    },
+    {
+      "key": "interactions",
+      "label": "Interactions médicamenteuses",
+      "number": "4.5",
+      "title": "Interactions avec d'autres médicaments et autres formes d'interactions",
+      "text": "Sans objet."
+    },
+    {
+      "key": "fertilite_grossesse",
+      "label": "Fertilité, grossesse et allaitement",
+      "number": "4.6",
+      "title": "Fertilité, grossesse et allaitement",
+      "text": "Les études chez l'animal n'ont pas mis en évidence d'effet tératogène. En l'absence d'effet tératogène chez l'animal, un effet malformatif dans l'espèce humaine n'est pas attendu. En effet, à ce jour, les substances responsables de malformations dans l'espèce humaine se sont révélées tératogènes chez l'animal au cours d'études bien conduites sur deux espèces.\nEn clinique, l'analyse d'un nombre élevé de grossesses exposées n'a apparemment révélé aucun effet malformatif ou fœtotoxique particulier du métronidazole. Toutefois, seules études épidémiologiques permettraient de vérifier l'absence de risque.\nEn conséquence, le métronidazole peut être prescrit pendant la grossesse si besoin.\nL'administration de ROZACREME peut être envisagée pendant l'allaitement."
+    },
+    {
+      "key": "aptitude_conduite",
+      "label": "Aptitude à conduire",
+      "number": "4.7",
+      "title": "Effets sur l'aptitude à conduire des véhicules et à utiliser des machines",
+      "text": "ROZACREME 0,75%, crème n’a aucun effet ou un effet négligeable sur l’aptitude à conduire des véhicules et à utiliser des machines."
+    },
+    {
+      "key": "effets_indesirables",
+      "label": "Effets indésirables",
+      "number": "4.8",
+      "title": "Effets indésirables",
+      "text": "Les réactions secondaires imputables au métronidazole crème sont mineures et consistent essentiellement en des symptômes d'irritation locale tels que picotements, prurit et sensations de brûlures.\nLa déclaration des effets indésirables suspectés après autorisation du médicament est importante. Elle permet une surveillance continue du rapport bénéfice/risque du médicament. Les professionnels de santé déclarent tout effet indésirable suspecté via le système national de déclaration : Agence nationale de sécurité du médicament et des produits de santé (ANSM) et réseau des Centres Régionaux de Pharmacovigilance –  Site internet : www.signalement-sante.gouv.fr."
+    },
+    {
+      "key": "surdosage",
+      "label": "Surdosage",
+      "number": "4.9",
+      "title": "Surdosage",
+      "text": "Sans objet."
+    },
+    {
+      "key": "proprietes_pharmacologiques",
+      "label": "Propriétés pharmacologiques",
+      "number": "5",
+      "title": "PROPRIETES PHARMACOLOGIQUES",
+      "text": ""
+    },
+    {
+      "key": "pharmacodynamique",
+      "label": "Propriétés pharmacodynamiques",
+      "number": "5.1",
+      "title": "Propriétés pharmacodynamiques",
+      "text": "Classe pharmacothérapeutique : antibiotiques et chimiothérapie à usage dermatologique, autres chimiothérapies, code ATC : D06BX01.\nLe métronidazole est un antiparasitaire et un antibactérien actif contre de nombreux germes pathogènes. Le métronidazole est particulièrement efficace contre la composante inflammatoire papulo-pustuleuse de la maladie.\nSon mécanisme d'action semble vraisemblablement impliquer un effet anti-inflammatoire.\nSPECTRE D'ACTIVITE ANTIMICROBIENNE\nLes concentrations critiques séparent les souches sensibles des souches de sensibilité intermédiaire et ces dernières, des résistantes :\nS £ 4 mg/l et R > 4 mg/l\nLa prévalence de la résistance acquise peut varier en fonction de la géographie et du temps pour certaines espèces. Il est donc utile de disposer d'informations sur la prévalence de la résistance locale, surtout pour le traitement d'infections sévères. Ces données ne peuvent apporter qu'une orientation sur les probabilités de la sensibilité d'une souche bactérienne à cet antibiotique.\nLorsque la variabilité de la prévalence de la résistance en France est connue pour une espèce bactérienne, elle est indiquée dans le tableau ci-dessous :\nCatégories\nFréquence de résistance acquise en France (> 10%) (valeurs extrêmes)\nESPÈCES SENSIBLES\nAérobies à Gram négatif\nHelicobacter pylori\n30 %\nAnaérobies\nBacteroides fragilis\nBifidobacterium\n60 - 70 %\nBilophila\nClostridium\nClostridium difficile\nClostridium perfringens\nEubacterium\n20 - 30 %\nFusobacterium\nPeptostreptococcus\nPorphyromonas\nPrevotella\nVeillonella\nESPÈCES RÉSISTANTES\nAérobies à Gram positif\nActinomyces\nAnaérobies\nMobiluncus\nPropionibacterium acnes\nACTIVITÉ ANTIPARASITAIRE\nEntamoeba histolytica\nGiardia intestinalis\nTrichomonas vaginalis\nRemarque : ce spectre correspond à celui des formes systémiques du métronidazole. Avec les présentations pharmaceutiques locales, les concentrations obtenues in situ sont très supérieures aux concentrations plasmatiques. Quelques incertitudes demeurent sur la cinétique des concentrations in situ , sur les conditions physico-chimiques locales qui peuvent modifier l’activité de l’antibiotique et sur la stabilité du produit in situ ."
+    },
+    {
+      "key": "pharmacocinetique",
+      "label": "Propriétés pharmacocinétiques",
+      "number": "5.2",
+      "title": "Propriétés pharmacocinétiques",
+      "text": "Après application sur le visage de 12 sujets sains de 1 g de ROZACREME 0,75%, crème, la concentration sérique moyenne de métronidazole rapportée est de 32,9 ng/ml (14,8 à 54,4 ng/ml). Ce résultat est inférieur à moins de 1 % de la concentration sérique moyenne retrouvée chez les sujets sains après administration de 250 mg de métronidazole par voie orale (C max moyenne = 7245 ng/ml : 4270 à 13 970 ng/ml).\nLe pic de ces concentrations se situe entre 0,25 et 4 heures après une administration orale de métronidazole et entre 6 et 24 heures après une application cutanée de ROZACREME 0,75%, crème."
+    },
+    {
+      "key": "securite_preclinique",
+      "label": "Données de sécurité préclinique",
+      "number": "5.3",
+      "title": "Données de sécurité préclinique",
+      "text": "Une apparition plus précoce des tumeurs cutanées induites par rayonnement UV chez la souris nue traitée par le métronidazole par voie intrapéritonéale a été observée."
+    },
+    {
+      "key": "donnees_pharmaceutiques",
+      "label": "Données pharmaceutiques",
+      "number": "6",
+      "title": "DONNEES PHARMACEUTIQUES",
+      "text": ""
+    },
+    {
+      "key": "excipients",
+      "label": "Liste des excipients",
+      "number": "6.1",
+      "title": "Liste des excipients",
+      "text": "Alcool benzylique, palmitate d'isopropyle, glycérol, sorbitol à 70 pour cent non cristallisable, cire émulsifiable, acide lactique et/ou hydroxyde de sodium, eau purifiée."
+    },
+    {
+      "key": "incompatibilites",
+      "label": "Incompatibilités",
+      "number": "6.2",
+      "title": "Incompatibilités",
+      "text": "Sans objet."
+    },
+    {
+      "key": "duree_conservation",
+      "label": "Durée de conservation",
+      "number": "6.3",
+      "title": "Durée de conservation",
+      "text": "3 ans."
+    },
+    {
+      "key": "precautions_conservation",
+      "label": "Précautions de conservation",
+      "number": "6.4",
+      "title": "Précautions particulières de conservation",
+      "text": "A conserver à une température ne dépassant pas 25°C.\nNe pas réfrigérer."
+    },
+    {
+      "key": "conditionnement",
+      "label": "Nature et contenu de l'emballage",
+      "number": "6.5",
+      "title": "Nature et contenu de l'emballage extérieur",
+      "text": "Tube de 30 g en aluminium + vernis (résine de type époxy-phénolique), fermé par un bouchon blanc en polypropylène."
+    },
+    {
+      "key": "elimination",
+      "label": "Précautions d'élimination",
+      "number": "6.6",
+      "title": "Précautions particulières d’élimination et de manipulation",
+      "text": "Pas d’exigences particulières."
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "TITULAIRE DE L’AUTORISATION DE MISE SUR LE MARCHE",
+      "text": "Laboratoires Bailleul S.A.\n14/16 avenue Pasteur\nL-2310 Luxembourg\nLUXEMBOURG"
+    },
+    {
+      "key": "numero_autorisation",
+      "label": "Numéro d'AMM",
+      "number": "8",
+      "title": "NUMERO(S) D’AUTORISATION DE MISE SUR LE MARCHE",
+      "text": "· 34009 353 459 3 6 : tube de 30 g en aluminium + vernis (résine de type époxy-phénolique)."
+    },
+    {
+      "key": "date_premiere_autorisation",
+      "label": "Date de première autorisation",
+      "number": "9",
+      "title": "DATE DE PREMIERE AUTORISATION/DE RENOUVELLEMENT DE L’AUTORISATION",
+      "text": "A compléter ultérieurement par le titulaire"
+    },
+    {
+      "key": "date_mise_a_jour",
+      "label": "Date de mise à jour du texte",
+      "number": "10",
+      "title": "DATE DE MISE A JOUR DU TEXTE",
+      "text": "A compléter ultérieurement par le titulaire"
+    },
+    {
+      "key": "dosimetrie",
+      "label": "Dosimétrie",
+      "number": "11",
+      "title": "DOSIMETRIE",
+      "text": "Sans objet."
+    },
+    {
+      "key": "radiopharma",
+      "label": "Instructions radiopharmaceutiques",
+      "number": "12",
+      "title": "INSTRUCTIONS POUR LA PREPARATION DES RADIOPHARMACEUTIQUES",
+      "text": "Sans objet.\nCONDITIONS DE PRESCRIPTION ET DE DELIVRANCE\nListe I."
+    }
+  ],
+  "rcp_text": "Résumé des Caractéristiques du Produit\nANSM - Mis à jour le : 23/05/2024\n1. DENOMINATION DU MEDICAMENT\nRedirection vers le haut de page\nROZACREME 0,75%, crème\n2. COMPOSITION QUALITATIVE ET QUANTITATIVE\nRedirection vers le haut de page\nMétronidazole........................................................................................................................ 0,75 g\nPour 100 g.\nExcipient à effet notoire : alcool benzylique (22 mg/g de crème)\nPour la liste complète des excipients, voir rubrique 6.1.\n3. FORME PHARMACEUTIQUE\nRedirection vers le haut de page\nCrème blanche et brillante.\n4. DONNEES CLINIQUES\nRedirection vers le haut de page\n4.1. Indications thérapeutiques\nTraitement local de la rosacée.\nIl convient de tenir compte des recommandations officielles concernant l'utilisation appropriée des antibactériens.\n4.2. Posologie et mode d'administration\nPosologie\nAppliquer la crème en couche mince sur toute la surface à traiter, deux fois par jour après la toilette.\nLa durée habituelle du traitement est de 3 à 4 mois.\nPopulation pédiatrique\nSans objet.\nMode d’administration\nVoie cutanée.\n4.3. Contre-indications\nHypersensibilité à la substance active ou à l’un des excipients mentionnés à la rubrique 6.1.\n4.4. Mises en garde spéciales et précautions d'emploi\nEviter le contact avec les yeux.\nInterrompre totalement ou momentanément le traitement en cas d'intolérance locale.\nLa zone traitée par le métronidazole ne doit pas être exposée au soleil, ni aux rayonnements ultra-violets.\nCe médicament contient 22 mg d’alcool benzylique par g de crème.\nL’alcool benzylique peut provoquer des réactions allergiques et peut provoquer une légère irritation locale.\n4.5. Interactions avec d'autres médicaments et autres formes d'interactions\nSans objet.\n4.6. Fertilité, grossesse et allaitement\nGrossesse\nLes études chez l'animal n'ont pas mis en évidence d'effet tératogène. En l'absence d'effet tératogène chez l'animal, un effet malformatif dans l'espèce humaine n'est pas attendu. En effet, à ce jour, les substances responsables de malformations dans l'espèce humaine se sont révélées tératogènes chez l'animal au cours d'études bien conduites sur deux espèces.\nEn clinique, l'analyse d'un nombre élevé de grossesses exposées n'a apparemment révélé aucun effet malformatif ou fœtotoxique particulier du métronidazole. Toutefois, seules études épidémiologiques permettraient de vérifier l'absence de risque.\nEn conséquence, le métronidazole peut être prescrit pendant la grossesse si besoin.\nAllaitement\nL'administration de ROZACREME peut être envisagée pendant l'allaitement.\n4.7. Effets sur l'aptitude à conduire des véhicules et à utiliser des machines\nROZACREME 0,75%, crème n’a aucun effet ou un effet négligeable sur l’aptitude à conduire des véhicules et à utiliser des machines.\n4.8. Effets indésirables\nLes réactions secondaires imputables au métronidazole crème sont mineures et consistent essentiellement en des symptômes d'irritation locale tels que picotements, prurit et sensations de brûlures.\nDéclaration des effets indésirables suspectés\nLa déclaration des effets indésirables suspectés après autorisation du médicament est importante. Elle permet une surveillance continue du rapport bénéfice/risque du médicament. Les professionnels de santé déclarent tout effet indésirable suspecté via le système national de déclaration : Agence nationale de sécurité du médicament et des produits de santé (ANSM) et réseau des Centres Régionaux de Pharmacovigilance –  Site internet :\nwww.signalement-sante.gouv.fr.\n4.9. Surdosage\nSans objet.\n5. PROPRIETES PHARMACOLOGIQUES\nRedirection vers le haut de page\n5.1. Propriétés pharmacodynamiques\nClasse pharmacothérapeutique : antibiotiques et chimiothérapie à usage dermatologique, autres chimiothérapies, code ATC : D06BX01.\nLe métronidazole est un antiparasitaire et un antibactérien actif contre de nombreux germes pathogènes. Le métronidazole est particulièrement efficace contre la composante inflammatoire papulo-pustuleuse de la maladie.\nSon mécanisme d'action semble vraisemblablement impliquer un effet anti-inflammatoire.\nSPECTRE D'ACTIVITE ANTIMICROBIENNE\nLes concentrations critiques séparent les souches sensibles des souches de sensibilité intermédiaire et ces dernières, des résistantes :\nS\n£\n4 mg/l et R > 4 mg/l\nLa prévalence de la résistance acquise peut varier en fonction de la géographie et du temps pour certaines espèces. Il est donc utile de disposer d'informations sur la prévalence de la résistance locale, surtout pour le traitement d'infections sévères. Ces données ne peuvent apporter qu'une orientation sur les probabilités de la sensibilité d'une souche bactérienne à cet antibiotique.\nLorsque la variabilité de la prévalence de la résistance en France est connue pour une espèce bactérienne, elle est indiquée dans le tableau ci-dessous :\nCatégories\nFréquence de résistance acquise en France (> 10%) (valeurs extrêmes)\nESPÈCES SENSIBLES\nAérobies à Gram négatif\nHelicobacter pylori\n30 %\nAnaérobies\nBacteroides fragilis\nBifidobacterium\n60 - 70 %\nBilophila\nClostridium\nClostridium difficile\nClostridium perfringens\nEubacterium\n20 - 30 %\nFusobacterium\nPeptostreptococcus\nPorphyromonas\nPrevotella\nVeillonella\nESPÈCES RÉSISTANTES\nAérobies à Gram positif\nActinomyces\nAnaérobies\nMobiluncus\nPropionibacterium acnes\nACTIVITÉ ANTIPARASITAIRE\nEntamoeba histolytica\nGiardia intestinalis\nTrichomonas vaginalis\nRemarque\n: ce spectre correspond à celui des formes systémiques du métronidazole. Avec les présentations pharmaceutiques locales, les concentrations obtenues\nin situ\nsont très supérieures aux concentrations plasmatiques. Quelques incertitudes demeurent sur la cinétique des concentrations\nin situ\n, sur les conditions physico-chimiques locales qui peuvent modifier l’activité de l’antibiotique et sur la stabilité du produit\nin situ\n.\n5.2. Propriétés pharmacocinétiques\nAprès application sur le visage de 12 sujets sains de 1 g de ROZACREME 0,75%, crème, la concentration sérique moyenne de métronidazole rapportée est de 32,9 ng/ml (14,8 à 54,4 ng/ml). Ce résultat est inférieur à moins de 1 % de la concentration sérique moyenne retrouvée chez les sujets sains après administration de 250 mg de métronidazole par voie orale (C\nmax\nmoyenne = 7245 ng/ml : 4270 à 13 970 ng/ml).\nLe pic de ces concentrations se situe entre 0,25 et 4 heures après une administration orale de métronidazole et entre 6 et 24 heures après une application cutanée de ROZACREME 0,75%, crème.\n5.3. Données de sécurité préclinique\nUne apparition plus précoce des tumeurs cutanées induites par rayonnement UV chez la souris nue traitée par le métronidazole par voie intrapéritonéale a été observée.\n6. DONNEES PHARMACEUTIQUES\nRedirection vers le haut de page\n6.1. Liste des excipients\nAlcool benzylique, palmitate d'isopropyle, glycérol, sorbitol à 70 pour cent non cristallisable, cire émulsifiable, acide lactique et/ou hydroxyde de sodium, eau purifiée.\n6.2. Incompatibilités\nSans objet.\n6.3. Durée de conservation\n3 ans.\n6.4. Précautions particulières de conservation\nA conserver à une température ne dépassant pas 25°C.\nNe pas réfrigérer.\n6.5. Nature et contenu de l'emballage extérieur\nTube de 30 g en aluminium + vernis (résine de type époxy-phénolique), fermé par un bouchon blanc en polypropylène.\n6.6. Précautions particulières d’élimination et de manipulation\nPas d’exigences particulières.\n7. TITULAIRE DE L’AUTORISATION DE MISE SUR LE MARCHE\nRedirection vers le haut de page\nLaboratoires Bailleul S.A.\n14/16 avenue Pasteur\nL-2310 Luxembourg\nLUXEMBOURG\n8. NUMERO(S) D’AUTORISATION DE MISE SUR LE MARCHE\nRedirection vers le haut de page\n·\n34009 353 459 3 6 : tube de 30 g en aluminium + vernis (résine de type époxy-phénolique).\n9. DATE DE PREMIERE AUTORISATION/DE RENOUVELLEMENT DE L’AUTORISATION\nRedirection vers le haut de page\nA compléter ultérieurement par le titulaire\n10. DATE DE MISE A JOUR DU TEXTE\nRedirection vers le haut de page\nA compléter ultérieurement par le titulaire\n11. DOSIMETRIE\nRedirection vers le haut de page\nSans objet.\n12. INSTRUCTIONS POUR LA PREPARATION DES RADIOPHARMACEUTIQUES\nRedirection vers le haut de page\nSans objet.\nCONDITIONS DE PRESCRIPTION ET DE DELIVRANCE\nListe I.",
+  "notice_text": "Notice patient\nANSM - Mis à jour le : 23/05/2024\nDénomination du médicament\nRedirection vers le haut de page\nROZACREME 0,75%, crème\nMétronidazole\nEncadré\nRedirection vers le haut de page\nVeuillez lire attentivement cette notice avant d'utiliser ce médicament car elle contient des informations importantes pour vous.\n·\nGardez cette notice. Vous pourriez avoir besoin de la relire.\n·\nSi vous avez d’autres questions, interrogez votre médecin ou votre pharmacien.\n·\nCe médicament vous a été personnellement prescrit. Ne le donnez pas à d'autres personnes. Il pourrait leur être nocif, même si les signes de leur maladie sont identiques aux vôtres.\n·\nSi vous ressentez un quelconque effet indésirable, parlez-en à votre médecin ou votre pharmacien. Ceci s’applique aussi à tout effet indésirable qui ne serait pas mentionné dans cette notice. Voir rubrique 4.\nQue contient cette notice ?\nRedirection vers le haut de page\n1. Qu'est-ce que ROZACREME 0,75%, crème et dans quels cas est-il utilisé ?\n2. Quelles sont les informations à connaître avant d'utiliser ROZACREME 0,75%, crème ?\n3. Comment utiliser ROZACREME 0,75%, crème ?\n4. Quels sont les effets indésirables éventuels ?\n5. Comment conserver ROZACREME 0,75%, crème ?\n6. Contenu de l’emballage et autres informations.\n1. QU’EST-CE QUE ROZACREME 0,75%, crème ET DANS QUELS CAS EST-IL UTILISE ?\nRedirection vers le haut de page\nClasse pharmacothérapeutique : antibiotique et chimiothérapie à usage dermatologique, autres chimiothérapies - Code ATC : D06BX01.\nIl est indiqué dans le traitement local de la rosacée (maladie inflammatoire, chronique et évolutive de la peau du visage).\n2. QUELLES SONT LES INFORMATIONS A CONNAITRE AVANT D’UTILISER ROZACREME 0,75%, crème ?\nRedirection vers le haut de page\nN'utilisez jamais ROZACREME 0,75%, crème :\n·\nSi vous êtes allergique au métronidazole ou à l’un des autres composants contenus dans ce médicament, mentionnés dans la rubrique 6.\nEn cas de doute, il est indispensable de demander l’avis de votre médecin ou de votre pharmacien.\nAvertissements et précautions\n·\nN’exposez pas la zone traitée au soleil, ni aux rayonnements ultra-violets.\n·\nEvitez le contact de la crème avec les yeux. En cas de contact accidentel, effectuez un lavage soigneux à l’eau.\nAdressez-vous à votre médecin ou pharmacien avant d’utiliser ROZACREME 0,75%, crème.\nEnfants et adolescents\nSans objet.\nAutres médicaments et ROZACREME 0,75%, crème\nInformez votre médecin ou pharmacien si vous utilisez, avez récemment utilisé ou pourriez utiliser tout autre médicament.\nROZACREME 0,75%, crème avec des aliments, boissons et de l’alcool\nSans objet.\nGrossesse, allaitement et fertilité\nEn cas de besoin, ce médicament peut être pris pendant la grossesse.\nL'administration de ROZACREME 0,75%, crème peut être envisagée pendant l'allaitement.\nSi vous êtes enceinte ou que vous allaitez, si vous pensez être enceinte ou planifiez une grossesse, demandez conseil à votre médecin ou pharmacien avant de prendre ce médicament.\nConduite de véhicules et utilisation de machines\nSans objet.\nROZACREME 0,75%, crème contient de l’alcool benzylique.\nCe médicament contient 22 mg d’alcool benzylique par g de crème.\nL’alcool benzylique peut provoquer des réactions allergiques et peut provoquer une légère irritation locale.\n3. COMMENT UTILISER ROZACREME 0,75%, crème ?\nRedirection vers le haut de page\nVeillez à toujours utiliser ce médicament en suivant exactement les indications de votre médecin ou pharmacien. Vérifiez auprès de votre médecin ou pharmacien en cas de doute.\nVoie cutanée.\nAppliquez la crème en couche mince sur la surface à traiter, deux fois par jour après la toilette. Lavez-vous les mains après application.\nLa durée habituelle du traitement est de 3 à 4 mois.\nSi vous avez l’impression que l’effet de ce médicament est trop fort ou trop faible :\nconsultez votre médecin ou votre pharmacien.\nSi vous avez utilisé plus de ROZACREME 0,75%, crème que vous n'auriez dû\nConsultez immédiatement votre médecin ou votre pharmacien.\nSi vous oubliez d’utiliser ROZACREME 0,75%, crème\nNe prenez pas de dose double pour compenser la dose que vous avez oubliée de prendre.\nSi vous arrêtez d’utiliser ROZACREME 0,75%, crème\nSans objet.\nSi vous avez d’autres questions sur l’utilisation de ce médicament, demandez plus d’informations à votre médecin ou à votre pharmacien.\n4. QUELS SONT LES EFFETS INDESIRABLES EVENTUELS ?\nRedirection vers le haut de page\nComme tous les médicaments, ce médicament peut provoquer des effets indésirables, mais ils ne surviennent pas systématiquement chez tout le monde.\n·\nSensation de picotement, démangeaisons, sensations de brûlures.\nDéclaration des effets secondaires\nSi vous ressentez un quelconque effet indésirable, parlez-en à votre médecin ou votre pharmacien. Ceci s’applique aussi à tout effet indésirable qui ne serait pas mentionné dans cette notice. Vous pouvez également déclarer les effets indésirables directement via le système national de déclaration : Agence nationale de sécurité du médicament et des produits de santé (ANSM) et réseau des Centres Régionaux de Pharmacovigilance - Site internet :\nwww.signalement-sante.gouv.fr.\nEn signalant les effets indésirables, vous contribuez à fournir davantage d’informations sur la sécurité du médicament.\n5. COMMENT CONSERVER ROZACREME 0,75%, crème ?\nRedirection vers le haut de page\nTenir ce médicament hors de la vue et de la portée des enfants.\nN’utilisez pas ce médicament après la date de péremption indiquée sur la boîte après EXP. La date de péremption fait référence au dernier jour de ce mois.\nCe médicament doit être conservé à une température ne dépassant pas 25°C. Ne pas réfrigérer.\nNe jetez aucun médicament au tout-à-l'égout ou avec les ordures ménagères. Demandez à votre pharmacien d’éliminer les médicaments que vous n’utilisez plus. Ces mesures contribueront à protéger l'environnement.\n6. CONTENU DE L’EMBALLAGE ET AUTRES INFORMATIONS\nRedirection vers le haut de page\nCe que contient ROZACREME 0,75%, crème\n·\nLa substance active est :\nMétronidazole..................................................................................................................................  0,75 g\nPour 100 g.\n·\nLes autres composants sont :\nAlcool benzylique, palmitate d'isopropyle, glycérol, sorbitol à 70 pour cent non cristallisable, cire émulsifiable, acide lactique et/ou hydroxyde de sodium, eau purifiée.\nQu’est-ce que ROZACREME 0,75%, crème et contenu de l’emballage extérieur\nCe médicament se présente sous forme de crème blanche et brillante. Tube de 30 g. Boîte de 1 tube.\nTitulaire de l’autorisation de mise sur le marché\nLaboratoires Bailleul S.A.\n14/16 avenue Pasteur\nL-2310 Luxembourg\nLUXEMBOURG\nExploitant de l’autorisation de mise sur le marché\nLABORATOIRES BAILLEUL\n264 RUE DU FAUBOURG SAINT-HONORE\n75008 PARIS\nFabricant\nLABORATOIRES GALDERMA\nZI MONTDESIR\n74540 ALBY-SUR-CHERAN\nNoms du médicament dans les Etats membres de l'Espace Economique Européen\nSans objet.\nLa dernière date à laquelle cette notice a été révisée est :\nA compléter ultérieurement par le titulaire.\nAutres\nDes informations détaillées sur ce médicament sont disponibles sur le site Internet de l’ANSM (France).\nCONSEILS / EDUCATION SANITAIRE\nQUE SAVOIR SUR LES ANTIBIOTIQUES ?\nLes antibiotiques sont efficaces pour combattre les infections dues aux bactéries. Ils ne sont pas efficaces contre les infections dues aux virus.\nAussi, votre médecin a choisi de vous prescrire cet antibiotique parce qu’il convient précisément à votre cas et à votre maladie actuelle.\nLes bactéries ont la capacité de survivre ou de se reproduire malgré l’action d’un antibiotique. Ce phénomène est appelé résistance : il rend certains traitements antibiotiques inactifs.\nLa résistance s’accroît par l’usage abusif ou inapproprié des antibiotiques.\nVous risquez de favoriser l’apparition de bactéries résistantes et donc de retarder votre guérison ou même de rendre inactif ce médicament, si vous ne respectez pas :\n·\nla dose à prendre,\n·\nles moments de prise,\n·\net la durée de traitement.\nEn conséquence, pour préserver l’efficacité de ce médicament :\n1- N’utilisez un antibiotique que lorsque votre médecin vous l’a prescrit.\n2- Respectez strictement votre ordonnance.\n3- Ne réutilisez pas un antibiotique sans prescription médicale même si vous pensez combattre une maladie apparemment semblable.\n4- Ne donnez jamais votre antibiotique à une autre personne, il n’est peut-être pas adapté à sa maladie.\n5- Une fois votre traitement terminé, rapportez à votre pharmacien toutes les boîtes entamées pour une destruction correcte et appropriée de ce médicament.",
+  "text": "Résumé des Caractéristiques du Produit\nANSM - Mis à jour le : 23/05/2024\n1. DENOMINATION DU MEDICAMENT\nRedirection vers le haut de page\nROZACREME 0,75%, crème\n2. COMPOSITION QUALITATIVE ET QUANTITATIVE\nRedirection vers le haut de page\nMétronidazole........................................................................................................................ 0,75 g\nPour 100 g.\nExcipient à effet notoire : alcool benzylique (22 mg/g de crème)\nPour la liste complète des excipients, voir rubrique 6.1.\n3. FORME PHARMACEUTIQUE\nRedirection vers le haut de page\nCrème blanche et brillante.\n4. DONNEES CLINIQUES\nRedirection vers le haut de page\n4.1. Indications thérapeutiques\nTraitement local de la rosacée.\nIl convient de tenir compte des recommandations officielles concernant l'utilisation appropriée des antibactériens.\n4.2. Posologie et mode d'administration\nPosologie\nAppliquer la crème en couche mince sur toute la surface à traiter, deux fois par jour après la toilette.\nLa durée habituelle du traitement est de 3 à 4 mois.\nPopulation pédiatrique\nSans objet.\nMode d’administration\nVoie cutanée.\n4.3. Contre-indications\nHypersensibilité à la substance active ou à l’un des excipients mentionnés à la rubrique 6.1.\n4.4. Mises en garde spéciales et précautions d'emploi\nEviter le contact avec les yeux.\nInterrompre totalement ou momentanément le traitement en cas d'intolérance locale.\nLa zone traitée par le métronidazole ne doit pas être exposée au soleil, ni aux rayonnements ultra-violets.\nCe médicament contient 22 mg d’alcool benzylique par g de crème.\nL’alcool benzylique peut provoquer des réactions allergiques et peut provoquer une légère irritation locale.\n4.5. Interactions avec d'autres médicaments et autres formes d'interactions\nSans objet.\n4.6. Fertilité, grossesse et allaitement\nGrossesse\nLes études chez l'animal n'ont pas mis en évidence d'effet tératogène. En l'absence d'effet tératogène chez l'animal, un effet malformatif dans l'espèce humaine n'est pas attendu. En effet, à ce jour, les substances responsables de malformations dans l'espèce humaine se sont révélées tératogènes chez l'animal au cours d'études bien conduites sur deux espèces.\nEn clinique, l'analyse d'un nombre élevé de grossesses exposées n'a apparemment révélé aucun effet malformatif ou fœtotoxique particulier du métronidazole. Toutefois, seules études épidémiologiques permettraient de vérifier l'absence de risque.\nEn conséquence, le métronidazole peut être prescrit pendant la grossesse si besoin.\nAllaitement\nL'administration de ROZACREME peut être envisagée pendant l'allaitement.\n4.7. Effets sur l'aptitude à conduire des véhicules et à utiliser des machines\nROZACREME 0,75%, crème n’a aucun effet ou un effet négligeable sur l’aptitude à conduire des véhicules et à utiliser des machines.\n4.8. Effets indésirables\nLes réactions secondaires imputables au métronidazole crème sont mineures et consistent essentiellement en des symptômes d'irritation locale tels que picotements, prurit et sensations de brûlures.\nDéclaration des effets indésirables suspectés\nLa déclaration des effets indésirables suspectés après autorisation du médicament est importante. Elle permet une surveillance continue du rapport bénéfice/risque du médicament. Les professionnels de santé déclarent tout effet indésirable suspecté via le système national de déclaration : Agence nationale de sécurité du médicament et des produits de santé (ANSM) et réseau des Centres Régionaux de Pharmacovigilance –  Site internet :\nwww.signalement-sante.gouv.fr.\n4.9. Surdosage\nSans objet.\n5. PROPRIETES PHARMACOLOGIQUES\nRedirection vers le haut de page\n5.1. Propriétés pharmacodynamiques\nClasse pharmacothérapeutique : antibiotiques et chimiothérapie à usage dermatologique, autres chimiothérapies, code ATC : D06BX01.\nLe métronidazole est un antiparasitaire et un antibactérien actif contre de nombreux germes pathogènes. Le métronidazole est particulièrement efficace contre la composante inflammatoire papulo-pustuleuse de la maladie.\nSon mécanisme d'action semble vraisemblablement impliquer un effet anti-inflammatoire.\nSPECTRE D'ACTIVITE ANTIMICROBIENNE\nLes concentrations critiques séparent les souches sensibles des souches de sensibilité intermédiaire et ces dernières, des résistantes :\nS\n£\n4 mg/l et R > 4 mg/l\nLa prévalence de la résistance acquise peut varier en fonction de la géographie et du temps pour certaines espèces. Il est donc utile de disposer d'informations sur la prévalence de la résistance locale, surtout pour le traitement d'infections sévères. Ces données ne peuvent apporter qu'une orientation sur les probabilités de la sensibilité d'une souche bactérienne à cet antibiotique.\nLorsque la variabilité de la prévalence de la résistance en France est connue pour une espèce bactérienne, elle est indiquée dans le tableau ci-dessous :\nCatégories\nFréquence de résistance acquise en France (> 10%) (valeurs extrêmes)\nESPÈCES SENSIBLES\nAérobies à Gram négatif\nHelicobacter pylori\n30 %\nAnaérobies\nBacteroides fragilis\nBifidobacterium\n60 - 70 %\nBilophila\nClostridium\nClostridium difficile\nClostridium perfringens\nEubacterium\n20 - 30 %\nFusobacterium\nPeptostreptococcus\nPorphyromonas\nPrevotella\nVeillonella\nESPÈCES RÉSISTANTES\nAérobies à Gram positif\nActinomyces\nAnaérobies\nMobiluncus\nPropionibacterium acnes\nACTIVITÉ ANTIPARASITAIRE\nEntamoeba histolytica\nGiardia intestinalis\nTrichomonas vaginalis\nRemarque\n: ce spectre correspond à celui des formes systémiques du métronidazole. Avec les présentations pharmaceutiques locales, les concentrations obtenues\nin situ\nsont très supérieures aux concentrations plasmatiques. Quelques incertitudes demeurent sur la cinétique des concentrations\nin situ\n, sur les conditions physico-chimiques locales qui peuvent modifier l’activité de l’antibiotique et sur la stabilité du produit\nin situ\n.\n5.2. Propriétés pharmacocinétiques\nAprès application sur le visage de 12 sujets sains de 1 g de ROZACREME 0,75%, crème, la concentration sérique moyenne de métronidazole rapportée est de 32,9 ng/ml (14,8 à 54,4 ng/ml). Ce résultat est inférieur à moins de 1 % de la concentration sérique moyenne retrouvée chez les sujets sains après administration de 250 mg de métronidazole par voie orale (C\nmax\nmoyenne = 7245 ng/ml : 4270 à 13 970 ng/ml).\nLe pic de ces concentrations se situe entre 0,25 et 4 heures après une administration orale de métronidazole et entre 6 et 24 heures après une application cutanée de ROZACREME 0,75%, crème.\n5.3. Données de sécurité préclinique\nUne apparition plus précoce des tumeurs cutanées induites par rayonnement UV chez la souris nue traitée par le métronidazole par voie intrapéritonéale a été observée.\n6. DONNEES PHARMACEUTIQUES\nRedirection vers le haut de page\n6.1. Liste des excipients\nAlcool benzylique, palmitate d'isopropyle, glycérol, sorbitol à 70 pour cent non cristallisable, cire émulsifiable, acide lactique et/ou hydroxyde de sodium, eau purifiée.\n6.2. Incompatibilités\nSans objet.\n6.3. Durée de conservation\n3 ans.\n6.4. Précautions particulières de conservation\nA conserver à une température ne dépassant pas 25°C.\nNe pas réfrigérer.\n6.5. Nature et contenu de l'emballage extérieur\nTube de 30 g en aluminium + vernis (résine de type époxy-phénolique), fermé par un bouchon blanc en polypropylène.\n6.6. Précautions particulières d’élimination et de manipulation\nPas d’exigences particulières.\n7. TITULAIRE DE L’AUTORISATION DE MISE SUR LE MARCHE\nRedirection vers le haut de page\nLaboratoires Bailleul S.A.\n14/16 avenue Pasteur\nL-2310 Luxembourg\nLUXEMBOURG\n8. NUMERO(S) D’AUTORISATION DE MISE SUR LE MARCHE\nRedirection vers le haut de page\n·\n34009 353 459 3 6 : tube de 30 g en aluminium + vernis (résine de type époxy-phénolique).\n9. DATE DE PREMIERE AUTORISATION/DE RENOUVELLEMENT DE L’AUTORISATION\nRedirection vers le haut de page\nA compléter ultérieurement par le titulaire\n10. DATE DE MISE A JOUR DU TEXTE\nRedirection vers le haut de page\nA compléter ultérieurement par le titulaire\n11. DOSIMETRIE\nRedirection vers le haut de page\nSans objet.\n12. INSTRUCTIONS POUR LA PREPARATION DES RADIOPHARMACEUTIQUES\nRedirection vers le haut de page\nSans objet.\nCONDITIONS DE PRESCRIPTION ET DE DELIVRANCE\nListe I.",
+  "ingredients": [
+    "Métronidazole........................................................................................................................ 0,75 g",
+    "Pour 100 g.",
+    "Excipient à effet notoire : alcool benzylique (22 mg/g de crème)",
+    "Pour la liste complète des excipients, voir rubrique 6.1."
+  ],
+  "source_rank": 4
+}

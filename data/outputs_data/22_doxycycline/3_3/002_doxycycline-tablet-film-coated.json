@@ -1,0 +1,436 @@
+{
+  "source": "dailymed",
+  "source_priority": 3,
+  "drug_id": 22,
+  "language": "en",
+  "doc_type": "label",
+  "label_type": "HUMAN PRESCRIPTION DRUG LABEL",
+  "title": "DOXYCYCLINE TABLET, FILM COATED [ZYDUS PHARMACEUTICALS USA INC.]",
+  "brand": "DOXYCYCLINE TABLET, FILM COATED",
+  "dci": "",
+  "manufacturer": "Zydus Pharmaceuticals USA Inc.",
+  "setid": "bc321932-b600-4659-a499-1853991b4ab9",
+  "spl_version": "8",
+  "published_date": "Nov 09, 2026",
+  "effective_date": "20261102",
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bc321932-b600-4659-a499-1853991b4ab9",
+  "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bc321932-b600-4659-a499-1853991b4ab9",
+  "sections": [
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "To reduce the development of drug-resistant bacteria and maintain the effectiveness of doxycycline tablets and other antibacterial drugs, doxycycline tablets should be used only to treat or prevent infections that are proven or strongly suspected to be caused by bacteria."
+    },
+    {
+      "key": [
+        "description",
+        "Description"
+      ],
+      "label": "Description",
+      "number": "34089-3",
+      "title": "DESCRIPTION",
+      "text": "Doxycycline is a broad-spectrum antibacterial synthetically derived from oxytetracycline. Doxycycline tablets USP, 50 mg, 75 mg, 100 mg and 150 mg contain doxycycline monohydrate equivalent to 50 mg, 75 mg, 100 mg or 150 mg of doxycycline, USP for oral administration. \nDoxycycline, USP is light yellow to pale yellow powder, very slightly soluble in alcohol and water; practically insoluble in ether. It dissolves in dilute solutions of mineral acids and in solutions of alkali hydroxides and carbonates. Its molecular weight is 462.45. The chemical designation of doxycycline is alpha-6-deoxy-5-oxytetracycline.\nStructural formula:\n\nImage\n\nC22H24N2O8•H2O                                               M.W. = 462.45\nDoxycycline has a high degree of lipid solubility and a low affinity for calcium binding. It is highly stable in normal human serum. Doxycycline will not degrade into an epianhydro form.\nInactive ingredients are as follows: colloidal silicon dioxide, crospovidone, hydroxyl propyl methylcellulose, magnesium stearate and microcrystalline cellulose, titanium dioxide. \nIn addition, \n50 mg tablets contain: D&C yellow#10 aluminum lake, FD&C blue#2, iron oxide yellow, polyethylene glycol and polysorbate 80. \n75 mg tablets contain: iron oxide red, iron oxide yellow, lactose monohydrate, triethyl citrate.\n100 mg tablets contain: D&C yellow#10 aluminum lake, FD&C red#40, iron oxide yellow, polyethylene glycol, polysorbate 80.\n150 mg tablets contain: D&C yellow#10 aluminum lake, iron oxide red, iron oxide yellow, lactose monohydrate, triethyl citrate.\nThe Product meets USP dissolution test - 2\n\nStructural formula"
+    },
+    {
+      "key": [
+        "pharmacologie",
+        "Clinical Pharmacology"
+      ],
+      "label": "Clinical Pharmacology",
+      "number": "34090-1",
+      "title": "CLINICAL PHARMACOLOGY",
+      "text": "Tetracyclines are readily absorbed and are bound to plasma proteins in varying degrees. They are concentrated by the liver in the bile and excreted in the urine and feces at high concentrations in a biologically active form. Doxycycline is virtually completely absorbed after oral administration.\nFollowing a 200 mg dose of doxycycline monohydrate, 24 normal adult volunteers averaged the following serum concentration values:\n\n Time (hr):\n\n | \n 0.5\n\n | \n 1.0\n\n | \n 1.5\n\n | \n 2.0\n\n | \n 3.0\n\n | \n 4.0\n\n | \n 8.0\n\n | \n 12.0\n\n | \n 24.0\n\n | \n 48.0\n\n | \n 72.0\n\n | \n\n Conc:(mcg/mL)\n\n | \n 1.02\n\n | \n 2.26\n\n | \n 2.67\n\n | \n 3.01\n\n | \n 3.16\n\n | \n 3.03\n\n | \n 2.03\n\n | \n 1.62\n\n | \n 0.95\n\n | \n 0.37\n\n | \n 0.15\n\n |"
+    },
+    {
+      "key": "section_average_observed_values",
+      "label": "Average Observed Values",
+      "number": "",
+      "title": "Average Observed Values",
+      "text": "Maximum Concentration\n\n | \n 3.61 mcg/mL (± 0.9 sd)\n\n | \n\n Time of Maximum Concentration\n\n | \n 2.60 hr (± 1.10 sd)\n\n | \n\n Elimination Rate Constant\n\n | \n 0.049 per hr (± 0.030 sd)\n\n | \n\n Half-Life\n\n | \n 16.33 hr (± 4.53 sd)\n\n | \n\nExcretion of doxycycline by the kidney is about 40%/72 hours in individuals with normal function (creatinine clearance about 75 mL/min). This percentage excretion may fall as low as 1 to 5%/72 hours in individuals with severe renal insufficiency (creatinine clearance below 10 mL/min). Studies have shown no significant difference in serum half-life of doxycycline (range 18 to 22 hours) in individuals with normal and severely impaired renal function.\nHemodialysis does not alter serum half-life.\nResults of animal studies indicate that tetracyclines cross the placenta and are found in fetal tissues.\nPopulation pharmacokinetic analysis of sparse concentration-time data of doxycycline following standard of care intravenous and oral dosing in 44 pediatric patients (2 years to18 years of age) showed that allometrically–scaled clearance (CL) of doxycycline in pediatric patients ≥2 years to ≤8 years of age (median [range] 3.58 [2.27 to 1 0.82] L/h/70 kg, N =11) did not differ significantly from pediatric patients >8 to 18 years of age (3.27 [1.11 to 8.12] L/h/70 kg, N=33). For pediatric patients weighing ≤45 kg, body weight normalized doxycycline CL in those ≥2 years to ≤8 years of age (median [range] 0.071 [0 .041 to 0.202] L/kg/h, N=10) did not differ significantly from those >8 years to 18 years of age (0.081 [0.035 to 0.126] L/kg/h, N=8). In pediatric patients weighing >45 kg, no clinically significant differences in body weight normalized doxycycline CL were observed between those ≥2 years to ≤8 years (0.050 L/kg/h, N=1) and those >8 years to 18 years of age (0.044 [0.014 to 0.121] L/kg/h, N=25). No clinically significant difference in CL between oral and IV dosing was observed in the small cohort of pediatric patients who received the oral (N=19) or IV (N=21) formulation alone."
+    },
+    {
+      "key": [
+        "mecanisme_action",
+        "Mechanism of Action"
+      ],
+      "label": "Mechanism of Action",
+      "number": "43679-0",
+      "title": "Microbiology",
+      "text": "Mechanism of Action\n\nDoxycycline inhibits bacterial protein synthesis by binding to the 30S ribosomal subunit. Doxycycline has bacteriostatic activity against a broad range of Gram-positive and Gram-negative bacteria. \n\nResistance\n\nCross resistance with other tetracyclines is common.\n\nAntimicrobial Activity\n\nDoxycycline has been shown to be active against most isolates of the following microorganisms, both in vitro and in clinical infections (see \nINDICATIONS AND USAGE\n\n)."
+    },
+    {
+      "key": "section_",
+      "label": "",
+      "number": "",
+      "title": "",
+      "text": "Acinetobacter species \n\nBartonella bacilliformis \n\nBrucella species \n\nCampylobacter fetus\n\nEnterobacter aerogenes \n\nEscherichia coli \n\nFrancisella tularensis \n\nHaemophilus ducreyi \n\nHaemophilus influenzae \n\nKlebsiella granulomatis\n\nKlebsiella species\n\nNeisseria gonorrhoeae \n\nShigella species \n\nVibrio cholerae \n\nYersinia pestis"
+    },
+    {
+      "key": "section_",
+      "label": "",
+      "number": "",
+      "title": "",
+      "text": "Bacillus anthracis\n\nListeria monocytogenes\n\nStreptococcus pneumoniae"
+    },
+    {
+      "key": "section_",
+      "label": "",
+      "number": "",
+      "title": "",
+      "text": "Clostridium species \n\nFusobacterium fusiforme \n\nPropionibacterium acnes"
+    },
+    {
+      "key": "section_",
+      "label": "",
+      "number": "",
+      "title": "",
+      "text": "Nocardiae and other Actinomyces species\n\nBorrelia recurrentis \n\nChlamydophila psittaci \n\nChlamydia trachomatis \n\nMycoplasma pneumoniae \n\nRickettsiae \n\nTreponema pallidum \n\nTreponema pallidum subspecies pertenue \n\nUreaplasma urealyticum"
+    },
+    {
+      "key": "section_",
+      "label": "",
+      "number": "",
+      "title": "",
+      "text": "Balantidium coli\n\nEntamoeba species"
+    },
+    {
+      "key": "section_susceptibility_testing",
+      "label": "Susceptibility Testing",
+      "number": "",
+      "title": "Susceptibility Testing",
+      "text": "For specific information regarding susceptibility test interpretive criteria and associated test methods and quality control standards recognized by FDA for this drug, please see: https://www.fda.gov/STIC."
+    },
+    {
+      "key": [
+        "indications",
+        "Indications and Usage"
+      ],
+      "label": "Indications and Usage",
+      "number": "34067-9",
+      "title": "INDICATIONS AND USAGE",
+      "text": "To reduce the development of drug-resistant bacteria and maintain the effectiveness of doxycycline tablets and other antibacterial drugs, doxycycline tablets should be used only to treat or prevent infections that are proven or strongly suspected to be caused by susceptible bacteria. When culture and susceptibility information are available, they should be considered in selecting or modifying antibacterial therapy. In the absence of such data, local epidemiology and susceptibility patterns may contribute to the empiric selection of therapy.\nDoxycycline is indicated for the treatment of the following infections:\nRocky mountain spotted fever, typhus fever and the typhus group, Q fever, rickettsialpox, and tick fevers caused by Rickettsiae.\nRespiratory tract infections caused by Mycoplasma pneumoniae.\nLymphogranuloma venereum caused by Chlamydia trachomatis.\n\nPsittacosis (ornithosis) caused by Chlamydophila psittaci.\n\nTrachoma caused by Chlamydia trachomatis, although the infectious agent is not always eliminated as judged by immunofluorescence.\nInclusion conjunctivitis caused by Chlamydia trachomatis.\nUncomplicated urethral, endocervical or rectal infections in adults caused by Chlamydia trachomatis.\nNongonococcal urethritis caused by Ureaplasma urealyticum.\nRelapsing fever due to Borrelia recurrentis.\nDoxycycline is also indicated for the treatment of infections caused by the following gram-negative microorganisms:\nChancroid caused by Haemophilus ducreyi.\n\nPlague due to Yersinia pestis. \n\nTularemia due to Francisella tularensis. \n\nCholera caused by Vibrio \ncholerae.\n\nCampylobacter fetus infections caused by Campylobacter fetus.\n\nBrucellosis due to Brucella species (in conjunction with streptomycin).\nBartonellosis due to Bartonella bacilliformis.\n\nGranuloma inguinale caused by Klebsiella \ngranulomatis.\n\nBecause many strains of the following groups of microorganisms have been shown to be resistant to doxycycline, culture and susceptibility testing are recommended.\nDoxycycline is indicated for treatment of infections caused by the following gram-negative microorganisms, when bacteriologic testing indicates appropriate susceptibility to the drug:\n\nEscherichia coli\n\nEnterobacter aerogenes \n\nShigella species\n\nAcinetobacter species \nRespiratory tract infections caused by Haemophilus influenzae.\n\nRespiratory tract and urinary tract infections caused by Klebsiella species.\nDoxycycline is indicated for treatment of infections caused by the following gram-positive microorganisms when bacteriologic testing indicates appropriate susceptibility to the drug:\nUpper respiratory infections caused by Streptococcus pneumoniae. \n\nAnthrax due to Bacillus anthracis, including inhalational anthrax (post-exposure): to reduce the incidence or progression of disease following exposure to aerosolized Bacillus anthracis.\n\nWhen penicillin is contraindicated, doxycycline is an alternative drug in the treatment of the following infections:\nUncomplicated gonorrhea caused by Neisseria gonorrhoeae.\nSyphilis caused by Treponema pallidum.\n\nYaws caused by Treponema pallidum subspecies pertenue.\n\nListeriosis due to Listeria monocytogenes.\n\nVincent's infection caused by Fusobacterium fusiforme.\n\nActinomycosis caused by Actinomyces israelii.\n\nInfections caused by Clostridium species.\n\nIn acute intestinal amebiasis, doxycycline may be a useful adjunct to amebicides.\nIn severe acne, doxycycline may be useful adjunctive therapy."
+    },
+    {
+      "key": [
+        "contre_indications",
+        "Contraindications"
+      ],
+      "label": "Contraindications",
+      "number": "34070-3",
+      "title": "CONTRAINDICATIONS",
+      "text": "This drug is contraindicated in persons who have shown hypersensitivity to any of the tetracyclines."
+    },
+    {
+      "key": "section_warnings",
+      "label": "WARNINGS",
+      "number": "34071-1",
+      "title": "WARNINGS",
+      "text": "The use of drugs of the tetracycline class, including doxycycline, during tooth development (last half of pregnancy, infancy and childhood to the age of 8 years) may cause permanent discoloration of the teeth (yellow-gray-brown). This adverse reaction is more common during long-term use of the drugs, but it has been observed following repeated short-term courses. Enamel hypoplasia has also been reported. Use of doxycycline in pediatric patients 8 years of age or less only when the potential benefits are expected to outweigh the risks in severe or life-threatening conditions (e.g. anthrax, Rocky Mountain spotted fever), particularly when there are no alternative therapies.\n\nClostridium difficile associated diarrhea (CDAD) has been reported with use of nearly all antibacterial agents, including doxycycline tablets, and may range in severity from mild diarrhea to fatal colitis. Treatment with antibacterial agents alters the normal flora of the colon leading to overgrowth of C. difficile.\n\nC. difficile produces toxins A and B which contribute to the development of CDAD. Hypertoxin producing strains of C. difficile cause increased morbidity and mortality, as these infections can be refractory to antimicrobial therapy and may require colectomy. CDAD must be considered in all patients who present with diarrhea following antibiotic use. Careful medical history is necessary since CDAD has been reported to occur over two months after the administration of antibacterial agents.\nIf CDAD is suspected or confirmed, ongoing antibiotic use not directed against C. difficile may need to be discontinued. Appropriate fluid and electrolyte management, protein supplementation, antibiotic treatment of C. difficile, and surgical evaluation should be instituted as clinically indicated.\nIntracranial hypertension (IH, pseudotumor cerebri) has been associated with the use of tetracyclines including doxycycline. Clinical manifestations of IH include headache, blurred vision, diplopia, and vision loss; papilledema can be found on fundoscopy. Women of childbearing age who are overweight or have a history of IH are at greater risk for developing tetracycline associated IH. Concomitant use of isotretinoin and doxycycline should be avoided because isotretinoin is also known to cause pseudotumor cerebri.\nAlthough IH typically resolves after discontinuation of treatment, the possibility for permanent visual loss exists. If visual disturbance occurs during treatment, prompt ophthalmologic evaluation is warranted. Since intracranial pressure can remain elevated for weeks after drug cessation patients should be monitored until they stabilize.\nAll tetracyclines form a stable calcium complex in any bone-forming tissue. A decrease in the fibula growth rate has been observed in prematures given oral tetracycline in doses of 25 mg/kg every six hours. This reaction was shown to be reversible when the drug was discontinued.\nResults of animal studies indicate that tetracyclines cross the placenta, are found in fetal tissues, and can have toxic effects on the developing fetus (often related to retardation of skeletal development). Evidence of embryo toxicity has been noted in animals treated early in pregnancy. If any tetracycline is used during pregnancy or if the patient becomes pregnant while taking these drugs, the patient should be apprised of the potential hazard to the fetus.\nThe antianabolic action of the tetracyclines may cause an increase in BUN. Studies to date indicate that this does not occur with the use of doxycycline in patients with impaired renal function.\nPhotosensitivity manifested by an exaggerated sunburn reaction has been observed in some individuals taking tetracyclines. Patients apt to be exposed to direct sunlight or ultraviolet light should be advised that this reaction can occur with tetracycline drugs, and treatment should be discontinued at the first evidence of skin erythema.\nFixed drug eruptions have occurred with doxycycline and have been associated with worsening severity upon subsequent administrations, including generalized bullous fixed drug eruption (see \nADVERSE REACTIONS\n). If severe skin reactions occur, discontinue doxycycline capsules immediately and institute appropriate therapy."
+    },
+    {
+      "key": "section_general",
+      "label": "General",
+      "number": "",
+      "title": "General",
+      "text": "As with other antibacterial preparations, use of this drug may result in overgrowth of non-susceptible organisms, including fungi. If superinfection occurs, doxycycline tablets should be discontinued and appropriate therapy instituted. \nIncision and drainage or other surgical procedures should be performed in conjunction with antibacterial therapy when indicated.\nPrescribing doxycycline tablets in the absence of a proven or strongly suspected bacterial infection or prophylactic indication is unlikely to provide benefit to the patient and increases the risk of the development of drug-resistant bacteria."
+    },
+    {
+      "key": [
+        "information_patient",
+        "Information for Patients"
+      ],
+      "label": "Information for Patients",
+      "number": "34076-0",
+      "title": "Information for Patients",
+      "text": "All patients taking doxycycline should be advised:\n- to avoid excessive sunlight or artificial ultraviolet light while receiving doxycycline and to discontinue therapy if phototoxicity (e.g., skin eruptions, etc.) occurs. Sunscreen or sunblock should be considered (see \nWARNINGS\n).\n- to drink fluids liberally along with doxycycline to reduce the risk of esophageal irritation and ulceration (see \nADVERSE REACTIONS\n).\n- that the absorption of tetracyclines is reduced when taken with foods, especially those which contain calcium. However, the absorption of doxycycline is not markedly influenced by simultaneous ingestion of food or milk (see \nDrug Interactions\n).\n- that the absorption of tetracyclines is reduced when taking bismuth subsalicylate (see \nDrug Interactions\n).\n-  not to use outdated or poorly stored doxycycline.\n-  that the use of doxycycline might increase the incidence of vaginal candidiasis.\nDiarrhea is a common problem caused by antibiotics which usually ends when the antibiotic is discontinued. Sometimes after starting treatment with antibiotics, patients can develop watery and bloody stools (with or without stomach cramps and fever) even as late as two or more months after having taken the last dose of the antibiotic. If this occurs, patients should contact their physician as soon as possible.\nPatients should be counseled that antibacterial drugs including doxycycline tablets should only be used to treat bacterial infections. They do not treat viral infections (e.g., the common cold). When doxycycline tablets are prescribed to treat a bacterial infection, patients should be told that although it is common to feel better early in the course of therapy, the medication should be taken exactly as directed. Skipping doses or not completing the full course of therapy may (1) decrease the effectiveness of the immediate treatment and (2) increase the likelihood that bacteria will develop resistance and will not be treatable by doxycycline tablets or other antibacterial drugs in the future."
+    },
+    {
+      "key": "section_laboratory_tests",
+      "label": "Laboratory Tests",
+      "number": "34075-2",
+      "title": "Laboratory Tests",
+      "text": "In venereal disease when coexistent syphilis is suspected, a dark-field examination should be done before treatment is started and the blood serology repeated monthly for at least four months.\nIn long-term therapy, periodic laboratory evaluations of organ systems, including hematopoietic, renal, and hepatic studies should be performed."
+    },
+    {
+      "key": [
+        "interactions",
+        "Drug Interactions"
+      ],
+      "label": "Drug Interactions",
+      "number": "34073-7",
+      "title": "Drug Interactions",
+      "text": "Because tetracyclines have been shown to depress plasma prothrombin activity, patients who are on anticoagulant therapy may require downward adjustment of their anticoagulant dosage.\nSince bacteriostatic drugs may interfere with the bactericidal action of penicillin, it is advisable to avoid giving tetracyclines in conjunction with penicillin.\nAbsorption of tetracyclines is impaired by antacids containing aluminum, calcium, or magnesium, and iron-containing preparations.\nAbsorption of tetracyclines is impaired by bismuth subsalicylate.\nBarbiturates, carbamazepine, and phenytoin decrease the half-life of doxycycline.\nConcurrent use of tetracycline may render oral contraceptives less effective."
+    },
+    {
+      "key": "section_drug_laboratory_test_interactions",
+      "label": "Drug/Laboratory Test Interactions",
+      "number": "",
+      "title": "Drug/Laboratory Test Interactions",
+      "text": "False elevations of urinary catecholamine levels may occur due to interference with the fluorescence test."
+    },
+    {
+      "key": "section_carcinogenesis_mutagenesis_impairment_of",
+      "label": "Carcinogenesis, Mutagenesis, Impairment of Fertility",
+      "number": "34083-6",
+      "title": "Carcinogenesis, Mutagenesis, Impairment of Fertility",
+      "text": "Long-term studies in animals to evaluate the carcinogenic potential of doxycycline have not been conducted.\nHowever, there has been evidence of oncogenic activity in rats in studies with related antibacterial, oxytetracycline (adrenal and pituitary tumors) and minocycline (thyroid tumors). Likewise, although mutagenicity studies of doxycycline have not been conducted, positive results in in vitro mammalian cell assays have been reported for related antibacterial (tetracycline, oxytetracycline). Doxycycline administered orally at dosage levels as high as          250 mg/kg/day had no apparent effect on the fertility of female rats. Effect on male fertility has not been studied."
+    },
+    {
+      "key": "section_pregnancy_teratogenic_effects_pregnancy_",
+      "label": "Pregnancy: Teratogenic Effects. Pregnancy Category D",
+      "number": "",
+      "title": "Pregnancy: Teratogenic Effects. Pregnancy Category D",
+      "text": "There are no adequate and well-controlled studies on the use of doxycycline in pregnant short-term, first trimester exposure. There are no human data available to assess the effects of long-term therapy of doxycycline in pregnant women such as that proposed for treatment of anthrax exposure. An expert review of published data on experiences with doxycycline use during pregnancy by TERIS - the Teratogen Information System - concluded that therapeutic doses during pregnancy are unlikely to pose a substantial teratogenic risk (the quantity and quality of data were assessed as limited to fair), but the data are insufficient to state that there is no risk.1\n\nA case-control study (18,515 mothers of infants with congenital anomalies and 32,804 mothers of infants with no congenital anomalies) shows a weak but marginally statistically significant association with total malformations and use of doxycycline anytime during pregnancy. (Sixty-three (0.19%) of the controls and 56 (0.30%) of the cases were treated with doxycycline.) This association was not seen when the analysis was confined to maternal treatment during the period of organogenesis (i.e., in the second and third months of gestation) with the exception of a marginal relationship with neural tube defect based on only two exposed cases.2\n\nA small prospective study of 81 pregnancies describes 43 pregnant women treated for 10 days with doxycycline during early first trimester. All mothers reported their exposed infants were normal at 1 year of age.3"
+    },
+    {
+      "key": "section_labor_and_delivery",
+      "label": "Labor and Delivery",
+      "number": "34079-4",
+      "title": "Labor and Delivery",
+      "text": "The effect of tetracyclines on labor and delivery is unknown."
+    },
+    {
+      "key": "section_nursing_mothers",
+      "label": "Nursing Mothers",
+      "number": "34080-2",
+      "title": "Nursing Mothers",
+      "text": "Tetracyclines are excreted in human milk, however, the extent of absorption of tetracyclines, including doxycycline, by the breastfed infant is not known. Short-term use by lactating women is not necessarily contraindicated; however, the effects of prolonged exposure to doxycycline in breast milk are unknown.4 Because of the potential for adverse reactions in nursing infants from doxycycline, a decision should be made whether to discontinue nursing or to discontinue the drug, taking into account the importance of the drug to the mother. (See \nWARNINGS.)"
+    },
+    {
+      "key": "section_pediatric_use",
+      "label": "Pediatric Use",
+      "number": "34081-0",
+      "title": "Pediatric Use",
+      "text": "Because of the effects of drugs of the tetracycline –class, on tooth development and growth, use doxycycline in pediatric patients 8 years of age or less only when the potential benefits are expected to outweigh the risks in severe or life-threatening conditions (e.g. anthrax, Rocky Mountain spotted fever), particularly when there are no alternative therapies. (see \nWARNINGS\n and \nDOSAGE AND ADMINISTRATION\n)."
+    },
+    {
+      "key": [
+        "effets_indesirables",
+        "Adverse Reactions"
+      ],
+      "label": "Adverse Reactions",
+      "number": "34084-4",
+      "title": "ADVERSE REACTIONS",
+      "text": "Due to oral doxycycline's virtually complete absorption, side effects to the lower bowel, particularly diarrhea, have been infrequent. The following adverse reactions have been observed in patients receiving tetracyclines."
+    },
+    {
+      "key": "section_gastrointestinal",
+      "label": "Gastrointestinal",
+      "number": "",
+      "title": "Gastrointestinal",
+      "text": "Anorexia, nausea, vomiting, diarrhea, glossitis, dysphagia, enterocolitis, and inflammatory lesions (with monilial overgrowth) in the anogenital region, and pancreatitis. Hepatotoxicity has been reported.These reactions have been caused by both the oral and parenteral administration of tetracyclines. Rare instances of esophagitis and esophageal ulcerations have been reported in patients receiving capsule and tablet forms of drugs in the tetracycline class. Most of these patients took medications immediately before going to bed (see \nDOSAGE AND ADMINISTRATION\n)."
+    },
+    {
+      "key": "section_skin",
+      "label": "Skin",
+      "number": "",
+      "title": "Skin",
+      "text": "Maculopapular and erythematous rashes, Stevens-Johnson syndrome, toxic epidermal necrolysis, erythema multiforme, and fixed drug eruption have been reported. Exfoliative dermatitis has been reported but is uncommon. Photosensitivity is discussed above (see \nWARNINGS\n)."
+    },
+    {
+      "key": "section_renal_toxicity",
+      "label": "Renal Toxicity",
+      "number": "",
+      "title": "Renal Toxicity",
+      "text": "Rise in BUN has been reported and is apparently dose related (see \nWARNINGS\n)."
+    },
+    {
+      "key": "section_hypersensitivity_reactions",
+      "label": "Hypersensitivity Reactions",
+      "number": "",
+      "title": "Hypersensitivity Reactions",
+      "text": "Urticaria, angioneurotic edema, anaphylaxis, anaphylactoid purpura, serum sickness, pericarditis, and exacerbation of systemic lupus erythematosus."
+    },
+    {
+      "key": "section_blood",
+      "label": "Blood",
+      "number": "",
+      "title": "Blood",
+      "text": "Hemolytic anemia, thrombocytopenia, neutropenia, and eosinophilia have been reported with tetracyclines."
+    },
+    {
+      "key": "section_psychiatric",
+      "label": "Psychiatric",
+      "number": "",
+      "title": "Psychiatric",
+      "text": "Depression, anxiety, suicidal ideation, insomnia, abnormal dreams, hallucination"
+    },
+    {
+      "key": "section_other",
+      "label": "Other",
+      "number": "",
+      "title": "Other",
+      "text": "Intracranial hypertension (IH, pseudotumor cerebri) has been associated with the use of tetracyclines (see \nPRECAUTIONS-General\n). \nWhen given over prolonged periods, tetracyclines have been reported to produce brown-black microscopic discoloration of the thyroid gland. No abnormalities of thyroid function are known to occur.\n\nCall your healthcare provider for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088."
+    },
+    {
+      "key": [
+        "surdosage",
+        "Overdosage"
+      ],
+      "label": "Overdosage",
+      "number": "34088-5",
+      "title": "OVERDOSAGE",
+      "text": "In case of overdosage, discontinue medication, treat symptomatically and institute supportive measures. Dialysis does not alter serum half-life, and it would not be of benefit in treating cases of overdosage."
+    },
+    {
+      "key": [
+        "posologie",
+        "Dosage and Administration"
+      ],
+      "label": "Dosage and Administration",
+      "number": "34068-7",
+      "title": "DOSAGE AND ADMINISTRATION",
+      "text": "THE USUAL DOSAGE AND FREQUENCY OF ADMINISTRATION OF DOXYCYCLINE DIFFERS FROM THAT OF THE OTHER TETRACYCLINES. EXCEEDING THE RECOMMENDED DOSAGE MAY RESULT IN AN INCREASED INCIDENCE OF SIDE EFFECTS."
+    },
+    {
+      "key": "section_",
+      "label": "",
+      "number": "",
+      "title": "",
+      "text": "The usual dose of oral doxycycline is 200 mg on the first day of treatment (administered 100 mg every 12 hours or 50 mg every 6 hours) followed by a maintenance dose of 100 mg/day. The maintenance dose may be administered as a single dose or as 50 mg every 12 hours. In the management of more severe infections (particularly chronic infections of the urinary tract), 100 mg every 12 hours is recommended."
+    },
+    {
+      "key": "section_",
+      "label": "",
+      "number": "",
+      "title": "",
+      "text": "For all pediatric patients weighing less than 45 kg with severe or life-threatening infections (e.g. anthrax, Rocky Mountain spotted fever), the recommended dosage is 2.2 mg/kg of body weight administered every 12 hours. Children weighing 45 kg or more should receive the adult dose (see \nWARNINGS\n and \nPRECAUTIONS\n).\nFor pediatric patients with less severe disease (greater than 8 years of age and weighing less than 45 kg), the recommended dosage schedule is 4.4 mg per kg of body weight divided into two doses on the first day of treatment, followed by a maintenance dose of 2.2 mg per kg of body weight (given as a single daily dose or divided into twice daily doses). For pediatric patients weighing over 45 kg, the usual adult dose should be used.\nThe therapeutic antibacterial serum activity will usually persist for 24 hours following recommended dosage.\nWhen used in streptococcal infections, therapy should be continued for 10 days.\nAdministration of adequate amounts of fluid along with capsule and tablet forms of drugs in the tetracycline class is recommended to wash down the drugs and reduce the risk of esophageal irritation and ulceration. (See \nADVERSE REACTIONS\n)\nIf gastric irritation occurs, it is recommended that doxycycline be given with food or milk. The absorption of doxycycline is not markedly influenced by simultaneous ingestion of food or milk.\nStudies to date have indicated that administration of doxycycline at the usual recommended doses does not lead to excessive accumulation of doxycycline in patients with renal impairment."
+    },
+    {
+      "key": "section_uncomplicated_gonococcal_infections_in_a",
+      "label": "Uncomplicated gonococcal infections in adults (except anorectal infections in men)",
+      "number": "",
+      "title": "Uncomplicated gonococcal infections in adults (except anorectal infections in men)",
+      "text": "100 mg, by mouth, twice a day for 7 days. As an alternate single visit dose, administer 300 mg stat followed in one hour by a second 300 mg dose."
+    },
+    {
+      "key": "section_acute_epididymo_orchitis_caused_by",
+      "label": "Acute epididymo-orchitis caused by",
+      "number": "",
+      "title": "Acute epididymo-orchitis caused by",
+      "text": "100 mg, by mouth, twice a day for at least 10 days."
+    },
+    {
+      "key": "section_primary_and_secondary_syphilis",
+      "label": "Primary and secondary syphilis",
+      "number": "",
+      "title": "Primary and secondary syphilis",
+      "text": "300 mg a day in divided doses for at least 10 days.\n\nUncomplicated urethral, endocervical, or rectal infection in adults caused by Chlamydia trachomatis\n\n100 mg, by mouth, twice a day for at least 7 days."
+    },
+    {
+      "key": "section_nongonococcal_urethritis_caused_by_c_tra",
+      "label": "Nongonococcal urethritis caused by C.trachomatis and U.urealyticum",
+      "number": "",
+      "title": "Nongonococcal urethritis caused by C.trachomatis and U.urealyticum",
+      "text": "100 mg, by mouth, twice a day for at least 7 days."
+    },
+    {
+      "key": "section_acute_epididymo_orchitis_caused_by",
+      "label": "Acute epididymo-orchitis caused by",
+      "number": "",
+      "title": "Acute epididymo-orchitis caused by",
+      "text": "100 mg, by mouth, twice a day for at least 10 days."
+    },
+    {
+      "key": "section_inhalational_anthrax_post_exposure",
+      "label": "Inhalational anthrax (post-exposure)",
+      "number": "",
+      "title": "Inhalational anthrax (post-exposure)",
+      "text": "ADULTS: 100 mg of doxycycline, by mouth, twice a day for 60 days.\nCHILDREN: weighing less than 45 kg 2.2 mg/kg of body weight, by mouth, twice a day for 60 days. Children weighing 45 kg or more should receive the adult dose."
+    },
+    {
+      "key": "conditionnement",
+      "label": "HOW SUPPLIED",
+      "number": "34069-5",
+      "title": "HOW SUPPLIED",
+      "text": "Doxycycline Tablets USP, 50 mg contains doxycycline monohydrate equivalent to 50 mg of doxycycline. Doxycycline Tablets USP, 50 mg are off-white to pale yellow colored, round, biconvex, beveled edged film coated tablets debossed with \"1121\" on one side and plain on other side and are supplied as follows:\nNDC 70710-1121-1 in bottle of 100 tablets with child-resistant closure\nDoxycycline Tablets USP, 75 mg contains doxycycline monohydrate equivalent to 75 mg of doxycycline. Doxycycline Tablets USP, 75 mg are light orange to creamish orange colored, round, biconvex, beveled edged film coated tablets debossed with \"1122\" on one side and plain on other side and are supplied as follows:\nNDC 70710-1122-1 in bottle of 100 tablets with child-resistant closure\nDoxycycline Tablets USP, 100 mg contains doxycycline monohydrate equivalent to 100 mg of doxycycline. Doxycycline Tablets USP, 100 mg are lemon yellow to buff colored, round, biconvex, beveled edged film coated tablets debossed with \"1123\" on one side and plain on other side and are supplied as follows:\nNDC 70710-1123-7 in bottle of 50 tablets with child-resistant closure\nNDC 70710-1123-8 in bottle of 250 tablets\nDoxycycline Tablets USP, 150 mg contains doxycycline monohydrate equivalent to 150 mg of doxycycline. Doxycycline Tablets USP, 150 mg are dark orange to creamish orange colored, round, biconvex, beveled edged film coated tablets debossed with scoreline on one side and debossed \"1124\" on other side and are supplied as follows:\nNDC 70710-1124-3 in bottle of 30 tablets with child-resistant closure\nNDC 70710-1124-1 in bottle of 100 tablets with child-resistant closure\nStore at 20°C to 25°C (68°F to 77°F) [See USP Controlled Room Temperature].\nDISPENSE IN A TIGHT LIGHT RESISTANT CONTAINER AS DEFINED IN THE USP/NF."
+    },
+    {
+      "key": "section_animal_pharmacology_or_toxicology_sectio",
+      "label": "ANIMAL PHARMACOLOGY & OR TOXICOLOGY SECTION",
+      "number": "34091-9",
+      "title": "ANIMAL PHARMACOLOGY & OR TOXICOLOGY SECTION",
+      "text": "Hyperpigmentation of the thyroid has been produced by members of the tetracycline class in the following species: in rats by oxytetracycline, doxycycline, tetracycline PO4, and methacycline; in minipigs by doxycycline, minocycline, tetracycline PO4, and methacycline; in dogs by doxycycline and minocycline; in monkeys by minocycline.\nMinocycline, tetracycline PO4, methacycline, doxycycline, tetracycline base, oxytetracycline hydrochloride and tetracycline hydrochloride were goitrogenic in rats fed a low iodine diet. This goitrogenic effect was accompanied by high radioactive iodine uptake. Administration of minocycline also produced a large goiter with high radioiodine uptake in rats fed a relatively high iodine diet.\nTreatment of various animal species with this class of drugs has also resulted in the induction of thyroid hyperplasia in the following: in rats and dogs (minocycline), in chickens (chlortetracycline) and in rats and mice (oxytetracycline). Adrenal gland hyperplasia has been observed in goats and rats treated with oxytetracycline."
+    },
+    {
+      "key": "section_references",
+      "label": "REFERENCES",
+      "number": "34093-5",
+      "title": "REFERENCES",
+      "text": "Friedman JM and Polifka JE. Teratogenic Effects of Drugs. A Resource for Clinicians (TERIS). Baltimore, MD: The Johns Hopkins University Press: 2000: 149-195.\nCziezel AE and Rockenbauer M. Teratogenic study of doxycycline. Obstet Gynecol 1997; 89:524-528.\nHorne HW Jr. and Kundsin RB. The role of mycoplasma among 81 consecutive pregnancies: a prospective study. Int J Fertil 1980; 25:315-317.\nHale T. Medications and Mothers Milk. 9th edition. Amarillo, TX: Pharmasoft Publishing 2000; 225-226."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Manufactured by:\n\nZydus Lifesciences Ltd.\n\nIndia.\n\nDistributed by:\n\nZydus Pharmaceuticals (USA) Inc.\n\nPennington, NJ 08534\nRev.: 06/23"
+    },
+    {
+      "key": "section_package_label_principal_display_panel",
+      "label": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+      "number": "51945-4",
+      "title": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+      "text": "NDC 70710-1121-1\nDoxycycline Tablets USP, 50 mg\n100 Tablets\nRx only\n\nNDC 70710-1122-1\nDoxycycline Tablets USP , 75 mg\n100 Tablets\nRx only\n\nNDC 70710-1123-7\nDoxycycline Tablets USP, 100 mg\n50 Tablets \nRx only\n\nNDC 70710-1124-3\nDoxycycline Tablets USP, 150 mg\n30 Tablets\nRx only\n\nDoxycycline Tablets USP, 50 mg\n\nDoxycycline Tablets USP, 75 mg\n\n100 mg\n\n150 mg"
+    }
+  ],
+  "ingredients": [
+    "DOXYCYCLINE (Active) - 50 mg",
+    "CELLULOSE, MICROCRYSTALLINE (Inactive)",
+    "CROSPOVIDONE (Inactive)",
+    "D&C YELLOW NO. 10 (Inactive)",
+    "FD&C BLUE NO. 2 (Inactive)",
+    "FERRIC OXIDE YELLOW (Inactive)",
+    "HYPROMELLOSES (Inactive)",
+    "MAGNESIUM STEARATE (Inactive)",
+    "POLYETHYLENE GLYCOL, UNSPECIFIED (Inactive)",
+    "POLYSORBATE 80 (Inactive)",
+    "SILICON DIOXIDE (Inactive)",
+    "TITANIUM DIOXIDE (Inactive)",
+    "DOXYCYCLINE (Active) - 75 mg",
+    "CELLULOSE, MICROCRYSTALLINE (Inactive)",
+    "CROSPOVIDONE (Inactive)",
+    "FERRIC OXIDE RED (Inactive)",
+    "FERRIC OXIDE YELLOW (Inactive)",
+    "HYPROMELLOSES (Inactive)",
+    "LACTOSE MONOHYDRATE (Inactive)",
+    "MAGNESIUM STEARATE (Inactive)",
+    "SILICON DIOXIDE (Inactive)",
+    "TITANIUM DIOXIDE (Inactive)",
+    "TRIETHYL CITRATE (Inactive)",
+    "DOXYCYCLINE (Active) - 100 mg",
+    "CELLULOSE, MICROCRYSTALLINE (Inactive)",
+    "CROSPOVIDONE (Inactive)",
+    "D&C YELLOW NO. 10 (Inactive)",
+    "FD&C RED NO. 40 (Inactive)",
+    "FERRIC OXIDE YELLOW (Inactive)",
+    "HYPROMELLOSES (Inactive)",
+    "MAGNESIUM STEARATE (Inactive)",
+    "POLYETHYLENE GLYCOL, UNSPECIFIED (Inactive)",
+    "POLYSORBATE 80 (Inactive)",
+    "SILICON DIOXIDE (Inactive)",
+    "TITANIUM DIOXIDE (Inactive)",
+    "DOXYCYCLINE (Active) - 150 mg",
+    "CELLULOSE, MICROCRYSTALLINE (Inactive)",
+    "CROSPOVIDONE (Inactive)",
+    "D&C YELLOW NO. 10 (Inactive)",
+    "FERRIC OXIDE RED (Inactive)",
+    "FERRIC OXIDE YELLOW (Inactive)",
+    "HYPROMELLOSES (Inactive)",
+    "LACTOSE MONOHYDRATE (Inactive)",
+    "MAGNESIUM STEARATE (Inactive)",
+    "SILICON DIOXIDE (Inactive)",
+    "TITANIUM DIOXIDE (Inactive)",
+    "TRIETHYL CITRATE (Inactive)"
+  ],
+  "text": "Unclassified\nTo reduce the development of drug-resistant bacteria and maintain the effectiveness of doxycycline tablets and other antibacterial drugs, doxycycline tablets should be used only to treat or prevent infections that are proven or strongly suspected to be caused by bacteria.\n\nDescription\nDoxycycline is a broad-spectrum antibacterial synthetically derived from oxytetracycline. Doxycycline tablets USP, 50 mg, 75 mg, 100 mg and 150 mg contain doxycycline monohydrate equivalent to 50 mg, 75 mg, 100 mg or 150 mg of doxycycline, USP for oral administration. \nDoxycycline, USP is light yellow to pale yellow powder, very slightly soluble in alcohol and water; practically insoluble in ether. It dissolves in dilute solutions of mineral acids and in solutions of alkali hydroxides and carbonates. Its molecular weight is 462.45. The chemical designation of doxycycline is alpha-6-deoxy-5-oxytetracycline.\nStructural formula:\n\nImage\n\nC22H24N2O8•H2O                                               M.W. = 462.45\nDoxycycline has a high degree of lipid solubility and a low affinity for calcium binding. It is highly stable in normal human serum. Doxycycline will not degrade into an epianhydro form.\nInactive ingredients are as follows: colloidal silicon dioxide, crospovidone, hydroxyl propyl methylcellulose, magnesium stearate and microcrystalline cellulose, titanium dioxide. \nIn addition, \n50 mg tablets contain: D&C yellow#10 aluminum lake, FD&C blue#2, iron oxide yellow, polyethylene glycol and polysorbate 80. \n75 mg tablets contain: iron oxide red, iron oxide yellow, lactose monohydrate, triethyl citrate.\n100 mg tablets contain: D&C yellow#10 aluminum lake, FD&C red#40, iron oxide yellow, polyethylene glycol, polysorbate 80.\n150 mg tablets contain: D&C yellow#10 aluminum lake, iron oxide red, iron oxide yellow, lactose monohydrate, triethyl citrate.\nThe Product meets USP dissolution test - 2\n\nStructural formula\n\nClinical Pharmacology\nTetracyclines are readily absorbed and are bound to plasma proteins in varying degrees. They are concentrated by the liver in the bile and excreted in the urine and feces at high concentrations in a biologically active form. Doxycycline is virtually completely absorbed after oral administration.\nFollowing a 200 mg dose of doxycycline monohydrate, 24 normal adult volunteers averaged the following serum concentration values:\n\n Time (hr):\n\n | \n 0.5\n\n | \n 1.0\n\n | \n 1.5\n\n | \n 2.0\n\n | \n 3.0\n\n | \n 4.0\n\n | \n 8.0\n\n | \n 12.0\n\n | \n 24.0\n\n | \n 48.0\n\n | \n 72.0\n\n | \n\n Conc:(mcg/mL)\n\n | \n 1.02\n\n | \n 2.26\n\n | \n 2.67\n\n | \n 3.01\n\n | \n 3.16\n\n | \n 3.03\n\n | \n 2.03\n\n | \n 1.62\n\n | \n 0.95\n\n | \n 0.37\n\n | \n 0.15\n\n |\n\nAverage Observed Values\nMaximum Concentration\n\n | \n 3.61 mcg/mL (± 0.9 sd)\n\n | \n\n Time of Maximum Concentration\n\n | \n 2.60 hr (± 1.10 sd)\n\n | \n\n Elimination Rate Constant\n\n | \n 0.049 per hr (± 0.030 sd)\n\n | \n\n Half-Life\n\n | \n 16.33 hr (± 4.53 sd)\n\n | \n\nExcretion of doxycycline by the kidney is about 40%/72 hours in individuals with normal function (creatinine clearance about 75 mL/min). This percentage excretion may fall as low as 1 to 5%/72 hours in individuals with severe renal insufficiency (creatinine clearance below 10 mL/min). Studies have shown no significant difference in serum half-life of doxycycline (range 18 to 22 hours) in individuals with normal and severely impaired renal function.\nHemodialysis does not alter serum half-life.\nResults of animal studies indicate that tetracyclines cross the placenta and are found in fetal tissues.\nPopulation pharmacokinetic analysis of sparse concentration-time data of doxycycline following standard of care intravenous and oral dosing in 44 pediatric patients (2 years to18 years of age) showed that allometrically–scaled clearance (CL) of doxycycline in pediatric patients ≥2 years to ≤8 years of age (median [range] 3.58 [2.27 to 1 0.82] L/h/70 kg, N =11) did not differ significantly from pediatric patients >8 to 18 years of age (3.27 [1.11 to 8.12] L/h/70 kg, N=33). For pediatric patients weighing ≤45 kg, body weight normalized doxycycline CL in those ≥2 years to ≤8 years of age (median [range] 0.071 [0 .041 to 0.202] L/kg/h, N=10) did not differ significantly from those >8 years to 18 years of age (0.081 [0.035 to 0.126] L/kg/h, N=8). In pediatric patients weighing >45 kg, no clinically significant differences in body weight normalized doxycycline CL were observed between those ≥2 years to ≤8 years (0.050 L/kg/h, N=1) and those >8 years to 18 years of age (0.044 [0.014 to 0.121] L/kg/h, N=25). No clinically significant difference in CL between oral and IV dosing was observed in the small cohort of pediatric patients who received the oral (N=19) or IV (N=21) formulation alone.\n\nMechanism of Action\nMechanism of Action\n\nDoxycycline inhibits bacterial protein synthesis by binding to the 30S ribosomal subunit. Doxycycline has bacteriostatic activity against a broad range of Gram-positive and Gram-negative bacteria. \n\nResistance\n\nCross resistance with other tetracyclines is common.\n\nAntimicrobial Activity\n\nDoxycycline has been shown to be active against most isolates of the following microorganisms, both in vitro and in clinical infections (see \nINDICATIONS AND USAGE\n\n).\n\n\nAcinetobacter species \n\nBartonella bacilliformis \n\nBrucella species \n\nCampylobacter fetus\n\nEnterobacter aerogenes \n\nEscherichia coli \n\nFrancisella tularensis \n\nHaemophilus ducreyi \n\nHaemophilus influenzae \n\nKlebsiella granulomatis\n\nKlebsiella species\n\nNeisseria gonorrhoeae \n\nShigella species \n\nVibrio cholerae \n\nYersinia pestis\n\n\nBacillus anthracis\n\nListeria monocytogenes\n\nStreptococcus pneumoniae\n\n\nClostridium species \n\nFusobacterium fusiforme \n\nPropionibacterium acnes\n\n\nNocardiae and other Actinomyces species\n\nBorrelia recurrentis \n\nChlamydophila psittaci \n\nChlamydia trachomatis \n\nMycoplasma pneumoniae \n\nRickettsiae \n\nTreponema pallidum \n\nTreponema pallidum subspecies pertenue \n\nUreaplasma urealyticum\n\n\nBalantidium coli\n\nEntamoeba species\n\nSusceptibility Testing\nFor specific information regarding susceptibility test interpretive criteria and associated test methods and quality control standards recognized by FDA for this drug, please see: https://www.fda.gov/STIC.\n\nIndications and Usage\nTo reduce the development of drug-resistant bacteria and maintain the effectiveness of doxycycline tablets and other antibacterial drugs, doxycycline tablets should be used only to treat or prevent infections that are proven or strongly suspected to be caused by susceptible bacteria. When culture and susceptibility information are available, they should be considered in selecting or modifying antibacterial therapy. In the absence of such data, local epidemiology and susceptibility patterns may contribute to the empiric selection of therapy.\nDoxycycline is indicated for the treatment of the following infections:\nRocky mountain spotted fever, typhus fever and the typhus group, Q fever, rickettsialpox, and tick fevers caused by Rickettsiae.\nRespiratory tract infections caused by Mycoplasma pneumoniae.\nLymphogranuloma venereum caused by Chlamydia trachomatis.\n\nPsittacosis (ornithosis) caused by Chlamydophila psittaci.\n\nTrachoma caused by Chlamydia trachomatis, although the infectious agent is not always eliminated as judged by immunofluorescence.\nInclusion conjunctivitis caused by Chlamydia trachomatis.\nUncomplicated urethral, endocervical or rectal infections in adults caused by Chlamydia trachomatis.\nNongonococcal urethritis caused by Ureaplasma urealyticum.\nRelapsing fever due to Borrelia recurrentis.\nDoxycycline is also indicated for the treatment of infections caused by the following gram-negative microorganisms:\nChancroid caused by Haemophilus ducreyi.\n\nPlague due to Yersinia pestis. \n\nTularemia due to Francisella tularensis. \n\nCholera caused by Vibrio \ncholerae.\n\nCampylobacter fetus infections caused by Campylobacter fetus.\n\nBrucellosis due to Brucella species (in conjunction with streptomycin).\nBartonellosis due to Bartonella bacilliformis.\n\nGranuloma inguinale caused by Klebsiella \ngranulomatis.\n\nBecause many strains of the following groups of microorganisms have been shown to be resistant to doxycycline, culture and susceptibility testing are recommended.\nDoxycycline is indicated for treatment of infections caused by the following gram-negative microorganisms, when bacteriologic testing indicates appropriate susceptibility to the drug:\n\nEscherichia coli\n\nEnterobacter aerogenes \n\nShigella species\n\nAcinetobacter species \nRespiratory tract infections caused by Haemophilus influenzae.\n\nRespiratory tract and urinary tract infections caused by Klebsiella species.\nDoxycycline is indicated for treatment of infections caused by the following gram-positive microorganisms when bacteriologic testing indicates appropriate susceptibility to the drug:\nUpper respiratory infections caused by Streptococcus pneumoniae. \n\nAnthrax due to Bacillus anthracis, including inhalational anthrax (post-exposure): to reduce the incidence or progression of disease following exposure to aerosolized Bacillus anthracis.\n\nWhen penicillin is contraindicated, doxycycline is an alternative drug in the treatment of the following infections:\nUncomplicated gonorrhea caused by Neisseria gonorrhoeae.\nSyphilis caused by Treponema pallidum.\n\nYaws caused by Treponema pallidum subspecies pertenue.\n\nListeriosis due to Listeria monocytogenes.\n\nVincent's infection caused by Fusobacterium fusiforme.\n\nActinomycosis caused by Actinomyces israelii.\n\nInfections caused by Clostridium species.\n\nIn acute intestinal amebiasis, doxycycline may be a useful adjunct to amebicides.\nIn severe acne, doxycycline may be useful adjunctive therapy.\n\nContraindications\nThis drug is contraindicated in persons who have shown hypersensitivity to any of the tetracyclines.\n\nWARNINGS\nThe use of drugs of the tetracycline class, including doxycycline, during tooth development (last half of pregnancy, infancy and childhood to the age of 8 years) may cause permanent discoloration of the teeth (yellow-gray-brown). This adverse reaction is more common during long-term use of the drugs, but it has been observed following repeated short-term courses. Enamel hypoplasia has also been reported. Use of doxycycline in pediatric patients 8 years of age or less only when the potential benefits are expected to outweigh the risks in severe or life-threatening conditions (e.g. anthrax, Rocky Mountain spotted fever), particularly when there are no alternative therapies.\n\nClostridium difficile associated diarrhea (CDAD) has been reported with use of nearly all antibacterial agents, including doxycycline tablets, and may range in severity from mild diarrhea to fatal colitis. Treatment with antibacterial agents alters the normal flora of the colon leading to overgrowth of C. difficile.\n\nC. difficile produces toxins A and B which contribute to the development of CDAD. Hypertoxin producing strains of C. difficile cause increased morbidity and mortality, as these infections can be refractory to antimicrobial therapy and may require colectomy. CDAD must be considered in all patients who present with diarrhea following antibiotic use. Careful medical history is necessary since CDAD has been reported to occur over two months after the administration of antibacterial agents.\nIf CDAD is suspected or confirmed, ongoing antibiotic use not directed against C. difficile may need to be discontinued. Appropriate fluid and electrolyte management, protein supplementation, antibiotic treatment of C. difficile, and surgical evaluation should be instituted as clinically indicated.\nIntracranial hypertension (IH, pseudotumor cerebri) has been associated with the use of tetracyclines including doxycycline. Clinical manifestations of IH include headache, blurred vision, diplopia, and vision loss; papilledema can be found on fundoscopy. Women of childbearing age who are overweight or have a history of IH are at greater risk for developing tetracycline associated IH. Concomitant use of isotretinoin and doxycycline should be avoided because isotretinoin is also known to cause pseudotumor cerebri.\nAlthough IH typically resolves after discontinuation of treatment, the possibility for permanent visual loss exists. If visual disturbance occurs during treatment, prompt ophthalmologic evaluation is warranted. Since intracranial pressure can remain elevated for weeks after drug cessation patients should be monitored until they stabilize.\nAll tetracyclines form a stable calcium complex in any bone-forming tissue. A decrease in the fibula growth rate has been observed in prematures given oral tetracycline in doses of 25 mg/kg every six hours. This reaction was shown to be reversible when the drug was discontinued.\nResults of animal studies indicate that tetracyclines cross the placenta, are found in fetal tissues, and can have toxic effects on the developing fetus (often related to retardation of skeletal development). Evidence of embryo toxicity has been noted in animals treated early in pregnancy. If any tetracycline is used during pregnancy or if the patient becomes pregnant while taking these drugs, the patient should be apprised of the potential hazard to the fetus.\nThe antianabolic action of the tetracyclines may cause an increase in BUN. Studies to date indicate that this does not occur with the use of doxycycline in patients with impaired renal function.\nPhotosensitivity manifested by an exaggerated sunburn reaction has been observed in some individuals taking tetracyclines. Patients apt to be exposed to direct sunlight or ultraviolet light should be advised that this reaction can occur with tetracycline drugs, and treatment should be discontinued at the first evidence of skin erythema.\nFixed drug eruptions have occurred with doxycycline and have been associated with worsening severity upon subsequent administrations, including generalized bullous fixed drug eruption (see \nADVERSE REACTIONS\n). If severe skin reactions occur, discontinue doxycycline capsules immediately and institute appropriate therapy.\n\nGeneral\nAs with other antibacterial preparations, use of this drug may result in overgrowth of non-susceptible organisms, including fungi. If superinfection occurs, doxycycline tablets should be discontinued and appropriate therapy instituted. \nIncision and drainage or other surgical procedures should be performed in conjunction with antibacterial therapy when indicated.\nPrescribing doxycycline tablets in the absence of a proven or strongly suspected bacterial infection or prophylactic indication is unlikely to provide benefit to the patient and increases the risk of the development of drug-resistant bacteria.\n\nInformation for Patients\nAll patients taking doxycycline should be advised:\n- to avoid excessive sunlight or artificial ultraviolet light while receiving doxycycline and to discontinue therapy if phototoxicity (e.g., skin eruptions, etc.) occurs. Sunscreen or sunblock should be considered (see \nWARNINGS\n).\n- to drink fluids liberally along with doxycycline to reduce the risk of esophageal irritation and ulceration (see \nADVERSE REACTIONS\n).\n- that the absorption of tetracyclines is reduced when taken with foods, especially those which contain calcium. However, the absorption of doxycycline is not markedly influenced by simultaneous ingestion of food or milk (see \nDrug Interactions\n).\n- that the absorption of tetracyclines is reduced when taking bismuth subsalicylate (see \nDrug Interactions\n).\n-  not to use outdated or poorly stored doxycycline.\n-  that the use of doxycycline might increase the incidence of vaginal candidiasis.\nDiarrhea is a common problem caused by antibiotics which usually ends when the antibiotic is discontinued. Sometimes after starting treatment with antibiotics, patients can develop watery and bloody stools (with or without stomach cramps and fever) even as late as two or more months after having taken the last dose of the antibiotic. If this occurs, patients should contact their physician as soon as possible.\nPatients should be counseled that antibacterial drugs including doxycycline tablets should only be used to treat bacterial infections. They do not treat viral infections (e.g., the common cold). When doxycycline tablets are prescribed to treat a bacterial infection, patients should be told that although it is common to feel better early in the course of therapy, the medication should be taken exactly as directed. Skipping doses or not completing the full course of therapy may (1) decrease the effectiveness of the immediate treatment and (2) increase the likelihood that bacteria will develop resistance and will not be treatable by doxycycline tablets or other antibacterial drugs in the future.\n\nLaboratory Tests\nIn venereal disease when coexistent syphilis is suspected, a dark-field examination should be done before treatment is started and the blood serology repeated monthly for at least four months.\nIn long-term therapy, periodic laboratory evaluations of organ systems, including hematopoietic, renal, and hepatic studies should be performed.\n\nDrug Interactions\nBecause tetracyclines have been shown to depress plasma prothrombin activity, patients who are on anticoagulant therapy may require downward adjustment of their anticoagulant dosage.\nSince bacteriostatic drugs may interfere with the bactericidal action of penicillin, it is advisable to avoid giving tetracyclines in conjunction with penicillin.\nAbsorption of tetracyclines is impaired by antacids containing aluminum, calcium, or magnesium, and iron-containing preparations.\nAbsorption of tetracyclines is impaired by bismuth subsalicylate.\nBarbiturates, carbamazepine, and phenytoin decrease the half-life of doxycycline.\nConcurrent use of tetracycline may render oral contraceptives less effective.\n\nDrug/Laboratory Test Interactions\nFalse elevations of urinary catecholamine levels may occur due to interference with the fluorescence test.\n\nCarcinogenesis, Mutagenesis, Impairment of Fertility\nLong-term studies in animals to evaluate the carcinogenic potential of doxycycline have not been conducted.\nHowever, there has been evidence of oncogenic activity in rats in studies with related antibacterial, oxytetracycline (adrenal and pituitary tumors) and minocycline (thyroid tumors). Likewise, although mutagenicity studies of doxycycline have not been conducted, positive results in in vitro mammalian cell assays have been reported for related antibacterial (tetracycline, oxytetracycline). Doxycycline administered orally at dosage levels as high as          250 mg/kg/day had no apparent effect on the fertility of female rats. Effect on male fertility has not been studied.\n\nPregnancy: Teratogenic Effects. Pregnancy Category D\nThere are no adequate and well-controlled studies on the use of doxycycline in pregnant short-term, first trimester exposure. There are no human data available to assess the effects of long-term therapy of doxycycline in pregnant women such as that proposed for treatment of anthrax exposure. An expert review of published data on experiences with doxycycline use during pregnancy by TERIS - the Teratogen Information System - concluded that therapeutic doses during pregnancy are unlikely to pose a substantial teratogenic risk (the quantity and quality of data were assessed as limited to fair), but the data are insufficient to state that there is no risk.1\n\nA case-control study (18,515 mothers of infants with congenital anomalies and 32,804 mothers of infants with no congenital anomalies) shows a weak but marginally statistically significant association with total malformations and use of doxycycline anytime during pregnancy. (Sixty-three (0.19%) of the controls and 56 (0.30%) of the cases were treated with doxycycline.) This association was not seen when the analysis was confined to maternal treatment during the period of organogenesis (i.e., in the second and third months of gestation) with the exception of a marginal relationship with neural tube defect based on only two exposed cases.2\n\nA small prospective study of 81 pregnancies describes 43 pregnant women treated for 10 days with doxycycline during early first trimester. All mothers reported their exposed infants were normal at 1 year of age.3\n\nLabor and Delivery\nThe effect of tetracyclines on labor and delivery is unknown.\n\nNursing Mothers\nTetracyclines are excreted in human milk, however, the extent of absorption of tetracyclines, including doxycycline, by the breastfed infant is not known. Short-term use by lactating women is not necessarily contraindicated; however, the effects of prolonged exposure to doxycycline in breast milk are unknown.4 Because of the potential for adverse reactions in nursing infants from doxycycline, a decision should be made whether to discontinue nursing or to discontinue the drug, taking into account the importance of the drug to the mother. (See \nWARNINGS.)\n\nPediatric Use\nBecause of the effects of drugs of the tetracycline –class, on tooth development and growth, use doxycycline in pediatric patients 8 years of age or less only when the potential benefits are expected to outweigh the risks in severe or life-threatening conditions (e.g. anthrax, Rocky Mountain spotted fever), particularly when there are no alternative therapies. (see \nWARNINGS\n and \nDOSAGE AND ADMINISTRATION\n).\n\nAdverse Reactions\nDue to oral doxycycline's virtually complete absorption, side effects to the lower bowel, particularly diarrhea, have been infrequent. The following adverse reactions have been observed in patients receiving tetracyclines.\n\nGastrointestinal\nAnorexia, nausea, vomiting, diarrhea, glossitis, dysphagia, enterocolitis, and inflammatory lesions (with monilial overgrowth) in the anogenital region, and pancreatitis. Hepatotoxicity has been reported.These reactions have been caused by both the oral and parenteral administration of tetracyclines. Rare instances of esophagitis and esophageal ulcerations have been reported in patients receiving capsule and tablet forms of drugs in the tetracycline class. Most of these patients took medications immediately before going to bed (see \nDOSAGE AND ADMINISTRATION\n).\n\nSkin\nMaculopapular and erythematous rashes, Stevens-Johnson syndrome, toxic epidermal necrolysis, erythema multiforme, and fixed drug eruption have been reported. Exfoliative dermatitis has been reported but is uncommon. Photosensitivity is discussed above (see \nWARNINGS\n).\n\nRenal Toxicity\nRise in BUN has been reported and is apparently dose related (see \nWARNINGS\n).\n\nHypersensitivity Reactions\nUrticaria, angioneurotic edema, anaphylaxis, anaphylactoid purpura, serum sickness, pericarditis, and exacerbation of systemic lupus erythematosus.\n\nBlood\nHemolytic anemia, thrombocytopenia, neutropenia, and eosinophilia have been reported with tetracyclines.\n\nPsychiatric\nDepression, anxiety, suicidal ideation, insomnia, abnormal dreams, hallucination\n\nOther\nIntracranial hypertension (IH, pseudotumor cerebri) has been associated with the use of tetracyclines (see \nPRECAUTIONS-General\n). \nWhen given over prolonged periods, tetracyclines have been reported to produce brown-black microscopic discoloration of the thyroid gland. No abnormalities of thyroid function are known to occur.\n\nCall your healthcare provider for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088.\n\nOverdosage\nIn case of overdosage, discontinue medication, treat symptomatically and institute supportive measures. Dialysis does not alter serum half-life, and it would not be of benefit in treating cases of overdosage.\n\nDosage and Administration\nTHE USUAL DOSAGE AND FREQUENCY OF ADMINISTRATION OF DOXYCYCLINE DIFFERS FROM THAT OF THE OTHER TETRACYCLINES. EXCEEDING THE RECOMMENDED DOSAGE MAY RESULT IN AN INCREASED INCIDENCE OF SIDE EFFECTS.\n\n\nThe usual dose of oral doxycycline is 200 mg on the first day of treatment (administered 100 mg every 12 hours or 50 mg every 6 hours) followed by a maintenance dose of 100 mg/day. The maintenance dose may be administered as a single dose or as 50 mg every 12 hours. In the management of more severe infections (particularly chronic infections of the urinary tract), 100 mg every 12 hours is recommended.\n\n\nFor all pediatric patients weighing less than 45 kg with severe or life-threatening infections (e.g. anthrax, Rocky Mountain spotted fever), the recommended dosage is 2.2 mg/kg of body weight administered every 12 hours. Children weighing 45 kg or more should receive the adult dose (see \nWARNINGS\n and \nPRECAUTIONS\n).\nFor pediatric patients with less severe disease (greater than 8 years of age and weighing less than 45 kg), the recommended dosage schedule is 4.4 mg per kg of body weight divided into two doses on the first day of treatment, followed by a maintenance dose of 2.2 mg per kg of body weight (given as a single daily dose or divided into twice daily doses). For pediatric patients weighing over 45 kg, the usual adult dose should be used.\nThe therapeutic antibacterial serum activity will usually persist for 24 hours following recommended dosage.\nWhen used in streptococcal infections, therapy should be continued for 10 days.\nAdministration of adequate amounts of fluid along with capsule and tablet forms of drugs in the tetracycline class is recommended to wash down the drugs and reduce the risk of esophageal irritation and ulceration. (See \nADVERSE REACTIONS\n)\nIf gastric irritation occurs, it is recommended that doxycycline be given with food or milk. The absorption of doxycycline is not markedly influenced by simultaneous ingestion of food or milk.\nStudies to date have indicated that administration of doxycycline at the usual recommended doses does not lead to excessive accumulation of doxycycline in patients with renal impairment.\n\nUncomplicated gonococcal infections in adults (except anorectal infections in men)\n100 mg, by mouth, twice a day for 7 days. As an alternate single visit dose, administer 300 mg stat followed in one hour by a second 300 mg dose.\n\nAcute epididymo-orchitis caused by\n100 mg, by mouth, twice a day for at least 10 days.\n\nPrimary and secondary syphilis\n300 mg a day in divided doses for at least 10 days.\n\nUncomplicated urethral, endocervical, or rectal infection in adults caused by Chlamydia trachomatis\n\n100 mg, by mouth, twice a day for at least 7 days.\n\nNongonococcal urethritis caused by C.trachomatis and U.urealyticum\n100 mg, by mouth, twice a day for at least 7 days.\n\nAcute epididymo-orchitis caused by\n100 mg, by mouth, twice a day for at least 10 days.\n\nInhalational anthrax (post-exposure)\nADULTS: 100 mg of doxycycline, by mouth, twice a day for 60 days.\nCHILDREN: weighing less than 45 kg 2.2 mg/kg of body weight, by mouth, twice a day for 60 days. Children weighing 45 kg or more should receive the adult dose.\n\nHOW SUPPLIED\nDoxycycline Tablets USP, 50 mg contains doxycycline monohydrate equivalent to 50 mg of doxycycline. Doxycycline Tablets USP, 50 mg are off-white to pale yellow colored, round, biconvex, beveled edged film coated tablets debossed with \"1121\" on one side and plain on other side and are supplied as follows:\nNDC 70710-1121-1 in bottle of 100 tablets with child-resistant closure\nDoxycycline Tablets USP, 75 mg contains doxycycline monohydrate equivalent to 75 mg of doxycycline. Doxycycline Tablets USP, 75 mg are light orange to creamish orange colored, round, biconvex, beveled edged film coated tablets debossed with \"1122\" on one side and plain on other side and are supplied as follows:\nNDC 70710-1122-1 in bottle of 100 tablets with child-resistant closure\nDoxycycline Tablets USP, 100 mg contains doxycycline monohydrate equivalent to 100 mg of doxycycline. Doxycycline Tablets USP, 100 mg are lemon yellow to buff colored, round, biconvex, beveled edged film coated tablets debossed with \"1123\" on one side and plain on other side and are supplied as follows:\nNDC 70710-1123-7 in bottle of 50 tablets with child-resistant closure\nNDC 70710-1123-8 in bottle of 250 tablets\nDoxycycline Tablets USP, 150 mg contains doxycycline monohydrate equivalent to 150 mg of doxycycline. Doxycycline Tablets USP, 150 mg are dark orange to creamish orange colored, round, biconvex, beveled edged film coated tablets debossed with scoreline on one side and debossed \"1124\" on other side and are supplied as follows:\nNDC 70710-1124-3 in bottle of 30 tablets with child-resistant closure\nNDC 70710-1124-1 in bottle of 100 tablets with child-resistant closure\nStore at 20°C to 25°C (68°F to 77°F) [See USP Controlled Room Temperature].\nDISPENSE IN A TIGHT LIGHT RESISTANT CONTAINER AS DEFINED IN THE USP/NF.\n\nANIMAL PHARMACOLOGY & OR TOXICOLOGY SECTION\nHyperpigmentation of the thyroid has been produced by members of the tetracycline class in the following species: in rats by oxytetracycline, doxycycline, tetracycline PO4, and methacycline; in minipigs by doxycycline, minocycline, tetracycline PO4, and methacycline; in dogs by doxycycline and minocycline; in monkeys by minocycline.\nMinocycline, tetracycline PO4, methacycline, doxycycline, tetracycline base, oxytetracycline hydrochloride and tetracycline hydrochloride were goitrogenic in rats fed a low iodine diet. This goitrogenic effect was accompanied by high radioactive iodine uptake. Administration of minocycline also produced a large goiter with high radioiodine uptake in rats fed a relatively high iodine diet.\nTreatment of various animal species with this class of drugs has also resulted in the induction of thyroid hyperplasia in the following: in rats and dogs (minocycline), in chickens (chlortetracycline) and in rats and mice (oxytetracycline). Adrenal gland hyperplasia has been observed in goats and rats treated with oxytetracycline.\n\nREFERENCES\nFriedman JM and Polifka JE. Teratogenic Effects of Drugs. A Resource for Clinicians (TERIS). Baltimore, MD: The Johns Hopkins University Press: 2000: 149-195.\nCziezel AE and Rockenbauer M. Teratogenic study of doxycycline. Obstet Gynecol 1997; 89:524-528.\nHorne HW Jr. and Kundsin RB. The role of mycoplasma among 81 consecutive pregnancies: a prospective study. Int J Fertil 1980; 25:315-317.\nHale T. Medications and Mothers Milk. 9th edition. Amarillo, TX: Pharmasoft Publishing 2000; 225-226.\n\nUnclassified\nManufactured by:\n\nZydus Lifesciences Ltd.\n\nIndia.\n\nDistributed by:\n\nZydus Pharmaceuticals (USA) Inc.\n\nPennington, NJ 08534\nRev.: 06/23\n\nPACKAGE LABEL.PRINCIPAL DISPLAY PANEL\nNDC 70710-1121-1\nDoxycycline Tablets USP, 50 mg\n100 Tablets\nRx only\n\nNDC 70710-1122-1\nDoxycycline Tablets USP , 75 mg\n100 Tablets\nRx only\n\nNDC 70710-1123-7\nDoxycycline Tablets USP, 100 mg\n50 Tablets \nRx only\n\nNDC 70710-1124-3\nDoxycycline Tablets USP, 150 mg\n30 Tablets\nRx only\n\nDoxycycline Tablets USP, 50 mg\n\nDoxycycline Tablets USP, 75 mg\n\n100 mg\n\n150 mg",
+  "source_rank": 3
+}

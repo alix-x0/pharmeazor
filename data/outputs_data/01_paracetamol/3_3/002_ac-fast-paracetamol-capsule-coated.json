@@ -1,0 +1,139 @@
+{
+  "source": "dailymed",
+  "source_priority": 3,
+  "drug_id": 1,
+  "language": "en",
+  "doc_type": "label",
+  "label_type": "HUMAN OTC DRUG LABEL",
+  "title": "AC FAST (PARACETAMOL) CAPSULE, COATED [GRIMANN SA DE CV]",
+  "brand": "AC FAST (PARACETAMOL) CAPSULE, COATED",
+  "dci": "",
+  "manufacturer": "GRIMANN SA DE CV",
+  "setid": "bf001b70-6164-1ec9-e053-2a95a90a1274",
+  "spl_version": "1",
+  "published_date": "Apr 05, 2021",
+  "effective_date": "20210402",
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bf001b70-6164-1ec9-e053-2a95a90a1274",
+  "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bf001b70-6164-1ec9-e053-2a95a90a1274",
+  "sections": [
+    {
+      "key": [
+        "posologie",
+        "Dosage and Administration"
+      ],
+      "label": "Dosage and Administration",
+      "number": "34068-7",
+      "title": "DOSAGE & ADMINISTRATION SECTION",
+      "text": "USAGE"
+    },
+    {
+      "key": [
+        "indications",
+        "Indications and Usage"
+      ],
+      "label": "Indications and Usage",
+      "number": "34067-9",
+      "title": "INDICATIONS & USAGE SECTION",
+      "text": "INDI"
+    },
+    {
+      "key": [
+        "mises_en_garde",
+        "Warnings and Precautions"
+      ],
+      "label": "Warnings and Precautions",
+      "number": "43685-7",
+      "title": "WARNINGS AND PRECAUTIONS SECTION",
+      "text": "WARN"
+    },
+    {
+      "key": "section_pediatric_use_section",
+      "label": "PEDIATRIC USE SECTION",
+      "number": "34081-0",
+      "title": "PEDIATRIC USE SECTION",
+      "text": "PROD"
+    },
+    {
+      "key": [
+        "fertilite_grossesse",
+        "Pregnancy"
+      ],
+      "label": "Pregnancy",
+      "number": "42228-7",
+      "title": "PREGNANCY SECTION",
+      "text": "PRE"
+    },
+    {
+      "key": [
+        "contre_indications",
+        "Contraindications"
+      ],
+      "label": "Contraindications",
+      "number": "34070-3",
+      "title": "CONTRAINDICATIONS SECTION",
+      "text": "CONTRA"
+    },
+    {
+      "key": [
+        "effets_indesirables",
+        "Adverse Reactions"
+      ],
+      "label": "Adverse Reactions",
+      "number": "34084-4",
+      "title": "ADVERSE REACTIONS SECTION",
+      "text": "ADVER"
+    },
+    {
+      "key": "section_otc_purpose_section",
+      "label": "OTC - PURPOSE SECTION",
+      "number": "55105-1",
+      "title": "OTC - PURPOSE SECTION",
+      "text": "PUR"
+    },
+    {
+      "key": "section_otc_active_ingredient_section",
+      "label": "OTC - ACTIVE INGREDIENT SECTION",
+      "number": "55106-9",
+      "title": "OTC - ACTIVE INGREDIENT SECTION",
+      "text": "ACT"
+    },
+    {
+      "key": "section_otc_keep_out_of_reach_of_children_sectio",
+      "label": "OTC - KEEP OUT OF REACH OF CHILDREN SECTION",
+      "number": "50565-1",
+      "title": "OTC - KEEP OUT OF REACH OF CHILDREN SECTION",
+      "text": "KOOC"
+    },
+    {
+      "key": "section_inactive_ingredient_section",
+      "label": "INACTIVE INGREDIENT SECTION",
+      "number": "51727-6",
+      "title": "INACTIVE INGREDIENT SECTION",
+      "text": "inact"
+    },
+    {
+      "key": "section_warnings_section",
+      "label": "WARNINGS SECTION",
+      "number": "34071-1",
+      "title": "WARNINGS SECTION",
+      "text": "warn"
+    },
+    {
+      "key": "section_package_label_principal_display_panel",
+      "label": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+      "number": "51945-4",
+      "title": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+      "text": "FRONT"
+    }
+  ],
+  "ingredients": [
+    "LACTOSE MONOHYDRATE (Inactive) - 54 mg",
+    "CELLULOSE, MICROCRYSTALLINE (Inactive) - 19 mg",
+    "SODIUM STARCH GLYCOLATE TYPE A CORN (Inactive) - 15 mg",
+    "MAGNESIUM STEARATE (Inactive) - 2 mg",
+    "POLYVINYL ALCOHOL/POLYVINYL ACETATE COPOLYMER (4:1; 9500 MW) (Inactive) - 12 mg",
+    "ACETAMINOPHEN (ACTIB) - 500 mg"
+  ],
+  "text": "Dosage and Administration\nUSAGE\n\nIndications and Usage\nINDI\n\nWarnings and Precautions\nWARN\n\nPEDIATRIC USE SECTION\nPROD\n\nPregnancy\nPRE\n\nContraindications\nCONTRA\n\nAdverse Reactions\nADVER\n\nOTC - PURPOSE SECTION\nPUR\n\nOTC - ACTIVE INGREDIENT SECTION\nACT\n\nOTC - KEEP OUT OF REACH OF CHILDREN SECTION\nKOOC\n\nINACTIVE INGREDIENT SECTION\ninact\n\nWARNINGS SECTION\nwarn\n\nPACKAGE LABEL.PRINCIPAL DISPLAY PANEL\nFRONT",
+  "source_rank": 3
+}

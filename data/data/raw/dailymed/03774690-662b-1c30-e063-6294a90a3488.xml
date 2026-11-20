@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="5f7813f7-58fd-b705-e063-6294a90a73ab"/>
+   <code code="34390-5" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN OTC DRUG LABEL"/>
+   <title>CARDIASPIRIN PROTECT</title>
+   <effectiveTime value="20261104"/>
+   <setId root="03774690-662b-1c30-e063-6294a90a3488"/>
+   <versionNumber value="6"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="029918743"/>
+            <name>OPMX LLC</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="5f78cd06-59b6-9cd5-e063-6294a90acb39"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20261104"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="69729-104" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>CARDIASPIRIN PROTECT</name>
+                        <formCode code="C42897" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET, COATED"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Aspirin</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="81"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="R16CO5Y76E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ASPIRIN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="R16CO5Y76E" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ASPIRIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="CQ3XH3DET6" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>D&amp;C YELLOW NO. 10 ALUMINUM LAKE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6OZP39ZG8H" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYSORBATE 80</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="R12CBM0EIZ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CARNAUBA WAX</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="H77VEI93A8" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C YELLOW NO. 6</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="1N032N7MFO" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BROWN IRON OXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="368GB5141J" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM LAURYL SULFATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3SY5LH9PMK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ANHYDROUS LACTOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7SEV7J4R1U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TALC</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="1CS02G8656" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METHACRYLIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="8Z96QXD6UM" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TRIETHYL CITRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="92RU3N3Y1O" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DIMETHICONE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SILICON DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CELLULOSE, MICROCRYSTALLINE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="M28OL1HH48" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CROSCARMELLOSE SODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="120" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43173" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, PLASTIC"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="69729-104-12" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20260721"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="M013" root="2.16.840.1.113883.3.9421"/>
+                           <code code="C200263" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OTC Monograph Drug"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20260721"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48330" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="yellow" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">A1</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="7" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_0c6ae05f-7616-34d1-e054-00144ff88e88">
+               <id root="03774690-662c-1c30-e063-6294a90a3488"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>
+                  <content styleCode="italics">
+                     <content styleCode="bold">Drug Facts</content>
+                  </content>
+               </title>
+               <effectiveTime value="20230821"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_0c6ae05f-7618-34d1-e054-00144ff88e88">
+               <id root="037746a5-0e12-8bc9-e063-6394a90a0cc1"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <title>
+                  <content styleCode="italics">
+                     <content styleCode="bold">Active ingredient (in each tablet)</content>
+                  </content>
+               </title>
+               <text>
+                  <paragraph>Aspirin 81 mg (NSAID)
+ 
+  <footnote ID="fn_0c6b5420-6d01-406d-bb1a-b9926863a9eb">nonsteroidal anti-inflammatory drug</footnote>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20230821"/>
+               <component>
+                  <section ID="id_link_0c6ae05f-761a-34d1-e054-00144ff88e88">
+                     <id root="03776d60-0c47-5f07-e063-6294a90a87f3"/>
+                     <code code="55105-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PURPOSE SECTION"/>
+                     <title>
+                        <content styleCode="italics">
+                           <content styleCode="bold">Purpose</content>
+                        </content>
+                     </title>
+                     <text>
+                        <table border="0" width="100%">
+                           <tbody>
+                              <tr>
+                                 <td>
+                                    <content styleCode="italics">
+                                       <content styleCode="bold">Active ingredient (in each tablet)</content>
+                                    </content>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">
+                                       <content styleCode="italics">Purpose</content>
+                                    </content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>Aspirin 81mg (NSAID)*</td>
+                                 <td>Pain reliever</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>*nonsteroidal ant-inflammatory drug</paragraph>
+                     </text>
+                     <effectiveTime value="20230821"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_0c6ae05f-761c-34d1-e054-00144ff88e88">
+               <id root="03778976-864f-8da6-e063-6394a90aece6"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>
+                  <content styleCode="italics">
+                     <content styleCode="bold">Uses</content>
+                  </content>
+               </title>
+               <text>
+                  <list listType="unordered">
+                     <item>ftemporarily relief of minor aches and pains or as recommended by your doctor. 
+   <content styleCode="bold">Because of its delayed release action, this product will not provide fast relief of headache or symptoms needing immediate relief.</content>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20230821"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_03779a3b-d2db-b65b-e063-6394a90a4ceb">
+               <id root="03779a3b-d2da-b65b-e063-6394a90a4ceb"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>
+                  <content styleCode="bold">
+                     <content styleCode="italics">Warnings</content>
+                  </content>
+               </title>
+               <effectiveTime value="20230821"/>
+               <component>
+                  <section ID="id_link_0377ac9e-3b14-8142-e063-6294a90aea37">
+                     <id root="0377ac9e-3b13-8142-e063-6294a90aea37"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">Reye's syndrome:</content>
+                     </title>
+                     <text>
+                        <paragraph>Children and teenagers who have or are recovering from chicken pox or flu-like symptoms should not use this product. When using this product, if changes in behavior with nausea and vomiting occur, consult a doctor because these symptoms could be an early sign of Reye's syndrome, a rare but serious illness.</paragraph>
+                     </text>
+                     <effectiveTime value="20230821"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_0377c635-094c-d1cc-e063-6294a90a637f">
+                     <id root="0377c635-094b-d1cc-e063-6294a90a637f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">Allergy alert:</content>
+                     </title>
+                     <text>
+                        <paragraph>Aspirin may cause a severe allergic reaction which may include:</paragraph>
+                        <list listType="unordered">
+                           <item>hives</item>
+                        </list>
+                        <list listType="unordered">
+                           <item>shock</item>
+                        </list>
+                        <list listType="unordered">
+                           <item>facial swelling</item>
+                           <item>asthma (wheezing)</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20230821"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_0377d548-1425-2c66-e063-6394a90ae677">
+                     <id root="0377d548-1424-2c66-e063-6394a90ae677"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">Stomach bleeding warning:</content>
+                     </title>
+                     <text>
+                        <paragraph>This product contains an NSAID, which may cause severe stomach bleeding. The chance is higher if you:</paragraph>
+                        <list listType="unordered">
+                           <item>are age 60 or older</item>
+                           <item>have had stomach ulcers or bleeding problems</item>
+                           <item>take a blood thinning (anticoagulant) or steroid drug</item>
+                           <item>take other drugs containing prescription or nonprescription NSAIDs (aspirin, ibuprofen, naproxen, or others)</item>
+                           <item>have 3 or more alcoholic drinks every day while using this product</item>
+                           <item>take more or for a longer time than directed</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20230821"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_0c6ae05f-7620-34d1-e054-00144ff88e88">
+                     <id root="0377da03-b485-acc9-e063-6294a90a59df"/>
+                     <code code="50570-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - DO NOT USE SECTION"/>
+                     <title>
+                        <content styleCode="bold">Do not use</content>
+                     </title>
+                     <text>
+                        <list listType="unordered">
+                           <item>if you are allergic to aspirin or any other pain reliever/fever reducer</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20230821"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_0c6ae05f-7622-34d1-e054-00144ff88e88">
+                     <id root="0377d548-1426-2c66-e063-6394a90ae677"/>
+                     <code code="50569-3" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ASK DOCTOR SECTION"/>
+                     <title>
+                        <content styleCode="bold">Ask a doctor or pharmacist before use if </content>
+                     </title>
+                     <text>
+                        <list listType="unordered">
+                           <item>you have asthma</item>
+                           <item>stomach bleeding warning applies to you</item>
+                           <item>you have a history of stomach problems, such as heartburn</item>
+                           <item>you have high blood pressure, heart disease, liver cirrhosis or kidney disease</item>
+                           <item>you are taking a diuretic</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20230821"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_0377e38b-6f1c-59ba-e063-6394a90a13ff">
+                     <id root="0377e38b-6f1b-59ba-e063-6394a90a13ff"/>
+                     <code code="50568-5" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ASK DOCTOR/PHARMACIST SECTION"/>
+                     <title>
+                        <content styleCode="bold">Ask a doctor or pharmacist before use if you are</content>
+                     </title>
+                     <text>
+                        <list listType="unordered">
+                           <item>taking a prescription drug for diabetes, gout, or arthritis</item>
+                           <item>under a doctor's care for any serious condition</item>
+                           <item>taking any other drug</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20230821"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_0c6ae05f-7624-34d1-e054-00144ff88e88">
+                     <id root="03780e7e-b256-42f3-e063-6394a90aaafe"/>
+                     <code code="50566-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - STOP USE SECTION"/>
+                     <title>
+                        <content styleCode="bold">Stop use and ask a doctor if</content>
+                     </title>
+                     <text>
+                        <list listType="unordered">
+                           <item>you experience any of the following signs of stomach bleeding: feel faint, have bloody or black stools, vomit blood, have stomach pain that does not get better.</item>
+                           <item>an allergic reaction occurs.</item>
+                           <item>Seek medical help right away.</item>
+                           <item>ringing in the ears or a loss of hearing occurs</item>
+                           <item>pain gets worse or lasts more than 10 days</item>
+                           <item>fever gets worse or lasts more than 3 days</item>
+                           <item>redness or swelling is present</item>
+                           <item>new symptoms occur</item>
+                        </list>
+                        <paragraph/>
+                        <paragraph>These could be sing of a serious condition.</paragraph>
+                     </text>
+                     <effectiveTime value="20230821"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_0c6ae05f-7626-34d1-e054-00144ff88e88">
+                     <id root="03781e37-0d37-d823-e063-6294a90a3972"/>
+                     <code code="53414-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PREGNANCY OR BREAST FEEDING SECTION"/>
+                     <title>
+                        <content styleCode="bold">If pregnant or breast-feeding,</content>
+                     </title>
+                     <text>
+                        <paragraph>ask a health professional before use. It is especially important not to use aspirin during the last 3 months of pregnancy unless definitely directed to do so by a doctor because it may cause problems in the unborn child or complications during delivery.</paragraph>
+                     </text>
+                     <effectiveTime value="20230821"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_0c6ae05f-7628-34d1-e054-00144ff88e88">
+                     <id root="03781893-c620-904d-e063-6294a90ac203"/>
+                     <code code="50565-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - KEEP OUT OF REACH OF CHILDREN SECTION"/>
+                     <title>
+                        <content styleCode="bold">Keep out of reach of children</content>
+                     </title>
+                     <text>
+                        <paragraph>In case of overdose, get medical help or contact a Poison Control Center (1-800-222-1222) right away. Quick medical attention is critical for adults as well as for children even if you do not notice any sings or symptoms.</paragraph>
+                     </text>
+                     <effectiveTime value="20230821"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_0c6ae05f-762a-34d1-e054-00144ff88e88">
+               <id root="0378292e-e1c7-43b6-e063-6394a90aea16"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>
+                  <content styleCode="italics">
+                     <content styleCode="bold">Directions</content>
+                  </content>
+               </title>
+               <text>
+                  <list listType="unordered">
+                     <item>drink a full glass of water with each dose</item>
+                  </list>
+                  <table border="0" width="100%">
+                     <tbody>
+                        <tr>
+                           <td>adults and children 12 years and over:</td>
+                           <td>
+                              <list listType="unordered">
+                                 <item>take 4 to 8 tablets every 4 hours while symptoms lasts.</item>
+                                 <item>do not take more than 48 tablets in 24 hours unless directed by a doctor</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>children under 12 years:</paragraph>
+                           </td>
+                           <td>
+                              <list listType="unordered">
+                                 <item>ask a doctor</item>
+                              </list>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20230821"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_0c6ae05f-762c-34d1-e054-00144ff88e88">
+               <id root="03783649-3a16-6b9f-e063-6394a90a6876"/>
+               <code code="60561-8" codeSystem="2.16.840.1.113883.6.1" displayName="OTHER SAFETY INFORMATION"/>
+               <title>
+                  <content styleCode="italics">
+                     <content styleCode="bold">Other information</content>
+                  </content>
+               </title>
+               <text>
+                  <list listType="unordered">
+                     <item>store at room temperature 15-30 °C (59-86 °F)</item>
+                     <item>
+                        <content styleCode="bold">TAMPER EVIDENT: DO NOT USE IF IMPRINTED SAFETY SEAL UNDER CAP IS BROKEN OR MISSING</content>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20230821"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_0c6ae05f-762e-34d1-e054-00144ff88e88">
+               <id root="0378292e-e1ca-43b6-e063-6394a90aea16"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <title>
+                  <content styleCode="italics">
+                     <content styleCode="bold">Inactive ingredients</content>
+                  </content>
+               </title>
+               <text>
+                  <paragraph>Anhydrous Lactose, Carnuba Wax, Colloidal Sillicon Dioxide, Crosscarmellose Sodium,FD&amp;C Yellow #10 al lake, FD&amp;C Yellow#6 al Lake, Iron Oxide Ochre, Methacrylic acid copolymer, Microcrystalline cellulose, Polysorbate 80, simethiocone, sodium hydroxide, sodium lauryl sulfate, talc, titanium dioxide, triethyl citrate</paragraph>
+               </text>
+               <effectiveTime value="20210821"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_0c6ae05f-7630-34d1-e054-00144ff88e88">
+               <id root="03783649-3a17-6b9f-e063-6394a90a6876"/>
+               <code code="53413-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - QUESTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">
+                     <content styleCode="italics">Questions or comments?</content>
+                  </content>
+               </title>
+               <text>
+                  <paragraph>call toll free Call (619) 600-5632</paragraph>
+                  <paragraph>Monday through Friday 9AM – 5PM EST</paragraph>
+               </text>
+               <effectiveTime value="20230821"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_0c6ae05f-7633-34d1-e054-00144ff88e88">
+               <id root="5799f11d-98c7-2adc-e063-6394a90a917f"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>
+                  <content styleCode="bold">
+                     <content styleCode="italics">Cardiaspirin Protect Label</content>
+                  </content>
+               </title>
+               <text>
+                  <paragraph>NDC 69729-104-12</paragraph>
+                  <paragraph>Adult Low Doses</paragraph>
+                  <paragraph>CARDIASPIRIN PROTECT</paragraph>
+                  <paragraph>Aspirin 81mg/ Pain Reliever (NSAID)</paragraph>
+                  <paragraph>Safety Coated</paragraph>
+                  <paragraph>Aspirin Regimen</paragraph>
+                  <paragraph>120 tablets</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_5799edb0-c40b-28db-e063-6394a90a61b7"/>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_5799f09b-880a-07fa-e063-6294a90a7a03"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20230821"/>
+               <component>
+                  <observationMedia ID="img_5799edb0-c40b-28db-e063-6394a90a61b7">
+                     <text>BOX</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Cardiaspirin Protect w120 BOX.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_5799f09b-880a-07fa-e063-6294a90a7a03">
+                     <text>BOTTLE</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Cardiaspirin Protect w120 tablets BOTTLE.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

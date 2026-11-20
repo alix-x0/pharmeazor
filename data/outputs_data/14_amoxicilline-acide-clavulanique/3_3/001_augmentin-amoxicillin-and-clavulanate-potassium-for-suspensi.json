@@ -1,0 +1,616 @@
+{
+  "source": "dailymed",
+  "source_priority": 3,
+  "drug_id": 14,
+  "language": "en",
+  "doc_type": "label",
+  "label_type": "HUMAN PRESCRIPTION DRUG LABEL",
+  "title": "AUGMENTIN (AMOXICILLIN AND CLAVULANATE POTASSIUM) FOR SUSPENSION [ALLEGIS HOLDINGS, LLC]",
+  "brand": "AUGMENTIN (AMOXICILLIN AND CLAVULANATE POTASSIUM) FOR SUSPENSION",
+  "dci": "",
+  "manufacturer": "Allegis Holdings, LLC",
+  "setid": "04a31a42-d79e-bbb4-e063-6394a90a63ee",
+  "spl_version": "5",
+  "published_date": "Oct 29, 2026",
+  "effective_date": "20261026",
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=04a31a42-d79e-bbb4-e063-6394a90a63ee",
+  "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=04a31a42-d79e-bbb4-e063-6394a90a63ee",
+  "sections": [
+    {
+      "key": [
+        "indications",
+        "Indications and Usage"
+      ],
+      "label": "Indications and Usage",
+      "number": "34067-9",
+      "title": "1 INDICATIONS AND USAGE",
+      "text": "AUGMENTIN is indicated for the treatment of infections in adults and pediatric patients, due to susceptible isolates of the designated bacteria in the conditions listed below:\n\nLower Respiratory Tract Infections - caused by beta‑lactamase–producing isolates of \n Haemophilus influenzae and \n Moraxella catarrhalis.\n\nAcute Bacterial Otitis Media - caused by beta‑lactamase–producing isolates of \n H. influenzae and \n M. catarrhalis.\n\nSinusitis - caused by beta‑lactamase–producing isolates of \n H. influenzae and \n M. catarrhalis.\n\nSkin and Skin Structure Infections - caused by beta‑lactamase–producing isolates of \n Staphylococcus aureus, \n Escherichia coli, and \n Klebsiella species.\n\nUrinary Tract Infections - caused by beta‑lactamase–producing isolates of \n E. coli, \n Klebsiella species, and \n Enterobacter species.\n\nAUGMENTIN is a combination of amoxicillin, a penicillin-class antibacterial and clavulanate potassium, a beta‑lactamase inhibitor indicated for treatment of the following infections in adults and pediatric patients: ( \n 1)\n\nLower respiratory tract infections\nAcute bacterial otitis media\nSinusitis\nSkin and skin structure infections\nUrinary tract infections\n\nLimitations of Use\n\nWhen susceptibility test results show susceptibility to amoxicillin, indicating no beta-lactamase production, AUGMENTIN should not be used. ( \n 1)\n\nUsage\n\nTo reduce the development of drug-resistant bacteria and maintain the effectiveness of AUGMENTIN and other antibacterial drugs, AUGMENTIN should be used only to treat or prevent infections that are proven or strongly suspected to be caused by bacteria. ( \n 1)"
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Limitations of Use\n\nWhen susceptibility test results show susceptibility to amoxicillin, indicating no beta-lactamase production, AUGMENTIN should not be used."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Usage\n\nTo reduce the development of drug‑resistant bacteria and maintain the effectiveness of AUGMENTIN and other antibacterial drugs, AUGMENTIN should be used only to treat or prevent infections that are proven or strongly suspected to be caused by susceptible bacteria. When culture and susceptibility information are available, they should be considered in selecting or modifying antibacterial therapy. In the absence of such data, local epidemiology and susceptibility patterns may contribute to the empiric selection of therapy."
+    },
+    {
+      "key": [
+        "posologie",
+        "Dosage and Administration"
+      ],
+      "label": "Dosage and Administration",
+      "number": "34068-7",
+      "title": "2 DOSAGE AND ADMINISTRATION",
+      "text": "Adults and Pediatric Patients greater than 40 kg: 500 or 875 mg every 12 hours or 250 or 500 mg every 8 hours, based on the amoxicillin component. ( \n 2.2, \n 2.3)\n\nPediatric patients aged 12 weeks (3 months) and older: 25 to 45 mg/kg/day every 12 hours or 20 to 40 mg/kg/day every 8 hours, up to the adult dose. ( \n 2.3)\n\nNeonates and infants less than 12 weeks of age: 30 mg/kg/day divided every 12 hours, based on the amoxicillin component. Use of the 125 mg/5 mL oral suspension is recommended. ( \n 2.3)"
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "2.1 Important Administration Instructions",
+      "text": "AUGMENTIN may be taken without regard to meals; however, absorption of clavulanate potassium is enhanced when AUGMENTIN is administered at the start of a meal. To minimize the potential for gastrointestinal intolerance, AUGMENTIN should be taken at the start of a meal."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "2.2 Adult Patients",
+      "text": "See dosing regimens of AUGMENTIN (based on the amoxicillin component) provided in Table 1 below.\n\nTable 1. Dosing Regimens of AUGMENTIN in Adult Patients\n\nTYPE OF INFECTION\n\n | \n\nDOSING REGIMEN OF Amoxicillin and Clavulanate Potassium\n\n | \n\nSevere infections and infections of the respiratory tract | \none 875 mg tablet \n a of AUGMENTIN every 12 hours\n\n or\n\n one 500 mg tablet \n b,c of AUGMENTIN every 8 hours\n | \n\nLess severe infections | \none 500 mg tablet \n b,c of AUGMENTIN every 12 hours\n\n or\n\n one 250 mg tablet \n d of AUGMENTIN every 8 hours\n | \n\na Adults who have difficulty swallowing may be given the AUGMENTIN 200 mg/28.5 mg per 5 mL suspension or the AUGMENTIN 400 mg/57 mg per 5 mL suspension may be used in place of the 875 mg/125 mg tablet.\n\nb Adults who have difficulty swallowing may be given the AUGMENTIN 125 mg/31.25 mg per 5 mL or AUGMENTIN 250 mg/62.5 mg per 5 mL suspension in place of the 500 mg/125 mg tablet.\n\nc Two AUGMENTIN 250 mg/125 mg tablets are \n NOT substitutable with one 500 mg/125 mg AUGMENTIN tablet \n [see Dosage and Administration ( \n 2.6)] \n .\n\nd AUGMENTIN 250 mg/125 mg tablet is \n NOT substitutable with AUGMENTIN 250 mg/62.5 mg chewable tablet \n [see Dosage and Administration ( \n 2.6)]"
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "2.3 Pediatric Patients",
+      "text": "Based on the amoxicillin component, AUGMENTIN should be dosed as follows:\n\nNeonates and Infants Aged less than 12 weeks (less than 3 months): See dosing regimens of AUGMENTIN provided in Table 2 below.\n\nTable 2: Dosing Regimens of AUGMENTIN in Neonates and Infants Aged Less than 12 Weeks (Less than 3 Months)\n\nPATIENT POPULATION\n\n | \n\nDOSING REGIMEN\n\n | \n\nAUGMENTIN 125 mg/31.25 mg per 5 mL for oral suspension\n\na\n | \n\nNeonates and Infants aged less than 12\nweeks (less than 3 months)\n | \n\n30 mg/kg/day every 12 hours\n | \n\na Experience with the AUGMENTIN 200 mg/28.5 mg per 5 mL formulation in this age group is limited, and thus, use of the AUGMENTIN 125 mg/31.25 mg per 5 mL for oral suspension is recommended."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Patients Aged 12 weeks (3 months) and Older and Weighing Less than 40 kg: See dosing regimens provided in Table 3 below.\nThe every 12 hour regimen is recommended as it is associated with significantly less diarrhea [see Clinical Studies ( 14.2)] .\n\nThe Amoxicillin and Clavulanate Potassium 200 mg/28.5 mg per 5 mL and Amoxicillin and Clavulanate Potassium 400 mg/57 mg per 5 mL) for oral suspension and Amoxicillin and Clavulanate Potassium 200 mg/28.5 mg and Amoxicillin and Clavulanate Potassium 400 mg/57 mg chewable tablets contain aspartame and should not be used by phenylketonurics. [see Warnings and Precautions ( 5.8)].\n\nTable 3: Dosing in Patients Aged 12 Weeks (3 Months) and Older and Weighing Less than 40 kg\n\nTable"
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Patients Weighing 40 kg or More: Pediatric patients weighing 40 kg or more should be dosed according to adult recommendations.\n\nThe 250 mg/125 mg tablet of AUGMENTIN should \n NOT be used until the child weighs at least 40 kg, due to the different amoxicillin to clavulanic acid ratios in the 250 mg/125 mg tablet of AUGMENTIN versus the 250 mg/62.5 mg chewable tablet of AUGMENTIN."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "2.4 Patients with Renal Impairment",
+      "text": "Patients with impaired renal function do not generally require a reduction in dose unless the impairment is severe. Renal impairment patients with a glomerular filtration rate (GFR) of less than 30 mL/min should \n NOT receive the 875 mg dose (based on the amoxicillin component) of AUGMENTIN. See dosing regimens in patients with severe renal impairment provided in Table 4.\n\nTable 4. Dosing Regimens of AUGMENTIN in Patients with Severe Renal Impairment\n\nPatients with Renal Impairment\n\n | \n\nDosing Regimen\n\n | \n\n GFR 10 mL/min to 30 mL/min | \n\n 500 mg or 250 mg every 12 hours, depending\non the severity of the infection\n | \n\n GFR less than 10 mL/min | \n\n 500 mg or 250 mg every 24 hours, depending\non severity of the infection\n | \n\n Hemodialysis | \n\n 500 mg or 250 mg every 24 hours, depending\non severity of the infection\n\n Administer an additional dose both during\n\nand at the end of dialysis\n |"
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "2.5 Directions for Mixing Amoxicillin and Clavulanate Potassium for Oral Suspension",
+      "text": "Prepare AUGMENTIN for oral suspension at time of dispensing as follows: Tap bottle until all powder flows freely. Measure a total (see Table 5 below for total amount of water for reconstitution) OF WATER. Add approximately 2/3 of the water to the powder. Replace cap and shake VIGOROUSLY. Add remaining water. Replace cap and shake VIGOROUSLY.\n\nTable 5: Amount of Water for Mixing AUGMENTIN for Oral Suspension\n\nStrength of AUGMENTIN Oral Suspension\n\n | \n\nBottle Size\n | \n\nAmount of Water for\n\n Reconstitution \n\n | \n\nContents of Each\n\n Teaspoonful (5 mL) \n\n | \n\n125 mg/31.25 mg\nper 5 mL\n | \n75 mL\n\n 100 mL\n\n 150 mL\n | \n67 mL\n\n 90 mL\n\n 134 mL\n | \n125 mg of amoxicillin and 31.25 mg of clavulanic acid as the potassium salt | \n\n | \n | \n | \n | \n\n250 mg/62.5 mg\nper 5 mL\n | \n75 mL\n\n 100 mL\n\n 150 mL\n | \n65 mL\n\n 87 mL\n\n 130 mL\n | \n250 mg of amoxicillin and 62.5 mg of clavulanic acid as the potassium salt | \n\n | \n | \n | \n | \n\nShake oral suspension well before using. Reconstituted suspension must be stored under refrigeration and discarded after 10 days. Some color change is normal during dosing period."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "2.6 Switching between Dosage Forms and between Strengths",
+      "text": "AUGMENTIN 250 mg/125 mg Tablet is \n NOT Substitutable with AUGMENTIN 250 mg/62.5 mg Chewable Tablet\n\nThe 250 mg/125 mg tablet of AUGMENTIN and the 250 mg/62.5 mg chewable tablet of AUGMENTIN should \n NOT be substituted for each other and the 250 mg/125 mg tablet of AUGMENTIN should \n NOT be used in pediatric patients weighing less than 40 kg \n [see Dosage and Administration ( \n 2.3)] \n . The 250 mg tablet of AUGMENTIN and the 250 mg chewable tablet of AUGMENTIN do not contain the same amount of clavulanic acid. The 250 mg tablet of AUGMENTIN contains 125 mg of clavulanic acid whereas the 250 mg chewable tablet of AUGMENTIN contains 62.5 mg of clavulanic acid.\n\nTwo AUGMENTIN 250 mg/125 mg Tablets are \n NOT Substitutable with One 500 mg/125 mg AUGMENTIN Tablet \n\nTwo 250 mg/125 mg tablets of AUGMENTIN should \n NOT be substituted for one 500 mg/125 mg tablet of AUGMENTIN. Since both the 250 mg and 500 mg tablets of AUGMNTIN contain the same amount of clavulanic acid (125 mg, as the potassium salt), two 250 mg tablets of AUGMENTIN are not equivalent to one 500 mg tablet of AUGMENTIN."
+    },
+    {
+      "key": [
+        "formes_et_dosages",
+        "Dosage Forms and Strengths"
+      ],
+      "label": "Dosage Forms and Strengths",
+      "number": "43678-2",
+      "title": "3 DOSAGE FORMS AND STRENGTHS",
+      "text": "Augmentin for Oral Suspension, USP:\n\n125 mg/31.25 mg per 5 mL: Banana-flavored powder for oral suspension (each 5 mL of reconstituted suspension contains 125 mg of amoxicillin as the trihydrate and 31.25 mg of clavulanic acid as the potassium salt).\n\n250 mg/62.5 mg per 5 mL: Orange-flavored powder for oral suspension (each 5 mL of reconstituted suspension contains 250 mg of amoxicillin as the trihydrate and 62.5 mg of clavulanic acid as the potassium salt).\n\nFor Oral Suspension: 125 mg/31.25 mg per 5 mL, 250 mg/62.5 mg per 5 mL ( \n 3)"
+    },
+    {
+      "key": [
+        "contre_indications",
+        "Contraindications"
+      ],
+      "label": "Contraindications",
+      "number": "34070-3",
+      "title": "4 CONTRAINDICATIONS",
+      "text": "History of a serious hypersensitivity reaction (e.g., anaphylaxis or Stevens-Johnson syndrome) to AUGMENTIN or to other beta‑lactams (e.g., penicillins or cephalosporins). ( \n 4.1)\n\nHistory of cholestatic jaundice/hepatic dysfunction associated with AUGMENTIN. ( \n 4.2)"
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "4.1 Serious Hypersensitivity Reactions",
+      "text": "AUGMENTIN is contraindicated in patients with a history of serious hypersensitivity reactions (e.g., anaphylaxis or Stevens-Johnson syndrome) to amoxicillin, clavulanate or to other beta‑lactam antibacterial drugs (e.g., penicillins and cephalosporins)."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "4.2 Cholestatic Jaundice/Hepatic Dysfunction",
+      "text": "AUGMENTIN is contraindicated in patients with a previous history of cholestatic jaundice/hepatic dysfunction associated with AUGMENTIN."
+    },
+    {
+      "key": [
+        "mises_en_garde",
+        "Warnings and Precautions"
+      ],
+      "label": "Warnings and Precautions",
+      "number": "43685-7",
+      "title": "5 WARNINGS AND PRECAUTIONS",
+      "text": "Serious (including fatal) hypersensitivity reactions: Discontinue AUGMENTIN if a reaction occurs. ( \n 5.1)\n\nSevere Cutaneous Adverse Reactions (SCAR): Monitor closely. Discontinue if rash progresses. ( \n 5.2)\n\nDrug-induced enterocolitis syndrome (DIES) has been reported with use of Amoxicillin, A componet of Augmentin. If this occures, discontinue AUGMENIN and institute appropriate therapy (\n 5.3)\n\nHepatic dysfunction and cholestatic jaundice: Discontinue if signs/symptoms of hepatitis occur. Monitor liver function tests in patients with hepatic impairment. ( \n 5.4)\n\nClostridioides difficile-associated diarrhea (CDAD): Evaluate patients if diarrhea occurs. ( \n 5.5)\n\nPatients with mononucleosis who receive AUGMENTIN develop skin rash. Avoid AUGMENTIN use in these patients. ( \n 5.6\n\nOvergrowth: The possibility of superinfections with fungal or bacterial pathogens should be considered during therapy. ( \n 5.7)"
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "5.1 Hypersensitivity Reactions",
+      "text": "Serious and occasionally fatal hypersensitivity (anaphylactic) reactions have been reported in patients receiving beta-lactam antibacterials, including AUGMENTIN. These reactions are more likely to occur in individuals with a history of penicillin hypersensitivity and/or a history of sensitivity to multiple allergens. Before initiating therapy with AUGMENTIN, careful inquiry should be made regarding previous hypersensitivity reactions to penicillins, cephalosporins, or other allergens. If an allergic reaction occurs, AUGMENTIN should be discontinued, and appropriate therapy instituted."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "5.2 Severe Cutaneous Adverse Reactions",
+      "text": "AUGMENTIN may cause severe cutaneous adverse reactions (SCAR), such as Stevens-Johnson syndrome (SJS), toxic epidermal necrolysis (TEN), drug reaction with eosinophilia and systemic symptoms (DRESS), and acute generalized exanthematous pustulosis (AGEP). If patients develop a skin rash, they should be monitored closely, and AUGMENTIN discontinued if lesions progress."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "5.3 Drug-Induced Enterocolitis Syndrome (DIES)",
+      "text": "Drug-induced enterocolitis syndrome (DIES) has been reported with use of amoxicillin, a componet of AUGMENTIN\n[see Adverse Reactions (6.2)], with most cases occurring in pediatric patients \n < 18 years of age. DIES is a non IgE mediated\n\nhypersensitivity reaction characterized by protracted vomiting occuring 1 to 4 hours after drug ingestion in the absence of\nskin or respiratory symptoms. DIES may be associated with pallor, lethargy, hypotension, shock, diarrhea within 24 hours of ingesting\namoxicillin, and leukocytosis with neutrophilia. If DIES occurs, discontinue AUGMENTIN and institute appropriate therapy."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "5.4 Hepatic Dysfunction",
+      "text": "Hepatic dysfunction, including hepatitis and cholestatic jaundice has been associated with the use of AUGMENTIN. Hepatic toxicity is usually reversible; however, deaths have been reported. Hepatic function should be monitored at regular intervals in patients with hepatic impairment."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "5.5",
+      "text": "Clostridioides difficile associated diarrhea (CDAD) has been reported with use of nearly all antibacterial agents, including AUGMENTIN, and may range in severity from mild diarrhea to fatal colitis. Treatment with antibacterial agents alters the normal flora of the colon leading to overgrowth of \n C. difficile.\n\nC. difficile produces toxins A and B which contribute to the development of CDAD. Hypertoxin-producing strains of \n C. difficile cause increased morbidity and mortality, as these infections can be refractory to antimicrobial therapy and may require colectomy. CDAD must be considered in all patients who present with diarrhea following antibacterial use. Careful medical history is necessary since CDAD has been reported to occur over 2 months after the administration of antibacterial agents.\n\nIf CDAD is suspected or confirmed, ongoing antibacterial use not directed against \n C. difficile may need to be discontinued. Appropriate fluid and electrolyte management, protein supplementation, antibacterial treatment of \n C. difficile, and surgical evaluation should be instituted as clinically indicated."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "5.6 Skin Rash in Patients with Mononucleosis",
+      "text": "A high percentage of patients with mononucleosis who receive amoxicillin develop an erythematous skin rash. Thus, AUGMENTIN should not be administered to patients with mononucleosis."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "5.7 Potential for Microbial Overgrowth",
+      "text": "The possibility of superinfections with fungal or bacterial pathogens should be considered during therapy. If superinfection occurs, amoxicillin and clavulanate potassium should be discontinued and appropriate therapy instituted."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "5.8 Phenylketonurics",
+      "text": "AUGMENTIN Chewable tablets and AUGMENTIN for Oral Suspension contain aspartame which contains phenylalanine. Each 200 mg chewable tablet of AUGMENTIN contains 2.1 mg phenylalanine; each 400 mg chewable tablet contains 4.2 mg phenylalanine; each 5 mL of either the 200 mg/5 mL or 400 mg/5 mL oral suspension contains 7 mg phenylalanine. The other formulations of AUGMENTIN do not contain phenylalanine."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "5.9 Development of Drug-Resistant Bacteria",
+      "text": "Prescribing AUGMENTIN in the absence of a proven or strongly suspected bacterial infection or a prophylactic indication is unlikely to provide benefit to the patient and increases the risk of the development of drug‑resistant bacteria."
+    },
+    {
+      "key": [
+        "effets_indesirables",
+        "Adverse Reactions"
+      ],
+      "label": "Adverse Reactions",
+      "number": "34084-4",
+      "title": "6 ADVERSE REACTIONS",
+      "text": "The following are discussed in more detail in other sections of the labeling:\n\nAnaphylactic reactions \n [see Warnings and Precautions \n (5.1)\n]\n\nSevere Cutaneous Adverse Reactions \n [see Warnings and Precautions ( \n 5.2)] \n\nDrug-Induced Enterocolitis Syndrom (DIES) [see Warnings and Precautions (\n 5.3)]\n\nHepatic Dysfunction \n [see Warnings and Precautions (\n5.4\n] \n\nClostridioides difficile Associated Diarrhea (CDAD) \n [see Warnings and Precautions (\n5.5\n]\n\n5.4The most frequently reported adverse effects were diarrhea/loose stools (9%), nausea (3%), skin rashes and urticaria (3%), vomiting (1%) and vaginitis (1%). ( \n 6.1)\n\nTo report SUSPECTED ADVERSE REACTIONS, contact Allegis Holdings, LLC at 1-866-633-9033\n or FDA at 1-800-FDA-1088 or \n www.fda.gov/medwatch."
+    },
+    {
+      "key": "section_6_1_clinical_trial_experience",
+      "label": "6.1 Clinical Trial Experience",
+      "number": "90374-0",
+      "title": "6.1 Clinical Trial Experience",
+      "text": "Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in practice.\nThe most frequently reported adverse reactions were diarrhea/loose stools (9%), nausea (3%), skin rashes and urticaria (3%), vomiting (1%) and vaginitis (1%). Less than 3% of patients discontinued therapy because of drug‑related adverse reactions. The overall incidence of adverse reactions, and in particular diarrhea, increased with the higher recommended dose. Other less frequently reported adverse reactions (less than 1%) include: Abdominal discomfort, flatulence, and headache.\nIn pediatric patients (aged 2 months to 12 years), 1 US/Canadian clinical trial was conducted which compared 45/6.4 mg/kg/day (divided every 12 hours) of Amoxicillin and Clavulanate Potassium for 10 days versus 40/10 mg/kg/day (divided every 8 hours) of Amoxicillin and Clavulanate Potassium for 10 days in the treatment of acute otitis media. A total of 575 patients were enrolled, and only the suspension formulations were used in this trial. Overall, the adverse reactions seen were comparable to that noted above; however, there were differences in the rates of diarrhea, skin rashes/urticaria, and diaper area rashes. \n [see Clinical Studies ( \n 14.2)] \n ﻿."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "6.2 Postmarketing Experience",
+      "text": "In addition to adverse reactions reported from clinical trials, the following have been identified during postmarketing use of AUGMENTIN. Because they are reported voluntarily from a population of unknown size, estimates of frequency cannot be made. These events have been chosen for inclusion due to a combination of their seriousness, frequency of reporting, or potential causal connection to Amoxicillin and Clavulanate Potassium.\n\nGastrointestinal: Drug-induced enterocolitis syndrome (DIES), indigestion, gastritis, stomatitis, glossitis, black “hairy” tongue, mucocutaneous candidiasis, enterocolitis, and hemorrhagic/pseudomembranous colitis. Onset of pseudomembranous colitis symptoms may occur during or after antibacterial treatment. \n [see Warnings and Precautions ( \n5.5\n] ﻿.\n\nImmune: Hypersensitivity reactions, anaphylactic/anaphylactoid reactions (including shock), angioedema, serum sickness-like reactions (urticaria or skin rash accompanied by arthritis, arthralgia, myalgia, and frequently fever), hypersensitivity vasculitis \n [see Warnings and Precautions ( \n 5.1)] \n ﻿.\n\nSkin and Appendages: Rashes, pruritus, urticaria, erythema multiforme, SJS, TEN, DRESS, AGEP, exfoliative dermatitis\n , and linear IgA dermatosis.\n\nLiver: Hepatic dysfunction, including hepatitis and cholestatic jaundice, increases in serum transaminases (AST and/or ALT), serum bilirubin, and/or alkaline phosphatase, has been reported with Amoxicillin and Clavulanate Potassium. It has been reported more commonly in the elderly, in males, or in patients on prolonged treatment. The histologic findings on liver biopsy have consisted of predominantly cholestatic, hepatocellular, or mixed cholestatic hepatocellular changes. The onset of signs/symptoms of hepatic dysfunction may occur during or several weeks after therapy has been discontinued. The hepatic dysfunction, which may be severe, is usually reversible. Deaths have been reported \n [see Contraindications ( \n 4.2), Warnings and Precautions ( \n\n5.4\n)] ﻿.\n\nRenal: Interstitial nephritis, hematuria, and crystalluria have been reported \n [see Overdosage ( \n 10)] \n ﻿.\n\nHemic and Lymphatic Systems: Anemia, including hemolytic anemia, thrombocytopenia, thrombocytopenic purpura, eosinophilia, leukopenia, and agranulocytosis have been reported. These reactions are usually reversible on discontinuation of therapy and are believed to be hypersensitivity phenomena. Thrombocytosis was noted in less than 1% of the patients treated with AUGMENTIN. There have been reports of increased prothrombin time in patients receiving AUGMENTIN and anticoagulant therapy concomitantly \n [see Drug Interactions ( \n 7.2)] \n ﻿.\n\nCentral Nervous System: Agitation, anxiety, behavioral changes, aseptic meningitis, confusion, convulsions, dizziness, insomnia, and reversible hyperactivity have been reported.\n\nMiscellaneous: Tooth discoloration (brown, yellow, or gray staining) has been reported. Most reports occurred in pediatric patients. Discoloration was reduced or eliminated with brushing or dental cleaning in most cases."
+    },
+    {
+      "key": [
+        "interactions",
+        "Drug Interactions"
+      ],
+      "label": "Drug Interactions",
+      "number": "34073-7",
+      "title": "7 DRUG INTERACTIONS",
+      "text": "Co‑administration with probenecid is not recommended. ( \n 7.1)\n\nConcomitant use of AUGMENTIN and oral anticoagulants may increase the prolongation of prothrombin time.( \n 7.2)\n\nCo-administration with allopurinol increases the risk of rash. ( \n 7.3)\n\nAUGMENTIN may reduce efficacy of oral contraceptives. ( \n 7.4)"
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "7.1 Probenecid",
+      "text": "Probenecid decreases the renal tubular secretion of amoxicillin but does not delay renal excretion of clavulanic acid. Concurrent use with AUGMENTIN may result in increased and prolonged blood concentrations of amoxicillin. Co-administration of probenecid is not recommended."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "7.2 Oral Anticoagulants",
+      "text": "Abnormal prolongation of prothrombin time (increased international normalized ratio [INR]) has been reported in patients receiving amoxicillin and oral anticoagulants. Appropriate monitoring should be undertaken when anticoagulants are prescribed concurrently with AUGMENTIN. Adjustments in the dose of oral anticoagulants may be necessary to maintain the desired level of anticoagulation."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "7.3 Allopurinol",
+      "text": "The concurrent administration of allopurinol and amoxicillin increases the incidence of rashes in patients receiving both drugs as compared to patients receiving amoxicillin alone. It is not known whether this potentiation of amoxicillin rashes is due to allopurinol or the hyperuricemia present in these patients."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "7.4 Oral Contraceptives",
+      "text": "AUGMENTIN may affect intestinal flora, leading to lower estrogen reabsorption and reduced efficacy of combined oral estrogen/progesterone contraceptives."
+    },
+    {
+      "key": "section_7_5_effects_on_laboratory_tests",
+      "label": "7.5 Effects on Laboratory Tests",
+      "number": "34075-2",
+      "title": "7.5 Effects on Laboratory Tests",
+      "text": "High urine concentrations of amoxicillin may result in false-positive reactions when testing for the presence of glucose in urine using CLINITEST \n ®, Benedict's Solution, or Fehling's Solution. Since this effect may also occur with AUGMENTIN, it is recommended that glucose tests based on enzymatic glucose oxidase reactions be used.\n\nFollowing administration of amoxicillin to pregnant women, a transient decrease in plasma concentration of total conjugated estriol, estriol-glucuronide, conjugated estrone, and estradiol has been noted."
+    },
+    {
+      "key": [
+        "populations_specifiques",
+        "Use in Specific Populations"
+      ],
+      "label": "Use in Specific Populations",
+      "number": "43684-0",
+      "title": "8 USE IN SPECIFIC POPULATIONS",
+      "text": "Pediatric Use: Modify dose in patients 12 weeks or younger. ( \n 8.4)\n\nRenal Impairment: Dosage adjustment is recommended for severe renal impairment (GFR less than 30mL/min). ( \n 2.4, \n 8.6)]"
+    },
+    {
+      "key": "section_teratogenic_effects_section",
+      "label": "TERATOGENIC EFFECTS SECTION",
+      "number": "34077-8",
+      "title": "TERATOGENIC EFFECTS SECTION",
+      "text": "Teratogenic Effects: Pregnancy Category B. Reproduction studies performed in pregnant rats and mice given AUGMENTIN (2:1 ratio formulation of amoxicillin:clavulanate) at oral doses up to 1200 mg/kg/day revealed no evidence of harm to the fetus due to AUGMENTIN. The amoxicillin doses in rats and mice (based on body surface area) were approximately 4 and 2 times the maximum recommended adult human oral dose (875 mg every 12 hours). For clavulanate, these dose multiples were approximately 9 and 4 times the maximum recommended adult human oral dose (125 mg every 8 hours). There are, however, no adequate and well-controlled studies in pregnant women. Because animal reproduction studies are not always predictive of human response, this drug should be used during pregnancy only if clearly needed."
+    },
+    {
+      "key": "section_8_2_labor_and_delivery",
+      "label": "8.2 Labor and Delivery",
+      "number": "34079-4",
+      "title": "8.2 Labor and Delivery",
+      "text": "Oral ampicillin‑class antibacterials are poorly absorbed during labor. It is not known whether use of amoxicillin and clavulanate potassium in humans during labor or delivery has immediate or delayed adverse effects on the fetus, prolongs the duration of labor, or increases the likelihood of the necessity for an obstetrical intervention."
+    },
+    {
+      "key": "section_8_3_nursing_mothers",
+      "label": "8.3 Nursing Mothers",
+      "number": "34080-2",
+      "title": "8.3 Nursing Mothers",
+      "text": "Amoxicillin has been shown to be excreted in human milk. Amoxicillin and clavulanate potassium use by nursing mothers may lead to sensitization of infants. Caution should be exercised when amoxicillin and clavulanate potassium is administered to a nursing woman."
+    },
+    {
+      "key": "section_8_4_pediatric_use",
+      "label": "8.4 Pediatric Use",
+      "number": "34081-0",
+      "title": "8.4 Pediatric Use",
+      "text": "The safety and effectiveness of AUGMENTIN for Oral Suspension and Chewable Tablets have been established in pediatric patients. Use of AUGMENTIN in pediatric patients is supported by evidence from studies of AUGMENTIN Tablets in adults with additional data from a study of AUGMENTIN for Oral Suspension in pediatric patients aged 2 months to 12 years with acute otitis media \n [see Clinical Studies ( \n 14.2)] \n ﻿.\n\nBecause of incompletely developed renal function in neonates and young infants, the elimination of amoxicillin may be delayed; clavulanate elimination is unaltered in this age group. Dosing of Amoxicillin and Clavulanate Potassium should be modified in pediatric patients aged less than 12 weeks (less than 3 months) \n [see Dosage and Administration ( \n 2.3)]."
+    },
+    {
+      "key": "section_8_5_geriatric_use",
+      "label": "8.5 Geriatric Use",
+      "number": "34082-8",
+      "title": "8.5 Geriatric Use",
+      "text": "Of the 3,119 patients in an analysis of clinical studies of AUGMENTIN, 32% were greater than or equal to 65 years old, and 14% were greater than or equal to 75 years old. No overall differences in safety or effectiveness were observed between these subjects and younger subjects, and other reported clinical experience has not identified differences in responses between the elderly and younger patients, but greater sensitivity of some older individuals cannot be ruled out.\nThis drug is known to be substantially excreted by the kidney, and the risk of adverse reactions to this drug may be greater in patients with impaired renal function. Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection, and it may be useful to monitor renal function."
+    },
+    {
+      "key": "section_8_6_renal_impairment",
+      "label": "8.6 Renal Impairment",
+      "number": "88828-9",
+      "title": "8.6 Renal Impairment",
+      "text": "Amoxicillin is primarily eliminated by the kidney and dosage adjustment is usually required in patients with severe renal impairment (GFR less than 30 mL/min). See Patients with Renal Impairment \n [see Dosage and Administration ( \n 2.4)] \n for specific recommendations in patients with renal impairment."
+    },
+    {
+      "key": [
+        "surdosage",
+        "Overdosage"
+      ],
+      "label": "Overdosage",
+      "number": "34088-5",
+      "title": "10 OVERDOSAGE",
+      "text": "In case of overdosage, discontinue medication, treat symptomatically, and institute supportive measures as required. A prospective study of 51 pediatric patients at a poison-control center suggested that overdosages of less than 250 mg/kg of amoxicillin are not associated with significant clinical symptoms \n 1.\n\nInterstitial nephritis resulting in oliguric renal failure has been reported in patients after overdosage with amoxicillin and clavulanate potassium.\nCrystalluria, in some cases leading to renal failure, has also been reported after amoxicillin and clavulanate potassium overdosage in adult and pediatric patients. In case of overdosage, adequate fluid intake and diuresis should be maintained to reduce the risk of amoxicillin and clavulanate potassium crystalluria.\nRenal impairment appears to be reversible with cessation of drug administration. High blood levels may occur more readily in patients with impaired renal function because of decreased renal clearance of amoxicillin and clavulanate potassium. Amoxicillin and clavulanate potassium may be removed from circulation by hemodialysis \n [see Dosage and Administration ( \n 2.4)] \n ﻿."
+    },
+    {
+      "key": [
+        "description",
+        "Description"
+      ],
+      "label": "Description",
+      "number": "34089-3",
+      "title": "11 DESCRIPTION",
+      "text": "AUGMENTIN is an oral antibacterial combination consisting of amoxicillin and the beta‑lactamase inhibitor, clavulanate potassium (the potassium salt of clavulanic acid).\nAmoxicillin is an analog of ampicillin, derived from the basic penicillin nucleus, 6‑aminopenicillanic acid. The amoxicillin molecular formula is C \n 16H \n 19N \n 3O \n 5S•3H \n 2O, and the molecular weight is 419.46. Chemically, amoxicillin is (2 \n S,5 \n R,6 \n R)-6-[( \n R)-(-)-2-Amino-2-( \n p-hydroxyphenyl)acetamido]-3,3-dimethyl-7-oxo-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylic acid trihydrate and may be represented structurally as:\n\nClavulanic acid is produced by the fermentation of \n Streptomyces clavuligerus. It is a beta-lactam structurally related to the penicillins and possesses the ability to inactivate some beta‑lactamases by blocking the active sites of these enzymes. The clavulanate potassium molecular formula is C \n 8H \n 8KNO \n 5, and the molecular weight is 237.25. Chemically, clavulanate potassium is potassium ( \n Z)(2 \n R,5 \n R)-3-(2-hydroxyethylidene)-7-oxo-4-oxa-1-azabicyclo[3.2.0]-heptane-2-carboxylate and may be represented structurally as:\n\nAUGMENTIN for Oral Suspension:\n\n125 mg/31.25 mg: Following constitution, each 5 mL of oral suspension contains 125 mg of amoxicillin as the trihydrate, and 31.25 mg of clavulanic acid (equivalent to 37.23 mg of clavulanate potassium).\n\n250 mg/62.5 mg: Following constitution, each 5 mL of oral suspension contains 250 mg of amoxicillin as the trihydrate, and 62.5 mg of clavulanic acid (equivalent to 74.5 mg of clavulanate potassium).\n\nInactive Ingredients:\n\nAUGMENTIN for Oral Suspension, 125 mg/31.5 mg per 5mL and 250 mg/62.5 mg per 5mL - Colloidal silicon dioxide, flavorings, xanthan gum, mannitol, succinic acid, silica gel and sodium saccharin.\n\n • Each 5 mL of reconstituted 125 mg/31.5 mg oral suspension of AUGMENTIN contains 0.16 mEq potassium\n\n • Each 5 mL of reconstituted 250 mg/62.5 mg oral suspension of AUGMENTIN contains 0.32 mEq potassium\n\nstructure-amoxicillin\n\nstructure-clav-acid"
+    },
+    {
+      "key": [
+        "mecanisme_action",
+        "Mechanism of Action"
+      ],
+      "label": "Mechanism of Action",
+      "number": "43679-0",
+      "title": "12.1 Mechanism of Action",
+      "text": "AUGMENTIN is an antibacterial drug \n [see Microbiology ( \n 12.4)] \n ﻿."
+    },
+    {
+      "key": [
+        "pharmacocinetique",
+        "Pharmacokinetics"
+      ],
+      "label": "Pharmacokinetics",
+      "number": "43682-4",
+      "title": "12.3 Pharmacokinetics",
+      "text": "Mean amoxicillin and clavulanate potassium pharmacokinetic parameters in normal adults following administration of Amoxicillin and Clavulanate Potassium Tablets are shown in Table 6 and following administration of Amoxicillin and Clavulanate Potassium for Oral Suspension and Chewable Tablets are shown in Table 7.\n\nTable 6: Mean (±S.D.) Amoxicillin and Clavulanate Potassium Pharmacokinetic Parameters a,b with Amoxicillin and Clavulanate Potassium Tablets\n\nTable 7: Mean (±S.D.) Amoxicillin and Clavulanate Potassium Pharmacokinetic Parameters a,b with Amoxicillin and Clavulanate Potassium for Oral Suspension and Chewable Tablets\n\nOral administration of 5 mL of the 250 mg/62.5 mg suspension of Amoxicillin and Clavulanate Potassium or the equivalent dose of 10 mL of the 125 mg/31.25 mg suspension of Amoxicillin and Clavulanate Potassium provides average peak serum concentrations approximately 1 hour after dosing of 6.9 mcg/mL for amoxicillin and 1.6 mcg/mL for clavulanic acid. The areas under the serum concentration curves obtained during the first 4 hours after dosing were 12.6 mcg*h/mL for amoxicillin and 2.9 mcg*h/mL for clavulanic acid when 5 mL of the 250 mg/62.5 mg suspension of Amoxicillin and Clavulanate Potassium or equivalent dose of 10 mL of the 125 mg/31.25 mg suspension of Amoxicillin and Clavulanate Potassium were administered to normal adults. One 250 mg/62.5 mg chewable tablet of Amoxicillin and Clavulanate Potassium or two 125 mg/31.25 mg chewable tablets of Amoxicillin and Clavulanate Potassium are equivalent to 5 mL of the 250 mg/62.5 mg suspension of Amoxicillin and Clavulanate Potassium and provide similar serum concentrations of amoxicillin and clavulanic acid.\nAmoxicillin serum concentrations achieved with Amoxicillin and Clavulanate Potassium are similar to those produced by the oral administration of equivalent doses of amoxicillin alone. Time above the minimum inhibitory concentration of 1 mcg/mL for amoxicillin has been shown to be similar after corresponding every 12 hour and every 8-hour dosing regimens of Amoxicillin and Clavulanate Potassium in adults and children.\n\nAbsorption: Dosing in the fasted or fed state has minimal effect on the pharmacokinetics of amoxicillin. While AUGMENTIN can be given without regard to meals, absorption of clavulanate potassium when taken with food is greater relative to the fasted state. In one study, the relative bioavailability of clavulanate was reduced when AUGMENTIN was dosed at 30 and 150 minutes after the start of a high‑fat breakfast.\n\nDistribution: Neither component in AUGMENTIN is highly protein‑bound; clavulanic acid is approximately 25% bound to human serum and amoxicillin approximately 18% bound\n\nAmoxicillin diffuses readily into most body tissues and fluids with the exception of the brain and spinal fluid.\n\nTwo hours after oral administration of a single 35 mg/kg dose of suspension of AUGMENTIN to fasting children, average concentrations of 3 mcg/mL of amoxicillin and 0.5 mcg/mL of clavulanic acid were detected in middle ear effusions.\n\nMetabolism and Excretion: The half‑life of amoxicillin after the oral administration of AUGMENTIN is 1.3 hours and that of clavulanic acid is 1 hour.\n\nApproximately 50% to 70% of the amoxicillin and approximately 25% to 40% of the clavulanic acid are excreted unchanged in urine during the first 6 hours after administration of a single 250 mg/125 mg or 500 mg/125 mg tablet of AUGMENTIN.\n\nTable\n\nTable"
+    },
+    {
+      "key": "section_12_4_microbiology",
+      "label": "12.4 Microbiology",
+      "number": "49489-8",
+      "title": "12.4 Microbiology",
+      "text": "Amoxicillin is a semisynthetic antibacterial with in vitro bactericidal activity against Gram-positive and Gram-negative bacteria. Amoxicillin is, however, susceptible to degradation by beta-lactamases, and therefore, the spectrum of activity does not include organisms which produce these enzymes. Clavulanic acid is a beta-lactam, structurally related to the penicillins, which possesses the ability to inactivate some beta-lactamase enzymes commonly found in microorganisms resistant to penicillins and cephalosporins. In particular, it has good activity against the clinically important plasmid-mediated beta-lactamases frequently responsible for transferred drug resistance.\nThe formulation of amoxicillin and clavulanic acid in AUGMENTIN protects amoxicillin from degradation by some beta-lactamase enzymes and extends the antibacterial spectrum of amoxicillin to include many bacteria normally resistant to amoxicillin.\nAmoxicillin and clavulanic acid has been shown to be active against most isolates of the following bacteria, both in vitro and in clinical infections \n [see Indications and Usage ( \n 1)] \n ﻿.\n\nGram-positive bacteria\n\nStaphylococcus aureus\n\nGram-negative bacteria\n\nEnterobacter species\n\nEscherichia coli \n\nHaemophilus influenzae \n\nKlebsiella species\n\nMoraxella catarrhalis\n\nThe following in vitro data are available, \n but their clinical significance is unknown. At least 90 percent of the following bacteria exhibit an in vitro minimum inhibitory concentration (MIC) less than or equal to the susceptible breakpoint for amoxicillin and clavulanic acid. However, the efficacy of amoxicillin and clavulanic acid in treating clinical infections due to these bacteria \n has not been established in adequate and well-controlled clinical trials.\n\nGram-positive bacteria\n\nEnterococcus faecalis\n\nStaphylococcus epidermidis\n\nStaphylococcus saprophyticus\n\nStreptococcus pneumoniae\n\nStreptococcus pyogenes\n\nViridans group \n Streptococcus\n\nGram-negative Bacteria\n\nEikenella corrodens\n\nProteus mirabilis\n\nAnaerobic Bacteria\n\nBacteroides species including \n Bacteroides fragilis\n\nFusobacterium species\n\nPeptostreptococcus species"
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Susceptibility Test Methods\n\nFor specific information regarding susceptibility test interpretive criteria and associated test methods and quality control standards recognized by FDA for this drug, please see: \n\nhttps://www.fda.gov/STIC\n\n."
+    },
+    {
+      "key": "section_13_1_carcinogenesis_mutagenesis_impairme",
+      "label": "13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility",
+      "number": "34083-6",
+      "title": "13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility",
+      "text": "Long‑term studies in animals have not been performed to evaluate carcinogenic potential.\nAUGMENTIN (4:1 ratio formulation of amoxicillin:clavulanate) was non-mutagenic in the Ames bacterial mutation assay, and the yeast gene conversion assay. AUGMENTIN was weakly positive in the mouse lymphoma assay, but the trend toward increased mutation frequencies in this assay occurred at doses that were also associated with decreased cell survival. AUGMENTING was negative in the mouse micronucleus test, and in the dominant lethal assay in mice. Potassium clavulanate alone was tested in the Ames bacterial mutation assay and in the mouse micronucleus test, and was negative in each of these assays.\nAUGMENTIN (2:1 ratio formulation of amoxicillin:clavulanate) at oral doses of up to 1,200 mg/kg/day was found to have no effect on fertility and reproductive performance in rats. Based on body surface area, this dose of amoxicillin is approximately 4 times the maximum recommended adult human oral dose (875 mg every 12 hours). For clavulanate, the dose multiple is approximately 9 times higher than the maximum recommended adult human oral dose (125 mg every 8 hours), also based on body surface area."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "14.1 Lower Respiratory Tract and Complicated Urinary Tract Infections",
+      "text": "Data from 2 pivotal trials in 1,191 patients treated for either lower respiratory tract infections or complicated urinary tract infections compared a regimen of 875 mg/125 mg tablets of Amoxicillin and Clavulanate Potassium every 12 hours to 500 mg/125 mg tablets of Amoxicillin and Clavulanate Potassium dosed every 8 hours (584 and 607 patients, respectively). Comparable efficacy was demonstrated between the every 12 hours and every 8 hours dosing regimens. There was no significant difference in the percentage of adverse events in each group. The most frequently reported adverse event was diarrhea; incidence rates were similar for the 875 mg/125 mg every 12 hours and 500 mg/125 mg every 8 hours dosing regimens (15% and 14%, respectively); however, there was a statistically significant difference (p less than 0.05) in rates of severe diarrhea or withdrawals with diarrhea between the regimens: 1% for 875 mg/125 mg every 12 hours regimen versus 2% for the 500 mg/125 mg every 8 hours regimen.\nIn one of these pivotal trials, patients with either pyelonephritis (n equals 361) or a complicated urinary tract infection (i.e., patients with abnormalities of the urinary tract that predispose to relapse of bacteriuria following eradication, n equals 268) were randomized (1:1) to receive either 875 mg/125mg tablets of AUGMENTIN every 12 hours (n equals 308) or 500 mg/125 mg tablets of AUGMENTIN every 8 hours (n equals 321).\nThe number of bacteriologically evaluable patients was comparable between the two dosing regimens. AUGMENTIN produced comparable bacteriological success rates in patients assessed 2 to 4 days immediately following end of therapy. The bacteriologic efficacy rates were comparable at one of the follow‑up visits (5 to 9 days post‑therapy) and at a late post‑therapy visit (in the majority of cases, this was 2 to 4 weeks post-therapy), as seen in Table 8.\n\nTable 8: Bacteriologic efficacy rates for AUGMENTIN\n\nTime Post Therapy\n | \n\n875 mg every 12 hours\n\n% (n)\n | \n\n500 mg every 8 hours\n\n% (n)\n | \n\n2 to 4 days | \n81% (58) | \n80% (54) | \n\n5 to 9 days | \n58% (41) | \n52% (52) | \n\n2 to 4 weeks | \n 52% (101) | \n 55% (104) | \n\nAs noted before, though there was no significant difference in the percentage of adverse events in each group, there was a statistically significant difference in rates of severe diarrhea or withdrawals with diarrhea between the regimens."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "14.2 Acute Bacterial Otitis Media and Diarrhea in Pediatric Patients",
+      "text": "One US/Canadian clinical trial was conducted which compared 45/6.4 mg/kg/day (divided every 12 hours) of AUGMENTIN for 10 days versus 40/10 mg/kg/day (divided every 8 hours) of AUGMENTIN for 10 days in the treatment of acute otitis media. Only the suspension formulations were used in this trial. A total of 575 pediatric patients (aged 2 months to 12 years) were enrolled, with an even distribution among the 2 treatment groups and a comparable number of patients were evaluable (i.e., greater than or equal to 84%) per treatment group. Otitis media‑specific criteria were required for eligibility and a strong correlation was found at the end of therapy and follow‑up between these criteria and physician assessment of clinical response. The clinical efficacy rates at the end of therapy visit (defined as 2 to 4 days after the completion of therapy) and at the follow‑up visit (defined as 22 to 28 days post‑completion of therapy) were comparable for the 2 treatment groups, with the following cure rates obtained for the evaluable patients: At end of therapy, 87% (n equals 265) and 82% (n equals 260) for 45 mg/kg/day every 12 hours and 40 mg/kg/day every 8 hours, respectively. At follow‑up, 67% (n equals 249) and 69% (n equals 243) for 45 mg/kg/day every 12 hours and 40 mg/kg/day every 8 hours, respectively.\n\nDiarrhea was defined as either: (a) 3 or more watery or 4 or more loose/watery stools in 1 day; OR (b) 2 watery stools per day or 3 loose/watery stools per day for 2 consecutive days. The incidence of diarrhea was significantly lower in patients who received the every 12 hours regimen compared to patients who received the every 8 hours regimen (14% and 34%, respectively). In addition, the number of patients with either severe diarrhea or who were withdrawn with diarrhea was significantly lower in the every 12 hours treatment group (3% and 8% for the every 12 hours/10 day and every 8 hours/10 day, respectively). In the every 12 hours treatment group, 3 patients (1%) were withdrawn with an allergic reaction, while 1 patient in the every 8 hours group was withdrawn for this reason. The number of patients with a candidal infection of the diaper area was 4% and 6% for the every 12 hours and every 8 hours groups, respectively.\nIt is not known if the finding of a statistically significant reduction in diarrhea with the oral suspensions dosed every 12 hours, versus suspensions dosed every 8 hours of AUGMENTIN, can be extrapolated to the chewable tablets. The presence of mannitol in the chewable tablets of AUGMENTIN may contribute to a different diarrhea profile. The every 12 hour oral suspensions (200 mg/28.5 mg per 5 mL and 400 mg/57 mg per 5 mL) of AUGMENTIN are sweetened with aspartame."
+    },
+    {
+      "key": "section_15_references",
+      "label": "15 REFERENCES",
+      "number": "34093-5",
+      "title": "15 REFERENCES",
+      "text": "Swanson-Biearman B, Dean BS, Lopez G, Krenzelok EP. The effects of penicillin and cephalosporin ingestions in children less than six years of age. Vet Hum Toxicol. 1988; 30: 66‑67."
+    },
+    {
+      "key": "section_16_how_supplied_storage_and_handling",
+      "label": "16 HOW SUPPLIED/STORAGE AND HANDLING",
+      "number": "34069-5",
+      "title": "16 HOW SUPPLIED/STORAGE AND HANDLING",
+      "text": "| \n | \n\n | \n | \n\nAUGMENTIN for Oral Suspension, USP:\n\n125 mg/31.25 mg per 5 mL: Banana-flavored powder for oral suspension, each 5 mL of reconstituted suspension contains 125 mg of amoxicillin as the trihydrate and 31.25 mg of clavulanic acid as the potassium salt (equivalent to 37.23 mg of clavulanate potassium).\n\nNDC71297-240-34 | \n75 mL bottle | \n\nNDC 71297-240-35 | \n100 mL bottle | \n\nNDC 71297-240-36 | \n\n150 mL bottle\n\n | \n\nDispense in original container.\nStore dry powder at or below 25°C (77°F).\nStore reconstituted suspension under refrigeration. Discard unused suspension after 10 days.\nKeep out of the reach of children."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Administration Instructions\n\nInform patients that AUGMENTIN may be taken every 8 hours or every 12 hours, depending on the dose prescribed. Each dose should be taken with a meal or snack to reduce the possibility of gastrointestinal upset."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Allergic Reactions\n\nCounsel patients that AUGMENTIN contains a penicillin class drug product that can cause allergic reactions in some individuals."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Severe Cutaneous Adverse Reactions (SCAR)\n\nAdvise patients about the signs and symptoms of serious skin manifestations. Instruct patients to stop taking AUGMENTIN immediately and promptly report the first signs or symptoms of skin rash, mucosal lesions, or any other sign of hypersensitivity \n [see Warnings and Precautions ( \n 5.2)] \n ﻿."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Diarrhea\n\nCounsel patients that diarrhea is a common problem caused by antibacterials, and it usually ends when the antibacterial is discontinued. Sometimes after starting treatment with antibacterials, patients can develop watery and bloody stools (with or without stomach cramps and fever) even as late as 2 or more months after having taken their last dose of the antibacterial. If diarrhea is severe or lasts more than 2 or 3 days, patients should contact their physician as soon as possible."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Antibacterial Resistance\n\nPatients should be counseled that antibacterial drugs, including AUGMENTIN, should only be used to treat bacterial infections. They do not treat viral infections (e.g., the common cold).\nWhen AUGMENTIN is prescribed to treat a bacterial infection, patients should be told that although it is common to feel better early in the course of therapy, the medication should be taken exactly as directed. Skipping doses or not completing the full course of therapy may: (1) decrease the effectiveness of the immediate treatment, and (2) increase the likelihood that bacteria will develop resistance and will not be treatable by AUGMENTIN or other antibacterial drugs in the future."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Storage Instructions\n\nAdvise patients to keep suspension refrigerated. Shake well before using. When dosing a child with the suspension (liquid) of AUGMENTIN, use a calibrated oral syringe. Be sure to rinse the calibrated oral syringe after each use. Bottles of suspension of AUGMENTIN may contain more liquid than required. Follow your doctor's instructions about the amount to use and the days of treatment your child requires. Discard any unused medicine.\n\nManufactured For:\n\nAllegis Holdings, LLC\n\nCanton, MS 39046 (USA)\n\nMade in USA\n\nAUGMENTIN is a registered trademark of GlaxoSmithKline and is sub-licensed to Allegis Holdings, LLC.\n\nCLINITEST is a registered trademark of Miles, Inc."
+    },
+    {
+      "key": [
+        "changements_majeurs",
+        "Recent Major Changes"
+      ],
+      "label": "Recent Major Changes",
+      "number": "43683-2",
+      "title": "Recent Major Changes",
+      "text": "Warnings and Precautions:\nDrug-Induced Enterocolities Syndrome (DIES) (5.3)\n5/2024"
+    },
+    {
+      "key": "section_bottle_label_100_ml_125mg_31_25mg_for_or",
+      "label": "Bottle Label (100 mL) 125mg/31.25mg for Oral Suspension",
+      "number": "51945-4",
+      "title": "Bottle Label (100 mL) 125mg/31.25mg for Oral Suspension",
+      "text": "NDC 71297- \n 240-35\n\n125 mg/31.25 mg per 5 mL\n\nAUGMENTIN \nfor oral suspension, USP\n\nWhen reconstituted, each 5 mL contains:\n\nAMOXICILLIN, 125 mg\nas the trihydrate, and\n\nCLAVULANIC ACID, 31.25 mg\n(equivalent to 37.23 mg of clavulanate potassium)\n\n100 mL\n(when reconstituted)\n\nRx only\n\nLabel"
+    },
+    {
+      "key": "section_bottle_label_150_ml_125mg_31_25mg_for_or",
+      "label": "Bottle Label (150 mL) 125mg/31.25mg for Oral Suspension",
+      "number": "51945-4",
+      "title": "Bottle Label (150 mL) 125mg/31.25mg for Oral Suspension",
+      "text": "NDC \n 71297-240-36\n\n125 mg/31.25 mg per 5 mL\n\nAUGMENTIN \nfor oral suspension, USP\n\nWhen reconstituted, each 5 mL contains:\n\nAMOXICILLIN, 125 mg\nas the trihydrate, and\n\nCLAVULANIC ACID, 31.25 mg\n(equivalent to 37.23 mg of clavulanate potassium)\n\n150 mL \n(when reconstituted)\n\nRx only\n\nLabel"
+    },
+    {
+      "key": "section_bottle_label_75_ml_125mg_31_25mg_for_ora",
+      "label": "Bottle Label (75 mL) 125mg/31.25mg for Oral Suspension",
+      "number": "51945-4",
+      "title": "Bottle Label (75 mL) 125mg/31.25mg for Oral Suspension",
+      "text": "NDC 71297- 240-34\n125 mg/31.25 mg per 5 mL\nAUGMENTIN for oral suspension, USP\nWhen reconstituted, each 5 mL contains:\nAMOXICILLIN, 125 mg as the trihydrate, and\nCLAVULANIC ACID, 31.25 mg (equivalent to 37.23 mg of clavulanate potassium)\n75 mL(when reconstituted)\nRx only\n\nLabel"
+    }
+  ],
+  "ingredients": [
+    "AMOXICILLIN (Active) - 125 mg",
+    "CLAVULANATE POTASSIUM (Active) - 31.25 mg",
+    "SILICON DIOXIDE (Inactive)",
+    "XANTHAN GUM (Inactive)",
+    "MANNITOL (Inactive)",
+    "SUCCINIC ACID (Inactive)",
+    "SACCHARIN SODIUM (Inactive)"
+  ],
+  "text": "Indications and Usage\nAUGMENTIN is indicated for the treatment of infections in adults and pediatric patients, due to susceptible isolates of the designated bacteria in the conditions listed below:\n\nLower Respiratory Tract Infections - caused by beta‑lactamase–producing isolates of \n Haemophilus influenzae and \n Moraxella catarrhalis.\n\nAcute Bacterial Otitis Media - caused by beta‑lactamase–producing isolates of \n H. influenzae and \n M. catarrhalis.\n\nSinusitis - caused by beta‑lactamase–producing isolates of \n H. influenzae and \n M. catarrhalis.\n\nSkin and Skin Structure Infections - caused by beta‑lactamase–producing isolates of \n Staphylococcus aureus, \n Escherichia coli, and \n Klebsiella species.\n\nUrinary Tract Infections - caused by beta‑lactamase–producing isolates of \n E. coli, \n Klebsiella species, and \n Enterobacter species.\n\nAUGMENTIN is a combination of amoxicillin, a penicillin-class antibacterial and clavulanate potassium, a beta‑lactamase inhibitor indicated for treatment of the following infections in adults and pediatric patients: ( \n 1)\n\nLower respiratory tract infections\nAcute bacterial otitis media\nSinusitis\nSkin and skin structure infections\nUrinary tract infections\n\nLimitations of Use\n\nWhen susceptibility test results show susceptibility to amoxicillin, indicating no beta-lactamase production, AUGMENTIN should not be used. ( \n 1)\n\nUsage\n\nTo reduce the development of drug-resistant bacteria and maintain the effectiveness of AUGMENTIN and other antibacterial drugs, AUGMENTIN should be used only to treat or prevent infections that are proven or strongly suspected to be caused by bacteria. ( \n 1)\n\nUnclassified\nLimitations of Use\n\nWhen susceptibility test results show susceptibility to amoxicillin, indicating no beta-lactamase production, AUGMENTIN should not be used.\n\nUnclassified\nUsage\n\nTo reduce the development of drug‑resistant bacteria and maintain the effectiveness of AUGMENTIN and other antibacterial drugs, AUGMENTIN should be used only to treat or prevent infections that are proven or strongly suspected to be caused by susceptible bacteria. When culture and susceptibility information are available, they should be considered in selecting or modifying antibacterial therapy. In the absence of such data, local epidemiology and susceptibility patterns may contribute to the empiric selection of therapy.\n\nDosage and Administration\nAdults and Pediatric Patients greater than 40 kg: 500 or 875 mg every 12 hours or 250 or 500 mg every 8 hours, based on the amoxicillin component. ( \n 2.2, \n 2.3)\n\nPediatric patients aged 12 weeks (3 months) and older: 25 to 45 mg/kg/day every 12 hours or 20 to 40 mg/kg/day every 8 hours, up to the adult dose. ( \n 2.3)\n\nNeonates and infants less than 12 weeks of age: 30 mg/kg/day divided every 12 hours, based on the amoxicillin component. Use of the 125 mg/5 mL oral suspension is recommended. ( \n 2.3)\n\nUnclassified\nAUGMENTIN may be taken without regard to meals; however, absorption of clavulanate potassium is enhanced when AUGMENTIN is administered at the start of a meal. To minimize the potential for gastrointestinal intolerance, AUGMENTIN should be taken at the start of a meal.\n\nUnclassified\nSee dosing regimens of AUGMENTIN (based on the amoxicillin component) provided in Table 1 below.\n\nTable 1. Dosing Regimens of AUGMENTIN in Adult Patients\n\nTYPE OF INFECTION\n\n | \n\nDOSING REGIMEN OF Amoxicillin and Clavulanate Potassium\n\n | \n\nSevere infections and infections of the respiratory tract | \none 875 mg tablet \n a of AUGMENTIN every 12 hours\n\n or\n\n one 500 mg tablet \n b,c of AUGMENTIN every 8 hours\n | \n\nLess severe infections | \none 500 mg tablet \n b,c of AUGMENTIN every 12 hours\n\n or\n\n one 250 mg tablet \n d of AUGMENTIN every 8 hours\n | \n\na Adults who have difficulty swallowing may be given the AUGMENTIN 200 mg/28.5 mg per 5 mL suspension or the AUGMENTIN 400 mg/57 mg per 5 mL suspension may be used in place of the 875 mg/125 mg tablet.\n\nb Adults who have difficulty swallowing may be given the AUGMENTIN 125 mg/31.25 mg per 5 mL or AUGMENTIN 250 mg/62.5 mg per 5 mL suspension in place of the 500 mg/125 mg tablet.\n\nc Two AUGMENTIN 250 mg/125 mg tablets are \n NOT substitutable with one 500 mg/125 mg AUGMENTIN tablet \n [see Dosage and Administration ( \n 2.6)] \n .\n\nd AUGMENTIN 250 mg/125 mg tablet is \n NOT substitutable with AUGMENTIN 250 mg/62.5 mg chewable tablet \n [see Dosage and Administration ( \n 2.6)]\n\nUnclassified\nBased on the amoxicillin component, AUGMENTIN should be dosed as follows:\n\nNeonates and Infants Aged less than 12 weeks (less than 3 months): See dosing regimens of AUGMENTIN provided in Table 2 below.\n\nTable 2: Dosing Regimens of AUGMENTIN in Neonates and Infants Aged Less than 12 Weeks (Less than 3 Months)\n\nPATIENT POPULATION\n\n | \n\nDOSING REGIMEN\n\n | \n\nAUGMENTIN 125 mg/31.25 mg per 5 mL for oral suspension\n\na\n | \n\nNeonates and Infants aged less than 12\nweeks (less than 3 months)\n | \n\n30 mg/kg/day every 12 hours\n | \n\na Experience with the AUGMENTIN 200 mg/28.5 mg per 5 mL formulation in this age group is limited, and thus, use of the AUGMENTIN 125 mg/31.25 mg per 5 mL for oral suspension is recommended.\n\nUnclassified\nPatients Aged 12 weeks (3 months) and Older and Weighing Less than 40 kg: See dosing regimens provided in Table 3 below.\nThe every 12 hour regimen is recommended as it is associated with significantly less diarrhea [see Clinical Studies ( 14.2)] .\n\nThe Amoxicillin and Clavulanate Potassium 200 mg/28.5 mg per 5 mL and Amoxicillin and Clavulanate Potassium 400 mg/57 mg per 5 mL) for oral suspension and Amoxicillin and Clavulanate Potassium 200 mg/28.5 mg and Amoxicillin and Clavulanate Potassium 400 mg/57 mg chewable tablets contain aspartame and should not be used by phenylketonurics. [see Warnings and Precautions ( 5.8)].\n\nTable 3: Dosing in Patients Aged 12 Weeks (3 Months) and Older and Weighing Less than 40 kg\n\nTable\n\nUnclassified\nPatients Weighing 40 kg or More: Pediatric patients weighing 40 kg or more should be dosed according to adult recommendations.\n\nThe 250 mg/125 mg tablet of AUGMENTIN should \n NOT be used until the child weighs at least 40 kg, due to the different amoxicillin to clavulanic acid ratios in the 250 mg/125 mg tablet of AUGMENTIN versus the 250 mg/62.5 mg chewable tablet of AUGMENTIN.\n\nUnclassified\nPatients with impaired renal function do not generally require a reduction in dose unless the impairment is severe. Renal impairment patients with a glomerular filtration rate (GFR) of less than 30 mL/min should \n NOT receive the 875 mg dose (based on the amoxicillin component) of AUGMENTIN. See dosing regimens in patients with severe renal impairment provided in Table 4.\n\nTable 4. Dosing Regimens of AUGMENTIN in Patients with Severe Renal Impairment\n\nPatients with Renal Impairment\n\n | \n\nDosing Regimen\n\n | \n\n GFR 10 mL/min to 30 mL/min | \n\n 500 mg or 250 mg every 12 hours, depending\non the severity of the infection\n | \n\n GFR less than 10 mL/min | \n\n 500 mg or 250 mg every 24 hours, depending\non severity of the infection\n | \n\n Hemodialysis | \n\n 500 mg or 250 mg every 24 hours, depending\non severity of the infection\n\n Administer an additional dose both during\n\nand at the end of dialysis\n |\n\nUnclassified\nPrepare AUGMENTIN for oral suspension at time of dispensing as follows: Tap bottle until all powder flows freely. Measure a total (see Table 5 below for total amount of water for reconstitution) OF WATER. Add approximately 2/3 of the water to the powder. Replace cap and shake VIGOROUSLY. Add remaining water. Replace cap and shake VIGOROUSLY.\n\nTable 5: Amount of Water for Mixing AUGMENTIN for Oral Suspension\n\nStrength of AUGMENTIN Oral Suspension\n\n | \n\nBottle Size\n | \n\nAmount of Water for\n\n Reconstitution \n\n | \n\nContents of Each\n\n Teaspoonful (5 mL) \n\n | \n\n125 mg/31.25 mg\nper 5 mL\n | \n75 mL\n\n 100 mL\n\n 150 mL\n | \n67 mL\n\n 90 mL\n\n 134 mL\n | \n125 mg of amoxicillin and 31.25 mg of clavulanic acid as the potassium salt | \n\n | \n | \n | \n | \n\n250 mg/62.5 mg\nper 5 mL\n | \n75 mL\n\n 100 mL\n\n 150 mL\n | \n65 mL\n\n 87 mL\n\n 130 mL\n | \n250 mg of amoxicillin and 62.5 mg of clavulanic acid as the potassium salt | \n\n | \n | \n | \n | \n\nShake oral suspension well before using. Reconstituted suspension must be stored under refrigeration and discarded after 10 days. Some color change is normal during dosing period.\n\nUnclassified\nAUGMENTIN 250 mg/125 mg Tablet is \n NOT Substitutable with AUGMENTIN 250 mg/62.5 mg Chewable Tablet\n\nThe 250 mg/125 mg tablet of AUGMENTIN and the 250 mg/62.5 mg chewable tablet of AUGMENTIN should \n NOT be substituted for each other and the 250 mg/125 mg tablet of AUGMENTIN should \n NOT be used in pediatric patients weighing less than 40 kg \n [see Dosage and Administration ( \n 2.3)] \n . The 250 mg tablet of AUGMENTIN and the 250 mg chewable tablet of AUGMENTIN do not contain the same amount of clavulanic acid. The 250 mg tablet of AUGMENTIN contains 125 mg of clavulanic acid whereas the 250 mg chewable tablet of AUGMENTIN contains 62.5 mg of clavulanic acid.\n\nTwo AUGMENTIN 250 mg/125 mg Tablets are \n NOT Substitutable with One 500 mg/125 mg AUGMENTIN Tablet \n\nTwo 250 mg/125 mg tablets of AUGMENTIN should \n NOT be substituted for one 500 mg/125 mg tablet of AUGMENTIN. Since both the 250 mg and 500 mg tablets of AUGMNTIN contain the same amount of clavulanic acid (125 mg, as the potassium salt), two 250 mg tablets of AUGMENTIN are not equivalent to one 500 mg tablet of AUGMENTIN.\n\nDosage Forms and Strengths\nAugmentin for Oral Suspension, USP:\n\n125 mg/31.25 mg per 5 mL: Banana-flavored powder for oral suspension (each 5 mL of reconstituted suspension contains 125 mg of amoxicillin as the trihydrate and 31.25 mg of clavulanic acid as the potassium salt).\n\n250 mg/62.5 mg per 5 mL: Orange-flavored powder for oral suspension (each 5 mL of reconstituted suspension contains 250 mg of amoxicillin as the trihydrate and 62.5 mg of clavulanic acid as the potassium salt).\n\nFor Oral Suspension: 125 mg/31.25 mg per 5 mL, 250 mg/62.5 mg per 5 mL ( \n 3)\n\nContraindications\nHistory of a serious hypersensitivity reaction (e.g., anaphylaxis or Stevens-Johnson syndrome) to AUGMENTIN or to other beta‑lactams (e.g., penicillins or cephalosporins). ( \n 4.1)\n\nHistory of cholestatic jaundice/hepatic dysfunction associated with AUGMENTIN. ( \n 4.2)\n\nUnclassified\nAUGMENTIN is contraindicated in patients with a history of serious hypersensitivity reactions (e.g., anaphylaxis or Stevens-Johnson syndrome) to amoxicillin, clavulanate or to other beta‑lactam antibacterial drugs (e.g., penicillins and cephalosporins).\n\nUnclassified\nAUGMENTIN is contraindicated in patients with a previous history of cholestatic jaundice/hepatic dysfunction associated with AUGMENTIN.\n\nWarnings and Precautions\nSerious (including fatal) hypersensitivity reactions: Discontinue AUGMENTIN if a reaction occurs. ( \n 5.1)\n\nSevere Cutaneous Adverse Reactions (SCAR): Monitor closely. Discontinue if rash progresses. ( \n 5.2)\n\nDrug-induced enterocolitis syndrome (DIES) has been reported with use of Amoxicillin, A componet of Augmentin. If this occures, discontinue AUGMENIN and institute appropriate therapy (\n 5.3)\n\nHepatic dysfunction and cholestatic jaundice: Discontinue if signs/symptoms of hepatitis occur. Monitor liver function tests in patients with hepatic impairment. ( \n 5.4)\n\nClostridioides difficile-associated diarrhea (CDAD): Evaluate patients if diarrhea occurs. ( \n 5.5)\n\nPatients with mononucleosis who receive AUGMENTIN develop skin rash. Avoid AUGMENTIN use in these patients. ( \n 5.6\n\nOvergrowth: The possibility of superinfections with fungal or bacterial pathogens should be considered during therapy. ( \n 5.7)\n\nUnclassified\nSerious and occasionally fatal hypersensitivity (anaphylactic) reactions have been reported in patients receiving beta-lactam antibacterials, including AUGMENTIN. These reactions are more likely to occur in individuals with a history of penicillin hypersensitivity and/or a history of sensitivity to multiple allergens. Before initiating therapy with AUGMENTIN, careful inquiry should be made regarding previous hypersensitivity reactions to penicillins, cephalosporins, or other allergens. If an allergic reaction occurs, AUGMENTIN should be discontinued, and appropriate therapy instituted.\n\nUnclassified\nAUGMENTIN may cause severe cutaneous adverse reactions (SCAR), such as Stevens-Johnson syndrome (SJS), toxic epidermal necrolysis (TEN), drug reaction with eosinophilia and systemic symptoms (DRESS), and acute generalized exanthematous pustulosis (AGEP). If patients develop a skin rash, they should be monitored closely, and AUGMENTIN discontinued if lesions progress.\n\nUnclassified\nDrug-induced enterocolitis syndrome (DIES) has been reported with use of amoxicillin, a componet of AUGMENTIN\n[see Adverse Reactions (6.2)], with most cases occurring in pediatric patients \n < 18 years of age. DIES is a non IgE mediated\n\nhypersensitivity reaction characterized by protracted vomiting occuring 1 to 4 hours after drug ingestion in the absence of\nskin or respiratory symptoms. DIES may be associated with pallor, lethargy, hypotension, shock, diarrhea within 24 hours of ingesting\namoxicillin, and leukocytosis with neutrophilia. If DIES occurs, discontinue AUGMENTIN and institute appropriate therapy.\n\nUnclassified\nHepatic dysfunction, including hepatitis and cholestatic jaundice has been associated with the use of AUGMENTIN. Hepatic toxicity is usually reversible; however, deaths have been reported. Hepatic function should be monitored at regular intervals in patients with hepatic impairment.\n\nUnclassified\nClostridioides difficile associated diarrhea (CDAD) has been reported with use of nearly all antibacterial agents, including AUGMENTIN, and may range in severity from mild diarrhea to fatal colitis. Treatment with antibacterial agents alters the normal flora of the colon leading to overgrowth of \n C. difficile.\n\nC. difficile produces toxins A and B which contribute to the development of CDAD. Hypertoxin-producing strains of \n C. difficile cause increased morbidity and mortality, as these infections can be refractory to antimicrobial therapy and may require colectomy. CDAD must be considered in all patients who present with diarrhea following antibacterial use. Careful medical history is necessary since CDAD has been reported to occur over 2 months after the administration of antibacterial agents.\n\nIf CDAD is suspected or confirmed, ongoing antibacterial use not directed against \n C. difficile may need to be discontinued. Appropriate fluid and electrolyte management, protein supplementation, antibacterial treatment of \n C. difficile, and surgical evaluation should be instituted as clinically indicated.\n\nUnclassified\nA high percentage of patients with mononucleosis who receive amoxicillin develop an erythematous skin rash. Thus, AUGMENTIN should not be administered to patients with mononucleosis.\n\nUnclassified\nThe possibility of superinfections with fungal or bacterial pathogens should be considered during therapy. If superinfection occurs, amoxicillin and clavulanate potassium should be discontinued and appropriate therapy instituted.\n\nUnclassified\nAUGMENTIN Chewable tablets and AUGMENTIN for Oral Suspension contain aspartame which contains phenylalanine. Each 200 mg chewable tablet of AUGMENTIN contains 2.1 mg phenylalanine; each 400 mg chewable tablet contains 4.2 mg phenylalanine; each 5 mL of either the 200 mg/5 mL or 400 mg/5 mL oral suspension contains 7 mg phenylalanine. The other formulations of AUGMENTIN do not contain phenylalanine.\n\nUnclassified\nPrescribing AUGMENTIN in the absence of a proven or strongly suspected bacterial infection or a prophylactic indication is unlikely to provide benefit to the patient and increases the risk of the development of drug‑resistant bacteria.\n\nAdverse Reactions\nThe following are discussed in more detail in other sections of the labeling:\n\nAnaphylactic reactions \n [see Warnings and Precautions \n (5.1)\n]\n\nSevere Cutaneous Adverse Reactions \n [see Warnings and Precautions ( \n 5.2)] \n\nDrug-Induced Enterocolitis Syndrom (DIES) [see Warnings and Precautions (\n 5.3)]\n\nHepatic Dysfunction \n [see Warnings and Precautions (\n5.4\n] \n\nClostridioides difficile Associated Diarrhea (CDAD) \n [see Warnings and Precautions (\n5.5\n]\n\n5.4The most frequently reported adverse effects were diarrhea/loose stools (9%), nausea (3%), skin rashes and urticaria (3%), vomiting (1%) and vaginitis (1%). ( \n 6.1)\n\nTo report SUSPECTED ADVERSE REACTIONS, contact Allegis Holdings, LLC at 1-866-633-9033\n or FDA at 1-800-FDA-1088 or \n www.fda.gov/medwatch.\n\n6.1 Clinical Trial Experience\nBecause clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in practice.\nThe most frequently reported adverse reactions were diarrhea/loose stools (9%), nausea (3%), skin rashes and urticaria (3%), vomiting (1%) and vaginitis (1%). Less than 3% of patients discontinued therapy because of drug‑related adverse reactions. The overall incidence of adverse reactions, and in particular diarrhea, increased with the higher recommended dose. Other less frequently reported adverse reactions (less than 1%) include: Abdominal discomfort, flatulence, and headache.\nIn pediatric patients (aged 2 months to 12 years), 1 US/Canadian clinical trial was conducted which compared 45/6.4 mg/kg/day (divided every 12 hours) of Amoxicillin and Clavulanate Potassium for 10 days versus 40/10 mg/kg/day (divided every 8 hours) of Amoxicillin and Clavulanate Potassium for 10 days in the treatment of acute otitis media. A total of 575 patients were enrolled, and only the suspension formulations were used in this trial. Overall, the adverse reactions seen were comparable to that noted above; however, there were differences in the rates of diarrhea, skin rashes/urticaria, and diaper area rashes. \n [see Clinical Studies ( \n 14.2)] \n ﻿.\n\nUnclassified\nIn addition to adverse reactions reported from clinical trials, the following have been identified during postmarketing use of AUGMENTIN. Because they are reported voluntarily from a population of unknown size, estimates of frequency cannot be made. These events have been chosen for inclusion due to a combination of their seriousness, frequency of reporting, or potential causal connection to Amoxicillin and Clavulanate Potassium.\n\nGastrointestinal: Drug-induced enterocolitis syndrome (DIES), indigestion, gastritis, stomatitis, glossitis, black “hairy” tongue, mucocutaneous candidiasis, enterocolitis, and hemorrhagic/pseudomembranous colitis. Onset of pseudomembranous colitis symptoms may occur during or after antibacterial treatment. \n [see Warnings and Precautions ( \n5.5\n] ﻿.\n\nImmune: Hypersensitivity reactions, anaphylactic/anaphylactoid reactions (including shock), angioedema, serum sickness-like reactions (urticaria or skin rash accompanied by arthritis, arthralgia, myalgia, and frequently fever), hypersensitivity vasculitis \n [see Warnings and Precautions ( \n 5.1)] \n ﻿.\n\nSkin and Appendages: Rashes, pruritus, urticaria, erythema multiforme, SJS, TEN, DRESS, AGEP, exfoliative dermatitis\n , and linear IgA dermatosis.\n\nLiver: Hepatic dysfunction, including hepatitis and cholestatic jaundice, increases in serum transaminases (AST and/or ALT), serum bilirubin, and/or alkaline phosphatase, has been reported with Amoxicillin and Clavulanate Potassium. It has been reported more commonly in the elderly, in males, or in patients on prolonged treatment. The histologic findings on liver biopsy have consisted of predominantly cholestatic, hepatocellular, or mixed cholestatic hepatocellular changes. The onset of signs/symptoms of hepatic dysfunction may occur during or several weeks after therapy has been discontinued. The hepatic dysfunction, which may be severe, is usually reversible. Deaths have been reported \n [see Contraindications ( \n 4.2), Warnings and Precautions ( \n\n5.4\n)] ﻿.\n\nRenal: Interstitial nephritis, hematuria, and crystalluria have been reported \n [see Overdosage ( \n 10)] \n ﻿.\n\nHemic and Lymphatic Systems: Anemia, including hemolytic anemia, thrombocytopenia, thrombocytopenic purpura, eosinophilia, leukopenia, and agranulocytosis have been reported. These reactions are usually reversible on discontinuation of therapy and are believed to be hypersensitivity phenomena. Thrombocytosis was noted in less than 1% of the patients treated with AUGMENTIN. There have been reports of increased prothrombin time in patients receiving AUGMENTIN and anticoagulant therapy concomitantly \n [see Drug Interactions ( \n 7.2)] \n ﻿.\n\nCentral Nervous System: Agitation, anxiety, behavioral changes, aseptic meningitis, confusion, convulsions, dizziness, insomnia, and reversible hyperactivity have been reported.\n\nMiscellaneous: Tooth discoloration (brown, yellow, or gray staining) has been reported. Most reports occurred in pediatric patients. Discoloration was reduced or eliminated with brushing or dental cleaning in most cases.\n\nDrug Interactions\nCo‑administration with probenecid is not recommended. ( \n 7.1)\n\nConcomitant use of AUGMENTIN and oral anticoagulants may increase the prolongation of prothrombin time.( \n 7.2)\n\nCo-administration with allopurinol increases the risk of rash. ( \n 7.3)\n\nAUGMENTIN may reduce efficacy of oral contraceptives. ( \n 7.4)\n\nUnclassified\nProbenecid decreases the renal tubular secretion of amoxicillin but does not delay renal excretion of clavulanic acid. Concurrent use with AUGMENTIN may result in increased and prolonged blood concentrations of amoxicillin. Co-administration of probenecid is not recommended.\n\nUnclassified\nAbnormal prolongation of prothrombin time (increased international normalized ratio [INR]) has been reported in patients receiving amoxicillin and oral anticoagulants. Appropriate monitoring should be undertaken when anticoagulants are prescribed concurrently with AUGMENTIN. Adjustments in the dose of oral anticoagulants may be necessary to maintain the desired level of anticoagulation.\n\nUnclassified\nThe concurrent administration of allopurinol and amoxicillin increases the incidence of rashes in patients receiving both drugs as compared to patients receiving amoxicillin alone. It is not known whether this potentiation of amoxicillin rashes is due to allopurinol or the hyperuricemia present in these patients.\n\nUnclassified\nAUGMENTIN may affect intestinal flora, leading to lower estrogen reabsorption and reduced efficacy of combined oral estrogen/progesterone contraceptives.\n\n7.5 Effects on Laboratory Tests\nHigh urine concentrations of amoxicillin may result in false-positive reactions when testing for the presence of glucose in urine using CLINITEST \n ®, Benedict's Solution, or Fehling's Solution. Since this effect may also occur with AUGMENTIN, it is recommended that glucose tests based on enzymatic glucose oxidase reactions be used.\n\nFollowing administration of amoxicillin to pregnant women, a transient decrease in plasma concentration of total conjugated estriol, estriol-glucuronide, conjugated estrone, and estradiol has been noted.\n\nUse in Specific Populations\nPediatric Use: Modify dose in patients 12 weeks or younger. ( \n 8.4)\n\nRenal Impairment: Dosage adjustment is recommended for severe renal impairment (GFR less than 30mL/min). ( \n 2.4, \n 8.6)]\n\nTERATOGENIC EFFECTS SECTION\nTeratogenic Effects: Pregnancy Category B. Reproduction studies performed in pregnant rats and mice given AUGMENTIN (2:1 ratio formulation of amoxicillin:clavulanate) at oral doses up to 1200 mg/kg/day revealed no evidence of harm to the fetus due to AUGMENTIN. The amoxicillin doses in rats and mice (based on body surface area) were approximately 4 and 2 times the maximum recommended adult human oral dose (875 mg every 12 hours). For clavulanate, these dose multiples were approximately 9 and 4 times the maximum recommended adult human oral dose (125 mg every 8 hours). There are, however, no adequate and well-controlled studies in pregnant women. Because animal reproduction studies are not always predictive of human response, this drug should be used during pregnancy only if clearly needed.\n\n8.2 Labor and Delivery\nOral ampicillin‑class antibacterials are poorly absorbed during labor. It is not known whether use of amoxicillin and clavulanate potassium in humans during labor or delivery has immediate or delayed adverse effects on the fetus, prolongs the duration of labor, or increases the likelihood of the necessity for an obstetrical intervention.\n\n8.3 Nursing Mothers\nAmoxicillin has been shown to be excreted in human milk. Amoxicillin and clavulanate potassium use by nursing mothers may lead to sensitization of infants. Caution should be exercised when amoxicillin and clavulanate potassium is administered to a nursing woman.\n\n8.4 Pediatric Use\nThe safety and effectiveness of AUGMENTIN for Oral Suspension and Chewable Tablets have been established in pediatric patients. Use of AUGMENTIN in pediatric patients is supported by evidence from studies of AUGMENTIN Tablets in adults with additional data from a study of AUGMENTIN for Oral Suspension in pediatric patients aged 2 months to 12 years with acute otitis media \n [see Clinical Studies ( \n 14.2)] \n ﻿.\n\nBecause of incompletely developed renal function in neonates and young infants, the elimination of amoxicillin may be delayed; clavulanate elimination is unaltered in this age group. Dosing of Amoxicillin and Clavulanate Potassium should be modified in pediatric patients aged less than 12 weeks (less than 3 months) \n [see Dosage and Administration ( \n 2.3)].\n\n8.5 Geriatric Use\nOf the 3,119 patients in an analysis of clinical studies of AUGMENTIN, 32% were greater than or equal to 65 years old, and 14% were greater than or equal to 75 years old. No overall differences in safety or effectiveness were observed between these subjects and younger subjects, and other reported clinical experience has not identified differences in responses between the elderly and younger patients, but greater sensitivity of some older individuals cannot be ruled out.\nThis drug is known to be substantially excreted by the kidney, and the risk of adverse reactions to this drug may be greater in patients with impaired renal function. Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection, and it may be useful to monitor renal function.\n\n8.6 Renal Impairment\nAmoxicillin is primarily eliminated by the kidney and dosage adjustment is usually required in patients with severe renal impairment (GFR less than 30 mL/min). See Patients with Renal Impairment \n [see Dosage and Administration ( \n 2.4)] \n for specific recommendations in patients with renal impairment.\n\nOverdosage\nIn case of overdosage, discontinue medication, treat symptomatically, and institute supportive measures as required. A prospective study of 51 pediatric patients at a poison-control center suggested that overdosages of less than 250 mg/kg of amoxicillin are not associated with significant clinical symptoms \n 1.\n\nInterstitial nephritis resulting in oliguric renal failure has been reported in patients after overdosage with amoxicillin and clavulanate potassium.\nCrystalluria, in some cases leading to renal failure, has also been reported after amoxicillin and clavulanate potassium overdosage in adult and pediatric patients. In case of overdosage, adequate fluid intake and diuresis should be maintained to reduce the risk of amoxicillin and clavulanate potassium crystalluria.\nRenal impairment appears to be reversible with cessation of drug administration. High blood levels may occur more readily in patients with impaired renal function because of decreased renal clearance of amoxicillin and clavulanate potassium. Amoxicillin and clavulanate potassium may be removed from circulation by hemodialysis \n [see Dosage and Administration ( \n 2.4)] \n ﻿.\n\nDescription\nAUGMENTIN is an oral antibacterial combination consisting of amoxicillin and the beta‑lactamase inhibitor, clavulanate potassium (the potassium salt of clavulanic acid).\nAmoxicillin is an analog of ampicillin, derived from the basic penicillin nucleus, 6‑aminopenicillanic acid. The amoxicillin molecular formula is C \n 16H \n 19N \n 3O \n 5S•3H \n 2O, and the molecular weight is 419.46. Chemically, amoxicillin is (2 \n S,5 \n R,6 \n R)-6-[( \n R)-(-)-2-Amino-2-( \n p-hydroxyphenyl)acetamido]-3,3-dimethyl-7-oxo-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylic acid trihydrate and may be represented structurally as:\n\nClavulanic acid is produced by the fermentation of \n Streptomyces clavuligerus. It is a beta-lactam structurally related to the penicillins and possesses the ability to inactivate some beta‑lactamases by blocking the active sites of these enzymes. The clavulanate potassium molecular formula is C \n 8H \n 8KNO \n 5, and the molecular weight is 237.25. Chemically, clavulanate potassium is potassium ( \n Z)(2 \n R,5 \n R)-3-(2-hydroxyethylidene)-7-oxo-4-oxa-1-azabicyclo[3.2.0]-heptane-2-carboxylate and may be represented structurally as:\n\nAUGMENTIN for Oral Suspension:\n\n125 mg/31.25 mg: Following constitution, each 5 mL of oral suspension contains 125 mg of amoxicillin as the trihydrate, and 31.25 mg of clavulanic acid (equivalent to 37.23 mg of clavulanate potassium).\n\n250 mg/62.5 mg: Following constitution, each 5 mL of oral suspension contains 250 mg of amoxicillin as the trihydrate, and 62.5 mg of clavulanic acid (equivalent to 74.5 mg of clavulanate potassium).\n\nInactive Ingredients:\n\nAUGMENTIN for Oral Suspension, 125 mg/31.5 mg per 5mL and 250 mg/62.5 mg per 5mL - Colloidal silicon dioxide, flavorings, xanthan gum, mannitol, succinic acid, silica gel and sodium saccharin.\n\n • Each 5 mL of reconstituted 125 mg/31.5 mg oral suspension of AUGMENTIN contains 0.16 mEq potassium\n\n • Each 5 mL of reconstituted 250 mg/62.5 mg oral suspension of AUGMENTIN contains 0.32 mEq potassium\n\nstructure-amoxicillin\n\nstructure-clav-acid\n\nMechanism of Action\nAUGMENTIN is an antibacterial drug \n [see Microbiology ( \n 12.4)] \n ﻿.\n\nPharmacokinetics\nMean amoxicillin and clavulanate potassium pharmacokinetic parameters in normal adults following administration of Amoxicillin and Clavulanate Potassium Tablets are shown in Table 6 and following administration of Amoxicillin and Clavulanate Potassium for Oral Suspension and Chewable Tablets are shown in Table 7.\n\nTable 6: Mean (±S.D.) Amoxicillin and Clavulanate Potassium Pharmacokinetic Parameters a,b with Amoxicillin and Clavulanate Potassium Tablets\n\nTable 7: Mean (±S.D.) Amoxicillin and Clavulanate Potassium Pharmacokinetic Parameters a,b with Amoxicillin and Clavulanate Potassium for Oral Suspension and Chewable Tablets\n\nOral administration of 5 mL of the 250 mg/62.5 mg suspension of Amoxicillin and Clavulanate Potassium or the equivalent dose of 10 mL of the 125 mg/31.25 mg suspension of Amoxicillin and Clavulanate Potassium provides average peak serum concentrations approximately 1 hour after dosing of 6.9 mcg/mL for amoxicillin and 1.6 mcg/mL for clavulanic acid. The areas under the serum concentration curves obtained during the first 4 hours after dosing were 12.6 mcg*h/mL for amoxicillin and 2.9 mcg*h/mL for clavulanic acid when 5 mL of the 250 mg/62.5 mg suspension of Amoxicillin and Clavulanate Potassium or equivalent dose of 10 mL of the 125 mg/31.25 mg suspension of Amoxicillin and Clavulanate Potassium were administered to normal adults. One 250 mg/62.5 mg chewable tablet of Amoxicillin and Clavulanate Potassium or two 125 mg/31.25 mg chewable tablets of Amoxicillin and Clavulanate Potassium are equivalent to 5 mL of the 250 mg/62.5 mg suspension of Amoxicillin and Clavulanate Potassium and provide similar serum concentrations of amoxicillin and clavulanic acid.\nAmoxicillin serum concentrations achieved with Amoxicillin and Clavulanate Potassium are similar to those produced by the oral administration of equivalent doses of amoxicillin alone. Time above the minimum inhibitory concentration of 1 mcg/mL for amoxicillin has been shown to be similar after corresponding every 12 hour and every 8-hour dosing regimens of Amoxicillin and Clavulanate Potassium in adults and children.\n\nAbsorption: Dosing in the fasted or fed state has minimal effect on the pharmacokinetics of amoxicillin. While AUGMENTIN can be given without regard to meals, absorption of clavulanate potassium when taken with food is greater relative to the fasted state. In one study, the relative bioavailability of clavulanate was reduced when AUGMENTIN was dosed at 30 and 150 minutes after the start of a high‑fat breakfast.\n\nDistribution: Neither component in AUGMENTIN is highly protein‑bound; clavulanic acid is approximately 25% bound to human serum and amoxicillin approximately 18% bound\n\nAmoxicillin diffuses readily into most body tissues and fluids with the exception of the brain and spinal fluid.\n\nTwo hours after oral administration of a single 35 mg/kg dose of suspension of AUGMENTIN to fasting children, average concentrations of 3 mcg/mL of amoxicillin and 0.5 mcg/mL of clavulanic acid were detected in middle ear effusions.\n\nMetabolism and Excretion: The half‑life of amoxicillin after the oral administration of AUGMENTIN is 1.3 hours and that of clavulanic acid is 1 hour.\n\nApproximately 50% to 70% of the amoxicillin and approximately 25% to 40% of the clavulanic acid are excreted unchanged in urine during the first 6 hours after administration of a single 250 mg/125 mg or 500 mg/125 mg tablet of AUGMENTIN.\n\nTable\n\nTable\n\n12.4 Microbiology\nAmoxicillin is a semisynthetic antibacterial with in vitro bactericidal activity against Gram-positive and Gram-negative bacteria. Amoxicillin is, however, susceptible to degradation by beta-lactamases, and therefore, the spectrum of activity does not include organisms which produce these enzymes. Clavulanic acid is a beta-lactam, structurally related to the penicillins, which possesses the ability to inactivate some beta-lactamase enzymes commonly found in microorganisms resistant to penicillins and cephalosporins. In particular, it has good activity against the clinically important plasmid-mediated beta-lactamases frequently responsible for transferred drug resistance.\nThe formulation of amoxicillin and clavulanic acid in AUGMENTIN protects amoxicillin from degradation by some beta-lactamase enzymes and extends the antibacterial spectrum of amoxicillin to include many bacteria normally resistant to amoxicillin.\nAmoxicillin and clavulanic acid has been shown to be active against most isolates of the following bacteria, both in vitro and in clinical infections \n [see Indications and Usage ( \n 1)] \n ﻿.\n\nGram-positive bacteria\n\nStaphylococcus aureus\n\nGram-negative bacteria\n\nEnterobacter species\n\nEscherichia coli \n\nHaemophilus influenzae \n\nKlebsiella species\n\nMoraxella catarrhalis\n\nThe following in vitro data are available, \n but their clinical significance is unknown. At least 90 percent of the following bacteria exhibit an in vitro minimum inhibitory concentration (MIC) less than or equal to the susceptible breakpoint for amoxicillin and clavulanic acid. However, the efficacy of amoxicillin and clavulanic acid in treating clinical infections due to these bacteria \n has not been established in adequate and well-controlled clinical trials.\n\nGram-positive bacteria\n\nEnterococcus faecalis\n\nStaphylococcus epidermidis\n\nStaphylococcus saprophyticus\n\nStreptococcus pneumoniae\n\nStreptococcus pyogenes\n\nViridans group \n Streptococcus\n\nGram-negative Bacteria\n\nEikenella corrodens\n\nProteus mirabilis\n\nAnaerobic Bacteria\n\nBacteroides species including \n Bacteroides fragilis\n\nFusobacterium species\n\nPeptostreptococcus species\n\nUnclassified\nSusceptibility Test Methods\n\nFor specific information regarding susceptibility test interpretive criteria and associated test methods and quality control standards recognized by FDA for this drug, please see: \n\nhttps://www.fda.gov/STIC\n\n.\n\n13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility\nLong‑term studies in animals have not been performed to evaluate carcinogenic potential.\nAUGMENTIN (4:1 ratio formulation of amoxicillin:clavulanate) was non-mutagenic in the Ames bacterial mutation assay, and the yeast gene conversion assay. AUGMENTIN was weakly positive in the mouse lymphoma assay, but the trend toward increased mutation frequencies in this assay occurred at doses that were also associated with decreased cell survival. AUGMENTING was negative in the mouse micronucleus test, and in the dominant lethal assay in mice. Potassium clavulanate alone was tested in the Ames bacterial mutation assay and in the mouse micronucleus test, and was negative in each of these assays.\nAUGMENTIN (2:1 ratio formulation of amoxicillin:clavulanate) at oral doses of up to 1,200 mg/kg/day was found to have no effect on fertility and reproductive performance in rats. Based on body surface area, this dose of amoxicillin is approximately 4 times the maximum recommended adult human oral dose (875 mg every 12 hours). For clavulanate, the dose multiple is approximately 9 times higher than the maximum recommended adult human oral dose (125 mg every 8 hours), also based on body surface area.\n\nUnclassified\nData from 2 pivotal trials in 1,191 patients treated for either lower respiratory tract infections or complicated urinary tract infections compared a regimen of 875 mg/125 mg tablets of Amoxicillin and Clavulanate Potassium every 12 hours to 500 mg/125 mg tablets of Amoxicillin and Clavulanate Potassium dosed every 8 hours (584 and 607 patients, respectively). Comparable efficacy was demonstrated between the every 12 hours and every 8 hours dosing regimens. There was no significant difference in the percentage of adverse events in each group. The most frequently reported adverse event was diarrhea; incidence rates were similar for the 875 mg/125 mg every 12 hours and 500 mg/125 mg every 8 hours dosing regimens (15% and 14%, respectively); however, there was a statistically significant difference (p less than 0.05) in rates of severe diarrhea or withdrawals with diarrhea between the regimens: 1% for 875 mg/125 mg every 12 hours regimen versus 2% for the 500 mg/125 mg every 8 hours regimen.\nIn one of these pivotal trials, patients with either pyelonephritis (n equals 361) or a complicated urinary tract infection (i.e., patients with abnormalities of the urinary tract that predispose to relapse of bacteriuria following eradication, n equals 268) were randomized (1:1) to receive either 875 mg/125mg tablets of AUGMENTIN every 12 hours (n equals 308) or 500 mg/125 mg tablets of AUGMENTIN every 8 hours (n equals 321).\nThe number of bacteriologically evaluable patients was comparable between the two dosing regimens. AUGMENTIN produced comparable bacteriological success rates in patients assessed 2 to 4 days immediately following end of therapy. The bacteriologic efficacy rates were comparable at one of the follow‑up visits (5 to 9 days post‑therapy) and at a late post‑therapy visit (in the majority of cases, this was 2 to 4 weeks post-therapy), as seen in Table 8.\n\nTable 8: Bacteriologic efficacy rates for AUGMENTIN\n\nTime Post Therapy\n | \n\n875 mg every 12 hours\n\n% (n)\n | \n\n500 mg every 8 hours\n\n% (n)\n | \n\n2 to 4 days | \n81% (58) | \n80% (54) | \n\n5 to 9 days | \n58% (41) | \n52% (52) | \n\n2 to 4 weeks | \n 52% (101) | \n 55% (104) | \n\nAs noted before, though there was no significant difference in the percentage of adverse events in each group, there was a statistically significant difference in rates of severe diarrhea or withdrawals with diarrhea between the regimens.\n\nUnclassified\nOne US/Canadian clinical trial was conducted which compared 45/6.4 mg/kg/day (divided every 12 hours) of AUGMENTIN for 10 days versus 40/10 mg/kg/day (divided every 8 hours) of AUGMENTIN for 10 days in the treatment of acute otitis media. Only the suspension formulations were used in this trial. A total of 575 pediatric patients (aged 2 months to 12 years) were enrolled, with an even distribution among the 2 treatment groups and a comparable number of patients were evaluable (i.e., greater than or equal to 84%) per treatment group. Otitis media‑specific criteria were required for eligibility and a strong correlation was found at the end of therapy and follow‑up between these criteria and physician assessment of clinical response. The clinical efficacy rates at the end of therapy visit (defined as 2 to 4 days after the completion of therapy) and at the follow‑up visit (defined as 22 to 28 days post‑completion of therapy) were comparable for the 2 treatment groups, with the following cure rates obtained for the evaluable patients: At end of therapy, 87% (n equals 265) and 82% (n equals 260) for 45 mg/kg/day every 12 hours and 40 mg/kg/day every 8 hours, respectively. At follow‑up, 67% (n equals 249) and 69% (n equals 243) for 45 mg/kg/day every 12 hours and 40 mg/kg/day every 8 hours, respectively.\n\nDiarrhea was defined as either: (a) 3 or more watery or 4 or more loose/watery stools in 1 day; OR (b) 2 watery stools per day or 3 loose/watery stools per day for 2 consecutive days. The incidence of diarrhea was significantly lower in patients who received the every 12 hours regimen compared to patients who received the every 8 hours regimen (14% and 34%, respectively). In addition, the number of patients with either severe diarrhea or who were withdrawn with diarrhea was significantly lower in the every 12 hours treatment group (3% and 8% for the every 12 hours/10 day and every 8 hours/10 day, respectively). In the every 12 hours treatment group, 3 patients (1%) were withdrawn with an allergic reaction, while 1 patient in the every 8 hours group was withdrawn for this reason. The number of patients with a candidal infection of the diaper area was 4% and 6% for the every 12 hours and every 8 hours groups, respectively.\nIt is not known if the finding of a statistically significant reduction in diarrhea with the oral suspensions dosed every 12 hours, versus suspensions dosed every 8 hours of AUGMENTIN, can be extrapolated to the chewable tablets. The presence of mannitol in the chewable tablets of AUGMENTIN may contribute to a different diarrhea profile. The every 12 hour oral suspensions (200 mg/28.5 mg per 5 mL and 400 mg/57 mg per 5 mL) of AUGMENTIN are sweetened with aspartame.\n\n15 REFERENCES\nSwanson-Biearman B, Dean BS, Lopez G, Krenzelok EP. The effects of penicillin and cephalosporin ingestions in children less than six years of age. Vet Hum Toxicol. 1988; 30: 66‑67.\n\n16 HOW SUPPLIED/STORAGE AND HANDLING\n| \n | \n\n | \n | \n\nAUGMENTIN for Oral Suspension, USP:\n\n125 mg/31.25 mg per 5 mL: Banana-flavored powder for oral suspension, each 5 mL of reconstituted suspension contains 125 mg of amoxicillin as the trihydrate and 31.25 mg of clavulanic acid as the potassium salt (equivalent to 37.23 mg of clavulanate potassium).\n\nNDC71297-240-34 | \n75 mL bottle | \n\nNDC 71297-240-35 | \n100 mL bottle | \n\nNDC 71297-240-36 | \n\n150 mL bottle\n\n | \n\nDispense in original container.\nStore dry powder at or below 25°C (77°F).\nStore reconstituted suspension under refrigeration. Discard unused suspension after 10 days.\nKeep out of the reach of children.\n\nUnclassified\nAdministration Instructions\n\nInform patients that AUGMENTIN may be taken every 8 hours or every 12 hours, depending on the dose prescribed. Each dose should be taken with a meal or snack to reduce the possibility of gastrointestinal upset.\n\nUnclassified\nAllergic Reactions\n\nCounsel patients that AUGMENTIN contains a penicillin class drug product that can cause allergic reactions in some individuals.\n\nUnclassified\nSevere Cutaneous Adverse Reactions (SCAR)\n\nAdvise patients about the signs and symptoms of serious skin manifestations. Instruct patients to stop taking AUGMENTIN immediately and promptly report the first signs or symptoms of skin rash, mucosal lesions, or any other sign of hypersensitivity \n [see Warnings and Precautions ( \n 5.2)] \n ﻿.\n\nUnclassified\nDiarrhea\n\nCounsel patients that diarrhea is a common problem caused by antibacterials, and it usually ends when the antibacterial is discontinued. Sometimes after starting treatment with antibacterials, patients can develop watery and bloody stools (with or without stomach cramps and fever) even as late as 2 or more months after having taken their last dose of the antibacterial. If diarrhea is severe or lasts more than 2 or 3 days, patients should contact their physician as soon as possible.\n\nUnclassified\nAntibacterial Resistance\n\nPatients should be counseled that antibacterial drugs, including AUGMENTIN, should only be used to treat bacterial infections. They do not treat viral infections (e.g., the common cold).\nWhen AUGMENTIN is prescribed to treat a bacterial infection, patients should be told that although it is common to feel better early in the course of therapy, the medication should be taken exactly as directed. Skipping doses or not completing the full course of therapy may: (1) decrease the effectiveness of the immediate treatment, and (2) increase the likelihood that bacteria will develop resistance and will not be treatable by AUGMENTIN or other antibacterial drugs in the future.\n\nUnclassified\nStorage Instructions\n\nAdvise patients to keep suspension refrigerated. Shake well before using. When dosing a child with the suspension (liquid) of AUGMENTIN, use a calibrated oral syringe. Be sure to rinse the calibrated oral syringe after each use. Bottles of suspension of AUGMENTIN may contain more liquid than required. Follow your doctor's instructions about the amount to use and the days of treatment your child requires. Discard any unused medicine.\n\nManufactured For:\n\nAllegis Holdings, LLC\n\nCanton, MS 39046 (USA)\n\nMade in USA\n\nAUGMENTIN is a registered trademark of GlaxoSmithKline and is sub-licensed to Allegis Holdings, LLC.\n\nCLINITEST is a registered trademark of Miles, Inc.\n\nRecent Major Changes\nWarnings and Precautions:\nDrug-Induced Enterocolities Syndrome (DIES) (5.3)\n5/2024\n\nBottle Label (100 mL) 125mg/31.25mg for Oral Suspension\nNDC 71297- \n 240-35\n\n125 mg/31.25 mg per 5 mL\n\nAUGMENTIN \nfor oral suspension, USP\n\nWhen reconstituted, each 5 mL contains:\n\nAMOXICILLIN, 125 mg\nas the trihydrate, and\n\nCLAVULANIC ACID, 31.25 mg\n(equivalent to 37.23 mg of clavulanate potassium)\n\n100 mL\n(when reconstituted)\n\nRx only\n\nLabel\n\nBottle Label (150 mL) 125mg/31.25mg for Oral Suspension\nNDC \n 71297-240-36\n\n125 mg/31.25 mg per 5 mL\n\nAUGMENTIN \nfor oral suspension, USP\n\nWhen reconstituted, each 5 mL contains:\n\nAMOXICILLIN, 125 mg\nas the trihydrate, and\n\nCLAVULANIC ACID, 31.25 mg\n(equivalent to 37.23 mg of clavulanate potassium)\n\n150 mL \n(when reconstituted)\n\nRx only\n\nLabel\n\nBottle Label (75 mL) 125mg/31.25mg for Oral Suspension\nNDC 71297- 240-34\n125 mg/31.25 mg per 5 mL\nAUGMENTIN for oral suspension, USP\nWhen reconstituted, each 5 mL contains:\nAMOXICILLIN, 125 mg as the trihydrate, and\nCLAVULANIC ACID, 31.25 mg (equivalent to 37.23 mg of clavulanate potassium)\n75 mL(when reconstituted)\nRx only\n\nLabel",
+  "source_rank": 3
+}

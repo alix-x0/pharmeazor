@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="e036250f-bcc3-4035-bf71-66bfa889f7a4"/>
+   <code code="50578-4" codeSystem="2.16.840.1.113883.6.1" displayName="PRESCRIPTION ANIMAL DRUG LABEL"/>
+   <title>LEGACY GENTAMICIN SULFATE SOLUTION Sterile Multi Dose Vial 100 mg/mL</title>
+   <effectiveTime value="20261111"/>
+   <setId root="183786e1-266f-4481-adbe-1097f75d93f0"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="619153559" root="1.3.6.1.4.1.519.1"/>
+            <name>Huvepharma Inc</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="147979082"/>
+                  <name>Sparhawk Laboratories, Inc.</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="147979082"/>
+                        <name>Sparhawk Laboratories, Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" displayName="analysis" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="528180884"/>
+                        <name>Fujian Fukang Pharmaceutical Co., Ltd</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C82401" displayName="api manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="c74f6422-4e4b-4fd1-9130-fb6602c253d8"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL listing data elements section"/>
+               <effectiveTime value="20261111"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="23243-3360" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>GENTAMICIN SULFATE</name>
+                        <formCode code="C42986" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>GENTAMICIN SULFATE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="100" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="8X7386QRLV" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GENTAMICIN SULFATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="T6Z9V48IKG" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>GENTAMICIN </name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="100 " unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="23243-3360-4" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43226" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="250" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="23243-3360-5" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43226" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20231122"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANADA200395" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73583" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANADA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38272" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAUTERINE"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="6331578f-11bc-411e-b30c-d740e11e89a1"/>
+               <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">CAUTION:</content> Federal law restricts this<br/>drug to use by or on the order of a<br/>licensed veterinarian.<br/>
+                     <content styleCode="bold">For Use in Horses Only</content>
+                     <br/>
+                     <content styleCode="bold">Not For Use in Humans</content>
+                     <br/>
+                     <content styleCode="bold">Keep out of reach of children</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20261111"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="e2ea6656-df95-45de-ba1d-5d1fc88f3bbe"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>For intra-uterine use in horses only.<br/>Each mL contains: Gentamicin sulfate veterinary equivalent to 100 mg gentamicin base; 2.4 mg sodium metabisulfite; 0.8 mg sodium sulfite, anhydrous; 0.1 mg edetate disodium; 10 mg benzyl alcohol as preservative; water for injection q.s.<br/>Store between 2o and 30oC (36o and 86oF).<br/>Protect from freezing.</paragraph>
+                  <paragraph>TAKE TIME OBSERVE LABEL DIRECTIONS</paragraph>
+               </text>
+               <effectiveTime value="20261111"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="1f877f03-5a5a-4c1b-87b5-4811c0182ec4"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="bold">CHEMISTRY: </content>Gentamicin is a mixture of aminglycoside antibiotics derived from the fermentation of<content styleCode="italics"> Micromonospora purpurea</content>. Gentamicin sulfate is a mixture of sulfate salts of the antibiotics produced in this fermentation. The salts are weakly acidic, freely soluble in water, and stable in solution.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">ANTIBACTERIAL ACTIVITY</content>:<content styleCode="italics"> In Vitro</content> antibacterial activity has shown that gentamicin is active against most gram-negative  and gram-positive bacteria isolated from domestic animals.<sup>1</sup>  Gentamicin is active against <content styleCode="italics">Pseudomonas aeruginosa</content>, indole-positive and -negative<content styleCode="italics"> Proteus</content> species, <content styleCode="italics">Escherichia coli</content>,<content styleCode="italics"> Klebsiella</content> species, <content styleCode="italics">Enterobacter </content>species, <content styleCode="italics">Alcaligenes </content>species, <content styleCode="italics">Staphylococcus </content>species, and <content styleCode="italics">Streptococcus </content>species.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">PHARMACOLOGY</content>: Studies in man indicate that recommended doses of gentamicin produce serum concentrations bactericidal for most bacteria sensitive to gentamicin within an hour after intramuscular injection; these concentrations last for 6 to 12 hours.<sup>2</sup>  Some 30% of the administered dose of gentamicin is bound by serum proteins and released as the drug is excreted.</paragraph>
+                  <paragraph>Gentamicin is excreted almost entirely by glomerular filtration. High concentrations of the active form are found in the urine. Fifty to 100% of the gentamicin injected can be recovered unchanged within 24 hours from the urine of patients with normal renal function. A small amount is excreted into the bile.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">TOXICITY STUDIES</content>: No toxic effects were observed in rats given gentamicin sulfate 20 mg/kg/day for 24 days; in cats given 10 mg/kg/day for 40 days. Gentamicin sulfate given to dogs at 6 mg/lb/day, 6 days weekly for 3 weeks, caused no detectable kidney damage. At higher doses, impairment of equilibrium and renal function were observed in these species.</paragraph>
+               </text>
+               <effectiveTime value="20261111"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="e185168d-836d-4890-934a-62ffefbf85f3"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS</title>
+               <text>
+                  <paragraph>Gentamicin Sulfate Solution is recommended for the control of bacterial infections of the uterus (metritis) in horses and as an aid in improving conception in mares with uterine infections caused by bacteria sensitive to gentamicin.  Bacteriologic studies should be conducted to identify the causative organism and to determine its sensitivity to gentamicin sulfate. Sensitivity discs of the drug are available for this purpose.</paragraph>
+               </text>
+               <effectiveTime value="20261111"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="54e0df1f-2cc4-4bd6-87e4-ead3c4b0e555"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>
+                     <br/>The recommended dose is 20 to 25 mL (2.0 - 2.5 grams) gentamicin sulfate solution per day for 3 to 5 days during estrus. Each dose should be diluted with 200-500 mL of sterile physiological saline before aseptic uterine infusion.</paragraph>
+               </text>
+               <effectiveTime value="20261111"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="c0145bc4-72d9-407c-9439-7ea6ccc22be6"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>There are no known contraindications to this drug when used as directed.</paragraph>
+               </text>
+               <effectiveTime value="20261111"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="43595fac-0f80-438e-8489-15ad46b5a492"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTION</title>
+               <text>
+                  <paragraph>If hypersensitivity to any of the components develops, or if overgrowth of nonsusceptible bacteria, fungi, or yeasts occurs, treatment with Gentamicin Sulfate Solution should be discontinued and appropriate therapy instituted. Although Gentamicin Sulfate Solution is not spermicidal, treatment should not be given the day of breeding.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Warning</content>: Do not use for horses intended for human consumption.</paragraph>
+               </text>
+               <effectiveTime value="20261111"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="05b07382-99f8-455c-89c1-6f263b4bd41a"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>SIDE EFFECTS</title>
+               <text>
+                  <paragraph>There have been no reports of drug hypersensitivity or adverse side effects following the recommended intrauterine infusion of gentamicin sulfate solution combined with sterile physiological saline in mares.</paragraph>
+               </text>
+               <effectiveTime value="20261111"/>
+            </section>
+         </component>
+         <component>
+            <section ID="La88340b3-07ba-4a44-b061-21506f232a25">
+               <id root="99bdfa75-a5aa-42e4-aba4-1701b59255a4"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>CONTACT INFORMATION</title>
+               <text>
+                  <paragraph>To report suspected adverse events, for technical assistance or to obtain a copy of the Safety Data sheet (SDS), contact Sparhawk Laboratories Inc at 1-800-255-6388 or 1-913-888-7500. For additional information about adverse drug experience reporting for animal drugs, contact FDA at 1-888-FDA-VETS or http://www.fda.gov/reportanimalae</paragraph>
+               </text>
+               <effectiveTime value="20261111"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="15fd19db-deb6-485e-bd86-fd58a1372389"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Gentamicin Sulfate Solution, 100 mg per mL for intrauterine use, is available in 100 mL and 250 mL multiple dose vials.</paragraph>
+               </text>
+               <effectiveTime value="20261111"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="3a2bcfb3-5f7e-409f-943e-7109fe57411e"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Store between 2<sup>o</sup>
+                     </content>
+                     <content styleCode="bold">and 30<sup>o</sup>C (36<sup>o</sup> and 86<sup>o</sup>F).</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20261111"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="b6b54681-9359-4012-9ed8-56eebe3d0e1f"/>
+               <code code="34093-5" codeSystem="2.16.840.1.113883.6.1" displayName="REFERENCES SECTION"/>
+               <title>REFERENCES</title>
+               <text>
+                  <paragraph>1. Hennessey, PW, et al.<content styleCode="italics">In vitro</content> activity of gentamicin against bacteria isolated from domestic animals.<content styleCode="italics">Veterinary Medicine/Small Animal Clinician</content>, Nov. 1971; 1118-1122.</paragraph>
+                  <paragraph>2. Black, J, et al. Pharmacology of gentamicin, a new broad spectrum antibiotic.<content styleCode="italics">Antimicrob Agents and Chemother.</content> 1963, 138-147.</paragraph>
+               </text>
+               <effectiveTime value="20261111"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="46afaea1-190e-40dc-a895-b9d0ac793f27"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM1"/>
+                     <renderMultiMedia referencedObject="MM2"/>Caution: Federal law restricts this drug to use by or on the order of a licensed veterinarian.<br/>
+                     <br/>Approved by FDA under ANADA # 200-395</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM1"/>
+                     <renderMultiMedia referencedObject="MM2"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20261111"/>
+               <component>
+                  <observationMedia classCode="OBS" moodCode="EVN" ID="MM1">
+                     <text>Huvepharma Legacy Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="Huvepharma-Legacy Base.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia classCode="OBS" moodCode="EVN" ID="MM2">
+                     <text>Huvepharma Legacy Onsert</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="Huvepharma-Legacy Onsert.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

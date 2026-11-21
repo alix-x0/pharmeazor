@@ -1,0 +1,5 @@
+storage/
+qdrant.exe
+.qdrant-initialized
+
+static/

@@ -47,13 +47,13 @@ logger = logging.getLogger(__name__)
 
 # Ensure package root is in path
 CURRENT_DIR = Path(__file__).resolve().parent
-PROJECT_ROOT = CURRENT_DIR.parent
+PROJECT_ROOT = CURRENT_DIR.parent.parent
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 # Import chunking components
 try:
-    from ai_api.chunking import (
+    from ai_api.Retrieval.chunking import (
         DEFAULT_DATA_DIR,
         ChunkingConfig,
         DrugChunk,
@@ -64,7 +64,7 @@ try:
     )
 except ImportError:
     # Fallback if imported directly inside ai_api
-    from chunking import (  # type: ignore
+    from ai_api.Retrieval.chunking import (  # type: ignore
         DEFAULT_DATA_DIR,
         ChunkingConfig,
         DrugChunk,

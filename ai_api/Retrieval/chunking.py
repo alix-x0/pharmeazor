@@ -516,9 +516,9 @@ def build_context_header(
     return f"[{' | '.join(elements)}]"
 
 
-def generate_chunk_id(source: str, drug_id: Any, brand: str, sec_key: str, part: int, content_snippet: str) -> str:
+def generate_chunk_id(source: str, drug_id: Any, brand: str, sec_key: str, part: int, content_snippet: str, filename : str = '') -> str:
     """Generates a deterministic unique chunk ID."""
-    raw = f"{source}_{drug_id}_{brand}_{sec_key}_{part}_{content_snippet[:40]}"
+    raw = f"{source}_{drug_id}_{brand}_{sec_key}_{part}_{filename}_{content_snippet[:40]}"
     h = hashlib.sha256(raw.encode("utf-8")).hexdigest()[:16]
     clean_sec = re.sub(r"[^a-zA-Z0-9_]", "", str(sec_key))[:12]
     return f"chk_{source}_{clean_sec}_{part}_{h}"
@@ -623,7 +623,7 @@ class DrugChunker:
 
                     full_text = f"{header}\n\n{part_content}" if header else part_content
 
-                    chunk_id = generate_chunk_id(source, drug_id, brand, sec_key, part_idx, part_content)
+                    chunk_id = generate_chunk_id(source, drug_id, brand, sec_key, part_idx, part_content, doc_file_name)
 
                     metadata: Dict[str, Any] = {
                         "drug_id": drug_id,
@@ -692,7 +692,7 @@ class DrugChunker:
                         )
 
                         full_text = f"{header}\n\n{part_content}" if header else part_content
-                        chunk_id = generate_chunk_id(source, drug_id, brand, "overview", part_idx, part_content)
+                        chunk_id = generate_chunk_id(source, drug_id, brand, "overview", part_idx, part_content, doc_file_name)
 
                         metadata = {
                             "drug_id": drug_id,

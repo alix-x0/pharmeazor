@@ -1,5 +1,10 @@
 """
 Pharmeazor AI API Package
+=========================
+Intelligent Pharmaceutical RAG subsystem:
+- Clinical section-aware chunking engine (chunking.py)
+- Multilingual BGE-M3 dense & sparse embedding engine (embedding.py)
+- Qdrant Vector Database hybrid indexing and retrieval (embedding.py)
 """
 
 from ai_api.chunking import (
@@ -18,8 +23,27 @@ from ai_api.chunking import (
     default_chunker,
     get_all_dossiers,
 )
+from ai_api.embedding import (
+    BGEM3Embedder,
+    DrugRAGPipeline,
+    EmbeddingConfig,
+    EmbeddingOutput,
+    IndexingStats,
+    QdrantConfig,
+    QdrantVectorStore,
+    RetrievalResult,
+    chunk_id_to_uuid,
+    default_embedder,
+    default_pipeline,
+    default_store,
+    embed_query,
+    embed_texts,
+    index_pharmaceutical_corpus,
+    search_drugs,
+)
 
 __all__ = [
+    # Chunking
     "DEFAULT_DATA_DIR",
     "DEFAULT_PROCESSED_DIR",
     "DrugChunk",
@@ -34,4 +58,21 @@ __all__ = [
     "chunk_processed_corpus",
     "default_chunker",
     "get_all_dossiers",
+    # Embedding & Qdrant
+    "BGEM3Embedder",
+    "EmbeddingConfig",
+    "EmbeddingOutput",
+    "QdrantConfig",
+    "QdrantVectorStore",
+    "DrugRAGPipeline",
+    "RetrievalResult",
+    "IndexingStats",
+    "chunk_id_to_uuid",
+    "default_embedder",
+    "default_store",
+    "default_pipeline",
+    "embed_texts",
+    "embed_query",
+    "index_pharmaceutical_corpus",
+    "search_drugs",
 ]

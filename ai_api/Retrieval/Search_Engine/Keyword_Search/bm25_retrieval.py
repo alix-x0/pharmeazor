@@ -46,9 +46,16 @@ class BM25Retriever(BaseRetriever):
         results, scores = self._retriever.retrieve(query_tokens, k= fetch_k)
 
         hits =[]
+        seen_chunk_idx = set()
         for idx, score in zip(results[0],scores[0]):
             chunk = self._chunks[int(idx)]
-            if not self._passes_filters(chunk, query): continue
+            if chunk.chunk_id in seen_chunk_idx:
+                continue
+
+            if not self._passes_filters(chunk, query):
+                continue
+            seen_chunk_idx.add(chunk.chunk_id)
+
             md = chunk.metadata or  {}  
             hits.append(SearchHit(
                 chunk.chunk_id,

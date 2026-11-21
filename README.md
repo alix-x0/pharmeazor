@@ -24,11 +24,10 @@ ANPP is the primary source where available; BDPM and DailyMed are complementary,
 ## Run the new API
 
 ```powershell
-cd ai_api
-python -m pip install -r requirements.txt
-Copy-Item .env.example .env
+python -m pip install -r ai_api/requirements.txt
+Copy-Item ai_api/.env.example ai_api/.env
 # Edit .env and set GROQ_API_KEY
-uvicorn main:app --reload --host 127.0.0.1 --port 8001
+python -m uvicorn ai_api.Retrieval.main:app --reload --host 127.0.0.1 --port 8001
 ```
 
 The starter exposes `/`, `/health`, `/ask`, and `/docs`. Visit `/ask` for a simple browser form. It calls Groq directly and does not use the collected data.

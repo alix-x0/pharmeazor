@@ -52,8 +52,9 @@ from typing import Any, Callable, Dict, Generator, Iterable, Iterator, List, Opt
 logger = logging.getLogger(__name__)
 
 # Default paths - points to official outputs_data (40 DCIs, 989 monographs)
-DEFAULT_DATA_DIR = Path(__file__).resolve().parent.parent / "data" / "outputs_data"
-DEFAULT_PROCESSED_DIR = Path(__file__).resolve().parent.parent / "data" / "data" / "processed"
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+DEFAULT_DATA_DIR = PROJECT_ROOT / "data" / "outputs_data"
+DEFAULT_PROCESSED_DIR = PROJECT_ROOT / "data" / "data" / "processed"
 
 # Common boilerplate phrases to discard
 EMPTY_SECTION_MARKERS = {

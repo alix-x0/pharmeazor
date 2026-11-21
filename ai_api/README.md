@@ -17,11 +17,11 @@ The model name is not a key. Keep the secret only in `ai_api/.env`; that file is
 ## Run
 
 ```powershell
-cd ai_api
-python -m pip install -r requirements.txt
-Copy-Item .env.example .env
+cd ..
+python -m pip install -r ai_api/requirements.txt
+Copy-Item ai_api/.env.example ai_api/.env
 # Edit .env and set GROQ_API_KEY
-uvicorn main:app --reload --host 127.0.0.1 --port 8001
+python -m uvicorn ai_api.Retrieval.main:app --reload --host 127.0.0.1 --port 8001
 ```
 
 The health route reports the configured model and whether the key is present. It never returns the key. Open `http://127.0.0.1:8001/` or `/ask` for the question form, or `http://127.0.0.1:8001/docs` to use the POST endpoint interactively.

@@ -8,7 +8,7 @@ from pydantic import BaseModel, Field, field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
-API_DIR = Path(__file__).resolve().parent
+API_DIR = Path(__file__).resolve().parents[1]
 
 
 class Settings(BaseSettings):

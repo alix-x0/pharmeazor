@@ -34,17 +34,17 @@ logger = logging.getLogger(__name__)
 
 # Ensure package root is in sys.path
 CURRENT_DIR = Path(__file__).resolve().parent
-PROJECT_ROOT = CURRENT_DIR.parent
+PROJECT_ROOT = CURRENT_DIR.parent.parent
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-from ai_api.chunking import (
+from ai_api.Retrieval.chunking import (
     DEFAULT_DATA_DIR,
     DrugChunk,
     DrugChunker,
     chunk_corpus,
 )
-from ai_api.embedding import (
+from ai_api.Retrieval.embedding import (
     BGEM3Embedder,
     DrugRAGPipeline,
     EmbeddingConfig,

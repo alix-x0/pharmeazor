@@ -1,25 +1,14 @@
 # Pharmeazor
 
-## Mission
-
-For this RCR milestone, Pharmeazor helps people in Algeria find and understand medicine-use and safety information in product documents for the project's 40 target ingredients. Answers should identify the relevant product and source, distinguish differences between documents, and abstain when the corpus does not support the answer. Pharmeazor does not diagnose, prescribe, or claim live price or stock information.
-
-The evaluation mission is to measure whether retrieval from the corpus improves answers over the same LLM answering without passages. This describes the target system; the current `/ask` endpoint is a model-only baseline and does not read the corpus.
-
-## Fixed test question
-
-Use benchmark item `N1-01` as the canonical smoke question for the model-only run. Send only the question shown below. Keep the expected answer and scoring criteria out of the model prompt; they are evaluator-only in [the test specification](evaluation/mission_and_test_question.md).
-
-> Chez un adulte de 60 kg, quelle est la dose journalière maximale de DOLIPRANE 1000 mg en règle générale, et dans quelle condition peut-on aller jusqu'à 4 g par jour ?
+Pharmeazor is the medication information project for the RCR course brief.
 
 ## Current layout
 
-- `ai_api/` — a FastAPI model-only endpoint that calls the configured Groq model.
-- `data/` — the curated medication corpus, audit files, loader, and source collection scripts.
+- `ai_api/` — a clean FastAPI starter and a separate medication data collection folder.
 - `frontend/` — the React/Vite interface.
-- `backend/` — the Django API and user-data backend.
+- `backend/` — the existing project backend; it is kept separate from the new `ai_api/` folder.
 
-ANPP is the primary source where available; BDPM and DailyMed are complementary, and Pharm'Net is secondary. The corpus loader prepares chunks but no retrieval/indexing pipeline is currently connected to `/ask`. Mentions in interaction sections are not a validated or complete interaction checker. Same-DCI relations are candidate links until ingredient, strength, and dosage form also match.
+The collector in `ai_api/data/collection/` gathers configured information for 40 target ingredients from Algerian ANPP, BDPM France, DailyMed, and Pharm'Net. It stores collected records and source metadata. ANPP is primary when available; foreign institutional sources are complementary; Pharm'Net is secondary. Interaction-section mentions are not a validated or complete interaction checker. Same-DCI relations are candidate links until ingredient, strength, and dosage form also match. The current `/ask` page does not read this collection.
 
 ## Run the new API
 
@@ -45,10 +34,4 @@ GROQ_MODEL=openai/gpt-oss-120b
 
 ## Collect the data
 
-The curated corpus is stored under `data/outputs_data/`. From the repository root, inspect the installed corpus with:
-
-```powershell
-python data/inspect_corpus.py
-```
-
-Source-specific collection utilities live in `data/scrapers/`; the API does not collect or retrieve from this corpus yet. See [`data/README.md`](data/README.md) for the corpus structure and loader.
+From `ai_api/`, run `.\data\collection\collect.ps1` in PowerShell. It creates an isolated Python environment, installs collection dependencies, installs Chromium, and runs all collection steps configured in `collector.py`. See `ai_api/data/collection/README.md` for source coverage and limitations.

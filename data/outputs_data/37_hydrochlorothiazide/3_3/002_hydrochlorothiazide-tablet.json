@@ -1,0 +1,469 @@
+{
+  "source": "dailymed",
+  "source_priority": 3,
+  "drug_id": 37,
+  "language": "en",
+  "doc_type": "label",
+  "label_type": "HUMAN PRESCRIPTION DRUG LABEL",
+  "title": "HYDROCHLOROTHIAZIDE TABLET [PD-RX PHARMACEUTICALS, INC.]",
+  "brand": "HYDROCHLOROTHIAZIDE TABLET",
+  "dci": "",
+  "manufacturer": "PD-Rx Pharmaceuticals, Inc.",
+  "setid": "c182b6a9-1a31-45ee-9cea-a557c99f5db7",
+  "spl_version": "20",
+  "published_date": "Nov 06, 2026",
+  "effective_date": "20261104",
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c182b6a9-1a31-45ee-9cea-a557c99f5db7",
+  "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c182b6a9-1a31-45ee-9cea-a557c99f5db7",
+  "sections": [
+    {
+      "key": [
+        "description",
+        "Description"
+      ],
+      "label": "Description",
+      "number": "34089-3",
+      "title": "DESCRIPTION",
+      "text": "Hydrochlorothiazide, USP is a diuretic and antihypertensive. It is the 3,4-dihydro derivative of chlorothiazide. It is chemically designated as 6-chloro-3,4-dihydro-2\n\n H-1,2,4-benzothiadiazine-7-sulfonamide 1,1-dioxide and has the following structural formula:\n\nC\n\n 7H\n\n 8ClN\n\n 3O\n\n 4S\n\n 2              M.W. 297.74\n\nHydrochlorothiazide, USP is a white, or practically white, crystalline powder which is slightly soluble in water, freely soluble in sodium hydroxide solution, in\n\n n-butylamine, and in dimethylformamide; sparingly soluble in methanol; insoluble in ether, in chloroform, and in dilute mineral acids. Each tablet for oral administration contains 25 mg or 50 mg hydrochlorothiazide, USP. In addition, each tablet contains the following inactive ingredients: corn starch, dibasic calcium phosphate dihydrate, FD&C Yellow No. 6 Aluminum Lake, lactose monohydrate and magnesium stearate.\n\nHCTZ structural formula"
+    },
+    {
+      "key": [
+        "pharmacologie",
+        "Clinical Pharmacology"
+      ],
+      "label": "Clinical Pharmacology",
+      "number": "34090-1",
+      "title": "CLINICAL PHARMACOLOGY",
+      "text": "The mechanism of the antihypertensive effect of thiazides is unknown. Hydrochlorothiazide does not usually affect normal blood pressure.\nHydrochlorothiazide affects the distal renal tubular mechanism of electrolyte reabsorption. At maximal therapeutic dosage all thiazides are approximately equal in their diuretic efﬁcacy.\nHydrochlorothiazide increases excretion of sodium and chloride in approximately equivalent amounts. Natriuresis may be accompanied by some loss of potassium and bicarbonate.\nAfter oral use diuresis begins within 2 hours, peaks in about 4 hours and lasts about 6 to 12 hours."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "Pharmacokinetics and Metabolism",
+      "text": "Hydrochlorothiazide is not metabolized but is eliminated rapidly by the kidney. When plasma levels have been followed for at least 24 hours, the plasma half-life has been observed to vary between 5.6 and 14.8 hours. At least 61% of the oral dose is eliminated unchanged within 24 hours. Hydrochlorothiazide crosses the placental but not the blood-brain barrier and is excreted in breast milk."
+    },
+    {
+      "key": [
+        "indications",
+        "Indications and Usage"
+      ],
+      "label": "Indications and Usage",
+      "number": "34067-9",
+      "title": "INDICATIONS AND USAGE",
+      "text": "Hydrochlorothiazide tablets are indicated as adjunctive therapy in edema associated with congestive heart failure, hepatic cirrhosis, and corticosteroid and estrogen therapy.\nHydrochlorothiazide tablets have also been found useful in edema due to various forms of renal dysfunction such as nephrotic syndrome, acute glomerulonephritis, and chronic renal failure.\nHydrochlorothiazide tablets are indicated in the management of hypertension either as the sole therapeutic agent or to enhance the effectiveness of other antihypertensive drugs in the more severe forms of hypertension."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "Use in Pregnancy",
+      "text": "Routine use of diuretics during normal pregnancy is inappropriate and exposes mother and fetus to unnecessary hazard. Diuretics do not prevent development of toxemia of pregnancy and there is no satisfactory evidence that they are useful in the treatment of toxemia.\nEdema during pregnancy may arise from pathologic causes or from the physiologic and mechanical consequences of pregnancy. Thiazides are indicated in pregnancy when edema is due to pathologic causes, just as they are in the absence of pregnancy (see\n\n PRECAUTIONS, Pregnancy). Dependent edema in pregnancy, resulting from restriction of venous return by the gravid uterus, is properly treated through elevation of the lower extremities and use of support stockings. Use of diuretics to lower intravascular volume in this instance is illogical and unnecessary. During normal pregnancy there is hypervolemia which is not harmful to the fetus or the mother in the absence of cardiovascular disease. However, it may be associated with edema, rarely generalized edema. If such edema causes discomfort, increased recumbency will often provide relief. Rarely this edema may cause extreme discomfort which is not relieved by rest. In these instances, a short course of diuretic therapy may provide relief and be appropriate."
+    },
+    {
+      "key": [
+        "contre_indications",
+        "Contraindications"
+      ],
+      "label": "Contraindications",
+      "number": "34070-3",
+      "title": "CONTRAINDICATIONS",
+      "text": "Anuria.\nHypersensitivity to this product or to other sulfonamide-derived drugs."
+    },
+    {
+      "key": "section_warnings",
+      "label": "WARNINGS",
+      "number": "34071-1",
+      "title": "WARNINGS",
+      "text": "Use with caution in severe renal disease. In patients with renal disease, thiazides may precipitate azotemia. Cumulative effects of the drug may develop in patients with impaired renal function.\nThiazides should be used with caution in patients with impaired hepatic function or progressive liver disease, since minor alterations of ﬂuid and electrolyte balance may precipitate hepatic coma.\nThiazides may add to or potentiate the action of other antihypertensive drugs.\nSensitivity reactions may occur in patients with or without a history of allergy or bronchial asthma.\nThe possibility of exacerbation or activation of systemic lupus erythematosus has been reported.\nLithium generally should not be given with diuretics (see\n\n PRECAUTIONS, Drug Interactions)."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "Acute Myopia and Secondary Angle-Closure Glaucoma",
+      "text": "Hydrochlorothiazide, a sulfonamide, can cause an idiosyncratic reaction, resulting in acute transient myopia and acute angle-closure glaucoma. Symptoms include acute onset of decreased visual acuity or ocular pain and typically occur within hours to weeks of drug initiation. Untreated acute angle-closure glaucoma can lead to permanent vision loss. The primary treatment is to discontinue hydrochlorothiazide as rapidly as possible. Prompt medical or surgical treatments may need to be considered if the intraocular pressure remains uncontrolled. Risk factors for developing acute angle-closure glaucoma may include a history of sulfonamide or penicillin allergy."
+    },
+    {
+      "key": "section_general",
+      "label": "General",
+      "number": "34072-9",
+      "title": "General",
+      "text": "All patients receiving diuretic therapy should be observed for evidence of ﬂuid or electrolyte imbalance: namely, hyponatremia, hypochloremic alkalosis, and hypokalemia. Serum and urine electrolyte determinations are particularly important when the patient is vomiting excessively or receiving parenteral ﬂuids. Warning signs or symptoms of ﬂuid and electrolyte imbalance, irrespective of cause, include dryness of mouth, thirst, weakness, lethargy, drowsiness, restlessness, confusion, seizures, muscle pains or cramps, muscular fatigue, hypotension, oliguria, tachycardia, and gastrointestinal disturbances such as nausea and vomiting.\nHypokalemia may develop, especially with brisk diuresis, when severe cirrhosis is present or after prolonged therapy.\nInterference with adequate oral electrolyte intake will also contribute to hypokalemia. Hypokalemia may cause cardiac arrhythmia and may also sensitize or exaggerate the response of the heart to the toxic effects of digitalis (e.g., increased ventricular irritability). Hypokalemia may be avoided or treated by use of potassium sparing diuretics or potassium supplements such as foods with a high potassium content.\nAlthough any chloride deﬁcit is generally mild and usually does not require specific treatment except under extraordinary circumstances (as in liver disease or renal disease), chloride replacement may be required in the treatment of metabolic alkalosis.\nDilutional hyponatremia may occur in edematous patients in hot weather; appropriate therapy is water restriction, rather than administration of salt, except in rare instances when the hyponatremia is life threatening. In actual salt depletion, appropriate replacement is the therapy of choice.\nHyperuricemia may occur or acute gout may be precipitated in certain patients receiving thiazides.\nIn diabetic patients dosage adjustments of insulin or oral hypoglycemic agents may be required. Hyperglycemia may occur with thiazide diuretics. Thus latent diabetes mellitus may become manifest during thiazide therapy.\nThe antihypertensive effects of the drug may be enhanced in the post-sympathectomy patient.\nIf progressive renal impairment becomes evident, consider withholding or discontinuing diuretic therapy.\nThiazides have been shown to increase the urinary excretion of magnesium; this may result in hypomagnesemia.\nThiazides may decrease urinary calcium excretion. Thiazides may cause intermittent and slight elevation of serum calcium in the absence of known disorders of calcium metabolism. Marked hypercalcemia may be evidence of hidden hyperparathyroidism. Thiazides should be discontinued before carrying out tests for parathyroid function.\nIncreases in cholesterol and triglyceride levels may be associated with thiazide diuretic therapy."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Non-melanoma Skin Cancer: \nInstruct patients taking hydrochlorothiazide to protect skin from the sun and undergo regular skin cancer screening."
+    },
+    {
+      "key": "section_laboratory_tests",
+      "label": "Laboratory Tests",
+      "number": "34075-2",
+      "title": "Laboratory Tests",
+      "text": "Periodic determination of serum electrolytes to detect possible electrolyte imbalance should be done at appropriate intervals."
+    },
+    {
+      "key": [
+        "interactions",
+        "Drug Interactions"
+      ],
+      "label": "Drug Interactions",
+      "number": "34073-7",
+      "title": "Drug Interactions",
+      "text": "When given concurrently the following drugs may interact with thiazide diuretics."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Potentiation of orthostatic hypotension may occur."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Dosage adjustment of the antidiabetic drug may be required."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Additive effect or potentiation."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Absorption of hydrochlorothiazide is impaired in the presence of anionic exchange resins. Single doses of either cholestyramine or colestipol resins bind the hydrochlorothiazide and reduce its absorption from the gastrointestinal tract by up to 85% and 43%, respectively."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Intensified electrolyte depletion, particularly hypokalemia."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Possible decreased response to pressor amines but not sufﬁcient to preclude their use."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Possible increased responsiveness to the muscle relaxant."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "Generally should not be given with diuretics. Diuretic agents reduce the renal clearance of lithium and add a high risk of lithium toxicity. Refer to the package insert for lithium preparations before use of such preparations with hydrochlorothiazide."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "In some patients, the administration of a non-steroidal anti-inﬂammatory agent can reduce the diuretic, natriuretic, and antihypertensive effects of loop, potassium-sparing and thiazide diuretics. Therefore, when hydrochlorothiazide and non-steroidal anti-inﬂammatory agents are used concomitantly, the patient should be observed closely to determine if the desired effect of the diuretic is obtained."
+    },
+    {
+      "key": "section_drug_laboratory_test_interactions",
+      "label": "Drug/Laboratory Test Interactions",
+      "number": "34074-5",
+      "title": "Drug/Laboratory Test Interactions",
+      "text": "Thiazides should be discontinued before carrying out tests for parathyroid function (see\n\n PRECAUTIONS, General)."
+    },
+    {
+      "key": "section_carcinogenesis_mutagenesis_impairment_of",
+      "label": "Carcinogenesis, Mutagenesis, Impairment of Fertility",
+      "number": "34083-6",
+      "title": "Carcinogenesis, Mutagenesis, Impairment of Fertility",
+      "text": "Two year feeding studies in mice and rats conducted under the auspices of the National Toxicology Program (NTP) uncovered no evidence of a carcinogenic potential of hydrochlorothiazide in female mice (at doses of up to approximately 600 mg/kg/day) or in male and female rats (at doses of up to approximately 100 mg/kg/day). The NTP, however, found equivocal evidence for hepatocarcinogenicity in male mice.\nHydrochlorothiazide was not genotoxic\n\n in vitroin the Ames mutagenicity assay of\n\n Salmonella typhimuriumstrains TA 98, TA 100, TA 1535, TA 1537, and TA 1538 and in the Chinese Hamster Ovary (CHO) test for chromosomal aberrations, or\n\n in vivoin assays using mouse germinal cell chromosomes, Chinese hamster bone marrow chromosomes, and the\n\n Drosophilasex-linked recessive lethal trait gene. Positive test results were obtained only in the\n\n in vitroCHO Sister Chromatid Exchange (clastogenicity) and in the Mouse Lymphoma Cell (mutagenicity) assays, using concentrations of hydrochlorothiazide from 43 to 1300 mcg/mL, and in the\n\n Aspergillus nidulansnon-disjunction assay at an unspeciﬁed concentration.\n\nHydrochlorothiazide had no adverse effects on the fertility of mice and rats of either sex in studies wherein these species were exposed, via their diet, to doses of up to 100 and 4 mg/kg, respectively, prior to conception and throughout gestation."
+    },
+    {
+      "key": "section_teratogenic_effects_section",
+      "label": "TERATOGENIC EFFECTS SECTION",
+      "number": "34077-8",
+      "title": "TERATOGENIC EFFECTS SECTION",
+      "text": "Studies in which hydrochlorothiazide was orally administered to pregnant mice and rats during their respective periods of major organogenesis at doses up to 3000 and 1000 mg hydrochlorothiazide/kg, respectively, provided no evidence of harm to the fetus.\nThere are, however, no adequate and well-controlled studies in pregnant women. Because animal reproduction studies are not always predictive of human response, this drug should be used during pregnancy only if clearly needed."
+    },
+    {
+      "key": "section_nonteratogenic_effects_section",
+      "label": "NONTERATOGENIC EFFECTS SECTION",
+      "number": "34078-6",
+      "title": "NONTERATOGENIC EFFECTS SECTION",
+      "text": "Thiazides cross the placental barrier and appear in cord blood. There is a risk of fetal or neonatal jaundice, thrombocytopenia, and possibly other adverse reactions that have occurred in adults."
+    },
+    {
+      "key": "section_nursing_mothers",
+      "label": "Nursing Mothers",
+      "number": "34080-2",
+      "title": "Nursing Mothers",
+      "text": "Thiazides are excreted in breast milk. Because of the potential for serious adverse reactions in nursing infants, a decision should be made whether to discontinue nursing or to discontinue hydrochlorothiazide, taking into account the importance of the drug to the mother."
+    },
+    {
+      "key": "section_pediatric_use",
+      "label": "Pediatric Use",
+      "number": "34081-0",
+      "title": "Pediatric Use",
+      "text": "There are no well controlled clinical trials in pediatric patients. Information on dosing in this age group is supported by evidence from empiric use in pediatric patients and published literature regarding the treatment of hypertension in such patients (see\n\n DOSAGE AND ADMINISTRATION, Infants and Children)."
+    },
+    {
+      "key": [
+        "effets_indesirables",
+        "Adverse Reactions"
+      ],
+      "label": "Adverse Reactions",
+      "number": "34084-4",
+      "title": "ADVERSE REACTIONS",
+      "text": "The following adverse reactions have been reported and, within each category, are listed in order of decreasing severity."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "Body as a Whole",
+      "text": "Weakness."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "Cardiovascular",
+      "text": "Hypotension including orthostatic hypotension (may be aggravated by alcohol, barbiturates, narcotics or antihypertensive drugs)."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "Digestive",
+      "text": "Pancreatitis, jaundice (intrahepatic cholestatic jaundice), diarrhea, vomiting, sialadenitis, cramping, constipation, gastric irritation, nausea, anorexia."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "Hematologic",
+      "text": "Aplastic anemia, agranulocytosis, leukopenia, hemolytic anemia, thrombocytopenia."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "Hypersensitivity",
+      "text": "Anaphylactic reactions, necrotizing angiitis (vasculitis and cutaneous vasculitis), respiratory distress including pneumonitis and pulmonary edema, photosensitivity, fever, urticaria, rash, purpura."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "Metabolic",
+      "text": "Electrolyte imbalance (see\n\n PRECAUTIONS), hyperglycemia, glycosuria, hyperuricemia."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "Musculoskeletal",
+      "text": "Muscle spasm."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "Nervous System/Psychiatric",
+      "text": "Vertigo, paresthesias, dizziness, headache, restlessness."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "Renal",
+      "text": "Renal failure, renal dysfunction, interstitial nephritis (see\n\n WARNINGS)."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "Skin",
+      "text": "Erythema multiforme including Stevens-Johnson syndrome, exfoliative dermatitis including toxic epidermal necrolysis, alopecia."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "Special Senses",
+      "text": "Transient blurred vision, xanthopsia."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "Urogenital",
+      "text": "Impotence.\nWhenever adverse reactions are moderate or severe, thiazide dosage should be reduced or therapy withdrawn."
+    },
+    {
+      "key": "section_postmarketing_experience_section",
+      "label": "POSTMARKETING EXPERIENCE SECTION",
+      "number": "90375-7",
+      "title": "POSTMARKETING EXPERIENCE SECTION",
+      "text": "Non-melanoma Skin Cancer\n\nHydrochlorothiazide is associated with an increased risk of non-melanoma skin cancer. In a study conducted in the Sentinel System, increased risk was predominantly for squamous cell carcinoma (SCC) and in white patients taking large cumulative doses. The increased risk for SCC in the overall population was approximately 1 additional case per 16,000 patients per year, and for white patients taking a cumulative dose of ≥ 50,000 mg the risk increase was approximately 1 additional SCC case for every 6,700 patients per year.\n\nTo report SUSPECTED ADVERSE EVENTS, contact Teva at 1-888-838-2872 or FDA at 1-800-FDA-1088 or http://www.fda.gov/medwatch for voluntary reporting of adverse reactions."
+    },
+    {
+      "key": [
+        "surdosage",
+        "Overdosage"
+      ],
+      "label": "Overdosage",
+      "number": "34088-5",
+      "title": "OVERDOSAGE",
+      "text": "The most common signs and symptoms observed are those caused by electrolyte depletion (hypokalemia, hypochloremia, hyponatremia) and dehydration resulting from excessive diuresis. If digitalis has also been administered, hypokalemia may accentuate cardiac arrhythmias.\nIn the event of overdosage, symptomatic and supportive measures should be employed. Emesis should be induced or gastric lavage performed. Correct dehydration, electrolyte imbalance, hepatic coma and hypotension by established procedures. If required, give oxygen or artificial respiration for respiratory impairment. The degree to which hydrochlorothiazide is removed by hemodialysis has not been established. The oral LD\n\n 50of hydrochlorothiazide is greater than 10 g/kg in the mouse and rat."
+    },
+    {
+      "key": [
+        "posologie",
+        "Dosage and Administration"
+      ],
+      "label": "Dosage and Administration",
+      "number": "34068-7",
+      "title": "DOSAGE AND ADMINISTRATION",
+      "text": "Therapy should be individualized according to patient response. Use the smallest dosage necessary to achieve the required response."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "The usual adult dosage is 25 mg to 100 mg daily as a single or divided dose. Many patients with edema respond to intermittent therapy, i.e., administration on alternate days or on 3 to 5 days each week. With an intermittent schedule, excessive response and the resulting undesirable electrolyte imbalance are less likely to occur."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "The usual initial dose in adults is 25 mg daily given as a single dose. The dose may be increased to 50 mg daily, given as a single or two divided doses. Doses above 50 mg are often associated with marked reductions in serum potassium (see also\n\n PRECAUTIONS).\n\nPatients usually do not require doses in excess of 50 mg of hydrochlorothiazide daily when used concomitantly with other antihypertensive agents."
+    },
+    {
+      "key": [
+        "non_classifie",
+        "Unclassified"
+      ],
+      "label": "Unclassified",
+      "number": "42229-5",
+      "title": "SPL UNCLASSIFIED SECTION",
+      "text": "The usual pediatric dosage is 0.5 mg to 1 mg per pound (1 to 2 mg/kg) per day in single or two divided doses, not to exceed 37.5 mg per day in infants up to 2 years of age or 100 mg per day in children 2 to 12 years of age. In infants less than 6 months of age, doses up to 1.5 mg per pound (3 mg/kg) per day in two divided doses may be required (see\n\n PRECAUTIONS, Pediatric Use)."
+    },
+    {
+      "key": "conditionnement",
+      "label": "HOW SUPPLIED",
+      "number": "34069-5",
+      "title": "HOW SUPPLIED",
+      "text": "Hydrochlorothiazide Tablets USP, 25 mg are available as round, flat face, light orange, beveled edge tablets, bisected and debossed \"2083\" on one side and “TEVA” on the other side, containing 25 mg hydrochlorothiazide, USP packaged in bottles:\nNDC 72789-512-30 Bottles of 30\nNDC 72789-512-60 Bottles of 60\nNDC 72789-512-90 Bottles of 90\nDispense in a well-closed container as defined in the USP, with a child-resistant closure (as required).\nStore at 20° to 25°C (68° to 77°F) [see USP Controlled Room Temperature].\nKEEP THIS AND ALL MEDICATIONS OUT OF THE REACH OF CHILDREN."
+    },
+    {
+      "key": "section_package_label_display_panel",
+      "label": "Package/Label Display Panel",
+      "number": "51945-4",
+      "title": "Package/Label Display Panel",
+      "text": "Hydrochlorothiazide Tablets, USP\n25 mg\nRx only\n\n72789512 Label"
+    }
+  ],
+  "ingredients": [
+    "HYDROCHLOROTHIAZIDE (ACTIB) - 25 mg"
+  ],
+  "text": "Description\nHydrochlorothiazide, USP is a diuretic and antihypertensive. It is the 3,4-dihydro derivative of chlorothiazide. It is chemically designated as 6-chloro-3,4-dihydro-2\n\n H-1,2,4-benzothiadiazine-7-sulfonamide 1,1-dioxide and has the following structural formula:\n\nC\n\n 7H\n\n 8ClN\n\n 3O\n\n 4S\n\n 2              M.W. 297.74\n\nHydrochlorothiazide, USP is a white, or practically white, crystalline powder which is slightly soluble in water, freely soluble in sodium hydroxide solution, in\n\n n-butylamine, and in dimethylformamide; sparingly soluble in methanol; insoluble in ether, in chloroform, and in dilute mineral acids. Each tablet for oral administration contains 25 mg or 50 mg hydrochlorothiazide, USP. In addition, each tablet contains the following inactive ingredients: corn starch, dibasic calcium phosphate dihydrate, FD&C Yellow No. 6 Aluminum Lake, lactose monohydrate and magnesium stearate.\n\nHCTZ structural formula\n\nClinical Pharmacology\nThe mechanism of the antihypertensive effect of thiazides is unknown. Hydrochlorothiazide does not usually affect normal blood pressure.\nHydrochlorothiazide affects the distal renal tubular mechanism of electrolyte reabsorption. At maximal therapeutic dosage all thiazides are approximately equal in their diuretic efﬁcacy.\nHydrochlorothiazide increases excretion of sodium and chloride in approximately equivalent amounts. Natriuresis may be accompanied by some loss of potassium and bicarbonate.\nAfter oral use diuresis begins within 2 hours, peaks in about 4 hours and lasts about 6 to 12 hours.\n\nUnclassified\nHydrochlorothiazide is not metabolized but is eliminated rapidly by the kidney. When plasma levels have been followed for at least 24 hours, the plasma half-life has been observed to vary between 5.6 and 14.8 hours. At least 61% of the oral dose is eliminated unchanged within 24 hours. Hydrochlorothiazide crosses the placental but not the blood-brain barrier and is excreted in breast milk.\n\nIndications and Usage\nHydrochlorothiazide tablets are indicated as adjunctive therapy in edema associated with congestive heart failure, hepatic cirrhosis, and corticosteroid and estrogen therapy.\nHydrochlorothiazide tablets have also been found useful in edema due to various forms of renal dysfunction such as nephrotic syndrome, acute glomerulonephritis, and chronic renal failure.\nHydrochlorothiazide tablets are indicated in the management of hypertension either as the sole therapeutic agent or to enhance the effectiveness of other antihypertensive drugs in the more severe forms of hypertension.\n\nUnclassified\nRoutine use of diuretics during normal pregnancy is inappropriate and exposes mother and fetus to unnecessary hazard. Diuretics do not prevent development of toxemia of pregnancy and there is no satisfactory evidence that they are useful in the treatment of toxemia.\nEdema during pregnancy may arise from pathologic causes or from the physiologic and mechanical consequences of pregnancy. Thiazides are indicated in pregnancy when edema is due to pathologic causes, just as they are in the absence of pregnancy (see\n\n PRECAUTIONS, Pregnancy). Dependent edema in pregnancy, resulting from restriction of venous return by the gravid uterus, is properly treated through elevation of the lower extremities and use of support stockings. Use of diuretics to lower intravascular volume in this instance is illogical and unnecessary. During normal pregnancy there is hypervolemia which is not harmful to the fetus or the mother in the absence of cardiovascular disease. However, it may be associated with edema, rarely generalized edema. If such edema causes discomfort, increased recumbency will often provide relief. Rarely this edema may cause extreme discomfort which is not relieved by rest. In these instances, a short course of diuretic therapy may provide relief and be appropriate.\n\nContraindications\nAnuria.\nHypersensitivity to this product or to other sulfonamide-derived drugs.\n\nWARNINGS\nUse with caution in severe renal disease. In patients with renal disease, thiazides may precipitate azotemia. Cumulative effects of the drug may develop in patients with impaired renal function.\nThiazides should be used with caution in patients with impaired hepatic function or progressive liver disease, since minor alterations of ﬂuid and electrolyte balance may precipitate hepatic coma.\nThiazides may add to or potentiate the action of other antihypertensive drugs.\nSensitivity reactions may occur in patients with or without a history of allergy or bronchial asthma.\nThe possibility of exacerbation or activation of systemic lupus erythematosus has been reported.\nLithium generally should not be given with diuretics (see\n\n PRECAUTIONS, Drug Interactions).\n\nUnclassified\nHydrochlorothiazide, a sulfonamide, can cause an idiosyncratic reaction, resulting in acute transient myopia and acute angle-closure glaucoma. Symptoms include acute onset of decreased visual acuity or ocular pain and typically occur within hours to weeks of drug initiation. Untreated acute angle-closure glaucoma can lead to permanent vision loss. The primary treatment is to discontinue hydrochlorothiazide as rapidly as possible. Prompt medical or surgical treatments may need to be considered if the intraocular pressure remains uncontrolled. Risk factors for developing acute angle-closure glaucoma may include a history of sulfonamide or penicillin allergy.\n\nGeneral\nAll patients receiving diuretic therapy should be observed for evidence of ﬂuid or electrolyte imbalance: namely, hyponatremia, hypochloremic alkalosis, and hypokalemia. Serum and urine electrolyte determinations are particularly important when the patient is vomiting excessively or receiving parenteral ﬂuids. Warning signs or symptoms of ﬂuid and electrolyte imbalance, irrespective of cause, include dryness of mouth, thirst, weakness, lethargy, drowsiness, restlessness, confusion, seizures, muscle pains or cramps, muscular fatigue, hypotension, oliguria, tachycardia, and gastrointestinal disturbances such as nausea and vomiting.\nHypokalemia may develop, especially with brisk diuresis, when severe cirrhosis is present or after prolonged therapy.\nInterference with adequate oral electrolyte intake will also contribute to hypokalemia. Hypokalemia may cause cardiac arrhythmia and may also sensitize or exaggerate the response of the heart to the toxic effects of digitalis (e.g., increased ventricular irritability). Hypokalemia may be avoided or treated by use of potassium sparing diuretics or potassium supplements such as foods with a high potassium content.\nAlthough any chloride deﬁcit is generally mild and usually does not require specific treatment except under extraordinary circumstances (as in liver disease or renal disease), chloride replacement may be required in the treatment of metabolic alkalosis.\nDilutional hyponatremia may occur in edematous patients in hot weather; appropriate therapy is water restriction, rather than administration of salt, except in rare instances when the hyponatremia is life threatening. In actual salt depletion, appropriate replacement is the therapy of choice.\nHyperuricemia may occur or acute gout may be precipitated in certain patients receiving thiazides.\nIn diabetic patients dosage adjustments of insulin or oral hypoglycemic agents may be required. Hyperglycemia may occur with thiazide diuretics. Thus latent diabetes mellitus may become manifest during thiazide therapy.\nThe antihypertensive effects of the drug may be enhanced in the post-sympathectomy patient.\nIf progressive renal impairment becomes evident, consider withholding or discontinuing diuretic therapy.\nThiazides have been shown to increase the urinary excretion of magnesium; this may result in hypomagnesemia.\nThiazides may decrease urinary calcium excretion. Thiazides may cause intermittent and slight elevation of serum calcium in the absence of known disorders of calcium metabolism. Marked hypercalcemia may be evidence of hidden hyperparathyroidism. Thiazides should be discontinued before carrying out tests for parathyroid function.\nIncreases in cholesterol and triglyceride levels may be associated with thiazide diuretic therapy.\n\nUnclassified\nNon-melanoma Skin Cancer: \nInstruct patients taking hydrochlorothiazide to protect skin from the sun and undergo regular skin cancer screening.\n\nLaboratory Tests\nPeriodic determination of serum electrolytes to detect possible electrolyte imbalance should be done at appropriate intervals.\n\nDrug Interactions\nWhen given concurrently the following drugs may interact with thiazide diuretics.\n\nUnclassified\nPotentiation of orthostatic hypotension may occur.\n\nUnclassified\nDosage adjustment of the antidiabetic drug may be required.\n\nUnclassified\nAdditive effect or potentiation.\n\nUnclassified\nAbsorption of hydrochlorothiazide is impaired in the presence of anionic exchange resins. Single doses of either cholestyramine or colestipol resins bind the hydrochlorothiazide and reduce its absorption from the gastrointestinal tract by up to 85% and 43%, respectively.\n\nUnclassified\nIntensified electrolyte depletion, particularly hypokalemia.\n\nUnclassified\nPossible decreased response to pressor amines but not sufﬁcient to preclude their use.\n\nUnclassified\nPossible increased responsiveness to the muscle relaxant.\n\nUnclassified\nGenerally should not be given with diuretics. Diuretic agents reduce the renal clearance of lithium and add a high risk of lithium toxicity. Refer to the package insert for lithium preparations before use of such preparations with hydrochlorothiazide.\n\nUnclassified\nIn some patients, the administration of a non-steroidal anti-inﬂammatory agent can reduce the diuretic, natriuretic, and antihypertensive effects of loop, potassium-sparing and thiazide diuretics. Therefore, when hydrochlorothiazide and non-steroidal anti-inﬂammatory agents are used concomitantly, the patient should be observed closely to determine if the desired effect of the diuretic is obtained.\n\nDrug/Laboratory Test Interactions\nThiazides should be discontinued before carrying out tests for parathyroid function (see\n\n PRECAUTIONS, General).\n\nCarcinogenesis, Mutagenesis, Impairment of Fertility\nTwo year feeding studies in mice and rats conducted under the auspices of the National Toxicology Program (NTP) uncovered no evidence of a carcinogenic potential of hydrochlorothiazide in female mice (at doses of up to approximately 600 mg/kg/day) or in male and female rats (at doses of up to approximately 100 mg/kg/day). The NTP, however, found equivocal evidence for hepatocarcinogenicity in male mice.\nHydrochlorothiazide was not genotoxic\n\n in vitroin the Ames mutagenicity assay of\n\n Salmonella typhimuriumstrains TA 98, TA 100, TA 1535, TA 1537, and TA 1538 and in the Chinese Hamster Ovary (CHO) test for chromosomal aberrations, or\n\n in vivoin assays using mouse germinal cell chromosomes, Chinese hamster bone marrow chromosomes, and the\n\n Drosophilasex-linked recessive lethal trait gene. Positive test results were obtained only in the\n\n in vitroCHO Sister Chromatid Exchange (clastogenicity) and in the Mouse Lymphoma Cell (mutagenicity) assays, using concentrations of hydrochlorothiazide from 43 to 1300 mcg/mL, and in the\n\n Aspergillus nidulansnon-disjunction assay at an unspeciﬁed concentration.\n\nHydrochlorothiazide had no adverse effects on the fertility of mice and rats of either sex in studies wherein these species were exposed, via their diet, to doses of up to 100 and 4 mg/kg, respectively, prior to conception and throughout gestation.\n\nTERATOGENIC EFFECTS SECTION\nStudies in which hydrochlorothiazide was orally administered to pregnant mice and rats during their respective periods of major organogenesis at doses up to 3000 and 1000 mg hydrochlorothiazide/kg, respectively, provided no evidence of harm to the fetus.\nThere are, however, no adequate and well-controlled studies in pregnant women. Because animal reproduction studies are not always predictive of human response, this drug should be used during pregnancy only if clearly needed.\n\nNONTERATOGENIC EFFECTS SECTION\nThiazides cross the placental barrier and appear in cord blood. There is a risk of fetal or neonatal jaundice, thrombocytopenia, and possibly other adverse reactions that have occurred in adults.\n\nNursing Mothers\nThiazides are excreted in breast milk. Because of the potential for serious adverse reactions in nursing infants, a decision should be made whether to discontinue nursing or to discontinue hydrochlorothiazide, taking into account the importance of the drug to the mother.\n\nPediatric Use\nThere are no well controlled clinical trials in pediatric patients. Information on dosing in this age group is supported by evidence from empiric use in pediatric patients and published literature regarding the treatment of hypertension in such patients (see\n\n DOSAGE AND ADMINISTRATION, Infants and Children).\n\nAdverse Reactions\nThe following adverse reactions have been reported and, within each category, are listed in order of decreasing severity.\n\nUnclassified\nWeakness.\n\nUnclassified\nHypotension including orthostatic hypotension (may be aggravated by alcohol, barbiturates, narcotics or antihypertensive drugs).\n\nUnclassified\nPancreatitis, jaundice (intrahepatic cholestatic jaundice), diarrhea, vomiting, sialadenitis, cramping, constipation, gastric irritation, nausea, anorexia.\n\nUnclassified\nAplastic anemia, agranulocytosis, leukopenia, hemolytic anemia, thrombocytopenia.\n\nUnclassified\nAnaphylactic reactions, necrotizing angiitis (vasculitis and cutaneous vasculitis), respiratory distress including pneumonitis and pulmonary edema, photosensitivity, fever, urticaria, rash, purpura.\n\nUnclassified\nElectrolyte imbalance (see\n\n PRECAUTIONS), hyperglycemia, glycosuria, hyperuricemia.\n\nUnclassified\nMuscle spasm.\n\nUnclassified\nVertigo, paresthesias, dizziness, headache, restlessness.\n\nUnclassified\nRenal failure, renal dysfunction, interstitial nephritis (see\n\n WARNINGS).\n\nUnclassified\nErythema multiforme including Stevens-Johnson syndrome, exfoliative dermatitis including toxic epidermal necrolysis, alopecia.\n\nUnclassified\nTransient blurred vision, xanthopsia.\n\nUnclassified\nImpotence.\nWhenever adverse reactions are moderate or severe, thiazide dosage should be reduced or therapy withdrawn.\n\nPOSTMARKETING EXPERIENCE SECTION\nNon-melanoma Skin Cancer\n\nHydrochlorothiazide is associated with an increased risk of non-melanoma skin cancer. In a study conducted in the Sentinel System, increased risk was predominantly for squamous cell carcinoma (SCC) and in white patients taking large cumulative doses. The increased risk for SCC in the overall population was approximately 1 additional case per 16,000 patients per year, and for white patients taking a cumulative dose of ≥ 50,000 mg the risk increase was approximately 1 additional SCC case for every 6,700 patients per year.\n\nTo report SUSPECTED ADVERSE EVENTS, contact Teva at 1-888-838-2872 or FDA at 1-800-FDA-1088 or http://www.fda.gov/medwatch for voluntary reporting of adverse reactions.\n\nOverdosage\nThe most common signs and symptoms observed are those caused by electrolyte depletion (hypokalemia, hypochloremia, hyponatremia) and dehydration resulting from excessive diuresis. If digitalis has also been administered, hypokalemia may accentuate cardiac arrhythmias.\nIn the event of overdosage, symptomatic and supportive measures should be employed. Emesis should be induced or gastric lavage performed. Correct dehydration, electrolyte imbalance, hepatic coma and hypotension by established procedures. If required, give oxygen or artificial respiration for respiratory impairment. The degree to which hydrochlorothiazide is removed by hemodialysis has not been established. The oral LD\n\n 50of hydrochlorothiazide is greater than 10 g/kg in the mouse and rat.\n\nDosage and Administration\nTherapy should be individualized according to patient response. Use the smallest dosage necessary to achieve the required response.\n\nUnclassified\nThe usual adult dosage is 25 mg to 100 mg daily as a single or divided dose. Many patients with edema respond to intermittent therapy, i.e., administration on alternate days or on 3 to 5 days each week. With an intermittent schedule, excessive response and the resulting undesirable electrolyte imbalance are less likely to occur.\n\nUnclassified\nThe usual initial dose in adults is 25 mg daily given as a single dose. The dose may be increased to 50 mg daily, given as a single or two divided doses. Doses above 50 mg are often associated with marked reductions in serum potassium (see also\n\n PRECAUTIONS).\n\nPatients usually do not require doses in excess of 50 mg of hydrochlorothiazide daily when used concomitantly with other antihypertensive agents.\n\nUnclassified\nThe usual pediatric dosage is 0.5 mg to 1 mg per pound (1 to 2 mg/kg) per day in single or two divided doses, not to exceed 37.5 mg per day in infants up to 2 years of age or 100 mg per day in children 2 to 12 years of age. In infants less than 6 months of age, doses up to 1.5 mg per pound (3 mg/kg) per day in two divided doses may be required (see\n\n PRECAUTIONS, Pediatric Use).\n\nHOW SUPPLIED\nHydrochlorothiazide Tablets USP, 25 mg are available as round, flat face, light orange, beveled edge tablets, bisected and debossed \"2083\" on one side and “TEVA” on the other side, containing 25 mg hydrochlorothiazide, USP packaged in bottles:\nNDC 72789-512-30 Bottles of 30\nNDC 72789-512-60 Bottles of 60\nNDC 72789-512-90 Bottles of 90\nDispense in a well-closed container as defined in the USP, with a child-resistant closure (as required).\nStore at 20° to 25°C (68° to 77°F) [see USP Controlled Room Temperature].\nKEEP THIS AND ALL MEDICATIONS OUT OF THE REACH OF CHILDREN.\n\nPackage/Label Display Panel\nHydrochlorothiazide Tablets, USP\n25 mg\nRx only\n\n72789512 Label",
+  "source_rank": 3
+}

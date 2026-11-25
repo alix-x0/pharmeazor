@@ -1,0 +1,1026 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="34f82008-91d3-4ee3-aa91-e4ee9725c92b"/>
+   <code code="50578-4" codeSystem="2.16.840.1.113883.6.1" displayName="PRESCRIPTION ANIMAL DRUG LABEL"/>
+   <title>
+      <content styleCode="bold"> Meloxicam Oral Suspension<br/>1.5 mg/mL </content>
+   </title>
+   <effectiveTime value="20261031"/>
+   <setId root="e00de1c6-46c9-41aa-a228-4a04ac3e84c8"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="117047560" root="1.3.6.1.4.1.519.1"/>
+            <name>ZYVET ANIMAL HEALTH INC.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="117047560" root="1.3.6.1.4.1.519.1"/>
+                  <name>ZYVET ANIMAL HEALTH INC.</name>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="f44a34a6-b527-44bc-a742-5a89844f83f2"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL Product Data Elements Section"/>
+               <effectiveTime value="20261031"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="86117-059" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>MELOXICAM</name>
+                        <formCode code="C42994" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SUSPENSION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Meloxicam</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="1.5" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="VG2QF83CGL" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MELOXICAM</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="VG2QF83CGL" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>MELOXICAM</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="10" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43173" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, PLASTIC"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="86117-059-01" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="32" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43173" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, PLASTIC"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="86117-059-04" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="100" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43173" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, PLASTIC"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="86117-059-05" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="180" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43173" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, PLASTIC"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="86117-059-06" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANADA200856" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73583" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANADA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20261102"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="ID1">
+               <id root="3400e9d9-470b-400a-9305-dd644350639e"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>
+                  <content styleCode="bold">Professional Insert</content>
+               </title>
+               <text>
+                  <paragraph ID="ID2">
+                     <content styleCode="bold">Meloxicam Oral Suspension</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">1.5 mg/mL</content>
+                  </paragraph>
+                  <paragraph>Non-steroidal anti-inflammatory drug for oral use in dogs only</paragraph>
+               </text>
+               <effectiveTime value="20261031"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID3">
+               <id root="5e92a2d8-0d91-456d-804e-4db404ec5905"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>
+                  <content styleCode="bold">Caution: </content>
+               </title>
+               <text>
+                  <paragraph ID="ID4">Federal law restricts this drug to use by or on the order of a licensed veterinarian.</paragraph>
+               </text>
+               <effectiveTime value="20261031"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID47">
+               <id root="320405f9-7b4b-411d-9439-71d43130fc3a"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <title>Warning:</title>
+               <text>
+                  <paragraph ID="ID48">Repeated use of meloxicam in cats has been associated with acute renal failure and death. Do not administer additional injectable or oral meloxicam to cats. See Contraindications, Warnings, and Precautions for detailed information.</paragraph>
+               </text>
+               <effectiveTime value="20261031"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID7">
+               <id root="5f17588e-d579-448e-8502-1c8f2ad30f61"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>
+                  <content styleCode="bold">Description: </content>
+               </title>
+               <text>
+                  <paragraph ID="ID8">Meloxicam is a non-steroidal anti-inflammatory drug (NSAID) of the oxicam class. Each milliliter of Meloxicam Oral Suspension contains meloxicam equivalent to 1.5 milligrams and sodium benzoate (1.5 milligrams) as a preservative. The chemical name for Meloxicam is 4-Hydroxy-2-methyl-N-(5-methyl-2-thiazolyl)-2H-1,2-benzothiazine-3-carboxamide-1, 1-dioxide. The formulation is a off-white to yellowish viscous suspension with the odor of honey.</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="IMGID81"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20261031"/>
+               <component>
+                  <observationMedia ID="IMGID81">
+                     <text>Image</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="34f82008-91d3-4ee3-aa91-e4ee9725c92b-8-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID9">
+               <id root="e9f768b8-1643-402a-bef3-e036a0e27ee4"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>
+                  <content styleCode="bold">Indications: </content>
+               </title>
+               <text>
+                  <paragraph ID="ID10">Meloxicam Oral Suspension is indicated for the control of pain and inflammation associated with osteoarthritis in dogs.</paragraph>
+               </text>
+               <effectiveTime value="20261031"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID11">
+               <id root="8cfe521a-3575-41ad-93da-bc6f48c3acfc"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>
+                  <content styleCode="bold">Dosage and Administration: </content>
+               </title>
+               <text>
+                  <paragraph ID="ID12">Always provide client information sheet with prescription. Carefully consider the potential benefits and risk of Meloxicam Oral Suspension and other treatment options before deciding to use Meloxicam Oral Suspension. Use the lowest effective dose for the shortest duration consistent with individual response. Meloxicam Oral Suspension should be administered initially at 0.09 mg/lb (0.2 mg/kg) body weight only on the first day of treatment. For all treatments after day 1, Meloxicam Oral Suspension should be administered once daily at a dose of 0.045 mg/lb (0.1 mg/ kg). The syringes are calibrated to deliver the daily maintenance dose in pounds.</paragraph>
+               </text>
+               <effectiveTime value="20261031"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID13">
+               <id root="ec8b889f-0df7-4b48-8eb0-6147c3199706"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>
+                  <content styleCode="bold">Directions for Administration: </content>
+               </title>
+               <text>
+                  <paragraph ID="ID14">Meloxicam Oral Suspension is packaged with 2 sizes of dosing syringe. The small dosing syringe (blue print) is calibrated for use in dogs under 5 lbs. The large dosing syringe (black print) is calibrated for use in dogs 5 lbs and greater. <content styleCode="bold">Only administer Meloxicam Oral Suspension with the provided dosing syringes. The container should never be used as a dropper bottle for administration of Meloxicam Oral Suspension.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Dogs under 5 pounds (2.3 kg)</content>
+                  </paragraph>
+                  <paragraph>Shake well before use, then remove cap. Particular care should be given with regard to the accuracy of dosing. <content styleCode="bold">To prevent accidental overdosing of small dogs, only use the small dosing syringe, administer drops from dosing syringe on food only, never directly into the mouth. </content>Carefully measure suspension onto food to assure that the correct dose is given before presentation of the food to the dog. The large dosing syringe provided cannot be used to measure doses for dogs weighing less than 5 lbs (2.3 kg).</paragraph>
+                  <paragraph>For dogs less than 5 lbs (2.3 kg), use the small dosing syringe provided in the package (see dosing procedure below). The small dosing syringe fits on to the bottle and has dosing marks beginning at 1 pound then in 1 pound increments (ranging from 1 to 5 lbs), designed to deliver the daily maintenance dose (0.05 mg/lb or 0.1 mg/kg). When using the small dosing syringe, the dog's weight should be rounded down to the nearest 1 pound increment. Replace and tighten cap after use.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Dogs over 5 pounds (2.3 kg)</content>
+                  </paragraph>
+                  <paragraph>Shake well before use, then remove cap. Meloxicam Oral Suspension may be either mixed with food or placed directly into the mouth. Particular care should be given with regard to the accuracy of dosing. Meloxicam Oral Suspension can be given using the large dosing syringe provided in the package (see dosing procedure below). The large dosing syringe fits on to the bottle and has dosing marks in 5 pound increments (ranging from 5 to 140 lbs) designed to deliver the daily maintenance dose (0.05 mg/lb or 0.1 mg/kg). When using the large dosing syringe, the dog's weight should be rounded down to the nearest 5 pound increment. Replace and tighten cap after use.</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="IMGID141"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20261031"/>
+               <component>
+                  <observationMedia ID="IMGID141">
+                     <text>Image</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="34f82008-91d3-4ee3-aa91-e4ee9725c92b-14-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID15">
+               <id root="d6b50353-9c24-471e-8de5-d3f52722689e"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>
+                  <content styleCode="bold">Contraindications: </content>
+               </title>
+               <text>
+                  <paragraph ID="ID16">Dogs with known hypersensitivity to meloxicam should not receive Meloxicam Oral Suspension. <content styleCode="bold">Do not use Meloxicam Oral Suspension in cats. Acute renal failure and death have been associated with the use of meloxicam in cats.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20261031"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID17">
+               <id root="2c867643-b94e-414d-88a9-59105197837e"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>
+                  <content styleCode="bold">Warnings:</content>
+               </title>
+               <text>
+                  <paragraph ID="ID18">Not for use in humans. Keep this and all medications out of reach of children. Consult a physician in case of accidental ingestion by humans. <content styleCode="bold">For oral use in dogs only.</content>
+                  </paragraph>
+                  <paragraph>Keep Meloxicam Oral Suspension in a secure location out of reach of dogs, cats, and other animals to prevent accidental ingestion or overdose. </paragraph>
+                  <paragraph>As with any NSAID all dogs should undergo a thorough history and physical examination before the initiation of NSAID therapy. Appropriate laboratory testing to establish hematological and serum biochemical baseline data is recommended prior to and periodically during administration. Owner should be advised to observe their dog for signs of potential drug toxicity and be given a client information sheet about Meloxicam Oral Suspension.</paragraph>
+               </text>
+               <effectiveTime value="20261031"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID19">
+               <id root="f4059ee1-15d1-486a-a9e3-30a58fd10a0c"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>
+                  <content styleCode="bold">Precautions: </content>
+               </title>
+               <text>
+                  <paragraph ID="ID20">The safe use of Meloxicam Oral Suspension in dogs younger than 6 months of age, dogs used for breeding, or in pregnant or lactating dogs has not been evaluated. Meloxicam is not recommended for use in dogs with bleeding disorders, as safety has not been established in dogs with these disorders.</paragraph>
+                  <paragraph>As a class, cyclo-oxygenase inhibitory NSAIDs may be associated with gastrointestinal, renal and hepatic toxicity. Sensitivity to drug-associated adverse events varies with the individual patient. Dogs that have experienced adverse reactions from one NSAID may experience adverse reactions from another NSAID. Patients at greatest risk for renal toxicity are those that are dehydrated, on concomitant diuretic therapy, or those with existing renal, cardiovascular, and/or hepatic dysfunction. Concurrent administration of potentially nephrotoxic drugs should be carefully approached. NSAIDs may inhibit the prostaglandins that maintain normal homeostatic function. Such anti-prostaglandin effects may result in clinically significant disease in patients with underlying or pre-existing disease that has not been previously diagnosed. Since NSAIDs possess the potential to induce gastrointestinal ulcerations and/or perforations, concomitant use with other anti-inflammatory drugs, such as NSAIDs or corticosteroids, should be avoided. If additional pain medication is needed after administration of the total daily dose of Meloxicam Oral Suspension, a non-NSAID or non-corticosteroid class of analgesia should be considered. The use of another NSAID is not recommended. Consider appropriate washout times when switching from corticosteroid use or from one NSAID to another in dogs. The use of concomitantly protein-bound drugs with Meloxicam Oral Suspension has not been studied in dogs. Commonly used protein-bound drugs include cardiac, anticonvulsant and behavioral medications. The influence of concomitant drugs that may inhibit metabolism of Meloxicam Oral Suspension has not been evaluated. Drug compatibility should be monitored in patients requiring adjunctive therapy.</paragraph>
+               </text>
+               <effectiveTime value="20261031"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID21">
+               <id root="3923fb11-2153-4b0e-a284-95b120685ee9"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>
+                  <content styleCode="bold">Adverse Reactions: </content>
+               </title>
+               <text>
+                  <paragraph ID="ID74">Field safety was evaluated in 306 dogs. Based on the results of two studies, GI abnormalities (vomiting, soft stools, diarrhea, and inappetance) were the most common adverse reactions associated with the administration of meloxicam. The following table lists adverse reactions and the numbers of dogs that experienced them during the studies. Dogs may have experienced more than one episode of the adverse reaction during the study.</paragraph>
+                  <table ID="ID75" width="536" styleCode="Noautorules">
+                     <caption/>
+                     <col width="261"/>
+                     <col width="152"/>
+                     <col width="123"/>
+                     <tbody>
+                        <tr>
+                           <td colspan="3" styleCode="Lrule Toprule Botrule Rrule" align="center">
+                              <content styleCode="bold"> Adverse Reactions Observed During Two Field Studies</content>
+                              <br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Botrule Rrule" align="left"> Clinical Observation<br/>
+                           </td>
+                           <td styleCode=" Botrule Rrule" align="center"> Meloxicam (n=157)<br/>
+                           </td>
+                           <td styleCode=" Botrule Rrule" align="center"> Placebo (n=149)<br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Botrule Rrule" align="left"> Vomiting<br/>
+                           </td>
+                           <td styleCode=" Botrule Rrule" align="center"> 40<br/>
+                           </td>
+                           <td styleCode=" Botrule Rrule" align="center"> 23<br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Botrule Rrule" align="left"> Diarrhea/Soft Stool<br/>
+                           </td>
+                           <td styleCode=" Botrule Rrule" align="center"> 19<br/>
+                           </td>
+                           <td styleCode=" Botrule Rrule" align="center"> 11<br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Botrule Rrule" align="left"> Bloody Stool<br/>
+                           </td>
+                           <td styleCode=" Botrule Rrule" align="center"> 1<br/>
+                           </td>
+                           <td styleCode=" Botrule Rrule" align="center"> 0<br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Botrule Rrule" align="left"> Inappetance<br/>
+                           </td>
+                           <td styleCode=" Botrule Rrule" align="center"> 5<br/>
+                           </td>
+                           <td styleCode=" Botrule Rrule" align="center"> 1<br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Botrule Rrule" align="left"> Bleeding gums after dental procedure<br/>
+                           </td>
+                           <td styleCode=" Botrule Rrule" align="center"> 1<br/>
+                           </td>
+                           <td styleCode=" Botrule Rrule" align="center"> 0<br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Botrule Rrule" align="left"> Lethargy/Swollen Carpus<br/>
+                           </td>
+                           <td styleCode=" Botrule Rrule" align="center"> 1<br/>
+                           </td>
+                           <td styleCode=" Botrule Rrule" align="center"> 0<br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Botrule Rrule" align="left"> Epiphora<br/>
+                           </td>
+                           <td styleCode=" Botrule Rrule" align="center"> 1<br/>
+                           </td>
+                           <td styleCode=" Botrule Rrule" align="center"> 0<br/>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph ID="ID76">In foreign suspected adverse drug reaction (SADR) reporting over a 9 year period, incidences of adverse reactions related to meloxicam administration included: auto-immune hemolytic anemia (1 dog), thrombocytopenia (1 dog), polyarthritis (1 dog), nursing puppy lethargy (1 dog), and pyoderma (1 dog).</paragraph>
+               </text>
+               <effectiveTime value="20261031"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID23">
+               <id root="a655d069-9661-450a-853e-956ed750ab73"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>
+                  <content styleCode="bold">Post-Approval Experience (Rev. 2010): </content>
+               </title>
+               <text>
+                  <paragraph ID="ID24">The following adverse events are based on post-approval adverse drug experience reporting. Not all adverse reactions are reported to FDA/CVM. It is not always possible to reliably estimate the adverse event frequency or establish a causal relationship to product exposure using these data. The following adverse events are listed in decreasing order of frequency by body system.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Gastrointestinal: </content>vomiting, anorexia, diarrhea, melena, gastrointestinal ulceration</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Urinary: </content>azotemia, elevated creatinine, renal failure</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Neurological/Behavioral: </content>lethargy, depression</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Hepatic: </content>elevated liver enzymes</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Dermatologic: </content>pruritus</paragraph>
+                  <paragraph>Death has been reported as an outcome of the adverse events listed above. <content styleCode="bold">Acute renal failure and death have been associated with use of meloxicam in cats.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20261031"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID25">
+               <id root="994f05a5-c6f0-486c-85ce-3f6e5b67fe65"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>
+                  <content styleCode="bold">Contact Information:</content>
+               </title>
+               <text>
+                  <paragraph ID="ID26">Contact ZyVet Animal Health Inc. at 1-877-779-9838. To report suspected adverse drug experiences, or to obtain a Safety Data Sheet(s), contact ZyVet Animal Health Inc. at 1-877-779-9838. For additional information about reporting adverse drug experiences for animal drugs, contact FDA at 1-888-FDA-VETS or http://www.fda.gov/reportanimalae</paragraph>
+               </text>
+               <effectiveTime value="20261031"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID27">
+               <id root="10cc98f6-b595-4248-8200-df176b3c7aa4"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>
+                  <content styleCode="bold">Information for Dog Owners: </content>
+               </title>
+               <text>
+                  <paragraph ID="ID28">Meloxicam Oral Suspension, like other drugs of its class, is not free from adverse reactions. Owners should be advised of the potential for adverse reactions and be informed of the clinical signs associated with drug intolerance. Adverse reactions may include vomiting, diarrhea, decreased appetite, dark or tarry stools, increased water consumption, increased urination, pale gums due to anemia, yellowing of gums, skin or white of the eye due to jaundice, lethargy, incoordination, seizure, or behavioral changes. <content styleCode="bold">Serious adverse reactions associated with this drug class can occur without warning and in rare situations result in death (see Adverse Reactions). Owners should be advised to discontinue Meloxicam Oral Suspension and contact their veterinarian immediately if signs of intolerance are observed.</content>
+                  </paragraph>
+                  <paragraph>The vast majority of patients with drug related adverse reactions have recovered when the signs are recognized, the drug is withdrawn, and veterinary care, if appropriate, is initiated. Owners should be advised of the importance of periodic follow up for all dogs during administration of any NSAID.</paragraph>
+               </text>
+               <effectiveTime value="20261031"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID29">
+               <id root="be373b5b-272d-443e-81cc-27e46b6813c0"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>
+                  <content styleCode="bold">Clinical Pharmacology: </content>
+               </title>
+               <text>
+                  <paragraph ID="ID30">Meloxicam has nearly 100% bioavailability when administered orally with food. The terminal elimination half life after a single dose is estimated to be approximately 24 hrs (+/-30%) regardless of route of administration. There is no evidence of statistically significant gender differences in drug pharmacokinetics. Drug bioavailability, volume of distribution, and total systemic clearance remain constant up to 5 times the recommended dose for use in dogs. However, there is some evidence of enhanced drug accumulation and terminal elimination half-life prolongation when dogs are dosed for 45 days or longer.</paragraph>
+                  <paragraph>Peak drug concentrations can be expected to occur within about 7.5 hrs after oral administration. Corresponding peak concentration is approximately 0.464 mcg/mL following a 0.2 mg/kg oral dose. The drug is 97% bound to canine plasma proteins.</paragraph>
+               </text>
+               <effectiveTime value="20261031"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID31">
+               <id root="8f33fb00-91b3-4cdd-a0a3-f470094bc0ed"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>
+                  <content styleCode="bold">Effectiveness: </content>
+               </title>
+               <text>
+                  <paragraph ID="ID32">The effectiveness of meloxicam was demonstrated in two field studies involving a total of 277 dogs representing various breeds, between six months and sixteen years of age, all diagnosed with osteoarthritis. Both of the placebo-controlled, masked studies were conducted for 14 days. All dogs received 0.2 mg/kg on day 1. All dogs were maintained on 0.1 mg/kg oral meloxicam from days 2 through 14 of both studies. Parameters evaluated by veterinarians included lameness, weight-bearing, pain on palpation, and overall improvement. Parameters assessed by owners included mobility, ability to rise, limping, and overall improvement.</paragraph>
+                  <paragraph>In the first field study (n=109), dogs showed clinical improvement with statistical significance after 14 days of meloxicam treatment for all parameters. In the second field study (n=48), dogs receiving meloxicam showed a clinical improvement after 14 days of therapy for all parameters; however, statistical significance was demonstrated only for the overall investigator evaluation on day 7, and for the owner evaluation on day 14.</paragraph>
+               </text>
+               <effectiveTime value="20261031"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID33">
+               <id root="56d26905-e0e1-4f3d-903f-4d18f5d2cff9"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>
+                  <content styleCode="bold">Safety:</content>
+               </title>
+               <text>
+                  <paragraph ID="ID34">
+                     <content styleCode="underline">Six Week Study</content>
+                  </paragraph>
+                  <paragraph>In a six week target animal safety study, meloxicam was administered orally at 1, 3, and 5X the recommended dose with no significant clinical adverse reactions. Animals in all dose groups (control, 1, 3 and 5X the recommended dose) exhibited some gastrointestinal distress (diarrhea and vomiting). No treatment-related changes were observed in hematological, blood chemistry, urinalysis, clotting time, or buccal mucosal bleeding times.</paragraph>
+                  <paragraph>Necropsy results included stomach mucosal petechiae in one control dog, two dogs at the 3X and one dog at the 5X dose. Other macroscopic changes included areas of congestion or depression of the mucosa of the jejunum or ileum in three dogs at the 1X dose and in two dogs at the 5X dose. Similar changes were also seen in two dogs in the control group. There were no macroscopic small intestinal lesions observed in dogs receiving the 3X dose. Renal enlargement was reported during the necropsy of two dogs receiving the 3X and two receiving the 5X dose.</paragraph>
+                  <paragraph>Microscopic examination of the kidneys revealed minimal degeneration or slight necrosis at the tip of the papilla in three dogs at the 5X dose. Microscopic examination of the stomach showed inflammatory mucosal lesions, epithelial regenerative hyperplasia or atrophy, and submucosal gland inflammation in two dogs at the recommended dose, three dogs at the 3X and four dogs at the 5X dose. Small intestinal microscopic changes included minimal focal mucosal erosion affecting the villi, and were sometimes associated with mucosal congestion. These lesions were observed in the ileum of one control dog and in the jejunum of one dog at the recommended dose and two dogs at the 5X dose.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Six Month Study</content>
+                  </paragraph>
+                  <paragraph>In a six month target animal safety study, meloxicam was administered orally at 1, 3, and 5X the recommended dose with no significant clinical adverse reactions. All animals in all dose groups (controls, 1, 3, and 5X the recommended dose) exhibited some gastrointestinal distress (diarrhea and vomiting). Treatment related changes seen in hematology and chemistry included decreased red blood cell counts in seven of 24 dogs (four 3X and three 5X dogs), decreased hematocrit in 18 of 24 dogs (including three control dogs), dose-related neutrophilia in one 1X, two 3X and three 5X dogs, evidence of regenerative anemia in two 3X and one 5X dog. Also noted were increased BUN in two 5X dogs and decreased albumin in one 5X dog.</paragraph>
+                  <paragraph>Endoscopic changes consisted of reddening of the gastric mucosal surface covering less than 25% of the surface area. This was seen in three dogs at the recommended dose, three dogs at the 3X dose and two dogs at the 5X dose. Two control dogs exhibited reddening in conjunction with ulceration of the mucosa covering less than 25% of the surface area.</paragraph>
+                  <paragraph>Gross gastrointestinal necropsy results observed included mild discoloration of the stomach or duodenum in one dog at the 3X and in one dog at the 5X dose. Multifocal pinpoint red foci were observed in the gastric fundic mucosa in one dog at the recommended dose, and in one dog at the 5X dose.</paragraph>
+                  <paragraph>No macroscopic or microscopic renal changes were observed in any dogs receiving meloxicam in this six month study.</paragraph>
+                  <paragraph>Microscopic gastrointestinal findings were limited to one dog at the recommended dose, and two dogs at the 3X dose. Mild inflammatory mucosal infiltrate was observed in the duodenum of one dog at the recommended dose. Mild congestion of the fundic mucosa and mild myositis of the outer mural musculature of the stomach were observed in two dogs receiving the 3X dose.</paragraph>
+               </text>
+               <effectiveTime value="20261031"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID35">
+               <id root="8ef0c215-00a7-4359-b087-f36f92d398a5"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>
+                  <content styleCode="bold">How Supplied: </content>
+               </title>
+               <text>
+                  <paragraph ID="ID36">Meloxicam Oral Suspension 1.5 mg/mL: 10, 32, 100 and 180 mL bottles with small and large dosing syringes.</paragraph>
+                  <paragraph>NDC 86117-059-01 – 1.5 mg/mL – 10 mL</paragraph>
+                  <paragraph>NDC 86117-059-04 – 1.5 mg/mL – 32 mL</paragraph>
+                  <paragraph>NDC 86117-059-05 – 1.5 mg/mL – 100 mL</paragraph>
+                  <paragraph>NDC 86117-059-06 – 1.5 mg/mL – 180 mL</paragraph>
+               </text>
+               <effectiveTime value="20261031"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID37">
+               <id root="80eb5365-8d85-46a5-9724-1bbd1f9af014"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>
+                  <content styleCode="bold">Storage: </content>
+               </title>
+               <text>
+                  <paragraph ID="ID38">Store at controlled room temperature, 68 – 77°F (20 - 25°C). Excursions permitted between 59°F and 86°F (15°C and 30°C). Brief exposure to temperature up to 104°F (40°C) may be tolerated provided the mean kinetic temperature does not exceed 77°F (25°C); however such exposure should be minimized.</paragraph>
+                  <paragraph>Approved by FDA under ANADA # 200-856</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="IMGID381"/>
+                  </paragraph>
+                  <paragraph>Product of India</paragraph>
+               </text>
+               <effectiveTime value="20261031"/>
+               <component>
+                  <observationMedia ID="IMGID381">
+                     <text>Image</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="34f82008-91d3-4ee3-aa91-e4ee9725c92b-38-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID39">
+               <id root="a55ef5de-b5b9-409d-b764-d2d99bac5f02"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>
+                  <content styleCode="bold">Distributed by:</content>
+               </title>
+               <text>
+                  <paragraph ID="ID40">ZyVet Animal Health Inc.</paragraph>
+                  <paragraph>Pennington, NJ 08534  </paragraph>
+                  <paragraph>Rev.: 06/26</paragraph>
+               </text>
+               <effectiveTime value="20261031"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID41">
+               <id root="59958133-eb8a-4832-a806-811ea89dd784"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>
+                  <content styleCode="bold">Client Information Sheet for Meloxicam Oral Suspension 1.5 mg/mL</content>
+               </title>
+               <text>
+                  <paragraph ID="ID42">Non-steroidal anti-inflammatory drug for oral use in dogs only </paragraph>
+                  <paragraph>This summary contains important information about Meloxicam Oral Suspension. You should read this information before you start giving your dog Meloxicam Oral Suspension and review it each time the prescription is refilled. This sheet is provided only as a summary and does not take the place of instructions from your veterinarian. Talk to your veterinarian if you do not understand any of this information or if you want to know more about Meloxicam Oral Suspension. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What Is Meloxicam Oral Suspension? </content>
+                  </paragraph>
+                  <paragraph>Meloxicam Oral Suspension is a prescription non-steroidal anti-inflammatory drug (NSAID) that is used to control pain and inflammation (soreness) due to osteoarthritis in dogs. Osteoarthritis (OA) is a painful condition caused by "wear and tear" of cartilage and other parts of the joints that may result in the following changes or signs in your dog: Limping or lameness, decreased activity or exercise (reluctance to stand, climb stairs, jump or run, or difficulty in performing these activities), stiffness or decreased movement of joints. Meloxicam Oral Suspension is given to dogs by mouth. <content styleCode="bold">Do not use Meloxicam Oral Suspension in cats. Acute renal failure and death have been associated with the use of meloxicam in cats.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What Kind Of Results Can I Expect When My Dog Is On Meloxicam Oral Suspension For OA? </content>
+                  </paragraph>
+                  <paragraph>While Meloxicam Oral Suspension is not a cure for osteoarthritis, it can control the pain and inflammation of OA and improve your dog's mobility. </paragraph>
+                  <paragraph>•   Response varies from dog to dog but can be quite dramatic. </paragraph>
+                  <paragraph>•  In most dogs, improvement can be seen in a matter of days. </paragraph>
+                  <paragraph>•  If Meloxicam Oral Suspension is discontinued or not given as directed, your dog's pain and inflammation may come back. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What Dogs Should Not Take Meloxicam Oral Suspension? </content>
+                  </paragraph>
+                  <paragraph>Your dog should not be given Meloxicam Oral Suspension if he/she:</paragraph>
+                  <paragraph>•   Has had an allergic reaction to meloxicam, the active ingredient of Meloxicam Oral Suspension. </paragraph>
+                  <paragraph>•   Has had an allergic reaction (such as hives, facial swelling, or red or itchy skin) to aspirin or other NSAIDs. </paragraph>
+                  <paragraph>•   Is presently taking aspirin, other NSAIDs, or corticosteroids (unless directed by your veterinarian). </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Meloxicam Oral Suspension Should Only Be Given To Dogs </content>
+                  </paragraph>
+                  <paragraph>People should not take Meloxicam Oral Suspension. Keep Meloxicam Oral Suspension and all medication out of reach of children. Call your physician immediately if you accidentally take Meloxicam Oral Suspension.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">How To Give Meloxicam Oral Suspension To Your Dog. </content>
+                  </paragraph>
+                  <paragraph>The actual dose to be given should be prescribed by the veterinarian. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Directions for Administration: </content>
+                  </paragraph>
+                  <paragraph>Meloxicam Oral Suspension is packaged with 2 sizes of dosing syringes. The small dosing syringe (blue print) is calibrated for use in dogs under 5 lbs. The large dosing syringe (black print) is calibrated for use in dogs 5 lbs and greater. <content styleCode="bold">Only administer Meloxicam Oral Suspension with the provided dosing syringes. The container should never be used as a dropper bottle for administration of Meloxicam Oral Suspension. </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Dogs under 5 pounds (2.3 kg) </content>
+                  </paragraph>
+                  <paragraph>Shake well before use, then remove cap. Particular care should be given with regard to the accuracy of dosing. <content styleCode="bold">To prevent accidental overdosing of small dogs, only use the small dosing syringe, administer drops from dosing syringe on food only, never directly into the mouth. </content>Carefully measure suspension onto food to assure that the correct dose is given before presentation of the food to the dog. The large dosing syringe provided cannot be used to measure doses for dogs weighing less than 5 lbs (2.3 kg).</paragraph>
+                  <paragraph>For dogs less than 5 lbs (2.3 kg), use the small dosing syringe provided in the package (see dosing procedure below). The small dosing syringe fits on to the bottle and has dosing marks beginning at 1 pound then in 1 pound increments (ranging from 1 to 5 lbs), designed to deliver the daily maintenance dose (0.05 mg/lb or 0.1 mg/kg). When using the small dosing syringe, the dog's weight should be rounded down to the nearest 1 pound increment. Replace and tighten cap after use. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Dogs over 5 pounds (2.3 kg) </content>
+                  </paragraph>
+                  <paragraph>Shake well before use, then remove cap. Meloxicam Oral Suspension may be either mixed with food or placed directly into the mouth. Particular care should be given with regard to the accuracy of dosing. Meloxicam Oral Suspension can be given using the large dosing syringe provided in the package (see dosing procedure below). The large dosing syringe fits on to the bottle and has dosing marks in 5 pound increments (ranging from 5 to 140 lbs) designed to deliver the daily maintenance dose (0.05 mg/lb or 0.1 mg/kg). When using the large dosing syringe, the dog's weight should be rounded down to the nearest 5 pound increment. Replace and tighten cap after use.</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="IMGID421"/>
+                  </paragraph>
+                  <paragraph ID="ID52">
+                     <content styleCode="bold">What To Tell/Ask Your Veterinarian Before Giving Meloxicam Oral Suspension </content>
+                  </paragraph>
+                  <paragraph>Talk to your veterinarian about: </paragraph>
+                  <paragraph>•   The signs of OA you have observed (for example limping, stiffness). </paragraph>
+                  <paragraph>•   The importance of weight control and exercise in the management of OA. </paragraph>
+                  <paragraph>•   What tests might be done before Meloxicam Oral Suspension is prescribed.</paragraph>
+                  <paragraph>•   How often your dog may need to be examined by your veterinarian. </paragraph>
+                  <paragraph>•   The risks and benefits of using Meloxicam Oral Suspension.</paragraph>
+                  <paragraph>Tell your veterinarian if your dog has ever had the following medical problems: </paragraph>
+                  <paragraph>•   Experienced side effects from Meloxicam Oral Suspension or other NSAIDs, such as aspirin </paragraph>
+                  <paragraph>•   Digestive upset (vomiting and/or diarrhea) </paragraph>
+                  <paragraph>•   Liver disease </paragraph>
+                  <paragraph>•   Kidney disease</paragraph>
+                  <paragraph>Tell your veterinarian about: </paragraph>
+                  <paragraph>•   Any other medical problems or allergies that your dog has now or has had. </paragraph>
+                  <paragraph>•   All medicines that you are giving your dog or plan to give your dog, including those you can get without a prescription.</paragraph>
+                  <paragraph>Tell your veterinarian if your dog is: </paragraph>
+                  <paragraph>•  Pregnant, nursing or if you plan to breed your dog. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What Are The Possible Side Effects That May Occur In My Dog During Meloxicam Oral Suspension Therapy? </content>
+                  </paragraph>
+                  <paragraph>Meloxicam Oral Suspension, like other drugs, may cause some side effects. Serious but rare side effects have been reported in dogs taking NSAIDs. Serious side effects can occur with or without warning and in rare situations result in death. </paragraph>
+                  <paragraph>The most common NSAID-related side effects generally involve the stomach and liver or kidney problems. Look for the following side effects that can indicate your dog may be having a problem with Meloxicam Oral Suspension or may have another medical problem: </paragraph>
+                  <paragraph>•   Decrease or increase in appetite </paragraph>
+                  <paragraph>•   Vomiting </paragraph>
+                  <paragraph>•   Change in bowel movement (such as diarrhea, or black, tarry or bloody stools) </paragraph>
+                  <paragraph>•   Change in behavior (such as decreased or increased activity level, incoordination, seizure or aggression) </paragraph>
+                  <paragraph>•   Yellowing of gums, skin, or whites of the eyes (jaundice) </paragraph>
+                  <paragraph>•   Change in drinking habits (frequency, amount consumed) </paragraph>
+                  <paragraph>•   Change in urination habits (frequency, color, or smell) </paragraph>
+                  <paragraph>•   Change in skin (redness, scabs, or scratching) </paragraph>
+                  <paragraph>It is important to stop therapy and contact your veterinarian immediately if you think your dog has a medical problem or side effect from Meloxicam Oral Suspension therapy. If you have additional questions about possible side effects, talk to your veterinarian. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Can Meloxicam Oral Suspension Be Given With Other Medicines? </content>
+                  </paragraph>
+                  <paragraph>Meloxicam Oral Suspension should not be given with other NSAIDs (for example, aspirin, carprofen, etodolac, deracoxib) or steroids (for example, cortisone, prednisone, dexamethasone, triamcinolone). </paragraph>
+                  <paragraph>Tell your veterinarian about all medicines you have given your dog in the past, and any medicines that you are planning to give with Meloxicam Oral Suspension. This should include other medicines that you can get without a prescription. </paragraph>
+                  <paragraph>Your veterinarian may want to check that all of your dog's medicines can be given together. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What Can I Do In Case My Dog Eats More Than The Prescribed Amount? </content>
+                  </paragraph>
+                  <paragraph>Contact your veterinarian immediately if your dog eats more than the prescribed amount of Meloxicam Oral Suspension. </paragraph>
+                  <paragraph>Keep Meloxicam Oral Suspension in a secure location out of reach of dogs, cats, and other animals to prevent accidental ingestion or overdose. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What Else Should I Know About Meloxicam Oral Suspension? </content>
+                  </paragraph>
+                  <paragraph>This sheet provides a summary of information about Meloxicam Oral Suspension. If you have any questions or concerns about Meloxicam Oral Suspension or osteoarthritis pain, talk to your veterinarian. </paragraph>
+                  <paragraph>As with all prescribed medicines, Meloxicam Oral Suspension should only be given to the dog for which it was prescribed. <content styleCode="bold">Meloxicam Oral Suspension is for use in dogs only. Do not give Meloxicam Oral Suspension to cats. </content>It should be given to your dog only for the condition for which it was prescribed. It is important to periodically discuss your dog's response to Meloxicam Oral Suspension at regular check ups. Your veterinarian will best determine if your dog is responding as expected and if your dog should continue receiving Meloxicam Oral Suspension.</paragraph>
+               </text>
+               <effectiveTime value="20261031"/>
+               <component>
+                  <observationMedia ID="IMGID421">
+                     <text>Image</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="34f82008-91d3-4ee3-aa91-e4ee9725c92b-42-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID43">
+               <id root="c541744d-db73-4331-a394-867c65a2cbdf"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>
+                  <content styleCode="bold">Contact Information: </content>
+               </title>
+               <text>
+                  <paragraph ID="ID44">Contact ZyVet Animal Health Inc. at 1-877-779-9838. To report suspected adverse drug experiences, or to obtain a Safety Data Sheet(s), contact ZyVet Animal Health Inc. at 1-877-779-9838. For additional information about reporting adverse drug experiences for animal drugs, contact FDA at 1-888-FDA-VETS or http://www.fda.gov/ reportanimalae </paragraph>
+                  <paragraph>Approved by FDA under ANADA # 200-856</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="IMGID441"/>
+                  </paragraph>
+                  <paragraph>Product of India </paragraph>
+               </text>
+               <effectiveTime value="20261031"/>
+               <component>
+                  <observationMedia ID="IMGID441">
+                     <text>Image</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="34f82008-91d3-4ee3-aa91-e4ee9725c92b-44-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID45">
+               <id root="309f648d-ab91-4bf8-be29-a6e001bd2fa0"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>
+                  <content styleCode="bold">Distributed by: </content>
+               </title>
+               <text>
+                  <paragraph ID="ID46">ZyVet Animal Health Inc. </paragraph>
+                  <paragraph>Pennington, NJ 08534</paragraph>
+                  <paragraph>Rev.: 06/26</paragraph>
+               </text>
+               <effectiveTime value="20261031"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID53">
+               <id root="227ff832-efa2-4daf-bd11-60db06111721"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL.PRINCIPAL DISPLAY PANEL-10 mL Bottle Labels</title>
+               <text>
+                  <paragraph ID="ID54">
+                     <content styleCode="bold">Meloxicam Oral Suspension</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">1.5 mg/mL</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Caution</content>: Federal law restricts this drug to use by or on the order of a licensed veterinarian.</paragraph>
+                  <paragraph>Approved by FDA under ANADA # 200-856</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Net Contents: 10 mL</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">ZyVet Animal Health    </content>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+                  <paragraph ID="ID56">
+                     <content styleCode="bold">NDC 86117-059-01</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Meloxicam Oral Suspension</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">  1.5 mg/mL</content>
+                  </paragraph>
+                  <paragraph>Non-steroidal anti-inflammatory drug for oral use in dogs only</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Caution: </content>Federal law restricts this drug to use by or on the order of a licensed veterinarian.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Net Contents: 10 mL</content>
+                  </paragraph>
+                  <paragraph>  Approved by FDA under ANADA # 200-856</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Only administer Meloxicam Oral Suspension with the provided syringes. The container should never be used as a dropper bottle for administration of Meloxicam Oral Suspension</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">ZyVet Animal Health</content>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="MM2"/>
+               </text>
+               <effectiveTime value="20261031"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>10 ml</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="34f82008-91d3-4ee3-aa91-e4ee9725c92b-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>10 ml</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="34f82008-91d3-4ee3-aa91-e4ee9725c92b-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID58">
+               <id root="8b91e984-969c-44b8-b460-c24218601e48"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL.PRINCIPAL DISPLAY PANEL-32 mL Bottle Labels</title>
+               <text>
+                  <paragraph ID="ID59">
+                     <content styleCode="bold">Meloxicam Oral Suspension</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">1.5 mg/mL</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Caution: </content>Federal law restricts this drug to use by or on the order of a licensed veterinarian.</paragraph>
+                  <paragraph>Approved by FDA under ANADA # 200-856</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Net Contents: 32 mL</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">ZyVet Animal Health</content>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="MM3"/>
+                  <paragraph ID="ID61">
+                     <content styleCode="bold">NDC 86117-059-04</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Meloxicam Oral Suspension</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">  1.5 mg/mL</content>
+                  </paragraph>
+                  <paragraph>Non-steroidal anti-inflammatory drug for oral use in dogs only</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Caution: </content>Federal law restricts this drug to use by or on the order of a licensed veterinarian.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Net Contents: 32 mL</content>
+                  </paragraph>
+                  <paragraph>  Approved by FDA under ANADA # 200-856</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Only administer Meloxicam Oral Suspension with the provided syringes. The container should never be used as a dropper bottle for administration of Meloxicam Oral Suspension</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">ZyVet Animal Health</content>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="MM4"/>
+               </text>
+               <effectiveTime value="20261031"/>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>32 ml</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="34f82008-91d3-4ee3-aa91-e4ee9725c92b-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>32 ml</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="34f82008-91d3-4ee3-aa91-e4ee9725c92b-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID62">
+               <id root="299c57fc-0f14-46ed-a27b-044334ac0b62"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL.PRINCIPAL DISPLAY PANEL-100 mL Bottle Labels</title>
+               <text>
+                  <paragraph ID="ID63">
+                     <content styleCode="bold">Meloxicam Oral Suspension</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">1.5 mg/mL</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Caution: </content>Federal law restricts this drug to use by or on the order of a licensed veterinarian.</paragraph>
+                  <paragraph>Non-steroidal anti-inflammatory drug for oral use in dogs only</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">If signs of illness are seen, treatment should be discontinued immediately and the advice of a veterinarian sought. Refer to the product insert or client information sheet for detailed information.</content>
+                  </paragraph>
+                  <paragraph>Approved by FDA under ANADA # 200-856</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Net Contents: 100 mL</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">ZyVet Animal Health</content>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="MM5"/>
+                  <paragraph ID="ID65">
+                     <content styleCode="bold">NDC 86117-059-05</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Meloxicam Oral Suspension</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">  1.5 mg/mL</content>
+                  </paragraph>
+                  <paragraph>Non-steroidal anti-inflammatory drug for oral use in dogs only</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Caution: </content>Federal law restricts this drug to use by or on the order of a licensed veterinarian.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Net Contents: 100 mL</content>
+                  </paragraph>
+                  <paragraph>Approved by FDA under ANADA # 200-856</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Only administer Meloxicam Oral Suspension with the provided syringes. The container should never be used as a dropper bottle for administration of Meloxicam Oral Suspension</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">ZyVet Animal Health</content>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="MM6"/>
+               </text>
+               <effectiveTime value="20261031"/>
+               <component>
+                  <observationMedia ID="MM5">
+                     <text>100 ml</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="34f82008-91d3-4ee3-aa91-e4ee9725c92b-05.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM6">
+                     <text>100 ml</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="34f82008-91d3-4ee3-aa91-e4ee9725c92b-06.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID67">
+               <id root="bebb2c73-a4f6-4cf8-8dc1-32f8dad5d65d"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL.PRINCIPAL DISPLAY PANEL-180 mL Bottle Labels</title>
+               <text>
+                  <paragraph ID="ID68">
+                     <content styleCode="bold">Meloxicam Oral Suspension</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">1.5 mg/mL</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Caution: </content>Federal law restricts this drug to use by or on the order of a licensed veterinarian.</paragraph>
+                  <paragraph>Non-steroidal anti-inflammatory drug for oral use in dogs only</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">If signs of illness are seen, treatment should be discontinued immediately and the advice of a veterinarian sought. Refer to the product insert or client information sheet for detailed information.</content>
+                  </paragraph>
+                  <paragraph>Approved by FDA under ANADA # 200-856</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Net Contents: 180 mL</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">ZyVet Animal Health</content>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="MM7"/>
+                  <paragraph ID="ID70">
+                     <content styleCode="bold">NDC 86117-059-06</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">  Meloxicam Oral Suspension</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">  1.5 mg/mL    </content>
+                  </paragraph>
+                  <paragraph>Non-steroidal anti-inflammatory drug for oral use in dogs only</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Caution: </content>Federal law restricts this drug to use by or on the order of a licensed veterinarian.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">  Net Contents: 180 mL</content>
+                  </paragraph>
+                  <paragraph>Approved by FDA under ANADA # 200-856</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Only administer Meloxicam Oral Suspension with the provided syringes. The container should never be used as a dropper bottle for administration of Meloxicam Oral Suspension</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">ZyVet Animal Health</content>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="MM8"/>
+               </text>
+               <effectiveTime value="20261031"/>
+               <component>
+                  <observationMedia ID="MM7">
+                     <text>180</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="34f82008-91d3-4ee3-aa91-e4ee9725c92b-07.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM8">
+                     <text>180</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="34f82008-91d3-4ee3-aa91-e4ee9725c92b-08.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

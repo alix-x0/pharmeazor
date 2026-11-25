@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="70b9d382-64c1-44bc-8d82-44d26c9a8690"/>
+   <code code="50578-4" displayName="PRESCRIPTION ANIMAL DRUG LABEL" codeSystem="2.16.840.1.113883.6.1"/>
+   <title>KETOFEN<sup>®</sup>
+      <br/>
+   </title>
+   <effectiveTime value="20230331"/>
+   <setId root="412cb3e9-53dc-4068-a1ab-00b771112f88"/>
+   <versionNumber value="6"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="828851555" root="1.3.6.1.4.1.519.1"/>
+            <name>Zoetis Inc.</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="8bf711b8-2836-4d38-9297-f28792955c85"/>
+               <code code="48780-1" displayName="SPL listing data elements section" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20230331"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="54771-4396" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Ketofen</name>
+                        <formCode code="C42945" displayName="INJECTION, SOLUTION" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>ketoprofen</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="100"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="90Y4QC304K" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>KETOPROFEN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="90Y4QC304K" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>KETOPROFEN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="70"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="94ZLA3W45F" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ARGININE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2968PHW8QP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CITRIC ACID MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="LKG8494WBH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BENZYL ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="50"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43169" displayName="BOTTLE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="54771-4396-1" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="100"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43169" displayName="BOTTLE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="54771-4396-2" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NADA140269" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73593" displayName="NADA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19900926"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" displayName="INTRAVENOUS" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38299" displayName="SUBCUTANEOUS" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_72620a3a-ef78-40ff-aeb1-85f51aa5e0ea">
+               <id root="344db8e3-1257-45f9-9de4-99b903a89bdc"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">zoetis</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">See other side for instructions for use in cattle.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">KETOFEN®<br/>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">(ketoprofen)</content>
+                     <br/>Injectable Solution, 100 mg/mL</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For intravenous use in horses.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20230331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_fcaad0b2-a603-4297-9269-7da83a3ddde9">
+               <id root="d6f44ad4-90ba-4463-a25f-4c00bcd74684"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>CAUTION</title>
+               <text>
+                  <paragraph>Federal law restricts this drug to use by or on the order of a licensed veterinarian.</paragraph>
+               </text>
+               <effectiveTime value="20230331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_7e4bda2b-5645-4487-84f3-97dd7f8a32ff">
+               <id root="af8c64e7-c1fb-44ef-9f4d-237f1bb3555d"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Ketoprofen is a non-steroidal anti-inflammatory agent of the propionic acid class that includes ibuprofen, naproxen, and fenoprofen. <content styleCode="bold">Active Ingredient</content>: Each mL contains 100 mg ketoprofen/mL of aqueous solution. <content styleCode="bold">Inactive Ingredients</content>: 70 mg L-Arginine/mL; citric acid (to adjust pH); benzyl alcohol, 0.025 g (as preservative).<br/>
+                     <br/>It is packaged in a multiple dose bottle.</paragraph>
+               </text>
+               <effectiveTime value="20230331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_208e38e9-ae33-4e66-b3e6-8f31a03966a5">
+               <id root="34a06aee-0db5-4c61-b36e-4b246a521415"/>
+               <code code="50745-9" codeSystem="2.16.840.1.113883.6.1" displayName="VETERINARY INDICATIONS SECTION"/>
+               <title>INDICATION</title>
+               <text>
+                  <paragraph>KETOFEN® (ketoprofen) is recommended for the alleviation of inflammation and pain associated with musculoskeletal disorders in the horse.</paragraph>
+               </text>
+               <effectiveTime value="20230331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_763c9b9f-2cdb-41f9-b8a9-47c701db7b90">
+               <id root="8c2b8e14-b40a-4edb-926a-ad561802b391"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>The recommended dosage is 1 mg/lb (1 mL/100 lbs) of body weight <content styleCode="bold">administered intravenously </content>once daily. Treatment may be repeated for up to five days. Onset of activity is within two hours with peak response by 12 hours. <br/>
+                     <br/>Use contents within 4 months of first vial puncture.</paragraph>
+               </text>
+               <effectiveTime value="20230331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_d05e8099-6c79-408c-83a4-3d7b06e6a0a8">
+               <id root="a2efe572-bbf1-4217-a387-00fec3bf6000"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>There are no known contraindications to this drug when used as directed.</paragraph>
+                  <paragraph>Intra-arterial injection should be avoided.</paragraph>
+                  <paragraph>Do not use in a horse if it has previously shown hypersensitivity to ketoprofen.</paragraph>
+               </text>
+               <effectiveTime value="20230331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_61a7e877-9361-4b87-96f6-f37dd64ddffc">
+               <id root="b35f484c-56e4-41c3-9fd1-c1f21d432dde"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>USER SAFETY WARNINGS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Not for human use. Keep this and all drugs out of the reach of children.</content>
+                     <br/>
+                     <br/>The Safety Data Sheet (SDS) provides more detailed occupational safety information. To obtain a Safety Data Sheet contact Zoetis Inc. at 1-888-963-8471.</paragraph>
+               </text>
+               <effectiveTime value="20230331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_92e7621b-46a7-4df0-8ab6-56c5d1d16381">
+               <id root="65338beb-4ae2-41e9-b3e3-06fbe19a4fc0"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>OTHER WARNINGS</title>
+               <text>
+                  <paragraph>Do not use in horses intended for human consumption.</paragraph>
+               </text>
+               <effectiveTime value="20230331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_c0c4dccf-2983-46b1-8e7a-1cc08461d749">
+               <id root="a5f8bfdd-0297-41e7-8ef0-d53c39553879"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph>As a class, cyclo-oxygenase inhibitory NSAIDs may be associated with gastrointestinal, renal, and hepatic toxicity. Sensitivity to drug-associated adverse events varies with the individual patient. Consider stopping therapy if adverse reactions, such as prolonged inappetence or abnormal feces, could be attributed to gastrointestinal toxicity. Patients at greatest risk for adverse events are those that are dehydrated, on diuretic therapy, or those with existing renal, cardiovascular, and/or hepatic dysfunction. Concurrent administration of potentially nephrotoxic drugs should be carefully approached. Since many NSAIDs possess the potential to produce gastrointestinal ulcerations and/or gastrointestinal perforation, concomitant use of ketoprofen with other anti-inflammatory drugs, such as NSAIDs or corticosteroids, should be avoided or closely monitored.<br/>
+                     <br/>Studies to determine activity of KETOFEN when administered concomitantly with other drugs have not been conducted. Drug compatibility should be monitored closely in patients requiring<br/>adjunctive therapy.<br/>
+                     <br/>This product should not be used in breeding animals since the effects of KETOFEN on fertility, pregnancy or fetal health in horses have not been determined.</paragraph>
+               </text>
+               <effectiveTime value="20230331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_b410a8dd-c448-49cf-864c-3a5763eb4692">
+               <id root="8ea23408-39ed-400f-9d92-45a4e4bce2cc"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>SIDE EFFECTS</title>
+               <text>
+                  <paragraph>During investigational studies, no significant side effects were reported.</paragraph>
+               </text>
+               <effectiveTime value="20230331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_33699fad-2b36-4a6c-bce7-e3714bc330f4">
+               <id root="93bfb8d3-62a2-480e-a5fe-68687deac2c1"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>CONTACT INFORMATION</title>
+               <text>
+                  <paragraph>For a copy of the Safety Data Sheet or to report adverse reactions, call Zoetis Inc. at 1-888-963-8471. For additional information about adverse drug experience reporting for animal drugs, contact FDA at 1-888-FDA-VETS or www.fda.gov/reportanimalae.</paragraph>
+               </text>
+               <effectiveTime value="20230331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_e47bbc44-6bb1-42d5-aa7f-cf4b6ab6a8e6">
+               <id root="88c8ca5c-e143-414d-bac2-39ce3c7c4f6d"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>PHARMACOLOGY</title>
+               <text>
+                  <paragraph>KETOFEN is a non-narcotic, non-steroidal anti-inflammatory agent with analgesic and antipyretic properties.<br/>
+                     <br/>In horses, intravenous dosages of ketoprofen ranging from 0.5 to 1.5 mg/lb resulted in dosage dependent anti-inflammatory effects in the chronic adjuvant carpitis model as depicted in the following graph.</paragraph>
+                  <table>
+                     <col width="100%"/>
+                     <tfoot>
+                        <tr>
+                           <td valign="top" colspan="1"> <content styleCode="bold">n = number of animals</content>
+                           </td>
+                        </tr>
+                     </tfoot>
+                     <tbody>
+                        <tr>
+                           <td align="center" valign="top"> <content styleCode="bold">MAXIMUM FLEXION (intravenous ketoprofen, mean ± sem, n = 4)</content>
+                              <footnote ID="FOOT_9733">
+                                 <content styleCode="bold">sem = standard error of the mean </content>
+                              </footnote>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" valign="top"> <renderMultiMedia referencedObject="MM1"/>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Additional studies using the same model in horses have shown that the effects of ketoprofen are maximal by 12 hours and still measurable at 24 hours after each dosage as depicted in the following graph.</paragraph>
+                  <table>
+                     <col width="100%"/>
+                     <tfoot>
+                        <tr>
+                           <td valign="top" colspan="1"> n = number of animals</td>
+                        </tr>
+                     </tfoot>
+                     <tbody>
+                        <tr>
+                           <td align="center" valign="top"> MAXIMUM FLEXION (mean ± sem, n = 6)<footnote ID="FOOT_9734">
+                                 <content styleCode="bold">sem = standard error of the mean</content>
+                              </footnote>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top"> <renderMultiMedia referencedObject="MM2"/>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20230331"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Figure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="ketofen-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>Figure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="ketofen-2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_1fff1dcf-2935-4a41-863d-a8f652dae7b7">
+               <id root="67e02e4c-d41d-4b5b-8486-29d8df8c836d"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>TOXICITY</title>
+               <text>
+                  <paragraph>Horses were found to tolerate ketoprofen given intravenously at dosages of 0, 1, 3 and 5 mg/lb once daily for 15 consecutive days (up to five times the recommended dosage for three times the usual duration) with no evidence of toxic effects. In clinical studies, intravenous injection of 1 mg/lb/day for five days resulted in no injection site irritation or other side effects.<br/>
+                     <br/>At 15-fold overdose (15 mg/lb/day) for five days one of two horses developed severe laminitis, but no gross lesions or histologic changes were observed. The toxic effects observed in the horses given a 25-fold overdose (25 mg/lb/day) for five days included inappetence, depression, icterus, abdominal swelling and postmortem findings of gastritis, nephritis and hepatitis.</paragraph>
+               </text>
+               <effectiveTime value="20230331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_985eff66-2d9c-4732-be8d-0532fc15e8c6">
+               <id root="6678554f-98de-486c-b9a7-abbc4e9866fd"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>KETOFEN (ketoprofen) 100 mg/mL is available in 50 mL and 100 mL multidose bottles.</paragraph>
+               </text>
+               <effectiveTime value="20230331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_73f9b474-60bf-4010-a273-a143e516c050">
+               <id root="fd2ae234-78a4-4d4d-9e54-b302016f8ef0"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <title>STORAGE CONDITIONS</title>
+               <text>
+                  <paragraph>Store below 25°C (77°F), with brief excursions permitted between 0°C - 40°C (32°F - 104°F).</paragraph>
+               </text>
+               <effectiveTime value="20230331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_0018c566-e4f8-4801-bac0-cbab602ae124">
+               <id root="e8037890-6948-485b-8778-6161f74edc53"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>Approved by FDA under NADA # 140-269<br/>
+                     <br/>
+                     <content styleCode="bold">zoetis</content>
+                     <br/>
+                     <br/>Manufactured by:<br/>Zoetis Manufacturing and Research Spain, S.L.<br/>Girona, Spain<br/>
+                     <br/>Distributed by:<br/>Zoetis Inc.<br/>Kalamazoo, MI 49007<br/>
+                     <br/>April 2021<br/>
+                     <br/>40029077</paragraph>
+               </text>
+               <effectiveTime value="20230331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_fddd5e54-5cf2-4c41-b6cf-134caf12bffb">
+               <id root="78c9255a-569e-43df-92fd-918e6caa5602"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">zoetis</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">See other side for instructions for use in horses.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">KETOFEN®<br/>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">(ketoprofen)</content>
+                     <br/>Injectable Solution, 100 mg/mL</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For subcutaneous use in certain classes of cattle.<br/>See INDICATIONS below.</content>
+                     <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20230331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_730e434c-fb6c-4c87-9f92-0b642ab7b667">
+               <id root="1c0980d7-dfcd-448a-8d75-c94d09599e4f"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>CAUTION</title>
+               <text>
+                  <paragraph>Federal law restricts this drug to use by or on the order of a licensed veterinarian.<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20230331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_cb450015-6fc9-4476-8511-ef29090ae546">
+               <id root="cfa94d0b-c983-4af5-9d0b-a75f4468c308"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Ketoprofen is a non-steroidal anti-inflammatory agent of the propionic acid class that includes ibuprofen, naproxen, and fenoprofen. <content styleCode="bold">Active Ingredient</content>: Each mL contains 100 mg ketoprofen/mL of aqueous solution. <content styleCode="bold">Inactive Ingredients</content>: 70 mg L-Arginine/mL; citric acid (to adjust pH); benzyl alcohol, 0.025 g (as preservative).<br/>
+                     <br/>It is packaged in a multiple dose bottle.<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20230331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_35582a73-3664-4176-96e1-f51d681c0928">
+               <id root="d277cb8b-c2c5-4ce1-a0db-2bc848401b5d"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>INDICATIONS</title>
+               <text>
+                  <paragraph>KETOFEN<sup>®</sup> (ketoprofen) is indicated for the control of pyrexia associated with Bovine Respiratory Disease (BRD) in beef heifers, beef steers, beef calves 2 months of age and older, beef bulls, replacement dairy heifers, and dairy bulls. Not for use in reproducing animals over one year of age, dairy calves, or veal calves. Not for use in lactating dairy cattle or calves &lt;2 months old.<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20230331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_ad09fb3e-56d9-4518-92aa-8ed374434bc6">
+               <id root="51cb1c3a-87c9-45c1-9910-21544ece938f"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>Cattle: The recommended dosage is 3 mg/kg (1 mL/33.3 kg) or 1.36 mg/lb (1 mL/74 lb) of body weight. Treatment is administered by subcutaneous injection once daily and may be repeated for up to three days if pyrexia persists.<br/>
+                     <br/>Use contents within 4 months of first vial puncture.<br/>
+                     <br/>
+                     <content styleCode="bold">Cattle Dosing Guide:</content>
+                  </paragraph>
+                  <table>
+                     <col/>
+                     <col/>
+                     <col/>
+                     <col/>
+                     <tbody>
+                        <tr>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <content styleCode="bold"> Animal Weight (lb)</content>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <content styleCode="bold">Dose Volume (mL)</content>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <content styleCode="bold">Animal Weight (lb)</content>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <content styleCode="bold">Dose Volume (mL)</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule"> 150</td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">2.1 </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">600</td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">8.4</td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule"> 200</td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">2.8</td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">650</td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">9.1</td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">250</td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">3.5</td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">700</td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">9.8</td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">300</td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">4.2</td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">750</td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">10.5</td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">350 </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">4.9</td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">800</td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">11.2</td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">400</td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">5.6</td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">850</td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">11.9</td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">450</td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">6.3</td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">900</td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">12.6</td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">500</td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">7.0</td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">950</td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">13.3</td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">550</td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">7.7</td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">1000</td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">14.0</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <br/>
+               </text>
+               <effectiveTime value="20230331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_be27c2ca-c646-4d84-b7cf-bb6dddaa5ba4">
+               <id root="3c313792-0bbe-4471-80d8-0586965746a3"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Do not use in animals showing hypersensitivity to ketoprofen.<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20230331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_40597819-cbba-426c-a78f-a19d28d0298f">
+               <id root="739176ed-f83b-4f69-bfb5-f4e8376fe3f9"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>WITHDRAWAL PERIODS AND RESIDUE WARNINGS</title>
+               <text>
+                  <content styleCode="bold">Cattle must not be slaughtered for human consumption within 48-hours following last treatment with this drug product. Not for use in female dairy cattle 1 year of age or older, including dry dairy cows; use in these cattle may cause drug residues in milk and/or in calves born to these cows or heifers. Not for use in beef calves less than 2 months of age, dairy calves, and veal calves. A withdrawal period has not been established for this product in pre-ruminating calves.</content>
+               </text>
+               <effectiveTime value="20230331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_095ec3e7-32a4-4d50-a554-0ddf729ceae2">
+               <id root="8d97281d-54bc-463f-ac55-c75ce28b1ff0"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>USER SAFETY WARNINGS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Not for human use. Keep this and all drugs out of the reach of children.</content>
+                     <br/>
+                     <br/>The Safety Data Sheet (SDS) provides more detailed occupational safety information. To obtain a Safety Data Sheet contact Zoetis Inc. at 1-888-963-8471.<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20230331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_0cb29ea2-7930-4352-bd59-99bf49ebada6">
+               <id root="15ae0475-d5d8-41e1-ae9c-5d7e703579d0"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>ANIMAL SAFETY WARNINGS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Do not use in cattle that are dehydrated or with known renal disease.<br/>
+                     </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20230331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_ee835895-72ae-43c4-807d-d9d079e547c2">
+               <id root="95b1f97c-da9f-4a86-bcf5-03ae8b305133"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph>As a class, cyclo-oxygenase inhibitory NSAIDs may be associated with gastrointestinal, hepatic and renal toxicity. Sensitivity to drug-associated adverse effects varies with the individual patient. Patients at greatest risk for renal toxicity are those that are dehydrated, on concomitant diuretic therapy, or those with renal, cardiovascular, and/or hepatic dysfunction.<br/>
+                     <br/>Since many NSAIDs possess the potential to induce gastrointestinal ulceration, concomitant use of KETOFEN® with other antiinflammatory drugs, such as other NSAIDs and corticosteroids, should be avoided or closely monitored. Discontinue use if fecal blood is observed.<br/>
+                     <br/>The effects of KETOFEN® on bovine reproductive performance, pregnancy, lactation, or on animals of reproductive age intended for breeding has not been investigated.<br/>
+                     <br/>KETOFEN® may cause injection site swelling that appears 1 to 3 days post-treatment and typically resolves by 28 days post-injection. These reactions may result in trim loss of edible tissue at slaughter.<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20230331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_ab5c4d36-b8b1-4cfc-bb98-ea72764fd158">
+               <id root="8b817007-047e-4d0f-8d22-0e9442b0af98"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>Repeated administration of NSAIDs can result in gastric or renal toxicity. Sensitivity to drug-associated adverse effects varies with the individual patient. Patients at greatest risk for toxicity are those that are dehydrated, on concomitant diuretic therapy, or those with pre-existing gastric ulcers, renal, cardiovascular, and/or hepatic dysfunction.</paragraph>
+               </text>
+               <effectiveTime value="20230331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_f1aaf98c-a31d-4b86-a72a-51bf5d833be3">
+               <id root="c169e386-d5c9-4fdd-9712-1b5338a53671"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>CONTACT INFORMATION</title>
+               <text>
+                  <paragraph>For a copy of the Safety Data Sheet or to report suspected adverse drug experiences, call Zoetis Inc. at 1-888-963-8471. For additional information about adverse drug experience reporting for animal drugs, contact FDA at 1-888-FDA-VETS or www.fda.gov/reportanimalae.<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20230331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_2175ee21-d9c2-4ded-952c-1c35f4f6c1ee">
+               <id root="a8a99a96-46a0-484d-8ba0-2a81ab24e51d"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>KETOFEN is a non-narcotic, non-steroidal anti-inflammatory agent. The primary mechanism of action for ketoprofen is inhibition of the cyclooxygenase (COX) pathway leading to decreased production of prostaglandins<sup>[1]</sup>. Ketoprofen is a relatively nonselective inhibitor of the COX isozymes. After subcutaneous administration of a single dose of 3 mg/kg ketoprofen in fourteen calves, the mean and range (minimum and maximum) for the maximum plasma concentration (C<sub>max</sub>) was 9.40 μg/mL (7.06 – 15.8), the area under the curve to the last quantifiable point AUC<sub>(last)</sub> was 67.4 μg•h/mL (48.4 – 96.9), the time to maximum plasma concentration (T<sub>max</sub>) was 1.54 hours (0.67-2.0), and the half-life (t<sub>1/2</sub>) was 3.03 hours (2.48-3.88). Ketoprofen has shown linear pharmacokinetics across a 1 to 15 mg/kg dose range and has shown little to no accumulation on multiple dosing with a 24-hour dose interval.</paragraph>
+               </text>
+               <effectiveTime value="20230331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_cdd0ec88-5b80-42fc-8d62-e3bdaa2f3fae">
+               <id root="b87521f8-a670-42bb-b1e6-3bb05df13a0b"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>EFFECTIVENESS</title>
+               <text>
+                  <paragraph>The control of pyrexia associated with bovine respiratory disease (BRD) was demonstrated in a single multisite study. Cattle exhibiting clinical signs of BRD and having a rectal temperature of at least 104.5°F were enrolled. A total of 202 cattle were administered either a single subcutaneous injection of KETOFEN<sup>®</sup> (3.0 mg/kg BW) or a single subcutaneous injection of saline (0.028 mL/kg BW) on day 0. Six hours after treatment, rectal temperatures were measured. The treatment success rate of the KETOFEN<sup>®</sup>-treated group was compared to the treatment success rate in the saline-treated group. A treatment success was defined as a decrease in rectal temperature of ≥ 2°F in an individual animal. The percent of animals with a ≥ 2 degree decrease in rectal temperature at 6 hours post-treatment was significantly different and higher (P=0.0215) in the KETOFEN<sup>®</sup> group (74.3%) vs. the saline treated group (5.9%).<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20230331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_56f257b4-5f5e-4b18-ba2e-c17d938b3490">
+               <id root="c8cb0f5a-0e3c-4a6a-8bc3-84a973096647"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>TARGET ANIMAL SAFETY</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="italics">
+                        <content styleCode="bold">Margin of Safety</content>
+                     </content>: KETOFEN<sup>®</sup> was injected with a 1X (3 mg/kg BW), 3X (9 mg/kg BW), and 5X (15 mg/kg BW) dose daily for 9 consecutive days (3 times the maximum recommended duration). The only treatment-associated finding present at a 1X (3 mg/kg BW) dose for 9 days was minimal to mild gross and microscopic renal tubular lesions. No ketoprofen-related changes were noted in clinical or general health observations, hematology, urinalysis, fecal occult blood, or serum chemistries in cattle administered a 1X (3 mg/kg BW) dose for 9 days. At a 3X dose, subclinical focal ulcers in the abomasum and minimal to mild renal lesions were present. Cattle injected with a 5X dose of ketoprofen for 9 days had similar treatment related findings, except for one of eight calves which had clinical signs of toxicity, due to peritonitis subsequent to abomasal ulceration on the 9<sup>th</sup> treatment day. Discontinue treatment if fecal blood is observed. Do not use in cattle that are dehydrated or with known renal disease.<br/>
+                     <br/>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Injection site safety</content>
+                     </content>: Eight calves were injected with a 1X dose of ketoprofen daily for 3 consecutive days with clinical observations of injection sites with necropsy on days 7, 14, 28, and 42. Injection of 3 consecutive doses of KETOFEN<sup>®</sup> resulted in transient injection site reactions palpable through 14 days, with resolution by 28 days post-administration. Injection site lesions included discoloration involving the skin and subcutaneous tissue on Day 7. By Day 42 discoloration was limited to subcutaneous tissue. Subcutaneous injection of ketoprofen can cause a transient local tissue reaction. These reactions may result in trim loss of edible tissue at slaughter.<br/>
+                     <br/>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Field safety</content>
+                     </content>: There were no adverse events reported in investigational field studies with the injection of KETOFEN<sup>®</sup> under the intended conditions of use.<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20230331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_8aa3e9d5-f853-48f6-bd6d-b0c516abe900">
+               <id root="9c6a9fff-46da-4fbc-bb43-0ea3cab31022"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>REFERENCES</title>
+               <text>
+                  <paragraph>1. Paresh B, R.s., RD Varia, JH Patel, UD Patel, SK Bhavsar and AM Thaker,<content styleCode="italics"> Impact of multiple intravenous administrations of ketoprofen on blood profile in cow calves</content>. Inter J Vet Sci, 2012. 1(1): p. 34-36.<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20230331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_75d91d00-e497-45a8-a48c-121a2656dd19">
+               <id root="df31b4f7-b04c-4d31-be47-3816fc9799c7"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>KETOFEN<sup>®</sup> (ketoprofen) 100 mg/mL is available in 50 mL and 100 mL multidose bottles.</paragraph>
+               </text>
+               <effectiveTime value="20230331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_047b660e-5dac-4634-9e97-0e9c831e89f6">
+               <id root="5ad1a99c-7acd-4936-940c-b10849c5bc17"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>STORAGE CONDITIONS</title>
+               <text>
+                  <paragraph>Store below 25°C (77°F), with brief excursions permitted between 0°C - 40°C (32°F - 104°F).</paragraph>
+               </text>
+               <effectiveTime value="20230331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_f87ab5c7-0a6d-487c-9462-a5c5f802b4d7">
+               <id root="3a37aa51-98f1-42c2-af90-4ddb209b51f0"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>Approved by FDA under NADA # 140-269<br/>
+                     <br/>
+                     <content styleCode="bold">zoetis</content>
+                     <br/>
+                     <br/>Manufactured by:<br/>Zoetis Manufacturing and Research Spain, S.L.<br/>Girona, Spain<br/>
+                     <br/>Distributed by:<br/>Zoetis Inc.<br/>Kalamazoo, MI 49007<br/>Revised: April 2021<br/>
+                     <br/>40029077</paragraph>
+               </text>
+               <effectiveTime value="20230331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_4f4f2396-2980-447a-8dbd-466bef2168e5">
+               <id root="fcf7e41f-9d30-4651-b34a-09fe67dec82b"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 50 mL Bottle Label</title>
+               <text>
+                  <paragraph>40041163</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM3"/>
+                     <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20230331"/>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>50 mL Bottle Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="ketofen-3.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_0570c641-8201-434c-ba8c-f0e5363e8e74">
+               <id root="6c063c1d-dd9b-4bd5-a80d-20123cdd03f8"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 100 mL Bottle Label</title>
+               <text>
+                  <paragraph>40041101</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM4"/>
+                     <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20230331"/>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>100 mL Bottle Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="ketofen-4.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

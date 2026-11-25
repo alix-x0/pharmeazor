@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="8544cd1d-279b-476c-9cb9-03e027226749"/>
+   <code code="50578-4" displayName="PRESCRIPTION ANIMAL DRUG LABEL" codeSystem="2.16.840.1.113883.6.1"/>
+   <title>Antirobe®<br/>
+(clindamycin hydrochloride capsules)</title>
+   <effectiveTime value="20261006"/>
+   <setId root="39c00714-331d-49b1-a675-653b82b10c98"/>
+   <versionNumber value="9"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="828851555" root="1.3.6.1.4.1.519.1"/>
+            <name>Zoetis Inc.</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="d5fd9976-e8d2-4aed-807e-89c2ad2492b0"/>
+               <code code="48780-1" displayName="SPL listing data elements section" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20261006"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="54771-3043" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Antirobe</name>
+                        <formCode code="C25158" displayName="CAPSULE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>clindamycin hydrochloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="mg" value="25"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="T20OQ1YN1W" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CLINDAMYCIN HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="3U02EL437C" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CLINDAMYCIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="600"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="54771-3043-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43173" displayName="BOTTLE, PLASTIC" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NADA120161" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73593" displayName="NADA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19840531"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48330" displayName="yellow" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" displayName="white" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">ANTIROBE;25;MG</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48336" displayName="CAPSULE" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="16" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" displayName="ORAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="54771-3044" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Antirobe</name>
+                        <formCode code="C25158" displayName="CAPSULE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>clindamycin hydrochloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="mg" value="75"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="T20OQ1YN1W" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CLINDAMYCIN HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="3U02EL437C" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CLINDAMYCIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="200"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="54771-3044-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43173" displayName="BOTTLE, PLASTIC" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NADA120161" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73593" displayName="NADA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19840531"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48329" displayName="green" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">ANTIROBE;75;MG</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48336" displayName="CAPSULE" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="16" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" displayName="ORAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="54771-3045" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Antirobe</name>
+                        <formCode code="C25158" displayName="CAPSULE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>clindamycin hydrochloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="mg" value="150"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="T20OQ1YN1W" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CLINDAMYCIN HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="3U02EL437C" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CLINDAMYCIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="100"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="54771-3045-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43173" displayName="BOTTLE, PLASTIC" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NADA120161" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73593" displayName="NADA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19840531"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48333" displayName="blue" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV">
+                              <originalText>light blue</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48329" displayName="green" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">ANTIROBE;150;MG</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48336" displayName="CAPSULE" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="20" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" displayName="ORAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_8d7c006b-d556-4566-9b16-c7e481b230eb">
+               <id root="96454f8e-508e-42a7-b122-d79351ab3c07"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>Caution<br/>
+               </title>
+               <text>
+                  <paragraph>Federal law restricts this drug to use by or on the order of a licensed veterinarian.</paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_dc990250-3167-4ec1-a958-507f291811dd">
+               <id root="9593356a-2ec0-4a67-b8f9-a13ef7cef808"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>ANTIROBE Capsules contain clindamycin hydrochloride which is the hydrated salt of clindamycin. Clindamycin is a semisynthetic antibiotic produced by a 7(S)-chlorosubstitution of the 7(R)-hydroxyl group of a naturally produced antibiotic produced by <content styleCode="italics">Streptomyces lincolnensis var. lincolnensis</content>. </paragraph>
+                  <paragraph>ANTIROBE Capsules (For Use in Dogs Only):</paragraph>
+                  <paragraph>25 mg Capsule, each yellow and white capsule contains clindamycin hydrochloride equivalent to 25 mg of clindamycin.</paragraph>
+                  <paragraph>75 mg Capsule, each dark green and white capsule contains clindamycin hydrochloride equivalent to 75 mg of clindamycin.</paragraph>
+                  <paragraph>150 mg Capsule, each white capsule contains clindamycin hydrochloride equivalent to 150 mg of clindamycin.</paragraph>
+                  <br/>
+               </text>
+               <effectiveTime value="20261006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_bdfa924c-ce34-43a6-97ad-baac8ee1bf84">
+               <id root="8abf2925-b7f2-4369-9037-ad435af2e1c8"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20261006"/>
+               <component>
+                  <section ID="LINK_186fe70c-1375-486c-8bef-e7d0a7e553ea">
+                     <id root="39e8f03d-9ddb-4359-b524-41ee3ab9e976"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Absorption</title>
+                     <text>
+                        <paragraph>Clindamycin hydrochloride is rapidly absorbed from the canine gastrointestinal tract.</paragraph>
+                     </text>
+                     <effectiveTime value="20261006"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_05bdd7bc-5df7-4ca1-a867-c2d412a8fd22">
+                     <id root="0899e0f0-4185-4aef-a380-0250310664fa"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Dog Serum Levels</title>
+                     <text>
+                        <paragraph>Serum levels at or above 0.5 µg/mL can be maintained by oral dosing at a rate of 2.5 mg/lb of clindamycin hydrochloride every 12 hours. This same study revealed that average peak serum concentrations of clindamycin occur 1 hour and 15 minutes after oral dosing. The elimination half-life for clindamycin in dog serum was approximately 5 hours. There was no bioactivity accumulation after a regimen of multiple oral doses in healthy dogs.</paragraph>
+                        <table>
+                           <col width="100%"/>
+                           <tbody>
+                              <tr>
+                                 <td align="center"> Clindamycin Serum Concentrations<br/>2.5 mg/lb (5.5 mg/kg) After B.I.D. Oral<br/>Dose of Antirobe Capsules to Dogs</td>
+                              </tr>
+                              <tr>
+                                 <td align="center"> <renderMultiMedia referencedObject="MM1"/>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20261006"/>
+                     <component>
+                        <observationMedia ID="MM1">
+                           <text>Chemical Structure</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="antirobe-1.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_f9725d8d-4def-4fad-a120-50848824a0f7">
+                     <id root="cfb55555-050a-4e12-8bb0-ba6e24d616b5"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Metabolism and Excretion</title>
+                     <text>
+                        <paragraph>Extensive studies of the metabolism and excretion of clindamycin hydrochloride administered orally in animals and humans have shown that unchanged drug and bioactive and bioinactive metabolites are excreted in urine and feces. Almost all of the bioactivity detected in serum after ANTIROBE product administration is due to the parent molecule (clindamycin). Urine bioactivity, however, reflects a mixture of clindamycin and active metabolites, especially N-demethyl clindamycin and clindamycin sulfoxide.</paragraph>
+                     </text>
+                     <effectiveTime value="20261006"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_d2e9493b-86e9-41d5-8494-5ed04f0426c9">
+                     <id root="9fcec18a-2e19-4fd2-bd8c-ab8aae0af886"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Site and Mode of Action</title>
+                     <text>
+                        <paragraph>Clindamycin is an inhibitor of protein synthesis in the bacterial cell. The site of binding appears to be in the 5OS sub-unit of the ribosome. Binding occurs to the soluble RNA fraction of certain ribosomes, thereby inhibiting the binding of amino acids to those ribosomes. Clindamycin differs from cell wall inhibitors in that it causes irreversible modification of the protein-synthesizing subcellular elements at the ribosomal level.</paragraph>
+                     </text>
+                     <effectiveTime value="20261006"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_b9b597be-a2a2-45b6-902c-8552c7d1ae4f">
+                     <id root="c60acf84-7a22-4e57-993d-90dadc4f6f21"/>
+                     <code code="49489-8" codeSystem="2.16.840.1.113883.6.1" displayName="MICROBIOLOGY SECTION"/>
+                     <title>Microbiology</title>
+                     <text>
+                        <paragraph>Clindamycin is a lincosaminide antimicrobial agent with activity against a wide variety of aerobic and anaerobic bacterial pathogens. Clindamycin is a bacteriostatic compound that inhibits bacterial protein synthesis by binding to the 5OS ribosomal sub-unit. The minimum inhibitory concentrations (MICs) of Gram-positive and obligate anaerobic pathogens isolated from dogs and cats in the United States are presented in Table 1 and Table 2. Bacteria were isolated in 1998-1999. All MICs were performed in accordance with the Clinical and Laboratory Standards Institute (CLSI).</paragraph>
+                        <paragraph> <renderMultiMedia referencedObject="MM2">
+                              <caption>Table 1</caption>
+                           </renderMultiMedia>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20261006"/>
+                     <component>
+                        <observationMedia ID="MM2">
+                           <text>Table 1</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="antirobe-2.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_b70ef0d4-d5bc-4124-8e61-adbef585678b">
+               <id root="4f8f6421-84aa-484d-842a-2e0568091f23"/>
+               <code code="50745-9" codeSystem="2.16.840.1.113883.6.1" displayName="VETERINARY INDICATIONS SECTION"/>
+               <title>INDICATIONS</title>
+               <text>
+                  <paragraph>ANTIROBE (clindamycin hydrochloride capsules) is (for use in dogs only) indicated for the treatment of infections caused by susceptible strains of the designated microorganisms in the specific conditions listed below:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Skin infections (wounds and abscesses) </content>due to coagulase positive staphylococci<content styleCode="italics"> (Staphylococcus aureus</content> or <content styleCode="italics">Staphylococcus intermedius)</content>.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Deep wounds and abscesses </content>due to<content styleCode="italics"> Bacteroides fragilis, Prevotella melaninogenicus, Fusobacterium necrophorum </content>and<content styleCode="italics"> Clostridium perfringens</content>.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Dental infections </content>due to<content styleCode="italics"> Staphylococcus aureus, Bacteroides fragilis, Prevotella melaninogenicus, Fusobacterium necrophorum </content>and<content styleCode="italics"> Clostridium perfringens</content>.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Osteomyelitis </content>due to<content styleCode="italics"> Staphylococcus aureus, Bacteroides fragilis, Prevotella melaninogenicus, Fusobacterium necrophorum </content>and<content styleCode="italics"> Clostridium perfringens</content>.</paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_cbcabeb1-a66b-4d54-9972-32a3ec5d821a">
+               <id root="d096eb8f-a6d4-4ecd-af8f-9d64bf7e1572"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>ANTIROBE (clindamycin hydrochloride capsules) is contraindicated in animals with a history of hypersensitivity to preparations containing clindamycin or lincomycin.<br/>
+Because of potential adverse gastrointestinal effects, do not administer to rabbits, hamsters, guinea pigs, horses, chinchillas or ruminating animals.</paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_16d4ee5f-dde1-4460-b938-f5c2dafd9910">
+               <id root="9c233edd-0731-429a-a388-db1a767ee993"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>Keep out of reach of children. Not for human use.</paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_86603573-ebf4-4be1-9ba0-be5e00808168">
+               <id root="3fa54c5a-8ad6-4b9c-adb0-527907e50851"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph>During prolonged therapy of one month or greater, periodic liver and kidney function tests and blood counts should be performed.</paragraph>
+                  <paragraph>The use of ANTIROBE occasionally results in overgrowth of non-susceptible organisms such as clostridia and yeasts. Therefore, the administration of ANTIROBE should be avoided in those species sensitive to the gastrointestinal effects of clindamycin (see<content styleCode="bold">
+                        <linkHtml href="#LINK_efdcd71b-33cd-41de-8679-359afb52fb9c"> CONTRAINDICATIONS</linkHtml>
+                     </content>). Should superinfections occur, appropriate measures should be taken as indicated by the clinical situation.</paragraph>
+                  <paragraph>Patients with very severe renal disease and/or very severe hepatic disease accompanied by severe metabolic aberrations should be dosed with caution, and serum clindamycin levels monitored during high-dose therapy.</paragraph>
+                  <paragraph>Clindamycin hydrochloride has been shown to have neuromuscular blocking properties that may enhance the action of other neuromuscular blocking agents. Therefore, ANTIROBE should be used with caution in animals receiving such agents.</paragraph>
+                  <paragraph>Safety in gestating bitches or breeding male dogs has not been established.</paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_c283dfcd-273f-4af3-a044-e571ba90cad2">
+               <id root="92401998-7bd8-4dcc-a056-d31e3aa88da1"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>Side effects occasionally observed in either clinical trials or during clinical use were vomiting and diarrhea. </paragraph>
+                  <paragraph>To report a suspected adverse reaction call 1-888-963-8471.</paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_31227c74-7c13-4941-a558-eca4a38a9bc8">
+               <id root="c5c1420e-004d-455c-b28d-b87111a3b113"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Infected Wounds, Abscesses, and Dental Infections</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Oral:</content> 2.5-15.0 mg/lb body weight every 12 hours</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Duration: </content>Treatment with ANTIROBE products may be continued up to a maximum of 28 days if clinical judgment indicates. Treatment of acute infections should not be continued for more than three or four days if no response to therapy is seen</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Dosage Schedule</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">ANTIROBE 25 mg</content>, administer 1-6 capsules every 12 hours for each 10 pounds of body weight.<br/>
+                     <content styleCode="bold">ANTIROBE 75 mg</content>, administer 1-6 capsules every 12 hours for each 30 pounds of body weight.<br/>
+                     <content styleCode="bold">ANTIROBE 150 mg</content>, administer 1-6 capsules every 12 hours for each 60 pounds of body weight.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Osteomyelitis</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Oral</content>: 5.0-15.0 mg/lb body weight every 12 hours</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Duration</content>: Treatment with ANTIROBE is recommended for a minimum of 28 days. Treatment should not be continued for longer than 28 days if no response to therapy is seen.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Dosage Schedule</content>:<br/>
+                     <content styleCode="bold">ANTIROBE 25 mg</content>, administer 2-6 capsules every 12 hours for each 10 pounds of body weight.<br/>
+                     <content styleCode="bold">ANTIROBE 75 mg,</content> administer 2-6 capsules every 12 hours for each 30 pounds of body weight.<br/>
+                     <content styleCode="bold">ANTIROBE 150 mg,</content> administer 2-6 capsules every 12 hours for each 60 pounds of body weight.</paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_ceec0c76-7b32-443f-b14f-9502c15e69dd">
+               <id root="be65fbc6-ddfc-41e3-b9d2-b64a5920d80a"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>ANIMAL SAFETY SUMMARY</title>
+               <text>
+                  <paragraph> <content styleCode="bold">Rat and Dog Data</content>: One year oral toxicity studies in rats and dogs at doses of 30, 100 and 300 mg/kg/day (13.6, 45.5 and 136.4 mg/lb/day) have shown clindamycin hydrochloride capsules to be well tolerated. Differences did not occur in the parameters evaluated to assess toxicity when comparing groups of treated animals with contemporary controls. Rats administered clindamycin hydrochloride at 600 mg/kg/day (272.7 mg/lb/day) for six months tolerated the drug well; however, dogs orally dosed at 600 mg/kg/day (272.7 mg/lb/day) vomited, had anorexia, and subsequently lost weight. At necropsy these dogs had erosive gastritis and focal areas of necrosis of the mucosa of the gallbladder.</paragraph>
+                  <paragraph> Safety in gestating bitches or breeding males has not been established.</paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_e903106a-6579-4cca-9278-bfbd555592ae">
+               <id root="99372fb8-103b-4016-aa39-0a7df0df9305"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <title>STORAGE</title>
+               <text>
+                  <paragraph>Store at controlled room temperature 20° to 25°C (68° to 77°F).</paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_9341eea6-ac55-4d11-8d77-40e592daf998">
+               <id root="50ac90fd-5616-4835-8ca0-b1d00b27b63f"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>ANTIROBE Capsules are available as:<br/>
+25 mg - bottles of 600<br/>
+75 mg - bottles of 200<br/>
+150 mg - bottles of 100.</paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_a64b8078-478f-439e-a6ae-d509eacd1c6d">
+               <id root="0bbb13e9-4cfc-4f99-9638-2433b93000e3"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>CONTACT INFORMATION</title>
+               <text>
+                  <paragraph>To report suspected adverse events, for technical assistance or to obtain a copy of the Safety Data Sheet (SDS), contact Zoetis Inc. at 1-888-963-8471 or www.zoetis.com.<br/>
+                     <br/>
+For additional information about adverse drug experience reporting for animal drugs, contact FDA at 1-888-FDA-VETS or online at http://www.fda.gov/reportanimalae.</paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_0297c8c7-e954-43a0-8f13-968720e67bd6">
+               <id root="8f87d856-a9a1-4e19-b5b3-ebecf0ddff2b"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>Approved by FDA under NADA # 120-161<br/>
+                     <br/>
+                     <content styleCode="bold">zoetis</content>
+                     <br/>
+                     <br/>
+Manufactured by:<br/>
+Fareva Amboise, France<br/>
+                     <br/>
+Distributed by:<br/>
+Zoetis Inc., Kalamazoo, MI 49007<br/>
+                     <br/>
+Product of China</paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_b9d727ea-e1ca-4cab-a386-b7cdcd01bde0">
+               <id root="f9450f77-be52-4fcb-8ab7-29d49e7f004f"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 25 mg Capsule Bottle Label</title>
+               <text>
+                  <renderMultiMedia referencedObject="MM3"/>
+                  <paragraph>8718312</paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>25 mg label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="antirobe-3.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_bcc5c2b1-796a-4d9f-b666-22ec9ce0ea45">
+               <id root="e8a6f0c4-17aa-4e75-9fc2-fbdb44899c31"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 75 mg Capsule Bottle Label</title>
+               <text>
+                  <renderMultiMedia referencedObject="MM4"/>
+                  <paragraph>8718292</paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>75 mg label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="antirobe-4.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_01fde5cb-0046-4edd-ae60-f30f8fadef49">
+               <id root="7355c54a-1eb7-4565-af0a-d51ed83baab3"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 150 mg Capsule Bottle Label</title>
+               <text>
+                  <renderMultiMedia referencedObject="MM5"/>
+                  <paragraph>8718302</paragraph>
+               </text>
+               <effectiveTime value="20261006"/>
+               <component>
+                  <observationMedia ID="MM5">
+                     <text>150 mg label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="antirobe-5.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

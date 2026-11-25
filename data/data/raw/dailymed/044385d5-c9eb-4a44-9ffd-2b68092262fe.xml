@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="7897f5c8-9304-40d3-9276-2dee4f752b66"/>
+   <code code="50578-4" displayName="PRESCRIPTION ANIMAL DRUG LABEL" codeSystem="2.16.840.1.113883.6.1"/>
+   <title>Draxxin<sup>® </sup>KP<br/>
+   </title>
+   <effectiveTime value="20260406"/>
+   <setId root="044385d5-c9eb-4a44-9ffd-2b68092262fe"/>
+   <versionNumber value="7"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="828851555" root="1.3.6.1.4.1.519.1"/>
+            <name>Zoetis Inc.</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="1a188b09-9b14-434e-9cec-d4c1c353c309"/>
+               <code code="48780-1" displayName="SPL listing data elements section" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20260406"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="54771-2155" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Draxxin KP</name>
+                        <formCode code="C42945" displayName="INJECTION, SOLUTION" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>tulathromycin and ketoprofen injection</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="100"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="Q839I13422" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TULATHROMYCIN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q839I13422" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>TULATHROMYCIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="120"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="90Y4QC304K" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>KETOPROFEN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="90Y4QC304K" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>KETOPROFEN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="50"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="54771-2155-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43209" displayName="VIAL, GLASS" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="100"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="54771-2155-2" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43209" displayName="VIAL, GLASS" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="250"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="54771-2155-3" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43209" displayName="VIAL, GLASS" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="500"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="54771-2155-4" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43209" displayName="VIAL, GLASS" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NADA141543" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73593" displayName="NADA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20210716"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38299" displayName="SUBCUTANEOUS" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_db8ae331-165f-4541-ae8a-871c4f4c5838">
+               <id root="22b226b2-021f-41d3-9af1-f2eadd9c6177"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>Draxxin® KP<br/>(tulathromycin and ketoprofen injection)<br/>INJECTABLE SOLUTION<br/>Antibiotic and Anti-inflammatory</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For subcutaneous injection<br/>100 mg/mL Tulathromycin + 120 mg/mL Ketoprofen</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260406"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_fa74367b-3dfe-4634-943d-69008aa7b2b9">
+               <id root="0c2e943f-2fa8-4dad-9f09-957caf908d8a"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">For subcutaneous injection</content>
+                     <br/>
+                     <br/>
+                     <content styleCode="bold">Antibiotic</content>:<br/>100 mg of Tulathromycin/mL<br/>
+                     <br/>
+                     <content styleCode="bold">Non-Steroidal Anti-inflammatory Drug</content>:<br/>120 mg Ketoprofen/mL</paragraph>
+               </text>
+               <effectiveTime value="20260406"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_47e4dfb6-58b6-4e17-8b8f-45546210f5ec">
+               <id root="cb3722cf-eaa9-4998-a9c8-bdd9a033ea7e"/>
+               <code code="50741-8" codeSystem="2.16.840.1.113883.6.1" displayName="SAFE HANDLING WARNING SECTION"/>
+               <title>CAUTION</title>
+               <text>
+                  <paragraph>Federal law restricts this drug to use by or on the order of a licensed veterinarian.</paragraph>
+               </text>
+               <effectiveTime value="20260406"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_8c15f9fd-bc15-4eaf-a314-22393a5ba80e">
+               <id root="ec6a47af-2fa6-4bfc-a6db-78f708c747c9"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>DRAXXIN KP (tulathromycin and ketoprofen injection) Injectable Solution is a ready to use sterile parenteral preparation containing tulathromycin, a semi- synthetic macrolide antibiotic of the subclass triamilide and ketoprofen a non-steroidal anti-inflammatory drug. ACTIVE INGREDIENTS: Each mL of DRAXXIN KP contains 100 mg of tulathromycin as a free base and 120 mg ketoprofen as a free acid in a 50% propylene glycol vehicle.<br/>INACTIVE INGREDIENTS:<br/>monothioglycerol (5 mg/mL), 2-pyrrolidone (70 mg/mL), citric acid (20 mg/mL) and sodium hydroxide/hydrochloric acid added to adjust pH.<br/>
+                     <br/>DRAXXIN KP contains an equilibrated mixture of two isomeric forms of tulathromycin in a 9:1 ratio and a racemic mixture of ketoprofen.<br/>
+                     <br/>The structures of the tulathromycin isomers and ketoprofen are shown below:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Figure 1. Tulathromycin structures</content>
+                     <br/>
+                     <br/>
+                     <renderMultiMedia referencedObject="MM1"/>
+                     <br/>
+                     <br/>The chemical names of the tulathromycin isomers are (2R,3S, 4R,5R,8R,10R,11R,12S, 13S,14R)-13-[[2,6-dideoxy-3-C-methyl-3-Ο-methyl-4-C-[(propylamino) methyl]-α-L-ribo-hexopyranosyl]oxy]-2-ethyl-3,4,10-trihydroxy-3,5,8,10,12, 14-hexamethyl-11-[[3,4,6-trideoxy-3-(dimethylamino)-β-D-xylohexopyranosyl]-oxy]-1-oxa-6-azacyclopentadecan-15-one and (2R, 3R,6R,8R,9R,10S,11S,12R)- 11-[[2,6-dideoxy-3-C-methyl-3-Ο-methyl-4-C-[(propylamino)methyl]-α-L-ribohexopyranosyl]oxy]-2-[(1S,2R)-1,2-dihydroxy-1-methylbutyl]-8-hydroxy-3,6,8,10,12-pentamethyl-9-[[3,4,6-trideoxy -3-(dimethylamino)-β-D-xylo-hexopyranosyl]oxy]-1-oxa-4-azacyclotridecan-13-one, respectively.<br/>
+                     <br/>
+                     <content styleCode="bold">Figure 2. Ketoprofen Structure</content>
+                     <br/>
+                     <br/>
+                     <renderMultiMedia referencedObject="MM2"/>
+                     <br/>
+                     <br/>The chemical name of ketoprofen is 2-(3-Benzoylphenyl) propanoic acid.</paragraph>
+               </text>
+               <effectiveTime value="20260406"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Figure 1. Tulathromycin structures</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="draxxin-kp-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>Figure 2. Ketoprofen Structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="draxxin-kp-2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_4bb58703-cc3b-48cb-91c9-279f7d31f17e">
+               <id root="7a101ed7-c9a8-4475-b24d-306f7eaf56d3"/>
+               <code code="50745-9" codeSystem="2.16.840.1.113883.6.1" displayName="VETERINARY INDICATIONS SECTION"/>
+               <title>INDICATIONS</title>
+               <text>
+                  <paragraph>Draxxin® KP is indicated for the treatment of bovine respiratory disease (BRD) associated with <content styleCode="italics">Mannheimia haemolytica</content>, <content styleCode="italics">Pasteurella multocida</content>, <content styleCode="italics">Histophilus somni</content>, and <content styleCode="italics">Mycoplasma bovis</content>, and control of pyrexia associated with BRD in beef steers, beef heifers, beef calves 2 months of age and older, beef bulls, dairy bulls, and replacement dairy heifers. Not for use in reproducing animals over one year of age, dairy calves, or veal calves.</paragraph>
+               </text>
+               <effectiveTime value="20260406"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_a453b9c7-de3b-4562-ae6f-3da34c0c500e">
+               <id root="2e1824ae-9c5d-404b-8ef8-bd167be0ff54"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>Inject subcutaneously as a single dose in the neck at a dosage of 2.5 mg tulathromycin and 3 mg ketoprofen/kg (1.1 mL/100 lb) bodyweight (BW). Do not inject more than 10 mL per injection site. Use this product within 56 days of the first puncture and puncture a maximum of 20 times. If more than 20 punctures are anticipated, the use of automatic injection equipment or a repeater syringe is recommended. When using a draw-off spike or needle with bore diameter larger than 16 gauge, discard any product remaining in the vial immediately after use.</paragraph>
+                  <paragraph>
+                     <br/>Table 1. DRAXXIN KP Cattle Dosing Guide<br/>
+                     <br/>
+                  </paragraph>
+                  <table>
+                     <col/>
+                     <col/>
+                     <tbody>
+                        <tr>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <content styleCode="bold">Animal Weight (lb)</content>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <content styleCode="bold">Dose Volume (mL)</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule"> 150</td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">1.7</td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">200</td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">2.3</td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">250</td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">2.8</td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">300</td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">3.4</td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">350</td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">4.0</td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">400 </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">4.5</td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">500</td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">5.7</td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">600</td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">6.8</td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">700</td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">8.0</td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">800</td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">9.1</td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">900</td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">10.2</td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">1000</td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">11.4</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <br/>
+               </text>
+               <effectiveTime value="20260406"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_7001565f-72f6-4f8b-a0aa-28e7f1ca2402">
+               <id root="e4a906f9-a838-4235-8fca-a75389b62b9f"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>The use of DRAXXIN KP Injection is contraindicated in animals previously found to be hypersensitive to tulathromycin and ketoprofen.</paragraph>
+               </text>
+               <effectiveTime value="20260406"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_05a73572-683a-4f5e-b0f8-d9cc97ea3c48">
+               <id root="bbcbf9b4-36f1-4fe0-8a87-25f3277354b1"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WITHDRAWAL PERIODS AND RESIDUE WARNINGS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Cattle must not be slaughtered for human consumption within 18 days following last treatment with this drug product. Not for use in female dairy cattle 1 year of age or older, including dry dairy cows; use in these cattle may cause drug residues in milk and/or in calves born to these cows or heifers. Not for use in beef calves less than 2 months of age, dairy calves, and veal calves. A withdrawal period has not been established for this product in pre-ruminating calves.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260406"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_b23e59ff-6343-4b10-8ff9-c47d45e4eea6">
+               <id root="6e323608-d5cd-4e1f-a374-c967cbc54b57"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>USER SAFETY WARNINGS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">NOT FOR HUMAN USE. KEEP OUT OF REACH OF CHILDREN.</content>
+                     <br/>The Safety Data Sheet (SDS) provides more detailed occupational safety information. To obtain a Safety Data Sheet contact Zoetis Inc. at 1-888-963-8471.</paragraph>
+               </text>
+               <effectiveTime value="20260406"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_d206a540-2d55-4bc2-8d3c-114825c3dbb2">
+               <id root="79d44a1f-5f42-434d-820c-367b1b28417b"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>ANIMAL SAFETY WARNINGS and PRECAUTIONS</title>
+               <text>
+                  <paragraph>The effects of DRAXXIN KP on bovine reproductive performance, pregnancy, and lactation have not been determined. Not for use in reproducing animals over one year of age because reproductive safety testing has not been conducted. Administration of tulathromycin and ketoprofen injection may result in injection site swelling that appears the day after treatment and may persist for at least 32 days post-injection. This may result in trim loss of edible tissue at slaughter.<br/>
+                     <br/>As a class, cyclo-oxygenase inhibitory NSAIDs (Ketoprofen) may be associated with gastrointestinal, hepatic and renal toxicity. Sensitivity to drug-associated adverse effects varies with the individual patient. Patients at greatest risk for renal toxicity are those that are dehydrated, on concomitant diuretic therapy, or those with renal, cardiovascular, and/or hepatic dysfunction. Use judiciously when renal impairment or gastric ulceration is suspected.<br/>
+                     <br/>Since many NSAIDs possess the potential to induce gastrointestinal ulceration, concomitant use of DRAXXIN KP with other anti-inflammatory drugs, such as other NSAIDs and corticosteroids, should be avoided or closely monitored. Discontinue use if fecal blood is observed.</paragraph>
+               </text>
+               <effectiveTime value="20260406"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_d54258ec-96a0-40bb-b487-3e37ab0d7de8">
+               <id root="83dd9e47-aa71-4109-9d90-5846eaab78e1"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>Repeated administration of NSAIDs can result in gastric or renal toxicity. Sensitivity to drug-associated adverse effects varies with the individual patient. Patients at greatest risk for toxicity are those that are dehydrated, on concomitant diuretic therapy, or those with pre-existing gastric ulcers, renal, cardiovascular, and/or hepatic dysfunction.</paragraph>
+               </text>
+               <effectiveTime value="20260406"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_696489f8-79f0-44e1-88a5-df1f667daab3">
+               <id root="ed8848f6-ff86-4714-ba0f-00221dc8a34d"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>CONTACT INFORMATION</title>
+               <text>
+                  <paragraph>To report suspected adverse drug experiences, to obtain a Safety Data Sheet (SDS) or for technical assistance, contact Zoetis at (888) 963-8471. For additional information about adverse drug experience reporting for animal drugs, contact the FDA at 1-888-FDA-VETS or http://www.fda.gov/reportanimalae.</paragraph>
+               </text>
+               <effectiveTime value="20260406"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_fc81f525-ed2f-4df4-b93f-c52f826ae47c">
+               <id root="cff41ad2-f5ab-408e-922c-1aa5fbc37f8f"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Mechanism of Action<br/>Ketoprofen is a propionic acid derivate and nonsteroidal anti-inflammatory drug (NSAID) with anti-inflammatory, analgesic and antipyretic effects. Ketoprofen inhibits the activity of the enzymes cyclo-oxygenase I and II, resulting in a decreased formation of precursors of prostaglandins and thromboxanes. Ketoprofen also causes a decrease in the formation of thromboxane A2 synthesis, by thromboxane synthase, thereby inhibiting platelet aggregation. The principal mechanism of action of tulathromycin against bacteria involves direct inhibition of essential protein biosynthesis by selective binding to bacterial 50S ribosomal subunits. Tulathromycin acts by stimulating the dissociation of peptidyl- tRNA from the ribosome during the translocation process.<br/>
+                     <br/>Clinical Pharmacology<br/>
+                     <br/>In a GLP pharmacokinetic study, 60 cattle received one of 3 treatments: 2.5 mg tulathromycin/kg BW, 3 mg ketoprofen/kg BW or a combination of the two active ingredients (2.5 mg tulathromycin and 3 mg of ketoprofen/kg BW) via subcutaneous injection. Blood samples were obtained pre-dose and at 20 min, 40 min, 1, 1.5, 2, 3, 4, 6, 10, 24, 28, 32, 48, 52, 56, 72, 120, 168, 216, 264, 336, and 360 hours after dosing. The samples were analyzed using validated highperformance liquid chromatography-mass spectrometry (LC-MS/MS) methods for tulathromycin and ketoprofen concentrations. The rate of drug exposure was greater for the ketoprofen alone product.</paragraph>
+                  <paragraph>The mean [±standard deviation (SD)] maximum plasma concentration (Cmax) and time to Cmax (tmax) was 6451 (±1342) ng/mL and 0.83 (±0.53) hr, respectively for ketoprofen alone compared to a mean (±SD) Cmax and tmax of 2322 (±1505) ng/mL and 4.0 (±2.93) hr, respectively, for ketoprofen in the combination product. However, the extent of drug exposure was slightly greater and terminal half life (t1/2) was longer for ketoprofen in the combination product. The mean (±SD) area under the drug concentration- time curve between times 0 and the last quantifiable concentration (AUC0-t(last)) was 26458 (±3605) ng*hr/mL for ketoprofen in the combination product and 23106 (±3500) for ng*hr/mL for ketoprofen alone. Similarly, the mean t 1/2 was 6.84 (±2.09) hr for ketoprofen in the combination product and 2.86 (±1.09) hr for ketoprofen alone. Although the mean (±SD) Cmax of tulathromycin in the combination group (373 (±105) ng/mL) was less than tulathromycin alone (653 (±261) ng/mL), based on mean (±SD) AUC0-t(last), the combination (13647 (±2577) ng*hr/mL) and tulathromycin alone (14088 (±4408) ng*hr/mL) groups had similar tulathromycin bioavailability.</paragraph>
+                  <paragraph>Tulathromycin half life was also similar between the combination (93.3 (±27.9) hr) and tulathromycin alone (98.7 (±23.1) hr) groups.</paragraph>
+               </text>
+               <effectiveTime value="20260406"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_51fdeb13-e19a-4eea-a300-0422372b314d">
+               <id root="a58a2225-9a6f-4266-acea-d667ef0ac176"/>
+               <code code="49489-8" codeSystem="2.16.840.1.113883.6.1" displayName="MICROBIOLOGY SECTION"/>
+               <title>MICROBIOLOGY</title>
+               <text>
+                  <paragraph>Based on data provided for the approval of Draxxin® (tulathromycin injection, NADA 141-244), tulathromycin has demonstrated<content styleCode="italics"> in vitro</content> activity against <content styleCode="italics">Mannheimia haemolytica, Pasteurella multocida, Histophilus somni,</content> and <content styleCode="italics">Mycoplasma bovis</content>, four pathogens associated with BRD.</paragraph>
+               </text>
+               <effectiveTime value="20260406"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_8dcdf8b8-4593-40b6-aafc-ca1872c1fecf">
+               <id root="3cd3f387-986a-4a68-8ae8-c2dccb01b980"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>TARGET ANIMAL SAFETY</title>
+               <text>
+                  <paragraph>Thirty-two (16 male and 16 female) growing cattle were enrolled in a margin of safety study. Calves were injected subcutaneously with either saline, DRAXXIN KP at the label dose 2.5 mg tulathromycin/3 mg ketoprofen/kg BW, DRAXXIN KP at 3 times the label dose, or DRAXXIN KP at 5 times the label dose. Calves received three doses at a 14-day interval between doses. Daily clinical observations were conducted by a veterinarian as well as daily general health observations and injection site evaluations. Samples were collected for urinalysis, fecal occult blood, hematology, serum chemistry and coagulation and for pharmacokinetics. At the conclusion of the study, all animals were euthanized and necropsied for gross pathology and histopathology evaluation. Injection site lesion volumes for the first injection site was calculated. Injection site reactions were noted in all DRAXXIN KP-treated animals and the size and incidence of injection site lesions were greater in the 3X and 5X treatment groups. Test article-related differences in serum chemistry parameters were lower alkaline phosphatase in the 5X group; lower albumin in the 3X and 5X groups; lower total protein (TP) and serum calcium in the 1X, 3X and 5X groups; and higher creatine kinase (CK) in the 1X, 3X, and 5X groups. The changes for serum calcium and albumin were considered clinically insignificant because all values were within the normal reference range on the days with statistical differences. The changes for TP were considered secondary to the differences in albumin and clinically insignificant because the albumin changes were considered clinically insignificant. In addition, the only TP values that were outside of the normal reference range were only 0.1 g/dL below the normal reference range. The differences in neutrophil values might be secondary to test article-associated injection site inflammation and the differences in CK values are directly associated with injection site reactions. There were non-quantifiable ketoprofen plasma concentrations prior to the second and third doses, while there was a modest accumulation for tulathromycin (mean ≤16.5%) with the 14-day dosing interval. There was dose proportional increase in tulathromycin AUC0-t(last) with an increase in dose, while there was slightly greater than dose proportional increase in ketoprofen AUC0- t(last). A single calf in Group T04 had test article-associated positive fecal occult blood samples on Days 15 and 29. Microscopic mucosal erosions of the pylorus of the abomasum were present in the 3X (2/8) and 5X (1/8) groups and was considered test article-related. Renal interstitial inflammation and minimal multifocal degeneration and regeneration occurred at similar incidence and severity in treated and control calves.</paragraph>
+                  <paragraph>
+                     <br/>Subcutaneous injection of cattle with tulathromycin- ketoprofen at the label dose was well tolerated.</paragraph>
+               </text>
+               <effectiveTime value="20260406"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_ce964495-05aa-4f7b-b76a-5461e5dc037d">
+               <id root="7b924a19-bffb-4789-b9ce-1d12392bb5e0"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>EFFECTIVENESS</title>
+               <text>
+                  <paragraph>A multi-location field study was conducted to evaluate the effectiveness of Draxxin® KP for the treatment of bovine respiratory disease (BRD) associated with <content styleCode="italics">Mannheimia haemolytica, Pasteurella multocida, Histophilus somni</content>, and <content styleCode="italics">Mycoplasma bovis</content>, and control of pyrexia associated with BRD. A total of 819 cattle with clinical signs of BRD (moderate depression and respiratory distress, and a rectal temperature ≥104.5 °F) were enrolled and treated with either saline (0.025 mL/kg BW), tulathromycin (2.5 mg/kg BW) or Draxxin® KP (2.5 mg tulathromycin/kg BW and 3 mg ketoprofen/kg BW) administered by subcutaneous injection. Rectal temperatures were measured six hours later and animals were observed for clinical signs of BRD through 14 days post-treatment. An animal was classified as a treatment success for treatment of BRD if it was not classified as a failure prior to Day 14, and had normal or mild depression and respiratory distress scores and a rectal temperature &lt;104.5 °F on Day 14. An animal was classified as a treatment success for control of pyrexia associated with BRD if it displayed a ≥2 °F reduction in rectal temperature at 6- hours post-treatment compared to pre-treatment. The Draxxin® KP-treated group had a significantly different (P=0.0020) and numerically higher success rate (76.2%) for the treatment of BRD compared to the saline-treated group (31.6%), and the success rate in the Draxxin® KP-treated group was statistically non-inferior to that in the group receiving tulathromycin alone. The success rate (back-transformed estimate) for pyrexia associated with BRD in the Draxxin® KP-treated group was significantly different (P=0.0010) and numerically higher (83.8%) at 6 hours post-treatment than the success rate in the saline-treated group (2.4%). The success rate (back-transformed estimate) for pyrexia associated with BRD in the Draxxin® KP-treated group was significantly different (P=0.0032) and numerically higher (83.9%) at 6 hours post-treatment than the success rate in the tulathromycin-treated group (5.4%). A sufficient number of <content styleCode="italics">Mannheimia haemolytica, Pasteurella multocida, Histophilus somni,</content> and <content styleCode="italics">Mycoplasma bovis </content>were isolated from cattle in the study to demonstrate that these BRD pathogens were contributing to the observed disease.</paragraph>
+               </text>
+               <effectiveTime value="20260406"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_2c1f0614-3070-4c50-9124-fb7b42f6e4d6">
+               <id root="31c7943f-cb47-4d30-87d4-935967862f3d"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>DRAXXIN KP Injection is available in the following package sizes:<br/>50 mL vial<br/>100 mL vial<br/>250 mL vial<br/>500 mL vial<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260406"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_043180b1-ffea-4397-b479-429fdd20e836">
+               <id root="897bc9fa-c3a3-4731-a541-66e20543efd3"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <title>STORAGE CONDITIONS</title>
+               <text>
+                  <paragraph>Store at or below 25°C (77°F), with excursions up to 40°C (104°F). Protect from freezing.</paragraph>
+               </text>
+               <effectiveTime value="20260406"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_281a78d6-f6df-4937-8fed-5de8d9e65636">
+               <id root="725f352f-3565-448e-92b0-ef547e32fe1a"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>APPROVED BY FDA under NADA # 141-543<br/>
+                     <br/>
+                     <content styleCode="bold">zoetis</content>
+                     <br/>
+                     <br/>
+Distributed by:<br/>
+Zoetis Inc.<br/>
+Kalamazoo, MI 49007<br/>
+                     <br/>
+Product of Spain<br/>
+                     <br/>
+October 2024<br/>
+                     <br/>
+40035963</paragraph>
+               </text>
+               <effectiveTime value="20260406"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_cbff1bf6-cb27-4f9d-bb83-4d754d763211">
+               <id root="28a8aefc-bb98-4474-bf0c-1240ea81f5b1"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 50 mL Carton</title>
+               <text>
+                  <renderMultiMedia referencedObject="MM3"/>
+                  <paragraph>40028877</paragraph>
+               </text>
+               <effectiveTime value="20260406"/>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>50 mL Carton</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="draxxin-kp-3.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_492e5a91-f671-496c-b541-da8a785e5898">
+               <id root="67e5290f-ac62-4350-ac98-10467aeda657"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 100 mL Carton</title>
+               <text>
+                  <renderMultiMedia referencedObject="MM4"/>
+                  <paragraph>40035967</paragraph>
+               </text>
+               <effectiveTime value="20260406"/>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>100 mL Carton</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="draxxin-kp-4.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_6a8b3055-a4c9-40d1-b800-332cf46614e9">
+               <id root="8a06e6c9-9109-45ab-b9e2-8fc0de8c7e9b"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 250 mL Carton</title>
+               <text>
+                  <renderMultiMedia referencedObject="MM5"/>
+                  <paragraph>40028874</paragraph>
+               </text>
+               <effectiveTime value="20260406"/>
+               <component>
+                  <observationMedia ID="MM5">
+                     <text>250 mL Carton</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="draxxin-kp-5.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_c94d4b9a-09ee-4642-a0ba-60744cae0562">
+               <id root="8dd64a3d-e8a4-4c36-8220-e95801861bfd"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 500 mL Carton</title>
+               <text>
+                  <renderMultiMedia referencedObject="MM6"/>
+                  <paragraph>40028869</paragraph>
+               </text>
+               <effectiveTime value="20260406"/>
+               <component>
+                  <observationMedia ID="MM6">
+                     <text>500 mL Carton</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="draxxin-kp-6.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

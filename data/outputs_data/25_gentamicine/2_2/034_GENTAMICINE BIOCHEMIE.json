@@ -1,0 +1,63 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 25,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "GENTAMICINE BIOCHEMIE",
+  "brand": "GENTAMICINE BIOCHEMIE",
+  "dci": "GENTAMICINE SULFATE EXPRIMEE EN GENTAMICINE",
+  "dci_code": "13 A 005",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "SOL.INJ.",
+  "dosage": "80MG/2ML",
+  "conditionnement": "B/5",
+  "reg_number": "080/13 A 005/98",
+  "reg_status": "I",
+  "reg_type": "GE",
+  "prescription_list": "LISTE I",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": null,
+  "date_enr_initial": "1998-01-26",
+  "date_enr_final": "1998-01-26",
+  "updated_at": "2026-09-08T13:17:04.435867+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "GENTAMICINE SULFATE EXPRIMEE EN GENTAMICINE"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : SOL.INJ.\nDosage : 80MG/2ML\nConditionnement : B/5"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 080/13 A 005/98\nStatut : I | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True"
+    }
+  ],
+  "text": "Composition / DCI\nGENTAMICINE SULFATE EXPRIMEE EN GENTAMICINE\n\nPrésentation\nForme pharmaceutique : SOL.INJ.\nDosage : 80MG/2ML\nConditionnement : B/5\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 080/13 A 005/98\nStatut : I | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True",
+  "ingredients": [
+    "GENTAMICINE SULFATE EXPRIMEE EN GENTAMICINE",
+    "Dosage : 80MG/2ML"
+  ],
+  "source_rank": 2
+}

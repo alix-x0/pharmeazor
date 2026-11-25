@@ -1,0 +1,70 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 7,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "MELOX",
+  "brand": "MELOX",
+  "dci": "MELOXICAM",
+  "dci_code": "04 B 060",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "COMPRIME",
+  "dosage": "7,5MG",
+  "conditionnement": "B/10 - B/100*",
+  "reg_number": "178/04 B 060/09/16",
+  "reg_status": "I",
+  "reg_type": "GE",
+  "prescription_list": "LISTE I",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": "B/100 RESERVEE AUX HÔPITAUX",
+  "date_enr_initial": "2009-12-06",
+  "date_enr_final": "2017-03-12",
+  "updated_at": "2026-09-08T13:09:02.971166+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "MELOXICAM"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : COMPRIME\nDosage : 7,5MG\nConditionnement : B/10 - B/100*"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 178/04 B 060/09/16\nStatut : I | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True"
+    },
+    {
+      "key": "observation",
+      "label": "Observations",
+      "number": null,
+      "title": "Observations",
+      "text": "B/100 RESERVEE AUX HÔPITAUX"
+    }
+  ],
+  "text": "Composition / DCI\nMELOXICAM\n\nPrésentation\nForme pharmaceutique : COMPRIME\nDosage : 7,5MG\nConditionnement : B/10 - B/100*\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 178/04 B 060/09/16\nStatut : I | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True\n\nObservations\nB/100 RESERVEE AUX HÔPITAUX",
+  "ingredients": [
+    "MELOXICAM",
+    "Dosage : 7,5MG"
+  ],
+  "source_rank": 2
+}

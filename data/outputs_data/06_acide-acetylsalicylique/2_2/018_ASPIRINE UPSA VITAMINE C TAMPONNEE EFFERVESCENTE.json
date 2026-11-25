@@ -1,0 +1,63 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 6,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "ASPIRINE UPSA VITAMINE C TAMPONNEE EFFERVESCENTE",
+  "brand": "ASPIRINE UPSA VITAMINE C TAMPONNEE EFFERVESCENTE",
+  "dci": "ACIDE ACETYLSALICYLIQUE/ACIDE ASCORBIQUE",
+  "dci_code": "03 A 033",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "COMPRIME EFFERVESSANT",
+  "dosage": "330MG/200MG",
+  "conditionnement": "B/20",
+  "reg_number": "201/03 A 033/00/22",
+  "reg_status": "F",
+  "reg_type": "RE",
+  "prescription_list": null,
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": null,
+  "date_enr_initial": "2000-07-26",
+  "date_enr_final": "2024-09-18",
+  "updated_at": "2026-08-25T17:25:40.935451+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "ACIDE ACETYLSALICYLIQUE/ACIDE ASCORBIQUE"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : COMPRIME EFFERVESSANT\nDosage : 330MG/200MG\nConditionnement : B/20"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 201/03 A 033/00/22\nStatut : F | Type : RE\nListe : None\nCircuit hospitalier : True | Circuit officiel : True"
+    }
+  ],
+  "text": "Composition / DCI\nACIDE ACETYLSALICYLIQUE/ACIDE ASCORBIQUE\n\nPrésentation\nForme pharmaceutique : COMPRIME EFFERVESSANT\nDosage : 330MG/200MG\nConditionnement : B/20\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 201/03 A 033/00/22\nStatut : F | Type : RE\nListe : None\nCircuit hospitalier : True | Circuit officiel : True",
+  "ingredients": [
+    "ACIDE ACETYLSALICYLIQUE/ACIDE ASCORBIQUE",
+    "Dosage : 330MG/200MG"
+  ],
+  "source_rank": 2
+}

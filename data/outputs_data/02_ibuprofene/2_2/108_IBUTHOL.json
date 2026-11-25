@@ -1,0 +1,63 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 2,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "IBUTHOL",
+  "brand": "IBUTHOL",
+  "dci": "IBUPROFENE/LEVOMENTHOL",
+  "dci_code": "21 A 069",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "GEL",
+  "dosage": "5G/3G POUR 100G",
+  "conditionnement": "TUBE DE 50G",
+  "reg_number": "149/21 A 069/16/24",
+  "reg_status": "F",
+  "reg_type": "GE",
+  "prescription_list": null,
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": null,
+  "date_enr_initial": "2016-10-19",
+  "date_enr_final": "2024-10-14",
+  "updated_at": "2026-08-25T17:25:40.935451+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "IBUPROFENE/LEVOMENTHOL"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : GEL\nDosage : 5G/3G POUR 100G\nConditionnement : TUBE DE 50G"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 149/21 A 069/16/24\nStatut : F | Type : GE\nListe : None\nCircuit hospitalier : True | Circuit officiel : True"
+    }
+  ],
+  "text": "Composition / DCI\nIBUPROFENE/LEVOMENTHOL\n\nPrésentation\nForme pharmaceutique : GEL\nDosage : 5G/3G POUR 100G\nConditionnement : TUBE DE 50G\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 149/21 A 069/16/24\nStatut : F | Type : GE\nListe : None\nCircuit hospitalier : True | Circuit officiel : True",
+  "ingredients": [
+    "IBUPROFENE/LEVOMENTHOL",
+    "Dosage : 5G/3G POUR 100G"
+  ],
+  "source_rank": 2
+}

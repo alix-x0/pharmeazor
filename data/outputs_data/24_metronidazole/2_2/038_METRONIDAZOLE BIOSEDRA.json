@@ -1,0 +1,70 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 24,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "METRONIDAZOLE BIOSEDRA",
+  "brand": "METRONIDAZOLE BIOSEDRA",
+  "dci": "METRONIDAZOLE",
+  "dci_code": "13 F 038",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "SOL. INJ. PERF.IV",
+  "dosage": "500MG/100ML ( OU 0,5%)",
+  "conditionnement": "FL./100ML",
+  "reg_number": "332/13 F 038/08",
+  "reg_status": null,
+  "reg_type": null,
+  "prescription_list": "LISTE I",
+  "hospital_circuit": true,
+  "official_circuit": false,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": "FRESENIUS KABI FRANCE",
+  "date_enr_initial": null,
+  "date_enr_final": null,
+  "updated_at": "2026-09-08T13:09:02.971166+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "METRONIDAZOLE"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : SOL. INJ. PERF.IV\nDosage : 500MG/100ML ( OU 0,5%)\nConditionnement : FL./100ML"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 332/13 F 038/08\nStatut : None | Type : None\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : False"
+    },
+    {
+      "key": "observation",
+      "label": "Observations",
+      "number": null,
+      "title": "Observations",
+      "text": "FRESENIUS KABI FRANCE"
+    }
+  ],
+  "text": "Composition / DCI\nMETRONIDAZOLE\n\nPrésentation\nForme pharmaceutique : SOL. INJ. PERF.IV\nDosage : 500MG/100ML ( OU 0,5%)\nConditionnement : FL./100ML\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 332/13 F 038/08\nStatut : None | Type : None\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : False\n\nObservations\nFRESENIUS KABI FRANCE",
+  "ingredients": [
+    "METRONIDAZOLE",
+    "Dosage : 500MG/100ML ( OU 0,5%)"
+  ],
+  "source_rank": 2
+}

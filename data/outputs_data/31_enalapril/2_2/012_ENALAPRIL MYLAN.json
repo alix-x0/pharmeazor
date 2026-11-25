@@ -1,0 +1,63 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 31,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "ENALAPRIL MYLAN",
+  "brand": "ENALAPRIL MYLAN",
+  "dci": "ENALAPRIL MALEATE",
+  "dci_code": "06 E 060",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "COMPRIME SECABLE",
+  "dosage": "20MG",
+  "conditionnement": "B/28",
+  "reg_number": "450/06 E 060/06/12",
+  "reg_status": "I",
+  "reg_type": "GE",
+  "prescription_list": "LISTE I",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": null,
+  "date_enr_initial": "2006-08-05",
+  "date_enr_final": "2012-11-08",
+  "updated_at": "2026-09-08T13:05:21.226204+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "ENALAPRIL MALEATE"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : COMPRIME SECABLE\nDosage : 20MG\nConditionnement : B/28"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 450/06 E 060/06/12\nStatut : I | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True"
+    }
+  ],
+  "text": "Composition / DCI\nENALAPRIL MALEATE\n\nPrésentation\nForme pharmaceutique : COMPRIME SECABLE\nDosage : 20MG\nConditionnement : B/28\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 450/06 E 060/06/12\nStatut : I | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True",
+  "ingredients": [
+    "ENALAPRIL MALEATE",
+    "Dosage : 20MG"
+  ],
+  "source_rank": 2
+}

@@ -1,0 +1,63 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 33,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "CO SARTEG",
+  "brand": "CO SARTEG",
+  "dci": "VALSARTAN/HYDROCHLOROTHIAZIDE",
+  "dci_code": "06 E 238",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "COMPRIME PELLICULE",
+  "dosage": "160MG/25MG",
+  "conditionnement": "B/30",
+  "reg_number": "352/06 E 238/11/24",
+  "reg_status": "F",
+  "reg_type": "GE",
+  "prescription_list": "LISTE I",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": 2190.0,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": null,
+  "date_enr_initial": "2011-11-21",
+  "date_enr_final": "2024-07-09",
+  "updated_at": "2026-09-03T03:01:44.1537+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "VALSARTAN/HYDROCHLOROTHIAZIDE"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : COMPRIME PELLICULE\nDosage : 160MG/25MG\nConditionnement : B/30"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 352/06 E 238/11/24\nStatut : F | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True"
+    }
+  ],
+  "text": "Composition / DCI\nVALSARTAN/HYDROCHLOROTHIAZIDE\n\nPrésentation\nForme pharmaceutique : COMPRIME PELLICULE\nDosage : 160MG/25MG\nConditionnement : B/30\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 352/06 E 238/11/24\nStatut : F | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True",
+  "ingredients": [
+    "VALSARTAN/HYDROCHLOROTHIAZIDE",
+    "Dosage : 160MG/25MG"
+  ],
+  "source_rank": 2
+}

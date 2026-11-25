@@ -1,0 +1,63 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 15,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "ISIOCEF",
+  "brand": "ISIOCEF",
+  "dci": "CEFIXIME",
+  "dci_code": "13 B 309",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "PDRE. SUSP. BUV.",
+  "dosage": "50MG/5ML",
+  "conditionnement": "FL/30ML",
+  "reg_number": "321/13 B 309/06",
+  "reg_status": "I",
+  "reg_type": "GE",
+  "prescription_list": "LISTE I",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": null,
+  "date_enr_initial": "2006-12-02",
+  "date_enr_final": "2006-12-02",
+  "updated_at": "2026-09-08T13:09:02.971166+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "CEFIXIME"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : PDRE. SUSP. BUV.\nDosage : 50MG/5ML\nConditionnement : FL/30ML"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 321/13 B 309/06\nStatut : I | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True"
+    }
+  ],
+  "text": "Composition / DCI\nCEFIXIME\n\nPrésentation\nForme pharmaceutique : PDRE. SUSP. BUV.\nDosage : 50MG/5ML\nConditionnement : FL/30ML\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 321/13 B 309/06\nStatut : I | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True",
+  "ingredients": [
+    "CEFIXIME",
+    "Dosage : 50MG/5ML"
+  ],
+  "source_rank": 2
+}

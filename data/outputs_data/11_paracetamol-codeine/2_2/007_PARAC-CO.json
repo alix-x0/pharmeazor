@@ -1,0 +1,63 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 11,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "PARAC-CO",
+  "brand": "PARAC-CO",
+  "dci": "PARACETAMOL/CODEINE PHOSPHATE HEMIHYDRATE",
+  "dci_code": "03 B 026",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "COMPRIME",
+  "dosage": "400MG/20MG",
+  "conditionnement": "B/20",
+  "reg_number": "077/03 B 026/17/23",
+  "reg_status": "F",
+  "reg_type": "GE",
+  "prescription_list": "LISTE I",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": null,
+  "date_enr_initial": "2017-01-17",
+  "date_enr_final": "2023-10-09",
+  "updated_at": "2026-08-31T22:39:12.986884+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "PARACETAMOL/CODEINE PHOSPHATE HEMIHYDRATE"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : COMPRIME\nDosage : 400MG/20MG\nConditionnement : B/20"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 077/03 B 026/17/23\nStatut : F | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True"
+    }
+  ],
+  "text": "Composition / DCI\nPARACETAMOL/CODEINE PHOSPHATE HEMIHYDRATE\n\nPrésentation\nForme pharmaceutique : COMPRIME\nDosage : 400MG/20MG\nConditionnement : B/20\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 077/03 B 026/17/23\nStatut : F | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True",
+  "ingredients": [
+    "PARACETAMOL/CODEINE PHOSPHATE HEMIHYDRATE",
+    "Dosage : 400MG/20MG"
+  ],
+  "source_rank": 2
+}

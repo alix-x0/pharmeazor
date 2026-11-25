@@ -1,0 +1,70 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 4,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "PROFENID",
+  "brand": "PROFENID",
+  "dci": "KETOPROFENE",
+  "dci_code": "21 A 032",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "GEL",
+  "dosage": "0.025",
+  "conditionnement": "T/60G",
+  "reg_number": "016/21 A 032/99/14",
+  "reg_status": null,
+  "reg_type": null,
+  "prescription_list": "LISTE II",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": "RHONE POULENC RORER SPECIA",
+  "date_enr_initial": null,
+  "date_enr_final": null,
+  "updated_at": "2026-09-01T00:13:15.948443+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "KETOPROFENE"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : GEL\nDosage : 0.025\nConditionnement : T/60G"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 016/21 A 032/99/14\nStatut : None | Type : None\nListe : LISTE II\nCircuit hospitalier : True | Circuit officiel : True"
+    },
+    {
+      "key": "observation",
+      "label": "Observations",
+      "number": null,
+      "title": "Observations",
+      "text": "RHONE POULENC RORER SPECIA"
+    }
+  ],
+  "text": "Composition / DCI\nKETOPROFENE\n\nPrésentation\nForme pharmaceutique : GEL\nDosage : 0.025\nConditionnement : T/60G\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 016/21 A 032/99/14\nStatut : None | Type : None\nListe : LISTE II\nCircuit hospitalier : True | Circuit officiel : True\n\nObservations\nRHONE POULENC RORER SPECIA",
+  "ingredients": [
+    "KETOPROFENE",
+    "Dosage : 0.025"
+  ],
+  "source_rank": 2
+}

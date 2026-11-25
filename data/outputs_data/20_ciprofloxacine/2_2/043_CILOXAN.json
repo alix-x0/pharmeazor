@@ -1,0 +1,63 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 20,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "CILOXAN",
+  "brand": "CILOXAN",
+  "dci": "CIPROFLOXACINE CHLORHYDRATE EXPRIME EN CIPROFLOXACINE",
+  "dci_code": "17 D 151",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "POMMADE OPHTALMIQUE",
+  "dosage": "0,003",
+  "conditionnement": "T/3,5G",
+  "reg_number": "028/17 D 151/08/16",
+  "reg_status": "I",
+  "reg_type": "RE",
+  "prescription_list": "LISTE I",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": null,
+  "date_enr_initial": "2009-01-06",
+  "date_enr_final": "2016-09-11",
+  "updated_at": "2026-09-08T13:17:04.435867+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "CIPROFLOXACINE CHLORHYDRATE EXPRIME EN CIPROFLOXACINE"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : POMMADE OPHTALMIQUE\nDosage : 0,003\nConditionnement : T/3,5G"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 028/17 D 151/08/16\nStatut : I | Type : RE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True"
+    }
+  ],
+  "text": "Composition / DCI\nCIPROFLOXACINE CHLORHYDRATE EXPRIME EN CIPROFLOXACINE\n\nPrésentation\nForme pharmaceutique : POMMADE OPHTALMIQUE\nDosage : 0,003\nConditionnement : T/3,5G\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 028/17 D 151/08/16\nStatut : I | Type : RE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True",
+  "ingredients": [
+    "CIPROFLOXACINE CHLORHYDRATE EXPRIME EN CIPROFLOXACINE",
+    "Dosage : 0,003"
+  ],
+  "source_rank": 2
+}

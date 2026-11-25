@@ -1,0 +1,63 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 27,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "AMLORIDAL",
+  "brand": "AMLORIDAL",
+  "dci": "AMLODIPINE BESILATE EXPRIME EN AMLODIPINE",
+  "dci_code": "06 B 123",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "GLES.",
+  "dosage": "5MG",
+  "conditionnement": "B/30",
+  "reg_number": "003/06 B 123/09",
+  "reg_status": "F",
+  "reg_type": "GE",
+  "prescription_list": "LISTE I",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": 557.0,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": null,
+  "date_enr_initial": "2009-04-06",
+  "date_enr_final": "2009-04-06",
+  "updated_at": "2026-09-08T13:05:21.226204+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "AMLODIPINE BESILATE EXPRIME EN AMLODIPINE"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : GLES.\nDosage : 5MG\nConditionnement : B/30"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 003/06 B 123/09\nStatut : F | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True"
+    }
+  ],
+  "text": "Composition / DCI\nAMLODIPINE BESILATE EXPRIME EN AMLODIPINE\n\nPrésentation\nForme pharmaceutique : GLES.\nDosage : 5MG\nConditionnement : B/30\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 003/06 B 123/09\nStatut : F | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True",
+  "ingredients": [
+    "AMLODIPINE BESILATE EXPRIME EN AMLODIPINE",
+    "Dosage : 5MG"
+  ],
+  "source_rank": 2
+}

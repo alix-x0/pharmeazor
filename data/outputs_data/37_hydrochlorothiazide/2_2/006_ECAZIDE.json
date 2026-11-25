@@ -1,0 +1,63 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 37,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "ECAZIDE",
+  "brand": "ECAZIDE",
+  "dci": "CAPTOPRIL/HYDROCHLOROTHIAZIDE",
+  "dci_code": "06 E 137",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "COMPRIME SECABLE",
+  "dosage": "50MG/25MG",
+  "conditionnement": "B/28 ET B/30",
+  "reg_number": "017/06 E 137/99/16",
+  "reg_status": "F",
+  "reg_type": "RE",
+  "prescription_list": "LISTE I",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": null,
+  "date_enr_initial": "1999-05-09",
+  "date_enr_final": "2016-09-05",
+  "updated_at": "2026-09-08T13:30:28.926502+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "CAPTOPRIL/HYDROCHLOROTHIAZIDE"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : COMPRIME SECABLE\nDosage : 50MG/25MG\nConditionnement : B/28 ET B/30"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 017/06 E 137/99/16\nStatut : F | Type : RE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True"
+    }
+  ],
+  "text": "Composition / DCI\nCAPTOPRIL/HYDROCHLOROTHIAZIDE\n\nPrésentation\nForme pharmaceutique : COMPRIME SECABLE\nDosage : 50MG/25MG\nConditionnement : B/28 ET B/30\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 017/06 E 137/99/16\nStatut : F | Type : RE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True",
+  "ingredients": [
+    "CAPTOPRIL/HYDROCHLOROTHIAZIDE",
+    "Dosage : 50MG/25MG"
+  ],
+  "source_rank": 2
+}

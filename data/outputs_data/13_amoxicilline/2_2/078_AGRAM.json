@@ -1,0 +1,70 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 13,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "AGRAM",
+  "brand": "AGRAM",
+  "dci": "AMOXICILLINE TRIHYDRATE EXPRIME EN AMOXICILLINE",
+  "dci_code": "13 G 047",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "PDRE. P.SUSP.BUV.",
+  "dosage": "250MG/5ML",
+  "conditionnement": "FL/60ML",
+  "reg_number": "099/13 G 047/98",
+  "reg_status": null,
+  "reg_type": null,
+  "prescription_list": "LISTE I",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": "PIERRE FABRE",
+  "date_enr_initial": null,
+  "date_enr_final": null,
+  "updated_at": "2026-09-01T00:01:23.908809+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "AMOXICILLINE TRIHYDRATE EXPRIME EN AMOXICILLINE"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : PDRE. P.SUSP.BUV.\nDosage : 250MG/5ML\nConditionnement : FL/60ML"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 099/13 G 047/98\nStatut : None | Type : None\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True"
+    },
+    {
+      "key": "observation",
+      "label": "Observations",
+      "number": null,
+      "title": "Observations",
+      "text": "PIERRE FABRE"
+    }
+  ],
+  "text": "Composition / DCI\nAMOXICILLINE TRIHYDRATE EXPRIME EN AMOXICILLINE\n\nPrésentation\nForme pharmaceutique : PDRE. P.SUSP.BUV.\nDosage : 250MG/5ML\nConditionnement : FL/60ML\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 099/13 G 047/98\nStatut : None | Type : None\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True\n\nObservations\nPIERRE FABRE",
+  "ingredients": [
+    "AMOXICILLINE TRIHYDRATE EXPRIME EN AMOXICILLINE",
+    "Dosage : 250MG/5ML"
+  ],
+  "source_rank": 2
+}

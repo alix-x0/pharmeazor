@@ -1,0 +1,63 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 27,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "PRATIMA AM",
+  "brand": "PRATIMA AM",
+  "dci": "AMLODIPINE BESILATE (AMLODIPINE)/PERINDOPRIL ARGININE (PERINDOPRIL)",
+  "dci_code": "06 E 322",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "COMPRIME",
+  "dosage": "10MG/10MG",
+  "conditionnement": "B/30",
+  "reg_number": "001/06 E 322/24",
+  "reg_status": "F",
+  "reg_type": "GE",
+  "prescription_list": "LISTE I",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": null,
+  "date_enr_initial": "2024-09-04",
+  "date_enr_final": "2025-05-19",
+  "updated_at": "2026-08-25T17:25:40.935451+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "AMLODIPINE BESILATE (AMLODIPINE)/PERINDOPRIL ARGININE (PERINDOPRIL)"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : COMPRIME\nDosage : 10MG/10MG\nConditionnement : B/30"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 001/06 E 322/24\nStatut : F | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True"
+    }
+  ],
+  "text": "Composition / DCI\nAMLODIPINE BESILATE (AMLODIPINE)/PERINDOPRIL ARGININE (PERINDOPRIL)\n\nPrésentation\nForme pharmaceutique : COMPRIME\nDosage : 10MG/10MG\nConditionnement : B/30\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 001/06 E 322/24\nStatut : F | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True",
+  "ingredients": [
+    "AMLODIPINE BESILATE (AMLODIPINE)/PERINDOPRIL ARGININE (PERINDOPRIL)",
+    "Dosage : 10MG/10MG"
+  ],
+  "source_rank": 2
+}

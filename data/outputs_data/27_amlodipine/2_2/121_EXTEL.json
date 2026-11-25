@@ -1,0 +1,63 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 27,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "EXTEL",
+  "brand": "EXTEL",
+  "dci": "TELMISARTAN/ AMLODIPINE",
+  "dci_code": "06 E 338",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "COMPRIME",
+  "dosage": "80 MG / 10 MG",
+  "conditionnement": "BOITE DE 30",
+  "reg_number": "352/06 E 338/22",
+  "reg_status": "F",
+  "reg_type": "GE",
+  "prescription_list": "LISTE I",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": 1500.0,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": null,
+  "date_enr_initial": "2022-12-29",
+  "date_enr_final": "2022-12-29",
+  "updated_at": "2026-09-03T02:37:42.328911+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "TELMISARTAN/ AMLODIPINE"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : COMPRIME\nDosage : 80 MG / 10 MG\nConditionnement : BOITE DE 30"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 352/06 E 338/22\nStatut : F | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True"
+    }
+  ],
+  "text": "Composition / DCI\nTELMISARTAN/ AMLODIPINE\n\nPrésentation\nForme pharmaceutique : COMPRIME\nDosage : 80 MG / 10 MG\nConditionnement : BOITE DE 30\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 352/06 E 338/22\nStatut : F | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True",
+  "ingredients": [
+    "TELMISARTAN/ AMLODIPINE",
+    "Dosage : 80 MG / 10 MG"
+  ],
+  "source_rank": 2
+}

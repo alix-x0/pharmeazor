@@ -1,0 +1,70 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 6,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "CATALGINE ADULT",
+  "brand": "CATALGINE ADULT",
+  "dci": "ACIDE ACETYLSALICYLIQUE",
+  "dci_code": "03 A 003",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "PDRE ORALE SACHET",
+  "dosage": "500MG",
+  "conditionnement": "B/20",
+  "reg_number": "204/03 A 003/96",
+  "reg_status": null,
+  "reg_type": null,
+  "prescription_list": null,
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": "FRILAB S.A.",
+  "date_enr_initial": null,
+  "date_enr_final": null,
+  "updated_at": "2026-08-31T20:57:30.235716+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "ACIDE ACETYLSALICYLIQUE"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : PDRE ORALE SACHET\nDosage : 500MG\nConditionnement : B/20"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 204/03 A 003/96\nStatut : None | Type : None\nListe : None\nCircuit hospitalier : True | Circuit officiel : True"
+    },
+    {
+      "key": "observation",
+      "label": "Observations",
+      "number": null,
+      "title": "Observations",
+      "text": "FRILAB S.A."
+    }
+  ],
+  "text": "Composition / DCI\nACIDE ACETYLSALICYLIQUE\n\nPrésentation\nForme pharmaceutique : PDRE ORALE SACHET\nDosage : 500MG\nConditionnement : B/20\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 204/03 A 003/96\nStatut : None | Type : None\nListe : None\nCircuit hospitalier : True | Circuit officiel : True\n\nObservations\nFRILAB S.A.",
+  "ingredients": [
+    "ACIDE ACETYLSALICYLIQUE",
+    "Dosage : 500MG"
+  ],
+  "source_rank": 2
+}

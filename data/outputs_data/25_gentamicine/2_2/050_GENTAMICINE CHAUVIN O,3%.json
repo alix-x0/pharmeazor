@@ -1,0 +1,70 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 25,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "GENTAMICINE CHAUVIN O,3%",
+  "brand": "GENTAMICINE CHAUVIN O,3%",
+  "dci": "GENTAMICINE** (SOUS FORME DE SULFATE)",
+  "dci_code": "17 D 020",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "COLLY.",
+  "dosage": "0.003",
+  "conditionnement": "FL/5ML",
+  "reg_number": "096/17 D 020/98",
+  "reg_status": null,
+  "reg_type": null,
+  "prescription_list": "LISTE I",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": "CHAUVIN",
+  "date_enr_initial": null,
+  "date_enr_final": null,
+  "updated_at": "2026-08-31T20:12:31.151417+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "GENTAMICINE** (SOUS FORME DE SULFATE)"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : COLLY.\nDosage : 0.003\nConditionnement : FL/5ML"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 096/17 D 020/98\nStatut : None | Type : None\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True"
+    },
+    {
+      "key": "observation",
+      "label": "Observations",
+      "number": null,
+      "title": "Observations",
+      "text": "CHAUVIN"
+    }
+  ],
+  "text": "Composition / DCI\nGENTAMICINE** (SOUS FORME DE SULFATE)\n\nPrésentation\nForme pharmaceutique : COLLY.\nDosage : 0.003\nConditionnement : FL/5ML\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 096/17 D 020/98\nStatut : None | Type : None\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True\n\nObservations\nCHAUVIN",
+  "ingredients": [
+    "GENTAMICINE** (SOUS FORME DE SULFATE)",
+    "Dosage : 0.003"
+  ],
+  "source_rank": 2
+}

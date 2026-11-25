@@ -1,0 +1,63 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 24,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "LIMENDA",
+  "brand": "LIMENDA",
+  "dci": "METRONIDAZOLE/MICONAZOLE NITRATE",
+  "dci_code": "11 A 090",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "OVULE",
+  "dosage": "750MG/200MG",
+  "conditionnement": "B/7OVULES ET 7 DOIGTIERS",
+  "reg_number": "521/11 A 090/20/26",
+  "reg_status": "I",
+  "reg_type": "GE",
+  "prescription_list": "LISTE I",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": null,
+  "date_enr_initial": "2020-10-05",
+  "date_enr_final": "2026-01-27",
+  "updated_at": "2026-08-25T17:25:40.935451+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "METRONIDAZOLE/MICONAZOLE NITRATE"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : OVULE\nDosage : 750MG/200MG\nConditionnement : B/7OVULES ET 7 DOIGTIERS"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 521/11 A 090/20/26\nStatut : I | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True"
+    }
+  ],
+  "text": "Composition / DCI\nMETRONIDAZOLE/MICONAZOLE NITRATE\n\nPrésentation\nForme pharmaceutique : OVULE\nDosage : 750MG/200MG\nConditionnement : B/7OVULES ET 7 DOIGTIERS\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 521/11 A 090/20/26\nStatut : I | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True",
+  "ingredients": [
+    "METRONIDAZOLE/MICONAZOLE NITRATE",
+    "Dosage : 750MG/200MG"
+  ],
+  "source_rank": 2
+}

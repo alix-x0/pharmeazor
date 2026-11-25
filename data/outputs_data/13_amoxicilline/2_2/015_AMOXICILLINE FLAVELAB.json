@@ -1,0 +1,70 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 13,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "AMOXICILLINE FLAVELAB",
+  "brand": "AMOXICILLINE FLAVELAB",
+  "dci": "AMOXICILLINE SODIQUE",
+  "dci_code": "13 G 043",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "PDRE.SOL.INJ.",
+  "dosage": "1G",
+  "conditionnement": "B/1+1",
+  "reg_number": "144/13 G 043/98",
+  "reg_status": null,
+  "reg_type": null,
+  "prescription_list": "LISTE I",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": "FLAVELAB",
+  "date_enr_initial": null,
+  "date_enr_final": null,
+  "updated_at": "2026-08-31T20:57:30.235716+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "AMOXICILLINE SODIQUE"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : PDRE.SOL.INJ.\nDosage : 1G\nConditionnement : B/1+1"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 144/13 G 043/98\nStatut : None | Type : None\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True"
+    },
+    {
+      "key": "observation",
+      "label": "Observations",
+      "number": null,
+      "title": "Observations",
+      "text": "FLAVELAB"
+    }
+  ],
+  "text": "Composition / DCI\nAMOXICILLINE SODIQUE\n\nPrésentation\nForme pharmaceutique : PDRE.SOL.INJ.\nDosage : 1G\nConditionnement : B/1+1\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 144/13 G 043/98\nStatut : None | Type : None\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True\n\nObservations\nFLAVELAB",
+  "ingredients": [
+    "AMOXICILLINE SODIQUE",
+    "Dosage : 1G"
+  ],
+  "source_rank": 2
+}

@@ -1,0 +1,70 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 6,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "ASPIRINE UPSA 500",
+  "brand": "ASPIRINE UPSA 500",
+  "dci": "ACIDE ACETYLSALICYLIQUE",
+  "dci_code": "03 A 005",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "COMP. EFFER.",
+  "dosage": "500MG",
+  "conditionnement": "B/20",
+  "reg_number": "017/03 A 005/96",
+  "reg_status": null,
+  "reg_type": null,
+  "prescription_list": null,
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": "BRISTOL MYERS SQUIBB",
+  "date_enr_initial": null,
+  "date_enr_final": null,
+  "updated_at": "2026-08-31T20:12:31.151417+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "ACIDE ACETYLSALICYLIQUE"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : COMP. EFFER.\nDosage : 500MG\nConditionnement : B/20"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 017/03 A 005/96\nStatut : None | Type : None\nListe : None\nCircuit hospitalier : True | Circuit officiel : True"
+    },
+    {
+      "key": "observation",
+      "label": "Observations",
+      "number": null,
+      "title": "Observations",
+      "text": "BRISTOL MYERS SQUIBB"
+    }
+  ],
+  "text": "Composition / DCI\nACIDE ACETYLSALICYLIQUE\n\nPrésentation\nForme pharmaceutique : COMP. EFFER.\nDosage : 500MG\nConditionnement : B/20\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 017/03 A 005/96\nStatut : None | Type : None\nListe : None\nCircuit hospitalier : True | Circuit officiel : True\n\nObservations\nBRISTOL MYERS SQUIBB",
+  "ingredients": [
+    "ACIDE ACETYLSALICYLIQUE",
+    "Dosage : 500MG"
+  ],
+  "source_rank": 2
+}

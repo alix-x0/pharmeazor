@@ -1,0 +1,63 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 8,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "PAINOXAM",
+  "brand": "PAINOXAM",
+  "dci": "PIROXICAM",
+  "dci_code": "04 B 023",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "SUPPOSITOIRE",
+  "dosage": "20MG",
+  "conditionnement": "B/15",
+  "reg_number": "263/04 B 023/06/24",
+  "reg_status": "F",
+  "reg_type": "GE",
+  "prescription_list": "LISTE I",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": null,
+  "date_enr_initial": "2006-04-08",
+  "date_enr_final": "2024-12-04",
+  "updated_at": "2026-09-08T13:21:18.371704+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "PIROXICAM"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : SUPPOSITOIRE\nDosage : 20MG\nConditionnement : B/15"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 263/04 B 023/06/24\nStatut : F | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True"
+    }
+  ],
+  "text": "Composition / DCI\nPIROXICAM\n\nPrésentation\nForme pharmaceutique : SUPPOSITOIRE\nDosage : 20MG\nConditionnement : B/15\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 263/04 B 023/06/24\nStatut : F | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True",
+  "ingredients": [
+    "PIROXICAM",
+    "Dosage : 20MG"
+  ],
+  "source_rank": 2
+}

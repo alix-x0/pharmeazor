@@ -1,0 +1,63 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 9,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "CELECOXIB PHYSIOPHARM",
+  "brand": "CELECOXIB PHYSIOPHARM",
+  "dci": "CELECOXIB",
+  "dci_code": "04 B 036",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "GELULE",
+  "dosage": "200MG",
+  "conditionnement": "B/10 ET B/30",
+  "reg_number": "462/04 B 036/20",
+  "reg_status": "F",
+  "reg_type": "GE",
+  "prescription_list": "LISTE I",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": 546.0,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": null,
+  "date_enr_initial": "2020-10-25",
+  "date_enr_final": "2024-12-29",
+  "updated_at": "2026-09-03T02:27:22.850382+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "CELECOXIB"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : GELULE\nDosage : 200MG\nConditionnement : B/10 ET B/30"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 462/04 B 036/20\nStatut : F | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True"
+    }
+  ],
+  "text": "Composition / DCI\nCELECOXIB\n\nPrésentation\nForme pharmaceutique : GELULE\nDosage : 200MG\nConditionnement : B/10 ET B/30\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 462/04 B 036/20\nStatut : F | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True",
+  "ingredients": [
+    "CELECOXIB",
+    "Dosage : 200MG"
+  ],
+  "source_rank": 2
+}

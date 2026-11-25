@@ -1,0 +1,63 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 1,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "THYNORES PLUS ENFANT",
+  "brand": "THYNORES PLUS ENFANT",
+  "dci": "TENOATE DE SODIUM/HUILE ESSENTIELLE D'EUCALYPTUS/PARACETAMOL",
+  "dci_code": "20 C 119",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "SUPPOSITOIRE",
+  "dosage": "130MG/75MG/300MG",
+  "conditionnement": "B/10",
+  "reg_number": "366/20 C 119/09",
+  "reg_status": "F",
+  "reg_type": "GE",
+  "prescription_list": null,
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": null,
+  "date_enr_initial": "2009-12-30",
+  "date_enr_final": "2009-12-30",
+  "updated_at": "2026-09-08T13:14:02.962565+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "TENOATE DE SODIUM/HUILE ESSENTIELLE D'EUCALYPTUS/PARACETAMOL"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : SUPPOSITOIRE\nDosage : 130MG/75MG/300MG\nConditionnement : B/10"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 366/20 C 119/09\nStatut : F | Type : GE\nListe : None\nCircuit hospitalier : True | Circuit officiel : True"
+    }
+  ],
+  "text": "Composition / DCI\nTENOATE DE SODIUM/HUILE ESSENTIELLE D'EUCALYPTUS/PARACETAMOL\n\nPrésentation\nForme pharmaceutique : SUPPOSITOIRE\nDosage : 130MG/75MG/300MG\nConditionnement : B/10\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 366/20 C 119/09\nStatut : F | Type : GE\nListe : None\nCircuit hospitalier : True | Circuit officiel : True",
+  "ingredients": [
+    "TENOATE DE SODIUM/HUILE ESSENTIELLE D'EUCALYPTUS/PARACETAMOL",
+    "Dosage : 130MG/75MG/300MG"
+  ],
+  "source_rank": 2
+}

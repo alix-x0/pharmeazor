@@ -1,0 +1,63 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 1,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "PEDIAMOL",
+  "brand": "PEDIAMOL",
+  "dci": "PARACETAMOL",
+  "dci_code": "03 B 061",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "SOLUTION BUVABLE",
+  "dosage": "0,03",
+  "conditionnement": "FL./125ML+ SERINGUE GRADUEE EN KG-ML",
+  "reg_number": "077/03 B 061/03/23",
+  "reg_status": "F",
+  "reg_type": "GE",
+  "prescription_list": null,
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": null,
+  "date_enr_initial": "2003-10-06",
+  "date_enr_final": "2023-04-12",
+  "updated_at": "2026-09-08T13:21:18.371704+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "PARACETAMOL"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : SOLUTION BUVABLE\nDosage : 0,03\nConditionnement : FL./125ML+ SERINGUE GRADUEE EN KG-ML"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 077/03 B 061/03/23\nStatut : F | Type : GE\nListe : None\nCircuit hospitalier : True | Circuit officiel : True"
+    }
+  ],
+  "text": "Composition / DCI\nPARACETAMOL\n\nPrésentation\nForme pharmaceutique : SOLUTION BUVABLE\nDosage : 0,03\nConditionnement : FL./125ML+ SERINGUE GRADUEE EN KG-ML\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 077/03 B 061/03/23\nStatut : F | Type : GE\nListe : None\nCircuit hospitalier : True | Circuit officiel : True",
+  "ingredients": [
+    "PARACETAMOL",
+    "Dosage : 0,03"
+  ],
+  "source_rank": 2
+}

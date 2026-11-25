@@ -1,0 +1,70 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 3,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "COMAX",
+  "brand": "COMAX",
+  "dci": "DICLOFENAC SODIQUE",
+  "dci_code": "04 B 005",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "COMP",
+  "dosage": "25MG",
+  "conditionnement": "B/30",
+  "reg_number": "225/04 B 005/99",
+  "reg_status": null,
+  "reg_type": null,
+  "prescription_list": "LISTE II",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": "JAZEERA PHARMACEUTICAL INDUSTRIES",
+  "date_enr_initial": null,
+  "date_enr_final": null,
+  "updated_at": "2026-08-31T21:23:09.1639+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "DICLOFENAC SODIQUE"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : COMP\nDosage : 25MG\nConditionnement : B/30"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 225/04 B 005/99\nStatut : None | Type : None\nListe : LISTE II\nCircuit hospitalier : True | Circuit officiel : True"
+    },
+    {
+      "key": "observation",
+      "label": "Observations",
+      "number": null,
+      "title": "Observations",
+      "text": "JAZEERA PHARMACEUTICAL INDUSTRIES"
+    }
+  ],
+  "text": "Composition / DCI\nDICLOFENAC SODIQUE\n\nPrésentation\nForme pharmaceutique : COMP\nDosage : 25MG\nConditionnement : B/30\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 225/04 B 005/99\nStatut : None | Type : None\nListe : LISTE II\nCircuit hospitalier : True | Circuit officiel : True\n\nObservations\nJAZEERA PHARMACEUTICAL INDUSTRIES",
+  "ingredients": [
+    "DICLOFENAC SODIQUE",
+    "Dosage : 25MG"
+  ],
+  "source_rank": 2
+}

@@ -1,0 +1,70 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 18,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "ZETRON",
+  "brand": "ZETRON",
+  "dci": "AZITHROMYCINE DIHYDRATEE EXPRIMEE EN AZITHROMYCINE",
+  "dci_code": "13 E 177",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "SUSP. ORALE",
+  "dosage": "40MG/ML** (200MG/5ML ET 300MG/7,5ML)**",
+  "conditionnement": "B/1FL. DE 15ML (200MG/5ML) ET B/1FL. DE 22,5ML (300MG/7,5ML)",
+  "reg_number": "352/13 E 177/06",
+  "reg_status": null,
+  "reg_type": null,
+  "prescription_list": "LISTE I",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": "EL KENDI INDUSTRIE DU MEDICAMENT SARL",
+  "date_enr_initial": null,
+  "date_enr_final": null,
+  "updated_at": "2026-08-31T20:38:27.413726+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "AZITHROMYCINE DIHYDRATEE EXPRIMEE EN AZITHROMYCINE"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : SUSP. ORALE\nDosage : 40MG/ML** (200MG/5ML ET 300MG/7,5ML)**\nConditionnement : B/1FL. DE 15ML (200MG/5ML) ET B/1FL. DE 22,5ML (300MG/7,5ML)"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 352/13 E 177/06\nStatut : None | Type : None\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True"
+    },
+    {
+      "key": "observation",
+      "label": "Observations",
+      "number": null,
+      "title": "Observations",
+      "text": "EL KENDI INDUSTRIE DU MEDICAMENT SARL"
+    }
+  ],
+  "text": "Composition / DCI\nAZITHROMYCINE DIHYDRATEE EXPRIMEE EN AZITHROMYCINE\n\nPrésentation\nForme pharmaceutique : SUSP. ORALE\nDosage : 40MG/ML** (200MG/5ML ET 300MG/7,5ML)**\nConditionnement : B/1FL. DE 15ML (200MG/5ML) ET B/1FL. DE 22,5ML (300MG/7,5ML)\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 352/13 E 177/06\nStatut : None | Type : None\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True\n\nObservations\nEL KENDI INDUSTRIE DU MEDICAMENT SARL",
+  "ingredients": [
+    "AZITHROMYCINE DIHYDRATEE EXPRIMEE EN AZITHROMYCINE",
+    "Dosage : 40MG/ML** (200MG/5ML ET 300MG/7,5ML)**"
+  ],
+  "source_rank": 2
+}

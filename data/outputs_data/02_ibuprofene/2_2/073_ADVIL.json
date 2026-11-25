@@ -1,0 +1,70 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 2,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "ADVIL",
+  "brand": "ADVIL",
+  "dci": "IBUPROFENE",
+  "dci_code": "04 B 042",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "SUSP.BUV.",
+  "dosage": "20MG/ML",
+  "conditionnement": "FL.200ML",
+  "reg_number": "342/04 B 042/07",
+  "reg_status": null,
+  "reg_type": null,
+  "prescription_list": "LISTE I",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": "WYETH SANTE FAMILIALE FRANCE",
+  "date_enr_initial": null,
+  "date_enr_final": null,
+  "updated_at": "2026-09-01T01:01:51.041915+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "IBUPROFENE"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : SUSP.BUV.\nDosage : 20MG/ML\nConditionnement : FL.200ML"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 342/04 B 042/07\nStatut : None | Type : None\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True"
+    },
+    {
+      "key": "observation",
+      "label": "Observations",
+      "number": null,
+      "title": "Observations",
+      "text": "WYETH SANTE FAMILIALE FRANCE"
+    }
+  ],
+  "text": "Composition / DCI\nIBUPROFENE\n\nPrésentation\nForme pharmaceutique : SUSP.BUV.\nDosage : 20MG/ML\nConditionnement : FL.200ML\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 342/04 B 042/07\nStatut : None | Type : None\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True\n\nObservations\nWYETH SANTE FAMILIALE FRANCE",
+  "ingredients": [
+    "IBUPROFENE",
+    "Dosage : 20MG/ML"
+  ],
+  "source_rank": 2
+}

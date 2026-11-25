@@ -1,0 +1,63 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 10,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "TRAMADIS",
+  "brand": "TRAMADIS",
+  "dci": "TRAMADOL CHLORHYDRATE (TRAMADOL)",
+  "dci_code": "03 F 111",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "SOLUTION INJECTABLE IV/ POUR PERFUSION IV",
+  "dosage": "50MG/ML (100MG/2ML)",
+  "conditionnement": "B/05 AMP. DE 2ML",
+  "reg_number": "317/03 F 111/12/22",
+  "reg_status": "F",
+  "reg_type": "GE",
+  "prescription_list": "LISTE I",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": null,
+  "date_enr_initial": "2012-04-19",
+  "date_enr_final": "2022-12-29",
+  "updated_at": "2026-09-08T13:21:18.371704+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "TRAMADOL CHLORHYDRATE (TRAMADOL)"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : SOLUTION INJECTABLE IV/ POUR PERFUSION IV\nDosage : 50MG/ML (100MG/2ML)\nConditionnement : B/05 AMP. DE 2ML"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 317/03 F 111/12/22\nStatut : F | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True"
+    }
+  ],
+  "text": "Composition / DCI\nTRAMADOL CHLORHYDRATE (TRAMADOL)\n\nPrésentation\nForme pharmaceutique : SOLUTION INJECTABLE IV/ POUR PERFUSION IV\nDosage : 50MG/ML (100MG/2ML)\nConditionnement : B/05 AMP. DE 2ML\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 317/03 F 111/12/22\nStatut : F | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True",
+  "ingredients": [
+    "TRAMADOL CHLORHYDRATE (TRAMADOL)",
+    "Dosage : 50MG/ML (100MG/2ML)"
+  ],
+  "source_rank": 2
+}

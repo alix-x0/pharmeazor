@@ -1,0 +1,63 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 1,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "FERVEX",
+  "brand": "FERVEX",
+  "dci": "PARACETAMOL/ACIDE ASCORBIQUE/MALEATE DE PHENIRAMINE",
+  "dci_code": "22 A 033",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "GRANULE POUR SOLUTION BUVABLE EN SACHETS-DOSE",
+  "dosage": "0,5G/0,2G/0,025G/SACH.DE 13,1G",
+  "conditionnement": "BOITE DE 08 SACHETS",
+  "reg_number": "008/22 A 033/08/16",
+  "reg_status": "I",
+  "reg_type": "RE",
+  "prescription_list": null,
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": null,
+  "date_enr_initial": "2008-02-23",
+  "date_enr_final": "2017-11-05",
+  "updated_at": "2026-09-08T13:14:02.962565+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "PARACETAMOL/ACIDE ASCORBIQUE/MALEATE DE PHENIRAMINE"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : GRANULE POUR SOLUTION BUVABLE EN SACHETS-DOSE\nDosage : 0,5G/0,2G/0,025G/SACH.DE 13,1G\nConditionnement : BOITE DE 08 SACHETS"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 008/22 A 033/08/16\nStatut : I | Type : RE\nListe : None\nCircuit hospitalier : True | Circuit officiel : True"
+    }
+  ],
+  "text": "Composition / DCI\nPARACETAMOL/ACIDE ASCORBIQUE/MALEATE DE PHENIRAMINE\n\nPrésentation\nForme pharmaceutique : GRANULE POUR SOLUTION BUVABLE EN SACHETS-DOSE\nDosage : 0,5G/0,2G/0,025G/SACH.DE 13,1G\nConditionnement : BOITE DE 08 SACHETS\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 008/22 A 033/08/16\nStatut : I | Type : RE\nListe : None\nCircuit hospitalier : True | Circuit officiel : True",
+  "ingredients": [
+    "PARACETAMOL/ACIDE ASCORBIQUE/MALEATE DE PHENIRAMINE",
+    "Dosage : 0,5G/0,2G/0,025G/SACH.DE 13,1G"
+  ],
+  "source_rank": 2
+}

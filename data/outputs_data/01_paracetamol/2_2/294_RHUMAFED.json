@@ -1,0 +1,63 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 1,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "RHUMAFED",
+  "brand": "RHUMAFED",
+  "dci": "TRIPROLIDINE (CHLORHYDRATE)/PSEUDIEPHEDRINE (CHLORHYDRATE)/PARACETAMOL",
+  "dci_code": "22 A 002",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "SOL .BUV.",
+  "dosage": "1,25MG/25MG/125MG/5ML**",
+  "conditionnement": "FL/100ML",
+  "reg_number": "003/22 A 002/00/09",
+  "reg_status": "F",
+  "reg_type": "GE",
+  "prescription_list": null,
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": null,
+  "date_enr_initial": "2000-11-25",
+  "date_enr_final": "2009-07-19",
+  "updated_at": "2026-09-08T13:14:02.962565+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "TRIPROLIDINE (CHLORHYDRATE)/PSEUDIEPHEDRINE (CHLORHYDRATE)/PARACETAMOL"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : SOL .BUV.\nDosage : 1,25MG/25MG/125MG/5ML**\nConditionnement : FL/100ML"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 003/22 A 002/00/09\nStatut : F | Type : GE\nListe : None\nCircuit hospitalier : True | Circuit officiel : True"
+    }
+  ],
+  "text": "Composition / DCI\nTRIPROLIDINE (CHLORHYDRATE)/PSEUDIEPHEDRINE (CHLORHYDRATE)/PARACETAMOL\n\nPrésentation\nForme pharmaceutique : SOL .BUV.\nDosage : 1,25MG/25MG/125MG/5ML**\nConditionnement : FL/100ML\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 003/22 A 002/00/09\nStatut : F | Type : GE\nListe : None\nCircuit hospitalier : True | Circuit officiel : True",
+  "ingredients": [
+    "TRIPROLIDINE (CHLORHYDRATE)/PSEUDIEPHEDRINE (CHLORHYDRATE)/PARACETAMOL",
+    "Dosage : 1,25MG/25MG/125MG/5ML**"
+  ],
+  "source_rank": 2
+}

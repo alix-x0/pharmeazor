@@ -1,0 +1,63 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 13,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "ULTIMOX",
+  "brand": "ULTIMOX",
+  "dci": "AMOXICILLINE TRIHYDRATE EXPRIME EN AMOXICILLINE/ACIDE CLAVULANIQUE SEL DE POTASSIUM EXPRIME EN ACIDE CLAVULANIQUE",
+  "dci_code": "13 G 050",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "COMP. PELLI. SEC.",
+  "dosage": "500MG/125MG",
+  "conditionnement": "B/12",
+  "reg_number": "321/13 G 050/06",
+  "reg_status": "F",
+  "reg_type": "GE",
+  "prescription_list": "LISTE I",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": null,
+  "date_enr_initial": "2006-07-26",
+  "date_enr_final": "2006-07-26",
+  "updated_at": "2026-09-08T13:09:02.971166+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "AMOXICILLINE TRIHYDRATE EXPRIME EN AMOXICILLINE/ACIDE CLAVULANIQUE SEL DE POTASSIUM EXPRIME EN ACIDE CLAVULANIQUE"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : COMP. PELLI. SEC.\nDosage : 500MG/125MG\nConditionnement : B/12"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 321/13 G 050/06\nStatut : F | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True"
+    }
+  ],
+  "text": "Composition / DCI\nAMOXICILLINE TRIHYDRATE EXPRIME EN AMOXICILLINE/ACIDE CLAVULANIQUE SEL DE POTASSIUM EXPRIME EN ACIDE CLAVULANIQUE\n\nPrésentation\nForme pharmaceutique : COMP. PELLI. SEC.\nDosage : 500MG/125MG\nConditionnement : B/12\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 321/13 G 050/06\nStatut : F | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True",
+  "ingredients": [
+    "AMOXICILLINE TRIHYDRATE EXPRIME EN AMOXICILLINE/ACIDE CLAVULANIQUE SEL DE POTASSIUM EXPRIME EN ACIDE CLAVULANIQUE",
+    "Dosage : 500MG/125MG"
+  ],
+  "source_rank": 2
+}

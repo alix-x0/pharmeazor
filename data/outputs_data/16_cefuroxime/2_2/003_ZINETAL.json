@@ -1,0 +1,63 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 16,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "ZINETAL",
+  "brand": "ZINETAL",
+  "dci": "CEFUROXIME AXETIL EXPRIME EN CEFUROXIME",
+  "dci_code": "13 B 208",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "COMPRIME PELLICULE",
+  "dosage": "250MG",
+  "conditionnement": "B/14",
+  "reg_number": "039/13 B 208/18/24",
+  "reg_status": "F",
+  "reg_type": "GE",
+  "prescription_list": "LISTE I",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": null,
+  "date_enr_initial": "2018-10-09",
+  "date_enr_final": "2024-06-30",
+  "updated_at": "2026-08-25T17:25:40.935451+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "CEFUROXIME AXETIL EXPRIME EN CEFUROXIME"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : COMPRIME PELLICULE\nDosage : 250MG\nConditionnement : B/14"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 039/13 B 208/18/24\nStatut : F | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True"
+    }
+  ],
+  "text": "Composition / DCI\nCEFUROXIME AXETIL EXPRIME EN CEFUROXIME\n\nPrésentation\nForme pharmaceutique : COMPRIME PELLICULE\nDosage : 250MG\nConditionnement : B/14\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 039/13 B 208/18/24\nStatut : F | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True",
+  "ingredients": [
+    "CEFUROXIME AXETIL EXPRIME EN CEFUROXIME",
+    "Dosage : 250MG"
+  ],
+  "source_rank": 2
+}

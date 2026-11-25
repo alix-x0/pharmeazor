@@ -1,0 +1,63 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 29,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "BIPRETERAX ARGININE",
+  "brand": "BIPRETERAX ARGININE",
+  "dci": "PERINDOPRIL ARGININE/INDAPAMIDE",
+  "dci_code": "06 E 329",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "COMPRIME PELLICULE",
+  "dosage": "10MG/2,5MG",
+  "conditionnement": "PILULIRER/30",
+  "reg_number": "040/06 E 329/20/25",
+  "reg_status": "F",
+  "reg_type": "RE",
+  "prescription_list": "LISTE I",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": null,
+  "date_enr_initial": "2020-01-08",
+  "date_enr_final": "2025-01-30",
+  "updated_at": "2026-08-25T17:25:40.935451+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "PERINDOPRIL ARGININE/INDAPAMIDE"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : COMPRIME PELLICULE\nDosage : 10MG/2,5MG\nConditionnement : PILULIRER/30"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 040/06 E 329/20/25\nStatut : F | Type : RE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True"
+    }
+  ],
+  "text": "Composition / DCI\nPERINDOPRIL ARGININE/INDAPAMIDE\n\nPrésentation\nForme pharmaceutique : COMPRIME PELLICULE\nDosage : 10MG/2,5MG\nConditionnement : PILULIRER/30\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 040/06 E 329/20/25\nStatut : F | Type : RE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True",
+  "ingredients": [
+    "PERINDOPRIL ARGININE/INDAPAMIDE",
+    "Dosage : 10MG/2,5MG"
+  ],
+  "source_rank": 2
+}

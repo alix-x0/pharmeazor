@@ -1,0 +1,63 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 13,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "AMOXICILLINE EG",
+  "brand": "AMOXICILLINE EG",
+  "dci": "AMOXICILLINE TRIHYDRATEE EXPRIME EN AMOXICILLINE",
+  "dci_code": "13 G 220",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "POUDRE POUR SOLUTION BUVABLE",
+  "dosage": "500MG/5ML",
+  "conditionnement": "BOITE DE 01 FLACON DE 60ML",
+  "reg_number": "380/13 G 220/07/13",
+  "reg_status": "F",
+  "reg_type": "GE",
+  "prescription_list": "LISTE I",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": null,
+  "date_enr_initial": "2007-07-09",
+  "date_enr_final": "2013-03-05",
+  "updated_at": "2026-09-08T13:09:02.971166+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "AMOXICILLINE TRIHYDRATEE EXPRIME EN AMOXICILLINE"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : POUDRE POUR SOLUTION BUVABLE\nDosage : 500MG/5ML\nConditionnement : BOITE DE 01 FLACON DE 60ML"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 380/13 G 220/07/13\nStatut : F | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True"
+    }
+  ],
+  "text": "Composition / DCI\nAMOXICILLINE TRIHYDRATEE EXPRIME EN AMOXICILLINE\n\nPrésentation\nForme pharmaceutique : POUDRE POUR SOLUTION BUVABLE\nDosage : 500MG/5ML\nConditionnement : BOITE DE 01 FLACON DE 60ML\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 380/13 G 220/07/13\nStatut : F | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True",
+  "ingredients": [
+    "AMOXICILLINE TRIHYDRATEE EXPRIME EN AMOXICILLINE",
+    "Dosage : 500MG/5ML"
+  ],
+  "source_rank": 2
+}

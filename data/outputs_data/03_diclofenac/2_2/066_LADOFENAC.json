@@ -1,0 +1,70 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 3,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "LADOFENAC",
+  "brand": "LADOFENAC",
+  "dci": "DICLOFENAC SODIQUE",
+  "dci_code": "04 B 006",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "COMP.",
+  "dosage": "50MG",
+  "conditionnement": "B/20",
+  "reg_number": "079/04 B 006/98",
+  "reg_status": null,
+  "reg_type": null,
+  "prescription_list": "LISTE II",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": "LABORATOIRE ALGERIEN DE DEVELOPPEMENT PHARMACEUTIQUE (LAD)",
+  "date_enr_initial": null,
+  "date_enr_final": null,
+  "updated_at": "2026-08-31T22:39:12.986884+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "DICLOFENAC SODIQUE"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : COMP.\nDosage : 50MG\nConditionnement : B/20"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 079/04 B 006/98\nStatut : None | Type : None\nListe : LISTE II\nCircuit hospitalier : True | Circuit officiel : True"
+    },
+    {
+      "key": "observation",
+      "label": "Observations",
+      "number": null,
+      "title": "Observations",
+      "text": "LABORATOIRE ALGERIEN DE DEVELOPPEMENT PHARMACEUTIQUE (LAD)"
+    }
+  ],
+  "text": "Composition / DCI\nDICLOFENAC SODIQUE\n\nPrésentation\nForme pharmaceutique : COMP.\nDosage : 50MG\nConditionnement : B/20\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 079/04 B 006/98\nStatut : None | Type : None\nListe : LISTE II\nCircuit hospitalier : True | Circuit officiel : True\n\nObservations\nLABORATOIRE ALGERIEN DE DEVELOPPEMENT PHARMACEUTIQUE (LAD)",
+  "ingredients": [
+    "DICLOFENAC SODIQUE",
+    "Dosage : 50MG"
+  ],
+  "source_rank": 2
+}

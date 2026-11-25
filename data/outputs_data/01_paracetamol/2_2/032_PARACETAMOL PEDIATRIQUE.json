@@ -1,0 +1,70 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 1,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "PARACETAMOL PEDIATRIQUE",
+  "brand": "PARACETAMOL PEDIATRIQUE",
+  "dci": "PARACETAMOL",
+  "dci_code": "03 B 006",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "SOL .BUV.",
+  "dosage": "120MG/5ML",
+  "conditionnement": "FL/120ML",
+  "reg_number": "082/03 B 006/97",
+  "reg_status": null,
+  "reg_type": null,
+  "prescription_list": null,
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": "BIOPHAR",
+  "date_enr_initial": null,
+  "date_enr_final": null,
+  "updated_at": "2026-08-31T19:58:28.622327+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "PARACETAMOL"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : SOL .BUV.\nDosage : 120MG/5ML\nConditionnement : FL/120ML"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 082/03 B 006/97\nStatut : None | Type : None\nListe : None\nCircuit hospitalier : True | Circuit officiel : True"
+    },
+    {
+      "key": "observation",
+      "label": "Observations",
+      "number": null,
+      "title": "Observations",
+      "text": "BIOPHAR"
+    }
+  ],
+  "text": "Composition / DCI\nPARACETAMOL\n\nPrésentation\nForme pharmaceutique : SOL .BUV.\nDosage : 120MG/5ML\nConditionnement : FL/120ML\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 082/03 B 006/97\nStatut : None | Type : None\nListe : None\nCircuit hospitalier : True | Circuit officiel : True\n\nObservations\nBIOPHAR",
+  "ingredients": [
+    "PARACETAMOL",
+    "Dosage : 120MG/5ML"
+  ],
+  "source_rank": 2
+}

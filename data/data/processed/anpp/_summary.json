@@ -1,0 +1,380 @@
+[
+  {
+    "drug_id": 1,
+    "name": "paracétamol",
+    "cards": 13,
+    "docs": 13,
+    "exact": 9,
+    "brands": [
+      "DOLIPRANE",
+      "DOLIPRANE 2,4%",
+      "DOLIRHUME",
+      "PANADOL 1G",
+      "PANADOL EXTRA",
+      "PANADOL RHUME + GRIPPE",
+      "RYNZA",
+      "XAMADOL"
+    ]
+  },
+  {
+    "drug_id": 2,
+    "name": "ibuprofène",
+    "cards": 1,
+    "docs": 1,
+    "exact": 1,
+    "brands": [
+      "GELFEN 5%"
+    ]
+  },
+  {
+    "drug_id": 3,
+    "name": "diclofénac",
+    "cards": 6,
+    "docs": 6,
+    "exact": 6,
+    "brands": [
+      "BIOFENAC",
+      "BIOFENAC FAST",
+      "BIOFENAC LP"
+    ]
+  },
+  {
+    "drug_id": 4,
+    "name": "kétoprofène",
+    "cards": 1,
+    "docs": 1,
+    "exact": 1,
+    "brands": [
+      "KOPROFEN"
+    ]
+  },
+  {
+    "drug_id": 5,
+    "name": "naproxène",
+    "cards": 0,
+    "docs": 0,
+    "exact": 0,
+    "brands": []
+  },
+  {
+    "drug_id": 6,
+    "name": "acide acétylsalicylique",
+    "cards": 1,
+    "docs": 1,
+    "exact": 1,
+    "brands": [
+      "ASPIRINE CARDIO"
+    ]
+  },
+  {
+    "drug_id": 7,
+    "name": "méloxicam",
+    "cards": 0,
+    "docs": 0,
+    "exact": 0,
+    "brands": []
+  },
+  {
+    "drug_id": 8,
+    "name": "piroxicam",
+    "cards": 2,
+    "docs": 2,
+    "exact": 2,
+    "brands": [
+      "FENOXAM",
+      "PAINOXAM"
+    ]
+  },
+  {
+    "drug_id": 9,
+    "name": "célécoxib",
+    "cards": 2,
+    "docs": 2,
+    "exact": 2,
+    "brands": [
+      "CEBREX 100",
+      "CEBREX 200"
+    ]
+  },
+  {
+    "drug_id": 10,
+    "name": "tramadol",
+    "cards": 1,
+    "docs": 1,
+    "exact": 0,
+    "brands": [
+      "XAMADOL"
+    ]
+  },
+  {
+    "drug_id": 11,
+    "name": "paracétamol + codéine",
+    "cards": 13,
+    "docs": 13,
+    "exact": 9,
+    "brands": [
+      "DOLIPRANE",
+      "DOLIPRANE 2,4%",
+      "DOLIRHUME",
+      "PANADOL 1G",
+      "PANADOL EXTRA",
+      "PANADOL RHUME + GRIPPE",
+      "RYNZA",
+      "XAMADOL"
+    ]
+  },
+  {
+    "drug_id": 12,
+    "name": "néfopam",
+    "cards": 0,
+    "docs": 0,
+    "exact": 0,
+    "brands": []
+  },
+  {
+    "drug_id": 13,
+    "name": "amoxicilline",
+    "cards": 0,
+    "docs": 0,
+    "exact": 0,
+    "brands": []
+  },
+  {
+    "drug_id": 14,
+    "name": "amoxicilline + acide clavulanique",
+    "cards": 0,
+    "docs": 0,
+    "exact": 0,
+    "brands": []
+  },
+  {
+    "drug_id": 15,
+    "name": "céfixime",
+    "cards": 0,
+    "docs": 0,
+    "exact": 0,
+    "brands": []
+  },
+  {
+    "drug_id": 16,
+    "name": "céfuroxime",
+    "cards": 0,
+    "docs": 0,
+    "exact": 0,
+    "brands": []
+  },
+  {
+    "drug_id": 17,
+    "name": "ceftriaxone",
+    "cards": 0,
+    "docs": 0,
+    "exact": 0,
+    "brands": []
+  },
+  {
+    "drug_id": 18,
+    "name": "azithromycine",
+    "cards": 0,
+    "docs": 0,
+    "exact": 0,
+    "brands": []
+  },
+  {
+    "drug_id": 19,
+    "name": "clarithromycine",
+    "cards": 0,
+    "docs": 0,
+    "exact": 0,
+    "brands": []
+  },
+  {
+    "drug_id": 20,
+    "name": "ciprofloxacine",
+    "cards": 1,
+    "docs": 1,
+    "exact": 1,
+    "brands": [
+      "CIPROFLOXACINE BEKER"
+    ]
+  },
+  {
+    "drug_id": 21,
+    "name": "lévofloxacine",
+    "cards": 0,
+    "docs": 0,
+    "exact": 0,
+    "brands": []
+  },
+  {
+    "drug_id": 22,
+    "name": "doxycycline",
+    "cards": 0,
+    "docs": 0,
+    "exact": 0,
+    "brands": []
+  },
+  {
+    "drug_id": 23,
+    "name": "cotrimoxazole (sulfaméthoxazole + triméthoprime)",
+    "cards": 0,
+    "docs": 0,
+    "exact": 0,
+    "brands": []
+  },
+  {
+    "drug_id": 24,
+    "name": "métronidazole",
+    "cards": 4,
+    "docs": 4,
+    "exact": 4,
+    "brands": [
+      "BIODAZOLE",
+      "BISPIRADENT",
+      "FLAGYL",
+      "SPIRADENT"
+    ]
+  },
+  {
+    "drug_id": 25,
+    "name": "gentamicine",
+    "cards": 0,
+    "docs": 0,
+    "exact": 0,
+    "brands": []
+  },
+  {
+    "drug_id": 26,
+    "name": "clindamycine",
+    "cards": 0,
+    "docs": 0,
+    "exact": 0,
+    "brands": []
+  },
+  {
+    "drug_id": 27,
+    "name": "amlodipine",
+    "cards": 6,
+    "docs": 6,
+    "exact": 2,
+    "brands": [
+      "EXFORGE",
+      "MIBRAL",
+      "MIBRAVAL"
+    ]
+  },
+  {
+    "drug_id": 28,
+    "name": "nifédipine",
+    "cards": 0,
+    "docs": 0,
+    "exact": 0,
+    "brands": []
+  },
+  {
+    "drug_id": 29,
+    "name": "périndopril",
+    "cards": 0,
+    "docs": 0,
+    "exact": 0,
+    "brands": []
+  },
+  {
+    "drug_id": 30,
+    "name": "ramipril",
+    "cards": 0,
+    "docs": 0,
+    "exact": 0,
+    "brands": []
+  },
+  {
+    "drug_id": 31,
+    "name": "énalapril",
+    "cards": 0,
+    "docs": 0,
+    "exact": 0,
+    "brands": []
+  },
+  {
+    "drug_id": 32,
+    "name": "losartan",
+    "cards": 2,
+    "docs": 2,
+    "exact": 2,
+    "brands": [
+      "LAZARTAN"
+    ]
+  },
+  {
+    "drug_id": 33,
+    "name": "valsartan",
+    "cards": 4,
+    "docs": 4,
+    "exact": 0,
+    "brands": [
+      "EXFORGE",
+      "MIBRAVAL"
+    ]
+  },
+  {
+    "drug_id": 34,
+    "name": "bisoprolol",
+    "cards": 2,
+    "docs": 2,
+    "exact": 2,
+    "brands": [
+      "CARDENSIEL",
+      "DETENSIEL"
+    ]
+  },
+  {
+    "drug_id": 35,
+    "name": "aténolol",
+    "cards": 0,
+    "docs": 0,
+    "exact": 0,
+    "brands": []
+  },
+  {
+    "drug_id": 36,
+    "name": "nébivolol",
+    "cards": 0,
+    "docs": 0,
+    "exact": 0,
+    "brands": []
+  },
+  {
+    "drug_id": 37,
+    "name": "hydrochlorothiazide",
+    "cards": 3,
+    "docs": 3,
+    "exact": 0,
+    "brands": [
+      "CO-IRBEZART",
+      "CO-IRBEZART 300MG+12.5MG"
+    ]
+  },
+  {
+    "drug_id": 38,
+    "name": "indapamide",
+    "cards": 0,
+    "docs": 0,
+    "exact": 0,
+    "brands": []
+  },
+  {
+    "drug_id": 39,
+    "name": "spironolactone",
+    "cards": 0,
+    "docs": 0,
+    "exact": 0,
+    "brands": []
+  },
+  {
+    "drug_id": 40,
+    "name": "méthyldopa",
+    "cards": 0,
+    "docs": 0,
+    "exact": 0,
+    "brands": []
+  }
+]

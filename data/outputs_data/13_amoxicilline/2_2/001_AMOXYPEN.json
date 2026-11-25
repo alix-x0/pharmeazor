@@ -1,0 +1,70 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 13,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "AMOXYPEN",
+  "brand": "AMOXYPEN",
+  "dci": "AMOXICILLINE SODIQUE (AMOXICILLINE)",
+  "dci_code": "13 G 042",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "POUDRE EN SOLUTION INJECTABLE",
+  "dosage": "500MG/FL. DE PDRE.",
+  "conditionnement": "1 FLACON DE POUDRE+1 AMPOULE/5ML DE SOLVANT(ALCOOL BENZYLIQUE 3%) (IM)+50 FLACON DE POUDRE SANS SOLVANT (IM/IV)",
+  "reg_number": "003/13 G 042/99/16",
+  "reg_status": "F",
+  "reg_type": "GE",
+  "prescription_list": "LISTE I",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": "B/50 RESERVEE AUX HOPITAUX",
+  "date_enr_initial": "1999-01-12",
+  "date_enr_final": "2021-09-20",
+  "updated_at": "2026-09-08T13:09:02.971166+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "AMOXICILLINE SODIQUE (AMOXICILLINE)"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : POUDRE EN SOLUTION INJECTABLE\nDosage : 500MG/FL. DE PDRE.\nConditionnement : 1 FLACON DE POUDRE+1 AMPOULE/5ML DE SOLVANT(ALCOOL BENZYLIQUE 3%) (IM)+50 FLACON DE POUDRE SANS SOLVANT (IM/IV)"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 003/13 G 042/99/16\nStatut : F | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True"
+    },
+    {
+      "key": "observation",
+      "label": "Observations",
+      "number": null,
+      "title": "Observations",
+      "text": "B/50 RESERVEE AUX HOPITAUX"
+    }
+  ],
+  "text": "Composition / DCI\nAMOXICILLINE SODIQUE (AMOXICILLINE)\n\nPrésentation\nForme pharmaceutique : POUDRE EN SOLUTION INJECTABLE\nDosage : 500MG/FL. DE PDRE.\nConditionnement : 1 FLACON DE POUDRE+1 AMPOULE/5ML DE SOLVANT(ALCOOL BENZYLIQUE 3%) (IM)+50 FLACON DE POUDRE SANS SOLVANT (IM/IV)\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 003/13 G 042/99/16\nStatut : F | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True\n\nObservations\nB/50 RESERVEE AUX HOPITAUX",
+  "ingredients": [
+    "AMOXICILLINE SODIQUE (AMOXICILLINE)",
+    "Dosage : 500MG/FL. DE PDRE."
+  ],
+  "source_rank": 2
+}

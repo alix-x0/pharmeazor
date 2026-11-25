@@ -1,0 +1,63 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 17,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "CEFAXONE",
+  "brand": "CEFAXONE",
+  "dci": "CEFTRIAXONE SODIQUE EXPRIME EN CEFTRIAXONE",
+  "dci_code": "13 B 019",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "PDRE.ET SOLV. SOL. IV",
+  "dosage": "100MG/ML (1000MG/10ML)",
+  "conditionnement": "B/1FL. PDRE. + 1AMP. DE SOLV. DE 10ML",
+  "reg_number": "023/13 B 019/08",
+  "reg_status": "I",
+  "reg_type": "GE",
+  "prescription_list": "LISTE I",
+  "hospital_circuit": true,
+  "official_circuit": false,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": null,
+  "date_enr_initial": "2008-03-23",
+  "date_enr_final": "2008-03-23",
+  "updated_at": "2026-09-08T13:17:04.435867+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "CEFTRIAXONE SODIQUE EXPRIME EN CEFTRIAXONE"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : PDRE.ET SOLV. SOL. IV\nDosage : 100MG/ML (1000MG/10ML)\nConditionnement : B/1FL. PDRE. + 1AMP. DE SOLV. DE 10ML"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 023/13 B 019/08\nStatut : I | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : False"
+    }
+  ],
+  "text": "Composition / DCI\nCEFTRIAXONE SODIQUE EXPRIME EN CEFTRIAXONE\n\nPrésentation\nForme pharmaceutique : PDRE.ET SOLV. SOL. IV\nDosage : 100MG/ML (1000MG/10ML)\nConditionnement : B/1FL. PDRE. + 1AMP. DE SOLV. DE 10ML\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 023/13 B 019/08\nStatut : I | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : False",
+  "ingredients": [
+    "CEFTRIAXONE SODIQUE EXPRIME EN CEFTRIAXONE",
+    "Dosage : 100MG/ML (1000MG/10ML)"
+  ],
+  "source_rank": 2
+}

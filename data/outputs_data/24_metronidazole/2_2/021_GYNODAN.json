@@ -1,0 +1,63 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 24,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "GYNODAN",
+  "brand": "GYNODAN",
+  "dci": "METRONIDAZOLE/NEOMYCINE SULFATE/NYSTATINE",
+  "dci_code": "11 A 098",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "OVULE",
+  "dosage": "500MG/65000UI/100000UI",
+  "conditionnement": "B/10",
+  "reg_number": "263/11 A 098/26",
+  "reg_status": "F",
+  "reg_type": "GE",
+  "prescription_list": "LISTE I",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": null,
+  "date_enr_initial": "2026-03-30",
+  "date_enr_final": "2026-03-30",
+  "updated_at": "2026-08-25T17:25:40.935451+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "METRONIDAZOLE/NEOMYCINE SULFATE/NYSTATINE"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : OVULE\nDosage : 500MG/65000UI/100000UI\nConditionnement : B/10"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 263/11 A 098/26\nStatut : F | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True"
+    }
+  ],
+  "text": "Composition / DCI\nMETRONIDAZOLE/NEOMYCINE SULFATE/NYSTATINE\n\nPrésentation\nForme pharmaceutique : OVULE\nDosage : 500MG/65000UI/100000UI\nConditionnement : B/10\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 263/11 A 098/26\nStatut : F | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True",
+  "ingredients": [
+    "METRONIDAZOLE/NEOMYCINE SULFATE/NYSTATINE",
+    "Dosage : 500MG/65000UI/100000UI"
+  ],
+  "source_rank": 2
+}

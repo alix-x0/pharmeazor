@@ -1,0 +1,70 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 13,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "AMOXAL",
+  "brand": "AMOXAL",
+  "dci": "AMOXICILLINE SODIQUE",
+  "dci_code": "13 G 043",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "PDRE.SOL. INJ",
+  "dosage": "200MG/ML (OU 1G/5ML)",
+  "conditionnement": "B/1FL. DE PDRE.+1AMP. DE SOLV. 5ML",
+  "reg_number": "039/13 G 043/99/08",
+  "reg_status": null,
+  "reg_type": null,
+  "prescription_list": "LISTE I",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": "SOCIETE PHARMACEUTIQUE ALGERIENNE (SOPHAL)",
+  "date_enr_initial": null,
+  "date_enr_final": null,
+  "updated_at": "2026-09-08T13:09:02.971166+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "AMOXICILLINE SODIQUE"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : PDRE.SOL. INJ\nDosage : 200MG/ML (OU 1G/5ML)\nConditionnement : B/1FL. DE PDRE.+1AMP. DE SOLV. 5ML"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 039/13 G 043/99/08\nStatut : None | Type : None\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True"
+    },
+    {
+      "key": "observation",
+      "label": "Observations",
+      "number": null,
+      "title": "Observations",
+      "text": "SOCIETE PHARMACEUTIQUE ALGERIENNE (SOPHAL)"
+    }
+  ],
+  "text": "Composition / DCI\nAMOXICILLINE SODIQUE\n\nPrésentation\nForme pharmaceutique : PDRE.SOL. INJ\nDosage : 200MG/ML (OU 1G/5ML)\nConditionnement : B/1FL. DE PDRE.+1AMP. DE SOLV. 5ML\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 039/13 G 043/99/08\nStatut : None | Type : None\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True\n\nObservations\nSOCIETE PHARMACEUTIQUE ALGERIENNE (SOPHAL)",
+  "ingredients": [
+    "AMOXICILLINE SODIQUE",
+    "Dosage : 200MG/ML (OU 1G/5ML)"
+  ],
+  "source_rank": 2
+}

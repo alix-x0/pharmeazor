@@ -1,0 +1,63 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 29,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "PERINDOSYL",
+  "brand": "PERINDOSYL",
+  "dci": "PERINDOPRIL ERBUMINE",
+  "dci_code": "06 E 165",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "COMPRIME",
+  "dosage": "4MG",
+  "conditionnement": "B/30",
+  "reg_number": "352/06 E 165/16/22",
+  "reg_status": "F",
+  "reg_type": "GE",
+  "prescription_list": "LISTE I",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": null,
+  "date_enr_initial": "2016-07-26",
+  "date_enr_final": "2022-04-12",
+  "updated_at": "2026-08-25T17:25:40.935451+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "PERINDOPRIL ERBUMINE"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : COMPRIME\nDosage : 4MG\nConditionnement : B/30"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 352/06 E 165/16/22\nStatut : F | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True"
+    }
+  ],
+  "text": "Composition / DCI\nPERINDOPRIL ERBUMINE\n\nPrésentation\nForme pharmaceutique : COMPRIME\nDosage : 4MG\nConditionnement : B/30\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 352/06 E 165/16/22\nStatut : F | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True",
+  "ingredients": [
+    "PERINDOPRIL ERBUMINE",
+    "Dosage : 4MG"
+  ],
+  "source_rank": 2
+}

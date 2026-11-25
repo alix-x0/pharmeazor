@@ -1,0 +1,70 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 39,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "ALDACTAZINE",
+  "brand": "ALDACTAZINE",
+  "dci": "SPIRONOLACTONE / ALTIZIDE",
+  "dci_code": "06 H 096",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "COMPRIME PELLICULE SECABLE",
+  "dosage": "25MG/15MG",
+  "conditionnement": "B/30",
+  "reg_number": "045/06 H 096/97/16",
+  "reg_status": null,
+  "reg_type": null,
+  "prescription_list": "LISTE II",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": "PFIZER HOLDING FRANCE",
+  "date_enr_initial": null,
+  "date_enr_final": null,
+  "updated_at": "2026-09-08T13:14:02.962565+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "SPIRONOLACTONE / ALTIZIDE"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : COMPRIME PELLICULE SECABLE\nDosage : 25MG/15MG\nConditionnement : B/30"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 045/06 H 096/97/16\nStatut : None | Type : None\nListe : LISTE II\nCircuit hospitalier : True | Circuit officiel : True"
+    },
+    {
+      "key": "observation",
+      "label": "Observations",
+      "number": null,
+      "title": "Observations",
+      "text": "PFIZER HOLDING FRANCE"
+    }
+  ],
+  "text": "Composition / DCI\nSPIRONOLACTONE / ALTIZIDE\n\nPrésentation\nForme pharmaceutique : COMPRIME PELLICULE SECABLE\nDosage : 25MG/15MG\nConditionnement : B/30\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 045/06 H 096/97/16\nStatut : None | Type : None\nListe : LISTE II\nCircuit hospitalier : True | Circuit officiel : True\n\nObservations\nPFIZER HOLDING FRANCE",
+  "ingredients": [
+    "SPIRONOLACTONE / ALTIZIDE",
+    "Dosage : 25MG/15MG"
+  ],
+  "source_rank": 2
+}

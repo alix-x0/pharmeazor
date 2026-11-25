@@ -1,0 +1,63 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 18,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "ZOMAX",
+  "brand": "ZOMAX",
+  "dci": "AZITHROMYCINE DIHYDRATEE EXPRIMEE EN AZITHROMYCINE",
+  "dci_code": "13 E 177",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "POUDRE POUR SOLUTION BUVABLE",
+  "dosage": "200MG/5ML(40MG/ML)",
+  "conditionnement": "B/1FL. DE 15ML APRES RECONSTIT. (200MG/5ML)+UNE AMP. D'EAU PURIFIEE + UNE CUILLERE MESURE DE 5ML ET B/1FL. DE 22,5ML APRES RECONSTIT.(300MG/7,5ML)+UNE AMP. D'EAU PURIFIEE + UNE CUILLERE MESURE DE 5ML",
+  "reg_number": "001/13 E 177/05/21",
+  "reg_status": "F",
+  "reg_type": "GE",
+  "prescription_list": "LISTE I",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": null,
+  "date_enr_initial": "2005-11-20",
+  "date_enr_final": "2021-12-15",
+  "updated_at": "2026-08-25T17:25:40.935451+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "AZITHROMYCINE DIHYDRATEE EXPRIMEE EN AZITHROMYCINE"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : POUDRE POUR SOLUTION BUVABLE\nDosage : 200MG/5ML(40MG/ML)\nConditionnement : B/1FL. DE 15ML APRES RECONSTIT. (200MG/5ML)+UNE AMP. D'EAU PURIFIEE + UNE CUILLERE MESURE DE 5ML ET B/1FL. DE 22,5ML APRES RECONSTIT.(300MG/7,5ML)+UNE AMP. D'EAU PURIFIEE + UNE CUILLERE MESURE DE 5ML"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 001/13 E 177/05/21\nStatut : F | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True"
+    }
+  ],
+  "text": "Composition / DCI\nAZITHROMYCINE DIHYDRATEE EXPRIMEE EN AZITHROMYCINE\n\nPrésentation\nForme pharmaceutique : POUDRE POUR SOLUTION BUVABLE\nDosage : 200MG/5ML(40MG/ML)\nConditionnement : B/1FL. DE 15ML APRES RECONSTIT. (200MG/5ML)+UNE AMP. D'EAU PURIFIEE + UNE CUILLERE MESURE DE 5ML ET B/1FL. DE 22,5ML APRES RECONSTIT.(300MG/7,5ML)+UNE AMP. D'EAU PURIFIEE + UNE CUILLERE MESURE DE 5ML\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 001/13 E 177/05/21\nStatut : F | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True",
+  "ingredients": [
+    "AZITHROMYCINE DIHYDRATEE EXPRIMEE EN AZITHROMYCINE",
+    "Dosage : 200MG/5ML(40MG/ML)"
+  ],
+  "source_rank": 2
+}

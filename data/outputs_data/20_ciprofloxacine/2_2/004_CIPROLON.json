@@ -1,0 +1,70 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 20,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "CIPROLON",
+  "brand": "CIPROLON",
+  "dci": "CIPROFLOXACINE CHLORHYDRATE EXPRIME EN CIPROFLOXACINE",
+  "dci_code": "13 K 252",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "COMPRIME",
+  "dosage": "250MG",
+  "conditionnement": "B/10",
+  "reg_number": "001/13 K 252/02/09",
+  "reg_status": "F",
+  "reg_type": "GE",
+  "prescription_list": "LISTE I",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": "MEDICAMENT SOUMIS A PRESCRIPTION HOSPITALIERE",
+  "date_enr_initial": "2002-02-09",
+  "date_enr_final": "2009-04-05",
+  "updated_at": "2026-09-08T13:09:02.971166+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "CIPROFLOXACINE CHLORHYDRATE EXPRIME EN CIPROFLOXACINE"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : COMPRIME\nDosage : 250MG\nConditionnement : B/10"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 001/13 K 252/02/09\nStatut : F | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True"
+    },
+    {
+      "key": "observation",
+      "label": "Observations",
+      "number": null,
+      "title": "Observations",
+      "text": "MEDICAMENT SOUMIS A PRESCRIPTION HOSPITALIERE"
+    }
+  ],
+  "text": "Composition / DCI\nCIPROFLOXACINE CHLORHYDRATE EXPRIME EN CIPROFLOXACINE\n\nPrésentation\nForme pharmaceutique : COMPRIME\nDosage : 250MG\nConditionnement : B/10\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 001/13 K 252/02/09\nStatut : F | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True\n\nObservations\nMEDICAMENT SOUMIS A PRESCRIPTION HOSPITALIERE",
+  "ingredients": [
+    "CIPROFLOXACINE CHLORHYDRATE EXPRIME EN CIPROFLOXACINE",
+    "Dosage : 250MG"
+  ],
+  "source_rank": 2
+}

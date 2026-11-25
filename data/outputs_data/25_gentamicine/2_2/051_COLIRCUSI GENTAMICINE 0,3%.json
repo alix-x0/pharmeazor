@@ -1,0 +1,70 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 25,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "COLIRCUSI GENTAMICINE 0,3%",
+  "brand": "COLIRCUSI GENTAMICINE 0,3%",
+  "dci": "GENTAMICINE** (SOUS FORME DE SULFATE)",
+  "dci_code": "17 D 020",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "COLLY.",
+  "dosage": "3MG/ML",
+  "conditionnement": "FL/10ML",
+  "reg_number": "032/17 D 020/96",
+  "reg_status": null,
+  "reg_type": null,
+  "prescription_list": "LISTE I",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": "CUSI",
+  "date_enr_initial": null,
+  "date_enr_final": null,
+  "updated_at": "2026-08-31T20:20:54.59986+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "GENTAMICINE** (SOUS FORME DE SULFATE)"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : COLLY.\nDosage : 3MG/ML\nConditionnement : FL/10ML"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 032/17 D 020/96\nStatut : None | Type : None\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True"
+    },
+    {
+      "key": "observation",
+      "label": "Observations",
+      "number": null,
+      "title": "Observations",
+      "text": "CUSI"
+    }
+  ],
+  "text": "Composition / DCI\nGENTAMICINE** (SOUS FORME DE SULFATE)\n\nPrésentation\nForme pharmaceutique : COLLY.\nDosage : 3MG/ML\nConditionnement : FL/10ML\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 032/17 D 020/96\nStatut : None | Type : None\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True\n\nObservations\nCUSI",
+  "ingredients": [
+    "GENTAMICINE** (SOUS FORME DE SULFATE)",
+    "Dosage : 3MG/ML"
+  ],
+  "source_rank": 2
+}

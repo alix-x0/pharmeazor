@@ -1,0 +1,70 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 23,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "BACTEKOD FORT",
+  "brand": "BACTEKOD FORT",
+  "dci": "SULFAMETHOXAZOLE/TRIMETHOPRIME",
+  "dci_code": "13 M 169",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "COMP.",
+  "dosage": "800MG/160MG",
+  "conditionnement": "B/10",
+  "reg_number": "094/13 M 169/00",
+  "reg_status": null,
+  "reg_type": null,
+  "prescription_list": "LISTE I",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": "BIOGALENIQUE",
+  "date_enr_initial": null,
+  "date_enr_final": null,
+  "updated_at": "2026-08-31T19:58:28.622327+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "SULFAMETHOXAZOLE/TRIMETHOPRIME"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : COMP.\nDosage : 800MG/160MG\nConditionnement : B/10"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 094/13 M 169/00\nStatut : None | Type : None\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True"
+    },
+    {
+      "key": "observation",
+      "label": "Observations",
+      "number": null,
+      "title": "Observations",
+      "text": "BIOGALENIQUE"
+    }
+  ],
+  "text": "Composition / DCI\nSULFAMETHOXAZOLE/TRIMETHOPRIME\n\nPrésentation\nForme pharmaceutique : COMP.\nDosage : 800MG/160MG\nConditionnement : B/10\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 094/13 M 169/00\nStatut : None | Type : None\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True\n\nObservations\nBIOGALENIQUE",
+  "ingredients": [
+    "SULFAMETHOXAZOLE/TRIMETHOPRIME",
+    "Dosage : 800MG/160MG"
+  ],
+  "source_rank": 2
+}

@@ -1,0 +1,70 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 35,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "TENORMINE",
+  "brand": "TENORMINE",
+  "dci": "ATENOLOL",
+  "dci_code": "06 F 149",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "COMP. PELLI.SEC.",
+  "dosage": "50MG",
+  "conditionnement": "B/28",
+  "reg_number": "036/06 F 149/06",
+  "reg_status": null,
+  "reg_type": null,
+  "prescription_list": "LISTE I",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": "ASTRA ZENECA",
+  "date_enr_initial": null,
+  "date_enr_final": null,
+  "updated_at": "2026-08-31T19:58:28.622327+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "ATENOLOL"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : COMP. PELLI.SEC.\nDosage : 50MG\nConditionnement : B/28"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 036/06 F 149/06\nStatut : None | Type : None\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True"
+    },
+    {
+      "key": "observation",
+      "label": "Observations",
+      "number": null,
+      "title": "Observations",
+      "text": "ASTRA ZENECA"
+    }
+  ],
+  "text": "Composition / DCI\nATENOLOL\n\nPrésentation\nForme pharmaceutique : COMP. PELLI.SEC.\nDosage : 50MG\nConditionnement : B/28\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 036/06 F 149/06\nStatut : None | Type : None\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True\n\nObservations\nASTRA ZENECA",
+  "ingredients": [
+    "ATENOLOL",
+    "Dosage : 50MG"
+  ],
+  "source_rank": 2
+}

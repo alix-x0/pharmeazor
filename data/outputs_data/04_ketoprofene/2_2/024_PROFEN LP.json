@@ -1,0 +1,63 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 4,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "PROFEN LP",
+  "brand": "PROFEN LP",
+  "dci": "KETOPROFENE",
+  "dci_code": "04 B 032",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "GLES. A MICROGRLES. LP",
+  "dosage": "200MG",
+  "conditionnement": "B/20",
+  "reg_number": "035/04 B 032/98/07",
+  "reg_status": "F",
+  "reg_type": "GE",
+  "prescription_list": "LISTE II",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": null,
+  "date_enr_initial": "1998-03-10",
+  "date_enr_final": "2007-04-09",
+  "updated_at": "2026-09-08T13:21:18.371704+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "KETOPROFENE"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : GLES. A MICROGRLES. LP\nDosage : 200MG\nConditionnement : B/20"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 035/04 B 032/98/07\nStatut : F | Type : GE\nListe : LISTE II\nCircuit hospitalier : True | Circuit officiel : True"
+    }
+  ],
+  "text": "Composition / DCI\nKETOPROFENE\n\nPrésentation\nForme pharmaceutique : GLES. A MICROGRLES. LP\nDosage : 200MG\nConditionnement : B/20\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 035/04 B 032/98/07\nStatut : F | Type : GE\nListe : LISTE II\nCircuit hospitalier : True | Circuit officiel : True",
+  "ingredients": [
+    "KETOPROFENE",
+    "Dosage : 200MG"
+  ],
+  "source_rank": 2
+}

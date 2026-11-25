@@ -1,0 +1,70 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 28,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "EPILAT",
+  "brand": "EPILAT",
+  "dci": "NIFEDIPINE",
+  "dci_code": "06 B 018",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "COMP. LP",
+  "dosage": "20MG",
+  "conditionnement": "B/20",
+  "reg_number": "109/06 B 018/99",
+  "reg_status": null,
+  "reg_type": null,
+  "prescription_list": "LISTE I",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": "EIPICO",
+  "date_enr_initial": null,
+  "date_enr_final": null,
+  "updated_at": "2026-08-31T20:38:27.413726+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "NIFEDIPINE"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : COMP. LP\nDosage : 20MG\nConditionnement : B/20"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 109/06 B 018/99\nStatut : None | Type : None\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True"
+    },
+    {
+      "key": "observation",
+      "label": "Observations",
+      "number": null,
+      "title": "Observations",
+      "text": "EIPICO"
+    }
+  ],
+  "text": "Composition / DCI\nNIFEDIPINE\n\nPrésentation\nForme pharmaceutique : COMP. LP\nDosage : 20MG\nConditionnement : B/20\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 109/06 B 018/99\nStatut : None | Type : None\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True\n\nObservations\nEIPICO",
+  "ingredients": [
+    "NIFEDIPINE",
+    "Dosage : 20MG"
+  ],
+  "source_rank": 2
+}

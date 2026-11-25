@@ -1,0 +1,70 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 27,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "AMLOVAL",
+  "brand": "AMLOVAL",
+  "dci": "AMLODIPINE BESILATE EXPRIME EN AMLODIPINE/VALSARTAN",
+  "dci_code": "06 E 257",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "COMPRIME PELLICULE",
+  "dosage": "5MG/80MG",
+  "conditionnement": "B/30",
+  "reg_number": "039/06 E 257/15",
+  "reg_status": null,
+  "reg_type": null,
+  "prescription_list": "LISTE I",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": 1500.0,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": "SOCIETE PHARMACEUTIQUE ALGERIENNE SOPHAL SPA",
+  "date_enr_initial": null,
+  "date_enr_final": null,
+  "updated_at": "2026-09-08T13:30:28.926502+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "AMLODIPINE BESILATE EXPRIME EN AMLODIPINE/VALSARTAN"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : COMPRIME PELLICULE\nDosage : 5MG/80MG\nConditionnement : B/30"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 039/06 E 257/15\nStatut : None | Type : None\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True"
+    },
+    {
+      "key": "observation",
+      "label": "Observations",
+      "number": null,
+      "title": "Observations",
+      "text": "SOCIETE PHARMACEUTIQUE ALGERIENNE SOPHAL SPA"
+    }
+  ],
+  "text": "Composition / DCI\nAMLODIPINE BESILATE EXPRIME EN AMLODIPINE/VALSARTAN\n\nPrésentation\nForme pharmaceutique : COMPRIME PELLICULE\nDosage : 5MG/80MG\nConditionnement : B/30\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 039/06 E 257/15\nStatut : None | Type : None\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True\n\nObservations\nSOCIETE PHARMACEUTIQUE ALGERIENNE SOPHAL SPA",
+  "ingredients": [
+    "AMLODIPINE BESILATE EXPRIME EN AMLODIPINE/VALSARTAN",
+    "Dosage : 5MG/80MG"
+  ],
+  "source_rank": 2
+}

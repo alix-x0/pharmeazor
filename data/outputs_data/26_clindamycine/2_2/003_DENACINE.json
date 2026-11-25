@@ -1,0 +1,63 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 26,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "DENACINE",
+  "brand": "DENACINE",
+  "dci": "CLINDAMYCINE PHOSPHATE EXPRIME EN CLINDAMYCINE",
+  "dci_code": "07 B 147",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "SOLUTION POUR APPLICATION LOCALE",
+  "dosage": "1% (10MG/ML)",
+  "conditionnement": "FL/30ML",
+  "reg_number": "406/07 B 147/08/16",
+  "reg_status": "I",
+  "reg_type": "GE",
+  "prescription_list": "LISTE I",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": null,
+  "date_enr_initial": "2008-12-22",
+  "date_enr_final": "2016-07-10",
+  "updated_at": "2026-09-08T13:17:04.435867+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "CLINDAMYCINE PHOSPHATE EXPRIME EN CLINDAMYCINE"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : SOLUTION POUR APPLICATION LOCALE\nDosage : 1% (10MG/ML)\nConditionnement : FL/30ML"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 406/07 B 147/08/16\nStatut : I | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True"
+    }
+  ],
+  "text": "Composition / DCI\nCLINDAMYCINE PHOSPHATE EXPRIME EN CLINDAMYCINE\n\nPrésentation\nForme pharmaceutique : SOLUTION POUR APPLICATION LOCALE\nDosage : 1% (10MG/ML)\nConditionnement : FL/30ML\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 406/07 B 147/08/16\nStatut : I | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True",
+  "ingredients": [
+    "CLINDAMYCINE PHOSPHATE EXPRIME EN CLINDAMYCINE",
+    "Dosage : 1% (10MG/ML)"
+  ],
+  "source_rank": 2
+}

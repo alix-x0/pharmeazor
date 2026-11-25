@@ -1,0 +1,70 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 1,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "ACTIFED",
+  "brand": "ACTIFED",
+  "dci": "TRIPROLIDINE (CHLORHYDRATE)/PSEUDIEPHEDRINE (CHLORHYDRATE)/PARACETAMOL",
+  "dci_code": "22 A 002",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "SOL.BUV.",
+  "dosage": "1,25MG/25MG/125MG",
+  "conditionnement": "FL/100 ML",
+  "reg_number": "112/22 A 002/98",
+  "reg_status": null,
+  "reg_type": null,
+  "prescription_list": null,
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": "GLAXO WELLCOME",
+  "date_enr_initial": null,
+  "date_enr_final": null,
+  "updated_at": "2026-08-31T20:57:30.235716+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "TRIPROLIDINE (CHLORHYDRATE)/PSEUDIEPHEDRINE (CHLORHYDRATE)/PARACETAMOL"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : SOL.BUV.\nDosage : 1,25MG/25MG/125MG\nConditionnement : FL/100 ML"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 112/22 A 002/98\nStatut : None | Type : None\nListe : None\nCircuit hospitalier : True | Circuit officiel : True"
+    },
+    {
+      "key": "observation",
+      "label": "Observations",
+      "number": null,
+      "title": "Observations",
+      "text": "GLAXO WELLCOME"
+    }
+  ],
+  "text": "Composition / DCI\nTRIPROLIDINE (CHLORHYDRATE)/PSEUDIEPHEDRINE (CHLORHYDRATE)/PARACETAMOL\n\nPrésentation\nForme pharmaceutique : SOL.BUV.\nDosage : 1,25MG/25MG/125MG\nConditionnement : FL/100 ML\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 112/22 A 002/98\nStatut : None | Type : None\nListe : None\nCircuit hospitalier : True | Circuit officiel : True\n\nObservations\nGLAXO WELLCOME",
+  "ingredients": [
+    "TRIPROLIDINE (CHLORHYDRATE)/PSEUDIEPHEDRINE (CHLORHYDRATE)/PARACETAMOL",
+    "Dosage : 1,25MG/25MG/125MG"
+  ],
+  "source_rank": 2
+}

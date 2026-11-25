@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="7e8927ce-571f-4c4d-8dd4-7b08f1702bfd"/>
+   <code code="50578-4" codeSystem="2.16.840.1.113883.6.1" displayName="PRESCRIPTION ANIMAL DRUG LABEL"/>
+   <title>Otomax<sup>®</sup>
+      <br/> (GENTAMICIN SULFATE, BETAMETHASONE VALERATE, AND CLOTRIMAZOLE, OINTMENT)</title>
+   <effectiveTime value="20260518"/>
+   <setId root="d387b7de-0dee-49d8-b66a-73aabbda9959"/>
+   <versionNumber value="10"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="001317601" root="1.3.6.1.4.1.519.1"/>
+            <name>Merck Sharp &amp; Dohme Corp.</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="DLDE">
+               <id root="4a51f3e8-5aa7-4251-90b1-e2550887b785"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20260518"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0061-0387" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Otomax</name>
+                        <formCode code="C42966" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OINTMENT"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Gentamicin Sulfate, Betamethasone valerate, and Clotrimazole</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="3" unit="mg"/>
+                              <denominator value="1" unit="g"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="8X7386QRLV" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GENTAMICIN SULFATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="T6Z9V48IKG" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>GENTAMICIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="1" unit="mg"/>
+                              <denominator value="1" unit="g"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="9IFA5XM7R2" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BETAMETHASONE VALERATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="9842X06Q6M" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>BETAMETHASONE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="10" unit="mg"/>
+                              <denominator value="1" unit="g"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="G07GZ97H65" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CLOTRIMAZOLE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="G07GZ97H65" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CLOTRIMAZOLE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="7.5" unit="g"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C42794" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TUBE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0061-0387-02" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="15" unit="g"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C42794" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TUBE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0061-0387-03" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="15" unit="g"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43170" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, DISPENSING"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0061-0387-17" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="30" unit="g"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43173" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, PLASTIC"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0061-0387-08" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="215" unit="g"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43173" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, PLASTIC"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0061-0387-01" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NADA140896" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73593" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NADA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19930609"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38192" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="AURICULAR (OTIC)"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="57f702f6-e923-4597-9647-3c5bbfb03c82"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Approved by FDA under NADA # 140-896</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">PRODUCT INFORMATION</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260518"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="61be6843-702d-43cf-9f6d-dea8508992a6"/>
+               <code code="50745-9" codeSystem="2.16.840.1.113883.6.1" displayName="VETERINARY INDICATIONS SECTION"/>
+               <title>VETERINARY</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">For Otic Use in Dogs Only.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">CAUTION: Federal law restricts this drug to use by or on the order of a licensed veterinarian.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Keep this and all drugs out of the reach of children.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260518"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="6307bd1b-9bfc-4275-be9a-09ca26931284"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">DESCRIPTION:</content> Each gram of OTOMAX ointment contains gentamicin sulfate, equivalent to 3 mg gentamicin base; betamethasone valerate, equivalent to 1 mg betamethasone; and 10 mg clotrimazole, in a mineral oil-based system containing a plasticized hydrocarbon gel.</paragraph>
+               </text>
+               <effectiveTime value="20260518"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="0ec8aa4f-5f03-4691-a1bc-bdcc28661ce8"/>
+               <code code="34091-9" codeSystem="2.16.840.1.113883.6.1" displayName="ANIMAL PHARMACOLOGY &amp; OR TOXICOLOGY SECTION"/>
+               <title>PHARMACOLOGY:</title>
+               <effectiveTime value="20260518"/>
+               <component>
+                  <section>
+                     <id root="5871c0e2-438e-4d37-bbb2-57d2641e45d7"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Gentamicin:</content> Gentamicin sulfate is an aminoglycoside antibiotic active against a wide variety of pathogenic gram-negative and grampositive bacteria. <content styleCode="italics">In vitro</content> tests have determined that gentamicin is bactericidal and acts by inhibiting normal protein synthesis in susceptible microorganisms. Specifically, gentamicin is active against the following organisms commonly isolated from canine ears: <content styleCode="italics">Staphylococcus aureus,</content> other <content styleCode="italics">Staphylococcus</content> spp., <content styleCode="italics">Pseudomonas aeruginosa, Proteus</content> spp., and <content styleCode="italics">Escherichia coli.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20260518"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="f359321d-90f2-4db2-b625-ed97214095b6"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Betamethasone:</content> Betamethasone valerate is a synthetic adrenocorticoid for dermatologic use. Betamethasone, an analog of prednisolone, has a high degree of corticosteroid activity and a slight degree of mineralocorticosteroid activity. Betamethasone valerate, the 17-valerate ester of betamethasone, has been shown to provide anti-inflammatory and antipruritic activity in the topical management of corticosteroidresponsive otitis externa.</paragraph>
+                        <paragraph>Topical corticosteroids can be absorbed from normal, intact skin. Inflammation can increase percutaneous absorption. Once absorbed through the skin, topical corticosteroids are handled through pharmacokinetic pathways similar to systemically administered corticosteroids.</paragraph>
+                     </text>
+                     <effectiveTime value="20260518"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="8ecbb7a2-d79a-4b1b-9a92-b6b8867ebd10"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Clotrimazole:</content> Clotrimazole is a broad-spectrum antifungal agent that is used for the treatment of dermal infections caused by various species of pathogenic dermatophytes and yeasts. The primary action of clotrimazole is against dividing and growing organisms.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">In vitro</content>, clotrimazole exhibits fungistatic and fungicidal activity against isolates of <content styleCode="italics">Trichophyton rubrum, Trichophyton mentagrophytes, Epidermophyton floccosum, Microsporum canis, Candida</content> spp., and <content styleCode="italics">Malassezia pachydermatis</content> (<content styleCode="italics">Pityrosporum canis</content>). Resistance to clotrimazole is very rare among the fungi that cause superficial mycoses.</paragraph>
+                        <paragraph>In an induced otitis externa infected with <content styleCode="italics">Malassezia pachydermatis</content>, 1% clotrimazole in the OTOMAX vehicle was effective both microbiologically and clinically in terms of reduction of exudate, odor, and swelling.</paragraph>
+                        <paragraph>In studies of the mechanism of action, the minimum fungicidal concentration of clotrimazole caused leakage of intracellular phosphorus compounds into the ambient medium with concomitant breakdown of cellular nucleic acids and accelerated potassium efflux. These events began rapidly and extensively after addition of the drug.</paragraph>
+                        <paragraph>Clotrimazole is very poorly absorbed following dermal application.</paragraph>
+                     </text>
+                     <effectiveTime value="20260518"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="b1f6cd92-a820-41ed-88a6-a1187b782f30"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Gentamicin-Betamethasone-Clotrimazole:</content> By virtue of its three active ingredients, OTOMAX ointment has antibacterial, antiinflammatory, and antifungal activity.</paragraph>
+                        <paragraph>In component efficacy studies, the compatibility and additive effect of each of the components were demonstrated. In clinical field trials, OTOMAX ointment was effective in the treatment of otitis externa associated with bacteria and <content styleCode="italics">Malassezia pachydermatis</content>. OTOMAX ointment reduced discomfort, redness, swelling, exudate, and odor, and exerted a strong antimicrobial effect.</paragraph>
+                     </text>
+                     <effectiveTime value="20260518"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="c7cee261-e28c-472a-ade3-6fbc6d5f5651"/>
+               <code code="50745-9" codeSystem="2.16.840.1.113883.6.1" displayName="VETERINARY INDICATIONS SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">INDICATIONS:</content> OTOMAX ointment is indicated for the treatment of canine acute and chronic otitis externa associated with yeast (<content styleCode="italics">Malassezia pachydermatis</content>, formerly <content styleCode="italics">Pityrosporum canis</content>) and/or bacteria susceptible to gentamicin.</paragraph>
+               </text>
+               <effectiveTime value="20260518"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="3c28b1c0-d471-433f-8f94-287b3dc56d6c"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">CONTRAINDICATIONS:</content> If hypersensitivity to any of the components occurs, treatment should be discontinued and appropriate therapy instituted. Concomitant use of drugs known to induce ototoxicity should be avoided. Do not use in dogs with known perforation of eardrums.</paragraph>
+               </text>
+               <effectiveTime value="20260518"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="67946545-262e-4b19-9af9-f1791420a8e5"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">WARNINGS:</content> The use of OTOMAX ointment has been associated with deafness or partial hearing loss in a small number of sensitive dogs (e.g., geriatric). The hearing deficit is usually temporary. If hearing or vestibular dysfunction is noted during the course of treatment, discontinue use of OTOMAX ointment immediately and flush the ear canal thoroughly with a nonototoxic solution.</paragraph>
+                  <paragraph>Corticosteroids administered to dogs, rabbits, and rodents during pregnancy have resulted in cleft palate in offspring. Other congenital anomalies including deformed forelegs, phocomelia, and anasarca have been reported in offspring of dogs which received corticosteroids during pregnancy.</paragraph>
+                  <paragraph>Clinical and experimental data have demonstrated that corticosteroids administered orally or parenterally to animals may induce the first stage of parturition if used during the last trimester of pregnancy and may precipitate premature parturition followed by dystocia, fetal death, retained placenta, and metritis.</paragraph>
+               </text>
+               <effectiveTime value="20260518"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="4cd6dfbd-4b94-4928-9872-7214c144f0d5"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">PRECAUTIONS:</content> Identification of infecting organisms should be made either by microscopic roll smear evaluation or by culture as appropriate. Antibiotic susceptibility of the pathogenic organism(s) should be determined prior to use of this preparation.</paragraph>
+                  <paragraph>If overgrowth of nonsusceptible bacteria, fungi, or yeasts occur, or if hypersensitivity develops, treatment should be discontinued and appropriate therapy instituted.</paragraph>
+                  <paragraph>Administration of recommended doses of OTOMAX ointment beyond 7 days may result in delayed wound healing. Avoid ingestion. Adverse systemic reactions have been observed following the oral ingestion of some topical corticosteroid preparations. Patients should be closely observed for the usual signs of adrenocorticoid overdosage which include sodium retention, potassium loss, fluid retention, weight gain, polydipsia, and/or polyuria. Prolonged use or overdosage may produce adverse immunosuppressive effects.</paragraph>
+                  <paragraph>Use of corticosteroids, depending on dose, duration, and specific steroid, may result in endogenous steroid production inhibition following drug withdrawal. In patients presently receiving or recently withdrawn from corticosteroid treatments, therapy with a rapidly-acting corticosteroid should be considered in especially stressful situations. Before instilling any medication into the ear, examine the external ear canal thoroughly to be certain the tympanic membrane is not ruptured in order to avoid the possibility of transmitting infection to the middle ear as well as damaging the cochlea or vestibular apparatus from prolonged contact.</paragraph>
+               </text>
+               <effectiveTime value="20260518"/>
+               <component>
+                  <section>
+                     <id root="8bce74fd-befe-4b25-ab96-4fddde7dbacb"/>
+                     <code code="34091-9" codeSystem="2.16.840.1.113883.6.1" displayName="ANIMAL PHARMACOLOGY &amp; OR TOXICOLOGY SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">TOXICOLOGY:</content> Clinical and safety studies with OTOMAX ointment have shown a wide safety margin at the recommended dose level in dogs (see <content styleCode="bold">
+                              <linkHtml href="#SE">PRECAUTIONS/SIDE EFFECTS</linkHtml>
+                           </content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20260518"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="SE">
+                     <id root="ee5d4ed6-413b-48b1-bc2a-c1fa65ad02ac"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>SIDE EFFECTS:</title>
+                     <effectiveTime value="20260518"/>
+                     <component>
+                        <section>
+                           <id root="3a4beec7-79b3-41e5-b010-653d43a5ebf1"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="bold">Gentamicin:</content> While aminoglycosides are absorbed poorly from skin, intoxication may occur when aminoglycosides are applied topically for prolonged periods of time to large wounds, burns, or any denuded skin, particularly if there is renal insufficiency. All aminoglycosides have the potential to produce reversible and irreversible vestibular, cochlear, and renal toxicity.</paragraph>
+                           </text>
+                           <effectiveTime value="20260518"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="ad2d8232-b64f-42d2-8c93-b6a71ecfd393"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="bold">Betamethasone:</content> Side effects such as SAP and SGPT enzyme elevations, weight loss, anorexia, polydipsia, and polyuria have occurred following the use of parenteral or systemic synthetic corticosteroids in dogs. Vomiting and diarrhea (occasionally bloody) have been observed in dogs and cats. Cushing's syndrome in dogs has been reported in association with prolonged or repeated steroid therapy.</paragraph>
+                           </text>
+                           <effectiveTime value="20260518"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="46d67b5b-1e3b-47f3-af85-33a222a7d733"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="bold">Clotrimazole:</content> The following have been reported occasionally in humans in connection with the use of clotrimazole: erythema, stinging, blistering, peeling, edema, pruritus, urticaria, and general irritation of the skin not present before therapy.</paragraph>
+                           </text>
+                           <effectiveTime value="20260518"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="0d3debb1-d5a9-4f94-a74b-48b3bd79b1e7"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">DOSAGE AND ADMINISTRATION:</content> The external ear should be thoroughly cleaned and dried before treatment. Remove foreign material, debris, crusted exudates, etc., with suitable nonirritating solutions. Excessive hair should be clipped from the treatment area. After verifying that the eardrum is intact, instill 4 drops from the 7.5 g and 15 g tube, and 15 g and 30 g bottle (2 drops from the 215 g bottle) of OTOMAX ointment twice daily into the ear canal of dogs weighing less than 30 lbs. Instill 8 drops from the 7.5 g and 15 g tube, and 15 g and 30 g bottle (4 drops from the 215 g bottle) twice daily into the ear canal of dogs weighing 30 lbs or more. Massage external ear canal carefully after instillation to ensure appropriate distribution of medication. Therapy should continue for 7 consecutive days.</paragraph>
+               </text>
+               <effectiveTime value="20260518"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="5d9ca645-8883-42d8-aaac-d0b30da7ac3c"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">HOW SUPPLIED:</content> OTOMAX ointment is available in 7.5 g and 15 g tubes as well as in 15 g, 30 g, and 215 g plastic bottles.</paragraph>
+               </text>
+               <effectiveTime value="20260518"/>
+               <component>
+                  <section>
+                     <id root="ab0ec612-2c36-4ee7-82a8-f0b536eb2278"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Store between 2°and 25°C (36° and 77°F). Shake well before use when using the 15 g bottle, 30 g bottle, or 215 g bottle.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20260518"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="409b3a28-b60e-40a4-96a8-2036868d9189"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Distributed by Intervet Inc. (d/b/a Merck Animal Health), Rahway, NJ 07065.</paragraph>
+                  <paragraph>Made in Germany. <br/> Copyright © 1993-2026 Merck &amp; Co., Inc., Rahway, NJ, USA and its affiliates. All rights reserved. <br/> Rev. 03/2026</paragraph>
+                  <paragraph>MERCK <br/> Animal Health</paragraph>
+                  <paragraph>246829 R2</paragraph>
+               </text>
+               <effectiveTime value="20260518"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="840d97fc-d248-42d5-86ba-13e8a5363289"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 7.5 g Tube Carton</title>
+               <text>
+                  <paragraph>7.5 g</paragraph>
+                  <paragraph>Otomax<sup>®</sup>
+                     <br/> (GENTAMICIN SULFATE, <br/> BETAMETHASONE <br/> VALERATE, AND CLOTRIMAZOLE, <br/> OINTMENT)</paragraph>
+                  <paragraph>Keep Out of Reach of Children.</paragraph>
+                  <paragraph>Caution: Federal law restricts this <br/> drug to use by or on the order of a <br/> licensed veterinarian.</paragraph>
+                  <paragraph>Approved by FDA <br/> under NADA # 140-896</paragraph>
+                  <paragraph>MERCK <br/> Animal Health</paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+               </text>
+               <effectiveTime value="20260518"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>PRINCIPAL DISPLAY PANEL - 7.5 g Tube Carton</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="otomax-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

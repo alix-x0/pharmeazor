@@ -1,0 +1,63 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 6,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "ACEPRAL-L",
+  "brand": "ACEPRAL-L",
+  "dci": "ACIDE ACETYLSALICYLIQUE",
+  "dci_code": "12 A 144",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "PDRE. SOL. BUV. EN SACHET",
+  "dosage": "160MG/SACHET-DOSE (288MG/SACHET ACETYLSALICYLATE DE DL LYSINE)",
+  "conditionnement": "B/30SACHETS-DOSE",
+  "reg_number": "003/12 A 144/09",
+  "reg_status": "F",
+  "reg_type": "GE",
+  "prescription_list": null,
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": null,
+  "date_enr_initial": "2009-03-28",
+  "date_enr_final": "2009-03-28",
+  "updated_at": "2026-09-08T13:17:04.435867+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "ACIDE ACETYLSALICYLIQUE"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : PDRE. SOL. BUV. EN SACHET\nDosage : 160MG/SACHET-DOSE (288MG/SACHET ACETYLSALICYLATE DE DL LYSINE)\nConditionnement : B/30SACHETS-DOSE"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 003/12 A 144/09\nStatut : F | Type : GE\nListe : None\nCircuit hospitalier : True | Circuit officiel : True"
+    }
+  ],
+  "text": "Composition / DCI\nACIDE ACETYLSALICYLIQUE\n\nPrésentation\nForme pharmaceutique : PDRE. SOL. BUV. EN SACHET\nDosage : 160MG/SACHET-DOSE (288MG/SACHET ACETYLSALICYLATE DE DL LYSINE)\nConditionnement : B/30SACHETS-DOSE\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 003/12 A 144/09\nStatut : F | Type : GE\nListe : None\nCircuit hospitalier : True | Circuit officiel : True",
+  "ingredients": [
+    "ACIDE ACETYLSALICYLIQUE",
+    "Dosage : 160MG/SACHET-DOSE (288MG/SACHET ACETYLSALICYLATE DE DL LYSINE)"
+  ],
+  "source_rank": 2
+}

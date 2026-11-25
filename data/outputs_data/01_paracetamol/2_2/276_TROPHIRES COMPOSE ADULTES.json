@@ -1,0 +1,63 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 1,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "TROPHIRES COMPOSE ADULTES",
+  "brand": "TROPHIRES COMPOSE ADULTES",
+  "dci": "TENOATE DE SODIUM/HUILE ESSENTIELLE D'EUCALYPTUS/PARACETAMOL",
+  "dci_code": "20 C 200",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "SUPPOSITOIRE",
+  "dosage": "0,200G/0,110G/0,450G",
+  "conditionnement": "B/08",
+  "reg_number": "255/20 C 200/05",
+  "reg_status": "F",
+  "reg_type": "GE",
+  "prescription_list": null,
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": null,
+  "date_enr_initial": "2005-02-01",
+  "date_enr_final": "2005-02-01",
+  "updated_at": "2026-09-08T13:14:02.962565+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "TENOATE DE SODIUM/HUILE ESSENTIELLE D'EUCALYPTUS/PARACETAMOL"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : SUPPOSITOIRE\nDosage : 0,200G/0,110G/0,450G\nConditionnement : B/08"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 255/20 C 200/05\nStatut : F | Type : GE\nListe : None\nCircuit hospitalier : True | Circuit officiel : True"
+    }
+  ],
+  "text": "Composition / DCI\nTENOATE DE SODIUM/HUILE ESSENTIELLE D'EUCALYPTUS/PARACETAMOL\n\nPrésentation\nForme pharmaceutique : SUPPOSITOIRE\nDosage : 0,200G/0,110G/0,450G\nConditionnement : B/08\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 255/20 C 200/05\nStatut : F | Type : GE\nListe : None\nCircuit hospitalier : True | Circuit officiel : True",
+  "ingredients": [
+    "TENOATE DE SODIUM/HUILE ESSENTIELLE D'EUCALYPTUS/PARACETAMOL",
+    "Dosage : 0,200G/0,110G/0,450G"
+  ],
+  "source_rank": 2
+}

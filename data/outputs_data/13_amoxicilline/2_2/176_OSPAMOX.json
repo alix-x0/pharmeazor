@@ -1,0 +1,70 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 13,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "OSPAMOX",
+  "brand": "OSPAMOX",
+  "dci": "AMOXICILLINE TRIHYDRATEE EXPRIME EN AMOXICILLINE",
+  "dci_code": "13 G 230",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "COMP. DISPERS.",
+  "dosage": "1G",
+  "conditionnement": "B/16",
+  "reg_number": "050/13 G 230/06",
+  "reg_status": null,
+  "reg_type": null,
+  "prescription_list": "LISTE I",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": "SANDOZ SPA",
+  "date_enr_initial": null,
+  "date_enr_final": null,
+  "updated_at": "2026-09-01T00:13:15.948443+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "AMOXICILLINE TRIHYDRATEE EXPRIME EN AMOXICILLINE"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : COMP. DISPERS.\nDosage : 1G\nConditionnement : B/16"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 050/13 G 230/06\nStatut : None | Type : None\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True"
+    },
+    {
+      "key": "observation",
+      "label": "Observations",
+      "number": null,
+      "title": "Observations",
+      "text": "SANDOZ SPA"
+    }
+  ],
+  "text": "Composition / DCI\nAMOXICILLINE TRIHYDRATEE EXPRIME EN AMOXICILLINE\n\nPrésentation\nForme pharmaceutique : COMP. DISPERS.\nDosage : 1G\nConditionnement : B/16\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 050/13 G 230/06\nStatut : None | Type : None\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True\n\nObservations\nSANDOZ SPA",
+  "ingredients": [
+    "AMOXICILLINE TRIHYDRATEE EXPRIME EN AMOXICILLINE",
+    "Dosage : 1G"
+  ],
+  "source_rank": 2
+}

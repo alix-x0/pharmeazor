@@ -1,0 +1,70 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 1,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "DOLIPRANE JEUNE ENFANT",
+  "brand": "DOLIPRANE JEUNE ENFANT",
+  "dci": "PARACETAMOL",
+  "dci_code": "03 B 007",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "SUPPO.",
+  "dosage": "170MG",
+  "conditionnement": null,
+  "reg_number": "016/03 B 007/96",
+  "reg_status": null,
+  "reg_type": null,
+  "prescription_list": null,
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": "THERAPLIX",
+  "date_enr_initial": null,
+  "date_enr_final": null,
+  "updated_at": "2026-09-01T00:51:40.494938+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "PARACETAMOL"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : SUPPO.\nDosage : 170MG"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 016/03 B 007/96\nStatut : None | Type : None\nListe : None\nCircuit hospitalier : True | Circuit officiel : True"
+    },
+    {
+      "key": "observation",
+      "label": "Observations",
+      "number": null,
+      "title": "Observations",
+      "text": "THERAPLIX"
+    }
+  ],
+  "text": "Composition / DCI\nPARACETAMOL\n\nPrésentation\nForme pharmaceutique : SUPPO.\nDosage : 170MG\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 016/03 B 007/96\nStatut : None | Type : None\nListe : None\nCircuit hospitalier : True | Circuit officiel : True\n\nObservations\nTHERAPLIX",
+  "ingredients": [
+    "PARACETAMOL",
+    "Dosage : 170MG"
+  ],
+  "source_rank": 2
+}

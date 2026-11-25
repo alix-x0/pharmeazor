@@ -1,0 +1,46 @@
+# BUTAFEN
+- **source** : pharmnet
+- **source_priority** : 2
+- **doc_type** : fiche_produit
+- **brand** : BUTAFEN
+- **dci** : IBUPROFENE
+- **language** : fr
+- **reg_number** : 293/04 B 040/05/12
+- **dosage** : 200MG
+- **form** : GELULE A MICRO-GRANULES
+- **drug_id** : 2
+- **dci_code** : 04 B 040
+- **conditionnement** : B/20
+- **reg_status** : F
+- **reg_type** : GE
+- **hospital_circuit** : true
+- **official_circuit** : true
+- **en_rupture** : false
+- **date_enr_initial** : 2005-01-08
+- **date_enr_final** : 2012-03-04
+- **updated_at** : 2026-09-08T13:21:18.371704+00:00
+- **source_url** : https://www.pharmnet-dz.com/
+- **url** : https://www.pharmnet-dz.com/
+
+## Composition / Ingrédients
+
+- IBUPROFENE
+- Dosage : 200MG
+
+## Composition / DCI
+
+IBUPROFENE
+
+## Présentation (3)
+
+Forme pharmaceutique : GELULE A MICRO-GRANULES
+Dosage : 200MG
+Conditionnement : B/20
+
+## Titulaire de l'AMM (7)
+
+()
+Numéro d'enregistrement : 293/04 B 040/05/12
+Statut : F | Type : GE
+Liste : None
+Circuit hospitalier : True | Circuit officiel : True

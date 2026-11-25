@@ -1,0 +1,70 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 4,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "PROFENID ENFANT ET NOURRISON",
+  "brand": "PROFENID ENFANT ET NOURRISON",
+  "dci": "KETOPROFENE",
+  "dci_code": "04 B 068",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "SIROP",
+  "dosage": "1MG/ML",
+  "conditionnement": "B/01FL. DE 150ML + 01 SERING. P. ADMINIST. ORAL. DE 10ML",
+  "reg_number": "392/04 B 068/13",
+  "reg_status": null,
+  "reg_type": null,
+  "prescription_list": "LISTE II",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": "SANOFI AVENTIS ALGERIE S.P.A",
+  "date_enr_initial": null,
+  "date_enr_final": null,
+  "updated_at": "2026-09-08T13:09:02.971166+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "KETOPROFENE"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : SIROP\nDosage : 1MG/ML\nConditionnement : B/01FL. DE 150ML + 01 SERING. P. ADMINIST. ORAL. DE 10ML"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 392/04 B 068/13\nStatut : None | Type : None\nListe : LISTE II\nCircuit hospitalier : True | Circuit officiel : True"
+    },
+    {
+      "key": "observation",
+      "label": "Observations",
+      "number": null,
+      "title": "Observations",
+      "text": "SANOFI AVENTIS ALGERIE S.P.A"
+    }
+  ],
+  "text": "Composition / DCI\nKETOPROFENE\n\nPrésentation\nForme pharmaceutique : SIROP\nDosage : 1MG/ML\nConditionnement : B/01FL. DE 150ML + 01 SERING. P. ADMINIST. ORAL. DE 10ML\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 392/04 B 068/13\nStatut : None | Type : None\nListe : LISTE II\nCircuit hospitalier : True | Circuit officiel : True\n\nObservations\nSANOFI AVENTIS ALGERIE S.P.A",
+  "ingredients": [
+    "KETOPROFENE",
+    "Dosage : 1MG/ML"
+  ],
+  "source_rank": 2
+}

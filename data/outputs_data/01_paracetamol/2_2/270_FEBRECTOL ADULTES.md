@@ -1,0 +1,46 @@
+# FEBRECTOL ADULTES
+- **source** : pharmnet
+- **source_priority** : 2
+- **doc_type** : fiche_produit
+- **brand** : FEBRECTOL ADULTES
+- **dci** : PARACETAMOL/HUILE ESSENTIELLE DE PIN DE SYLVESTRE
+- **language** : fr
+- **reg_number** : 255/20 C 116/05
+- **dosage** : 600MG/40MG
+- **form** : SUPPOSITOIRE
+- **drug_id** : 1
+- **dci_code** : 20 C 116
+- **conditionnement** : B/06
+- **reg_status** : F
+- **reg_type** : GE
+- **hospital_circuit** : true
+- **official_circuit** : true
+- **en_rupture** : false
+- **date_enr_initial** : 2005-02-01
+- **date_enr_final** : 2005-02-01
+- **updated_at** : 2026-09-08T13:14:02.962565+00:00
+- **source_url** : https://www.pharmnet-dz.com/
+- **url** : https://www.pharmnet-dz.com/
+
+## Composition / Ingrédients
+
+- PARACETAMOL/HUILE ESSENTIELLE DE PIN DE SYLVESTRE
+- Dosage : 600MG/40MG
+
+## Composition / DCI
+
+PARACETAMOL/HUILE ESSENTIELLE DE PIN DE SYLVESTRE
+
+## Présentation (3)
+
+Forme pharmaceutique : SUPPOSITOIRE
+Dosage : 600MG/40MG
+Conditionnement : B/06
+
+## Titulaire de l'AMM (7)
+
+()
+Numéro d'enregistrement : 255/20 C 116/05
+Statut : F | Type : GE
+Liste : None
+Circuit hospitalier : True | Circuit officiel : True

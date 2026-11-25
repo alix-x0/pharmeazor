@@ -1,0 +1,70 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 33,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "VALSARTAL",
+  "brand": "VALSARTAL",
+  "dci": "VALSARTAN",
+  "dci_code": "06 E 166",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "COMP. PELLI. SEC.",
+  "dosage": "160MG",
+  "conditionnement": "B/30",
+  "reg_number": "039/06 E 166/11",
+  "reg_status": null,
+  "reg_type": null,
+  "prescription_list": "LISTE I",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": 1380.0,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": "SOCIETE PHARMACEUTIQUE ALGERIENNE (SOPHAL)",
+  "date_enr_initial": null,
+  "date_enr_final": null,
+  "updated_at": "2026-09-08T13:26:36.887938+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "VALSARTAN"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : COMP. PELLI. SEC.\nDosage : 160MG\nConditionnement : B/30"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 039/06 E 166/11\nStatut : None | Type : None\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True"
+    },
+    {
+      "key": "observation",
+      "label": "Observations",
+      "number": null,
+      "title": "Observations",
+      "text": "SOCIETE PHARMACEUTIQUE ALGERIENNE (SOPHAL)"
+    }
+  ],
+  "text": "Composition / DCI\nVALSARTAN\n\nPrésentation\nForme pharmaceutique : COMP. PELLI. SEC.\nDosage : 160MG\nConditionnement : B/30\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 039/06 E 166/11\nStatut : None | Type : None\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True\n\nObservations\nSOCIETE PHARMACEUTIQUE ALGERIENNE (SOPHAL)",
+  "ingredients": [
+    "VALSARTAN",
+    "Dosage : 160MG"
+  ],
+  "source_rank": 2
+}

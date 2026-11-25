@@ -1,0 +1,70 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 13,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "AMOXICILLINE BIOGARAN",
+  "brand": "AMOXICILLINE BIOGARAN",
+  "dci": "AMOXICILLINE TRIHYDRATE E EXPRIME EN AMOXICILLINE ANHYDRE",
+  "dci_code": "13 G 268",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "PDRE. SOL BUV",
+  "dosage": "1G",
+  "conditionnement": "B/06SACHETS ET B/14 SACHETS",
+  "reg_number": "295/13 G 268/04",
+  "reg_status": null,
+  "reg_type": null,
+  "prescription_list": "LISTE I",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": "BIOGARAN",
+  "date_enr_initial": null,
+  "date_enr_final": null,
+  "updated_at": "2026-08-31T19:58:28.622327+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "AMOXICILLINE TRIHYDRATE E EXPRIME EN AMOXICILLINE ANHYDRE"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : PDRE. SOL BUV\nDosage : 1G\nConditionnement : B/06SACHETS ET B/14 SACHETS"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 295/13 G 268/04\nStatut : None | Type : None\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True"
+    },
+    {
+      "key": "observation",
+      "label": "Observations",
+      "number": null,
+      "title": "Observations",
+      "text": "BIOGARAN"
+    }
+  ],
+  "text": "Composition / DCI\nAMOXICILLINE TRIHYDRATE E EXPRIME EN AMOXICILLINE ANHYDRE\n\nPrésentation\nForme pharmaceutique : PDRE. SOL BUV\nDosage : 1G\nConditionnement : B/06SACHETS ET B/14 SACHETS\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 295/13 G 268/04\nStatut : None | Type : None\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True\n\nObservations\nBIOGARAN",
+  "ingredients": [
+    "AMOXICILLINE TRIHYDRATE E EXPRIME EN AMOXICILLINE ANHYDRE",
+    "Dosage : 1G"
+  ],
+  "source_rank": 2
+}

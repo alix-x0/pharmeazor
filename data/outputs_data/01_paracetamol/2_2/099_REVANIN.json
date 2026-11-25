@@ -1,0 +1,70 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 1,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "REVANIN",
+  "brand": "REVANIN",
+  "dci": "PARACETAMOL",
+  "dci_code": "03 B 007",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "SUPPO.",
+  "dosage": "125MG",
+  "conditionnement": "B/5",
+  "reg_number": "118/03 B 007/99",
+  "reg_status": null,
+  "reg_type": null,
+  "prescription_list": null,
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": "ARAB PHARMACEUTICAL MANUFACTURING",
+  "date_enr_initial": null,
+  "date_enr_final": null,
+  "updated_at": "2026-08-31T19:58:28.622327+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "PARACETAMOL"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : SUPPO.\nDosage : 125MG\nConditionnement : B/5"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 118/03 B 007/99\nStatut : None | Type : None\nListe : None\nCircuit hospitalier : True | Circuit officiel : True"
+    },
+    {
+      "key": "observation",
+      "label": "Observations",
+      "number": null,
+      "title": "Observations",
+      "text": "ARAB PHARMACEUTICAL MANUFACTURING"
+    }
+  ],
+  "text": "Composition / DCI\nPARACETAMOL\n\nPrésentation\nForme pharmaceutique : SUPPO.\nDosage : 125MG\nConditionnement : B/5\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 118/03 B 007/99\nStatut : None | Type : None\nListe : None\nCircuit hospitalier : True | Circuit officiel : True\n\nObservations\nARAB PHARMACEUTICAL MANUFACTURING",
+  "ingredients": [
+    "PARACETAMOL",
+    "Dosage : 125MG"
+  ],
+  "source_rank": 2
+}

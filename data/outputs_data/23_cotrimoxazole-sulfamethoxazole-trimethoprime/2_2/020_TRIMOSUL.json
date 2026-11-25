@@ -1,0 +1,70 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 23,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "TRIMOSUL",
+  "brand": "TRIMOSUL",
+  "dci": "SULFAMETHOXAZOLE/TRIMETHOPRIME",
+  "dci_code": "13 M 092",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "COMP.",
+  "dosage": "400MG/80MG",
+  "conditionnement": "B/20",
+  "reg_number": "161/13 M 092/99",
+  "reg_status": null,
+  "reg_type": null,
+  "prescription_list": "LISTE I",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": "HEMOFARM",
+  "date_enr_initial": null,
+  "date_enr_final": null,
+  "updated_at": "2026-08-31T21:23:09.1639+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "SULFAMETHOXAZOLE/TRIMETHOPRIME"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : COMP.\nDosage : 400MG/80MG\nConditionnement : B/20"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 161/13 M 092/99\nStatut : None | Type : None\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True"
+    },
+    {
+      "key": "observation",
+      "label": "Observations",
+      "number": null,
+      "title": "Observations",
+      "text": "HEMOFARM"
+    }
+  ],
+  "text": "Composition / DCI\nSULFAMETHOXAZOLE/TRIMETHOPRIME\n\nPrésentation\nForme pharmaceutique : COMP.\nDosage : 400MG/80MG\nConditionnement : B/20\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 161/13 M 092/99\nStatut : None | Type : None\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True\n\nObservations\nHEMOFARM",
+  "ingredients": [
+    "SULFAMETHOXAZOLE/TRIMETHOPRIME",
+    "Dosage : 400MG/80MG"
+  ],
+  "source_rank": 2
+}

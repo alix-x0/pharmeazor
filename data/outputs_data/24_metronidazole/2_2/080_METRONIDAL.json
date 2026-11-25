@@ -1,0 +1,63 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 24,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "METRONIDAL",
+  "brand": "METRONIDAL",
+  "dci": "METRONIDAZOLE",
+  "dci_code": "13 F 199",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "COMPRIME PELLICULE",
+  "dosage": "500MG",
+  "conditionnement": "B/20",
+  "reg_number": "039/13 F 199/21",
+  "reg_status": "F",
+  "reg_type": "GE",
+  "prescription_list": "LISTE I",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": 203.0,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": null,
+  "date_enr_initial": "2021-09-06",
+  "date_enr_final": "2024-06-30",
+  "updated_at": "2026-09-03T02:20:22.447943+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "METRONIDAZOLE"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : COMPRIME PELLICULE\nDosage : 500MG\nConditionnement : B/20"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 039/13 F 199/21\nStatut : F | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True"
+    }
+  ],
+  "text": "Composition / DCI\nMETRONIDAZOLE\n\nPrésentation\nForme pharmaceutique : COMPRIME PELLICULE\nDosage : 500MG\nConditionnement : B/20\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 039/13 F 199/21\nStatut : F | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True",
+  "ingredients": [
+    "METRONIDAZOLE",
+    "Dosage : 500MG"
+  ],
+  "source_rank": 2
+}

@@ -1,0 +1,63 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 37,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "DUDREX",
+  "brand": "DUDREX",
+  "dci": "AMILORIDE CHLORHYDRATE/HYDROCHLOROTHIAZIDE",
+  "dci_code": "06 H 094",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "COMPRIME SECABLE",
+  "dosage": "5MG/50MG",
+  "conditionnement": "B/30",
+  "reg_number": "065/06 H 094/03/22",
+  "reg_status": "F",
+  "reg_type": "GE",
+  "prescription_list": "LISTE I",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": null,
+  "date_enr_initial": "2003-10-22",
+  "date_enr_final": "2022-06-01",
+  "updated_at": "2026-09-08T13:26:36.887938+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "AMILORIDE CHLORHYDRATE/HYDROCHLOROTHIAZIDE"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : COMPRIME SECABLE\nDosage : 5MG/50MG\nConditionnement : B/30"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 065/06 H 094/03/22\nStatut : F | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True"
+    }
+  ],
+  "text": "Composition / DCI\nAMILORIDE CHLORHYDRATE/HYDROCHLOROTHIAZIDE\n\nPrésentation\nForme pharmaceutique : COMPRIME SECABLE\nDosage : 5MG/50MG\nConditionnement : B/30\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 065/06 H 094/03/22\nStatut : F | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True",
+  "ingredients": [
+    "AMILORIDE CHLORHYDRATE/HYDROCHLOROTHIAZIDE",
+    "Dosage : 5MG/50MG"
+  ],
+  "source_rank": 2
+}

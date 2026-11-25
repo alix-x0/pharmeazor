@@ -1,0 +1,70 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 37,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "QUINAPRIL / HYDROCHLOROTHIAZIDE WINTHROP",
+  "brand": "QUINAPRIL / HYDROCHLOROTHIAZIDE WINTHROP",
+  "dci": "QUINAPRIL CHLORHYDRATE EXPRIME EN QUINAPRIL/HYDROCHLOROTHIAZIDE",
+  "dci_code": "06 E 131",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "COMP. PELLI. SEC.",
+  "dosage": "20MG/12,5MG",
+  "conditionnement": "B/30",
+  "reg_number": "376/06 E 131/13",
+  "reg_status": null,
+  "reg_type": null,
+  "prescription_list": "LISTE I",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": "SANOFI-AVENTIS FRANCE",
+  "date_enr_initial": null,
+  "date_enr_final": null,
+  "updated_at": "2026-09-08T13:05:21.226204+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "QUINAPRIL CHLORHYDRATE EXPRIME EN QUINAPRIL/HYDROCHLOROTHIAZIDE"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : COMP. PELLI. SEC.\nDosage : 20MG/12,5MG\nConditionnement : B/30"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 376/06 E 131/13\nStatut : None | Type : None\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True"
+    },
+    {
+      "key": "observation",
+      "label": "Observations",
+      "number": null,
+      "title": "Observations",
+      "text": "SANOFI-AVENTIS FRANCE"
+    }
+  ],
+  "text": "Composition / DCI\nQUINAPRIL CHLORHYDRATE EXPRIME EN QUINAPRIL/HYDROCHLOROTHIAZIDE\n\nPrésentation\nForme pharmaceutique : COMP. PELLI. SEC.\nDosage : 20MG/12,5MG\nConditionnement : B/30\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 376/06 E 131/13\nStatut : None | Type : None\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True\n\nObservations\nSANOFI-AVENTIS FRANCE",
+  "ingredients": [
+    "QUINAPRIL CHLORHYDRATE EXPRIME EN QUINAPRIL/HYDROCHLOROTHIAZIDE",
+    "Dosage : 20MG/12,5MG"
+  ],
+  "source_rank": 2
+}

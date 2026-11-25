@@ -1,0 +1,63 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 2,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "ARFEN",
+  "brand": "ARFEN",
+  "dci": "IBUPROFENE LYSINE",
+  "dci_code": "04 B 077",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "SOLUTION INJECTABLE IM",
+  "dosage": "400 MG/3 ML",
+  "conditionnement": "B/06 AMP. DE 3ML",
+  "reg_number": "011/04 B 077/18",
+  "reg_status": "I",
+  "reg_type": "GE",
+  "prescription_list": "LISTE II",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": null,
+  "date_enr_initial": "2018-11-26",
+  "date_enr_final": "2018-11-26",
+  "updated_at": "2026-08-25T17:25:40.935451+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "IBUPROFENE LYSINE"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : SOLUTION INJECTABLE IM\nDosage : 400 MG/3 ML\nConditionnement : B/06 AMP. DE 3ML"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 011/04 B 077/18\nStatut : I | Type : GE\nListe : LISTE II\nCircuit hospitalier : True | Circuit officiel : True"
+    }
+  ],
+  "text": "Composition / DCI\nIBUPROFENE LYSINE\n\nPrésentation\nForme pharmaceutique : SOLUTION INJECTABLE IM\nDosage : 400 MG/3 ML\nConditionnement : B/06 AMP. DE 3ML\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 011/04 B 077/18\nStatut : I | Type : GE\nListe : LISTE II\nCircuit hospitalier : True | Circuit officiel : True",
+  "ingredients": [
+    "IBUPROFENE LYSINE",
+    "Dosage : 400 MG/3 ML"
+  ],
+  "source_rank": 2
+}

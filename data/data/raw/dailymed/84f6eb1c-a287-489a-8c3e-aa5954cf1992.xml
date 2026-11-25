@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="72fc43ac-7d31-4550-bb7d-0f99f0d853dc"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">Gentamicin</content> Injection, USP</title>
+   <effectiveTime value="20261102"/>
+   <setId root="84f6eb1c-a287-489a-8c3e-aa5954cf1992"/>
+   <versionNumber value="7"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="012430880" root="1.3.6.1.4.1.519.1"/>
+            <name>Henry Schein, Inc</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="10440013-cbe2-4fac-948c-1b12b03d9020"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL listing data elements section"/>
+               <effectiveTime value="20220110"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0404-9866" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Gentamicin </name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Gentamicin Sulfate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="63323-010" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="40" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="8X7386QRLV" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Gentamicin Sulfate</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="T6Z9V48IKG" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Gentamicin</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="O40UQP6WCF" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SULFURIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="20" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43210" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, MULTI-DOSE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0404-9866-20" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20220110"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20220110"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id root="2.16.840.1.113883.3.150" extension="ANDA062366"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="L6ce01496-367f-4b07-a8b8-29af8a929df2">
+               <id root="90274b3d-754d-4bc3-be44-bf2a9aa826f6"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>Rx only</title>
+               <text>
+                  <paragraph>To reduce the development of drug-resistant bacteria and maintain the effectiveness of Gentamicin Injection, USP and other antibacterial drugs, Gentamicin Injection, USP should be used only to treat or prevent infections that are proven or strongly suspected to be caused by bacteria.</paragraph>
+               </text>
+               <effectiveTime value="20240827"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L7d9490ef-4067-41e2-b912-5261b7d8bf8f">
+               <id root="a5b4f18b-d7ef-4f5d-9bf1-c0cc8c4bbb0b"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <title>
+                  <content styleCode="bold">BOXED WARNINGS</content>
+               </title>
+               <text>
+                  <paragraph>Patients treated with aminoglycosides should be under close clinical observation because of the potential toxicity associated with their use.</paragraph>
+                  <paragraph>As with other aminoglycosides, gentamicin injection is potentially nephrotoxic. The risk of nephrotoxicity is greater in patients with impaired renal function and in those who receive high dosage of prolonged therapy.</paragraph>
+                  <paragraph>Neurotoxicity manifested by ototoxicity, both vestibular and auditory, can occur in patients treated with gentamicin, primarily in those with pre- existing renal damage and in patients with normal renal function treated with higher doses and/or for longer periods than recommended.</paragraph>
+                  <paragraph>Aminoglycoside-induced ototoxicity is usually irreversible. Other manifestations of neurotoxicity may include numbness, skin tingling, muscle twitching and convulsions.</paragraph>
+                  <paragraph>Renal and eighth cranial nerve function should be closely monitored, especially in patients with known or suspected reduced renal function at onset of therapy and also in those whose renal function is initially normal but who develop signs of renal dysfunction during therapy. Urine should be examined for decreased specific gravity, increased excretion of protein and the presence of cells or casts. Blood urea nitrogen (BUN), serum creatinine or creatinine clearance should be determined periodically. When feasible, it is recommended that serial audiograms be obtained in patients old enough to be tested, particularly high-risk patients. Evidence of ototoxicity (dizziness, vertigo, tinnitus, roaring in the ears or hearing loss) or nephrotoxicity requires dosage adjustment or discontinuance of the drug. As with the other aminoglycosides, on rare occasions changes in renal and eighth cranial nerve function may not become manifest until soon after completion of therapy.</paragraph>
+                  <paragraph>Serum concentrations of aminoglycosides should be monitored when feasible to assure adequate levels and to avoid potentially toxic levels. When monitoring gentamicin peak concentrations, dosage should be adjusted so that prolonged levels above 12 mcg/mL are avoided. When monitoring gentamicin trough concentrations, dosage should be adjusted so that levels above 2 mcg/mL are avoided. Excessive peak and/or trough serum concentrations of aminoglycosides may increase the risk of renal and eighth cranial nerve toxicity.</paragraph>
+                  <paragraph>In the event of overdosage or toxic reactions, hemodialysis may aid in the removal of gentamicin from the blood, especially if renal function is, or becomes, compromised. The rate of removal of gentamicin is considerably lower by peritoneal dialysis than it is by hemodialysis.</paragraph>
+                  <paragraph>In the newborn infant, exchange transfusions may also be considered.</paragraph>
+                  <paragraph>Concurrent and/or sequential systemic or topical use of other potentially neurotoxic and/or nephrotoxic drugs, such as cisplatin, cephaloridine, kanamycin, amikacin, neomycin, polymyxin B, colistin, paromomycin, streptomycin, tobramycin, vancomycin and viomycin, should be avoided. Other factors which may increase patient risk of toxicity are advanced age and dehydration.</paragraph>
+                  <paragraph>The concurrent use of gentamicin with potent diuretics, such as ethacrynic acid or furosemide, should be avoided, since certain diuretics by themselves may cause ototoxicity. In addition, when administered intravenously, diuretics may enhance aminoglycoside toxicity by altering the antibiotic concentration in serum and tissue.</paragraph>
+                  <paragraph>Aminoglycosides can cause fetal harm when administered to a pregnant woman (see <content styleCode="bold">WARNINGS</content> section).</paragraph>
+               </text>
+               <effectiveTime value="20240827"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L7b728c62-683a-466b-82f3-dba05eedd714">
+               <id root="f2464761-7799-44f7-bc6a-89a81c0824f8"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>
+                  <content styleCode="bold">DESCRIPTION:</content>
+               </title>
+               <text>
+                  <paragraph>Gentamicin sulfate, a water-soluble antibiotic of the aminoglycoside group, is derived by the growth of Micromonospora purpurea, an actinomycete. It has the following structural formula.</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L5e76e469-3ac6-41f9-b5cf-9fd42b529445"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>Gentamicin injection is a sterile, nonpyrogenic aqueous solution for parenteral administration.</paragraph>
+                  <paragraph>Each mL contains: Gentamicin sulfate equivalent to 40 mg gentamicin, methylparaben 1.8 mg and propylparaben 0.2 mg as preservatives, sodium metabisulfite 3.2 mg and edetate disodium 0.1 mg, Water for Injection q.s. Sodium hydroxide and/or sulfuric acid may have been added for pH adjustment.</paragraph>
+               </text>
+               <effectiveTime value="20251031"/>
+               <component>
+                  <observationMedia ID="L5e76e469-3ac6-41f9-b5cf-9fd42b529445">
+                     <text>Formula1.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Formula1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L9c52659f-24e2-4412-a34f-43516f94077b">
+               <id root="ac17adc4-2800-4540-85fd-07b7314c182b"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>
+                  <content styleCode="bold">CLINICAL PHARMACOLOGY:</content>
+               </title>
+               <text>
+                  <paragraph>After intramuscular (IM) administration of gentamicin sulfate, peak serum concentrations usually occur between 30 and 60 minutes and serum levels are measurable for six to eight hours. When gentamicin is administered by intravenous (IV) infusion over a two-hour period, the serum concentrations are similar to those obtained by IM administration.</paragraph>
+                  <paragraph>In patients with normal renal function, peak serum concentrations of gentamicin (mcg/mL) are usually up to four times the single IM dose (mg/kg); for example, a 1 mg/kg injection in adults may be expected to result in a peak serum concentration up to 4 mcg/mL; a 1.5 mg/kg dose may produce levels up to 6 mcg/mL. While some variation is to be expected due to a number of variables such as age, body temperature, surface area and physiologic differences, the individual patient given the same dose tends to have similar levels in repeated determinations. Gentamicin administered at 1 mg/kg every eight hours for the usual 7 to 10 day treatment period to patients with normal renal function does not accumulate in the serum.</paragraph>
+                  <paragraph>Gentamicin, like all aminoglycosides, may accumulate in the serum and tissues of patients treated with higher doses and/or for prolonged periods, particularly in the presence of impaired renal function. In adult patients, treatment with gentamicin dosages of 4 mg/kg/day or higher for 7 to 10 days may result in a slight, progressive rise in both peak and trough concentrations. In patients with impaired renal function, gentamicin is cleared from the body more slowly than in patients with normal renal function. The more severe the impairment, the slower the clearance. (Dosage must be adjusted.)</paragraph>
+                  <paragraph>Since gentamicin is distributed in extra-cellular fluid, peak serum concentrations may be lower than usual in adult patients who have a large volume of this fluid. Serum concentrations of gentamicin in febrile patients may be lower than those in afebrile patients given the same dose. When body temperature returns to normal, serum concentrations of the drug may rise. Febrile and anemic states may be associated with a shorter than usual serum half-life. (Dosage adjustment is usually not necessary.) In severely burned patients, the half-life may be significantly decreased and resulting serum concentrations may be lower than anticipated from the mg/kg dose.</paragraph>
+                  <paragraph>Protein binding studies have indicated that the degree of gentamicin binding is low; depending upon the methods used for testing, this may be between 0 and 30%.</paragraph>
+                  <paragraph>After initial administration to patients with normal renal function, generally 70% or more of the gentamicin dose is recoverable in the urine in 24 hours; concentrations in urine above 100 mcg/mL may be achieved. Little, if any, metabolic transformation occurs; the drug is excreted principally by glomerular filtration. After several days of treatment, the amount of gentamicin excreted in the urine approaches the daily dose administered. As with other aminoglycosides, a small amount of the gentamicin dose may be retained in the tissues, especially in the kidneys. Minute quantities of aminoglycosides have been detected in the urine weeks after drug administration was discontinued. Renal clearance of gentamicin is similar to that of endogenous creatinine.</paragraph>
+                  <paragraph>In patients with marked impairment of renal function, there is a decrease in the concentration of aminoglycosides in urine and in their penetration into defective renal parenchyma. This decreased drug excretion, together with the potential nephrotoxicity of aminoglycosides, should be considered when treating such patients who have urinary tract infections.</paragraph>
+                  <paragraph>Probenecid does not affect renal tubular transport of gentamicin.</paragraph>
+                  <paragraph>The endogenous creatinine clearance rate and the serum creatinine level have a high correlation with the half-life of gentamicin in serum. Results of these tests may serve as guides for adjusting dosage in patients with renal impairment (see <content styleCode="bold">DOSAGE AND ADMINISTRATION</content>).</paragraph>
+                  <paragraph>Following parenteral administration, gentamicin can be detected in serum, lymph, tissues, sputum and in pleural, synovial and peritoneal fluids. Concentrations in renal cortex sometimes may be eight times higher than the usual serum levels. Concentrations in bile, in general, have been low and have suggested minimal biliary excretion. Gentamicin crosses the peritoneal as well as the placental membranes. Since aminoglycosides diffuse poorly into the subarachnoid space after parenteral administration, concentrations of gentamicin in cerebrospinal fluid are often low and dependent upon dose, rate of penetration and degree of meningeal inflammation. There is minimal penetration of gentamicin into ocular tissues following IM or IV administration.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Microbiology</content>
+                     <br/>
+                     <content styleCode="bold">Mechanism of Action</content>
+                     <br/>Gentamicin, an aminoglycoside, binds to the prokaryotic ribosome, inhibiting protein synthesis in susceptible bacteria. It is bactericidal in vitro against Gram-positive and Gram-negative bacteria.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Mechanism of Resistance</content>
+                     <br/>Bacterial resistance to gentamicin is generally developed slowly. Bacteria resistant to one aminoglycoside may be resistant to one or more other aminoglycosides. The following bacteria are usually resistant to the aminoglycosides, including gentamicin: most streptococcal species (including Streptococcus pneumoniae and the Group D streptococci), most enterococcal species (including Enterococcus faecalis, E. faecium, and E. durans), and anaerobic organisms, such as Bacteroides species and Clostridium species.</paragraph>
+                  <paragraph>Aminoglycosides are known to be not effective against Salmonella and Shigella species in patients. Therefore, in vitro susceptibility test results should not be reported.</paragraph>
+                  <paragraph>I<content styleCode="bold">nteractions with Other Antimicrobials</content>
+                     <br/>In vitro studies show that an aminoglycoside combined with an antibiotic that interferes with cell wall synthesis may act synergistically against some enterococcal strains. The combination of gentamicin and penicillin G has a synergistic bactericidal effect against strains of Enterococcus faecalis, E. faecium and E. durans. An enhanced killing effect against many of these strains has also been shown in vitro with combinations of gentamicin and ampicillin, carbenicillin, nafcillin or oxacillin.</paragraph>
+                  <paragraph>The combined effect of gentamicin and carbenicillin is synergistic for many strains of Pseudomonas aeruginosa. In vitro synergism against other Gram- negative organisms has been shown with combinations of gentamicin and cephalosporins.</paragraph>
+                  <paragraph>Gentamicin may be active against clinical isolates of bacteria resistant to other aminoglycosides.</paragraph>
+                  <paragraph>Antibacterial Activity</paragraph>
+                  <paragraph>Gentamicin has been shown to be active against most of the following bacteria, both in vitro and in clinical infections (see <content styleCode="bold">INDICATIONS AND USAGE</content>).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Gram-Positive Bacteria</content>
+                  </paragraph>
+                  <paragraph>Staphylococcus species</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Gram-Negative Bacteria</content>
+                  </paragraph>
+                  <paragraph>Citrobacter species</paragraph>
+                  <paragraph>Enterobacter species</paragraph>
+                  <paragraph>Escherichia coli</paragraph>
+                  <paragraph>Klebsiella species</paragraph>
+                  <paragraph>Proteus species</paragraph>
+                  <paragraph>Serratia species</paragraph>
+                  <paragraph>Pseudomonas aeruginosa</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Susceptibility Testing</content>
+                     <br/>For specific information regarding susceptibility test methods, interpretive criteria, and associated test methods and quality control standards recognized by FDA for this drug, please see: https://www.fda.gov/STIC.</paragraph>
+               </text>
+               <effectiveTime value="20240827"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lc81e881c-13b8-4763-97bd-89dfdd07c862">
+               <id root="1a19b8b1-d89d-44fc-9030-a476f9305df7"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>
+                  <content styleCode="bold">INDICATIONS AND USAGE:</content>
+               </title>
+               <text>
+                  <paragraph>To reduce the development of drug-resistant bacteria and maintain the effectiveness of Gentamicin Injection, USP and other antibacterial drugs, Gentamicin Injection, USP should be used only to treat or prevent infections that are proven or strongly suspected to be caused by susceptible bacteria. When culture and susceptibility information are available, they should be considered in selecting or modifying antibacterial therapy. In the absence of such data, local epidemiology and susceptibility patterns may contribute to the empiric selection of therapy.</paragraph>
+                  <paragraph>Gentamicin Injection, USP is indicated in the treatment of serious infections caused by susceptible strains of the following microorganisms: Pseudomonas aeruginosa, Proteus species (indole-positive and indole-negative), Escherichia coli, Klebsiella-Enterobacter-Serratia species, Citrobacter species and Staphylococcus species (coagulase-positive and coagulase-negative).</paragraph>
+                  <paragraph>Clinical studies have shown gentamicin injection to be effective in bacterial neonatal sepsis; bacterial septicemia and serious bacterial infections of the central nervous system (meningitis), urinary tract, respiratory tract, gastrointestinal tract (including peritonitis), skin, bone and soft tissue (including burns). Aminoglycosides, including gentamicin, are not indicated in uncomplicated initial episodes of urinary tract infections unless the causative organisms are susceptible to these antibiotics and are not susceptible to antibiotics having less potential for toxicity.</paragraph>
+                  <paragraph>Specimens for bacterial culture should be obtained to isolate and identify causative organisms and to determine their susceptibility to gentamicin.</paragraph>
+                  <paragraph>Gentamicin injection may be considered as initial therapy in suspected or confirmed gram-negative infections, and therapy may be instituted before obtaining results of susceptibility testing. The decision to continue therapy with this drug should be based on the results of susceptibility tests, the severity of the infection and the important additional concepts contained in the <content styleCode="bold">BOXED WARNINGS</content>. If the causative organisms are resistant to gentamicin, other appropriate therapy should be instituted.</paragraph>
+                  <paragraph>In serious infections when the causative organisms are unknown, gentamicin injection may be administered as initial therapy in conjunction with a penicillin-type or cephalosporin-type drug before obtaining results of susceptibility testing. If anaerobic organisms are suspected as etiologic agents,</paragraph>
+                  <paragraph>consideration should be given to using other suitable antimicrobial therapy in conjunction with gentamicin. Following identification of the organism and its susceptibility, appropriate antibiotic therapy should then be continued.</paragraph>
+                  <paragraph>Gentamicin injection has been used effectively in combination with carbenicillin for the treatment of life-threatening infections caused by Pseudomonas aeruginosa. It has also been found effective when used in conjunction with a penicillin-type drug for treatment of endocarditis caused by group D streptococci.</paragraph>
+                  <paragraph>Gentamicin injection has also been shown to be effective in the treatment of serious staphylococcal infections. While not the antibiotic of first choice, gentamicin injection may be considered when penicillins or other less potentially toxic drugs are contraindicated and bacterial susceptibility tests and clinical judgment indicate its use. It may also be considered in mixed infections caused by susceptible strains of staphylococci and gram-negative organisms.</paragraph>
+                  <paragraph>In the neonate with suspected bacterial sepsis or staphylococcal pneumonia, a penicillin-type drug is also usually indicated as concomitant therapy with gentamicin.</paragraph>
+               </text>
+               <effectiveTime value="20240827"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lbd965dc8-3b34-4dd3-b410-51e4bc257ac1">
+               <id root="4b9f8228-7da4-4bed-b59b-4c0096eb9475"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">CONTRAINDICATIONS:</content>
+               </title>
+               <text>
+                  <paragraph>Hypersensitivity to gentamicin is a contraindication to its use. A history of hypersensitivity or serious toxic reactions to other aminoglycosides may contraindicate use of gentamicin because of the known cross-sensitivity of patients to drugs in this class.</paragraph>
+               </text>
+               <effectiveTime value="20240827"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L7f672d72-0878-4004-9a98-d2a8fe595a00">
+               <id root="0e76d189-c051-4c79-b4ca-6be1bf098d50"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>
+                  <content styleCode="bold">WARNINGS:</content>
+               </title>
+               <text>
+                  <paragraph>(See <content styleCode="bold">BOXED WARNINGS.</content>)</paragraph>
+                  <paragraph>Contains sodium metabisulfite, a sulfite that may cause allergic-type reactions including anaphylactic symptoms and life-threatening or less severe asthmatic episodes in certain susceptible people. The overall prevalence of sulfite sensitivity in the general population is unknown and probably low. Sulfite sensitivity is seen more frequently in asthmatic than in non-asthmatic people.</paragraph>
+                  <paragraph>Aminoglycosides can cause fetal harm when administered to a pregnant woman. Aminoglycoside antibiotics cross the placenta, and there have been several reports of total irreversible bilateral congenital deafness in children whose mothers received streptomycin during pregnancy. Serious side effects to mother, fetus or newborn have not been reported in the treatment of pregnant women with other aminoglycosides. Animal reproduction studies conducted on rats and rabbits did not reveal evidence of impaired fertility or harm to the fetus due to gentamicin sulfate.</paragraph>
+                  <paragraph>It is not known whether gentamicin sulfate can cause fetal harm when administered to a pregnant woman or can affect reproduction capacity. If gentamicin is used during pregnancy or if the patient becomes pregnant while taking gentamicin, she should be apprised of the potential hazard to the fetus.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Risk of Ototoxicity Due to Mitochondrial DNA Variants</content>
+                     <br/>Cases of ototoxicity with aminoglycosides have been observed in patients with certain variants in the mitochondrially encoded 12S rRNA gene (MT-RNR1),</paragraph>
+                  <paragraph>particularly the m.1555A&gt;G variant. Ototoxicity occurred in some patients even when their aminoglycoside serum levels were within the recommended range.</paragraph>
+                  <paragraph>Mitochondrial DNA variants are present in less than 1% of the general US population, and the proportion of the variant carriers who may develop ototoxicity</paragraph>
+                  <paragraph>as well as the severity of ototoxicity is unknown. In case of known maternal history of ototoxicity due to aminoglycoside use or a known mitochondrial DNA</paragraph>
+                  <paragraph>variant in the patient, consider alternative treatments other than aminoglycosides unless the increased risk of permanent hearing loss is outweighed by the severity of infection and lack of safe and effective alternative therapies.</paragraph>
+               </text>
+               <effectiveTime value="20240827"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lfec4b861-1d7a-43dd-85f5-30091a0753b3">
+               <id root="e7d2cb76-dee4-4fa4-ab03-32a4bf360fbe"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">PRECAUTIONS:</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">General</content>
+                     <br/>Prescribing Gentamicin Injection, USP in the absence of a proven or strongly suspected bacterial infection or a prophylactic indication is unlikely to provide benefit to the patient and increases the risk of the development of drug-resistant bacteria.</paragraph>
+                  <paragraph>Neurotoxic and nephrotoxic antibiotics may be almost completely absorbed from body surfaces (except urinary bladder) after local irrigation and after topical application during surgical procedures. The potential toxic effects of antibiotics administered in this fashion (neuromuscular blockage, respiratory paralysis, oto- and nephrotoxicity) should be considered (see <content styleCode="bold">BOXED WARNINGS</content>).</paragraph>
+                  <paragraph>Increased nephrotoxicity has been reported following concomitant administration of aminoglycoside antibiotics and cephalosporins.</paragraph>
+                  <paragraph>Neuromuscular blockade and respiratory paralysis have been reported in the cat receiving high doses (40 mg/kg) of gentamicin. The possibility of these phenomena occurring in man should be considered if aminoglycosides are administered by any route to patients receiving anesthetics, or to patients receiving neuromuscular blocking agents, such as succinylcholine, tubocurarine or decamethonium, or in patients receiving massive transfusions of citrate-anticoagulated blood. If neuromuscular blockade occurs, calcium salts may reverse it.</paragraph>
+                  <paragraph>Aminoglycosides should be used with caution in patients with neuromuscular disorders, such as myasthenia gravis or parkinsonism, since these drugs may aggravate muscle weakness because of their potential curare-like effects on the neuromuscular junction. During or following gentamicin therapy, paresthesias, tetany, positive Chvostek and Trousseau signs and mental confusion have been described in patients with hypomagnesemia, hypocalcemia and hypokalemia. When this has occurred in infants, tetany and muscle weakness has been described. Both adults and infants required corrective electrolyte therapy.</paragraph>
+                  <paragraph>Elderly patients may have reduced renal function which may not be evident in the results of routine screening tests such as BUN or serum creatinine. A creatinine clearance determination may be more useful. Monitoring of renal function during treatment with gentamicin, as with other aminoglycosides, is particularly important in such patients. A Fanconi-like syndrome, with aminoaciduria and metabolic acidosis has been reported in some adults and infants being given gentamicin injections.</paragraph>
+                  <paragraph>Cross-allergenicity among aminoglycosides has been demonstrated.</paragraph>
+                  <paragraph>Patients should be well hydrated during treatment.</paragraph>
+                  <paragraph>Although the in vitro mixing of gentamicin and carbenicillin results in a rapid and significant inactivation of gentamicin, this interaction has not been demonstrated in patients with normal renal function who received both drugs by different routes of administration. A reduction in gentamicin serum half- life has been reported in patients with severe renal impairment receiving carbenicillin concomitantly with gentamicin.</paragraph>
+                  <paragraph>Treatment with gentamicin may result in overgrowth of nonsusceptible organisms. If this occurs, appropriate therapy is indicated.</paragraph>
+                  <paragraph>See <content styleCode="bold">BOXED WARNINGS</content> regarding concurrent use of potent diuretics and regarding concurrent and/or sequential use of other neurotoxic and/or for other essential information.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Information for Patients</content>
+                     <br/>Patients should be counseled that antibacterial drugs including Gentamicin Injection, USP should only be used to treat bacterial infections. They do not treat viral infections (e.g., the common cold). When Gentamicin Injection, USP is prescribed to treat a bacterial infection, patients should be told that although it is common to feel better early in the course of therapy, the medication should be taken exactly as directed. Skipping doses or not completing the full course of therapy may (1) decrease the effectiveness of the immediate treatment and (2) increase the likelihood that bacteria will develop resistance and will not be treatable by Gentamicin Injection, USP or other antibacterial drugs in the future.</paragraph>
+               </text>
+               <effectiveTime value="20240827"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lbdf8541c-add4-4b99-b85a-910c8894500e">
+               <id root="8e07b99f-b59d-4bf6-b1de-2518c3d29edc"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">ADVERSE REACTIONS:</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Fresenius Kabi USA, LLC at 1-800-551-7176 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Nephrotoxicity</content>
+                     <br/>Adverse renal effects, as demonstrated by the presence of casts, cells or protein in the urine or by rising BUN, NPN, serum creatinine or oliguria, have been reported. They occur more frequently in patients with a history of renal impairment (especially if dialysis is required) and in patients treated for longer periods or with larger doses than recommended.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Neurotoxicity</content>
+                     <br/>Serious adverse effects on both vestibular and auditory branches of the eighth nerve have been reported, primarily in patients with renal impairment (especially if hemodialysis is required) and in patients on high doses and/or prolonged therapy. Symptoms include dizziness, vertigo, tinnitus, roaring in the ears and also hearing loss, which, as with the other aminoglycosides, may be irreversible. Hearing loss is usually manifested initially by diminution of high-tone acuity. Other factors which may increase the risk of toxicity include excessive dosage, dehydration and previous exposure to other ototoxic drugs.</paragraph>
+                  <paragraph>Peripheral neuropathy or encephalopathy, including numbness, skin tingling, muscle twitching, convulsions and a myasthenia gravis-like syndrome have been reported.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NOTE:</content> The risk of toxic reactions is low in patients with normal renal function who did not receive gentamicin sulfate at higher doses or for longer periods of time than recommended.</paragraph>
+                  <paragraph>Other reported adverse reactions possibly related to gentamicin include: respiratory depression, lethargy, confusion, depression, visual disturbances, decreased appetite, weight loss and hypotension and hypertension; rash, itching, urticaria, generalized burning, laryngeal edema, anaphylactoid reactions, fever and headache; nausea, vomiting, increased salivation and stomatitis; purpura, pseudotumor cerebri, acute organic brain syndrome, pulmonary fibrosis, alopecia, joint pain, transient hepatomegaly and splenomegaly.</paragraph>
+                  <paragraph>Laboratory abnormalities possibly related to gentamicin include: increased levels of serum transaminase (SGOT, SGPT), serum LDH and bilirubin; decreased serum calcium, magnesium, sodium and potassium; anemia, leukopenia, granulocytopenia, transient agranulocytosis, eosinophilia, increased and decreased reticulocyte counts and thrombocytopenia. While clinical laboratory test abnormalities may be isolated findings, they may also be associated with clinically related signs and symptoms. For example, tetany and muscle weakness may be associated with hypomagnesemia, hypocalcemia and hypokalemia.</paragraph>
+                  <paragraph>While the local tolerance of gentamicin sulfate is generally excellent, there has been an occasional report of pain at the injection site. Subcutaneous atrophy or fat necrosis suggesting local irritation has been reported rarely.</paragraph>
+               </text>
+               <effectiveTime value="20240827"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lf371bdb9-cb70-415b-8acf-e27840456e3b">
+               <id root="ee0fe6d4-77ce-4d3e-83bc-492e4c10f1f7"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>
+                  <content styleCode="bold">OVERDOSAGE:</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">In the event of overdosage or toxic reactions, hemodialysis may aid in the removal of gentamicin from the blood, especially if renal function is, or becomes, compromised. The rate of removal of gentamicin is considerably lower by peritoneal dialysis than it is by hemodialysis.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20240827"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lca243ab4-b5af-4a55-af08-96ef7b51598d">
+               <id root="054262b4-de7e-47ec-b7b6-5e645af857b9"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>
+                  <content styleCode="bold">DOSAGE AND ADMINISTRATION:</content>
+               </title>
+               <text>
+                  <paragraph>Gentamicin injection may be given IM or IV. The patient's pretreatment body weight should be obtained for calculation of correct dosage. The dosage of aminoglycosides in obese patients should be based on an estimate of the lean body mass. It is desirable to limit the duration of treatment with aminoglycosides to short term.</paragraph>
+                  <paragraph>PATIENTS WITH NORMAL</paragraph>
+                  <paragraph>RENAL FUNCTION</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Adults</content>
+                     <br/>The recommended dosage of gentamicin injection for patients with serious infections and normal renal function is 3 mg/kg/day, administered in three equal doses every eight hours (<content styleCode="bold">Table 3</content>).</paragraph>
+                  <paragraph>For patients with life-threatening infections, dosages up to 5 mg/kg/day may be administered in three or four equal doses. This dosage should be reduced to 3 mg/kg/day as soon as clinically indicated (<content styleCode="bold">Table 3</content>).</paragraph>
+                  <paragraph>It is desirable to measure both peak and trough serum concentrations of gentamicin to determine the adequacy and safety of the dosage. When such measurements are feasible, they should be carried out periodically during therapy to assure adequate but not excessive drug levels. For example, the peak concentration (at 30 to 60 minutes after IM injection) is expected to be in the range of 4 to 6 mcg/mL. When monitoring peak concentrations after IM or IV administration, dosage should be adjusted so that prolonged levels above 12 mcg/mL are avoided. When monitoring trough concentrations (just prior to the next dose), dosage should be adjusted so that levels above 2 mcg/mL are avoided. Determination of the adequacy of a serum level for a particular patient must take into consideration the susceptibility of the causative organism, the severity of the infection and the status of the patient's host-defense mechanisms.</paragraph>
+                  <paragraph>In patients with extensive burns, altered pharmacokinetics may result in reduced serum concentrations of aminoglycosides. In such patients treated with gentamicin, measurement of serum concentrations is recommended as a basis for dosage adjustment.</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L206acb29-a7dc-4784-9a62-d5d7af4534ee"/>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L930bfecf-626a-4fd5-a334-b33e976ab591"/>
+                  </paragraph>
+                  <paragraph>*The dosage of aminoglycosides in obese patients should be based on an estimate of the lean body mass.</paragraph>
+                  <paragraph>**for q6h schedules, dosage should be recalculated.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Children</content>
+                     <br/>6 to 7.5 mg/kg/day (2 to 2.5 mg/kg administered every eight hours).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Infants and Neonates</content>
+                     <br/>7.5 mg/kg/day (2.5 mg/kg administered every eight hours).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Premature or Full-Term Neonates One Week of Age or Less</content>
+                     <br/>5 mg/kg/day (2.5 mg/kg administered every 12 hours).</paragraph>
+                  <paragraph>For further information concerning the use of gentamicin in infants and children, see gentamicin injection (pediatric) product information.</paragraph>
+                  <paragraph>The usual duration of treatment for all patients is 7 to 10 days. In difficult and complicated infections, a longer course of therapy may be necessary. In such cases monitoring of renal, auditory and vestibular functions is recommended, since toxicity is more apt to occur with treatment extended for more than 10 days. Dosage should be reduced if clinically indicated.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">FOR INTRAVENOUS ADMINISTRATION</content>
+                     <br/>The IV administration of gentamicin may be particularly useful for treating patients with bacterial septicemia or those in shock. It may also be the preferred route of administration for some patients with congestive heart failure, hematologic disorders, severe burns or those with reduced muscle mass. For intermittent IV administration in adults, a single dose of gentamicin injection may be diluted in 50 to 200 mL of sterile isotonic saline solution or in a sterile solution of dextrose 5% in water; in infants and children, the volume of diluent should be less. The solution may be infused over a period of one-half to two hours.</paragraph>
+                  <paragraph>The recommended dosage for IM and IV administration is identical.</paragraph>
+                  <paragraph>Gentamicin injection should not be physically premixed with other drugs, but should be administered separately in accordance with the recommended route of administration and dosage schedule.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">PATIENTS WITH IMPAIRED RENAL FUNCTION</content>
+                     <br/>Dosage must be adjusted in patients with impaired renal function to assure therapeutically adequate, but not excessive blood levels. Whenever possible serum concentration of gentamicin should be monitored. One method of dosage adjustment is to increase the interval between administration of the usual doses. Since the serum creatinine concentration has a high correlation with the serum half-life of gentamicin, this laboratory test may provide guidance for adjustment of the interval between doses. The interval between doses (in hours) may be approximated by multiplying the serum creatinine level (mg/100 mL) by 8. For example, a patient weighing 60 kg with a serum creatinine level of 2 mg/100 mL could be given 60 mg (1 mg/kg) every 16 hours (2 x 8).</paragraph>
+                  <paragraph>In patients with serious systemic infections and renal impairment, it may be desirable to administer the antibiotic more frequently but in reduced dosage. In such patients, serum concentrations of gentamicin should be measured so that adequate but not excessive levels result. A peak and trough concentration measured intermittently during therapy will provide optimal guidance for adjusting dosage. After the usual initial dose, a rough guide for determining reduced dosage at eight-hour intervals is to divide the normally recommended dose by the serum creatinine level (<content styleCode="bold">Table 4</content>). For example, after an initial dose of 60 mg (1 mg/kg), a patient weighing 60 kg with a serum creatinine level of 2 mg/100 mL could be given 30 mg every eight hours (60 ÷ 2). It should be noted that the status of renal function may be changing over the course of the infectious process.</paragraph>
+                  <paragraph>It is important to recognize that deteriorating renal function may require a greater reduction in dosage than that specified in the above guidelines for patients with stable renal impairment.</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="Lbf30a6a0-e391-41d0-b3dc-60bf3714a6d9"/>
+                  </paragraph>
+                  <paragraph>In adults with renal failure undergoing hemodialysis, the amount of gentamicin removed from the blood may vary depending upon several factors including the dialysis method used. An eight-hour hemodialysis may reduce serum concentrations of gentamicin by approximately 50%. The recommended dosage at the end of each dialysis period is 1 to 1.7 mg/kg depending upon the severity of the infection. In children, a dose of 2 mg/kg may be administered.</paragraph>
+                  <paragraph>The above dosage schedules are not intended as rigid recommendations but are provided as guides to dosage when measurement of gentamicin serum level is not feasible.</paragraph>
+                  <paragraph>A variety of methods are available to measure gentamicin concentrations in body fluids; these include microbiologic, enzymatic and radioimmunoassay techniques.</paragraph>
+                  <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit.</paragraph>
+               </text>
+               <effectiveTime value="20251031"/>
+               <component>
+                  <observationMedia ID="L206acb29-a7dc-4784-9a62-d5d7af4534ee">
+                     <text>Image1.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Image1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="L930bfecf-626a-4fd5-a334-b33e976ab591">
+                     <text>Image2.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Image2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="Lbf30a6a0-e391-41d0-b3dc-60bf3714a6d9">
+                     <text>Image3.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Image3.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L6cf8433b-aee8-4e9e-bba9-cdc20f91a23a">
+               <id root="22bde0fb-3785-4900-bd1e-38a688a084dc"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>
+                  <content styleCode="bold">HOW SUPPLIED:</content>
+               </title>
+               <text>
+                  <paragraph>Gentamicin Injection, USP, containing gentamicin 40 mg per mL is supplied as follows:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L05c52838-9402-4080-a1e2-909e5f7a50da"/>
+                  </paragraph>
+                  <paragraph>Also available, Gentamicin Injection (Pediatric), 20 mg per 2 mL (10 mg per mL), supplied in 2 mL (20 mg) vials in packages of 25. Store at 20° to 25°C (68° to 77°F) [see USP Controlled Room Temperature].</paragraph>
+                  <paragraph>The container closure is not made with natural rubber latex.</paragraph>
+                  <table width="100%">
+                     <caption> Product repackaged by: Henry Schein, Inc., Bastian, VA 24314</caption>
+                     <tbody>
+                        <tr>
+                           <td>From Original Manufacturer/Distributor's NDC and Unit of Sale</td>
+                           <td>To Henry Schein Repackaged Product NDC and Unit of Sale</td>
+                           <td>Total Strength/Total Volume (Concentration) per unit</td>
+                        </tr>
+                        <tr>
+                           <td>NDC 63323-010-20<br/>Unit of 25</td>
+                           <td>NDC 0404-9866-20<br/>1 20 mL Multiple Dose Vial in a bag<br/>(Vial bears NDC 63323-010-03)</td>
+                           <td>800 mg per 20 mL<br/>(40 mg per mL)</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="Lbe75faec-3ec2-4f45-ae41-a882895369ef"/>
+                  </paragraph>
+                  <paragraph>Lake Zurich, IL 60047</paragraph>
+                  <paragraph>www.fresenius-kabi.com/us</paragraph>
+                  <paragraph>45855K</paragraph>
+                  <paragraph>Revised: October 2023</paragraph>
+               </text>
+               <effectiveTime value="20240830"/>
+               <component>
+                  <observationMedia ID="L05c52838-9402-4080-a1e2-909e5f7a50da">
+                     <text>Image4.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Image4.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="Lbe75faec-3ec2-4f45-ae41-a882895369ef">
+                     <text>Image5.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Image5.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L0c61bda8-789b-473a-bcc9-899bc8b7d414">
+               <id root="0a5d5a7f-0586-48d1-ad66-d7d8bcfc25b4"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Sample Package Label</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="Lc1724bc9-86c5-4260-822a-b1752c039a09"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20240830"/>
+               <component>
+                  <observationMedia ID="Lc1724bc9-86c5-4260-822a-b1752c039a09">
+                     <text>Label1.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Label1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

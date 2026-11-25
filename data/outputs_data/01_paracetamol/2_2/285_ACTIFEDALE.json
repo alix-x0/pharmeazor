@@ -1,0 +1,70 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 1,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "ACTIFEDALE",
+  "brand": "ACTIFEDALE",
+  "dci": "TRIPROLIDINE CHLORHYDRATE/PSEUDOEPHEDRINE CHLORHYDRATE/PARACETAMOL",
+  "dci_code": "22 A 001",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "COMP.",
+  "dosage": "2,5MG/50MG/300MG",
+  "conditionnement": "B/20",
+  "reg_number": "119/22 A 001/99",
+  "reg_status": null,
+  "reg_type": null,
+  "prescription_list": null,
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": "ALEPPO PHARMACEUTICAL INDUSTRIE ( ALPHA )",
+  "date_enr_initial": null,
+  "date_enr_final": null,
+  "updated_at": "2026-08-31T19:58:28.622327+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "TRIPROLIDINE CHLORHYDRATE/PSEUDOEPHEDRINE CHLORHYDRATE/PARACETAMOL"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : COMP.\nDosage : 2,5MG/50MG/300MG\nConditionnement : B/20"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 119/22 A 001/99\nStatut : None | Type : None\nListe : None\nCircuit hospitalier : True | Circuit officiel : True"
+    },
+    {
+      "key": "observation",
+      "label": "Observations",
+      "number": null,
+      "title": "Observations",
+      "text": "ALEPPO PHARMACEUTICAL INDUSTRIE ( ALPHA )"
+    }
+  ],
+  "text": "Composition / DCI\nTRIPROLIDINE CHLORHYDRATE/PSEUDOEPHEDRINE CHLORHYDRATE/PARACETAMOL\n\nPrésentation\nForme pharmaceutique : COMP.\nDosage : 2,5MG/50MG/300MG\nConditionnement : B/20\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 119/22 A 001/99\nStatut : None | Type : None\nListe : None\nCircuit hospitalier : True | Circuit officiel : True\n\nObservations\nALEPPO PHARMACEUTICAL INDUSTRIE ( ALPHA )",
+  "ingredients": [
+    "TRIPROLIDINE CHLORHYDRATE/PSEUDOEPHEDRINE CHLORHYDRATE/PARACETAMOL",
+    "Dosage : 2,5MG/50MG/300MG"
+  ],
+  "source_rank": 2
+}

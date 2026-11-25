@@ -1,0 +1,63 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 1,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "SUPPFADOL 200",
+  "brand": "SUPPFADOL 200",
+  "dci": "PARACETAMOL",
+  "dci_code": "03 B 042",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "SUPPOSITOIRE",
+  "dosage": "200MG",
+  "conditionnement": "B/10",
+  "reg_number": "366/03 B 042/07/13",
+  "reg_status": "F",
+  "reg_type": "GE",
+  "prescription_list": null,
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": null,
+  "date_enr_initial": "2007-05-12",
+  "date_enr_final": "2013-04-15",
+  "updated_at": "2026-09-08T13:30:28.926502+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "PARACETAMOL"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : SUPPOSITOIRE\nDosage : 200MG\nConditionnement : B/10"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 366/03 B 042/07/13\nStatut : F | Type : GE\nListe : None\nCircuit hospitalier : True | Circuit officiel : True"
+    }
+  ],
+  "text": "Composition / DCI\nPARACETAMOL\n\nPrésentation\nForme pharmaceutique : SUPPOSITOIRE\nDosage : 200MG\nConditionnement : B/10\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 366/03 B 042/07/13\nStatut : F | Type : GE\nListe : None\nCircuit hospitalier : True | Circuit officiel : True",
+  "ingredients": [
+    "PARACETAMOL",
+    "Dosage : 200MG"
+  ],
+  "source_rank": 2
+}

@@ -1,0 +1,70 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 8,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "FELDENE",
+  "brand": "FELDENE",
+  "dci": "PIROXICAM",
+  "dci_code": "04 B 024",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "SOLUTION INJECTABLE IM",
+  "dosage": "20MG/ML",
+  "conditionnement": "B/02 AMP. DE 1ML",
+  "reg_number": "045/04 B 024/98/16",
+  "reg_status": null,
+  "reg_type": null,
+  "prescription_list": "LISTE I",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": "PFIZER HOLDING FRANCE",
+  "date_enr_initial": null,
+  "date_enr_final": null,
+  "updated_at": "2026-09-08T13:21:18.371704+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "PIROXICAM"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : SOLUTION INJECTABLE IM\nDosage : 20MG/ML\nConditionnement : B/02 AMP. DE 1ML"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 045/04 B 024/98/16\nStatut : None | Type : None\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True"
+    },
+    {
+      "key": "observation",
+      "label": "Observations",
+      "number": null,
+      "title": "Observations",
+      "text": "PFIZER HOLDING FRANCE"
+    }
+  ],
+  "text": "Composition / DCI\nPIROXICAM\n\nPrésentation\nForme pharmaceutique : SOLUTION INJECTABLE IM\nDosage : 20MG/ML\nConditionnement : B/02 AMP. DE 1ML\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 045/04 B 024/98/16\nStatut : None | Type : None\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True\n\nObservations\nPFIZER HOLDING FRANCE",
+  "ingredients": [
+    "PIROXICAM",
+    "Dosage : 20MG/ML"
+  ],
+  "source_rank": 2
+}

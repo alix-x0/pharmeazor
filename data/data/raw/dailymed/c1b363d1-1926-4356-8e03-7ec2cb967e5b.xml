@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="58793e47-d2eb-4ea6-b99b-f0877f769c0d"/>
+   <code code="50578-4" codeSystem="2.16.840.1.113883.6.1" displayName="PRESCRIPTION ANIMAL DRUG LABEL"/>
+   <title>KetoMed<sup>TM</sup>
+   </title>
+   <effectiveTime value="20241030"/>
+   <setId root="c1b363d1-1926-4356-8e03-7ec2cb967e5b"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="060492923"/>
+            <name>Bimeda, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="256232216"/>
+                        <name>Bimeda- MTC</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="f5d6575a-9e08-442e-b3d2-447379586b0f"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <title/>
+               <text/>
+               <effectiveTime value="20211216"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="61133-4007" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>KetoMed</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>ketoprofen</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="100" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="90Y4QC304K" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>KETOPROFEN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="90Y4QC304K" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>KETOPROFEN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="70" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="94ZLA3W45F" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ARGININE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2968PHW8QP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CITRIC ACID MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="LKG8494WBH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BENZYL ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="50" unit="mL"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="61133-4007-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" displayName="BOTTLE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="100" unit="mL"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="61133-4007-2" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" displayName="BOTTLE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20210208"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANADA200625" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73583" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANADA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="Ld207f350-21f1-47a6-af25-c96eef76bf43">
+               <id root="a5066d8e-1877-4ec0-8019-988b96a9a956"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">KetoMed<sup>TM</sup>
+                        <br/> (ketoprofen)</content>
+                  </paragraph>
+                  <paragraph>Sterile Solution, 100 mg/mL</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For intravenous use in horses only.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20211216"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L31f110d7-8230-4117-8e36-eab29ef30bb1">
+               <id root="597bd988-b0aa-4a39-b481-4f68f22f3a3a"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">CAUTION</content>
+                     <content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph>Federal law restricts this drug to use by or on the order of a licensed veterinarian.</paragraph>
+               </text>
+               <effectiveTime value="20211216"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lc2f32a25-bfbc-4006-9c75-8cf839aa815e">
+               <id root="8d89521f-2905-4290-a290-f7b1d672b040"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">DESCRIPTION</content>
+                     <content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph>Ketoprofen is a non-steroidal anti-inflammatory agent of the propionic acid class that includes ibuprofen, naproxen, and fenoprofen.  Each mL of KetoMed (ketoprofen) contains 100 mg of ketoprofen in an aqueous formulation containing: L-Arginine, 70 mg; citric acid (to adjust pH); benzyl alcohol, 0.025 g (as preservative).<br/>
+                     <br/> It is packaged in a multiple dose bottle.</paragraph>
+               </text>
+               <effectiveTime value="20211216"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Ld277923f-e53c-4ba1-86ab-bbf0387a6636">
+               <id root="e236b299-d7ad-4990-a41c-1e8f0736dea3"/>
+               <code code="34091-9" codeSystem="2.16.840.1.113883.6.1" displayName="ANIMAL PHARMACOLOGY &amp; OR TOXICOLOGY SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">PHARMACOLOGY</content>
+                     <br/>KetoMed is a non-narcotic, non-steroidal anti-inflammatory agent with analgesic and antipyretic properties.</paragraph>
+                  <paragraph>In horses, intravenous dosages of ketoprofen ranging from 0.5 to 1.5 mg/lb resulted in dosage dependent anti-inflammatory effects in the chronic adjuvant carpitis model as depicted in the following graph.</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L03aa1379-59ba-4ff2-9b36-3f2d6d648279"/>
+                  </paragraph>
+                  <paragraph>Additional studies using the same model in horses have shown that the effects of ketoprofen are maximal by 12 hours and still measurable at 24 hours after each dosage as depicted in the following graph.</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L815bf167-a7eb-4c26-bf4f-425767daf3b3"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">TOXICITY</content>
+                     <br/>Horses were found to tolerate ketoprofen given intravenously at dosages of 0, 1, 3 and 5 mg/lb once daily for 15 consecutive days (up to five times the recommended dosage for three times the usual duration) with no evidence of toxic effects. In clinical studies, intravenous injection of 1 mg/lb/day for five days resulted in no injection site irritation or other side effects.</paragraph>
+                  <paragraph>At 15-fold overdose (15 mg/lb/day) for five days one of two horses developed severe laminitis, but no gross lesions or histologic changes were observed. The toxic effects observed in the horses given a 25-fold overdose (25 mg/lb/day) for five days included inappetence, depression, icterus, abdominal swelling and postmortem findings of gastritis, nephritis and hepatitis.</paragraph>
+               </text>
+               <effectiveTime value="20241030"/>
+               <component>
+                  <observationMedia ID="L03aa1379-59ba-4ff2-9b36-3f2d6d648279">
+                     <text>image description</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Chart1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="L815bf167-a7eb-4c26-bf4f-425767daf3b3">
+                     <text>image description</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Chart2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L2f24a03e-ecb2-4fe8-a3ef-53879a900a79">
+               <id root="dc4b3a90-4b4f-42a7-bb29-70e18c75f0fc"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">INDICATION</content>
+                     <content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph>KetoMed<content styleCode="bold"/>(ketoprofen) is recommended for the alleviation of inflammation and pain associated with musculoskeletal disorders in the horse.</paragraph>
+               </text>
+               <effectiveTime value="20211216"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L9c1003d7-ceaf-4568-9fb7-a06b7d540740">
+               <id root="e0427fe5-f45b-4284-82fe-38763463641c"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">DOSAGE AND ADMINISTRATION</content>
+                     <content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph>The recommended dosage is 1 mg/lb (1 mL/100 lbs) of body weight once daily. Treatment is administered by intravenous injection and may be repeated for up to five days. Onset of activity is within two hours with peak response by 12 hours. </paragraph>
+               </text>
+               <effectiveTime value="20211216"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Ld7ce8c5a-95b1-4789-9965-78f1dc109b87">
+               <id root="a7cc11a0-5885-4cc6-a5c2-b7b478078184"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">CONTRAINDICATIONS</content>
+                  </paragraph>
+                  <paragraph>There are no known contraindications to this drug when used as directed. Intra-arterial injection should be avoided. Do not use in a horse if it has previously shown hypersensitivity to ketoprofen.</paragraph>
+               </text>
+               <effectiveTime value="20211216"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L67a53849-b4db-48a8-b1e7-3fffebc37079">
+               <id root="d638e2fc-9d0e-4c53-ad30-f54aabf801ee"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">CAUTION</content>
+                  </paragraph>
+                  <paragraph>This product should not be used in breeding animals since the effects of KetoMed on fertility, pregnancy or fetal health in horses have not been determined.</paragraph>
+               </text>
+               <effectiveTime value="20211216"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Le0ce9493-de5f-4f31-8921-ee804a9a8e9c">
+               <id root="19607110-a584-4474-b9f3-63ad806e60fb"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">PRECAUTIONS</content>
+                     <content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph>Studies to determine activity of KetoMed when administered concomitantly with other drugs have not been conducted. Drug compatibility should be monitored closely in patients requiring<br/> adjunctive therapy.</paragraph>
+               </text>
+               <effectiveTime value="20211216"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L5f28e94e-c8a4-47b9-b792-cd75bdf227eb">
+               <id root="93d4e366-58d6-49c6-b042-aa6dd6cff7ed"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">WARNING </content>
+                     <content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph>Do not use in horses intended for human consumption.</paragraph>
+               </text>
+               <effectiveTime value="20211216"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L526bcaa6-f64c-4fe4-80b4-67892085ae2d">
+               <id root="bb19b152-b049-4df0-bea3-3adc6bd41c9d"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">SIDE EFFECTS</content>
+                     <content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph>During investigational studies, no significant side effects were reported.</paragraph>
+               </text>
+               <effectiveTime value="20211216"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L645dc146-5fc6-4400-aa12-968e88181968">
+               <id root="749efcf8-8582-4d29-8520-9aa84070cc36"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>To report suspected adverse drug events, for technical assistance, or to obtain a copy of the Safety Data Sheet (SDS), contact Bimeda, Inc. at 1-888-524-6332. For additional information about adverse drug experience reporting for animal drugs, contact FDA at 1-888-FDA-VETS or online at www.fda.gov/reportanimalae.</paragraph>
+               </text>
+               <effectiveTime value="20211216"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Le70c6af6-25a9-4e42-9cde-1f36ceb66770">
+               <id root="426f5298-3de0-4041-9fe7-51171d9a0966"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">HOW SUPPLIED</content>
+                     <content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph>KetoMed (ketoprofen) Solution 100 mg/mL is available in 50 mL and 100 mL multidose bottles.</paragraph>
+               </text>
+               <effectiveTime value="20211216"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Le74e13e7-672a-4ee9-826a-104fdc2cbdfd">
+               <id root="ddd4f183-fe56-44ea-abf1-6a5c3b13705a"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <text>
+                  <paragraph>Store at 20°C - 25°C (68°F- 77°F); excursions permitted between 15°C - 30°C (59°F - 86°F). Do not freeze.</paragraph>
+                  <paragraph/>
+                  <paragraph>Use within 28 days of first puncture.</paragraph>
+               </text>
+               <effectiveTime value="20211216"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L561bf235-9dfb-49e6-bd79-7fc3e49de06a">
+               <id root="3ad15c13-d7a2-4d76-8a23-38941e2abe4b"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Approved by FDA under ANADA # 200-625<br/>
+                     <br/> Manufactured for:<br/> Bimeda, Inc.</paragraph>
+                  <paragraph>Le Sueur, MN 56058</paragraph>
+                  <paragraph>www.bimeda.com</paragraph>
+                  <paragraph>
+                     <br/> 12/20</paragraph>
+               </text>
+               <effectiveTime value="20241030"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Ldc6bfd62-a9b3-442b-827a-89d1ec15624f">
+               <id root="fbd8e3e7-1e63-4e51-91bd-fb81d57b6755"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L167d2818-bff9-4dfa-994f-d2d3d1fa734c"/>
+                     <renderMultiMedia referencedObject="L32fe67bd-afc6-48ba-8bc7-630d947b9037"/>
+                     <renderMultiMedia referencedObject="Lbc082f59-66bd-449f-82c3-4b7de1514081"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20241030"/>
+               <component>
+                  <observationMedia ID="L167d2818-bff9-4dfa-994f-d2d3d1fa734c">
+                     <text>image description</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="L32fe67bd-afc6-48ba-8bc7-630d947b9037">
+                     <text>image description</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Carton1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="Lbc082f59-66bd-449f-82c3-4b7de1514081">
+                     <text>image description</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Carton2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

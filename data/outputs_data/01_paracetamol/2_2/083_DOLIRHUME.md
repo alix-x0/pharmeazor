@@ -1,0 +1,47 @@
+# DOLIRHUME
+- **source** : pharmnet
+- **source_priority** : 2
+- **doc_type** : fiche_produit
+- **brand** : DOLIRHUME
+- **dci** : PARACETAMOL/PSEUDOEPHEDRINE (SOUS FORME DE CHLORHYDRATE)
+- **language** : fr
+- **reg_number** : 392/03 B 057/01/25
+- **dosage** : 500MG/30MG
+- **form** : COMPRIME
+- **drug_id** : 1
+- **dci_code** : 03 B 057
+- **conditionnement** : B/16
+- **reg_status** : F
+- **reg_type** : RE
+- **prescription_list** : LISTE I
+- **hospital_circuit** : true
+- **official_circuit** : true
+- **en_rupture** : false
+- **date_enr_initial** : 2001-01-17
+- **date_enr_final** : 2025-03-02
+- **updated_at** : 2026-09-08T13:30:28.926502+00:00
+- **source_url** : https://www.pharmnet-dz.com/
+- **url** : https://www.pharmnet-dz.com/
+
+## Composition / Ingrédients
+
+- PARACETAMOL/PSEUDOEPHEDRINE (SOUS FORME DE CHLORHYDRATE)
+- Dosage : 500MG/30MG
+
+## Composition / DCI
+
+PARACETAMOL/PSEUDOEPHEDRINE (SOUS FORME DE CHLORHYDRATE)
+
+## Présentation (3)
+
+Forme pharmaceutique : COMPRIME
+Dosage : 500MG/30MG
+Conditionnement : B/16
+
+## Titulaire de l'AMM (7)
+
+()
+Numéro d'enregistrement : 392/03 B 057/01/25
+Statut : F | Type : RE
+Liste : LISTE I
+Circuit hospitalier : True | Circuit officiel : True

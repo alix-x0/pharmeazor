@@ -1,0 +1,63 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 13,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "AMOXICILLINE/ACIDE CLAVULANIQUE SANDOZ ADULTE",
+  "brand": "AMOXICILLINE/ACIDE CLAVULANIQUE SANDOZ ADULTE",
+  "dci": "AMOXICILLINE TRIHYDRATEE EXPRIME EN AMOXICILLINE/ACIDE CLAVULANIQUE POTASSIQUE EXPRIME EN ACIDE CLAVULANIQUE",
+  "dci_code": "13 G 269",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "PDRE P. SUSP. BUV. EN SACHET-DOSE",
+  "dosage": "1G/125MG/SACHET",
+  "conditionnement": "B/08 ET B/12",
+  "reg_number": "080/13 G 269/09",
+  "reg_status": "I",
+  "reg_type": "GE",
+  "prescription_list": "LISTE I",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": null,
+  "date_enr_initial": "2009-07-01",
+  "date_enr_final": "2009-07-01",
+  "updated_at": "2026-09-08T13:09:02.971166+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "AMOXICILLINE TRIHYDRATEE EXPRIME EN AMOXICILLINE/ACIDE CLAVULANIQUE POTASSIQUE EXPRIME EN ACIDE CLAVULANIQUE"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : PDRE P. SUSP. BUV. EN SACHET-DOSE\nDosage : 1G/125MG/SACHET\nConditionnement : B/08 ET B/12"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 080/13 G 269/09\nStatut : I | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True"
+    }
+  ],
+  "text": "Composition / DCI\nAMOXICILLINE TRIHYDRATEE EXPRIME EN AMOXICILLINE/ACIDE CLAVULANIQUE POTASSIQUE EXPRIME EN ACIDE CLAVULANIQUE\n\nPrésentation\nForme pharmaceutique : PDRE P. SUSP. BUV. EN SACHET-DOSE\nDosage : 1G/125MG/SACHET\nConditionnement : B/08 ET B/12\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 080/13 G 269/09\nStatut : I | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True",
+  "ingredients": [
+    "AMOXICILLINE TRIHYDRATEE EXPRIME EN AMOXICILLINE/ACIDE CLAVULANIQUE POTASSIQUE EXPRIME EN ACIDE CLAVULANIQUE",
+    "Dosage : 1G/125MG/SACHET"
+  ],
+  "source_rank": 2
+}

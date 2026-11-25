@@ -1,0 +1,63 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 3,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "VOLTARENE",
+  "brand": "VOLTARENE",
+  "dci": "DICLOFENAC SODIQUE",
+  "dci_code": "04 B 008",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "SUPPO.",
+  "dosage": "25MG",
+  "conditionnement": "B/10",
+  "reg_number": "068/04 B 008/97/11",
+  "reg_status": "F",
+  "reg_type": "RE",
+  "prescription_list": "LISTE II",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": null,
+  "date_enr_initial": "1997-11-09",
+  "date_enr_final": "2011-01-17",
+  "updated_at": "2026-09-08T13:21:18.371704+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "DICLOFENAC SODIQUE"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : SUPPO.\nDosage : 25MG\nConditionnement : B/10"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 068/04 B 008/97/11\nStatut : F | Type : RE\nListe : LISTE II\nCircuit hospitalier : True | Circuit officiel : True"
+    }
+  ],
+  "text": "Composition / DCI\nDICLOFENAC SODIQUE\n\nPrésentation\nForme pharmaceutique : SUPPO.\nDosage : 25MG\nConditionnement : B/10\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 068/04 B 008/97/11\nStatut : F | Type : RE\nListe : LISTE II\nCircuit hospitalier : True | Circuit officiel : True",
+  "ingredients": [
+    "DICLOFENAC SODIQUE",
+    "Dosage : 25MG"
+  ],
+  "source_rank": 2
+}

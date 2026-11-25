@@ -1,0 +1,314 @@
+{
+  "benchmark_version": "0.2.0",
+  "corpus_version": "2026-08",
+  "description": "Labeled retrieval benchmark for lexical, dense semantic, and hybrid search over the Pharmeazor medicine corpus.",
+  "chunk_source": "ai_api.Retrieval.chunking.chunk_corpus(data/outputs_data)",
+  "k_values": [1, 3, 5, 10],
+  "relevance_legend": {
+    "chunk_ids": 2,
+    "acceptable_chunk_ids": 1,
+    "unlisted_chunks": 0
+  },
+  "evaluation_notes": [
+    "Chunk IDs and source files were generated and checked against the corpus with the current chunker.",
+    "The expected constraints are exact indexed metadata values; they are labels for evaluation, not answer text.",
+    "Run every retriever against the same corpus snapshot and apply the same filters, or disable filters for all retrievers.",
+    "The out-of-scope case is for abstention/unsupported-evidence evaluation and must be excluded from Recall, MRR, and nDCG averages.",
+    "Regenerate and re-judge chunk references if the corpus or chunking logic changes."
+  ],
+  "cases": [
+    {
+      "id": "case_001",
+      "query": "Pour un adulte d'au moins 50 kg, quelle est la dose maximale par prise et par jour avec PARACETAMOL TEVA 500 mg, gélule ?",
+      "query_type": "exact_lexical",
+      "language": "fr",
+      "constraints": {
+        "brand": "PARACETAMOL TEVA 500 mg, gélule",
+        "section_category": "posology"
+      },
+      "expected": {
+        "chunk_ids": [
+          "chk_bdpm_posologie_1_91189fca9d1a3c08"
+        ],
+        "acceptable_chunk_ids": [],
+        "must_match_filters": [
+          "brand",
+          "section_category"
+        ],
+        "chunk_sources": [
+          {
+            "chunk_id": "chk_bdpm_posologie_1_91189fca9d1a3c08",
+            "relevance": 2,
+            "source_file": "data/outputs_data/01_paracetamol/4_4/011_paracetamol-teva-500-mg-gelule.json"
+          }
+        ]
+      },
+      "notes": "Tests exact brand, strength, dosage form, and adult dosing. The target chunk contains the 500 mg product's adult table and the 3000 mg/day usual maximum."
+    },
+    {
+      "id": "case_002",
+      "query": "Chez un adulte de 60 kg, quelle est la dose journalière maximale de DOLIPRANE 1000 mg en règle générale, et dans quelle condition peut-on aller jusqu'à 4 g par jour ?",
+      "query_type": "exact_lexical_numeric_and_safety",
+      "language": "fr",
+      "constraints": {
+        "brand": "DOLIPRANE",
+        "dci": "PARACÉTAMOL",
+        "section_category": "posology",
+        "source": "anpp"
+      },
+      "expected": {
+        "chunk_ids": [
+          "chk_anpp_posologie_2_3fa2dcc45aaa568f"
+        ],
+        "acceptable_chunk_ids": [],
+        "must_match_filters": [
+          "brand",
+          "dci",
+          "section_category",
+          "source"
+        ],
+        "chunk_sources": [
+          {
+            "chunk_id": "chk_anpp_posologie_2_3fa2dcc45aaa568f",
+            "relevance": 2,
+            "source_file": "data/outputs_data/01_paracetamol/1_1/001_DOLIPRANE.json"
+          }
+        ]
+      },
+      "notes": "Canonical N1-01 retrieval query. The target passage states the usual 3000 mg/day maximum, 4-hour interval, 50 kg threshold, and the 4000 mg/day exception conditions. Keep the evaluator answer and scoring rubric out of the retrieval query."
+    },
+    {
+      "id": "case_003",
+      "query": "Je cherche un médicament pour soulager un mal de tête et faire baisser la fièvre chez un adulte. Dans quels cas le DOLIPRANE est-il indiqué ?",
+      "query_type": "semantic_paraphrase",
+      "language": "fr",
+      "constraints": {
+        "brand": "DOLIPRANE",
+        "dci": "PARACÉTAMOL",
+        "section_category": "indications",
+        "source": "anpp"
+      },
+      "expected": {
+        "chunk_ids": [
+          "chk_anpp_indications_1_168042903ff45c06"
+        ],
+        "acceptable_chunk_ids": [],
+        "must_match_filters": [
+          "brand",
+          "dci",
+          "section_category",
+          "source"
+        ],
+        "chunk_sources": [
+          {
+            "chunk_id": "chk_anpp_indications_1_168042903ff45c06",
+            "relevance": 2,
+            "source_file": "data/outputs_data/01_paracetamol/1_1/001_DOLIPRANE.json"
+          }
+        ]
+      },
+      "notes": "Tests patient wording (mal de tête, fièvre) against the ANPP indication wording (douleurs, fièvre); target is the adult DOLIPRANE indication, not pediatric formulations."
+    },
+    {
+      "id": "case_004",
+      "query": "Une maladie grave du foie empêche-t-elle de prendre DOLIPRANE ?",
+      "query_type": "semantic_paraphrase",
+      "language": "fr",
+      "constraints": {
+        "brand": "DOLIPRANE",
+        "dci": "PARACÉTAMOL",
+        "section_category": "contraindications",
+        "source": "anpp"
+      },
+      "expected": {
+        "chunk_ids": [
+          "chk_anpp_contre_indic_1_329ceabb90efb93a"
+        ],
+        "acceptable_chunk_ids": [],
+        "must_match_filters": [
+          "brand",
+          "dci",
+          "section_category",
+          "source"
+        ],
+        "chunk_sources": [
+          {
+            "chunk_id": "chk_anpp_contre_indic_1_329ceabb90efb93a",
+            "relevance": 2,
+            "source_file": "data/outputs_data/01_paracetamol/1_1/001_DOLIPRANE.json"
+          }
+        ]
+      },
+      "notes": "Tests whether plain-language 'maladie grave du foie' retrieves the contraindication stated as 'insuffisance hépatique sévère'."
+    },
+    {
+      "id": "case_005",
+      "query": "Pour une crise de migraine chez l'adulte, quelle dose d'IBUPROFENE BIOGARAN CONSEIL 400 mg faut-il prendre et à quel intervalle ?",
+      "query_type": "exact_lexical_clinical",
+      "language": "fr",
+      "constraints": {
+        "brand": "IBUPROFENE BIOGARAN CONSEIL 400 mg, comprimé pelliculé",
+        "section_category": "posology",
+        "source": "bdpm"
+      },
+      "expected": {
+        "chunk_ids": [
+          "chk_bdpm_posologie_2_362209559d5702c7"
+        ],
+        "acceptable_chunk_ids": [],
+        "must_match_filters": [
+          "brand",
+          "section_category",
+          "source"
+        ],
+        "chunk_sources": [
+          {
+            "chunk_id": "chk_bdpm_posologie_2_362209559d5702c7",
+            "relevance": 2,
+            "source_file": "data/outputs_data/02_ibuprofene/4_4/001_ibuprofene-biogaran-conseil-400-mg-comprime-pellicule.json"
+          }
+        ]
+      },
+      "notes": "Tests retrieval of a specific indication and dosing instruction without confusing the product with other ibuprofen strengths or forms."
+    },
+    {
+      "id": "case_006",
+      "query": "J'ai déjà eu une réaction allergique grave à la pénicilline. L'AMOXICILLINE KRKA 1 g est-elle contre-indiquée ?",
+      "query_type": "semantic_paraphrase_safety",
+      "language": "fr",
+      "constraints": {
+        "brand": "AMOXICILLINE KRKA 1 g, comprimé dispersible sécable",
+        "section_category": "contraindications",
+        "source": "bdpm"
+      },
+      "expected": {
+        "chunk_ids": [
+          "chk_bdpm_contre_indic_1_9ee19f9aa0c101f1"
+        ],
+        "acceptable_chunk_ids": [],
+        "must_match_filters": [
+          "brand",
+          "section_category",
+          "source"
+        ],
+        "chunk_sources": [
+          {
+            "chunk_id": "chk_bdpm_contre_indic_1_9ee19f9aa0c101f1",
+            "relevance": 2,
+            "source_file": "data/outputs_data/13_amoxicilline/4_4/003_amoxicilline-krka-1-g-comprime-dispersible-secable.json"
+          }
+        ]
+      },
+      "notes": "Tests whether patient language about a severe penicillin allergy retrieves the product-specific beta-lactam contraindication."
+    },
+    {
+      "id": "case_007",
+      "query": "Que faut-il surveiller si une personne prend de la warfarine avec AMOXICILLINE KRKA 1 g ?",
+      "query_type": "clinical_interaction",
+      "language": "fr",
+      "constraints": {
+        "brand": "AMOXICILLINE KRKA 1 g, comprimé dispersible sécable",
+        "section_category": "interactions",
+        "source": "bdpm"
+      },
+      "expected": {
+        "chunk_ids": [
+          "chk_bdpm_interactions_1_3776688a5f35d4c8"
+        ],
+        "acceptable_chunk_ids": [],
+        "must_match_filters": [
+          "brand",
+          "section_category",
+          "source"
+        ],
+        "chunk_sources": [
+          {
+            "chunk_id": "chk_bdpm_interactions_1_3776688a5f35d4c8",
+            "relevance": 2,
+            "source_file": "data/outputs_data/13_amoxicilline/4_4/003_amoxicilline-krka-1-g-comprime-dispersible-secable.json"
+          }
+        ]
+      },
+      "notes": "Tests retrieval of the interaction passage mentioning warfarin and INR monitoring."
+    },
+    {
+      "id": "case_008",
+      "query": "Depuis que je prends de l'amlodipine 5 mg, mes chevilles gonflent. Est-ce un effet indésirable connu ?",
+      "query_type": "semantic_paraphrase_adverse_effect",
+      "language": "fr",
+      "constraints": {
+        "brand": "AMLODIPINE VIATRIS GENERIQUES 5 mg, gélule",
+        "section_category": "adverse_effects",
+        "source": "bdpm"
+      },
+      "expected": {
+        "chunk_ids": [
+          "chk_bdpm_effets_indes_1_cc3bc7b15cb589bb"
+        ],
+        "acceptable_chunk_ids": [],
+        "must_match_filters": [
+          "brand",
+          "section_category",
+          "source"
+        ],
+        "chunk_sources": [
+          {
+            "chunk_id": "chk_bdpm_effets_indes_1_cc3bc7b15cb589bb",
+            "relevance": 2,
+            "source_file": "data/outputs_data/27_amlodipine/4_4/001_amlodipine-viatris-generiques-5-mg-gelule.json"
+          }
+        ]
+      },
+      "notes": "Tests matching plain-language ankle swelling to the documented adverse effect 'œdèmes des chevilles' for the correct strength and form."
+    },
+    {
+      "id": "case_009",
+      "query": "Le Nurofen 200 mg est-il contre-indiqué si la personne a un ulcère de l'estomac qui saigne ?",
+      "query_type": "semantic_paraphrase_safety",
+      "language": "fr",
+      "constraints": {
+        "brand": "NUROFEN 200 mg, comprimé enrobé",
+        "section_category": "contraindications",
+        "source": "bdpm"
+      },
+      "expected": {
+        "chunk_ids": [
+          "chk_bdpm_contre_indic_1_84053850635e1c84"
+        ],
+        "acceptable_chunk_ids": [],
+        "must_match_filters": [
+          "brand",
+          "section_category",
+          "source"
+        ],
+        "chunk_sources": [
+          {
+            "chunk_id": "chk_bdpm_contre_indic_1_84053850635e1c84",
+            "relevance": 2,
+            "source_file": "data/outputs_data/02_ibuprofene/4_4/009_nurofen-200-mg-comprime-enrobe.json"
+          }
+        ]
+      },
+      "notes": "Tests retrieval of the contraindication for active gastrointestinal bleeding and peptic ulcer."
+    },
+    {
+      "id": "case_010",
+      "query": "Quel est le stock en temps réel de DOLIPRANE 1000 mg dans la pharmacie près de chez moi ?",
+      "query_type": "out_of_scope_negative",
+      "language": "fr",
+      "constraints": {},
+      "expected": {
+        "chunk_ids": [],
+        "acceptable_chunk_ids": [],
+        "must_match_filters": [],
+        "no_relevant_results": true,
+        "metrics_excluded": [
+          "recall_at_k",
+          "mrr",
+          "ndcg_at_k"
+        ]
+      },
+      "notes": "The project corpus does not provide live pharmacy inventory. Evaluate this as an unsupported-evidence/abstention case, not as ordinary ranked relevance."
+    }
+  ]
+}

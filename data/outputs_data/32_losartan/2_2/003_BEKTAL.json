@@ -1,0 +1,63 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 32,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "BEKTAL",
+  "brand": "BEKTAL",
+  "dci": "LOSARTAN POTASSIQUE",
+  "dci_code": "06 E 126",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "COMPRIME PELLICULE SECABLE",
+  "dosage": "50MG",
+  "conditionnement": "B/30 ET B/90",
+  "reg_number": "447/06 E 126/11/24",
+  "reg_status": "F",
+  "reg_type": "GE",
+  "prescription_list": "LISTE I",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": null,
+  "date_enr_initial": "2011-02-28",
+  "date_enr_final": "2024-09-22",
+  "updated_at": "2026-09-08T13:05:21.226204+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "LOSARTAN POTASSIQUE"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : COMPRIME PELLICULE SECABLE\nDosage : 50MG\nConditionnement : B/30 ET B/90"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 447/06 E 126/11/24\nStatut : F | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True"
+    }
+  ],
+  "text": "Composition / DCI\nLOSARTAN POTASSIQUE\n\nPrésentation\nForme pharmaceutique : COMPRIME PELLICULE SECABLE\nDosage : 50MG\nConditionnement : B/30 ET B/90\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 447/06 E 126/11/24\nStatut : F | Type : GE\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True",
+  "ingredients": [
+    "LOSARTAN POTASSIQUE",
+    "Dosage : 50MG"
+  ],
+  "source_rank": 2
+}

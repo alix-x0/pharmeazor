@@ -1,0 +1,70 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 1,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "DOLIPRANE",
+  "brand": "DOLIPRANE",
+  "dci": "PARACETAMOL",
+  "dci_code": "03 B 045",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "PDRE. P. SOL. BUV. SACH.-DOSE",
+  "dosage": "200MG",
+  "conditionnement": "B/12",
+  "reg_number": "392/03 B 045/00/16",
+  "reg_status": null,
+  "reg_type": null,
+  "prescription_list": null,
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": "SANOFI AVENTIS ALGERIE SPA",
+  "date_enr_initial": null,
+  "date_enr_final": null,
+  "updated_at": "2026-09-08T13:30:28.926502+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "PARACETAMOL"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : PDRE. P. SOL. BUV. SACH.-DOSE\nDosage : 200MG\nConditionnement : B/12"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 392/03 B 045/00/16\nStatut : None | Type : None\nListe : None\nCircuit hospitalier : True | Circuit officiel : True"
+    },
+    {
+      "key": "observation",
+      "label": "Observations",
+      "number": null,
+      "title": "Observations",
+      "text": "SANOFI AVENTIS ALGERIE SPA"
+    }
+  ],
+  "text": "Composition / DCI\nPARACETAMOL\n\nPrésentation\nForme pharmaceutique : PDRE. P. SOL. BUV. SACH.-DOSE\nDosage : 200MG\nConditionnement : B/12\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 392/03 B 045/00/16\nStatut : None | Type : None\nListe : None\nCircuit hospitalier : True | Circuit officiel : True\n\nObservations\nSANOFI AVENTIS ALGERIE SPA",
+  "ingredients": [
+    "PARACETAMOL",
+    "Dosage : 200MG"
+  ],
+  "source_rank": 2
+}

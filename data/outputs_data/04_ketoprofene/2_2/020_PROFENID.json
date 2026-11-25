@@ -1,0 +1,63 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 4,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "PROFENID",
+  "brand": "PROFENID",
+  "dci": "KETOPROFENE",
+  "dci_code": "04 B 018",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "SOLUTION INJECTABLE IM",
+  "dosage": "100MG/2ML",
+  "conditionnement": "B/06 AMP. DE 2ML",
+  "reg_number": "376/04 B 018/96/16",
+  "reg_status": "I",
+  "reg_type": "RE",
+  "prescription_list": "LISTE II",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": null,
+  "date_enr_initial": "1996-10-28",
+  "date_enr_final": "2017-01-29",
+  "updated_at": "2026-09-08T13:21:18.371704+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "KETOPROFENE"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : SOLUTION INJECTABLE IM\nDosage : 100MG/2ML\nConditionnement : B/06 AMP. DE 2ML"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 376/04 B 018/96/16\nStatut : I | Type : RE\nListe : LISTE II\nCircuit hospitalier : True | Circuit officiel : True"
+    }
+  ],
+  "text": "Composition / DCI\nKETOPROFENE\n\nPrésentation\nForme pharmaceutique : SOLUTION INJECTABLE IM\nDosage : 100MG/2ML\nConditionnement : B/06 AMP. DE 2ML\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 376/04 B 018/96/16\nStatut : I | Type : RE\nListe : LISTE II\nCircuit hospitalier : True | Circuit officiel : True",
+  "ingredients": [
+    "KETOPROFENE",
+    "Dosage : 100MG/2ML"
+  ],
+  "source_rank": 2
+}

@@ -1,0 +1,70 @@
+{
+  "source": "pharmnet",
+  "source_priority": 2,
+  "drug_id": 40,
+  "language": "fr",
+  "doc_type": "fiche_produit",
+  "title": "METHYL DOPA SOLUPHARM",
+  "brand": "METHYL DOPA SOLUPHARM",
+  "dci": "METHYLDOPA ANHYDRE SOUS FORME SESQUIHYDRATEE",
+  "dci_code": "06 E 061",
+  "lab": "",
+  "manufacturer": "",
+  "country": "",
+  "form": "COMP PELL SEC",
+  "dosage": "250MG",
+  "conditionnement": "B/20",
+  "reg_number": "284/06 E 061/04",
+  "reg_status": null,
+  "reg_type": null,
+  "prescription_list": "LISTE I",
+  "hospital_circuit": true,
+  "official_circuit": true,
+  "price_ppa": null,
+  "tarif_ref": null,
+  "en_rupture": false,
+  "observation": "SOLUPHARM SARL",
+  "date_enr_initial": null,
+  "date_enr_final": null,
+  "updated_at": "2026-09-01T00:51:40.494938+00:00",
+  "url": "https://www.pharmnet-dz.com/",
+  "source_url": "https://www.pharmnet-dz.com/",
+  "rcp_url": null,
+  "notice_url": null,
+  "sections": [
+    {
+      "key": "composition",
+      "label": "Composition / DCI",
+      "number": null,
+      "title": "DCI",
+      "text": "METHYLDOPA ANHYDRE SOUS FORME SESQUIHYDRATEE"
+    },
+    {
+      "key": "forme_pharmaceutique",
+      "label": "Présentation",
+      "number": "3",
+      "title": "Forme pharmaceutique",
+      "text": "Forme pharmaceutique : COMP PELL SEC\nDosage : 250MG\nConditionnement : B/20"
+    },
+    {
+      "key": "titulaire",
+      "label": "Titulaire de l'AMM",
+      "number": "7",
+      "title": "Titulaire de l'AMM",
+      "text": " ()\nNuméro d'enregistrement : 284/06 E 061/04\nStatut : None | Type : None\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True"
+    },
+    {
+      "key": "observation",
+      "label": "Observations",
+      "number": null,
+      "title": "Observations",
+      "text": "SOLUPHARM SARL"
+    }
+  ],
+  "text": "Composition / DCI\nMETHYLDOPA ANHYDRE SOUS FORME SESQUIHYDRATEE\n\nPrésentation\nForme pharmaceutique : COMP PELL SEC\nDosage : 250MG\nConditionnement : B/20\n\nTitulaire de l'AMM\n ()\nNuméro d'enregistrement : 284/06 E 061/04\nStatut : None | Type : None\nListe : LISTE I\nCircuit hospitalier : True | Circuit officiel : True\n\nObservations\nSOLUPHARM SARL",
+  "ingredients": [
+    "METHYLDOPA ANHYDRE SOUS FORME SESQUIHYDRATEE",
+    "Dosage : 250MG"
+  ],
+  "source_rank": 2
+}

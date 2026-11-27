@@ -6,7 +6,7 @@ deterministic UUID point generation, Qdrant payload structuring, and seamless
 interoperability with `chunking.py`.
 
 Run:
-    python -m ai_api.Retrieval.embedding_test
+    python -m ai_api.Retrieval.test.embedding_test
 """
 
 from __future__ import annotations
@@ -20,8 +20,9 @@ from pathlib import Path
 from unittest.mock import MagicMock, patch
 
 # Ensure project root is in sys.path
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
-sys.path.insert(0, str(PROJECT_ROOT))
+PROJECT_ROOT = Path(__file__).resolve().parents[3]
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
 
 from ai_api.Retrieval.chunking import (
     DEFAULT_DATA_DIR,
@@ -31,7 +32,7 @@ from ai_api.Retrieval.chunking import (
     chunk_corpus,
     chunk_document,
 )
-from ai_api.Retrieval.embedding import (
+from ai_api.Retrieval import (
     BGEM3Embedder,
     DrugRAGPipeline,
     EmbeddingConfig,

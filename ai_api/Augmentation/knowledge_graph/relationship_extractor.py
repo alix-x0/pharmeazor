@@ -193,22 +193,28 @@ class RelationshipExtractor:
             if not sec_text:
                 continue
 
+            # --- C. Contre-indications (Rubrique 4.3) ---
+            # Check BEFORE "indication" since "contre_indications" / "contraindications" contain "indication"
+            if (
+                "contre_indication" in sec_key
+                or "contre-indication" in sec_key
+                or "contraindication" in sec_key
+                or sec.get("number") == "4.3"
+            ):
+                self._extract_contraindications(
+                    sec_text, primary_id, dci_entity, doc_file, entities, relations, seen_edges
+                )
+
             # --- A. Indications thérapeutiques (Rubrique 4.1) ---
-            if "indication" in sec_key or sec.get("number") == "4.1":
+            elif "indication" in sec_key or sec.get("number") == "4.1":
                 self._extract_indications(
                     sec_text, primary_id, dci_entity, doc_file, entities, relations, seen_edges
                 )
 
             # --- B. Posologie et règles de dose (Rubrique 4.2) ---
-            elif "posolog" in sec_key or sec.get("number") == "4.2":
+            elif "posolog" in sec_key or "dosage_and_administration" in sec_key or sec.get("number") == "4.2":
                 self._extract_posology_rules(
                     sec_text, primary_id, doc_file, entities, relations, seen_edges
-                )
-
-            # --- C. Contre-indications (Rubrique 4.3) ---
-            elif "contre_indication" in sec_key or "contraindication" in sec_key or sec.get("number") == "4.3":
-                self._extract_contraindications(
-                    sec_text, primary_id, dci_entity, doc_file, entities, relations, seen_edges
                 )
 
             # --- D. Mises en garde et précautions d'emploi (Rubrique 4.4) ---
@@ -634,6 +640,9 @@ class RelationshipExtractor:
         with open(fpath, "r", encoding="utf-8") as f:
             doc = json.load(f)
 
+        if not doc.get("dossier") and len(fpath.parts) >= 3:
+            doc = {**doc, "dossier": fpath.parent.parent.name}
+
         return self.extract_from_document(doc, doc_id=fpath.name)
 
     def extract_from_corpus(
@@ -668,6 +677,9 @@ class RelationshipExtractor:
             try:
                 with open(fpath, "r", encoding="utf-8") as f:
                     doc = json.load(f)
+
+                if not doc.get("dossier") and file_dossier:
+                    doc = {**doc, "dossier": file_dossier}
 
                 res = self.extract_from_document(doc, doc_id=fpath.name)
                 for e in res.entities:

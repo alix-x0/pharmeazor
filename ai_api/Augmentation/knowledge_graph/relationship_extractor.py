@@ -477,12 +477,13 @@ class RelationshipExtractor:
 
     def _extract_posology_rules(
         self,
-        text: str,
+        rule_text: str,
         primary_id: str,
         sec_context: Dict[str, Any],
         entities: Dict[str, KGEntity],
         relations: List[KGRelation],
         seen_edges: Set[str],
+        confidence: float = 0.9,
     ) -> None:
         """
         Extracts HAS_MAX_DOSE (explicit maximum dose) and HAS_POSOLOGY (intervals,
@@ -904,6 +905,9 @@ class RelationshipExtractor:
         with open(fpath, "r", encoding="utf-8") as f:
             doc = json.load(f)
 
+        if not doc.get("dossier") and len(fpath.parts) >= 3:
+            doc = {**doc, "dossier": fpath.parent.parent.name}
+
         return self.extract_from_document(doc, doc_id=fpath.name)
 
     def extract_from_corpus(
@@ -938,6 +942,9 @@ class RelationshipExtractor:
             try:
                 with open(fpath, "r", encoding="utf-8") as f:
                     doc = json.load(f)
+
+                if not doc.get("dossier") and file_dossier:
+                    doc = {**doc, "dossier": file_dossier}
 
                 res = self.extract_from_document(doc, doc_id=fpath.name)
                 for e in res.entities:

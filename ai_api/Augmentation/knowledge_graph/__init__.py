@@ -30,9 +30,11 @@ from ai_api.Augmentation.knowledge_graph.graph_builder import (
 )
 from ai_api.Augmentation.knowledge_graph.ontology import (
     EntityType,
+    InteractionSeverity,
     KGEntity,
     KGRelation,
     RelationType,
+    SourceAuthority,
 )
 from ai_api.Augmentation.knowledge_graph.provenance import (
     ProvenanceRecord,
@@ -49,7 +51,9 @@ from ai_api.Augmentation.knowledge_graph.relationship_extractor import (
 
 __all__ = [
     "EntityType",
+    "InteractionSeverity",
     "RelationType",
+    "SourceAuthority",
     "KGEntity",
     "KGRelation",
     "EntityExtractor",

@@ -97,12 +97,16 @@ def validate_relation_grounding(relation: KGRelation, doc: Dict[str, Any]) -> bo
     2. The 'evidence_text' is not literally present in the document.
     3. It represents an unsupported medical inference.
     """
-    # Structural relations from metadata (CONTAINS_ACTIVE_INGREDIENT, MANUFACTURED_BY, HAS_DOSAGE_FORM)
-    # are grounded in the document header metadata (brand, dci, lab, form).
+    # Structural relations from metadata (CONTAINS_ACTIVE_INGREDIENT, MANUFACTURED_BY,
+    # HAS_DOSAGE_FORM, HAS_ATC_CODE, BELONGS_TO_CLASS, IS_EQUIVALENT_TO)
+    # are grounded in the document header metadata (brand, dci, lab, form, atc, etc.).
     if relation.relation_type.value in (
         "CONTAINS_ACTIVE_INGREDIENT",
         "MANUFACTURED_BY",
         "HAS_DOSAGE_FORM",
+        "HAS_ATC_CODE",
+        "BELONGS_TO_CLASS",
+        "IS_EQUIVALENT_TO",
     ):
         return True
 

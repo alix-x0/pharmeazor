@@ -8,6 +8,14 @@ from ai_api.Augmentation.knowledge_graph.entity_extractor import (
     make_entity_id,
     normalize_string,
 )
+from ai_api.Augmentation.knowledge_graph.graph_builder import (
+    DEFAULT_GRAPH_PATH,
+    GraphBuilder,
+    GraphBuildStats,
+    KnowledgeGraphBuilder,
+    build_knowledge_graph,
+    load_knowledge_graph,
+)
 from ai_api.Augmentation.knowledge_graph.ontology import (
     EntityType,
     KGEntity,
@@ -30,6 +38,12 @@ __all__ = [
     "EntityExtractor",
     "RelationshipExtractor",
     "ExtractionResult",
+    "GraphBuilder",
+    "KnowledgeGraphBuilder",
+    "GraphBuildStats",
+    "DEFAULT_GRAPH_PATH",
+    "build_knowledge_graph",
+    "load_knowledge_graph",
     "default_extractor",
     "extract_relationships_from_document",
     "extract_relationships_from_corpus",

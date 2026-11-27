@@ -48,9 +48,14 @@ class TestRelationshipExtractor(unittest.TestCase):
         self.assertIn(RelationType.CONTAINS_ACTIVE_INGREDIENT, rel_types)
         self.assertIn(RelationType.MANUFACTURED_BY, rel_types)
         self.assertIn(RelationType.TREATS, rel_types)
+        self.assertIn(RelationType.CONTRAINDICATED_FOR, rel_types)
         self.assertIn(RelationType.INTERACTS_WITH, rel_types)
         self.assertIn(RelationType.HAS_ADVERSE_EFFECT, rel_types)
         self.assertIn(RelationType.REQUIRES_PRECAUTION_FOR, rel_types)
+
+        # Verify CONTRAINDICATION entities were extracted from section 4.3
+        contra_entities = [e for e in result.entities if e.entity_type == EntityType.CONTRAINDICATION]
+        self.assertGreater(len(contra_entities), 0, "Should extract CONTRAINDICATION entities from 4.3")
 
         # Check specific triples
         active_ing_rel = next(
@@ -85,6 +90,21 @@ class TestRelationshipExtractor(unittest.TestCase):
         )
         self.assertGreater(len(result.relations), 0)
         self.assertGreater(len(result.entities), 0)
+
+    def test_bdpm_and_dailymed_dci_fallback(self):
+        """Verify BDPM and DailyMed docs with empty dci resolve to ACTIVE_INGREDIENT."""
+        bdpm_path = DEFAULT_DATA_DIR / "01_paracetamol" / "4_4" / "011_paracetamol-teva-500-mg-gelule.json"
+        dailymed_path = DEFAULT_DATA_DIR / "01_paracetamol" / "3_3" / "002_ac-fast-paracetamol-capsule-coated.json"
+
+        for path in (bdpm_path, dailymed_path):
+            if not path.exists():
+                self.skipTest(f"File not found: {path}")
+            res = self.extractor.extract_from_file(path)
+            dci_rels = [
+                r for r in res.relations if r.relation_type == RelationType.CONTAINS_ACTIVE_INGREDIENT
+            ]
+            self.assertEqual(len(dci_rels), 1, f"Expected CONTAINS_ACTIVE_INGREDIENT for {path.name}")
+            self.assertEqual(dci_rels[0].target_id, "active_ingredient_paracetamol")
 
 
 if __name__ == "__main__":

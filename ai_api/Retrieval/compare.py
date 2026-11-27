@@ -39,7 +39,7 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from ai_api.Retrieval.chunking import DEFAULT_DATA_DIR, DrugChunk, chunk_corpus
-from ai_api.Retrieval.embedding import (
+from ai_api.Retrieval import (
     BGEM3Embedder,
     QdrantConfig,
     QdrantVectorStore,

@@ -8,7 +8,7 @@ Intelligent Pharmaceutical RAG Architecture:
 """
 
 # Chunking Exports
-from ai_api.rag.chunking import (
+from ai_api.Retrieval.chunking import (
     DEFAULT_DATA_DIR,
     DEFAULT_PROCESSED_DIR,
     ChunkingConfig,
@@ -26,7 +26,7 @@ from ai_api.rag.chunking import (
 )
 
 # Embedding & Vector Store Exports
-from ai_api.rag.embedding import (
+from ai_api.Retrieval.embedding import (
     BGEM3Embedder,
     EmbeddingConfig,
     EmbeddingOutput,
@@ -34,13 +34,13 @@ from ai_api.rag.embedding import (
     embed_query,
     embed_texts,
 )
-from ai_api.rag.vector_store import (
+from ai_api.Retrieval.vector_store import (
     QdrantConfig,
     QdrantVectorStore,
     chunk_id_to_uuid,
     default_store,
 )
-from ai_api.rag.retriever import (
+from ai_api.Retrieval.retriever import (
     DrugRAGPipeline,
     IndexingStats,
     RetrievalResult,

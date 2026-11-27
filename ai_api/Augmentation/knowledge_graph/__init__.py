@@ -1,3 +1,4 @@
+
 """
 Pharmeazor Knowledge Graph Module (Augmentation Subsystem)
 ==========================================================
@@ -18,6 +19,14 @@ from ai_api.Augmentation.knowledge_graph.graph_storage import (
     MissingEntityError,
     Neo4jConfig,
     default_storage,
+)
+from ai_api.Augmentation.knowledge_graph.graph_builder import (
+    DEFAULT_GRAPH_PATH,
+    GraphBuilder,
+    GraphBuildStats,
+    KnowledgeGraphBuilder,
+    build_knowledge_graph,
+    load_knowledge_graph,
 )
 from ai_api.Augmentation.knowledge_graph.ontology import (
     EntityType,
@@ -51,6 +60,12 @@ __all__ = [
     "verify_text_in_document",
     "RelationshipExtractor",
     "ExtractionResult",
+    "GraphBuilder",
+    "KnowledgeGraphBuilder",
+    "GraphBuildStats",
+    "DEFAULT_GRAPH_PATH",
+    "build_knowledge_graph",
+    "load_knowledge_graph",
     "default_extractor",
     "GraphStorage",
     "Neo4jConfig",

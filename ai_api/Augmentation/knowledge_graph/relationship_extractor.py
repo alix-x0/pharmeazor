@@ -91,8 +91,10 @@ class RelationshipExtractor:
         """Cleans bullet points, trailing references, and extra whitespace."""
         if not text:
             return ""
-        # Remove leading bullet symbols
-        t = re.sub(r"^[\s•\-\*\+\d\.\)\:]+", "", text).strip()
+        # Strip bullets and numbered-list markers without deleting meaningful
+        # leading values such as "4 heures minimum" or "3 g/jour".
+        t = re.sub(r"^[\s•\-\*\+:]+", "", text).strip()
+        t = re.sub(r"^\d+[.)]\s+", "", t).strip()
         # Remove trailing references like (voir rubrique 4.4) or (voir 6.1)
         t = re.sub(r"\(voir\s+rubrique[^\)]*\)", "", t, flags=re.I).strip()
         t = re.sub(r"\(voir[^\)]*\)", "", t, flags=re.I).strip()
@@ -302,6 +304,37 @@ class RelationshipExtractor:
                         seen_edges.add(rel_dci.edge_key)
                         relations.append(rel_dci)
 
+    def _add_posology_rule(
+        self,
+        rule_text: str,
+        primary_id: str,
+        doc_file: str,
+        entities: Dict[str, KGEntity],
+        relations: List[KGRelation],
+        seen_edges: Set[str],
+        confidence: float = 0.9,
+    ) -> None:
+        """Add a bounded source-derived dosage rule to the extraction result."""
+        cleaned = self.clean_item_text(rule_text)
+        if len(cleaned) < 3 or len(cleaned) > 600:
+            return
+
+        ent_id = make_entity_id(EntityType.DOSAGE_RULE, cleaned)
+        if ent_id not in entities:
+            entities[ent_id] = self.entity_extractor.create_entity(cleaned, EntityType.DOSAGE_RULE)
+
+        rel = KGRelation(
+            source_id=primary_id,
+            target_id=ent_id,
+            relation_type=RelationType.HAS_MAX_DOSE,
+            description=cleaned,
+            source_doc=doc_file,
+            confidence=confidence,
+        )
+        if rel.edge_key not in seen_edges:
+            seen_edges.add(rel.edge_key)
+            relations.append(rel)
+
     def _extract_posology_rules(
         self,
         text: str,
@@ -311,75 +344,218 @@ class RelationshipExtractor:
         relations: List[KGRelation],
         seen_edges: Set[str],
     ) -> None:
-        """Extracts HAS_MAX_DOSE and posology constraint relationships."""
-        # 1. Dose journalière maximale (e.g. 3000 mg par jour, 4000 mg/j)
-        max_doses = re.findall(
-            r"((?:dose\s+journali[eè]re\s+maximale|posologie\s+maximale|ne\s+pas\s+d[eé]passer)[^\.\n]*?(?:\d+[\s\.,]?\d*\s*(?:mg|g)\s*(?:par\s+jour|/jour|/j)?))",
+        """Extracts source-grounded daily-dose and administration-interval rules."""
+        # Keep the entire exceptional-dose sentence so its conditions stay
+        # attached to the 4 g/day value.
+        conditional_4g = re.search(
+            r"uniquement\s+sur\s+avis\s+m[eé]dical\b"
+            r"[\s\S]{0,300}?4000\s*mg\b"
+            r"[\s\S]{0,220}?\b50\s*kg\b[^.\n]*",
             text,
             flags=re.I,
         )
-        for md in max_doses:
-            cleaned = self.clean_item_text(md)
-            if self.is_valid_clinical_item(cleaned):
-                ent_id = make_entity_id(EntityType.DOSAGE_RULE, cleaned)
-                if ent_id not in entities:
-                    entities[ent_id] = self.entity_extractor.create_entity(cleaned, EntityType.DOSAGE_RULE)
+        conditional_span = None
+        if conditional_4g:
+            conditional_span = conditional_4g.span()
+            self._add_posology_rule(
+                conditional_4g.group(0),
+                primary_id,
+                doc_file,
+                entities,
+                relations,
+                seen_edges,
+                confidence=0.98,
+            )
 
-                rel = KGRelation(
-                    source_id=primary_id,
-                    target_id=ent_id,
-                    relation_type=RelationType.HAS_MAX_DOSE,
-                    description=cleaned,
-                    source_doc=doc_file,
-                    confidence=0.95,
-                )
-                if rel.edge_key not in seen_edges:
-                    seen_edges.add(rel.edge_key)
-                    relations.append(rel)
-
-        # 2. Administration interval rule (e.g. 4 heures minimum)
-        intervals = re.findall(
-            r"(\b\d+\s*heures?\s*(?:minimum|d[\'\’]intervalle|entre\s*(?:chaque|deux|2)\s*prises)?)",
-            text,
+        # Extract explicit daily quantities, including table text where the
+        # "daily maximum" label is separated from its value by line breaks.
+        daily_dose_pattern = re.compile(
+            r"\b\d+(?:[\s.,]\d+)*\s*(?:mg|g)"
+            r"(?:\s*\(\s*\d+(?:[.,]\d+)?\s*g\s*\))?"
+            r"\s*(?:par\s+jour|/\s*(?:j(?:our)?|jour))\b",
             flags=re.I,
         )
-        for iv in intervals:
-            cleaned = f"Intervalle minimum entre prises : {self.clean_item_text(iv)}"
-            if self.is_valid_clinical_item(cleaned):
-                ent_id = make_entity_id(EntityType.DOSAGE_RULE, cleaned)
-                if ent_id not in entities:
-                    entities[ent_id] = self.entity_extractor.create_entity(cleaned, EntityType.DOSAGE_RULE)
-
-                rel = KGRelation(
-                    source_id=primary_id,
-                    target_id=ent_id,
-                    relation_type=RelationType.HAS_MAX_DOSE,
-                    description=cleaned,
-                    source_doc=doc_file,
-                    confidence=0.9,
+        table_rule_pattern = re.compile(
+            r"dose\s+journali[eè]re\s+maximale"
+            r"[\s\S]{0,300}?"
+            r"(?=attention\s*:|uniquement\s+sur|populations\s+sp[eé]ciales)",
+            flags=re.I,
+        )
+        table_spans = []
+        for table_rule in table_rule_pattern.finditer(text):
+            table_spans.append(table_rule.span())
+            table_text = table_rule.group(0)
+            renal_rows = [
+                line.strip()
+                for line in table_text.splitlines()
+                if daily_dose_pattern.search(line)
+                and re.search(r"\b(?:mL|min)\s*/\s*min\b|<\s*\d+\s*mL", line, flags=re.I)
+            ]
+            table_rules = renal_rows or [table_text]
+            for rule_text in table_rules:
+                self._add_posology_rule(
+                    rule_text,
+                    primary_id,
+                    doc_file,
+                    entities,
+                    relations,
+                    seen_edges,
+                    confidence=0.97,
                 )
-                if rel.edge_key not in seen_edges:
-                    seen_edges.add(rel.edge_key)
-                    relations.append(rel)
 
-        # 3. Special population adaptation rules (e.g. Adulte < 50 kg, Insuffisance rénale)
-        if "50 kg" in text:
-            rule_text = "Dose adaptée pour patient pesant au moins 50 kg (max 4 g/j uniquement sur avis médical)"
-            ent_id = make_entity_id(EntityType.DOSAGE_RULE, rule_text)
-            if ent_id not in entities:
-                entities[ent_id] = self.entity_extractor.create_entity(rule_text, EntityType.DOSAGE_RULE)
+        # Some monographs state a maximum as a standalone sentence (for
+        # example, "La dose quotidienne maximale de 150 mg ne doit pas être
+        # dépassée") without repeating "par jour" after the quantity.
+        explicit_max_cue = re.compile(
+            r"\b(?:dose\s+(?:journali[eè]re\s+|quotidienne\s+)?maximale|"
+            r"dose\s+maximale\s+(?:journali[eè]re|quotidienne)|"
+            r"posologie\s+maximale)\b",
+            flags=re.I,
+        )
+        explicit_max_spans = []
+        for cue in explicit_max_cue.finditer(text):
+            amount = re.search(r"\b\d+(?:[\s.,]\d+)*\s*(?:mg|g)\b", text[cue.end():cue.end() + 180], flags=re.I)
+            if not amount:
+                continue
 
-            rel = KGRelation(
-                source_id=primary_id,
-                target_id=ent_id,
-                relation_type=RelationType.HAS_MAX_DOSE,
-                description=rule_text,
-                source_doc=doc_file,
+            rule_start = cue.start()
+            if text[max(0, rule_start - 3):rule_start].lower() == "la ":
+                rule_start -= 3
+            tail = text[cue.end():min(len(text), cue.end() + 240)]
+            sentence_end = re.search(r"[.!?](?:\s|$)", tail)
+            rule_end = cue.end() + sentence_end.end() if sentence_end else min(len(text), cue.end() + 180)
+            rule_text = text[rule_start:rule_end].strip()
+            if not self.is_valid_clinical_item(rule_text):
+                continue
+
+            explicit_max_spans.append((rule_start, rule_end))
+            self._add_posology_rule(
+                rule_text,
+                primary_id,
+                doc_file,
+                entities,
+                relations,
+                seen_edges,
+                confidence=0.98,
+            )
+
+        cue_pattern = re.compile(
+            r"dose\s+journali[eè]re\s+maximale|"
+            r"dose\s+maximale\s+quotidienne|"
+            r"dose\s+quotidienne|"
+            r"posologie\s+maximale|"
+            r"ne\s+pas\s+d[eé]passer|"
+            r"insuffisance\s+h[eé]patique|"
+            r"insuffisance\s+r[eé]nale|"
+            r"en\s+cas\s+de\s+[^\n]{0,60}",
+            flags=re.I,
+        )
+        daily_rule_spans = []
+        for match in daily_dose_pattern.finditer(text):
+            if conditional_span and conditional_span[0] <= match.start() < conditional_span[1]:
+                continue
+            if any(start <= match.start() < end for start, end in table_spans + explicit_max_spans):
+                continue
+            if any(start <= match.start() < end for start, end in daily_rule_spans):
+                continue
+
+            line_start = text.rfind("\n", 0, match.start()) + 1
+            line_end = text.find("\n", match.end())
+            if line_end < 0:
+                line_end = len(text)
+            line = text[line_start:line_end].strip()
+
+            # Renal dosing tables keep the condition, interval, and amount on
+            # one source line; preserve that row as a unit.
+            if re.search(r"\b(?:mL|min)\s*/\s*min\b|<\s*\d+\s*mL", line, flags=re.I):
+                rule_text = line
+                rule_start, rule_end = line_start, line_end
+            else:
+                window_start = max(0, match.start() - 400)
+                prefix = text[window_start : match.start()]
+                condition_pattern = re.compile(
+                    r"insuffisance\s+h[eé]patique[^\n]{0,160}|"
+                    r"insuffisance\s+r[eé]nale[^\n]{0,160}|"
+                    r"alcoolisme\s+chronique[^\n]{0,120}|"
+                    r"syndrome\s+de\s+gilbert[^\n]{0,120}",
+                    flags=re.I,
+                )
+                conditions = list(condition_pattern.finditer(prefix))
+                if conditions:
+                    rule_start = window_start + conditions[-1].start()
+                else:
+                    last_sentence = max(prefix.rfind("."), prefix.rfind("!"), prefix.rfind("?"))
+                    cues = list(cue_pattern.finditer(prefix, last_sentence + 1))
+                    rule_start = (
+                        window_start + cues[0].start()
+                        if cues
+                        else max(line_start, window_start + last_sentence + 1)
+                    )
+
+                following = text[match.end() : min(len(text), match.end() + 420)]
+                if "dans les situations suivantes" in text[rule_start : match.start()].lower():
+                    next_heading = re.search(
+                        r"\n(?:insuffisance\s+h[eé]patique|insuffisance\s+r[eé]nale|"
+                        r"personnes\s+[eé]g[eé]es|mode\s+d['’]administration|dur[eé]e\s+de\s+traitement)",
+                        following,
+                        flags=re.I,
+                    )
+                    rule_end = (
+                        match.end() + next_heading.start()
+                        if next_heading
+                        else min(len(text), match.end() + 300)
+                    )
+                else:
+                    sentence_end = re.search(r"[.!?]", following)
+                    rule_end = (
+                        match.end() + sentence_end.end()
+                        if sentence_end
+                        else min(len(text), match.end() + 100)
+                    )
+                rule_text = text[rule_start:rule_end]
+
+            if len(rule_text.strip()) <= 600:
+                daily_rule_spans.append((rule_start, rule_end))
+            self._add_posology_rule(
+                rule_text,
+                primary_id,
+                doc_file,
+                entities,
+                relations,
+                seen_edges,
+                confidence=0.95,
+            )
+
+        # Retain numeric values and nearby table conditions for minimum
+        # intervals, including renal-specific 6/8-hour rows.
+        interval_pattern = re.compile(
+            r"\b\d+\s*heures?\s*(?:minimum|d['’]intervalle|entre\s*(?:chaque|deux|2)\s*prises)?",
+            flags=re.I,
+        )
+        for match in interval_pattern.finditer(text):
+            if conditional_span and conditional_span[0] <= match.start() < conditional_span[1]:
+                continue
+            if any(start <= match.start() < end for start, end in table_spans):
+                continue
+
+            line_start = text.rfind("\n", 0, match.start()) + 1
+            line_end = text.find("\n", match.end())
+            if line_end < 0:
+                line_end = len(text)
+            snippet = text[line_start:line_end].strip()
+            if daily_dose_pattern.search(snippet):
+                continue
+            if not snippet:
+                snippet = match.group(0)
+            self._add_posology_rule(
+                f"Intervalle d'administration : {snippet}",
+                primary_id,
+                doc_file,
+                entities,
+                relations,
+                seen_edges,
                 confidence=0.9,
             )
-            if rel.edge_key not in seen_edges:
-                seen_edges.add(rel.edge_key)
-                relations.append(rel)
 
     def _extract_contraindications(
         self,

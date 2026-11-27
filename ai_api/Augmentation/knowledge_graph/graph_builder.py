@@ -29,7 +29,7 @@ import logging
 import re
 import sys
 import time
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional, Sequence, Set, Tuple, Union
 
@@ -59,6 +59,19 @@ from ai_api.Augmentation.knowledge_graph.relationship_extractor import (
 logger = logging.getLogger(__name__)
 
 DEFAULT_GRAPH_PATH = Path(__file__).resolve().parent / "artifacts" / "pharmeazor_kg.json"
+
+
+def _source_doc_id(path: Path, root: Optional[Union[str, Path]] = None) -> str:
+    """Return a stable corpus-relative source path when the file is in the corpus."""
+    resolved = path.resolve()
+    roots = [Path(root)] if root is not None else []
+    roots.append(DEFAULT_DATA_DIR)
+    for candidate in roots:
+        try:
+            return resolved.relative_to(candidate.resolve()).as_posix()
+        except ValueError:
+            continue
+    return resolved.as_posix()
 
 # Stopwords ignored during full-sentence entity extraction
 _QUERY_STOPWORDS: Set[str] = {
@@ -109,6 +122,7 @@ def _merge_metadata(existing: Dict[str, Any], incoming: Dict[str, Any]) -> Dict[
     merged = dict(existing)
     multi_value_keys = {
         "source": "sources",
+        "source_url": "source_urls",
         "dossier": "dossiers",
         "doc_type": "doc_types",
         "drug_id": "drug_ids",
@@ -202,6 +216,7 @@ class GraphBuilder:
         # Fast in-memory lookup indices kept synchronized with `self.graph`
         self._entities: Dict[str, KGEntity] = {}
         self._name_index: Dict[str, Set[str]] = {}
+        self._drug_prefix_index: Dict[str, Set[str]] = {}
         self._type_index: Dict[EntityType, Set[str]] = {et: set() for et in EntityType}
 
         if len(self.graph) > 0:
@@ -220,10 +235,16 @@ class GraphBuilder:
             norm = normalize_string(text)
             if norm:
                 self._name_index.setdefault(norm, set()).add(entity.id)
+                if entity.entity_type in {EntityType.DRUG, EntityType.ACTIVE_INGREDIENT}:
+                    tokens = norm.split("_")
+                    for length in range(2, min(len(tokens), 12) + 1):
+                        prefix = "_".join(tokens[:length])
+                        self._drug_prefix_index.setdefault(prefix, set()).add(entity.id)
 
     def _rebuild_indices(self) -> None:
         self._entities.clear()
         self._name_index.clear()
+        self._drug_prefix_index.clear()
         self._type_index = {et: set() for et in EntityType}
 
         for node_id, attrs in self.graph.nodes(data=True):
@@ -419,6 +440,23 @@ class GraphBuilder:
             target_doc = {**doc, "dossier": dossier}
 
         result = self.extractor.extract_from_document(target_doc, doc_id=doc_id)
+        provenance = {
+            key: value
+            for key, value in {
+                "source": doc.get("source"),
+                "source_url": doc.get("url") or doc.get("source_url"),
+                "doc_type": doc.get("doc_type"),
+            }.items()
+            if value not in (None, "")
+        }
+        if provenance:
+            result = ExtractionResult(
+                entities=result.entities,
+                relations=[
+                    replace(relation, metadata={**relation.metadata, **provenance})
+                    for relation in result.relations
+                ],
+            )
         self.add_extraction_result(result, dossier=dossier or doc.get("dossier"))
         self.stats.documents_processed += 1
         return result
@@ -444,7 +482,7 @@ class GraphBuilder:
                 with open(fpath, "r", encoding="utf-8") as f:
                     doc = json.load(f)
                 dossier = fpath.parent.parent.name if len(fpath.parts) >= 3 else None
-                self.add_document(doc, doc_id=fpath.name, dossier=dossier)
+                self.add_document(doc, doc_id=_source_doc_id(fpath), dossier=dossier)
             except Exception as exc:
                 logger.warning("Failed processing %s: %s", fpath, exc)
                 self.stats.documents_failed += 1
@@ -497,7 +535,11 @@ class GraphBuilder:
                 if norm_doc_types and str(doc.get("doc_type", "")).lower() not in norm_doc_types:
                     continue
 
-                self.add_document(doc, doc_id=fpath.name, dossier=file_dossier)
+                self.add_document(
+                    doc,
+                    doc_id=_source_doc_id(fpath, root=root),
+                    dossier=file_dossier,
+                )
                 processed_here += 1
                 if max_docs and processed_here >= max_docs:
                     break
@@ -624,8 +666,9 @@ class GraphBuilder:
 
         matched_ids: Dict[str, float] = {}
 
-        # 1. N-gram lookup against normalized name/alias index (1 to 4 tokens)
-        for n in (4, 3, 2, 1):
+        # 1. N-gram lookup against normalized name/alias index. Long product
+        # names (brand + strength + form) can exceed four tokens.
+        for n in range(len(raw_tokens), 0, -1):
             for i in range(len(raw_tokens) - n + 1):
                 gram_tokens = raw_tokens[i : i + n]
                 if all(t in _QUERY_STOPWORDS or len(t) < 2 for t in gram_tokens):
@@ -639,7 +682,23 @@ class GraphBuilder:
                     if eid not in matched_ids or score > matched_ids[eid]:
                         matched_ids[eid] = score
 
-        # 2. Fallback: single filtered keyword token lookup
+        # 2. Match a query's shortened product name against indexed prefixes,
+        # e.g. "AMOXICILLINE KRKA 1 g" against a longer full brand name.
+        for n in range(min(len(raw_tokens), 12), 1, -1):
+            for i in range(len(raw_tokens) - n + 1):
+                gram_tokens = raw_tokens[i : i + n]
+                if all(t in _QUERY_STOPWORDS or len(t) < 2 for t in gram_tokens):
+                    continue
+                gram = "_".join(gram_tokens)
+                for eid in self._drug_prefix_index.get(gram, set()):
+                    ent = self._entities[eid]
+                    if allowed_types and ent.entity_type not in allowed_types:
+                        continue
+                    score = 100.0 + n * 10.0
+                    if eid not in matched_ids or score > matched_ids[eid]:
+                        matched_ids[eid] = score
+
+        # 3. Fallback: single filtered keyword token lookup
         for tok in filtered_tokens:
             if len(tok) < 3:
                 continue
@@ -649,7 +708,7 @@ class GraphBuilder:
                     continue
                 matched_ids.setdefault(eid, 80.0)
 
-        # 3. Prioritize DRUG and ACTIVE_INGREDIENT entities if scores tie
+        # 4. Prioritize DRUG and ACTIVE_INGREDIENT entities if scores tie
         def rank_key(eid: str) -> Tuple[float, int, int]:
             ent = self._entities[eid]
             priority = 2 if ent.entity_type in (EntityType.DRUG, EntityType.ACTIVE_INGREDIENT) else 1

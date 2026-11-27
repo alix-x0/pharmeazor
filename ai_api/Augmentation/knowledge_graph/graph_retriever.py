@@ -20,6 +20,7 @@ from ai_api.Augmentation.knowledge_graph.graph_builder import (
     build_knowledge_graph,
     load_knowledge_graph,
 )
+from ai_api.Augmentation.knowledge_graph.entity_extractor import normalize_string
 from ai_api.Augmentation.knowledge_graph.ontology import EntityType, KGEntity, RelationType
 
 
@@ -57,6 +58,7 @@ class GraphFact:
     description: str = ""
     confidence: float = 1.0
     source_docs: List[str] = field(default_factory=list)
+    source_urls: List[str] = field(default_factory=list)
     source_chunk_ids: List[str] = field(default_factory=list)
 
     def to_dict(self) -> Dict[str, Any]:
@@ -71,6 +73,7 @@ class GraphFact:
             "description": self.description,
             "confidence": self.confidence,
             "source_docs": list(self.source_docs),
+            "source_urls": list(self.source_urls),
             "source_chunk_ids": list(self.source_chunk_ids),
         }
 
@@ -85,6 +88,8 @@ class GraphFact:
             provenance.extend(f"chunk:{chunk_id}" for chunk_id in self.source_chunk_ids)
         if provenance:
             line += f" [Sources: {', '.join(provenance[:5])}]"
+        if self.source_urls:
+            line += f" [Source URLs: {', '.join(self.source_urls[:3])}]"
         return line
 
 
@@ -98,6 +103,7 @@ class GraphRetrievalResult:
     facts: List[GraphFact] = field(default_factory=list)
     context: str = ""
     source_docs: List[str] = field(default_factory=list)
+    source_urls: List[str] = field(default_factory=list)
     subgraph_nodes: int = 0
     subgraph_edges: int = 0
 
@@ -109,6 +115,7 @@ class GraphRetrievalResult:
             "facts": [fact.to_dict() for fact in self.facts],
             "context": self.context,
             "source_docs": list(self.source_docs),
+            "source_urls": list(self.source_urls),
             "subgraph_nodes": self.subgraph_nodes,
             "subgraph_edges": self.subgraph_edges,
         }
@@ -185,6 +192,47 @@ class GraphRetriever:
             self.graph_path = Path(graph_path)
         return self.builder.save(self.graph_path)
 
+    @staticmethod
+    def _infer_relation_types(query: str) -> List[RelationType]:
+        """Use question wording to avoid returning unrelated edge categories."""
+        normalized = normalize_string(query)
+        tokens = set(normalized.split("_"))
+        selected: Set[RelationType] = set()
+
+        dose_terms = {
+            "dose", "doses", "posologie", "posologies", "mg", "g", "max", "maximum",
+            "maximale", "maximal", "quotidienne", "journalier", "journaliere",
+            "daily", "intervalle", "prise", "prises", "combien", "dosage", "dosages",
+        }
+        if tokens & dose_terms:
+            selected.add(RelationType.HAS_MAX_DOSE)
+
+        if any(term in normalized for term in ("interaction", "interagit", "associer", "association")):
+            selected.add(RelationType.INTERACTS_WITH)
+
+        if any(
+            term in normalized
+            for term in ("effet_indesirable", "effets_indesirables", "effet_secondaire", "side_effect")
+        ):
+            selected.add(RelationType.HAS_ADVERSE_EFFECT)
+
+        if any(term in normalized for term in ("indication", "indique_pour", "traite", "traiter", "treats")):
+            selected.add(RelationType.TREATS)
+
+        if any(
+            term in normalized
+            for term in (
+                "contre_indication", "contre_indique", "contraindication", "contraindicated",
+                "allergie", "allergique", "asthme", "asthmatique", "grossesse",
+                "enceinte", "allaitement", "insuffisance",
+            )
+        ):
+            selected.update(
+                {RelationType.CONTRAINDICATED_FOR, RelationType.REQUIRES_PRECAUTION_FOR}
+            )
+
+        return sorted(selected, key=lambda relation: relation.value)
+
     def retrieve(
         self,
         query: str,
@@ -195,15 +243,18 @@ class GraphRetriever:
         direction: str = "both",
         max_entities: int = 5,
         max_nodes: int = 50,
-        max_facts: int = 30,
+        max_facts: int = 12,
         min_confidence: float = 0.0,
         require_provenance: bool = True,
+        auto_filter: bool = True,
     ) -> GraphRetrievalResult:
         """
         Find query entities and return their sourced graph neighborhood.
 
         require_provenance defaults to true so unsourced graph edges are
         excluded from the context intended for evidence-grounded answers.
+        If relation_types is omitted, auto_filter infers likely relation
+        categories from the wording of the question.
         """
         question = (query or "").strip()
         if not question:
@@ -228,10 +279,18 @@ class GraphRetriever:
         if not matched:
             return GraphRetrievalResult(query=question, status="no_entity_match")
 
+        if relation_types is not None:
+            selected_relation_types = relation_types
+        elif auto_filter:
+            inferred = self._infer_relation_types(question)
+            selected_relation_types = inferred or None
+        else:
+            selected_relation_types = None
+
         subgraph = self.builder.get_subgraph(
             seed_ids=[entity.id for entity in matched],
             max_hops=max_hops,
-            relation_types=relation_types,
+            relation_types=selected_relation_types,
             direction=direction,
             max_nodes=max_nodes,
         )
@@ -249,6 +308,14 @@ class GraphRetriever:
                 source_docs = _clean_string_list(metadata.get("source_docs"))
             if not source_docs:
                 source_docs = _clean_string_list(edge.get("source_doc"))
+
+            source_urls = _clean_string_list(edge.get("source_urls"))
+            if not source_urls:
+                source_urls = _clean_string_list(metadata.get("source_urls"))
+            if not source_urls:
+                source_urls = _clean_string_list(edge.get("source_url"))
+            if not source_urls:
+                source_urls = _clean_string_list(metadata.get("source_url"))
 
             source_chunks = _clean_string_list(edge.get("source_chunk_ids"))
             if not source_chunks:
@@ -277,6 +344,7 @@ class GraphRetriever:
                     description=str(edge.get("description", "") or ""),
                     confidence=confidence,
                     source_docs=source_docs,
+                    source_urls=source_urls,
                     source_chunk_ids=source_chunks,
                 )
             )
@@ -293,12 +361,18 @@ class GraphRetriever:
         context = "\n".join(fact.to_context_line() for fact in facts)
 
         all_sources: List[str] = []
+        all_source_urls: List[str] = []
         seen_sources: Set[str] = set()
+        seen_source_urls: Set[str] = set()
         for fact in facts:
             for source in fact.source_docs:
                 if source not in seen_sources:
                     seen_sources.add(source)
                     all_sources.append(source)
+            for source_url in fact.source_urls:
+                if source_url not in seen_source_urls:
+                    seen_source_urls.add(source_url)
+                    all_source_urls.append(source_url)
 
         if facts:
             status = "ok"
@@ -314,6 +388,7 @@ class GraphRetriever:
             facts=facts,
             context=context,
             source_docs=all_sources,
+            source_urls=all_source_urls,
             subgraph_nodes=subgraph.number_of_nodes(),
             subgraph_edges=subgraph.number_of_edges(),
         )

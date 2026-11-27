@@ -2,37 +2,39 @@
 Pharmeazor RAG System - Retrieval & Pipeline Engine
 ===================================================
 Coordinates chunking, embedding, indexing, and hybrid retrieval (Dense + Sparse RRF).
-Also provides search comparison capabilities between keyword and semantic retrieval.
 """
 
 from __future__ import annotations
 
+import argparse
+import json
 import logging
 import sys
 import time
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any, Dict, Iterable, List, Optional, Set, Tuple, Union
+from typing import Any, Dict, Iterable, List, Optional, Union
 
 logger = logging.getLogger(__name__)
 
 # Ensure project root in path
-PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-from ai_api.rag.chunking import (
+from ai_api.Retrieval.chunking import (
     DEFAULT_DATA_DIR,
     DrugChunk,
     DrugChunker,
     chunk_corpus,
     chunk_file,
 )
-from ai_api.rag.embedding import (
+from ai_api.Retrieval.embedding import (
     BGEM3Embedder,
     default_embedder,
 )
-from ai_api.rag.vector_store import (
+from ai_api.Retrieval.vector_store import (
+    QdrantConfig,
     QdrantVectorStore,
     default_store,
 )
@@ -370,3 +372,87 @@ def search_drugs(
         filter_dci=dci,
         filter_category=category,
     )
+
+
+def _run_cli() -> None:
+    logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
+    parser = argparse.ArgumentParser(description="Pharmeazor Retrieval - BGE-M3 Embedding & Qdrant Indexer")
+    subparsers = parser.add_subparsers(dest="command", help="Command to run")
+
+    index_parser = subparsers.add_parser("index", help="Index drug monographs into Qdrant")
+    index_parser.add_argument("--dossier", type=str, default=None, help="Specific dossier (e.g. 01_paracetamol)")
+    index_parser.add_argument("--data-dir", type=str, default=None, help="Path to data/outputs_data directory")
+    index_parser.add_argument("--max-docs", type=int, default=None, help="Limit number of documents to index")
+    index_parser.add_argument("--batch-size", type=int, default=32, help="Batch size for embedding and upsert")
+    index_parser.add_argument("--recreate", action="store_true", help="Recreate collection before indexing")
+    index_parser.add_argument("--path", type=str, default=None, help="Local disk storage path for Qdrant (e.g. qdrant/storage)")
+    index_parser.add_argument("--url", type=str, default=None, help="Qdrant server URL (e.g. http://127.0.0.1:6333)")
+
+    search_parser = subparsers.add_parser("search", help="Execute hybrid search in Qdrant")
+    search_parser.add_argument("query", type=str, help="Search question or clinical query")
+    search_parser.add_argument("--limit", type=int, default=5, help="Number of results to return")
+    search_parser.add_argument("--dci", type=str, default=None, help="Filter by DCI")
+    search_parser.add_argument("--category", type=str, default=None, help="Filter by section category (posology, etc.)")
+    search_parser.add_argument("--path", type=str, default=None, help="Local disk storage path for Qdrant (e.g. qdrant/storage)")
+    search_parser.add_argument("--url", type=str, default=None, help="Qdrant server URL (e.g. http://127.0.0.1:6333)")
+
+    subparsers.add_parser("test", help="Run self-diagnostic verification")
+
+    args = parser.parse_args()
+
+    if args.command == "index":
+        print(f"Indexing corpus into Qdrant (dossier={args.dossier}, max_docs={args.max_docs})...")
+        qcfg = QdrantConfig()
+        if args.path:
+            qcfg.path = args.path
+        if args.url:
+            qcfg.url = args.url
+        custom_store = QdrantVectorStore(config=qcfg)
+        pipeline = DrugRAGPipeline(embedder=default_embedder, vector_store=custom_store)
+        stats = pipeline.index_corpus(
+            dossier=args.dossier,
+            data_dir=args.data_dir,
+            max_docs=args.max_docs,
+            batch_size=args.batch_size,
+            recreate_collection=args.recreate,
+        )
+        print("Indexing completed successfully:")
+        print(json.dumps(stats.to_dict(), indent=2))
+
+    elif args.command == "search":
+        print(f"Executing hybrid search for: '{args.query}' (limit={args.limit})...")
+        qcfg = QdrantConfig()
+        if args.path:
+            qcfg.path = args.path
+        if args.url:
+            qcfg.url = args.url
+        custom_store = QdrantVectorStore(config=qcfg)
+        pipeline = DrugRAGPipeline(embedder=default_embedder, vector_store=custom_store)
+        results = pipeline.search(
+            query=args.query,
+            limit=args.limit,
+            filter_dci=args.dci,
+            filter_category=args.category,
+        )
+        print(f"\nFound {len(results)} matches:")
+        for i, r in enumerate(results, start=1):
+            print(f"\n[{i}] Score: {r.score:.4f} | Chunk ID: {r.chunk_id}")
+            print(f"Header: {r.header}")
+            print(f"Content: {r.content[:200]}...")
+
+    elif args.command == "test":
+        print("Running BGE-M3 & Qdrant Self-Diagnostic Test...")
+        embedder = BGEM3Embedder()
+        print(f"Embedder backend: {embedder.backend}")
+        out = embedder.encode(["Test embedding for Paracetamol."])
+        print(f"Generated dense vector length: {len(out.dense[0])} (expected 1024)")
+        if out.sparse:
+            print(f"Generated sparse token count: {len(out.sparse[0])}")
+        print("\nSelf-diagnostic passed successfully!")
+
+    else:
+        parser.print_help()
+
+
+if __name__ == "__main__":
+    _run_cli()

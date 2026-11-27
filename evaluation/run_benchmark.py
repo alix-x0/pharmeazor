@@ -18,7 +18,8 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from ai_api.Retrieval.chunking import DEFAULT_DATA_DIR, chunk_corpus
-from ai_api.Retrieval.embedding import BGEM3Embedder, QdrantConfig, QdrantVectorStore
+from ai_api.Retrieval.embedding import BGEM3Embedder
+from ai_api.Retrieval.vector_store import QdrantConfig, QdrantVectorStore
 
 try:
     from qdrant_client.models import (
@@ -120,7 +121,7 @@ def check_index(
     if not client.collection_exists(collection_name):
         raise SystemExit(
             f"Qdrant collection '{collection_name}' does not exist. "
-            "Index the corpus first with: python -m ai_api.Retrieval.embedding index"
+            "Index the corpus first with: python -m ai_api.Retrieval.retriever index"
         )
 
     corpus_ids: set[str] = set()

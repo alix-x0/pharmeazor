@@ -3,7 +3,8 @@ from typing import List
 
 from qdrant_client.models import FieldCondition, Filter, MatchValue
 
-from ai_api.Retrieval.embedding import BGEM3Embedder, QdrantVectorStore
+from ai_api.Retrieval.embedding import BGEM3Embedder
+from ai_api.Retrieval.vector_store import QdrantVectorStore
 from ai_api.Retrieval.Search_Engine.base import BaseRetriever, SearchHit, SearchQuery
 
 logger = logging.getLogger(__name__)

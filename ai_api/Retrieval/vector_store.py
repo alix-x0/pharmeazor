@@ -12,17 +12,17 @@ import sys
 import uuid
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Tuple, Union
+from typing import Any, Dict, List, Optional
 
 logger = logging.getLogger(__name__)
 
 # Ensure project root in path
-PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-from ai_api.rag.chunking import DrugChunk
-from ai_api.rag.embedding import EmbeddingConfig
+from ai_api.Retrieval.chunking import DrugChunk
+from ai_api.Retrieval.embedding import EmbeddingConfig
 
 # Optional Qdrant dependency with safe dataclass stand-ins
 _QDRANT_AVAILABLE = False
@@ -31,15 +31,8 @@ try:
     from qdrant_client import QdrantClient  # type: ignore
     from qdrant_client.models import (  # type: ignore
         Distance,
-        FieldCondition,
-        Filter,
-        Fusion,
-        FusionQuery,
-        MatchValue,
         PayloadSchemaType,
         PointStruct,
-        Prefetch,
-        SearchParams,
         SparseIndexParams,
         SparseVector,
         SparseVectorParams,

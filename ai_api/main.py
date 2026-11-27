@@ -207,14 +207,12 @@ def rag_search(request: RAGSearchRequest) -> Dict[str, Any]:
     using BGE-M3 and Qdrant.
     """
     try:
-        from ai_api.rag.retriever import search_drugs
+        from ai_api.Retrieval.retriever import search_drugs
         results = search_drugs(
             query=request.query,
-            top_k=request.top_k,
-            dense_weight=request.dense_weight,
-            sparse_weight=request.sparse_weight,
-            dci_filter=request.dci_filter,
-            section_category=request.section_category,
+            limit=request.top_k,
+            dci=request.dci_filter,
+            category=request.section_category,
         )
         return {
             "query": request.query,

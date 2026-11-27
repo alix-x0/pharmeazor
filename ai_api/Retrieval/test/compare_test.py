@@ -16,6 +16,9 @@ Objectifs de l'Analyse :
   paraphrases, langage patient vs termes médicaux : "maux de tête" vs "céphalées",
   "fièvre" vs "états fébriles", "maladie du foie" vs "insuffisance hépatocellulaire").
 - Prouver la supériorité de la recherche hybride (RRF) pour la sécurité clinique.
+
+Run:
+    python -m ai_api.Retrieval.test.compare_test
 """
 
 from __future__ import annotations
@@ -33,8 +36,7 @@ from typing import Any, Callable, Dict, Iterable, List, Optional, Sequence, Set,
 logger = logging.getLogger(__name__)
 
 # Ensure package root is in sys.path
-CURRENT_DIR = Path(__file__).resolve().parent
-PROJECT_ROOT = CURRENT_DIR.parent.parent
+PROJECT_ROOT = Path(__file__).resolve().parents[3]
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
@@ -44,7 +46,7 @@ from ai_api.Retrieval.chunking import (
     DrugChunker,
     chunk_corpus,
 )
-from ai_api.Retrieval.embedding import (
+from ai_api.Retrieval import (
     BGEM3Embedder,
     DrugRAGPipeline,
     EmbeddingConfig,

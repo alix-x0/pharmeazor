@@ -1,11 +1,15 @@
 """
 Pharmeazor Knowledge Graph - Entity Extractor
 =============================================
-Extracts canonical clinical entities (DRUG, ACTIVE_INGREDIENT, DOSAGE_FORM,
-INDICATION, CONTRAINDICATION, ADVERSE_EFFECT, INTERACTING_DRUG, POPULATION,
-LABORATORY, DOSAGE_RULE) from pharmaceutical monographs and text snippets.
+Extracts canonical clinical entities from pharmaceutical monographs.
+
+CDC Alignment (Pharmeazor v2 – nov. 2026):
+- Entity types now include ATC_CLASS and THERAPEUTIC_CLASS (CDC §1, §4).
+- collection_date is propagated from document metadata to every entity (CDC §5).
+- source_authority is passed through from document metadata for downstream
+  source reconciliation (CDC Fonct. 5).
 """
-# hello 
+
 from __future__ import annotations
 
 import re
@@ -19,7 +23,7 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent.parent
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-from ai_api.Augmentation.knowledge_graph.ontology import EntityType, KGEntity
+from ai_api.Augmentation.knowledge_graph.ontology import EntityType, KGEntity, SourceAuthority
 
 
 # Canonical DCI names for the 40 curated dossier folders when doc["dci"] is empty (e.g., BDPM / DailyMed)
@@ -189,11 +193,18 @@ class EntityExtractor:
 
     def extract_entities_from_document(self, doc: Dict[str, Any]) -> List[KGEntity]:
         """
-        Extracts structural entities (Drug, DCI, Laboratory, DosageForm)
-        directly from document metadata (with DCI fallback for BDPM/DailyMed).
+        Extracts structural entities (Drug, DCI, Laboratory, DosageForm, ATC_CLASS,
+        THERAPEUTIC_CLASS) directly from document metadata (with DCI fallback for
+        BDPM/DailyMed).
+
+        CDC §5: collection_date is read from doc metadata and stamped on every entity.
+        CDC §4: ATC code and therapeutic class are extracted as first-class entities.
         """
         entities: List[KGEntity] = []
         seen_ids: Set[str] = set()
+
+        # CDC §5 — date of collection must be tracked on every entity
+        collection_date: Optional[str] = doc.get("collection_date") or doc.get("date_collecte")
 
         # 1. Commercial Brand (DRUG)
         brand = (doc.get("brand") or doc.get("title") or "").strip()
@@ -207,11 +218,14 @@ class EntityExtractor:
                         name=brand,
                         entity_type=EntityType.DRUG,
                         aliases=[brand.upper(), brand.lower()],
+                        collection_date=collection_date,
                         metadata={
                             "drug_id": doc.get("drug_id"),
                             "source": doc.get("source"),
                             "doc_type": doc.get("doc_type"),
                             "dossier": doc.get("dossier", ""),
+                            # Princeps/générique flag for IS_EQUIVALENT_TO linking (CDC §3 Inclus)
+                            "is_princeps": doc.get("is_princeps"),
                         },
                     )
                 )
@@ -231,6 +245,7 @@ class EntityExtractor:
                         name=dci,
                         entity_type=EntityType.ACTIVE_INGREDIENT,
                         aliases=[dci.upper(), dci.lower()],
+                        collection_date=collection_date,
                         metadata=dci_meta,
                     )
                 )
@@ -247,6 +262,7 @@ class EntityExtractor:
                         name=lab,
                         entity_type=EntityType.LABORATORY,
                         aliases=[lab.upper(), lab.lower()],
+                        collection_date=collection_date,
                         metadata={},
                     )
                 )
@@ -267,7 +283,46 @@ class EntityExtractor:
                         name=form_name,
                         entity_type=EntityType.DOSAGE_FORM,
                         aliases=[form_name.upper(), form_name.lower()],
+                        collection_date=collection_date,
                         metadata={"dosage": dosage, "form": form, "conditionnement": cond},
+                    )
+                )
+
+        # 5. ATC Class (CDC §1 vocabulary table: "Code ATC")
+        atc_code = (doc.get("atc_code") or doc.get("code_atc") or "").strip().upper()
+        if atc_code:
+            atc_id = make_entity_id(EntityType.ATC_CLASS, atc_code)
+            if atc_id not in seen_ids:
+                seen_ids.add(atc_id)
+                entities.append(
+                    KGEntity(
+                        id=atc_id,
+                        name=atc_code,
+                        entity_type=EntityType.ATC_CLASS,
+                        aliases=[],
+                        collection_date=collection_date,
+                        metadata={"atc_code": atc_code},
+                    )
+                )
+
+        # 6. Therapeutic Class (CDC §4: antalgiques, antibiotiques, antihypertenseurs)
+        therapeutic_class = (
+            doc.get("therapeutic_class")
+            or doc.get("classe_therapeutique")
+            or ""
+        ).strip()
+        if therapeutic_class:
+            tc_id = make_entity_id(EntityType.THERAPEUTIC_CLASS, therapeutic_class)
+            if tc_id not in seen_ids:
+                seen_ids.add(tc_id)
+                entities.append(
+                    KGEntity(
+                        id=tc_id,
+                        name=therapeutic_class,
+                        entity_type=EntityType.THERAPEUTIC_CLASS,
+                        aliases=[therapeutic_class.lower(), therapeutic_class.upper()],
+                        collection_date=collection_date,
+                        metadata={},
                     )
                 )
 
@@ -278,8 +333,12 @@ class EntityExtractor:
         name: str,
         entity_type: EntityType,
         metadata: Optional[Dict[str, Any]] = None,
+        collection_date: Optional[str] = None,
     ) -> KGEntity:
-        """Helper to create a single canonical KGEntity."""
+        """
+        Helper to create a single canonical KGEntity.
+        collection_date should always be supplied to satisfy CDC §5.
+        """
         clean_name = name.strip()
         e_id = make_entity_id(entity_type, clean_name)
         return KGEntity(
@@ -287,5 +346,6 @@ class EntityExtractor:
             name=clean_name,
             entity_type=entity_type,
             aliases=[clean_name.upper(), clean_name.lower()],
+            collection_date=collection_date,
             metadata=metadata or {},
         )

@@ -16,11 +16,22 @@ from ai_api.Augmentation.knowledge_graph.graph_builder import (
     build_knowledge_graph,
     load_knowledge_graph,
 )
+from ai_api.Augmentation.knowledge_graph.entity_normalizer import (
+    EntityNormalizer,
+    default_normalizer,
+)
 from ai_api.Augmentation.knowledge_graph.ontology import (
     EntityType,
+    InteractionSeverity,
     KGEntity,
     KGRelation,
     RelationType,
+    SourceAuthority,
+)
+from ai_api.Augmentation.knowledge_graph.provenance import (
+    ProvenanceRecord,
+    validate_relation_grounding,
+    verify_text_in_document,
 )
 from ai_api.Augmentation.knowledge_graph.relationship_extractor import (
     ExtractionResult,
@@ -32,10 +43,17 @@ from ai_api.Augmentation.knowledge_graph.relationship_extractor import (
 
 __all__ = [
     "EntityType",
+    "InteractionSeverity",
     "RelationType",
+    "SourceAuthority",
     "KGEntity",
     "KGRelation",
     "EntityExtractor",
+    "EntityNormalizer",
+    "default_normalizer",
+    "ProvenanceRecord",
+    "validate_relation_grounding",
+    "verify_text_in_document",
     "RelationshipExtractor",
     "ExtractionResult",
     "GraphBuilder",

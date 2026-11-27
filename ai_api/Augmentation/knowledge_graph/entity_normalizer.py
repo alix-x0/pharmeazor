@@ -2,9 +2,14 @@
 Pharmeazor Knowledge Graph - Entity Normalizer
 ==============================================
 Normalizes, disambiguates, canonicalizes, and deduplicates pharmaceutical
-and clinical entities (DRUG, ACTIVE_INGREDIENT, DOSAGE_FORM, INDICATION,
-CONTRAINDICATION, ADVERSE_EFFECT, INTERACTING_DRUG, POPULATION, LABORATORY,
-DOSAGE_RULE) for the Pharmeazor GraphRAG knowledge graph.
+and clinical entities for the Pharmeazor GraphRAG knowledge graph.
+
+CDC Alignment (Pharmeazor v2 – nov. 2026):
+- Thesaurus extended with ATC_CLASS and THERAPEUTIC_CLASS lookup tables (CDC §1, §4).
+- collection_date is preserved and merged during entity deduplication (CDC §5).
+- Three therapeutic classes (antalgiques/anti-inflammatoires, antibiotiques courants,
+  antihypertenseurs) are canonicalized explicitly (CDC §4).
+- Fuzzy mention resolution supports typo-tolerant name normalization (CDC Fonct. 3).
 
 Key Capabilities:
 -----------------
@@ -17,7 +22,7 @@ Key Capabilities:
 4. Entity Deduplication & Resolution: Merges duplicate nodes from multi-document extraction,
    aggregating aliases and metadata.
 5. Fuzzy Concept Resolution: Difflib-based similarity matching for query resolution
-   and typo-tolerant entity linking.
+   and typo-tolerant entity linking (CDC Fonct. 3).
 """
 
 from __future__ import annotations
@@ -29,7 +34,6 @@ import unicodedata
 from collections import defaultdict
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional, Set, Tuple
-
 # Ensure project root is in sys.path
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent.parent
 if str(PROJECT_ROOT) not in sys.path:
@@ -40,7 +44,6 @@ from ai_api.Augmentation.knowledge_graph.entity_extractor import (
     normalize_string,
 )
 from ai_api.Augmentation.knowledge_graph.ontology import EntityType, KGEntity
-
 
 # ==============================================================================
 # CANONICAL THESAURUS & SYNONYM DICTIONARIES
@@ -333,6 +336,72 @@ CANONICAL_LABORATORIES: Dict[str, str] = {
     "upsa sas": "UPSA",
 }
 
+# 7. Canonical ATC Codes — indexed by normalized DCI name (CDC §1)
+# Maps normalized DCI -> (ATC code, ATC label)
+CANONICAL_ATC: Dict[str, Tuple[str, str]] = {
+    "paracetamol":                        ("N02BE01", "Paracétamol"),
+    "acetaminophen":                      ("N02BE01", "Paracétamol"),
+    "ibuprofene":                         ("M01AE01", "Ibuprofène"),
+    "ibuprofen":                          ("M01AE01", "Ibuprofène"),
+    "acide acetylsalicylique":            ("N02BA01", "Acide acétylsalicylique"),
+    "aspirine":                           ("N02BA01", "Acide acétylsalicylique"),
+    "diclofenac":                         ("M01AB05", "Diclofénac"),
+    "ketoprofene":                        ("M01AE03", "Kétoprofène"),
+    "amoxicilline":                       ("J01CA04", "Amoxicilline"),
+    "amoxicillin":                        ("J01CA04", "Amoxicilline"),
+    "amoxicilline acide clavulanique":    ("J01CR02", "Amoxicilline + Acide clavulanique"),
+    "azithromycine":                      ("J01FA10", "Azithromycine"),
+    "ciprofloxacine":                     ("J01MA02", "Ciprofloxacine"),
+    "metronidazole":                      ("J01XD01", "Métronidazole"),
+    "cefixime":                           ("J01DD08", "Céfixime"),
+    "amlodipine":                         ("C08CA01", "Amlodipine"),
+    "ramipril":                           ("C09AA05", "Ramipril"),
+    "bisoprolol":                         ("C07AB07", "Bisoprolol"),
+    "atorvastatine":                      ("C10AA05", "Atorvastatine"),
+    "atorvastatin":                       ("C10AA05", "Atorvastatine"),
+    "metformine":                         ("A10BA02", "Metformine"),
+    "metformin":                          ("A10BA02", "Metformine"),
+    "omeprazole":                         ("A02BC01", "Oméprazole"),
+    "pantoprazole":                       ("A02BC02", "Pantoprazole"),
+    "tramadol":                           ("N02AX02", "Tramadol"),
+    "codeine":                            ("N02AA59", "Codéine"),
+    "cetirizine":                         ("R06AE07", "Cétirizine"),
+    "loratadine":                         ("R06AX13", "Loratadine"),
+    "salbutamol":                         ("R03AC02", "Salbutamol"),
+    "phloroglucinol":                     ("A03AX12", "Phloroglucinol"),
+    "loperamide":                         ("A07DA03", "Lopéramide"),
+    "diosmectite":                        ("A07BC05", "Diosmectite"),
+}
+
+# 8. Canonical Therapeutic Classes (CDC §4 — the three project classes)
+# Maps normalized variant -> canonical class name
+CANONICAL_THERAPEUTIC_CLASSES: Dict[str, str] = {
+    # Antalgiques / Anti-inflammatoires
+    "antalgique":                              "Antalgiques et anti-inflammatoires",
+    "antalgiques":                             "Antalgiques et anti-inflammatoires",
+    "antalgiques et anti inflammatoires":      "Antalgiques et anti-inflammatoires",
+    "anti inflammatoire":                      "Antalgiques et anti-inflammatoires",
+    "anti inflammatoires":                     "Antalgiques et anti-inflammatoires",
+    "ains":                                    "Antalgiques et anti-inflammatoires",
+    "analgesique":                             "Antalgiques et anti-inflammatoires",
+    "analgesiques":                            "Antalgiques et anti-inflammatoires",
+    "antidouleur":                             "Antalgiques et anti-inflammatoires",
+    # Antibiotiques
+    "antibiotique":                            "Antibiotiques courants",
+    "antibiotiques":                           "Antibiotiques courants",
+    "antibiotiques courants":                  "Antibiotiques courants",
+    "anti infectieux":                         "Antibiotiques courants",
+    "antibacterien":                           "Antibiotiques courants",
+    "antibacteriens":                          "Antibiotiques courants",
+    # Antihypertenseurs
+    "antihypertenseur":                        "Antihypertenseurs",
+    "antihypertenseurs":                       "Antihypertenseurs",
+    "anti hypertenseur":                       "Antihypertenseurs",
+    "antihypertensif":                         "Antihypertenseurs",
+    "traitement de l hypertension":            "Antihypertenseurs",
+    "traitement de l hypertension arterielle": "Antihypertenseurs",
+}
+
 
 # ==============================================================================
 # ENTITY NORMALIZER IMPLEMENTATION
@@ -356,6 +425,8 @@ class EntityNormalizer:
             EntityType.CONTRAINDICATION: CANONICAL_CONTRAINDICATIONS,
             EntityType.POPULATION: CANONICAL_POPULATIONS,
             EntityType.LABORATORY: CANONICAL_LABORATORIES,
+            # CDC §4 — therapeutic class normalization
+            EntityType.THERAPEUTIC_CLASS: CANONICAL_THERAPEUTIC_CLASSES,
         }
 
         # Inverted index for reverse search / alias lookup
@@ -498,6 +569,7 @@ class EntityNormalizer:
         Normalizes a single KGEntity:
         - Resolves canonical name and ID.
         - Preserves original raw name in aliases.
+        - Preserves collection_date (CDC §5).
         - Enriches metadata with normalization info.
         """
         canon_name = self.resolve_canonical_name(entity.name, entity.entity_type)
@@ -526,6 +598,7 @@ class EntityNormalizer:
             name=canon_name,
             entity_type=entity.entity_type,
             aliases=sorted(list(aliases)),
+            collection_date=entity.collection_date,  # CDC §5: preserve collection date
             metadata=meta,
         )
 
@@ -537,6 +610,7 @@ class EntityNormalizer:
         """
         Merges entities that share the same canonical ID into a single canonical node.
         Combines aliases and aggregates document occurrences in metadata.
+        collection_date: keeps the earliest date seen across all occurrences (CDC §5).
         """
         clustered: Dict[str, List[KGEntity]] = defaultdict(list)
 
@@ -559,6 +633,12 @@ class EntityNormalizer:
             combined_drug_ids: Set[str] = set()
             merged_meta: Dict[str, Any] = dict(base.metadata)
 
+            # CDC §5: keep the earliest collection_date seen
+            dates = sorted(
+                g.collection_date for g in group if g.collection_date
+            )
+            earliest_date = dates[0] if dates else None
+
             for item in group:
                 combined_aliases.update(item.aliases)
                 if "source" in item.metadata and item.metadata["source"]:
@@ -578,6 +658,7 @@ class EntityNormalizer:
                     name=base.name,
                     entity_type=base.entity_type,
                     aliases=sorted(list(combined_aliases)),
+                    collection_date=earliest_date,
                     metadata=merged_meta,
                 )
             )

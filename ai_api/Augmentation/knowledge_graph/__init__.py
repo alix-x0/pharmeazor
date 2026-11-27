@@ -8,6 +8,10 @@ from ai_api.Augmentation.knowledge_graph.entity_extractor import (
     make_entity_id,
     normalize_string,
 )
+from ai_api.Augmentation.knowledge_graph.entity_normalizer import (
+    EntityNormalizer,
+    default_normalizer,
+)
 from ai_api.Augmentation.knowledge_graph.ontology import (
     EntityType,
     KGEntity,
@@ -28,6 +32,8 @@ __all__ = [
     "KGEntity",
     "KGRelation",
     "EntityExtractor",
+    "EntityNormalizer",
+    "default_normalizer",
     "RelationshipExtractor",
     "ExtractionResult",
     "default_extractor",

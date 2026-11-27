@@ -483,12 +483,13 @@ class RelationshipExtractor:
 
     def _extract_posology_rules(
         self,
-        text: str,
+        rule_text: str,
         primary_id: str,
         sec_context: Dict[str, Any],
         entities: Dict[str, KGEntity],
         relations: List[KGRelation],
         seen_edges: Set[str],
+        confidence: float = 0.9,
     ) -> None:
         """
         Extracts HAS_MAX_DOSE (explicit maximum dose) and HAS_POSOLOGY (intervals,
@@ -497,7 +498,7 @@ class RelationshipExtractor:
         """
         source_authority = sec_context.get("source_authority")
         collection_date = sec_context.get("collection_date")
-        sentences = [s.strip() for s in re.split(r"[\n\.]+", text) if len(s.strip()) >= 5]
+        sentences = [s.strip() for s in re.split(r"[\n\.]+", rule_text) if len(s.strip()) >= 5]
 
         for sentence in sentences:
             s_low = sentence.lower()

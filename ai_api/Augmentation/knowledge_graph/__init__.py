@@ -12,6 +12,13 @@ from ai_api.Augmentation.knowledge_graph.entity_normalizer import (
     EntityNormalizer,
     default_normalizer,
 )
+from ai_api.Augmentation.knowledge_graph.graph_storage import (
+    GraphStorage,
+    GraphStorageError,
+    MissingEntityError,
+    Neo4jConfig,
+    default_storage,
+)
 from ai_api.Augmentation.knowledge_graph.ontology import (
     EntityType,
     KGEntity,
@@ -45,6 +52,11 @@ __all__ = [
     "RelationshipExtractor",
     "ExtractionResult",
     "default_extractor",
+    "GraphStorage",
+    "Neo4jConfig",
+    "default_storage",
+    "GraphStorageError",
+    "MissingEntityError",
     "extract_relationships_from_document",
     "extract_relationships_from_corpus",
     "make_entity_id",

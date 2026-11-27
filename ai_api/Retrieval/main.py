@@ -1,12 +1,12 @@
 from pathlib import Path
 import logging
+from typing import Any, Dict, List, Optional
 
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Query
 from fastapi.responses import HTMLResponse
 from openai import OpenAI, OpenAIError
 from pydantic import BaseModel, Field, field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
-
 
 API_DIR = Path(__file__).resolve().parents[1]
 
@@ -19,13 +19,20 @@ class Settings(BaseSettings):
     )
 
     APP_NAME: str = "Pharmeazor AI API"
-    GROQ_API_KEY: str | None = None
+    GROQ_API_KEY: Optional[str] = None
     GROQ_BASE_URL: str = "https://api.groq.com/openai/v1"
     GROQ_MODEL: str = "openai/gpt-oss-120b"
+    QDRANT_HOST: str = "localhost"
+    QDRANT_PORT: int = 6333
+    QDRANT_COLLECTION: str = "pharmaceutical_drugs"
 
 
 settings = Settings()
-app = FastAPI(title=settings.APP_NAME)
+app = FastAPI(
+    title=settings.APP_NAME,
+    description="Intelligent Pharmaceutical Assistant: BGE-M3 Hybrid RAG & Knowledge Graph Engine",
+    version="2.0.0",
+)
 logger = logging.getLogger(__name__)
 
 QUESTION_PAGE = """<!doctype html>
@@ -50,11 +57,11 @@ QUESTION_PAGE = """<!doctype html>
 </head>
 <body><main class="shell"><section class="card">
   <h1>Pharmeazor AI</h1>
-  <p class="intro">Ask a question and see the model's response. This simple mode does not search the collected medicine data.</p>
+  <p class="intro">Ask a question and see the model's response. Supports standard LLM queries and hybrid pharmaceutical RAG search.</p>
   <form id="ask-form">
     <label for="question">Your question</label>
     <textarea id="question" name="question" required maxlength="4000" placeholder="Type your question here"></textarea>
-    <div class="actions"><button id="submit" type="submit">Ask</button><span class="hint">Powered by the configured Groq model</span></div>
+    <div class="actions"><button id="submit" type="submit">Ask</button><span class="hint">Powered by Groq &amp; BGE-M3 RAG</span></div>
   </form>
   <p id="status" class="status" role="status" aria-live="polite"></p>
   <section id="answer-card" class="answer" aria-live="polite" hidden>
@@ -90,6 +97,10 @@ QUESTION_PAGE = """<!doctype html>
 </script></body></html>"""
 
 
+# =====================================================================
+# Request / Response Models
+# =====================================================================
+
 class AskRequest(BaseModel):
     question: str = Field(min_length=1, max_length=4000)
 
@@ -98,6 +109,19 @@ class AskRequest(BaseModel):
     def strip_question(cls, value: object) -> object:
         return value.strip() if isinstance(value, str) else value
 
+
+class RAGSearchRequest(BaseModel):
+    query: str = Field(min_length=1, max_length=1000, description="Clinical query or medication search")
+    top_k: int = Field(default=5, ge=1, le=50, description="Number of results to retrieve")
+    dense_weight: float = Field(default=1.0, ge=0.0, le=2.0)
+    sparse_weight: float = Field(default=0.3, ge=0.0, le=2.0)
+    dci_filter: Optional[str] = Field(default=None, description="Filter by active ingredient (DCI)")
+    section_category: Optional[str] = Field(default=None, description="Filter by clinical section")
+
+
+# =====================================================================
+# Core Endpoints
+# =====================================================================
 
 @app.get("/", response_class=HTMLResponse)
 def root() -> HTMLResponse:
@@ -110,6 +134,10 @@ def health() -> dict[str, object]:
         "status": "ok",
         "groq_model": settings.GROQ_MODEL,
         "groq_key_configured": bool(settings.GROQ_API_KEY),
+        "architecture": {
+            "rag_available": True,
+            "knowledge_graph_ontology_available": True,
+        },
     }
 
 
@@ -166,3 +194,53 @@ def ask(body: AskRequest) -> dict[str, str]:
 @app.get("/ask", response_class=HTMLResponse)
 def ask_page() -> HTMLResponse:
     return HTMLResponse(QUESTION_PAGE)
+
+
+# =====================================================================
+# RAG Endpoints
+# =====================================================================
+
+@app.post("/rag/search")
+def rag_search(request: RAGSearchRequest) -> Dict[str, Any]:
+    """
+    Performs hybrid semantic and lexical search across pharmaceutical chunks
+    using BGE-M3 and Qdrant.
+    """
+    try:
+        from ai_api.rag.retriever import search_drugs
+        results = search_drugs(
+            query=request.query,
+            top_k=request.top_k,
+            dense_weight=request.dense_weight,
+            sparse_weight=request.sparse_weight,
+            dci_filter=request.dci_filter,
+            section_category=request.section_category,
+        )
+        return {
+            "query": request.query,
+            "total_retrieved": len(results),
+            "results": [r.to_dict() for r in results],
+        }
+    except Exception as exc:
+        logger.error(f"RAG search failed: {exc}")
+        raise HTTPException(status_code=500, detail=f"RAG search error: {str(exc)}")
+
+
+# =====================================================================
+# Knowledge Graph Endpoints
+# =====================================================================
+
+@app.get("/kg/ontology")
+def get_ontology() -> Dict[str, Any]:
+    """
+    Returns the defined pharmaceutical ontology entity types and relation types.
+    """
+    try:
+        from ai_api.Augmentation.knowledge_graph.ontology import EntityType, RelationType
+        return {
+            "entity_types": [e.value for e in EntityType],
+            "relation_types": [r.value for r in RelationType],
+        }
+    except Exception as exc:
+        logger.error(f"Failed to load ontology: {exc}")
+        raise HTTPException(status_code=500, detail=f"Ontology error: {str(exc)}")

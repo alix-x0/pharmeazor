@@ -18,6 +18,11 @@ from ai_api.Augmentation.knowledge_graph.ontology import (
     KGRelation,
     RelationType,
 )
+from ai_api.Augmentation.knowledge_graph.provenance import (
+    ProvenanceRecord,
+    validate_relation_grounding,
+    verify_text_in_document,
+)
 from ai_api.Augmentation.knowledge_graph.relationship_extractor import (
     ExtractionResult,
     RelationshipExtractor,
@@ -34,6 +39,9 @@ __all__ = [
     "EntityExtractor",
     "EntityNormalizer",
     "default_normalizer",
+    "ProvenanceRecord",
+    "validate_relation_grounding",
+    "verify_text_in_document",
     "RelationshipExtractor",
     "ExtractionResult",
     "default_extractor",

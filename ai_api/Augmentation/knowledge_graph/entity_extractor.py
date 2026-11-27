@@ -5,7 +5,7 @@ Extracts canonical clinical entities (DRUG, ACTIVE_INGREDIENT, DOSAGE_FORM,
 INDICATION, CONTRAINDICATION, ADVERSE_EFFECT, INTERACTING_DRUG, POPULATION,
 LABORATORY, DOSAGE_RULE) from pharmaceutical monographs and text snippets.
 """
-# hello 
+
 from __future__ import annotations
 
 import re

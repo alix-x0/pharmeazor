@@ -359,12 +359,18 @@ class RelationshipExtractor:
                 "collection_date": collection_date,
             }
 
-            if "indication" in sec_key or sec_num == "4.1":
-                self._extract_indications(sec_text, primary_id, dci_entity, sec_context, raw_entities, candidate_relations, seen_edges)
-            elif "posolog" in sec_key or sec_num == "4.2":
-                self._extract_posology_rules(sec_text, primary_id, sec_context, raw_entities, candidate_relations, seen_edges)
-            elif "contre_indication" in sec_key or "contraindication" in sec_key or sec_num == "4.3":
+            # Check BEFORE "indication" since "contre_indications" / "contraindications" contain "indication"
+            if (
+                "contre_indication" in sec_key
+                or "contre-indication" in sec_key
+                or "contraindication" in sec_key
+                or sec_num == "4.3"
+            ):
                 self._extract_contraindications(sec_text, primary_id, dci_entity, sec_context, raw_entities, candidate_relations, seen_edges)
+            elif "indication" in sec_key or sec_num == "4.1":
+                self._extract_indications(sec_text, primary_id, dci_entity, sec_context, raw_entities, candidate_relations, seen_edges)
+            elif "posolog" in sec_key or "dosage_and_administration" in sec_key or sec_num == "4.2":
+                self._extract_posology_rules(sec_text, primary_id, sec_context, raw_entities, candidate_relations, seen_edges)
             elif "mise_en_garde" in sec_key or "precaution" in sec_key or sec_num == "4.4":
                 self._extract_precautions(sec_text, primary_id, dci_entity, sec_context, raw_entities, candidate_relations, seen_edges)
             elif "interaction" in sec_key or sec_num == "4.5":
@@ -492,7 +498,7 @@ class RelationshipExtractor:
         """
         source_authority = sec_context.get("source_authority")
         collection_date = sec_context.get("collection_date")
-        sentences = [s.strip() for s in re.split(r"[\n\.]+", text) if len(s.strip()) >= 5]
+        sentences = [s.strip() for s in re.split(r"[\n\.]+", rule_text) if len(s.strip()) >= 5]
 
         for sentence in sentences:
             s_low = sentence.lower()

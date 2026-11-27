@@ -46,9 +46,11 @@ from ai_api.Augmentation.knowledge_graph.entity_extractor import (
 )
 from ai_api.Augmentation.knowledge_graph.ontology import (
     EntityType,
+    InteractionSeverity,
     KGEntity,
     KGRelation,
     RelationType,
+    SourceAuthority,
 )
 from ai_api.Augmentation.knowledge_graph.relationship_extractor import (
     DEFAULT_DATA_DIR,
@@ -59,7 +61,6 @@ from ai_api.Augmentation.knowledge_graph.relationship_extractor import (
 logger = logging.getLogger(__name__)
 
 DEFAULT_GRAPH_PATH = Path(__file__).resolve().parent / "artifacts" / "pharmeazor_kg.json"
-
 
 def _source_doc_id(path: Path, root: Optional[Union[str, Path]] = None) -> str:
     """Return a stable corpus-relative source path when the file is in the corpus."""
@@ -72,7 +73,6 @@ def _source_doc_id(path: Path, root: Optional[Union[str, Path]] = None) -> str:
         except ValueError:
             continue
     return resolved.as_posix()
-
 # Stopwords ignored during full-sentence entity extraction
 _QUERY_STOPWORDS: Set[str] = {
     "a", "ai", "ainsi", "all", "and", "as", "at", "au", "aucun", "aucune",
@@ -255,6 +255,7 @@ class GraphBuilder:
                 name=str(attrs.get("name") or node_id),
                 entity_type=etype,
                 aliases=list(attrs.get("aliases", [])),
+                collection_date=attrs.get("collection_date"),
                 metadata=dict(attrs.get("metadata", {})),
             )
             self._index_entity(entity)
@@ -266,6 +267,7 @@ class GraphBuilder:
             name=entity.name,
             entity_type=entity.entity_type.value,
             aliases=list(entity.aliases),
+            collection_date=entity.collection_date,
             metadata=dict(entity.metadata),
             normalized_name=normalize_string(entity.name),
         )
@@ -300,6 +302,10 @@ class GraphBuilder:
                 [entity.name] + list(entity.aliases),
             )
             existing.metadata = _merge_metadata(existing.metadata, entity.metadata)
+            if entity.collection_date and (
+                not existing.collection_date or entity.collection_date > existing.collection_date
+            ):
+                existing.collection_date = entity.collection_date
             # Clear inferred stub marker if real entity data arrives
             if existing.metadata.get("inferred_stub") and not entity.metadata.get("inferred_stub"):
                 existing.name = entity.name
@@ -315,6 +321,7 @@ class GraphBuilder:
             name=entity.name,
             entity_type=entity.entity_type,
             aliases=_merge_unique_list([entity.name], entity.aliases),
+            collection_date=entity.collection_date,
             metadata=dict(entity.metadata),
         )
         self._sync_node_attrs(stored)
@@ -366,6 +373,19 @@ class GraphBuilder:
                 edge_meta["source_chunk_ids"] = chunk_ids
             edge_data["metadata"] = edge_meta
 
+            # Reconcile source authority (lower int = higher trust)
+            if relation.source_authority is not None:
+                existing_auth = edge_data.get("source_authority")
+                if existing_auth is None or relation.source_authority.value < int(existing_auth):
+                    edge_data["source_authority"] = relation.source_authority.value
+            if relation.collection_date and (
+                not edge_data.get("collection_date")
+                or relation.collection_date > str(edge_data["collection_date"])
+            ):
+                edge_data["collection_date"] = relation.collection_date
+            if relation.severity is not None and not edge_data.get("severity"):
+                edge_data["severity"] = relation.severity.value
+
             self.stats.relations_merged += 1
             return True
 
@@ -387,6 +407,11 @@ class GraphBuilder:
             source_docs=source_docs,
             source_chunk_id=relation.source_chunk_id,
             source_chunk_ids=source_chunk_ids,
+            source_authority=(
+                relation.source_authority.value if relation.source_authority is not None else None
+            ),
+            collection_date=relation.collection_date,
+            severity=relation.severity.value if relation.severity is not None else None,
             confidence=relation.confidence,
             metadata=edge_meta,
         )
@@ -405,27 +430,12 @@ class GraphBuilder:
         """Ingests all entities and relations from an ExtractionResult."""
         for entity in result.entities:
             if dossier and not entity.metadata.get("dossier"):
-                entity = KGEntity(
-                    id=entity.id,
-                    name=entity.name,
-                    entity_type=entity.entity_type,
-                    aliases=list(entity.aliases),
-                    metadata={**entity.metadata, "dossier": dossier},
-                )
+                entity = replace(entity, metadata={**entity.metadata, "dossier": dossier})
             self.add_entity(entity)
 
         for relation in result.relations:
             if dossier and not relation.metadata.get("dossier"):
-                relation = KGRelation(
-                    source_id=relation.source_id,
-                    target_id=relation.target_id,
-                    relation_type=relation.relation_type,
-                    description=relation.description,
-                    source_chunk_id=relation.source_chunk_id,
-                    source_doc=relation.source_doc,
-                    confidence=relation.confidence,
-                    metadata={**relation.metadata, "dossier": dossier},
-                )
+                relation = replace(relation, metadata={**relation.metadata, "dossier": dossier})
             self.add_relation(relation)
 
     def add_document(
@@ -725,6 +735,8 @@ class GraphBuilder:
         if edge_data.get("source_chunk_ids") and "source_chunk_ids" not in meta:
             meta["source_chunk_ids"] = list(edge_data["source_chunk_ids"])
 
+        raw_auth = edge_data.get("source_authority")
+        raw_sev = edge_data.get("severity")
         return KGRelation(
             source_id=str(source_id),
             target_id=str(target_id),
@@ -732,6 +744,9 @@ class GraphBuilder:
             description=str(edge_data.get("description", "")),
             source_chunk_id=edge_data.get("source_chunk_id"),
             source_doc=edge_data.get("source_doc"),
+            source_authority=SourceAuthority(raw_auth) if raw_auth is not None else None,
+            collection_date=edge_data.get("collection_date"),
+            severity=InteractionSeverity(raw_sev) if raw_sev is not None else None,
             confidence=float(edge_data.get("confidence", 1.0)),
             metadata=meta,
         )

@@ -26,6 +26,70 @@ if str(PROJECT_ROOT) not in sys.path:
 from ai_api.Augmentation.knowledge_graph.ontology import EntityType, KGEntity, SourceAuthority
 
 
+# Canonical DCI names for the 40 curated dossier folders when doc["dci"] is empty (e.g., BDPM / DailyMed)
+DOSSIER_DCI_MAP: Dict[str, str] = {
+    "01_paracetamol": "PARACÉTAMOL",
+    "02_ibuprofene": "IBUPROFÈNE",
+    "03_diclofenac": "DICLOFÉNAC",
+    "04_ketoprofene": "KÉTOPROFÈNE",
+    "05_naproxene": "NAPROXÈNE",
+    "06_acide-acetylsalicylique": "ACIDE ACÉTYLSALICYLIQUE",
+    "07_meloxicam": "MÉLOXICAM",
+    "08_piroxicam": "PIROXICAM",
+    "09_celecoxib": "CÉLÉCOXIB",
+    "10_tramadol": "TRAMADOL",
+    "11_paracetamol-codeine": "PARACÉTAMOL / CODÉINE",
+    "12_nefopam": "NÉFOPAM",
+    "13_amoxicilline": "AMOXICILLINE",
+    "14_amoxicilline-acide-clavulanique": "AMOXICILLINE / ACIDE CLAVULANIQUE",
+    "15_cefixime": "CÉFIXIME",
+    "16_cefuroxime": "CÉFUROXIME",
+    "17_ceftriaxone": "CEFTRIAXONE",
+    "18_azithromycine": "AZITHROMYCINE",
+    "19_clarithromycine": "CLARITHROMYCINE",
+    "20_ciprofloxacine": "CIPROFLOXACINE",
+    "21_levofloxacine": "LÉVOFLOXACINE",
+    "22_doxycycline": "DOXYCYCLINE",
+    "23_cotrimoxazole-sulfamethoxazole-trimethoprime": "SULFAMÉTHOXAZOLE / TRIMÉTHOPRIME",
+    "24_metronidazole": "MÉTRONIDAZOLE",
+    "25_gentamicine": "GENTAMICINE",
+    "26_clindamycine": "CLINDAMYCINE",
+    "27_amlodipine": "AMLODIPINE",
+    "28_nifedipine": "NIFÉDIPINE",
+    "29_perindopril": "PÉRINDOPRIL",
+    "30_ramipril": "RAMIPRIL",
+    "31_enalapril": "ÉNALAPRIL",
+    "32_losartan": "LOSARTAN",
+    "33_valsartan": "VALSARTAN",
+    "34_bisoprolol": "BISOPROLOL",
+    "35_atenolol": "ATÉNOLOL",
+    "36_nebivolol": "NÉBIVOLOL",
+    "37_hydrochlorothiazide": "HYDROCHLOROTHIAZIDE",
+    "38_indapamide": "INDAPAMIDE",
+    "39_spironolactone": "SPIRONOLACTONE",
+    "40_methyldopa": "MÉTHYLDOPA",
+}
+
+# Common USAN / English -> INN (French DCI) synonyms found in DailyMed labels
+_USAN_TO_DCI: Dict[str, str] = {
+    "acetaminophen": "PARACÉTAMOL",
+    "paracetamol": "PARACÉTAMOL",
+    "ibuprofen": "IBUPROFÈNE",
+    "aspirin": "ACIDE ACÉTYLSALICYLIQUE",
+    "acetylsalicylic_acid": "ACIDE ACÉTYLSALICYLIQUE",
+    "naproxen": "NAPROXÈNE",
+    "ketoprofen": "KÉTOPROFÈNE",
+    "diclofenac": "DICLOFÉNAC",
+    "amoxicillin": "AMOXICILLINE",
+    "azithromycin": "AZITHROMYCINE",
+    "clarithromycin": "CLARITHROMYCINE",
+    "ciprofloxacin": "CIPROFLOXACINE",
+    "levofloxacin": "LÉVOFLOXACINE",
+    "clindamycin": "CLINDAMYCINE",
+    "gentamicin": "GENTAMICINE",
+}
+
+
 def normalize_string(s: str) -> str:
     """Normalize string by lowercasing, removing diacritics and non-alphanumeric chars."""
     if not s:
@@ -130,7 +194,8 @@ class EntityExtractor:
     def extract_entities_from_document(self, doc: Dict[str, Any]) -> List[KGEntity]:
         """
         Extracts structural entities (Drug, DCI, Laboratory, DosageForm, ATC_CLASS,
-        THERAPEUTIC_CLASS) directly from document metadata.
+        THERAPEUTIC_CLASS) directly from document metadata (with DCI fallback for
+        BDPM/DailyMed).
 
         CDC §5: collection_date is read from doc metadata and stamped on every entity.
         CDC §4: ATC code and therapeutic class are extracted as first-class entities.
@@ -181,7 +246,7 @@ class EntityExtractor:
                         entity_type=EntityType.ACTIVE_INGREDIENT,
                         aliases=[dci.upper(), dci.lower()],
                         collection_date=collection_date,
-                        metadata={"drug_id": doc.get("drug_id")},
+                        metadata=dci_meta,
                     )
                 )
 

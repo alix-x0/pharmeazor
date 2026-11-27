@@ -1,5 +1,6 @@
 from pathlib import Path
 import logging
+from threading import Lock
 from typing import Any, Dict, List, Optional
 
 from fastapi import FastAPI, HTTPException, Query
@@ -25,6 +26,10 @@ class Settings(BaseSettings):
     QDRANT_HOST: str = "localhost"
     QDRANT_PORT: int = 6333
     QDRANT_COLLECTION: str = "pharmaceutical_drugs"
+    NEO4J_URI: str = "bolt://localhost:7687"
+    NEO4J_USERNAME: str = "neo4j"
+    NEO4J_PASSWORD: str = ""
+    NEO4J_DATABASE: str = "neo4j"
 
 
 settings = Settings()
@@ -34,6 +39,37 @@ app = FastAPI(
     version="2.0.0",
 )
 logger = logging.getLogger(__name__)
+_graph_storage: Any = None
+_graph_storage_lock = Lock()
+
+
+def get_graph_storage() -> Any:
+    """Create the Neo4j storage client on first use, not during API startup."""
+    global _graph_storage
+    if _graph_storage is None:
+        with _graph_storage_lock:
+            if _graph_storage is None:
+                from ai_api.Augmentation.knowledge_graph.graph_storage import (
+                    GraphStorage,
+                    Neo4jConfig,
+                )
+
+                _graph_storage = GraphStorage(
+                    Neo4jConfig(
+                        uri=settings.NEO4J_URI,
+                        username=settings.NEO4J_USERNAME,
+                        password=settings.NEO4J_PASSWORD,
+                        database=settings.NEO4J_DATABASE,
+                    )
+                )
+    return _graph_storage
+
+
+@app.on_event("shutdown")
+def close_graph_storage() -> None:
+    """Release the Neo4j driver pool if a KG endpoint initialized it."""
+    if _graph_storage is not None:
+        _graph_storage.close()
 
 QUESTION_PAGE = """<!doctype html>
 <html lang="en">
@@ -242,3 +278,81 @@ def get_ontology() -> Dict[str, Any]:
     except Exception as exc:
         logger.error(f"Failed to load ontology: {exc}")
         raise HTTPException(status_code=500, detail=f"Ontology error: {str(exc)}")
+
+
+def _connected_graph_storage() -> Any:
+    """Return the configured storage client or a clear service-unavailable error."""
+    try:
+        storage = get_graph_storage()
+        storage.verify_connectivity()
+        return storage
+    except Exception as exc:
+        logger.warning("Neo4j is unavailable (%s)", type(exc).__name__)
+        raise HTTPException(
+            status_code=503,
+            detail=(
+                "Neo4j is unavailable. Start the Neo4j service, configure NEO4J_URI, "
+                "NEO4J_USERNAME, and NEO4J_PASSWORD in ai_api/.env, and install ai_api/requirements.txt."
+            ),
+        ) from exc
+
+
+@app.get("/kg/health")
+def graph_health() -> Dict[str, str]:
+    """Check that the configured Neo4j database is reachable and authenticated."""
+    _connected_graph_storage()
+    return {"status": "ok", "database": settings.NEO4J_DATABASE}
+
+
+@app.get("/kg/stats")
+def graph_statistics() -> Dict[str, Any]:
+    """Return node and relationship counts from Neo4j."""
+    storage = _connected_graph_storage()
+    try:
+        return storage.get_graph_statistics()
+    except Exception as exc:
+        logger.exception("Failed to query Neo4j graph statistics")
+        raise HTTPException(status_code=503, detail="Could not read graph statistics from Neo4j.") from exc
+
+
+@app.get("/kg/entities/{entity_id}/neighbors")
+def graph_entity_neighbors(
+    entity_id: str,
+    relation_type: Optional[List[str]] = Query(default=None),
+    direction: str = Query(default="both"),
+) -> Dict[str, Any]:
+    """Return directly connected entities, relations, and provenance."""
+    from ai_api.Augmentation.knowledge_graph.ontology import RelationType
+
+    if direction not in {"in", "out", "both"}:
+        raise HTTPException(status_code=422, detail="direction must be 'in', 'out', or 'both'.")
+    try:
+        selected_types = [RelationType(value) for value in relation_type] if relation_type else None
+    except ValueError as exc:
+        raise HTTPException(status_code=422, detail=f"Unknown relation type: {exc}") from exc
+
+    storage = _connected_graph_storage()
+    try:
+        neighbors = storage.get_neighbors(
+            entity_id,
+            relation_types=selected_types,
+            direction=direction,
+        )
+    except Exception as exc:
+        logger.exception("Failed to query Neo4j neighbors")
+        raise HTTPException(status_code=503, detail="Could not read graph neighbors from Neo4j.") from exc
+    return {"entity_id": entity_id, "direction": direction, "neighbors": neighbors}
+
+
+@app.get("/kg/entities/{entity_id}")
+def graph_entity(entity_id: str) -> Dict[str, Any]:
+    """Fetch one entity node by its canonical graph ID."""
+    storage = _connected_graph_storage()
+    try:
+        entity = storage.get_entity_by_id(entity_id)
+    except Exception as exc:
+        logger.exception("Failed to query Neo4j entity")
+        raise HTTPException(status_code=503, detail="Could not read the entity from Neo4j.") from exc
+    if entity is None:
+        raise HTTPException(status_code=404, detail=f"Graph entity '{entity_id}' was not found.")
+    return entity.to_dict()

@@ -32,9 +32,11 @@ if str(PROJECT_ROOT) not in sys.path:
 
 from ai_api.Augmentation.knowledge_graph.ontology import (
     EntityType,
+    InteractionSeverity,
     KGEntity,
     KGRelation,
     RelationType,
+    SourceAuthority,
 )
 
 logger = logging.getLogger(__name__)
@@ -111,6 +113,39 @@ class Neo4jConfig:
         )
 
 
+def _json_default(value: Any) -> Any:
+    """Serialize common ontology values nested inside metadata dictionaries."""
+    if hasattr(value, "value"):
+        return value.value
+    if isinstance(value, (set, tuple)):
+        return list(value)
+    if isinstance(value, Path):
+        return value.as_posix()
+    if hasattr(value, "to_dict"):
+        return value.to_dict()
+    return str(value)
+
+
+def _enum_value(value: Any, enum_type: Any, field_name: str) -> Any:
+    """Normalize enum instances or serialized enum values before storage."""
+    if value is None:
+        return None
+    if isinstance(value, enum_type):
+        return value.value
+    try:
+        return enum_type(value).value
+    except (TypeError, ValueError):
+        if isinstance(value, str):
+            try:
+                return enum_type[value].value
+            except KeyError:
+                try:
+                    return enum_type(int(value)).value
+                except (TypeError, ValueError):
+                    pass
+        raise ValueError(f"Invalid {field_name}: {value}")
+
+
 # ==============================================================================
 # PROPERTY SANITIZATION FOR NEO4J
 # ==============================================================================
@@ -141,12 +176,34 @@ def sanitize_neo4j_properties(data: Dict[str, Any]) -> Dict[str, Any]:
                 else:
                     sanitized[key] = [str(x) for x in val_list]
             else:
-                sanitized[key] = json.dumps(val_list, ensure_ascii=False)
+                sanitized[key] = json.dumps(val_list, ensure_ascii=False, default=_json_default)
         elif isinstance(value, dict):
-            sanitized[key] = json.dumps(value, ensure_ascii=False)
+            sanitized[key] = json.dumps(value, ensure_ascii=False, default=_json_default)
         else:
             sanitized[key] = str(value)
     return sanitized
+
+
+def _unique_values(*values: Any) -> List[Any]:
+    """Flatten optional scalar/list values while preserving first-seen order."""
+    unique: List[Any] = []
+    for value in values:
+        if value is None:
+            continue
+        if isinstance(value, set):
+            items = sorted(value, key=str)
+        else:
+            items = value if isinstance(value, (list, tuple)) else [value]
+        for item in items:
+            if item is None or item == "" or item in unique:
+                continue
+            unique.append(item)
+    return unique
+
+
+def _unique_string_values(*values: Any) -> List[str]:
+    """Return unique non-empty string values for Neo4j list properties."""
+    return [str(value) for value in _unique_values(*values) if str(value)]
 
 
 # ==============================================================================
@@ -184,7 +241,12 @@ class GraphStorage:
         if not NEO4J_AVAILABLE:
             raise StorageConnectionError(
                 "The 'neo4j' official Python driver is not installed. "
-                "Please run: pip install neo4j>=5.0.0"
+                "Install the project dependencies with: python -m pip install -r ai_api/requirements.txt"
+            )
+        if self.config.username and not self.config.password:
+            raise StorageConnectionError(
+                "NEO4J_PASSWORD is empty. Set the Neo4j password in ai_api/.env "
+                "or provide it through the environment."
             )
 
         try:
@@ -277,12 +339,20 @@ class GraphStorage:
                 """
             )
 
+        failures: List[str] = []
         with self.get_session() as session:
             for query in statements:
                 try:
-                    session.run(query)
+                    session.run(query).consume()
                 except Exception as exc:
                     logger.warning("Constraint or index statement warning: %s (%s)", exc, query.strip())
+                    failures.append(str(exc))
+
+        if failures:
+            raise ConstraintError(
+                f"Failed to create or verify {len(failures)} Neo4j constraint/index statement(s): "
+                + "; ".join(failures[:3])
+            )
 
         logger.info("Neo4j schema constraints and indexes verified.")
 
@@ -312,7 +382,6 @@ class GraphStorage:
         label = valid_type.value
 
         # Prepare parameters
-        serialized = entity.to_dict()
         aliases = list(dict.fromkeys(entity.aliases + [entity.name]))  # remove duplicates
 
         # Flatten metadata primitives
@@ -321,7 +390,9 @@ class GraphStorage:
         props["name"] = entity.name
         props["entity_type"] = valid_type.value
         props["aliases"] = aliases
-        props["metadata_json"] = json.dumps(entity.metadata, ensure_ascii=False)
+        props["metadata_json"] = json.dumps(entity.metadata, ensure_ascii=False, default=_json_default)
+        if entity.collection_date:
+            props["collection_date"] = entity.collection_date
 
         cypher = f"""
         MERGE (e:Entity {{id: $id}})
@@ -374,41 +445,82 @@ class GraphStorage:
         def _execute(tx: Transaction) -> Dict[str, Any]:
             # 1. Verify existence of source and target entities
             check_cypher = """
-            MATCH (s:Entity {id: $source_id})
-            WITH count(s) AS s_count
-            MATCH (t:Entity {id: $target_id})
-            RETURN s_count, count(t) AS t_count
+            OPTIONAL MATCH (s:Entity {id: $source_id})
+            WITH count(s) > 0 AS source_exists
+            OPTIONAL MATCH (t:Entity {id: $target_id})
+            RETURN source_exists, count(t) > 0 AS target_exists
             """
             check_res = tx.run(check_cypher, source_id=relation.source_id, target_id=relation.target_id).single()
-            s_count = check_res["s_count"] if check_res else 0
-            t_count = check_res["t_count"] if check_res else 0
+            source_exists = bool(check_res and check_res["source_exists"])
+            target_exists = bool(check_res and check_res["target_exists"])
 
-            if s_count == 0 and t_count == 0:
+            if not source_exists and not target_exists:
                 raise MissingEntityError(
                     f"Cannot create relation '{rel_label}': Neither source '{relation.source_id}' "
                     f"nor target '{relation.target_id}' exist in Neo4j."
                 )
-            if s_count == 0:
+            if not source_exists:
                 raise MissingEntityError(
                     f"Cannot create relation '{rel_label}': Source entity '{relation.source_id}' "
                     f"does not exist in Neo4j."
                 )
-            if t_count == 0:
+            if not target_exists:
                 raise MissingEntityError(
                     f"Cannot create relation '{rel_label}': Target entity '{relation.target_id}' "
                     f"does not exist in Neo4j."
                 )
 
-            # 2. Prepare relationship properties
-            rel_props = sanitize_neo4j_properties(relation.metadata)
+            # 2. Prepare relationship properties and preserve repeated provenance.
+            metadata = relation.metadata or {}
+            source_docs = _unique_string_values(
+                relation.source_doc,
+                metadata.get("source_doc"),
+                metadata.get("source_docs"),
+            )
+            source_chunk_ids = _unique_string_values(
+                relation.source_chunk_id,
+                metadata.get("source_chunk_id"),
+                metadata.get("source_chunk_ids"),
+            )
+            source_urls = _unique_string_values(metadata.get("source_url"), metadata.get("source_urls"))
+            source_authority = _enum_value(
+                relation.source_authority, SourceAuthority, "SourceAuthority"
+            )
+            collection_date = relation.collection_date
+            severity = _enum_value(relation.severity, InteractionSeverity, "InteractionSeverity")
+            evidence_text = str(metadata.get("evidence_text") or relation.description)
+            metadata_json = json.dumps(metadata, ensure_ascii=False, default=_json_default)
+
+            rel_props = sanitize_neo4j_properties(metadata)
+            # These fields are managed explicitly below so flattened metadata
+            # cannot overwrite the ontology fields or accumulated provenance.
+            for reserved in (
+                "description", "confidence", "source_doc", "source_docs", "source_chunk_id", "source_chunk_ids",
+                "source_url", "source_urls", "source_authority", "source_authorities",
+                "collection_date", "collection_dates", "severity", "severities",
+                "evidence_text", "evidence_texts", "metadata_json", "metadata_jsons",
+            ):
+                rel_props.pop(reserved, None)
             rel_props["description"] = relation.description
             rel_props["confidence"] = float(relation.confidence)
-            rel_props["source_doc"] = relation.source_doc or ""
-            rel_props["source_chunk_id"] = relation.source_chunk_id or ""
-            rel_props["evidence_text"] = relation.metadata.get("evidence_text", relation.description)
-            rel_props["section_key"] = relation.metadata.get("section_key", "")
-            rel_props["section_number"] = relation.metadata.get("section_number", "")
-            rel_props["metadata_json"] = json.dumps(relation.metadata, ensure_ascii=False)
+            rel_props["evidence_text"] = evidence_text
+            rel_props["metadata_json"] = metadata_json
+            if source_docs:
+                rel_props["source_doc"] = source_docs[-1]
+            if source_chunk_ids:
+                rel_props["source_chunk_id"] = source_chunk_ids[-1]
+            if source_urls:
+                rel_props["source_url"] = source_urls[-1]
+            if metadata.get("section_key") is not None:
+                rel_props["section_key"] = str(metadata["section_key"])
+            if metadata.get("section_number") is not None:
+                rel_props["section_number"] = str(metadata["section_number"])
+
+            metadata_jsons = [metadata_json] if metadata_json else []
+            source_authorities = [source_authority] if source_authority is not None else []
+            collection_dates = [collection_date] if collection_date else []
+            severities = [severity] if severity else []
+            evidence_texts = [evidence_text] if evidence_text else []
 
             # 3. Create or Merge Relationship
             cypher = f"""
@@ -416,10 +528,64 @@ class GraphStorage:
             MATCH (target:Entity {{id: $target_id}})
             MERGE (source)-[r:{rel_label}]->(target)
             SET r += $props,
+                r.description = CASE
+                    WHEN size($description) > size(coalesce(r.description, '')) THEN $description
+                    ELSE coalesce(r.description, $description)
+                END,
+                r.confidence = CASE
+                    WHEN r.confidence IS NULL OR $confidence > r.confidence THEN $confidence
+                    ELSE r.confidence
+                END,
+                r.source_docs = reduce(acc = coalesce(r.source_docs, []), item IN $source_docs |
+                    CASE WHEN item IN acc THEN acc ELSE acc + item END),
+                r.source_chunk_ids = reduce(acc = coalesce(r.source_chunk_ids, []), item IN $source_chunk_ids |
+                    CASE WHEN item IN acc THEN acc ELSE acc + item END),
+                r.source_urls = reduce(acc = coalesce(r.source_urls, []), item IN $source_urls |
+                    CASE WHEN item IN acc THEN acc ELSE acc + item END),
+                r.source_authorities = reduce(acc = coalesce(r.source_authorities, []), item IN $source_authorities |
+                    CASE WHEN item IN acc THEN acc ELSE acc + item END),
+                r.collection_dates = reduce(acc = coalesce(r.collection_dates, []), item IN $collection_dates |
+                    CASE WHEN item IN acc THEN acc ELSE acc + item END),
+                r.severities = reduce(acc = coalesce(r.severities, []), item IN $severities |
+                    CASE WHEN item IN acc THEN acc ELSE acc + item END),
+                r.evidence_texts = reduce(acc = coalesce(r.evidence_texts, []), item IN $evidence_texts |
+                    CASE WHEN item IN acc THEN acc ELSE acc + item END),
+                r.metadata_jsons = reduce(acc = coalesce(r.metadata_jsons, []), item IN $metadata_jsons |
+                    CASE WHEN item IN acc THEN acc ELSE acc + item END),
+                r.source_authority = CASE
+                    WHEN $source_authority IS NULL THEN r.source_authority
+                    WHEN r.source_authority IS NULL THEN $source_authority
+                    WHEN toInteger(r.source_authority) IS NULL THEN $source_authority
+                    WHEN $source_authority < toInteger(r.source_authority) THEN $source_authority
+                    ELSE toInteger(r.source_authority)
+                END,
+                r.collection_date = CASE
+                    WHEN $collection_date IS NULL THEN r.collection_date
+                    ELSE $collection_date
+                END,
+                r.severity = CASE WHEN $severity IS NULL THEN r.severity ELSE $severity END,
                 r.updated_at = timestamp()
             RETURN type(r) AS rel_type, source.id AS source_id, target.id AS target_id
             """
-            res = tx.run(cypher, source_id=relation.source_id, target_id=relation.target_id, props=rel_props)
+            res = tx.run(
+                cypher,
+                source_id=relation.source_id,
+                target_id=relation.target_id,
+                props=rel_props,
+                description=relation.description,
+                confidence=float(relation.confidence),
+                source_docs=source_docs,
+                source_chunk_ids=source_chunk_ids,
+                source_urls=source_urls,
+                source_authorities=source_authorities,
+                collection_dates=collection_dates,
+                severities=severities,
+                evidence_texts=evidence_texts,
+                metadata_jsons=metadata_jsons,
+                source_authority=source_authority,
+                collection_date=collection_date,
+                severity=severity,
+            )
             rec = res.single()
             return dict(rec) if rec else {"source_id": relation.source_id, "target_id": relation.target_id}
 
@@ -470,12 +636,12 @@ class GraphStorage:
                 "Expected ExtractionResult, dict with 'entities'/'relations', or (entities, relations) tuple."
             )
 
-        nodes_stored = 0
-        rels_stored = 0
-        failed_relations: List[Dict[str, str]] = []
-
         def _atomic_write_tx(tx: Transaction) -> Dict[str, Any]:
-            nonlocal nodes_stored, rels_stored, failed_relations
+            # Neo4j may retry this callback after a transient failure. Keep
+            # counters local so retries cannot inflate the returned summary.
+            nodes_stored = 0
+            rels_stored = 0
+            failed_relations: List[Dict[str, str]] = []
 
             # Step 1: Store all entities first
             for ent in entities:
@@ -524,6 +690,7 @@ class GraphStorage:
                e.name AS name,
                e.entity_type AS entity_type,
                e.aliases AS aliases,
+               e.collection_date AS collection_date,
                e.metadata_json AS metadata_json,
                properties(e) AS props
         """
@@ -552,6 +719,7 @@ class GraphStorage:
                 name=rec["name"],
                 entity_type=etype,
                 aliases=rec.get("aliases") or [],
+                collection_date=rec.get("collection_date"),
                 metadata=metadata,
             )
 
@@ -647,8 +815,22 @@ class GraphStorage:
         """
         rel_filter = ""
         if relation_types:
-            type_names = [r.value if isinstance(r, RelationType) else str(r) for r in relation_types]
+            type_names = []
+            for relation_type in relation_types:
+                try:
+                    normalized_type = (
+                        relation_type
+                        if isinstance(relation_type, RelationType)
+                        else RelationType(str(relation_type))
+                    )
+                except (TypeError, ValueError) as exc:
+                    raise ValueError(f"Invalid relation type: {relation_type}") from exc
+                if normalized_type.value not in type_names:
+                    type_names.append(normalized_type.value)
             rel_filter = ":" + "|:".join(type_names)
+
+        if direction not in {"in", "out", "both"}:
+            raise ValueError("direction must be 'in', 'out', or 'both'")
 
         if direction == "out":
             pattern = f"(e)-[r{rel_filter}]->(neighbor:Entity)"
@@ -667,7 +849,21 @@ class GraphStorage:
                r.description AS description,
                r.confidence AS confidence,
                r.evidence_text AS evidence_text,
-               r.source_doc AS source_doc
+               r.evidence_texts AS evidence_texts,
+               r.source_doc AS source_doc,
+               r.source_docs AS source_docs,
+               r.source_chunk_id AS source_chunk_id,
+               r.source_chunk_ids AS source_chunk_ids,
+               r.source_url AS source_url,
+               r.source_urls AS source_urls,
+               r.source_authority AS source_authority,
+               r.source_authorities AS source_authorities,
+               r.collection_date AS collection_date,
+               r.collection_dates AS collection_dates,
+               r.severity AS severity,
+               r.severities AS severities,
+               r.metadata_json AS metadata_json,
+               r.metadata_jsons AS metadata_jsons
         """
         results: List[Dict[str, Any]] = []
         with self.get_session() as session:

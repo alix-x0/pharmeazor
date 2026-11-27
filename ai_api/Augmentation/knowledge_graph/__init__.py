@@ -9,16 +9,17 @@ from ai_api.Augmentation.knowledge_graph.entity_extractor import (
     make_entity_id,
     normalize_string,
 )
+from ai_api.Augmentation.knowledge_graph.graph_builder import (
+    DEFAULT_GRAPH_PATH,
+    GraphBuilder,
+    GraphBuildStats,
+    KnowledgeGraphBuilder,
+    build_knowledge_graph,
+    load_knowledge_graph,
+)
 from ai_api.Augmentation.knowledge_graph.entity_normalizer import (
     EntityNormalizer,
     default_normalizer,
-)
-from ai_api.Augmentation.knowledge_graph.graph_storage import (
-    GraphStorage,
-    GraphStorageError,
-    MissingEntityError,
-    Neo4jConfig,
-    default_storage,
 )
 from ai_api.Augmentation.knowledge_graph.graph_builder import (
     DEFAULT_GRAPH_PATH,
@@ -28,11 +29,18 @@ from ai_api.Augmentation.knowledge_graph.graph_builder import (
     build_knowledge_graph,
     load_knowledge_graph,
 )
+from ai_api.Augmentation.knowledge_graph.graph_retriever import (
+    GraphFact,
+    GraphRetrievalResult,
+    GraphRetriever,
+)
 from ai_api.Augmentation.knowledge_graph.ontology import (
     EntityType,
+    InteractionSeverity,
     KGEntity,
     KGRelation,
     RelationType,
+    SourceAuthority,
 )
 from ai_api.Augmentation.knowledge_graph.provenance import (
     ProvenanceRecord,
@@ -49,7 +57,9 @@ from ai_api.Augmentation.knowledge_graph.relationship_extractor import (
 
 __all__ = [
     "EntityType",
+    "InteractionSeverity",
     "RelationType",
+    "SourceAuthority",
     "KGEntity",
     "KGRelation",
     "EntityExtractor",
@@ -66,6 +76,9 @@ __all__ = [
     "DEFAULT_GRAPH_PATH",
     "build_knowledge_graph",
     "load_knowledge_graph",
+    "GraphFact",
+    "GraphRetrievalResult",
+    "GraphRetriever",
     "default_extractor",
     "GraphStorage",
     "Neo4jConfig",

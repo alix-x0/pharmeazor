@@ -4,6 +4,15 @@ Pharmeazor Knowledge Graph - Relationship Extractor
 Extracts high-precision clinical and structural relationships connecting
 pharmaceutical entities from official monographs (ANPP, BDPM, DailyMed, Pharmnet).
 
+CDC Alignment (Pharmeazor v2 – nov. 2026):
+- InteractionSeverity (4 ANSM levels) is now a typed field on KGRelation (CDC §2).
+- SourceAuthority is propagated from document metadata to every relation (CDC §3 / Fonct. 5).
+- collection_date is stamped on every relation from document metadata (CDC §5).
+- New relation types (HAS_ATC_CODE, BELONGS_TO_CLASS, IS_EQUIVALENT_TO, HAS_POSOLOGY)
+  are extracted from document metadata (CDC §1, §4, §3 Inclus).
+- HAS_POSOLOGY is used for interval/frequency/population-adaptation rules;
+  HAS_MAX_DOSE is reserved exclusively for explicit maximum dose statements.
+
 CRITICAL MEDICAL SAFETY & GROUNDING POLICY:
 -------------------------------------------
 - Zero Unsupported Medical Inference: The system never deduces, invents, or generalizes
@@ -41,9 +50,11 @@ from ai_api.Augmentation.knowledge_graph.entity_normalizer import (
 )
 from ai_api.Augmentation.knowledge_graph.ontology import (
     EntityType,
+    InteractionSeverity,
     KGEntity,
     KGRelation,
     RelationType,
+    SourceAuthority,
 )
 from ai_api.Augmentation.knowledge_graph.provenance import (
     ProvenanceRecord,
@@ -160,6 +171,10 @@ class RelationshipExtractor:
         """
         Extracts all entities and relationships from a single monograph document.
         Strictly enforces that every clinical relation has verbatim evidence in the text.
+
+        CDC §3 / Fonct. 5: source_authority is read from doc metadata and stamped on
+        every relation so the reconciliation layer can resolve conflicts.
+        CDC §5: collection_date is propagated from doc metadata to every relation.
         """
         raw_entities: Dict[str, KGEntity] = {}
         candidate_relations: List[KGRelation] = []
@@ -167,6 +182,36 @@ class RelationshipExtractor:
 
         doc_name = (doc.get("brand") or doc.get("title") or "Unknown").strip()
         doc_file = doc_id or f"{doc_name}.json"
+
+        # --- CDC §3: resolve source authority from document metadata ---
+        raw_authority = doc.get("source_authority")
+        source_authority: Optional[SourceAuthority] = None
+        if isinstance(raw_authority, int):
+            try:
+                source_authority = SourceAuthority(raw_authority)
+            except ValueError:
+                pass
+        elif isinstance(raw_authority, str):
+            try:
+                source_authority = SourceAuthority[raw_authority]
+            except KeyError:
+                pass
+        # Default: ANPP_RCP when doc_type is "rcp" or "notice_anpp"
+        if source_authority is None:
+            doc_type = (doc.get("doc_type") or "").lower()
+            if "anpp" in doc_type or doc_type in ("rcp", "notice_officielle"):
+                source_authority = SourceAuthority.ANPP_RCP
+            elif "nomenclature" in doc_type:
+                source_authority = SourceAuthority.NOMENCLATURE_OFFICIELLE
+            elif doc_type in ("ansm", "dailymed", "ema"):
+                source_authority = SourceAuthority.INSTITUTIONNEL_ETRANGER
+            elif doc_type in ("pharmnet", "medalg", "dzair"):
+                source_authority = SourceAuthority.PROFESSIONNEL_ALGERIEN
+            else:
+                source_authority = SourceAuthority.ANPP_RCP  # safe default
+
+        # --- CDC §5: collection date ---
+        collection_date: Optional[str] = doc.get("collection_date") or doc.get("date_collecte")
 
         # 1. Structural Entities & Direct Grounded Relationships
         base_entities = self.entity_extractor.extract_entities_from_document(doc)
@@ -180,57 +225,121 @@ class RelationshipExtractor:
         dci_entity = next((e for e in normalized_base if e.entity_type == EntityType.ACTIVE_INGREDIENT), None)
         lab_entity = next((e for e in normalized_base if e.entity_type == EntityType.LABORATORY), None)
         form_entity = next((e for e in normalized_base if e.entity_type == EntityType.DOSAGE_FORM), None)
+        atc_entity = next((e for e in normalized_base if e.entity_type == EntityType.ATC_CLASS), None)
+        tc_entity = next((e for e in normalized_base if e.entity_type == EntityType.THERAPEUTIC_CLASS), None)
 
         primary_id = drug_entity.id if drug_entity else (dci_entity.id if dci_entity else None)
         if not primary_id:
             return ExtractionResult()
 
+        def _add_rel(rel: KGRelation) -> None:
+            if rel.edge_key not in seen_edges:
+                seen_edges.add(rel.edge_key)
+                candidate_relations.append(rel)
+
         # Drug -> CONTAINS_ACTIVE_INGREDIENT -> DCI
         if drug_entity and dci_entity:
-            rel = KGRelation(
+            _add_rel(KGRelation(
                 source_id=drug_entity.id,
                 target_id=dci_entity.id,
                 relation_type=RelationType.CONTAINS_ACTIVE_INGREDIENT,
                 description=f"{drug_entity.name} contient la substance active {dci_entity.name}",
                 source_doc=doc_file,
+                source_authority=source_authority,
+                collection_date=collection_date,
                 confidence=1.0,
                 metadata={"grounded_in": "metadata.dci"},
-            )
-            if rel.edge_key not in seen_edges:
-                seen_edges.add(rel.edge_key)
-                candidate_relations.append(rel)
+            ))
 
         # Drug -> MANUFACTURED_BY -> Laboratory
         if drug_entity and lab_entity:
-            rel = KGRelation(
+            _add_rel(KGRelation(
                 source_id=drug_entity.id,
                 target_id=lab_entity.id,
                 relation_type=RelationType.MANUFACTURED_BY,
-                description=f"{drug_entity.name} est fabriqué/exploité par {lab_entity.name}",
+                description=f"{drug_entity.name} est fabriqué par {lab_entity.name}",
                 source_doc=doc_file,
+                source_authority=source_authority,
+                collection_date=collection_date,
                 confidence=1.0,
                 metadata={"grounded_in": "metadata.lab"},
-            )
-            if rel.edge_key not in seen_edges:
-                seen_edges.add(rel.edge_key)
-                candidate_relations.append(rel)
+            ))
 
         # Drug -> HAS_DOSAGE_FORM -> DosageForm
         if drug_entity and form_entity:
-            rel = KGRelation(
+            _add_rel(KGRelation(
                 source_id=drug_entity.id,
                 target_id=form_entity.id,
                 relation_type=RelationType.HAS_DOSAGE_FORM,
                 description=f"{drug_entity.name} se présente sous la forme {form_entity.name}",
                 source_doc=doc_file,
+                source_authority=source_authority,
+                collection_date=collection_date,
                 confidence=1.0,
                 metadata={"grounded_in": "metadata.dosage_form"},
-            )
-            if rel.edge_key not in seen_edges:
-                seen_edges.add(rel.edge_key)
-                candidate_relations.append(rel)
+            ))
 
-        # 2. Extract Clinical Relationships Strictly from Document Sections
+        # Drug -> HAS_ATC_CODE -> ATC_CLASS  (CDC §1)
+        if drug_entity and atc_entity:
+            _add_rel(KGRelation(
+                source_id=drug_entity.id,
+                target_id=atc_entity.id,
+                relation_type=RelationType.HAS_ATC_CODE,
+                description=f"{drug_entity.name} — code ATC {atc_entity.name}",
+                source_doc=doc_file,
+                source_authority=source_authority,
+                collection_date=collection_date,
+                confidence=1.0,
+                metadata={"grounded_in": "metadata.atc_code"},
+            ))
+        if dci_entity and atc_entity and dci_entity.id != primary_id:
+            _add_rel(KGRelation(
+                source_id=dci_entity.id,
+                target_id=atc_entity.id,
+                relation_type=RelationType.HAS_ATC_CODE,
+                description=f"{dci_entity.name} — code ATC {atc_entity.name}",
+                source_doc=doc_file,
+                source_authority=source_authority,
+                collection_date=collection_date,
+                confidence=1.0,
+                metadata={"grounded_in": "metadata.atc_code"},
+            ))
+
+        # Drug -> BELONGS_TO_CLASS -> THERAPEUTIC_CLASS  (CDC §4)
+        if drug_entity and tc_entity:
+            _add_rel(KGRelation(
+                source_id=drug_entity.id,
+                target_id=tc_entity.id,
+                relation_type=RelationType.BELONGS_TO_CLASS,
+                description=f"{drug_entity.name} appartient à la classe {tc_entity.name}",
+                source_doc=doc_file,
+                source_authority=source_authority,
+                collection_date=collection_date,
+                confidence=1.0,
+                metadata={"grounded_in": "metadata.therapeutic_class"},
+            ))
+
+        # Drug -> IS_EQUIVALENT_TO -> Drug  (CDC §3 Inclus: équivalents enregistrés)
+        # equivalents listed in doc metadata as list of brand names
+        for equiv_name in doc.get("equivalents", []):
+            if not equiv_name:
+                continue
+            from ai_api.Augmentation.knowledge_graph.entity_extractor import make_entity_id as _meid
+            equiv_id = _meid(EntityType.DRUG, equiv_name.strip())
+            if drug_entity and equiv_id != drug_entity.id:
+                _add_rel(KGRelation(
+                    source_id=drug_entity.id,
+                    target_id=equiv_id,
+                    relation_type=RelationType.IS_EQUIVALENT_TO,
+                    description=f"{drug_entity.name} est équivalent à {equiv_name} (même DCI, forme, dosage)",
+                    source_doc=doc_file,
+                    source_authority=source_authority,
+                    collection_date=collection_date,
+                    confidence=1.0,
+                    metadata={"grounded_in": "metadata.equivalents"},
+                ))
+
+        # 2. Extract Clinical Relationships from Document Sections
         sections = doc.get("sections", [])
         for sec in sections:
             raw_key = sec.get("key")
@@ -246,51 +355,32 @@ class RelationshipExtractor:
                 "section_key": sec_key,
                 "section_number": sec_num,
                 "section_title": sec_title,
+                "source_authority": source_authority,
+                "collection_date": collection_date,
             }
 
-            # 4.1 Indications thérapeutiques
-            if "indication" in sec_key or sec_num == "4.1":
-                self._extract_indications(
-                    sec_text, primary_id, dci_entity, sec_context, raw_entities, candidate_relations, seen_edges
-                )
-
-            # 4.2 Posologie et mode d'administration
-            elif "posolog" in sec_key or sec_num == "4.2":
-                self._extract_posology_rules(
-                    sec_text, primary_id, sec_context, raw_entities, candidate_relations, seen_edges
-                )
-
-            # 4.3 Contre-indications
-            elif "contre_indication" in sec_key or "contraindication" in sec_key or sec_num == "4.3":
-                self._extract_contraindications(
-                    sec_text, primary_id, dci_entity, sec_context, raw_entities, candidate_relations, seen_edges
-                )
-
-            # 4.4 Mises en garde et précautions d'emploi
+            # Check BEFORE "indication" since "contre_indications" / "contraindications" contain "indication"
+            if (
+                "contre_indication" in sec_key
+                or "contre-indication" in sec_key
+                or "contraindication" in sec_key
+                or sec_num == "4.3"
+            ):
+                self._extract_contraindications(sec_text, primary_id, dci_entity, sec_context, raw_entities, candidate_relations, seen_edges)
+            elif "indication" in sec_key or sec_num == "4.1":
+                self._extract_indications(sec_text, primary_id, dci_entity, sec_context, raw_entities, candidate_relations, seen_edges)
+            elif "posolog" in sec_key or "dosage_and_administration" in sec_key or sec_num == "4.2":
+                self._extract_posology_rules(sec_text, primary_id, sec_context, raw_entities, candidate_relations, seen_edges)
             elif "mise_en_garde" in sec_key or "precaution" in sec_key or sec_num == "4.4":
-                self._extract_precautions(
-                    sec_text, primary_id, dci_entity, sec_context, raw_entities, candidate_relations, seen_edges
-                )
-
-            # 4.5 Interactions médicamenteuses
+                self._extract_precautions(sec_text, primary_id, dci_entity, sec_context, raw_entities, candidate_relations, seen_edges)
             elif "interaction" in sec_key or sec_num == "4.5":
-                self._extract_interactions(
-                    sec_text, primary_id, dci_entity, sec_context, raw_entities, candidate_relations, seen_edges
-                )
-
-            # 4.6 Fertilité, grossesse et allaitement
+                self._extract_interactions(sec_text, primary_id, dci_entity, sec_context, raw_entities, candidate_relations, seen_edges)
             elif "fertilite" in sec_key or "grossesse" in sec_key or "pregnancy" in sec_key or sec_num == "4.6":
-                self._extract_pregnancy_relations(
-                    sec_text, primary_id, dci_entity, sec_context, raw_entities, candidate_relations, seen_edges
-                )
-
-            # 4.8 Effets indésirables
+                self._extract_pregnancy_relations(sec_text, primary_id, dci_entity, sec_context, raw_entities, candidate_relations, seen_edges)
             elif "effet" in sec_key or "adverse" in sec_key or sec_num == "4.8":
-                self._extract_adverse_effects(
-                    sec_text, primary_id, dci_entity, sec_context, raw_entities, candidate_relations, seen_edges
-                )
+                self._extract_adverse_effects(sec_text, primary_id, dci_entity, sec_context, raw_entities, candidate_relations, seen_edges)
 
-        # 3. CRITICAL AUDIT: Validate grounding for every relation against the document text
+        # 3. CRITICAL AUDIT: Validate grounding for every relation
         verified_relations: List[KGRelation] = []
         for rel in candidate_relations:
             if validate_relation_grounding(rel, doc):
@@ -298,7 +388,7 @@ class RelationshipExtractor:
             else:
                 logger.warning("Dropped ungrounded relation: %s", rel.edge_key)
 
-        # 4. Canonicalize & Deduplicate accumulated entities
+        # 4. Canonicalize & Deduplicate entities
         final_entities = self.normalizer.deduplicate_entities(raw_entities.values())
 
         return ExtractionResult(relations=verified_relations, entities=final_entities)
@@ -313,10 +403,13 @@ class RelationshipExtractor:
         entity_type: EntityType,
         entities: Dict[str, KGEntity],
         extra_metadata: Optional[Dict[str, Any]] = None,
+        collection_date: Optional[str] = None,
     ) -> str:
         """
         Resolves canonical name and ID, creates/normalizes KGEntity,
-        and adds it to the entities dictionary if not present. Returns the canonical entity ID.
+        and adds it to the entities dictionary if not present.
+        collection_date is propagated to satisfy CDC §5.
+        Returns the canonical entity ID.
         """
         canon_name = self.normalizer.resolve_canonical_name(name, entity_type)
         ent_id = make_entity_id(entity_type, canon_name)
@@ -324,7 +417,9 @@ class RelationshipExtractor:
         if ent_id not in entities:
             meta = extra_metadata or {}
             meta["raw_name"] = name
-            raw_ent = self.entity_extractor.create_entity(canon_name, entity_type, metadata=meta)
+            raw_ent = self.entity_extractor.create_entity(
+                canon_name, entity_type, metadata=meta, collection_date=collection_date
+            )
             norm_ent = self.normalizer.normalize_entity(raw_ent)
             entities[ent_id] = norm_ent
 
@@ -345,21 +440,23 @@ class RelationshipExtractor:
         seen_edges: Set[str],
     ) -> None:
         """Extracts TREATS relationships strictly grounded in section 4.1 text."""
+        source_authority = sec_context.get("source_authority")
+        collection_date = sec_context.get("collection_date")
         candidates = re.split(r"[\n•\-\*\;\.]+", text)
         for cand in candidates:
             item = self.clean_item_text(cand)
             if not self.is_valid_clinical_item(item):
                 continue
 
-            # Must contain explicit therapeutic indication keywords
             if any(w in item.lower() for w in [
                 "traitement", "indique", "douleur", "fievre", "arthrose", "migraine",
                 "infection", "hypertension", "angine", "rhin", "otite", "toux", "inflamm",
                 "symptomatique", "etats febriles", "cephalee"
             ]):
-                # Verbatim quote is the exact candidate line from the document
                 verbatim_evidence = cand.strip()
-                ent_id = self._register_clinical_entity(item, EntityType.INDICATION, entities)
+                ent_id = self._register_clinical_entity(
+                    item, EntityType.INDICATION, entities, collection_date=collection_date
+                )
 
                 rel_meta = {
                     "evidence_text": verbatim_evidence,
@@ -368,52 +465,45 @@ class RelationshipExtractor:
                     "section_title": sec_context["section_title"],
                 }
 
-                rel = KGRelation(
-                    source_id=primary_id,
-                    target_id=ent_id,
-                    relation_type=RelationType.TREATS,
-                    description=verbatim_evidence,
-                    source_doc=sec_context["doc_file"],
-                    confidence=1.0,
-                    metadata=rel_meta,
-                )
-                if rel.edge_key not in seen_edges:
-                    seen_edges.add(rel.edge_key)
-                    relations.append(rel)
-
-                if dci_entity and dci_entity.id != primary_id:
-                    rel_dci = KGRelation(
-                        source_id=dci_entity.id,
+                for src_id in [primary_id] + ([dci_entity.id] if dci_entity and dci_entity.id != primary_id else []):
+                    rel = KGRelation(
+                        source_id=src_id,
                         target_id=ent_id,
                         relation_type=RelationType.TREATS,
                         description=verbatim_evidence,
                         source_doc=sec_context["doc_file"],
+                        source_authority=source_authority,
+                        collection_date=collection_date,
                         confidence=1.0,
                         metadata=rel_meta,
                     )
-                    if rel_dci.edge_key not in seen_edges:
-                        seen_edges.add(rel_dci.edge_key)
-                        relations.append(rel_dci)
+                    if rel.edge_key not in seen_edges:
+                        seen_edges.add(rel.edge_key)
+                        relations.append(rel)
 
     def _extract_posology_rules(
         self,
-        text: str,
+        rule_text: str,
         primary_id: str,
-        sec_context: Dict[str, str],
+        sec_context: Dict[str, Any],
         entities: Dict[str, KGEntity],
         relations: List[KGRelation],
         seen_edges: Set[str],
+        confidence: float = 0.9,
     ) -> None:
         """
-        Extracts HAS_MAX_DOSE and posology rules strictly grounded in verbatim text.
+        Extracts HAS_MAX_DOSE (explicit maximum dose) and HAS_POSOLOGY (intervals,
+        population adaptations) strictly grounded in verbatim text.
         Never fabricates synthetic rule descriptions.
         """
-        sentences = [s.strip() for s in re.split(r"[\n\.]+", text) if len(s.strip()) >= 5]
+        source_authority = sec_context.get("source_authority")
+        collection_date = sec_context.get("collection_date")
+        sentences = [s.strip() for s in re.split(r"[\n\.]+", rule_text) if len(s.strip()) >= 5]
 
         for sentence in sentences:
             s_low = sentence.lower()
 
-            # 1. Maximum daily dose statement
+            # 1. Maximum daily dose statement -> HAS_MAX_DOSE
             if any(p in s_low for p in ["dose maximale", "posologie maximale", "ne pas depasser", "dose journaliere maximale"]):
                 dose_matches = re.findall(r"(\d+[\s\.,]?\d*\s*(?:mg|g)\b)", sentence, flags=re.I)
                 if dose_matches:
@@ -424,6 +514,7 @@ class RelationshipExtractor:
                         EntityType.DOSAGE_RULE,
                         entities,
                         extra_metadata={"dose_mg": dose_mg, "rule_type": "max_daily_dose"},
+                        collection_date=collection_date,
                     )
                     rel = KGRelation(
                         source_id=primary_id,
@@ -431,6 +522,8 @@ class RelationshipExtractor:
                         relation_type=RelationType.HAS_MAX_DOSE,
                         description=sentence,  # Verbatim sentence from document
                         source_doc=sec_context["doc_file"],
+                        source_authority=source_authority,
+                        collection_date=collection_date,
                         confidence=1.0,
                         metadata={
                             "evidence_text": sentence,
@@ -444,7 +537,7 @@ class RelationshipExtractor:
                         seen_edges.add(rel.edge_key)
                         relations.append(rel)
 
-            # 2. Intake interval constraints
+            # 2. Intake interval constraints -> HAS_POSOLOGY
             if "intervalle" in s_low or "entre chaque prise" in s_low or "entre deux prises" in s_low:
                 if re.search(r"\b\d+\s*heures?\b", sentence, flags=re.I):
                     rule_name = self.clean_item_text(sentence)
@@ -453,13 +546,16 @@ class RelationshipExtractor:
                         EntityType.DOSAGE_RULE,
                         entities,
                         extra_metadata={"rule_type": "interval"},
+                        collection_date=collection_date,
                     )
                     rel = KGRelation(
                         source_id=primary_id,
                         target_id=ent_id,
-                        relation_type=RelationType.HAS_MAX_DOSE,
+                        relation_type=RelationType.HAS_POSOLOGY,
                         description=sentence,  # Verbatim
                         source_doc=sec_context["doc_file"],
+                        source_authority=source_authority,
+                        collection_date=collection_date,
                         confidence=1.0,
                         metadata={
                             "evidence_text": sentence,
@@ -472,7 +568,7 @@ class RelationshipExtractor:
                         seen_edges.add(rel.edge_key)
                         relations.append(rel)
 
-            # 3. Patient weight & special population constraints
+            # 3. Patient weight & special population constraints -> HAS_POSOLOGY
             if any(term in s_low for term in ["pesant", "poids", "kg", "insuffisance renale", "insuffisance hepatique"]):
                 if any(kw in s_low for kw in ["dose", "posologie", "adapter", "uniquement sur avis", "contre-indiqu"]):
                     rule_name = self.clean_item_text(sentence)
@@ -482,13 +578,16 @@ class RelationshipExtractor:
                             EntityType.DOSAGE_RULE,
                             entities,
                             extra_metadata={"rule_type": "population_adaptation"},
+                            collection_date=collection_date,
                         )
                         rel = KGRelation(
                             source_id=primary_id,
                             target_id=ent_id,
-                            relation_type=RelationType.HAS_MAX_DOSE,
+                            relation_type=RelationType.HAS_POSOLOGY,
                             description=sentence,  # Verbatim
                             source_doc=sec_context["doc_file"],
+                            source_authority=source_authority,
+                            collection_date=collection_date,
                             confidence=1.0,
                             metadata={
                                 "evidence_text": sentence,
@@ -506,19 +605,23 @@ class RelationshipExtractor:
         text: str,
         primary_id: str,
         dci_entity: Optional[KGEntity],
-        sec_context: Dict[str, str],
+        sec_context: Dict[str, Any],
         entities: Dict[str, KGEntity],
         relations: List[KGRelation],
         seen_edges: Set[str],
     ) -> None:
         """Extracts CONTRAINDICATED_FOR relationships grounded in Section 4.3 verbatim text."""
+        source_authority = sec_context.get("source_authority")
+        collection_date = sec_context.get("collection_date")
         lines = re.split(r"[\n•\-\*]+", text)
         for line in lines:
             item = self.clean_item_text(line)
             if not self.is_valid_clinical_item(item):
                 continue
 
-            ent_id = self._register_clinical_entity(item, EntityType.CONTRAINDICATION, entities)
+            ent_id = self._register_clinical_entity(
+                item, EntityType.CONTRAINDICATION, entities, collection_date=collection_date
+            )
             rel_meta = {
                 "evidence_text": line.strip(),
                 "section_key": sec_context["section_key"],
@@ -526,56 +629,48 @@ class RelationshipExtractor:
                 "section_title": sec_context["section_title"],
             }
 
-            rel = KGRelation(
-                source_id=primary_id,
-                target_id=ent_id,
-                relation_type=RelationType.CONTRAINDICATED_FOR,
-                description=line.strip(),
-                source_doc=sec_context["doc_file"],
-                confidence=1.0,
-                metadata=rel_meta,
-            )
-            if rel.edge_key not in seen_edges:
-                seen_edges.add(rel.edge_key)
-                relations.append(rel)
-
-            if dci_entity and dci_entity.id != primary_id:
-                rel_dci = KGRelation(
-                    source_id=dci_entity.id,
+            for src_id in [primary_id] + ([dci_entity.id] if dci_entity and dci_entity.id != primary_id else []):
+                rel = KGRelation(
+                    source_id=src_id,
                     target_id=ent_id,
                     relation_type=RelationType.CONTRAINDICATED_FOR,
                     description=line.strip(),
                     source_doc=sec_context["doc_file"],
+                    source_authority=source_authority,
+                    collection_date=collection_date,
                     confidence=1.0,
                     metadata=rel_meta,
                 )
-                if rel_dci.edge_key not in seen_edges:
-                    seen_edges.add(rel_dci.edge_key)
-                    relations.append(rel_dci)
+                if rel.edge_key not in seen_edges:
+                    seen_edges.add(rel.edge_key)
+                    relations.append(rel)
 
     def _extract_precautions(
         self,
         text: str,
         primary_id: str,
         dci_entity: Optional[KGEntity],
-        sec_context: Dict[str, str],
+        sec_context: Dict[str, Any],
         entities: Dict[str, KGEntity],
         relations: List[KGRelation],
         seen_edges: Set[str],
     ) -> None:
         """Extracts REQUIRES_PRECAUTION_FOR relationships grounded in Section 4.4 text."""
+        source_authority = sec_context.get("source_authority")
+        collection_date = sec_context.get("collection_date")
         lines = re.split(r"[\n•\-\*]+", text)
         for line in lines:
             item = self.clean_item_text(line)
             if not self.is_valid_clinical_item(item):
                 continue
 
-            # Clinical risk and precaution keywords
             if any(w in item.lower() for w in [
                 "insuffisance", "poids", "enfant", "alcool", "g6pd", "deshydratation",
                 "malnutrition", "sujet age", "personne agee", "syndrome", "risque", "precaution"
             ]):
-                ent_id = self._register_clinical_entity(item, EntityType.POPULATION, entities)
+                ent_id = self._register_clinical_entity(
+                    item, EntityType.POPULATION, entities, collection_date=collection_date
+                )
                 rel_meta = {
                     "evidence_text": line.strip(),
                     "section_key": sec_context["section_key"],
@@ -588,6 +683,8 @@ class RelationshipExtractor:
                     relation_type=RelationType.REQUIRES_PRECAUTION_FOR,
                     description=line.strip(),
                     source_doc=sec_context["doc_file"],
+                    source_authority=source_authority,
+                    collection_date=collection_date,
                     confidence=1.0,
                     metadata=rel_meta,
                 )
@@ -600,16 +697,18 @@ class RelationshipExtractor:
         text: str,
         primary_id: str,
         dci_entity: Optional[KGEntity],
-        sec_context: Dict[str, str],
+        sec_context: Dict[str, Any],
         entities: Dict[str, KGEntity],
         relations: List[KGRelation],
         seen_edges: Set[str],
     ) -> None:
         """Extracts INTERACTS_WITH relationships grounded in Section 4.5 verbatim text."""
+        source_authority = sec_context.get("source_authority")
+        collection_date = sec_context.get("collection_date")
         lines = [line.strip() for line in text.split("\n") if line.strip()]
         current_drug: Optional[str] = None
         current_desc: List[str] = []
-        current_severity: str = "A_PRENDRE_EN_COMPTE"
+        current_severity: InteractionSeverity = InteractionSeverity.A_PRENDRE_EN_COMPTE
 
         def flush_interaction():
             nonlocal current_drug, current_desc, current_severity
@@ -618,54 +717,48 @@ class RelationshipExtractor:
                 if self.is_valid_clinical_item(cleaned_name):
                     full_verbatim = current_drug + (" : " + " ".join(current_desc) if current_desc else "")
                     meta = {
-                        "severity": current_severity,
+                        "severity": current_severity.value,
                         "evidence_text": current_drug,
                         "section_key": sec_context["section_key"],
                         "section_number": sec_context["section_number"],
                     }
                     ent_id = self._register_clinical_entity(
-                        cleaned_name, EntityType.INTERACTING_DRUG, entities, extra_metadata=meta
+                        cleaned_name,
+                        EntityType.INTERACTING_DRUG,
+                        entities,
+                        extra_metadata=meta,
+                        collection_date=collection_date,
                     )
 
-                    rel = KGRelation(
-                        source_id=primary_id,
-                        target_id=ent_id,
-                        relation_type=RelationType.INTERACTS_WITH,
-                        description=full_verbatim,
-                        source_doc=sec_context["doc_file"],
-                        confidence=1.0,
-                        metadata=meta,
-                    )
-                    if rel.edge_key not in seen_edges:
-                        seen_edges.add(rel.edge_key)
-                        relations.append(rel)
-
-                    if dci_entity and dci_entity.id != primary_id:
-                        rel_dci = KGRelation(
-                            source_id=dci_entity.id,
+                    for src_id in [primary_id] + ([dci_entity.id] if dci_entity and dci_entity.id != primary_id else []):
+                        rel = KGRelation(
+                            source_id=src_id,
                             target_id=ent_id,
                             relation_type=RelationType.INTERACTS_WITH,
                             description=full_verbatim,
                             source_doc=sec_context["doc_file"],
+                            source_authority=source_authority,
+                            collection_date=collection_date,
+                            severity=current_severity,
                             confidence=1.0,
                             metadata=meta,
                         )
-                        if rel_dci.edge_key not in seen_edges:
-                            seen_edges.add(rel_dci.edge_key)
-                            relations.append(rel_dci)
+                        if rel.edge_key not in seen_edges:
+                            seen_edges.add(rel.edge_key)
+                            relations.append(rel)
             current_drug = None
             current_desc = []
 
         for line in lines:
             line_low = line.lower()
-            if "contre-indiqu" in line_low:
-                current_severity = "CONTRAINDICATION"
-            elif "deconseill" in line_low:
-                current_severity = "DECONSEILLEE"
-            elif "precaution" in line_low:
-                current_severity = "PRECAUTION_D_EMPLOI"
+            line_norm = self.normalizer.clean_text(line)
+            if "contre indiqu" in line_norm or "contre-indiqu" in line_low:
+                current_severity = InteractionSeverity.CONTRE_INDICATION
+            elif "deconseill" in line_norm:
+                current_severity = InteractionSeverity.DECONSEILLEE
+            elif "precaution" in line_norm:
+                current_severity = InteractionSeverity.PRECAUTION_D_EMPLOI
 
-            # Bulleted interacting drug entry
             if re.match(r"^[\+\•\-]\s+[A-ZÀ-ÿ]", line):
                 flush_interaction()
                 current_drug = line
@@ -678,7 +771,7 @@ class RelationshipExtractor:
         text: str,
         primary_id: str,
         dci_entity: Optional[KGEntity],
-        sec_context: Dict[str, str],
+        sec_context: Dict[str, Any],
         entities: Dict[str, KGEntity],
         relations: List[KGRelation],
         seen_edges: Set[str],
@@ -687,27 +780,32 @@ class RelationshipExtractor:
         Extracts pregnancy and lactation relations ONLY when an explicit clinical statement
         is made in a specific sentence. Never deduces safety from mere word presence.
         """
+        source_authority = sec_context.get("source_authority")
+        collection_date = sec_context.get("collection_date")
         sentences = [s.strip() for s in re.split(r"[\n\.]+", text) if len(s.strip()) >= 10]
 
         for sentence in sentences:
             s_low = sentence.lower()
 
-            # Pregnancy statement with explicit directive
             if "grossesse" in s_low or "enceinte" in s_low:
                 has_contraindication = any(w in s_low for w in ["contre-indiqu", "ne doit pas etre utilise", "deconseill", "eviter"])
                 has_precaution = any(w in s_low for w in ["prudence", "avec precaution", "sur avis medical", "en cas de besoin"])
 
                 if has_contraindication or has_precaution:
                     pop_name = "Grossesse"
-                    ent_id = self._register_clinical_entity(pop_name, EntityType.POPULATION, entities)
+                    ent_id = self._register_clinical_entity(
+                        pop_name, EntityType.POPULATION, entities, collection_date=collection_date
+                    )
                     rel_type = RelationType.CONTRAINDICATED_FOR if has_contraindication else RelationType.REQUIRES_PRECAUTION_FOR
 
                     rel = KGRelation(
                         source_id=primary_id,
                         target_id=ent_id,
                         relation_type=rel_type,
-                        description=sentence,  # Verbatim sentence from document
+                        description=sentence,
                         source_doc=sec_context["doc_file"],
+                        source_authority=source_authority,
+                        collection_date=collection_date,
                         confidence=1.0,
                         metadata={
                             "evidence_text": sentence,
@@ -719,12 +817,13 @@ class RelationshipExtractor:
                         seen_edges.add(rel.edge_key)
                         relations.append(rel)
 
-            # Lactation statement with explicit directive
             if "allaitement" in s_low or "lait maternel" in s_low:
                 has_directive = any(w in s_low for w in ["deconseill", "contre-indiqu", "prudence", "passe dans le lait", "possible", "autorise"])
                 if has_directive:
                     pop_name = "Allaitement"
-                    ent_id = self._register_clinical_entity(pop_name, EntityType.POPULATION, entities)
+                    ent_id = self._register_clinical_entity(
+                        pop_name, EntityType.POPULATION, entities, collection_date=collection_date
+                    )
                     rel_type = (
                         RelationType.CONTRAINDICATED_FOR
                         if any(w in s_low for w in ["contre-indiqu", "ne doit pas etre utilise", "eviter"])
@@ -734,8 +833,10 @@ class RelationshipExtractor:
                         source_id=primary_id,
                         target_id=ent_id,
                         relation_type=rel_type,
-                        description=sentence,  # Verbatim
+                        description=sentence,
                         source_doc=sec_context["doc_file"],
+                        source_authority=source_authority,
+                        collection_date=collection_date,
                         confidence=1.0,
                         metadata={
                             "evidence_text": sentence,
@@ -752,12 +853,14 @@ class RelationshipExtractor:
         text: str,
         primary_id: str,
         dci_entity: Optional[KGEntity],
-        sec_context: Dict[str, str],
+        sec_context: Dict[str, Any],
         entities: Dict[str, KGEntity],
         relations: List[KGRelation],
         seen_edges: Set[str],
     ) -> None:
         """Extracts HAS_ADVERSE_EFFECT relationships strictly grounded in section 4.8 text."""
+        source_authority = sec_context.get("source_authority")
+        collection_date = sec_context.get("collection_date")
         lines = re.split(r"[\n•\-\*]+", text)
         for line in lines:
             item = self.clean_item_text(line)
@@ -772,7 +875,9 @@ class RelationshipExtractor:
                 if any(sym_norm.startswith(prefix) for prefix in MEDDRA_CLASS_PREFIXES):
                     continue
 
-                ent_id = self._register_clinical_entity(sym, EntityType.ADVERSE_EFFECT, entities)
+                ent_id = self._register_clinical_entity(
+                    sym, EntityType.ADVERSE_EFFECT, entities, collection_date=collection_date
+                )
 
                 rel = KGRelation(
                     source_id=primary_id,
@@ -780,6 +885,8 @@ class RelationshipExtractor:
                     relation_type=RelationType.HAS_ADVERSE_EFFECT,
                     description=sym,
                     source_doc=sec_context["doc_file"],
+                    source_authority=source_authority,
+                    collection_date=collection_date,
                     confidence=1.0,
                     metadata={
                         "evidence_text": line.strip(),

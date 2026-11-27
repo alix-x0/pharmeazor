@@ -19,9 +19,9 @@ The model name is not a key. Keep the secret only in `ai_api/.env`; that file is
 ```powershell
 cd ..
 python -m pip install -r ai_api/requirements.txt
-Copy-Item ai_api/.env.example ai_api/.env
-# Edit .env and set GROQ_API_KEY
-python -m uvicorn ai_api.Retrieval.main:app --reload --host 127.0.0.1 --port 8001
+if (!(Test-Path ai_api/.env)) { Copy-Item ai_api/.env.example ai_api/.env }
+# Edit ai_api/.env and set GROQ_API_KEY and NEO4J_PASSWORD
+python -m uvicorn ai_api.main:app --reload --host 127.0.0.1 --port 8001
 ```
 
 The health route reports the configured model and whether the key is present. It never returns the key. Open `http://127.0.0.1:8001/` or `/ask` for the question form, or `http://127.0.0.1:8001/docs` to use the POST endpoint interactively.
@@ -36,6 +36,33 @@ Invoke-RestMethod -Uri http://127.0.0.1:8001/ask `
 ```
 
 The JSON response contains `question`, `answer`, and `model`. For an LLM-only test, send only the question; never include the expected answer or rubric. The model answers from its own knowledge and may not provide verifiable corpus citations. The browser form shows the answer on the same page.
+
+## Neo4j knowledge graph storage
+
+`GraphStorage` persists the pharmaceutical entities and relationships in Neo4j. Configure these values in `ai_api/.env` (the password must match the Neo4j server):
+
+```dotenv
+NEO4J_URI=bolt://localhost:7687
+NEO4J_USERNAME=neo4j
+NEO4J_PASSWORD=replace-with-a-local-password
+NEO4J_DATABASE=neo4j
+```
+
+Start the local Neo4j 5 Community container from the repository root. Its `/data` and `/logs` directories use persistent Docker volumes:
+
+```powershell
+docker compose --env-file ai_api/.env -f ai_api/docker-compose.neo4j.yml up -d
+```
+
+Load the corpus into Neo4j. Ingestion creates the schema indexes, extracts each matching JSON monograph, and writes each document in an idempotent transaction. Re-running the command merges entities and accumulates relationship provenance. You can optionally filter by dossier, source, document type, or maximum document count:
+
+```powershell
+python -m ai_api.Augmentation.knowledge_graph.ingest_neo4j
+python -m ai_api.Augmentation.knowledge_graph.ingest_neo4j --max-docs 10
+python -m ai_api.Augmentation.knowledge_graph.ingest_neo4j --dossiers 02_ibuprofene --sources anpp
+```
+
+The API exposes `GET /kg/health`, `GET /kg/stats`, `GET /kg/entities/{entity_id}`, and `GET /kg/entities/{entity_id}/neighbors`. These routes return HTTP 503 when Neo4j cannot be reached. The existing `/kg/ontology` endpoint does not require a running database.
 
 ## Collect the data
 

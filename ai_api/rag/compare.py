@@ -34,12 +34,12 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional, Set, Tuple
 
 # Ensure project root in sys.path
-PROJECT_ROOT = Path(__file__).resolve().parent.parent
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-from ai_api.chunking import DEFAULT_DATA_DIR, DrugChunk, chunk_corpus
-from ai_api.embedding import (
+from ai_api.rag.chunking import DEFAULT_DATA_DIR, DrugChunk, chunk_corpus
+from ai_api.rag import (
     BGEM3Embedder,
     QdrantConfig,
     QdrantVectorStore,

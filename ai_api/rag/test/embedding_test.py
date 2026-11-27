@@ -6,7 +6,7 @@ deterministic UUID point generation, Qdrant payload structuring, and seamless
 interoperability with `chunking.py`.
 
 Run:
-    python ai_api/embedding_test.py
+    python ai_api/rag/test/embedding_test.py
 """
 
 from __future__ import annotations
@@ -20,10 +20,10 @@ from pathlib import Path
 from unittest.mock import MagicMock, patch
 
 # Ensure project root is in sys.path
-PROJECT_ROOT = Path(__file__).resolve().parent.parent
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
-from ai_api.chunking import (
+from ai_api.rag.chunking import (
     DEFAULT_DATA_DIR,
     ChunkingConfig,
     DrugChunk,
@@ -31,7 +31,7 @@ from ai_api.chunking import (
     chunk_corpus,
     chunk_document,
 )
-from ai_api.embedding import (
+from ai_api.rag import (
     BGEM3Embedder,
     DrugRAGPipeline,
     EmbeddingConfig,
@@ -363,4 +363,3 @@ if __name__ == "__main__":
         display_sample_embedding()
     else:
         sys.exit(1)
-

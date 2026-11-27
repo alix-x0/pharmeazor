@@ -20,6 +20,11 @@ from ai_api.Augmentation.knowledge_graph.graph_builder import (
     build_knowledge_graph,
     load_knowledge_graph,
 )
+from ai_api.Augmentation.knowledge_graph.graph_retriever import (
+    GraphFact,
+    GraphRetrievalResult,
+    GraphRetriever,
+)
 from ai_api.Augmentation.knowledge_graph.ontology import (
     EntityType,
     KGEntity,
@@ -50,6 +55,9 @@ __all__ = [
     "DEFAULT_GRAPH_PATH",
     "build_knowledge_graph",
     "load_knowledge_graph",
+    "GraphFact",
+    "GraphRetrievalResult",
+    "GraphRetriever",
     "default_extractor",
     "extract_relationships_from_document",
     "extract_relationships_from_corpus",

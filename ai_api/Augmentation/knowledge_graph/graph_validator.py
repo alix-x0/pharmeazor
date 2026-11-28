@@ -199,6 +199,9 @@ class GraphValidator:
             "CONTAINS_ACTIVE_INGREDIENT",
             "MANUFACTURED_BY",
             "HAS_DOSAGE_FORM",
+            "HAS_ATC_CODE",
+            "BELONGS_TO_CLASS",
+            "IS_EQUIVALENT_TO",
         }
 
         for u, v, k, data in self.graph.edges(keys=True, data=True):
@@ -347,12 +350,12 @@ class GraphValidator:
                 d.get("relation_type")
                 for _, _, _, d in self.graph.out_edges(nid, keys=True, data=True)
             }
-            if "HAS_ATC_CLASS" not in out_types:
+            if "HAS_ATC_CODE" not in out_types:
                 self.report.add(ValidationIssue(
                     severity="WARNING", category="CLASSIFICATION", rule="drug_has_atc",
                     message=f"DRUG missing ATC_CLASS: {nid}", entity_id=nid,
                 ))
-            if "HAS_THERAPEUTIC_CLASS" not in out_types:
+            if "BELONGS_TO_CLASS" not in out_types:
                 self.report.add(ValidationIssue(
                     severity="WARNING", category="CLASSIFICATION", rule="drug_has_therapeutic_class",
                     message=f"DRUG missing THERAPEUTIC_CLASS: {nid}", entity_id=nid,

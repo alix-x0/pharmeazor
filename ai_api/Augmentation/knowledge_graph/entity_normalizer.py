@@ -537,6 +537,12 @@ class EntityNormalizer:
             if len(norm_key) >= 4 and norm_key == clean_norm:
                 return canonical
 
+        # A canonical value may itself resemble another synonym. Preserve it
+        # before fuzzy matching so normalization remains idempotent.
+        for canonical in self._canonical_to_keys.get(entity_type, {}):
+            if self.clean_text(canonical) == clean_norm:
+                return canonical
+
         # 3. Fuzzy match against dictionary keys
         if mapping:
             matches = difflib.get_close_matches(

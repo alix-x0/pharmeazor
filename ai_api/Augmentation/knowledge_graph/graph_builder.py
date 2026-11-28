@@ -57,6 +57,7 @@ from ai_api.Augmentation.knowledge_graph.relationship_extractor import (
     ExtractionResult,
     RelationshipExtractor,
 )
+from ai_api.Retrieval.chunking import DrugChunk, chunk_corpus
 
 logger = logging.getLogger(__name__)
 
@@ -158,6 +159,7 @@ class GraphBuildStats:
 
     documents_processed: int = 0
     documents_failed: int = 0
+    chunks_processed: int = 0
     entities_added: int = 0
     entities_merged: int = 0
     relations_added: int = 0
@@ -169,6 +171,7 @@ class GraphBuildStats:
         return {
             "documents_processed": self.documents_processed,
             "documents_failed": self.documents_failed,
+            "chunks_processed": self.chunks_processed,
             "entities_added": self.entities_added,
             "entities_merged": self.entities_merged,
             "relations_added": self.relations_added,
@@ -182,6 +185,7 @@ class GraphBuildStats:
         return cls(
             documents_processed=int(data.get("documents_processed", 0)),
             documents_failed=int(data.get("documents_failed", 0)),
+            chunks_processed=int(data.get("chunks_processed", 0)),
             entities_added=int(data.get("entities_added", 0)),
             entities_merged=int(data.get("entities_merged", 0)),
             relations_added=int(data.get("relations_added", 0)),
@@ -443,6 +447,8 @@ class GraphBuilder:
         doc: Dict[str, Any],
         doc_id: Optional[str] = None,
         dossier: Optional[str] = None,
+        source_chunk_id: Optional[str] = None,
+        count_document: bool = True,
     ) -> ExtractionResult:
         """Extracts entities and relations from one monograph dict and adds them."""
         target_doc = doc
@@ -463,13 +469,115 @@ class GraphBuilder:
             result = ExtractionResult(
                 entities=result.entities,
                 relations=[
-                    replace(relation, metadata={**relation.metadata, **provenance})
+                    replace(
+                        relation,
+                        source_chunk_id=source_chunk_id or relation.source_chunk_id,
+                        metadata={**relation.metadata, **provenance},
+                    )
+                    for relation in result.relations
+                ],
+            )
+        elif source_chunk_id:
+            result = ExtractionResult(
+                entities=result.entities,
+                relations=[
+                    replace(relation, source_chunk_id=source_chunk_id)
                     for relation in result.relations
                 ],
             )
         self.add_extraction_result(result, dossier=dossier or doc.get("dossier"))
-        self.stats.documents_processed += 1
+        if count_document:
+            self.stats.documents_processed += 1
         return result
+
+    def add_chunk(self, chunk: DrugChunk) -> ExtractionResult:
+        """Extracts grounded graph facts from one clinical chunk."""
+        metadata = chunk.metadata
+        dossier = str(metadata.get("dossier") or "")
+        file_name = str(metadata.get("file_name") or chunk.chunk_id)
+        source_doc = "/".join(part.strip("/") for part in (dossier, file_name) if part)
+
+        source = str(metadata.get("source") or "").lower()
+        authority_by_source = {
+            "anpp": SourceAuthority.ANPP_RCP,
+            "nomenclature": SourceAuthority.NOMENCLATURE_OFFICIELLE,
+            "bdpm": SourceAuthority.INSTITUTIONNEL_ETRANGER,
+            "dailymed": SourceAuthority.INSTITUTIONNEL_ETRANGER,
+            "pharmnet": SourceAuthority.PROFESSIONNEL_ALGERIEN,
+        }
+        source_authority = metadata.get("source_authority") or authority_by_source.get(source)
+
+        doc = {
+            "drug_id": metadata.get("drug_id"),
+            "brand": metadata.get("brand", ""),
+            "dci": metadata.get("dci", ""),
+            "lab": metadata.get("lab", ""),
+            "form": metadata.get("form", ""),
+            "dosage": metadata.get("dosage", ""),
+            "source": source,
+            "source_priority": metadata.get("source_priority"),
+            "source_authority": source_authority,
+            "doc_type": metadata.get("doc_type", ""),
+            "url": metadata.get("url", ""),
+            "dossier": dossier,
+            "file_name": file_name,
+            "collection_date": metadata.get("collection_date"),
+            "sections": [
+                {
+                    "key": metadata.get("section_key", ""),
+                    "number": metadata.get("section_number", ""),
+                    "title": metadata.get("section_title", ""),
+                    "text": chunk.content,
+                }
+            ],
+        }
+        self.stats.chunks_processed += 1
+        return self.add_document(
+            doc,
+            doc_id=source_doc,
+            dossier=dossier,
+            source_chunk_id=chunk.chunk_id,
+            count_document=False,
+        )
+
+    def build_from_chunks(self, chunks: Iterable[DrugChunk]) -> nx.MultiDiGraph:
+        """Builds the graph from pre-chunked clinical documents."""
+        start = time.time()
+        source_docs: Set[str] = set()
+        for chunk in chunks:
+            metadata = chunk.metadata
+            dossier = str(metadata.get("dossier") or "")
+            file_name = str(metadata.get("file_name") or chunk.chunk_id)
+            source_docs.add("/".join(part.strip("/") for part in (dossier, file_name) if part))
+            self.add_chunk(chunk)
+
+        self.stats.documents_processed += len(source_docs)
+        self.stats.elapsed_seconds += time.time() - start
+        return self.graph
+
+    def build_from_chunked_corpus(
+        self,
+        data_dir: Optional[Union[str, Path]] = None,
+        dossier: Optional[str] = None,
+        sources: Optional[List[str]] = None,
+        drug_ids: Optional[List[int]] = None,
+        doc_type: Optional[str] = None,
+        brand: Optional[str] = None,
+        dci: Optional[str] = None,
+        max_docs: Optional[int] = None,
+    ) -> nx.MultiDiGraph:
+        """Chunks the curated corpus and builds a provenance-linked graph."""
+        chunks = chunk_corpus(
+            data_dir=data_dir,
+            dossier=dossier,
+            sources=sources,
+            drug_ids=drug_ids,
+            doc_type=doc_type,
+            brand=brand,
+            dci=dci,
+            max_docs=max_docs,
+        )
+        return self.build_from_chunks(chunks)
 
     def build_from_results(self, results: Iterable[ExtractionResult]) -> nx.MultiDiGraph:
         """Builds/updates the graph from an iterable of ExtractionResult objects."""

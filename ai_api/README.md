@@ -37,6 +37,19 @@ Invoke-RestMethod -Uri http://127.0.0.1:8001/ask `
 
 The JSON response contains `question`, `answer`, and `model`. For an LLM-only test, send only the question; never include the expected answer or rubric. The model answers from its own knowledge and may not provide verifiable corpus citations. The browser form shows the answer on the same page.
 
+## Populate the knowledge graph in Neo4j
+
+The knowledge graph importer chunks each corpus monograph with the existing clinical chunker, extracts only relations grounded in each chunk, validates the graph, and then performs additive, idempotent Neo4j upserts. It never clears the database. Neo4j connection settings are read from `NEO4J_URI`, `NEO4J_USERNAME`, `NEO4J_PASSWORD`, and `NEO4J_DATABASE`.
+
+Run a small build and validation first:
+
+```bash
+python -m ai_api.Augmentation.knowledge_graph.populate_neo4j \
+  --dossier 01_paracetamol --source anpp --max-docs 2 --dry-run
+```
+
+After configuring the Neo4j environment variables and starting the database, omit `--dry-run` to write the graph. Use `--dossier`, repeatable `--source`, and `--max-docs` to scope the import. Re-running the same import is safe; writes are committed in bounded batches.
+
 ## Collect the data
 
 The curated corpus and its inspection instructions are in [`../data/README.md`](../data/README.md). From the repository root, run `python data/inspect_corpus.py` to inspect it. The `/ask` endpoint currently does not load or retrieve from this corpus.

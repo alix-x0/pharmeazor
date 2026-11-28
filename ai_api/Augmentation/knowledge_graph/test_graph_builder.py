@@ -28,6 +28,7 @@ from ai_api.Augmentation.knowledge_graph.graph_builder import (
     build_knowledge_graph,
     load_knowledge_graph,
 )
+from ai_api.Augmentation.knowledge_graph.graph_validator import GraphValidator
 from ai_api.Augmentation.knowledge_graph.ontology import (
     EntityType,
     KGEntity,
@@ -35,6 +36,7 @@ from ai_api.Augmentation.knowledge_graph.ontology import (
     RelationType,
 )
 from ai_api.Augmentation.knowledge_graph.relationship_extractor import DEFAULT_DATA_DIR
+from ai_api.Retrieval.chunking import DrugChunk
 
 
 class TestGraphBuilderUnit(unittest.TestCase):
@@ -193,6 +195,43 @@ class TestGraphBuilderUnit(unittest.TestCase):
             gml = nx.read_graphml(str(graphml_path))
             self.assertEqual(gml.number_of_nodes(), 2)
 
+    def test_build_from_chunk_preserves_chunk_provenance(self):
+        chunk = DrugChunk(
+            chunk_id="chk_anpp_posologie_test",
+            text="",
+            content="La dose maximale journalière ne doit pas dépasser 3 g.",
+            header="",
+            metadata={
+                "brand": "DOLIPRANE",
+                "dci": "PARACÉTAMOL",
+                "source": "anpp",
+                "doc_type": "rcp",
+                "dossier": "01_paracetamol",
+                "file_name": "001_DOLIPRANE.json",
+                "section_key": "posologie",
+                "section_number": "4.2",
+                "section_title": "Posologie",
+            },
+        )
+
+        builder = GraphBuilder()
+        builder.build_from_chunks([chunk])
+
+        self.assertEqual(builder.stats.chunks_processed, 1)
+        self.assertEqual(builder.stats.documents_processed, 1)
+        relation = next(
+            rel
+            for rel in builder.get_relations()
+            if rel.relation_type == RelationType.HAS_MAX_DOSE
+        )
+        self.assertEqual(relation.source_chunk_id, chunk.chunk_id)
+        self.assertEqual(relation.source_doc, "01_paracetamol/001_DOLIPRANE.json")
+        self.assertEqual(
+            relation.metadata["evidence_text"],
+            "La dose maximale journalière ne doit pas dépasser 3 g.",
+        )
+        self.assertTrue(GraphValidator(builder).validate().is_valid())
+
 
 class TestGraphBuilderCorpusIntegration(unittest.TestCase):
     """Integration tests against real pharmaceutical monographs in data/outputs_data."""
@@ -241,6 +280,21 @@ class TestGraphBuilderCorpusIntegration(unittest.TestCase):
         self.assertTrue(summary["found"])
         self.assertIn("CONTAINS_ACTIVE_INGREDIENT", summary["relations_by_type"])
         self.assertIn("HAS_MAX_DOSE", summary["relations_by_type"])
+
+    def test_chunked_doliprane_has_no_inferred_severe_hepatic_stub(self):
+        if not self.doliprane_path.exists():
+            self.skipTest(f"File not found: {self.doliprane_path}")
+
+        builder = GraphBuilder()
+        builder.build_from_chunked_corpus(
+            data_dir=DEFAULT_DATA_DIR,
+            dossier="01_paracetamol",
+            sources=["anpp"],
+            max_docs=1,
+        )
+
+        entity = builder.graph.nodes["contraindication_insuffisance_hepatocellulaire_severe"]
+        self.assertFalse(entity["metadata"].get("inferred_stub"))
 
     def test_build_from_corpus_subset(self):
         if not DEFAULT_DATA_DIR.exists():
